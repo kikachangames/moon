@@ -5,6 +5,7 @@
 <br/>
 <br/>
 <img src="https://kikachangames.github.io/moon/cover_moon.jpg">
+<br/>
 
 <h3>A verdade é sempre uma coisa cruel</h3>
 <p>Nesta página você poderá acompanhar o progresso da tradução, para a língua portuguesa, da visual novel <a href="https://vndb.org/v15" target="_blank">MOON.</a>, lançada pela Tactics em 1997.</p>
