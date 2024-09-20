@@ -7,8 +7,7 @@
 <p>Nesta página você poderá acompanhar o progresso da tradução, para a língua portuguesa, da visual novel <a href="https://vndb.org/v15" target="_blank">MOON.</a>, lançada pela Tactics & Nexton em 1997.</p>
 
 <h3>Sinopse</h3>
-A história segue uma jovem chamada Amasawa Ikumi que busca descobrir o mistério por trás da recente morte de sua mãe por uma seita conhecida como FARGO.
-Ikumi se infiltra na FARGO e descobre sua natureza perturbadora de controlar habilidades psíquicas por meio de tortura.
+A história segue uma jovem chamada Amasawa Ikumi que busca descobrir a verdade por trás da recente morte de sua mãe por uma seita conhecida como FARGO. Ikumi se infiltra na FARGO e descobre sua natureza perturbadora de controlar habilidades psíquicas por meio de tortura.
 
 <h3>Download</h3>
 Em breve...
