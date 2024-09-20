@@ -23,6 +23,20 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 
 <h3>Imagens</h3>
 
+# Membros do projeto
+
+<h3>Manolo-chan</h3>
+<img src="https://kikachangames.github.io/air/manolo.png">
+<p><b>Líder de projeto, tradução e programação</b></p>
+
+<h3>Ceuipsolon</h3>
+<img src="https://kikachangames.github.io/higanbana1-pt-br/ceuipsolon.png">
+<p><b>Edição de imagens e revisão</b></p>
+
+# Agradecimentos
+- 07th-mod
+- DoctorDiablo
+
 
 <hr>
 <p><small>Última atualização: 20/09/2024.</small></p>
