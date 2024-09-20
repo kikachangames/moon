@@ -1,3 +1,6 @@
+<h1>MOON.</h1>
+<p>Patch Pt-Br</p>
+<br/>
 ⚠️ AVISO: Este jogo não é adequado para menores ou pessoas sensíveis.
 <br/>
 <br/>
