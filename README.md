@@ -13,7 +13,7 @@ A história segue uma jovem chamada Amasawa Ikumi que busca descobrir o mistéri
 Ikumi se infiltra na FARGO e descobre sua natureza perturbadora de controlar habilidades psíquicas por meio de tortura.
 
 <h3>Download</h3>
-Em breve
+Em breve...
 <br/>
 <br/>
 
