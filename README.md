@@ -1,5 +1,4 @@
-# moon
-Tradução pt-br da visual novel MOON.
+# MOON.
 
 ⚠️ AVISO: Este jogo não é adequado para menores ou pessoas sensíveis.
 <br/>
