@@ -19,7 +19,7 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 <br/>
 
 <h3>Progresso da tradução</h3>
-<p>5/125 (4%)
+<p>5/125 (4%)</p>
 <br/>
   
 <h3>Lançamento</h3>
