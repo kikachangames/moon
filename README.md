@@ -1,5 +1,5 @@
 <h1>MOON.</h1>
-<p>Patch Pt-Br</p>
+<p>Patch Pt-Br (DVD Limited Edition)</p>
 <br/>
 ⚠️ AVISO: Este jogo não é adequado para menores ou pessoas sensíveis.
 <br/>
