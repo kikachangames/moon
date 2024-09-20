@@ -27,18 +27,18 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 
 <h3>Manolo-chan</h3>
 <img src="https://kikachangames.github.io/air/manolo.png">
-<p><b>Líder de projeto, tradução e programação</b></p>
+<p>Líder de projeto, tradução e programação</p>
 
 <h3>Ceuipsolon</h3>
 <img src="https://kikachangames.github.io/higanbana1-pt-br/ceuipsolon.png">
-<p><b>Edição de imagens e revisão</b></p>
+<p>Edição de imagens e revisão</p>
 
 <h3>Agradecimentos</h3>
-- Amaterasu Translations
-- MOON. Kit
-- Tactics/Nexton
-- Tactics Discord server
-- TLWiki
+<p>- Amaterasu Translations</p>
+<p>- MOON. Kit</p>
+<p>- Tactics/Nexton</p>
+<p>- Tactics Discord server</p>
+<p>- TLWiki</p>
 
 <hr>
 <p><small>Última atualização: 20/09/2024.</small></p>
