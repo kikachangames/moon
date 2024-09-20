@@ -23,7 +23,7 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 
 <h3>Imagens</h3>
 
-# Membros do projeto
+<h3>Membros do projeto</h3>
 
 <h3>Manolo-chan</h3>
 <img src="https://kikachangames.github.io/air/manolo.png">
@@ -33,10 +33,12 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 <img src="https://kikachangames.github.io/higanbana1-pt-br/ceuipsolon.png">
 <p><b>Edição de imagens e revisão</b></p>
 
-# Agradecimentos
-- 07th-mod
-- DoctorDiablo
-
+<h3>Agradecimentos</h3>
+- Amaterasu Translations
+- MOON. Kit
+- Tactics/Nexton
+- Tactics Discord server
+- TLWiki
 
 <hr>
 <p><small>Última atualização: 20/09/2024.</small></p>
