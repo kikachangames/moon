@@ -19,7 +19,6 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 <br/>
 
 <h3>Progresso da tradução</h3>
-![image](https://github.com/user-attachments/assets/c611b710-d9bd-4f7f-a16a-fb6485eb1674)
 <p>5/125 (4%)</p>
 <br/>
   
