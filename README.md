@@ -8,7 +8,6 @@ Tradução pt-br da visual novel MOON.
 
 <h3>"Eu vou investigar o que aconteceu com a minha mãe."</h3>
 <p>Nesta página você poderá acompanhar o progresso da tradução, para a língua portuguesa, da visual novel <a href="https://vndb.org/v15" target="_blank">MOON.</a>, lançada pela Tactics & Nexton em 1997.</p>
-<br/>
 
 <h3>Sinopse</h3>
 A história segue uma jovem chamada Amasawa Ikumi que busca descobrir o mistério por trás da recente morte de sua mãe por uma seita conhecida como FARGO.
