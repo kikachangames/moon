@@ -1,5 +1,3 @@
-# MOON.
-
 ⚠️ AVISO: Este jogo não é adequado para menores ou pessoas sensíveis.
 <br/>
 <br/>
