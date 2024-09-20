@@ -8,20 +8,25 @@
 
 <h3>A verdade é sempre uma coisa cruel</h3>
 <p>Nesta página você poderá acompanhar o progresso da tradução, para a língua portuguesa, da visual novel <a href="https://vndb.org/v15" target="_blank">MOON.</a>, lançada pela Tactics em 1997.</p>
+<br/>
 
 <h3>Sinopse</h3>
 <p>"Minha mãe, que não estava ao meu lado há muito tempo, voltou. Minha mãe, que eu não via há muito tempo - desde que foi para um retiro espiritual da seita religiosa FARGO, voltou. Finalmente quando pensei que teria uma vida feliz com ela, minha mãe morre misteriosamente.
 Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 
 <p>Para descobrir o motivo da morte de sua mãe, Ikumi Amazawa se infiltra na FARGO. E, nesse processo, ela conhece duas novas amigas: Haruka Mima, uma garota com fortes convicções, que entrou nas instalações da FARGO para trazer de volta seu cunhado; e Yui Nagura, uma menina que esconde um passado terrível por trás de seu sorriso inocente. À medida que elas se aproximam da verdade, a existência de um "poder invisível" é revelada... Tragédias são repetidas e uma cruel realidade surge no destino dessas garotas.</p>
+<br/>
 
 <h3>Progresso da tradução</h3>
 <p>5/125 (4%)
+<br/>
   
 <h3>Lançamento</h3>
 <p>TBA</p>
+<br/>
 
 <h3>Imagens</h3>
+<br/>
 
 <h3>Membros do projeto</h3>
 
@@ -32,6 +37,7 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 <h3>Ceuipsolon</h3>
 <img src="https://kikachangames.github.io/higanbana1-pt-br/ceuipsolon.png">
 <p>Edição de imagens e revisão</p>
+<br/>
 
 <h3>Agradecimentos</h3>
 <p>- Amaterasu Translations</p>
@@ -39,6 +45,7 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 <p>- Tactics/Nexton</p>
 <p>- Tactics Discord server</p>
 <p>- TLWiki</p>
+<br/>
 
 <hr>
 <p><small>Última atualização: 20/09/2024.</small></p>
