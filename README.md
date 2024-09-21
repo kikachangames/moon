@@ -12,8 +12,7 @@
 <br/>
 
 <h3>Sinopse</h3>
-<p>"Minha mãe, que não estava ao meu lado há muito tempo, voltou. Minha mãe, que eu não via há muito tempo - desde que foi para um retiro espiritual da seita religiosa FARGO, voltou. Finalmente quando pensei que teria uma vida feliz com ela, minha mãe morre misteriosamente.
-Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
+<p>"Minha mãe, que não estava ao meu lado há muito tempo, voltou. Minha mãe, que eu não via há muito tempo - desde que foi para um retiro espiritual da seita religiosa FARGO, voltou. Finalmente quando pensei que teria uma vida feliz, minha mãe morre misteriosamente. Por que ela morreu? O que estava acontecendo naquele lugar?"</p>
 
 <p>Para descobrir o motivo da morte de sua mãe, Amasawa Ikumi se infiltra na FARGO onde conhece duas novas amigas: Mima Haruka, que entrou nas instalações da FARGO para resgatar seu irmão; e Nakura Yui, que esconde um passado terrível por trás de seu sorriso inocente. À medida que elas se aproximam da verdade, a existência de um "força invisível" é revelada... Tragédias são repetidas e uma cruel realidade surge no destino dessas garotas.</p>
 <br/>
