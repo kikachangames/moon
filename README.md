@@ -33,7 +33,7 @@ Por que ela morreu? O que estava acontecendo naquele lugar onde ela estava?"</p>
 
 <h3>Manolo-chan</h3>
 <img src="https://kikachangames.github.io/air/manolo.png">
-<p>Líder de projeto, tradução e programação</p>
+<p>Tradução, edição de imagens e programação</p>
 
 <h3>Ceuipsolon</h3>
 <img src="https://kikachangames.github.io/higanbana1-pt-br/ceuipsolon.png">
