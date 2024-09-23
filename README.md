@@ -18,7 +18,7 @@
 <br/>
 
 <h3>Progresso da tradução</h3>
-<p>5/125 (4%)</p>
+<p>6/125 (4,80%)</p>
 <br/>
   
 <h3>Lançamento</h3>
