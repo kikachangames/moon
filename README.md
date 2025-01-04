@@ -34,14 +34,14 @@
 <img src="https://kikachangames.github.io/moon/05.png">
 <br/>
 
-<h3>Membros do projeto</h3>
+<h3>Equipe</h3>
 
-<h3>Manolo-chan</h3>
 <img src="https://kikachangames.github.io/air/manolo.png">
+<h3>Manolo-chan</h3>
 <p>Tradução, edição de imagens e programação</p>
 
-<h3>Ceuipsolon</h3>
 <img src="https://kikachangames.github.io/air/ceuipsolon.png">
+<h3>Ceuipsolon</h3>
 <p>Edição de imagens e revisão</p>
 <br/>
 
