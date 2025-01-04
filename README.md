@@ -41,9 +41,11 @@
 <div style="display:inline-block;">
 <p><b>Manolo-chan:</b><br/>Tradução, edição de imagens e programação</p>
 </div>
-
+<div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/ceuipsolon.png">
-<b></b>Ceuipsolon:</b> Edição de imagens e revisão
+</div>
+<div style="display:inline-block;">
+  <p><b>Ceuipsolon:</b><br/>Edição de imagens e revisão</p>
 <br/>
 
 <h3>Agradecimentos</h3>
