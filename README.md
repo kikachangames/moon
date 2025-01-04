@@ -37,12 +37,10 @@
 <h3>Equipe</h3>
 
 <img src="https://kikachangames.github.io/air/manolo.png">
-<h3>Manolo-chan</h3>
-<p>Tradução, edição de imagens e programação</p>
+<p><b>Manolo-chan:</b> Tradução, edição de imagens e programação</p>
 
 <img src="https://kikachangames.github.io/air/ceuipsolon.png">
-<h3>Ceuipsolon</h3>
-<p>Edição de imagens e revisão</p>
+<p><b></b>Ceuipsolon:</b> Edição de imagens e revisão</p>
 <br/>
 
 <h3>Agradecimentos</h3>
