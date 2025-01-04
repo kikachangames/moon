@@ -35,6 +35,7 @@
 <br/>
 
 <h3>Equipe</h3>
+<div>
 <div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/manolo.png">
 </div>
@@ -47,6 +48,7 @@
 <div style="display:inline-block;">
   <p><b>Ceuipsolon:</b><br/>Edição de imagens e revisão</p>
 <br/></div>
+</div>
 
 <h3>Agradecimentos</h3>
 <p>- Amaterasu Translations</p>
