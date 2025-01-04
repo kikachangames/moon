@@ -40,13 +40,16 @@
 <img src="https://kikachangames.github.io/air/manolo.png">
 </div>
 <div style="display:inline-block;">
-<p><b>Manolo-chan:</b><br/>Tradução, edição de imagens e programação</p>
+<p><b>Manolo-chan:</b><br/>
+  Tradução, edição de imagens e programação</p>
 </div>
+  <br/>
 <div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/ceuipsolon.png">
 </div>
 <div style="display:inline-block;">
-  <p><b>Ceuipsolon:</b><br/>Edição de imagens e revisão</p>
+  <p><b>Ceuipsolon:</b><br/>
+    Edição de imagens e revisão</p>
 <br/></div>
 </div>
 
