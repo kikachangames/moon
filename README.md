@@ -46,7 +46,7 @@
 </div>
 <div style="display:inline-block;">
   <p><b>Ceuipsolon:</b><br/>Edição de imagens e revisão</p>
-<br/>
+<br/></div>
 
 <h3>Agradecimentos</h3>
 <p>- Amaterasu Translations</p>
