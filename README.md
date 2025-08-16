@@ -57,7 +57,8 @@
 
 <h3>Agradecimentos</h3>
 <p><a href="https://github.com/0Mateus" target="blank">0Mateus</a>
-<p><a href="https://web.archive.org/web/20170910172739/https://tlwiki.org/index.php?title=MOON." target="blank">Amaterasu Translations</a></p>
+<p><a href="https://web.archive.org/web/20170910172739/https://tlwiki.org/index.php?title=MOON." target="blank">Amaterasu Translations & TLWiki</a></p>
+<p><a href="https://web.archive.org/web/20160731010855/http://blog.keysf.com/2013/10/moon-parche-al-espanol-by-07inq.html" target="blank">Key Spanish Fanclub</a></p>
 <p><a href="https://asceai.net/moonkit/" target="blank">MOON. Kit</a></p>
 <p><a href="https://web.archive.org/web/20090523235119/http://nexton-net.jp/~nexton/moon/index.html" target="blank">Tactics/Nexton</a></p>
 <p><a href="https://discord.gg/XUfvN2p" target="blank">Tactics Discord</a></p>
