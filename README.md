@@ -44,7 +44,7 @@
 </div>
 <div style="display:inline-block;">
 <h3>Manolo-chan</h3>
-  <p>Tradução, edição de imagens e programação</p>
+  <p>Tradução e edição de imagens</p>
 </div>
   <br/>
   
