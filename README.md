@@ -36,7 +36,9 @@
 <br/>
 
 <h3>Equipe</h3>
+
 <div>
+  
 <div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/manolo.png">
 </div>
@@ -47,12 +49,23 @@
   <br/>
   
 <div style="display:inline-block;vertical-align:top;">
+<img src="https://kikachangames.github.io/moon/kazuki.png">
+</div>
+<div style="display:inline-block;">
+  <h3>Kazuki Minoru</h3>
+    <p>Revisão</p>
+</div>
+<br/>
+
+<div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/ceuipsolon.png">
 </div>
 <div style="display:inline-block;">
   <h3>Ceuipsolon</h3>
-    <p>Edição de imagens e revisão</p>
-<br/></div>
+    <p>Edição de imagens</p>
+</div>
+<br/>
+
 </div>
 
 <h3>Agradecimentos</h3>
@@ -65,5 +78,5 @@
 <br/>
 
 <hr>
-<p><small>Última atualização: 10/08/2025.</small></p>
+<p><small>Última atualização: 16/08/2025.</small></p>
 <p><small>Kikachan Games (Desde 2024) <a href="https://kikachangames.github.io/projetos/">Projetos</a> - <a href="https://twitter.com/kikachangames/" target="_blank">X</a> - <a href="https://discord.gg/jsm8yKtu2E" target="_blank">Discord</a> - <a href="https://kikachan-games.itch.io/" target="_blank">Itch</a></small></p>
