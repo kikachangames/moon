@@ -56,11 +56,11 @@
 </div>
 
 <h3>Agradecimentos</h3>
-<p>- Amaterasu Translations</p>
-<p>- MOON. Kit</p>
-<p>- Tactics/Nexton</p>
-<p>- Tactics Discord server</p>
-<p>- TLWiki</p>
+<p><a href="https://github.com/0Mateus" target="blank">0Mateus</a>
+<p><a href="https://web.archive.org/web/20170910172739/https://tlwiki.org/index.php?title=MOON." target="blank">Amaterasu Translations</a></p>
+<p><a href="https://asceai.net/moonkit/" target="blank">MOON. Kit</a></p>
+<p><a href="https://web.archive.org/web/20090523235119/http://nexton-net.jp/~nexton/moon/index.html" target="blank">Tactics/Nexton</a></p>
+<p><a href="https://discord.gg/XUfvN2p" target="blank">Tactics Discord</a></p>
 <br/>
 
 <hr>
