@@ -25,7 +25,6 @@
 <p>A ser anunciado.</p>
 <br/>
 
-<h3>Imagens</h3>
 <img src="https://kikachangames.github.io/moon/00.png">
 <img src="https://kikachangames.github.io/moon/01.png">
 <img src="https://kikachangames.github.io/moon/02.png">
