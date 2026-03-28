@@ -1,0 +1,1604 @@
+
+# MOON SCRIPT FILE "DAY14.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000E 
+SETSTATUS '　Day 14 Morning Building Ａ' 
+BACKGROUND 'FG213' 
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_00 0099 0000 
+X_00 009A 0000 
+X_00 009B 0000 
+X_00 009C 0000 
+X_00 009D 0000 
+X_00 009E 0000 
+X_00 009F 0000 
+X_00 00A0 0000 
+X_00 00A1 0000 
+X_00 00A2 0000 
+X_00 00A3 0000 
+X_00 00A4 0000 
+X_00 00A5 0000 
+X_00 00A6 0000 
+X_00 00A7 0000 
+X_00 00A8 0000 
+X_00 00A9 0000 
+X_00 00AA 0000 
+X_00 00AB 0000 
+X_00 00AC 0000 
+X_00 00AD 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT When I woke up that morning, the boy wasn't there.
+TEXT I was always woken up by that boy.
+TEXT So when I wasn't woken up, and I noticed I hadn't been woken up, that shock woke me up.
+TEXT Very mysterious.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I just stared at the ceiling, rolling over in bed.
+TEXT Vacant.
+TEXT Somehow sad.
+TEXT But I didn't want to find out,
+TEXT Why that was sad.
+TEXT I could pick any number of reasons.
+TEXT But I didn't need to enumerate them all up for it to be clear which was right.
+TEXT Even if I lined up all those lies, they would be nothing but lies.
+TEXT Vacant.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se41' 00 
+TEXT *gacha*
+TEXT The door opened. Then,
+PLAY_SOUND 01 '034_boy000' 00 
+TEXT Voice: "Good morning."
+STOP_SOUND 01 
+TEXT A morning greeting.
+PLAY_SOUND 01 '090_iku000' 00 
+TEXT Ikumi: "Good morning."
+STOP_SOUND 01 
+TEXT I greeted him back.
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '034_boy001' 00 
+TEXT Boy: "Impressive, you woke up on your own."
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku001' 00 
+TEXT Ikumi: "I thought you weren't coming back."
+STOP_SOUND 01 
+PLAY_SOUND 01 '034_boy002' 00 
+TEXT Boy: "Why?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku002' 00 
+TEXT Ikumi: "No idea..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku003' 00 
+TEXT Ikumi: "I just thought that."
+STOP_SOUND 01 
+PLAY_SOUND 01 '034_boy003' 00 
+TEXT Boy: "I do go outside of this room."
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku004' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '034_boy004' 00 
+TEXT Boy: "Now, get going."
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku005' 00 
+TEXT Ikumi: "What's the point?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '034_boy005' 00 
+TEXT Boy: "You'll be suspected. It's best to continue your normal lifestyle for the time being."
+STOP_SOUND 01 
+PLAY_SOUND 01 '090_iku006' 00 
+TEXT Ikumi: "I understand."
+STOP_SOUND 01 
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voice: "There you are, A-12"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Yes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm03_min000' 00 
+TEXT Voice: "Stand in the center of the room."
+STOP_SOUND 01 
+TEXT I stood in the pattern's center.
+PLAY_SOUND 01 'm13_min000' 00 
+TEXT Voice: "Now we'll begin Level 13."
+STOP_SOUND 01 
+TEXT *guuuuun...*
+TEXT *katakatakata...*
+TEXT The machine began to move.
+TEXT *gakon*...*gakon*...*gakon*...
+TEXT My vision was closed off.
+TEXT *gakon*...*gakon*...*gakon*...
+TEXT ...*gakon*......*gakon*......
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku062' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm13_min001' 00 
+TEXT Voice: "Level 13 complete."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku063' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I left the Minmes.
+X_00 0009 000B 
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+PLAY_SOUND 01 'se64' 00 
+TEXT *gachan*
+TEXT I took my tray and carried it to the door.
+TEXT Then I opened it with my back and entered the corridor.
+X_04 0071 0001 
+IF 17 24 00 15 01 00 02 00 .LABEL3 
+X_00 0009 0009 
+JMP .LABEL4 
+
+:LABEL3
+X_00 0009 0016 
+
+:LABEL4
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL5 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL5
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '035_boy000' 00 
+TEXT Boy: "So you feel like eating now?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '092_iku000' 00 
+TEXT Ikumi: "Yeah...something like that."
+STOP_SOUND 01 
+TEXT For the first time in a while, I took my tray and sat down opposite the boy.
+PLAY_SOUND 01 '092_iku001' 00 
+TEXT Ikumi: "Itadakimasu."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy001' 00 
+TEXT Boy: "Itadakimasu."
+STOP_SOUND 01 
+TEXT That wasn't true.
+TEXT It wasn't that I'd finally noticed the importance of eating.
+TEXT That wasn't the real problem.
+TEXT I'd just started thinking of this time as irreplaceable.
+TEXT That's all.
+TEXT The little time left.
+TEXT What should I do with it?
+TEXT I wanted to make the most of it.
+TEXT That's what I noticed this morning.
+TEXT For the first time I noticed the sadness that would come when our perfectly ordinary time in this room came to an end.
+TEXT I chewed my food slowly.
+TEXT When I finished eating, lunchtime was nearly over.
+TEXT Rather insignificant, perfectly ordinary time...
+PLAY_SOUND 01 '035_boy002' 00 
+TEXT Boy: "See you later."
+STOP_SOUND 01 
+TEXT The boy watched me go as I once again left the room.
+X_04 0071 0000 
+X_00 0009 0012 
+X_00 000E 0003 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL6 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL6
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT I entered the Elpod.
+PLAY_SOUND 01 'es0_elp000' 00 
+TEXT Voice: "A-12, confirmed."
+STOP_SOUND 01 
+TEXT The speaker voice.
+PLAY_SOUND 01 'es2_elp000' 00 
+TEXT Voice: "Now then, please go to the Relaxation Room."
+STOP_SOUND 01 
+TEXT Today's a rest day...
+PLAY_SOUND 01 'es2_elp001' 00 
+TEXT Voice: "When you've finished, if you return to this room I'll give you some advice for the future."
+STOP_SOUND 01 
+TEXT I left the room.
+X_04 005B 0001 
+X_00 0009 0017 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL7 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL7
+BACKGROUND 'BG005' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT The Relaxation Room...
+TEXT The bed shone upon by that white light...
+TEXT I laid down on that bed and faced the pattern carved in the ceiling.
+TEXT *vuuun*...
+TEXT Even the inside of my head went white, and I fell into a deep sleep.
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT *buu*...*buu*...
+BACKGROUND 'BG005' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'es1_iku005' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I woke up.
+TEXT I must have slept well.
+TEXT *buu*...*buu*...
+TEXT The buzzer announcing completion continued reverberating in that empty room.
+TEXT I got out of the bed, smoothed out the sheets and left the room.
+X_04 005B 0000 
+X_00 0009 000A 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL8 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL8
+PLAY_SOUND 01 'se64' 00 
+TEXT *gachan*
+TEXT I took my tray and carried it to the door.
+TEXT Then I opened it with my back and entered the corridor.
+X_04 0071 0001 
+IF 17 24 00 15 01 00 02 00 .LABEL9 
+X_00 0009 0009 
+JMP .LABEL10 
+
+:LABEL9
+X_00 0009 0016 
+
+:LABEL10
+X_00 000E 0004 
+X_04 0025 0001 
+GOSUB_SCRIPT 'A_D14' 
+IF 16 17 00 15 01 00 02 00 .LABEL11 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL11
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd14' 01 
+TEXT As if that was our daily routine, the boy and I ate another meal together.
+PLAY_SOUND 01 '035_boy003' 00 
+TEXT Boy: "Gochisou-sama."
+STOP_SOUND 01 
+PLAY_SOUND 01 '093_iku000' 00 
+TEXT Ikumi: "...gochisou-sama."
+STOP_SOUND 01 
+TEXT In such a cruel place, this was the only place my heart felt at ease.
+TEXT A place where we could talk about and fight over stupid things.
+PLAY_SOUND 01 '035_boy004' 00 
+TEXT Boy: "You won't go out again today?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '093_iku001' 00 
+TEXT Ikumi: "No..."
+STOP_SOUND 01 
+TEXT There's nothing to do, and I want to stay here.
+TEXT I want to return to a time when we did something stupid.
+TEXT I want to pass this time lazily.
+IF 17 56 00 15 01 00 02 00 .LABEL12 
+TEXT It might be nice to hear the rest of that fairy tale.
+JMP .LABEL13 
+
+:LABEL12
+TEXT It might be nice to hear that story he'd wanted to tell me in place of a lullaby.
+
+:LABEL13
+TEXT We could spend this time any way we wanted.
+TEXT The most useless activity would, to me, be the most fulfilling use of this time.
+TEXT I'm going to spend my time with yawn-inducing boredom.
+TEXT And he'll do it with me.
+PLAY_SOUND 01 '035_boy005' 00 
+TEXT Boy: "Nn...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '093_iku002' 00 
+TEXT Ikumi: "No, it's nothing..."
+STOP_SOUND 01 
+TEXT I would've been nice...if I'd met this guy somewhere else.
+TEXT Yeah...like at school, if he was a transfer student or something.
+PLAY_SOUND 01 '035_boy006' 00 
+TEXT Boy: "What are you thinking?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '093_iku003' 00 
+TEXT Ikumi: "Can I tell you a story?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy007' 00 
+TEXT Boy: "What kind?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '093_iku004' 00 
+TEXT Ikumi: "A normal story, about school life."
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+STOP_SOUND 00 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT ...
+TEXT ......
+TEXT .........
+PLAY_SOUND 00 'mon_cd15' 01 
+TEXT I was heading for the art room.
+TEXT At this time the sun's rays were entering the corridor at a sharp angle.
+TEXT I'd forgotten something.
+TEXT A drawing.
+TEXT It had been due today.
+TEXT I'm always doing stupid things like that...
+TEXT I opened the art room door.
+TEXT In there was a boy with hair tinged orange by the western sun.
+TEXT With a serious look, and while holding a pallet and brush, he faced the desk.
+TEXT I hadn't seen him before.
+PLAY_SOUND 01 '094_iku000' 00 
+TEXT Ikumi: "Excuse me..."
+STOP_SOUND 01 
+TEXT I started out with a low, cautious voice.
+PLAY_SOUND 01 '035_boy008' 00 
+TEXT Boy: "Hmm? What is it?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku001' 00 
+TEXT Ikumi: "Umm......my drawing...you wouldn't know which one it is...but I think I forgot it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy009' 00 
+TEXT Boy: "What kind of drawing?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku002' 00 
+TEXT Ikumi: "Umm......not a very good one..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy010' 00 
+TEXT Boy: "What's it of?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku003' 00 
+TEXT Ikumi: "A blood donation poster. A lot of children are smiling and receiving blood transfusions."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy011' 00 
+TEXT Boy: "Hmm, haven't seen it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku004' 00 
+TEXT Ikumi: "I see..."
+STOP_SOUND 01 
+TEXT When I looked around the art room, I couldn't see anything like it.
+PLAY_SOUND 01 '094_iku005' 00 
+TEXT Ikumi: "Hmmm...where could it have gotten to?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy012' 00 
+TEXT Boy: "Maybe you forgot it somewhere else?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku006' 00 
+TEXT Ikumi: "Maybe..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy013' 00 
+TEXT Boy: "That must be it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku007' 00 
+TEXT Ikumi: "By the way, what are you drawing?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy014' 00 
+TEXT Boy: "Oh, no, I just found this poster calling for a ban on stimulant drug usage, and decided to fix it up."
+STOP_SOUND 01 
+TEXT I peeked over his shoulder.
+TEXT But what I saw there was...
+PLAY_SOUND 01 '094_iku008' 00 
+TEXT Ikumi: "Kyaaaaaaa!!!　My drawing!!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku009' 00 
+TEXT Ikumi: "You're ruining it!!!　Why do these kids look like they're drooling!!!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy015' 00 
+TEXT Boy: "Hmmm......I thought this needle was for stimulants...so I made them all look more like..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku010' 00 
+TEXT Ikumi: "How did you get a blood donation poster mixed up with a stimulant usage ban poster...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy016' 00 
+TEXT Boy: "So, good acts and evil acts are two sides of the same coin..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku011' 00 
+TEXT Ikumi: "Don't gloss over your actions with cheap philosophical tricks!!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy017' 00 
+TEXT Boy: "You seem lively..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku012' 00 
+TEXT Ikumi: "I am the captain of the track team..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy018' 00 
+TEXT Boy: "Oh, that's impressive."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku013' 00 
+TEXT Ikumi: "ku..."
+STOP_SOUND 01 
+TEXT Everything I say just bounces off him...
+PLAY_SOUND 01 '035_boy019' 00 
+TEXT Boy: "It looks like you're receiving quite a shock..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku014' 00 
+TEXT Ikumi: "Of course I am!! You just turned a bunch of angelic kids into drug addicts!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku015' 00 
+TEXT Ikumi: "Now give it back!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy020' 00 
+TEXT Boy: "Hmmm, after all this it'll be pretty hard to fix. Are you sure you still want it?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku016' 00 
+TEXT Ikumi: "That's fine, just give it!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy021' 00 
+TEXT Boy: "Okay, here you go."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku017' 00 
+TEXT Ikumi: "For crying out loud..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku018' 00 
+TEXT Ikumi: "...hang on, I'm late!! I have to get back!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se19' 00 
+TEXT *dota**dota**dota*!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy022' 00 
+TEXT Boy: *sigh*..."She seems like a troublesome classmate..."
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+PLAY_SOUND 01 'se65' 00 
+TEXT *kiiin**kooon**kaaan**kooon*...
+PLAY_SOUND 01 '017_har001' 00 
+TEXT Haruka: "Hey, about that kid who's transferring into class today..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku019' 00 
+TEXT Ikumi: "What!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har002' 00 
+TEXT Haruka: "Woah, what's wrong? Did something happen between you and him?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku020' 00 
+TEXT Ikumi: "Nothing happened..."
+STOP_SOUND 01 
+TEXT I can't believe I didn't know...he was a transfer student in my class...
+PLAY_SOUND 01 '017_har003' 00 
+TEXT Haruka: "It'd change the atmosphere in here to have someone new, don't you think that'd be nice?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku021' 00 
+TEXT Ikumi: "No I don't!!"
+STOP_SOUND 01 
+TEXT I violently opened my bentou box and began eating.
+PLAY_SOUND 01 '094_iku022' 00 
+TEXT Ikumi: "Besides, aren't you always like that Haruka?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har004' 00 
+TEXT Haruka: "What do you mean?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku023' 00 
+TEXT Ikumi: "'Something should change' or 'that guy's good' or 'that girl's good' and the like."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har005' 00 
+TEXT Haruka: "But aren't boys normally interesting?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku024' 00 
+TEXT Ikumi: "Boys don't have to be interesting."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har006' 00 
+TEXT Haruka: "Ikumi, your reasoning is definitely stranger than mine."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku025' 00 
+TEXT Ikumi: "Same to you, Haruka."
+STOP_SOUND 01 
+TEXT As we argued while eating our bentous...
+PLAY_SOUND 01 '035_boy023' 00 
+TEXT "Hey."
+STOP_SOUND 01 
+TEXT A voice from the side.
+PLAY_SOUND 01 '094_iku026' 00 
+TEXT Ikumi: "He's here; the strangest one of all."
+STOP_SOUND 01 
+TEXT I didn't need to see his face to know that.
+PLAY_SOUND 01 '017_har007' 00 
+TEXT Haruka: "Wa! Aren't you the transfer student!? What do you want!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy024' 00 
+TEXT Boy: "Uh, I don't really want anything, but I wondered if it'd be okay to eat together."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku027' 00 
+TEXT Ikumi: "How could it-..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har008' 00 
+TEXT Haruka: "Go ahead, go ahead!!　Ah, use this chair."
+STOP_SOUND 01 
+TEXT For crying out loud, Haruka...
+PLAY_SOUND 01 '035_boy025' 00 
+TEXT Boy: "Thanks, I haven't quite made any friends here yet."
+STOP_SOUND 01 
+TEXT Would you normally look for girls first?
+PLAY_SOUND 01 '035_boy026' 00 
+TEXT Boy: "By the way, what were you saying was strange?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku028' 00 
+TEXT Ikumi: "Your hea-..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_har009' 00 
+TEXT Haruka: "Last night's episode, ahaha!!"
+STOP_SOUND 01 
+IF 16 14 00 15 64 00 05 00 .LABEL14 
+TEXT .........
+TEXT ......
+TEXT ...
+PLAY_SOUND 01 'se65' 00 
+TEXT *kiiin**kooon**kaaan**kooon*...
+PLAY_SOUND 01 '094_iku029' 00 
+TEXT Ikumi: (Wa! I forgot something again...）
+STOP_SOUND 01 
+TEXT After school, I was returning to the classroom.
+TEXT How did I forget my gym clothes on a day my club meets...?
+TEXT Then I entered the classroom...
+PLAY_SOUND 01 '035_boy027' 00 
+TEXT Boy: "Hey, what's up?"
+STOP_SOUND 01 
+TEXT This guy again...
+TEXT He was sitting on the windowsill of a vacant classroom, staring at the field outside.
+PLAY_SOUND 01 '094_iku030' 00 
+TEXT Ikumi: "You didn't change my gym clothes into a fire fighter uniform, did you...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy028' 00 
+TEXT Boy: "What are you talking about?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy029' 00 
+TEXT Boy: "Oh right, the gym clothes here were a bit torn, so I went ahead and fixed them."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku031' 00 
+TEXT Ikumi: "Kyaaaaaaaaaa!!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy030' 00 
+TEXT Boy: "I lied."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se10' 00 
+TEXT *gashaaaaan!!!*
+TEXT I punched the nearest desk.
+PLAY_SOUND 01 '094_iku032' 00 
+TEXT Ikumi: "Please don't tell such brilliant lies..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy031' 00 
+TEXT Boy: "Woah, that looked painful..."
+STOP_SOUND 01 
+TEXT This guy really...
+PLAY_SOUND 01 '094_iku033' 00 
+TEXT Ikumi: "Hey, what are you doing here?"
+STOP_SOUND 01 
+TEXT I held my unharmed gym clothes to my chest as I asked him.
+PLAY_SOUND 01 '035_boy032' 00 
+TEXT Boy: "I'm watching the revolving seasons."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku034' 00 
+TEXT Ikumi: "What the...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy033' 00 
+TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy034' 00 
+TEXT Boy: "After all, clocks are just measuring devices humans invented."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy035' 00 
+TEXT Boy: "Watching the seasons like this is the best,"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy036' 00 
+TEXT Boy: "For feeling all of the time we share with nature."
+STOP_SOUND 01 
+TEXT It almost sounded like he was trying to impress me...
+TEXT But somehow that didn't feel like his intent...
+PLAY_SOUND 01 '035_boy037' 00 
+TEXT Boy: "In other words that's the feeling of..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku035' 00 
+TEXT Nooooooooooooooooooooooooooo!!!!
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 '035_boy038' 00 
+TEXT Boy: "Ikumi!!?"
+STOP_SOUND 01 
+TEXT That shiver...!!
+TEXT Its arrival was incomparably impatient to last time.
+TEXT Fangs that shone at their tips were now aiming for my heart.
+TEXT This was the fear of seeing death before your very eyes.
+TEXT ...I'm going to be killed!!
+TEXT Even if it doesn't kill me I'll go insane from this fear!!
+PLAY_SOUND 01 '094_iku036' 00 
+TEXT Ikumi: "Aaaaa...!!!!"
+STOP_SOUND 01 
+TEXT I ran my nails through my hair.
+TEXT But what kind of resistance is that!!?
+PLAY_SOUND 01 '035_boy039' 00 
+TEXT Boy: "Ikumi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku037' 00 
+TEXT Ikumi: "Hey, kill me right now!!!"
+STOP_SOUND 01 
+TEXT Those words came out so easily.
+PLAY_SOUND 01 '094_iku038' 00 
+TEXT Ikumi: "I'm going to go mad if this fear continues one second longer!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy040' 00 
+TEXT Boy: "You can endure it, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku039' 00 
+TEXT Ikumi: "I can't......kill me......"
+STOP_SOUND 01 
+TEXT I no longer had any strength left to think.
+PLAY_SOUND 01 '035_boy041' 00 
+TEXT Boy: "Hey, can you hear me?"
+STOP_SOUND 01 
+TEXT ...Gaaaaaaaaaa......
+PLAY_SOUND 01 '035_boy042' 00 
+TEXT Boy: "There's something I have to tell you..."
+STOP_SOUND 01 
+TEXT ...Uguaaaaaaaaaaa...
+PLAY_SOUND 01 '035_boy043' 00 
+TEXT Boy: "Can you hear me, Ikumi...?"
+STOP_SOUND 01 
+TEXT ...Gugugagagagaaaaaaaaa...
+PLAY_SOUND 01 '035_boy044' 00 
+TEXT Boy: "Hey, Ikumi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se67' 00 
+TEXT *barii!!*
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se66' 00 
+TEXT ......*jagyugyugyugyu*...
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se66' 00 
+TEXT ......*gugu*...*gujuju*...
+TEXT Boy: "........."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se68' 00 
+TEXT *zubashuuuuuuuuuuuuuuuuuuuuuuuuuu!!!!!!*
+TEXT .........
+TEXT ......
+TEXT ...
+X_3C 05 01 
+PLAY_SOUND 00 'mon_cd15' 01 
+X_28 0032 
+PLAY_SOUND 01 '094_iku040' 00 
+TEXT Ikumi: "Hey, what are you doing here?"
+STOP_SOUND 01 
+TEXT I held my unharmed gym clothes to my chest as I asked him.
+BACKGROUND 'FG079' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_boy045' 00 
+TEXT Boy: "I'm watching the revolving seasons."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku041' 00 
+TEXT Ikumi: "What the...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy046' 00 
+TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku042' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy047' 00 
+TEXT Boy: "After all, clocks are just measuring devices humans invented."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy048' 00 
+TEXT Boy: "Watching the seasons like this is the best,"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy049' 00 
+TEXT Boy: "For feeling all of the time we share with nature."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku043' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy050' 00 
+TEXT Boy: "In other words that's the feeling of having spent time together with you."
+STOP_SOUND 01 
+BACKGROUND 'FG082' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_boy051' 00 
+TEXT  "In a room without any windows..."
+X_30 00 
+X_31 00 
+X_32 00 
+X_28 0032 
+STOP_SOUND 01 
+BACKGROUND 'FG226' 
+X_24 00 
+X_25 06 
+X_28 0032 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT 
+SELECT 0003 'Listen to a hint' 'Return to title screen' 
+IF 16 03 00 15 01 00 02 00 .LABEL15 
+BACKGROUND 'CGYS02' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '019_you001' 00 
+TEXT Youko: "...it's been a while."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you002' 00 
+TEXT Youko: "What happened? Why aren't you talking?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you003' 00 
+TEXT Youko: "...it seems you have some kind of suspicion about me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you004' 00 
+TEXT Youko: "Or is it because I'm your friend?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you005' 00 
+TEXT Youko: "Either way, this is a result brought on by your heart's weakness."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you006' 00 
+TEXT Youko: "However, it's not something to be pessimistic about."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you007' 00 
+TEXT Youko: "You were only a little lacking in your will to live..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you008' 00 
+TEXT Youko: "That is all..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you009' 00 
+TEXT Youko: "Since this is a perfect opportunity, why don't you calmly look back on all you've done?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you010' 00 
+TEXT Youko: "I think it's important to try facing your other self."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you011' 00 
+TEXT Youko: "Now, goodbye..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_you012' 00 
+TEXT Youko: "Until the next time we meet in the dining hall..."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+JMP .LABEL15 
+
+:LABEL15
+X_28 0028 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL14
+TEXT .........
+TEXT ......
+TEXT ...
+PLAY_SOUND 01 'se65' 00 
+TEXT *kiiin**kooon**kaaan**kooon*...
+PLAY_SOUND 01 '094_iku029' 00 
+TEXT Ikumi: (Wa! I forgot something again...）
+STOP_SOUND 01 
+TEXT After school, I was returning to the classroom.
+TEXT How did I forget my gym clothes on a day my club meets...?
+TEXT Then I entered the classroom...
+PLAY_SOUND 01 '035_boy027' 00 
+TEXT Boy: "Hey, what's up?"
+STOP_SOUND 01 
+TEXT This guy again...
+TEXT He was sitting on the windowsill of a vacant classroom, staring at the field outside.
+PLAY_SOUND 01 '094_iku030' 00 
+TEXT Ikumi: "You didn't change my gym clothes into a fire fighter uniform, did you...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy028' 00 
+TEXT Boy: "What are you talking about?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy029' 00 
+TEXT Boy: "Oh right, the gym clothes here were a bit torn, so I went ahead and fixed them."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku031' 00 
+TEXT Ikumi: "Kyaaaaaaaaaa!!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy030' 00 
+TEXT Boy: "I lied."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se10' 00 
+TEXT *gashaaaaan!!!*
+TEXT I punched the nearest desk.
+PLAY_SOUND 01 '094_iku032' 00 
+TEXT Ikumi: "Please don't tell such brilliant lies..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy031' 00 
+TEXT Boy: "Woah, that looked painful..."
+STOP_SOUND 01 
+TEXT This guy really...
+PLAY_SOUND 01 '094_iku033' 00 
+TEXT Ikumi: "Hey, what are you doing here?"
+STOP_SOUND 01 
+TEXT I held my unharmed gym clothes to my chest as I asked him.
+PLAY_SOUND 01 '035_boy032' 00 
+TEXT Boy: "I'm watching the revolving seasons."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku034' 00 
+TEXT Ikumi: "What the...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy033' 00 
+TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy034' 00 
+TEXT Boy: "After all, clocks are just measuring devices humans invented."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy035' 00 
+TEXT Boy: "Watching the seasons like this is the best."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_boy036' 00 
+TEXT Boy: "For feeling all of the time we share with nature."
+STOP_SOUND 01 
+TEXT It almost sounded like he was trying to impress me...
+TEXT But somehow that didn't feel like his intent...
+PLAY_SOUND 01 '035_boy037' 00 
+TEXT Boy: "In other words that's the feeling of..."
+STOP_SOUND 01 
+BACKGROUND 'FG010' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+X_00 000E 0005 
+PLAY_SOUND 01 '035_boy052' 00 
+TEXT Boy: "kuu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku044' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT The boy fell asleep on me...
+PLAY_SOUND 01 '094_iku045' 00 
+TEXT Ikumi: (I thought it was a pretty good story...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '094_iku046' 00 
+TEXT Ikumi: (Guess I'll go to sleep too...）
+STOP_SOUND 01 
+TEXT ...
+TEXT ......
+TEXT .........
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT ..."........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_bt2000' 00 
+TEXT ..."There is one they say has Lost her mind."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_bt2001' 00 
+TEXT ..."They have orders to eliminate her."
+STOP_SOUND 01 
+BACKGROUND 'BG010' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_m14000' 00 
+TEXT Patrol: "Hey, this is no time to be walking around outside."
+STOP_SOUND 01 
+TEXT ..."........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m14001' 00 
+TEXT Patrol: "Return to your room!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har001' 00 
+TEXT ..."Do not interfere."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m14002' 00 
+TEXT Patrol: "Listen to me. Or else..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har002' 00 
+TEXT ..."Do not interfereeeeeee!!!!"
+STOP_SOUND 01 
+TEXT The patrolman's body flew.
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 'se68' 00 
+TEXT *beshiiiiiiii!!!!*
+TEXT His body was smothered against the wall ahead like a piece of fruit.
+PLAY_SOUND 01 '018_har003' 00 
+TEXT ..."Powerless human..."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT *wii*...*wii*...
+TEXT An annoying noise.
+TEXT *wiii*...*wiii*...!
+TEXT Nn...
+TEXT *viiii*...*viiii*...!
+PLAY_SOUND 01 '095_iku000' 00 
+TEXT Ikumi: "...eh...!?"
+STOP_SOUND 01 
+TEXT *viii!!*　*viii!!*
+TEXT The klaxon...!
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd10' 01 
+SPRITE 'CGSY04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '035_boy053' 00 
+TEXT Boy: "You okay, Ikumi?"
+STOP_SOUND 01 
+TEXT The boy was already standing by the door.
+PLAY_SOUND 01 '035_boy054' 00 
+TEXT Boy: "I'll be back soon, so don't go outside."
+STOP_SOUND 01 
+PLAY_SOUND 01 '095_iku001' 00 
+TEXT Ikumi: "Y-yeah..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT After I answered, the boy quickly disappeared to the other side of that door.
+PLAY_SOUND 01 '095_iku002' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT The klaxon continued.
+TEXT Had someone become a victim of the invisible strength again, forcing the patrolmen to bring guns against them...?
+TEXT What did he go out there to do?
+TEXT To bury the victims?
+TEXT It didn't matter,
+TEXT Who he buried.
+TEXT That was his job.
+TEXT I just need to stay here.
+TEXT Everything will be handled without me.
+TEXT It's fine.
+TEXT But at that moment, it came back.
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT ...that shiver!
+TEXT My body cowered as if all its blood had been sucked out at once.
+TEXT Why...now...
+TEXT The other consciousness within me was awakening.
+TEXT Then it directed its fangs against my utterly defenseless heart.
+TEXT That's what was happening inside me.
+TEXT I had no means of resisting.
+TEXT I could only endure the terror splitting my mind apart.
+TEXT It was the fear of death.
+TEXT The fear of having cold, dull blades touching your internal organs.
+TEXT Each one holding its own will, and able to slice through me on a single whim.
+TEXT I'm going to die...
+TEXT The fear of seeing death before your eyes without any means of evading it.
+PLAY_SOUND 01 'se69' 00 
+TEXT *hyuuuuuuuu*...
+TEXT The sound of the wind.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se70' 00 
+TEXT ...*kushaaaaaaaaaaaaaa!!!!*
+TEXT Those fangs dug into my heart.
+STOP_SOUND 01 
+X_00 0009 000E 
+X_04 007E 0001 
+GOSUB_SCRIPT 'EM14' 
+IF 16 17 00 15 01 00 02 00 .LABEL17 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL17
+STOP_SOUND 00 
+PLAY_SOUND 01 '018_har004' 00 
+TEXT ..."...I finally found you."
+STOP_SOUND 01 
+TEXT A voice.
+IF 17 87 00 15 00 00 02 00 .LABEL18 
+TEXT Right behind me.
+TEXT I was afraid of turning around.
+TEXT I was afraid of seeing it when I did turn around.
+JMP .LABEL19 
+
+:LABEL18
+TEXT Right in front of me.
+TEXT I was afraid of looking up.
+TEXT I was afraid of seeing it when I did look up.
+
+:LABEL19
+BACKGROUND 'FG068' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 '097_iku000' 00 
+TEXT Ikumi: "Ha......Haruka..."
+STOP_SOUND 01 
+TEXT I knew that face without question.
+TEXT Those eyes stared hard at me.
+TEXT ...at her target, me.
+PLAY_SOUND 01 '018_har005' 00 
+TEXT Haruka: "A life form continuing to live for no reason as a Lost Body..."
+STOP_SOUND 01 
+TEXT I didn't understand.
+TEXT Why on earth was this monster assuming Haruka's form...?
+PLAY_SOUND 01 '097_iku001' 00 
+TEXT Ikumi: "Who are you...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku002' 00 
+TEXT Ikumi: "That's my friend's appearance..."
+STOP_SOUND 01 
+TEXT But that was a flawless Haruka.
+TEXT ...it really was Haruka.
+PLAY_SOUND 01 '018_har006' 00 
+TEXT Haruka: "I shall eliminate you as ordered."
+STOP_SOUND 01 
+TEXT A moment's pause, then pressure...!
+TEXT My body flew backwards.
+TEXT My brain and all my blood were flung to the front of my body.
+TEXT The next moment,
+PLAY_SOUND 01 'se14' 00 
+TEXT *dagun!!!!*
+TEXT Impact.
+TEXT I lost consciousness.
+TEXT But only for a moment.
+TEXT I saw Haruka approaching me once again with killing intent.
+PLAY_SOUND 01 '097_iku003' 00 
+TEXT Ikumi: "Haruka, it's me......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku004' 00 
+TEXT Ikumi: "Why are you doing this...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har007' 00 
+TEXT Haruka: "Same reason I'd do this to a bug."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har008' 00 
+TEXT Haruka: "Your existence is a nuisance, so I'll destroy you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har009' 00 
+TEXT Haruka: "I'll destroy you who lack any reason to exist."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har010' 00 
+TEXT Haruka: "I'll break you into pieces like squashing a fly."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har011' 00 
+TEXT Haruka: "I'll rip you apart like pulling the legs off a centipede."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har012' 00 
+TEXT Haruka: "I'll make you explode like sticking a firecracker up a cicada's butt."
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku005' 00 
+TEXT Ikumi: "Stop!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku006' 00 
+TEXT Ikumi: "I have a will!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku007' 00 
+TEXT Ikumi: "Everything with a will has a reason to live!"
+PLAY_SOUND 01 '097_iku008' 00 
+TEXT Ikumi: "Because they can accomplish things!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har013' 00 
+TEXT Haruka: "You can accomplish nothing."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har014' 00 
+TEXT Haruka: "You're a failed product."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har015' 00 
+TEXT Haruka: "You can't complete a puzzle without all the pieces."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har016' 00 
+TEXT Haruka: "A mammoth whose tusks have frozen off is no mammoth."
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku009' 00 
+TEXT Ikumi: "No!!　Your way of thinking is wrong!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har017' 00 
+TEXT Haruka: "There is no need to listen to a failed product such as yourself."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har018' 00 
+TEXT Haruka: "It is meaningless at this point."
+STOP_SOUND 01 
+PLAY_SOUND 01 '097_iku010' 00 
+TEXT Ikumi: "You're wrong!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_har019' 00 
+TEXT Haruka: "Explode. Splatter your brains."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se54' 00 
+TEXT *mishi!!*
+PLAY_SOUND 01 '097_iku011' 00 
+TEXT Ikumi: "Hau...!"
+STOP_SOUND 01 
+TEXT Warm blood poured out of my nose.
+PLAY_SOUND 01 'se54' 00 
+TEXT *mishi!!!*
+TEXT My senses failed me.
+TEXT I no longer knew anything.
+PLAY_SOUND 01 'se54' 00 
+TEXT *mishi!!!!*
+TEXT Ah...
+TEXT But I understood one thing.
+TEXT The oncoming shiver.
+PLAY_SOUND 01 'se70' 00 
+TEXT *kishuuuuu!*...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+IF 17 84 00 15 00 00 02 00 .LABEL20 
+PLAY_SOUND 01 '018_har020' 00 
+TEXT ..."Ikumiiiiiiiiiiiii......!!!!"
+STOP_SOUND 01 
+TEXT Ah...
+X_04 0086 0001 
+
+:LABEL20
+PLAY_SOUND 01 'se68' 00 
+TEXT *zubashuuuuuuuuuuuuuuuuuuuu!!!!!!!!!*
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+IF 17 86 00 15 00 00 02 00 .LABEL21 
+PLAY_SOUND 01 '098_iku000' 00 
+TEXT Ikumi: "Ah......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy000' 00 
+TEXT Boy: "It'll be a while until morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy001' 00 
+TEXT Boy: "You should go back to sleep."
+STOP_SOUND 01 
+TEXT This happened before.
+TEXT Yes, when Yui's sister went berserk.
+TEXT But, this time was different.
+TEXT How did it end...?
+TEXT I remember...
+TEXT I...remember...
+PLAY_SOUND 01 '098_iku001' 00 
+TEXT Ikumi: "I killed...Haruka..."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku002' 00 
+TEXT Ikumi: "Didn't I?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku003' 00 
+TEXT Ikumi: "Didn't I kill Haruka?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy002' 00 
+TEXT Boy: "No, it wasn't you."
+STOP_SOUND 01 
+TEXT Eyes.
+TEXT The boy's eyes.
+TEXT Lying eyes.
+PLAY_SOUND 01 '098_iku004' 00 
+TEXT Ikumi: "Liar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku005' 00 
+TEXT Ikumi: "You're lying..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy003' 00 
+TEXT Boy: "No I'm not."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku006' 00 
+TEXT Ikumi: "Don't bother, I know...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku007' 00 
+TEXT Ikumi: "I killed her!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku008' 00 
+TEXT Ikumi: "I killed Haruka with my uncontrolled invisible strength!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku009' 00 
+TEXT Ikumi: "I remember it!!　Haruka's body tearing!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku010' 00 
+TEXT Ikumi: "She was torn apart!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku011' 00 
+TEXT Ikumi: "Torn completely in two!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku012' 00 
+TEXT Ikumi: "I tore her completely in two!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku013' 00 
+TEXT Ikumi: "So much blood came out, all the way to the ceiling..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku014' 00 
+TEXT Ikumi: "Haruka was torn in half..."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku015' 00 
+TEXT Ikumi: "Hey, say something..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku016' 00 
+TEXT Ikumi: "Hey, tell me I'm horrible..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku017' 00 
+TEXT Ikumi: "Hey, call me a murderer..."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku018' 00 
+TEXT Ikumi: "Say something..."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy004' 00 
+TEXT Boy: "...is there something you would like?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku019' 00 
+TEXT Ikumi: "...what is that......supposed to mean...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy005' 00 
+TEXT Boy: "You should wish for something you desire."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy006' 00 
+TEXT Boy: "I'll make an effort to grant it."
+STOP_SOUND 01 
+TEXT His final kindness.
+TEXT The boy was trying to grant me one final kindness.
+PLAY_SOUND 01 '098_iku020' 00 
+TEXT Ikumi: "It's too late...for me..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy007' 00 
+TEXT Boy: "It's been noticed that you're Lost. There's nothing I can do about it now."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku021' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy008' 00 
+TEXT Boy: "You did your best."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy009' 00 
+TEXT Boy: "I think it's alright."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku022' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy010' 00 
+TEXT Boy: "What would you like?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku023' 00 
+TEXT Ikumi: "...a peaceful sleep until morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '036_boy011' 00 
+TEXT Boy: "Okay, I understand."
+STOP_SOUND 01 
+TEXT I'll sleep peacefully until morning.
+TEXT Thinking about Haruka.
+TEXT That was the little bit of time I could still give her.
+TEXT Then, when I wake up, I won't look back anymore.
+TEXT I'll make the most of my final hours.
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT Haruka...
+BACKGROUND 'FG070' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd06' 01 
+X_3C 19 01 
+TEXT Hey, Haruka.
+TEXT It would've been nice to meet you somewhere else.
+TEXT I really liked your straightforward personality.
+TEXT Even if you were always fighting on the outside, we could really trust each other.
+TEXT If we'd met somewhere else, we might've been lifelong friends.
+TEXT Let's meet again in some classroom under a setting sun.
+TEXT Because then we could finally be happy friends.
+TEXT Hey, Haruka.
+TEXT Until that day, good night.
+TEXT .........
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+X_28 001E 
+GOTO_SCRIPT 'DAY15' 
+JMP .LABEL22 
+
+:LABEL21
+PLAY_SOUND 01 '098_iku024' 00 
+TEXT Ikumi: "Ah......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy000' 00 
+TEXT Boy: "It'll be a while until morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy001' 00 
+TEXT Boy: "You should go back to sleep."
+STOP_SOUND 01 
+TEXT This happened before.
+TEXT Yes, when Yui's sister went berserk.
+TEXT But, this time was different.
+TEXT Back then, my shiver awakened...
+TEXT Two fears collided...
+TEXT And the result...
+PLAY_SOUND 01 '098_iku025' 00 
+TEXT Ikumi: "What happened...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku026' 00 
+TEXT Ikumi: "What happened to Haruka...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy002' 00 
+TEXT Boy: "It was a really close call."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy003' 00 
+TEXT Boy: "You almost sent her to her grave."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy004' 00 
+TEXT Boy: "But we avoided the worst-case scenario..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku027' 00 
+TEXT Ikumi: "So what happened to Haruka...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy005' 00 
+TEXT Boy: "I had my hands full keeping you under control."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku028' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy006' 00 
+TEXT Boy: "She was chased down by the Fargo men..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku029' 00 
+TEXT Ikumi: "Hey..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku030' 00 
+TEXT Ikumi: "I'm asking about the result of all that!!!"
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy007' 00 
+TEXT Boy: "The invisible strength takes a large portion of its user's physical strength."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy008' 00 
+TEXT Boy: "For her especially, it was a tight constraint."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy009' 00 
+TEXT Boy: "She didn't know how to control it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy010' 00 
+TEXT Boy: "After slaughtering a few patrolmen, she lost that power temporarily."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy011' 00 
+TEXT Boy: "In that state she was a perfectly ordinary human."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy012' 00 
+TEXT Boy: "A one-sided hunt began."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy013' 00 
+TEXT Boy: "Within a hailstorm of bullets..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku031' 00 
+TEXT Ikumi: "Enough..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy014' 00 
+TEXT Boy: "Okay..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku032' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy015' 00 
+TEXT Boy: "But there is a chance she made it out of there."
+STOP_SOUND 01 
+PLAY_SOUND 01 '037_boy016' 00 
+TEXT Boy: "Don't throw away your hope."
+STOP_SOUND 01 
+PLAY_SOUND 01 '098_iku033' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Haruka...
+TEXT Tomorrow, I'll go look for you...
+TEXT But for now...let me rest...
+TEXT Sorry...
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT 
+GOTO_SCRIPT 'DAY15T' 
+
+:LABEL22
+EOF 

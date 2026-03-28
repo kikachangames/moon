@@ -1,0 +1,152 @@
+
+# MOON SCRIPT FILE "DEAD1.SNX"
+#
+# Comments are lines beginning with a # character
+
+PLAY_SOUND 00 'mon_cd12' 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT Escurid~o...
+TEXT Um quarto sombrio...
+TEXT Homens me encaram de cima...
+TEXT E eu...
+BACKGROUND 'FG151' 
+X_24 00 
+X_25 06 
+X_3C 0E 01 
+PLAY_SOUND 01 '014_iku004' 00 
+TEXT Ikumi: "......!!"
+STOP_SOUND 01 
+TEXT Minha postura atual deixava indevidamente expostas todas as minhas partes &ntimas.
+TEXT E havia uma luz revelando cada m&nimo detalhe disso.
+TEXT E aqueles homens contemplavam aquilo com grande interesse.
+PLAY_SOUND 01 '014_iku005' 00 
+TEXT Ikumi: "N~o!! Cubram isso!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2006' 00 
+TEXT Homem: "Heh, est$ com vergonha, %?"
+STOP_SOUND 01 
+TEXT Um dos homens falou.
+TEXT Com a luz atr$s dele, eu n~o conseguia distinguir seu rosto.
+PLAY_SOUND 01 '002_bt1000' 00 
+TEXT Homem: "...Mais cedo ou mais tarde, voc[ vai acabar se acostumando."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1001' 00 
+TEXT Homem: "De agora em diante, voc[ ficar$ nessa posi|~o para sempre."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1002' 00 
+TEXT Homem: "Voc[ realmente regrediu, at% a Classe D... n~o, ainda mais abaixo."
+STOP_SOUND 01 
+TEXT Uma voz diferente.
+PLAY_SOUND 01 '014_iku006' 00 
+TEXT Ikumi: "N~~~o... n~o olhem..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1003' 00 
+TEXT Homem: "N~o olhem...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1004' 00 
+TEXT Homem: "Se voc[ j$ se queixa s+ de ser observada, como vai sobreviver ao que vem a seguir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1005' 00 
+TEXT Homem: "Ent~o, que tal isso?"
+STOP_SOUND 01 
+TEXT *Slhurp...*
+PLAY_SOUND 01 '014_iku007' 00 
+TEXT Ikumi: "N~ooo...!"
+STOP_SOUND 01 
+TEXT Senti algo quente e molhado se contorcendo ao redor das minhas partes &ntimas.
+PLAY_SOUND 01 '014_iku008' 00 
+TEXT Ikumi: "N~~~o... n~o fa|a isso a&..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_bt1006' 00 
+TEXT Homem: "Olha s+, uma ex-Classe A.\nQue del&cia!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2007' 00 
+TEXT Homem: "Bem, n~o faz sentido estarmos aqui se for s+ pra fazer isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2008' 00 
+TEXT Homem: "Que comece o N&vel 1."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2009' 00 
+TEXT Homem: "S+ n~o espere que este n&vel acabe t~o cedo..."
+STOP_SOUND 01 
+TEXT Os homens come|aram a sacar diversos dispositivos.
+TEXT N~o precisava v[-los para saber.
+TEXT Eram ferramentas de estupro...
+TEXT Ferramentas que iriam me penetrar...
+TEXT O que vai acontecer comigo agora...?
+TEXT *Slurp*
+TEXT Ser$ que vou continuar a satisfazer esses homens neste lugar escuro...?
+PLAY_SOUND 01 'se58' 00 
+TEXT *Tchuck*...*Tckuck*...
+TEXT Continuar dando prazer a eles...
+PLAY_SOUND 01 '002_bt1007' 00 
+TEXT Homem: "Uou...... Ela % gostosa demais...!"
+STOP_SOUND 01 
+TEXT N~o... eu n~o consigo pensar...
+TEXT Se eu come|ar a pensar, eu seria... o medo me consumiria...
+PLAY_SOUND 01 '002_bt1008' 00 
+TEXT Homem: "Haa...haaa...haaaa!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se58' 00 
+TEXT *Tchuck*...!*Tckuck*...!
+TEXT .........
+STOP_SOUND 01 
+TEXT Ent~o fechei completamente todos os meus pensamentos.
+TEXT 
+X_30 00 
+X_31 00 
+X_32 00 
+BACKGROUND 'FG226' 
+X_24 00 
+X_25 06 
+X_28 0032 
+STOP_SOUND 00 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT 
+SELECT 0003 'Ouvir uma dica' 'Voltar # tela inicial' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+BACKGROUND 'CGfa03' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_bt1000' 00 
+TEXT Homem: "...Idiota!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1001' 00 
+TEXT Homem: "@ isso que acontece quando voc[ fica zanzando pelos outros pr%dios sem motivo algum."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1002' 00 
+TEXT Homem: "Apenas n~o se force a fazer nada est^pido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1003' 00 
+TEXT Homem: "Sen~o eles v~o te pegar de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1004' 00 
+TEXT Homem: "Droga... se eu tivesse patrulhado o Pr%dio A ent~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1005' 00 
+TEXT Homem: "......De qualquer forma!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1006' 00 
+TEXT Homem: "Nem pense em desperdi|ar essa sua beleza..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt1007' 00 
+TEXT Homem: "Grave isso na sua cabe|a e pare de viajar!"
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT O patrulheiro foi embora sem dizer mais uma palavra.
+JMP .LABEL0 
+
+:LABEL0
+X_28 0028 
+X_00 0017 0001 
+RETURN 
+EOF 

@@ -1,0 +1,315 @@
+
+# MOON SCRIPT FILE "JO_D16.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0005 
+SETSTATUS ' Dia 16Å@Interior da instala|~o'
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay16' 
+X_56 00 005F 0017 
+X_3E 02 73 'isetu' 
+X_56 02 00BE 0017 
+X_3E 01 74 'ime6' 
+X_56 01 0096 0017 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+IF 16 09 00 15 3F 00 07 00 .LABEL0 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'JO' 
+X_24 00 
+X_25 06 
+X_01 0006 0009 
+
+:LABEL0
+X_00 0007 0006 
+IF 16 09 00 15 09 00 02 00 .LABEL1 
+JMP .LABEL2 
+JMP .LABEL2 
+
+:LABEL1
+IF 16 09 00 15 0A 00 02 00 .LABEL4 
+JMP .LABEL5 
+JMP .LABEL2 
+
+:LABEL4
+IF 16 09 00 15 35 00 02 00 .LABEL7 
+JMP .LABEL8 
+JMP .LABEL2 
+
+:LABEL7
+IF 16 09 00 15 36 00 02 00 .LABEL10 
+JMP .LABEL11 
+JMP .LABEL2 
+
+:LABEL10
+IF 16 09 00 15 17 00 02 00 .LABEL13 
+JMP .LABEL14 
+JMP .LABEL2 
+
+:LABEL13
+IF 16 09 00 15 3F 00 02 00 .LABEL2 
+JMP .LABEL17 
+
+:LABEL2
+X_01 0006 0009 
+
+:LABEL25
+X_52 012A 009A 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Porta' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL18 
+TEXT H$ uma porta aqui.
+JMP .LABEL19 
+
+:LABEL18
+IF 16 03 00 15 02 00 02 00 .LABEL20 
+X_00 0009 000D 
+GOTO_SCRIPT 'PR_D16' 
+JMP .LABEL19 
+
+:LABEL20
+IF 16 03 00 15 03 00 02 00 .LABEL19 
+X_00 0009 000A 
+JMP .LABEL5 
+JMP .LABEL19 
+
+:LABEL19
+JMP .LABEL25 
+
+:LABEL5
+X_01 0006 0009 
+
+:LABEL36
+X_52 014F 009A 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Voltar' '(Å´ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL26 
+TEXT H$ uma porta aqui.
+JMP .LABEL27 
+
+:LABEL26
+IF 16 03 00 15 02 00 02 00 .LABEL28 
+X_00 0009 0009 
+JMP .LABEL2 
+JMP .LABEL27 
+
+:LABEL28
+IF 16 03 00 15 03 00 02 00 .LABEL31 
+TEXT Abri a porta silenciosamente, confirmei a aus[ncia de qualquer patrulheiro e escorreguei para dentro sem ser notada.
+X_00 0009 003E 
+GOTO_SCRIPT 'X_D16' 
+JMP .LABEL27 
+
+:LABEL31
+IF 16 03 00 15 04 00 02 00 .LABEL27 
+X_00 0009 0035 
+JMP .LABEL8 
+JMP .LABEL27 
+
+:LABEL27
+JMP .LABEL36 
+
+:LABEL8
+X_01 0006 0009 
+
+:LABEL45
+X_52 014F 00BF 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL37 
+TEXT N~o tem nada aqui.
+JMP .LABEL38 
+
+:LABEL37
+IF 16 03 00 15 01 00 02 00 .LABEL39 
+X_00 0009 000A 
+JMP .LABEL5 
+JMP .LABEL38 
+
+:LABEL39
+IF 16 03 00 15 04 00 02 00 .LABEL38 
+X_00 0009 0036 
+JMP .LABEL11 
+JMP .LABEL38 
+
+:LABEL38
+JMP .LABEL45 
+
+:LABEL11
+X_01 0006 0009 
+
+:LABEL54
+X_52 014F 00E5 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL46 
+TEXT N~o tem nada aqui.
+JMP .LABEL47 
+
+:LABEL46
+IF 16 03 00 15 01 00 02 00 .LABEL48 
+X_00 0009 0035 
+JMP .LABEL8 
+JMP .LABEL47 
+
+:LABEL48
+IF 16 03 00 15 04 00 02 00 .LABEL47 
+X_00 0009 0017 
+JMP .LABEL14 
+JMP .LABEL47 
+
+:LABEL47
+JMP .LABEL54 
+X_52 014F 010A 
+X_51 01 
+X_25 01 
+
+:LABEL14
+X_01 0006 0009 
+IF 17 8D 00 15 00 00 02 00 .LABEL55 
+TEXT H$ uma porta com um leitor de cart~ao instalado de um lado.
+X_04 008D 0001 
+
+:LABEL55
+X_52 014F 010A 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Porta' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL56 
+TEXT H$ uma porta com um leitor de cart~ao instalado de um lado.
+TEXT Deve abrir se eu usar este cart~o de acesso.
+JMP .LABEL57 
+
+:LABEL56
+IF 16 03 00 15 01 00 02 00 .LABEL58 
+X_00 0009 0036 
+JMP .LABEL11 
+JMP .LABEL57 
+
+:LABEL58
+IF 16 03 00 15 04 00 02 00 .LABEL57 
+IF 17 91 00 15 00 00 02 00 .LABEL62 
+TEXT Passei o cart~o de acesso na ranhura e destravei a fechadura.
+TEXT Ent~o a porta se abriu, confirmei a aus[ncia de patrulheiros do outro lado e entrei discretamente.
+JMP .LABEL63
+
+:LABEL62
+TEXT Usei o cart~o de acesso para destravar a porta e entrei na sala.
+
+:LABEL63
+X_00 0009 003F 
+JMP .LABEL17 
+JMP .LABEL57 
+
+:LABEL57
+JMP .LABEL55 
+
+:LABEL17
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+IF 17 92 00 15 00 00 02 00 .LABEL67 
+TEXT Apenas uma sala vazia...
+TEXT Mas parece que vale a pena examinar.
+JMP .LABEL68
+
+:LABEL67
+IF 17 40 00 15 00 00 02 00 .LABEL69
+TEXT Apenas uma sala vazia...
+TEXT Mas esta sala tamb%m se conecta ao subterr}neo...
+JMP .LABEL68
+
+:LABEL69
+TEXT Sa& do corredor subterr}aneo e ca& em uma sala vazia.
+X_04 0040 0000 
+
+:LABEL68
+IF 17 92 00 15 00 00 02 00 .LABEL71 
+TEXT 
+SELECT 0003 'Examinar' 'Sair da sala' 
+X_51 00 
+IF 16 03 00 15 01 00 02 00 .LABEL72 
+TEXT Depois de examinar a sala cuidadosamente...
+X_3E 04 53 'G007' 
+X_56 04 0028 004E 
+X_3F 04 01 
+X_25 01 
+TEXT Eu sabia...
+TEXT H$ uma placa de ferro cobrindo uma escada que leva ao subterr}neo.
+X_04 0092 0001 
+JMP .LABEL73 
+
+:LABEL72
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'JO' 
+X_24 00 
+X_25 06 
+X_00 0009 0017 
+JMP .LABEL14 
+
+:LABEL73
+JMP .LABEL75 
+
+:LABEL71
+TEXT 
+SELECT 0003 'Examinar' 'Entrar na Passagem Subterr}nea' 'Sair do local' 
+X_51 00 
+IF 16 03 00 15 01 00 02 00 .LABEL76 
+TEXT Tem uma escada para o corredor subterr}aneo escondida nesta sala.
+JMP .LABEL75 
+
+:LABEL76
+IF 16 03 00 15 02 00 02 00 .LABEL78 
+TEXT Levantei a placa de ferro no canto da sala e desci na escurid~o.
+X_3F 04 00 
+X_25 01 
+X_00 0010 0001 
+X_00 0009 0051 
+GOTO_SCRIPT 'B01' 
+JMP .LABEL75 
+
+:LABEL78
+X_3F 04 00 
+X_25 01 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'JO' 
+X_24 00 
+X_25 06 
+X_00 0009 0017 
+JMP .LABEL14 
+
+:LABEL75
+JMP .LABEL68 
+EOF 

@@ -1,0 +1,1439 @@
+
+# MOON SCRIPT FILE "EL6.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e06_dop999' 00 
+TEXT ...Safada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku000' 00 
+TEXT O qu[...? ...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop000' 00 
+TEXT ...Pervertida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop001' 00 
+TEXT ...Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop002' 00 
+TEXT ...Foi por causa disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop003' 00 
+TEXT ...@ tudo culpa do seu eu exterior, por se exibir em estados t~o vergonhosos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop004' 00 
+TEXT ...Por causa disso, n+s que ficamos para tr$s naquela %poca, tivemos que sofrer uma vergonha eterna.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop005' 00 
+TEXT ...Por que voc[ % t~o pervertida?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku001' 00 
+TEXT .........
+PLAY_SOUND 01 'e06_dop006' 00 
+TEXT ...Por que voc[ gosta tanto de sexo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku002' 00 
+TEXT .........
+PLAY_SOUND 01 'e06_dop007' 00 
+TEXT ...Por que voc[ gosta tanto dos +rg~os sexuais masculinos?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku003' 00 
+TEXT .........
+PLAY_SOUND 01 'e06_dop008' 00 
+TEXT Por que voc[ gosta tanto de exibir seus +rg~os sexuais?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku004' 00 
+TEXT .........
+PLAY_SOUND 01 'e06_dop009' 00 
+TEXT ...Por qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku005' 00 
+TEXT .........
+PLAY_SOUND 01 'e06_dop010' 00 
+TEXT ...@ t~o dif&cil assim se segurar?
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku006' 00
+TEXT .........
+PLAY_SOUND 01 'e06_dop011' 00
+TEXT ...Ent~o se vire sozinha.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku007' 00
+TEXT .........
+PLAY_SOUND 01 'e06_dop012' 00
+TEXT ...Todo mundo faz isso. Todos fazem.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku008' 00
+TEXT .........
+PLAY_SOUND 01 'e06_dop013' 00
+TEXT ...Eu posso te ajudar.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku009' 00
+TEXT N~o... t$ tudo bem...
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop014' 00
+TEXT ...Voc[ n~o precisa se segurar.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop015' 00
+TEXT ...Al%m disso, isso % um problema nosso tamb%m.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop016' 00
+TEXT ...N~o podemos deixar voc[ na m~o.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop017' 00
+TEXT ...N~o podemos deixar voc[ sair sem liberar todo esse desejo sexual nojento reprimido.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop018' 00
+TEXT ...N~o podemos deixar voc[ voltar # realidade com tudo isso acumulado.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop019' 00
+TEXT ...Ent~o, o que voc[ vai querer?
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop020' 00
+TEXT ...Aqui dentro podemos fazer qualquer coisa.
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop021' 00
+TEXT ...Apenas pense em algo incrivelmente pervertido.
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se87' 00 
+TEXT *Tchum!* *Tchum!*
+STOP_SOUND 01 
+TEXT Um vento repentino rasgou todas as minhas roupas. 
+TEXT E ent~o...
+PLAY_SOUND 01 'se88' 00 
+TEXT *Tchiu tchiu tchiu tchiu tchiu tchiu!*
+STOP_SOUND 01 
+TEXT Cordas se entrela|aram em meu corpo.
+TEXT Percebi que estava amarrada a uma cadeira.
+TEXT N~o poderia haver uma postura mais humilhante.
+BACKGROUND 'FG108' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e06_dop022' 00 
+TEXT "...Ent~o essa % a situa|~o que voc[ desejou."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop023' 00
+TEXT "...A situa|~o que desejou do fundo do seu cora|~o."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku010' 00
+TEXT "Ugh..."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop024' 00
+TEXT "...Voc[ desejou algo incr&vel!"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku011' 00
+TEXT "N~o... eu n~o desejei isso!"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop025' 00
+TEXT "...S+ voc[ mesmo! Quem mais poderia ter desejado isso?"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop026' 00
+TEXT "...Sem d^vida, % a situa|~o que voc[ desejou."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop027' 00
+TEXT "...Ent~o, o que quer que eu fa|a?"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop028' 00
+TEXT "...Deseje isso tamb%m."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop029' 00
+TEXT "...Quer que eu lamba seus +rg~os sexuais expostos como uma cadela no cio?"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop030' 00
+TEXT "...Quer que eu insira um objeto estranho?"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop031' 00
+TEXT "...Isso % masturba|~o."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop032' 00
+TEXT "...Descarregar os pr+prios desejos sem causar problemas a ningu%m."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop033' 00
+TEXT "...Ent~o, deseje agora."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku012' 00 
+TEXT "Mas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku013' 00 
+TEXT "Se este % o meu mundo e s+ meu, ent~o posso desfazer essas amarras..."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop034' 00
+TEXT "...N~o, voc[ n~o pode."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop035' 00
+TEXT "...Porque n~o est$ desejando isso."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop036' 00
+TEXT "...Os humanos podem tirar a pr+pria vida, mas isso n~o significa que o fa|am."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop037' 00
+TEXT "...Pelo mesmo motivo, voc[ n~o vai fazer isso."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku014' 00
+TEXT "Mas existem pessoas que tiram a pr+pria vida..."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop038' 00
+TEXT "...Estou falando de pessoas em geral."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop039' 00
+TEXT "...Est$ me dizendo que conseguiria tirar a pr+pria vida?"
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_iku015' 00
+TEXT "N~o consigo fazer isso, mas posso desfazer essas amarras."
+STOP_SOUND 01
+PLAY_SOUND 01 'e06_dop040' 00
+TEXT "...V$ em frente e tente."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Desfazer minhas amarras' 'Desistir' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+TEXT Desfiz as amarras.
+TEXT Desfiz minhas restri|/es.
+TEXT Foi o que pensei em meu cora|~o.
+PLAY_SOUND 01 'e06_dop041' 00 
+TEXT "...Imposs&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop042' 00 
+TEXT "...In^til."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop043' 00 
+TEXT "...Voc[ quer fazer algo pervertido."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop044' 00 
+TEXT "...N~o %?"
+STOP_SOUND 01 
+TEXT Meu cora|~o desprez&vel.
+TEXT N~o consigo ouvir isso.
+PLAY_SOUND 01 'e06_dop045' 00 
+TEXT "...Veja, voc[ est$ ficando molhada a& embaixo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop046' 00 
+TEXT "...Seus fluidos pervertidos est~o escorrendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop047' 00 
+TEXT "...Prova de que voc[ quer fazer coisas pervertidas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop048' 00 
+TEXT "...N~o est$ co|ando a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop049' 00 
+TEXT "...N~o quer que esfreguem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop050' 00 
+TEXT "...N~o quer que coloquem algo a& dentro?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku016' 00 
+TEXT N~o est$ co|ando!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku017' 00 
+TEXT N~o quero que esfreguem!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku018' 00 
+TEXT N~o quero que coloquem nada dentro!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop051' 00 
+TEXT "...Seus mamilos est~o duros."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop052' 00 
+TEXT "...N~o quer que apertem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop053' 00 
+TEXT "...N~o quer que mexam nos seus seios?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku019' 00 
+TEXT N~o est~o duros!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku020' 00 
+TEXT N~o quero que apertem!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku021' 00 
+TEXT N~o quero que mexam!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop054' 00 
+TEXT "...A saliva est$ escorrendo do canto da sua boca."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop055' 00 
+TEXT "...N~o quer que eu chupe?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop056' 00 
+TEXT "...N~o quer entrela|ar sua l&ngua com outra?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku022' 00 
+TEXT N~o est$ saindo saliva!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku023' 00 
+TEXT N~o quero que chupe nada!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku024' 00 
+TEXT N~o quero entrela|ar minha l&ngua com ningu%m!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop057' 00 
+TEXT "...E na sua cabe|a voc[ est$ pensando em mim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop058' 00 
+TEXT "...N~o quer que eu fa|a coisas pervertidas com voc[?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'N~o quero fazer nada com voc[' 'Talvez eu queira' 
+IF 16 03 00 15 01 00 02 00 .LABEL1 
+PLAY_SOUND 01 'e06_iku025' 00 
+TEXT N~o estou pensando nisso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku026' 00 
+TEXT N~o quero fazer nada com voc[!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop059' 00 
+TEXT "...Ser$ que isso % verdade mesmo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku027' 00 
+TEXT Totalmente, ou seja l$ o que for, % verdade!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku028' 00 
+TEXT Quem iria querer fazer algo pervertido consigo mesmo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop060' 00 
+TEXT "...Voc[ est$ mentindo. N~o est$?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku029' 00 
+TEXT Eu n~o estou mentindo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop061' 00 
+TEXT "...Afinal, voc[ se ama."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku030' 00 
+TEXT Isso %......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop062' 00 
+TEXT "...Voc[ n~o se ama demais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku031' 00 
+TEXT Isso %...... espera...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop063' 00 
+TEXT "...Voc[ ama seu rosto."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop064' 00 
+TEXT "...Voc[ ama seu rosto equilibrado."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop065' 00 
+TEXT "...Voc[ ama seus olhos grandes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop066' 00 
+TEXT "...Voc[ ama seu cabelo longo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop067' 00 
+TEXT "...Voc[ ama seus seios grandes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop068' 00 
+TEXT "...Voc[ ama o formato dos seus mamilos."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop069' 00 
+TEXT "...Voc[ ama seus quadris esguios."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop070' 00 
+TEXT "...Voc[ ama seu bumbum."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop071' 00 
+TEXT "...Voc[ ama seu penteado."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop072' 00 
+TEXT "...Voc[ ama suas coxas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop073' 00 
+TEXT "...Voc[ ama seus tornozelos."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop074' 00 
+TEXT "...Voc[ se ama at% a morte, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku032' 00 
+TEXT Isso...... n~o %...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop075' 00 
+TEXT "...Voc[ n~o tem confian|a em si mesma?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop076' 00 
+TEXT "...Voc[ n~o percebe que % a garota mais linda da escola?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop077' 00 
+TEXT "...Voc[ n~o se orgulha de ser t~o fofa e ao mesmo tempo ser uma corredora t~o r$pida?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop078' 00 
+TEXT "...Na competi|~o nacional de atletismo, voc[ n~o se orgulhava de que ningu%m l$ era t~o fofa quanto voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop079' 00 
+TEXT "...Quando foi entrevistada para o jornal local, voc[ n~o gostou de ser chamada de 'garota bonita'?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop080' 00 
+TEXT "...Voc[ n~o assistia #quela grava|~o todos os dias como uma narcisista?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop081' 00 
+TEXT "...Voc[ n~o ficava encantada em pausar na parte que estava mais bonita e se admirar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop082' 00 
+TEXT "...Voc[ realmente se ama."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop083' 00 
+TEXT "...Est$ loucamente apaixonada."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop084' 00 
+TEXT "...Ama tanto a si mesma que poderia lamber um espelho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop085' 00 
+TEXT "...@ ou n~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku033' 00 
+TEXT Sim......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop086' 00 
+TEXT "...E esse seu Eu amado est$ bem diante de voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop087' 00 
+TEXT "...Uma das suas vers/es fofas est$ aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop088' 00 
+TEXT "...N~o % um espelho, nem bidimensional."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop089' 00 
+TEXT "...@ uma segunda vers~o de voc[ que realmente existe."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop090' 00 
+TEXT "...Voc[ n~o quer que ela fa|a coisas pervertidas com voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop091' 00 
+TEXT "...Voc[ n~o quer se beijar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop092' 00 
+TEXT "...Voc[ n~o quer lamber seus pr+prios seios?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop093' 00 
+TEXT "...Voc[ n~o quer cheirar seus pr+prios +rg~os sexuais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop094' 00 
+TEXT "...Voc[ n~o quer fazer coisas pervertidas com a sua outra vers~o fofa?"
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e06_iku034' 00 
+TEXT Sim... eu quero...
+STOP_SOUND 01 
+BACKGROUND 'FG109' 
+X_24 00 
+X_25 06 
+X_3C 06 01 
+PLAY_SOUND 01 'e06_dop095' 00 
+TEXT "...Viu? N~o sou fofa?"
+STOP_SOUND 01 
+TEXT <Eu> coloquei <minhas> m~os nas minhas bochechas im+veis.
+TEXT <Meu> rosto apareceu diante dos meus olhos.
+TEXT T~o fofo...
+PLAY_SOUND 01 'e06_dop096' 00 
+TEXT "...Agora, n~o quer chupar esta l&ngua?"
+STOP_SOUND 01 
+TEXT Ela moveu a l&ngua por baixo dos l$bios.
+TEXT Eu quero chupar.
+PLAY_SOUND 01 'e06_dop097' 00 
+TEXT "...Vamos, voc[ pode chupar."
+STOP_SOUND 01 
+TEXT Ela esticou a l&ngua.
+TEXT Eu estendi meu pesco|o e estiquei minha pr+pria l&ngua.
+TEXT *Tic*
+TEXT As pontas se tocaram.
+TEXT Nossas l&nguas se entrela|aram como duas serpentes.
+TEXT Eu queria chupar entre meus l$bios, mas ela n~o esticou o suficiente, ent~o s+ consegui lamber.
+TEXT A saliva come|ou a pingar dos dois cantos da minha boca.
+PLAY_SOUND 01 'e06_dop098' 00 
+TEXT "...Voc[ quer chupar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku035' 00 
+TEXT "Quero chupar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop099' 00 
+TEXT "...Voc[ quer beijar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku036' 00 
+TEXT "Quero beijar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop100' 00 
+TEXT "...Voc[ quer beber saliva?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku037' 00 
+TEXT "Quero beber..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop101' 00 
+TEXT "...Voc[ n~o tem jeito, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku038' 00 
+TEXT "Por favor..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop102' 00 
+TEXT "...Tudo bem."
+STOP_SOUND 01 
+TEXT <Eu> abri a boca pela metade.
+TEXT E comecei a chupar aquilo.
+TEXT *Smack*
+TEXT Nossas bocas se encontraram.
+TEXT <Meus> l$bios fofos.
+TEXT S~o lindos.
+TEXT <Minha> l&ngua fofa.
+TEXT Estava deliciosa e ativa.
+TEXT <Minha> saliva fofa.
+TEXT Pegajosa e deliciosa.
+TEXT Eu devorei <meus> l$bios sem pensar, chupei <minha> l&ngua e bebi <minha> saliva.
+TEXT O sabor era fascinante.
+TEXT Ao mesmo tempo, <eu> envolvi um dos meus seios com a m~o livre e apertei o mamilo entre o indicador e o dedo m%dio.
+TEXT Quando aqueles dois dedos apertaram meu mamilo, um choque percorreu meu corpo.
+TEXT <Eu> n~o esqueci de continuar apertando o seio.
+TEXT <Eu> continuei aplicando press~o em toda sua extens~o.
+TEXT <Eu> mudei a forma de segurar, desta vez pressionando o mamilo com o polegar.
+TEXT <Eu> o rolei e o enterrei dentro do pr+prio seio.
+PLAY_SOUND 01 'e06_iku039' 00 
+TEXT "Ahhua..."
+STOP_SOUND 01 
+TEXT O f{lego escapou entre nossas bocas.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Ughu*
+TEXT E ent~o um choque percorreu meu ponto mais sens&vel.
+TEXT <Meus> dedos haviam come|ado a me tocar ali.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Uugu*
+TEXT <Meus> dedos se enterraram na minha vagina.
+TEXT Ent~o <meu> dedo indicador subiu para tocar no clit+ris.
+TEXT De novo, espalhando tudo ao redor.
+PLAY_SOUND 01 'e06_dop103' 00 
+TEXT "...Voc[ est$ fazendo coisas pervertidas comigo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop104' 00 
+TEXT "...Est$ gostoso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku040' 00 
+TEXT "Est$ gostoso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop105' 00 
+TEXT "...Voc[ ama sua vers~o fofa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku041' 00 
+TEXT "Eu te amo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop106' 00 
+TEXT "...Quer continuar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku042' 00 
+TEXT "N~o pare..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchu*...*Tchu*...
+TEXT Como se quisesse extrair todo o meu l&quido, <meus> dedos esfregaram ao redor da minha vagina.
+PLAY_SOUND 01 'e06_iku043' 00 
+TEXT "Haa... me abrace..."
+STOP_SOUND 01 
+TEXT Eu implorei a ela.
+PLAY_SOUND 01 'e06_dop107' 00 
+TEXT "...Entendi. Voc[ quer que eu te abrace?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku044' 00 
+TEXT "Sim... quero ser abra|ada pela minha vers~o fofa."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop108' 00 
+TEXT "...Voc[ realmente me ama."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku045' 00 
+TEXT "Eu amo... eu te amo!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop109' 00 
+TEXT "...Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku046' 00 
+TEXT "Eu te amo!! ...Eu te amo at% a morte!!"
+STOP_SOUND 01 
+TEXT <Eu> me segurei forte, enquanto mordia <meu> ombro e gemia de forma ador$vel.
+PLAY_SOUND 01 'e06_iku047' 00 
+TEXT "Nn......nnnn...!"
+STOP_SOUND 01 
+TEXT Minha mente ficou em branco.
+TEXT Ent~o...
+TEXT Toda a for|a me abandonou.
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> estava perdendo sangue do <meu> ombro, e me encarava com olhos s+brios.
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> apenas me olhei em sil[ncio.
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku048' 00 
+TEXT "Diga alguma coisa..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku049' 00 
+TEXT "Ei, diga alguma coisa..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Olhos de desd%m.
+TEXT Eles me fuzilavam.
+PLAY_SOUND 01 'e06_iku050' 00 
+TEXT "Diga alguma coisa!!"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop110' 00 
+TEXT "...Reflita bem sobre o que voc[ acabou de fazer."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Dizendo apenas isso, <eu> desapareci.
+PLAY_SOUND 01 'e06_iku051' 00 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku052' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku053' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku054' 00 
+TEXT N~o me d[ tempo para pensar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku055' 00 
+TEXT Zombe de mim com palavras, e me machuque...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku056' 00 
+TEXT Me insulte pelas coisas anormais que eu fiz...
+STOP_SOUND 01 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku057' 00 
+TEXT N~~~~~~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku058' 00 
+TEXT N~~~~~~~~~~~~~~~~~~o!!!!
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL2 
+
+:LABEL1
+PLAY_SOUND 01 'e06_iku059' 00 
+TEXT Talvez eu queira isso sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku060' 00 
+TEXT Afinal, eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku061' 00 
+TEXT Eu estou apaixonada por mim mesma...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop111' 00 
+TEXT "...Voc[ n~o se ama perdidamente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku062' 00 
+TEXT Sim... eu me amo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku063' 00 
+TEXT Eu amo meu rosto.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku064' 00 
+TEXT Eu amo meu rosto bem proporcionado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku065' 00 
+TEXT Eu amo meus olhos grandes.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku066' 00 
+TEXT Eu amo meu cabelo comprido.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku067' 00 
+TEXT Eu amo meus seios grandes.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku068' 00 
+TEXT Eu amo o formato dos meus mamilos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku069' 00 
+TEXT Eu amo meus quadris finos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku070' 00 
+TEXT Eu amo minha bunda.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku071' 00 
+TEXT Eu amo meu penteado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku072' 00 
+TEXT Eu amo minhas coxas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku073' 00 
+TEXT Eu amo meus tornozelos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku074' 00 
+TEXT Eu me amo at% a morte.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku075' 00 
+TEXT Tenho confian|a em mim mesma.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku076' 00 
+TEXT Tenho consci[ncia que sou a garota mais linda da escola.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku077' 00 
+TEXT Tenho orgulho de ser t~o fofa e ao mesmo tempo t~o r$pida como corredora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku078' 00 
+TEXT No campeonato nacional de atletismo, me enchi de orgulho ao ver que n~o havia ningu%m t~o fofa quanto eu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku079' 00 
+TEXT Quando fui entrevistada pela TV local, adorei ser chamada de garota bonita.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku080' 00 
+TEXT Assisti aquela grava|~o todos os dias como uma narcisista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku081' 00 
+TEXT Ficava encantada em pausar no momento em que eu estava mais bonita e me admirar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku082' 00 
+TEXT Eu realmente me amo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku083' 00 
+TEXT Estou perdidamente apaixonada!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku084' 00 
+TEXT Amo tanto a mim mesma que lamberia meu reflexo no espelho!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku085' 00 
+TEXT E essa Eu, que tanto amo, est$ diante de mim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku086' 00 
+TEXT Uma das minhas vers/es fofas est$ aqui.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku087' 00 
+TEXT N~o % um espelho, n~o % bidimensional.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku088' 00 
+TEXT @ um segundo Eu, que existe de verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku089' 00 
+TEXT Quero que ela fa|a coisas pervertidas comigo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku090' 00 
+TEXT Quero que ela me beije.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku091' 00 
+TEXT Quero que chupe meus seios.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku092' 00 
+TEXT Quero que ela sinta o cheiro da minha vagina.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku093' 00 
+TEXT Quero que essa minha outra vers~o fofa fa|a coisas pervertidas comigo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop112' 00 
+TEXT "...N~o % isso que voc[ quer?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Sim... Eu quero' 'N~o... Pare com isso' 
+IF 16 03 00 15 01 00 02 00 .LABEL3 
+PLAY_SOUND 01 'e06_iku094' 00 
+TEXT "Sim... @ isso que eu quero..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop113' 00 
+TEXT "...Sim, eu vou fazer."
+STOP_SOUND 01 
+TEXT <Eu> coloquei <minhas> m~os nas minhas bochechas im+veis.
+BACKGROUND 'FG109' 
+X_24 00 
+X_25 06 
+X_3C 06 01 
+PLAY_SOUND 01 'e06_dop095' 00 
+TEXT "...Olha. N~o sou fofa?"
+STOP_SOUND 01 
+TEXT <Meu> rosto surgiu diante dos meus olhos.
+TEXT T~o fofa...
+PLAY_SOUND 01 'e06_dop096' 00 
+TEXT "...Agora, n~o quer chupar essa l&ngua?"
+STOP_SOUND 01 
+TEXT Ela moveu a l&ngua por baixo dos l$bios.
+TEXT Eu quero chupar.
+PLAY_SOUND 01 'e06_dop097' 00 
+TEXT "...Anda, pode chupar."
+STOP_SOUND 01 
+TEXT Ela estendeu a l&ngua.
+TEXT Estiquei o pesco|o e projetei minha pr+pria l&ngua.
+TEXT *Tic*
+TEXT As pontas se tocaram.
+TEXT Nossas l&nguas se enroscaram como duas serpentes.
+TEXT Eu queria sug$-la entre os l$bios, mas ela n~o a estendia o suficiente, ent~o s+ consegui lamber.
+TEXT A saliva come|ou a escorrer pelos dois cantos da boca.
+PLAY_SOUND 01 'e06_dop098' 00 
+TEXT "...Voc[ quer chupar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku035' 00 
+TEXT "Quero chupar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop099' 00 
+TEXT "...Voc[ quer beijar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku036' 00 
+TEXT "Quero beijar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop100' 00 
+TEXT "...Voc[ quer beber saliva?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku037' 00 
+TEXT "Quero beber..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop101' 00 
+TEXT "...Voc[ n~o tem jeito, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku038' 00 
+TEXT "Por favor..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop102' 00 
+TEXT "...Tudo bem."
+STOP_SOUND 01  
+TEXT <Eu> projetei minha boca entreaberta.
+TEXT E comecei a sugar aquilo.
+TEXT *Shlep*
+TEXT Nossas bocas se encontraram.
+TEXT <Meus> l$bios fofos.
+TEXT S~o lindos.
+TEXT <Minha> l&ngua fofa.
+TEXT Era deliciosa e cheia de vida.
+TEXT <Minha> saliva fofa.
+TEXT Pegajosa e saborosa.
+TEXT Sem pensar, devorei <meus> l$bios, suguei <minha> l&ngua e bebi <minha> saliva.
+TEXT O gosto era fascinante.
+TEXT Ao mesmo tempo, <eu> envolvi um dos meus seios com a m~o livre e apertei o mamilo entre o dedo indicador e o m%dio.
+TEXT Quando esses dois dedos apertaram o mamilo, um choque percorreu meu corpo.
+TEXT <Eu> n~o me esqueci de continuar apertando o seio.
+TEXT <Eu> segui aplicando press~o em toda a sua extens~o.
+TEXT <Eu> mudei a forma de segur$-lo, dessa vez pressionando o mamilo para baixo com o polegar.
+TEXT <Eu> o rolei e o enterrei dentro do meu pr+prio seio.
+PLAY_SOUND 01 'e06_iku039' 00 
+TEXT "Afuuua..."
+STOP_SOUND 01 
+TEXT O f{lego escapou de entre nossas bocas.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchu*
+TEXT E ent~o um choque percorreu meu ponto mais sens&vel.
+TEXT <Meus> dedos tinham come|ado a me tocar ali.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk*
+TEXT <Meus> dedos se enterraram na minha fenda.
+TEXT Ent~o, o indicador subiu para tocar a sali[ncia ali.
+TEXT Mais uma vez, empurrando e massageando em volta.
+PLAY_SOUND 01 'e06_dop103' 00 
+TEXT "...Voc[ est$ fazendo coisas pervertidas comigo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop104' 00 
+TEXT "...Est$ gostoso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku040' 00 
+TEXT "Est$ gostoso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop105' 00 
+TEXT "...Voc[ ama sua vers~o fofa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku041' 00 
+TEXT "Eu te amo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop106' 00 
+TEXT "...Quer continuar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku042' 00 
+TEXT "N~o pare..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk*...*Tchuk*...
+TEXT Como se quisessem espalhar todo o meu fluido, <meus> dedos esfregavam em volta da minha vagina.
+PLAY_SOUND 01 'e06_iku043' 00 
+TEXT "Haa... me abrace..."
+STOP_SOUND 01 
+TEXT Eu supliquei.
+PLAY_SOUND 01 'e06_dop107' 00 
+TEXT "...Entendo. Voc[ quer que eu te abrace?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku044' 00 
+TEXT "Sim... quero ser abra|ada pela minha vers~o fofa."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop108' 00 
+TEXT "...Voc[ deve realmente me amar."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku045' 00 
+TEXT "Eu amo...... eu te amo!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop109' 00 
+TEXT "...Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku046' 00 
+TEXT "Eu te amo!!... Eu te amo at% a morte!!"
+STOP_SOUND 01 
+TEXT <Eu> me apertei com for|a, enquanto mordia <meu> ombro e gemia de forma ador$vel.
+PLAY_SOUND 01 'e06_iku047' 00 
+TEXT "Nn......nnnn...!"
+STOP_SOUND 01 
+TEXT Minha mente ficou em branco.
+TEXT Ent~o...
+TEXT Toda minha for|a me abandonou.
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> perdia sangue do <meu> ombro, e me olhava com olhos s+brios.
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> apenas me encarava em sil[ncio.
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku048' 00 
+TEXT "Diga alguma coisa..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku049' 00 
+TEXT "Ei, fala alguma coisa..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Olhos de desprezo...
+TEXT Me fuzilavam.
+PLAY_SOUND 01 'e06_iku050' 00 
+TEXT "Diga alguma coisa!!"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop110' 00 
+TEXT "...Reflita bem sobre o que acabou de fazer."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Dizendo apenas isso, <Eu> desapareci.
+PLAY_SOUND 01 'e06_iku051' 00 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku052' 00 
+TEXT "N~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku053' 00 
+TEXT "N~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku054' 00 
+TEXT "N~o me deixe tempo pra pensar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku055' 00 
+TEXT "Me ridicularize com palavras, me machuque..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku056' 00 
+TEXT "Me insulte pelas coisas anormais que eu fiz..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku057' 00 
+TEXT "N~~~~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku058' 00 
+TEXT "N~~~~~~~~~~o!!!!"
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL2 
+
+:LABEL3
+PLAY_SOUND 01 'e06_iku095' 00 
+TEXT "N~o... n~o quero isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku096' 00 
+TEXT "At% quero... mas n~o vou desejar isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku097' 00 
+TEXT "Se eu desejasse, tudo seria igual."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku098' 00 
+TEXT "Repeti|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku099' 00 
+TEXT "Eu continuaria sendo uma garota vulgar, sem autocontrole."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop114' 00 
+TEXT "...N~o. Aqui n~o % preciso ter autocontrole."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop115' 00 
+TEXT "...Isso % masturba|~o. Deseje o que quiser."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku100' 00 
+TEXT "Eu n~o vou desejar isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop116' 00 
+TEXT "...Deseje. Caso contr$rio, vai continuar nos causando problemas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku101' 00 
+TEXT "Eu n~o vou desejar, mas tamb%m n~o vou causar problemas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop117' 00 
+TEXT "...Deseje. Se voc[ se segurar agora, vai cometer outro erro na realidade."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku102' 00 
+TEXT "Eu n~o vou desejar, e n~o vou cometer esse erro."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop118' 00 
+TEXT "...Imposs&vel. Sem esperan|a. Deseje. Deseje transar comigo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku103' 00 
+TEXT "Eu n~o vou desejar."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop119' 00 
+TEXT "...Por qu[? Estou dizendo que voc[ pode fazer coisas pervertidas com a sua vers~o fofa."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku104' 00 
+TEXT "Porque o que eu desejo % deixar de ser uma garota pervertida."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku105' 00 
+TEXT "Se eu desejar isso, vai ser f$cil romper essas amarras."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se14' 00 
+TEXT *Pram!*
+TEXT "As cordas se desfizeram e voaram para longe."
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e06_dop120' 00 
+TEXT "...Sem sentido."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop121' 00 
+TEXT "...Suas a|/es n~o t[m sentido."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop122' 00 
+TEXT "...Eu vou te amarrar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku106' 00 
+TEXT "E eu vou me desamarrar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku107' 00 
+TEXT "Com a minha pr+pria vontade."
+STOP_SOUND 01 
+X_04 0004 0001 
+X_08 0014 0001 
+
+:LABEL2
+JMP .LABEL5 
+
+:LABEL0
+PLAY_SOUND 01 'e06_iku108' 00 
+TEXT "N~o consigo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku109' 00 
+TEXT "N~o consigo desfazer essas amarras..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku110' 00 
+TEXT "Porque eu n~o quero desfaz[-las."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku111' 00 
+TEXT "Quero ficar assim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku112' 00 
+TEXT "Quero permanecer nesta posi|~o pervertida."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku113' 00 
+TEXT "Essa % a minha vontade."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop124' 00 
+TEXT "...Sim. Voc[ quer fazer coisas pervertidas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop125' 00 
+TEXT "...N~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku114' 00 
+TEXT "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop045' 00 
+TEXT "...Veja, voc[ est$ ficando molhada a& embaixo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop046' 00 
+TEXT "...Seus fluidos pervertidos est~o escorrendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop047' 00 
+TEXT "...Prova de que voc[ quer fazer coisas pervertidas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop048' 00 
+TEXT "...N~o est$ co|ando a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop049' 00 
+TEXT "...N~o quer que coce?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop050' 00 
+TEXT "...N~o quer que algo entre?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku115' 00 
+TEXT "Sim, est$ co|ando."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku116' 00 
+TEXT "Quero que coce."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku117' 00 
+TEXT "Quero que algo entre."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop051' 00 
+TEXT "...Seus mamilos est~o duros."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop052' 00 
+TEXT "...N~o quer que eles sejam beliscados?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop053' 00 
+TEXT "...N~o quer que seus seios sejam apalpados?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku118' 00 
+TEXT "Sim, est~o duros."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku119' 00  
+TEXT "Quero que sejam beliscados."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku120' 00 
+TEXT "Quero que sejam apalpados."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop054' 00 
+TEXT "...A saliva est$ escorrendo do canto da sua boca."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop055' 00 
+TEXT "...Voc[ n~o quer ser chupada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop056' 00 
+TEXT "...N~o quer envolver sua l&ngua com outra?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku121' 00 
+TEXT "Sim, est$ escorrendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku122' 00 
+TEXT "Quero ser chupada."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku123' 00 
+TEXT "Quero envolver minha l&ngua com outra."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop057' 00 
+TEXT "...E na sua mente voc[ est$ pensando em mim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop058' 00  
+TEXT "...N~o quer que eu fa|a coisas pervertidas com voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop061' 00 
+TEXT "Sim......"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop062' 00 
+TEXT "...Voc[ ama a si mesma, n~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku125' 00 
+TEXT "Sim... isso mesmo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop063' 00 
+TEXT "...Voc[ ama seu rosto."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop064' 00 
+TEXT "...Voc[ ama seu rosto harmonioso."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop065' 00 
+TEXT "...Voc[ ama seus olhos grandes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop066' 00 
+TEXT "...Voc[ ama seu cabelo longo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop067' 00 
+TEXT "...Voc[ ama seus seios grandes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop068' 00 
+TEXT "...Voc[ ama o formato dos seus mamilos."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop069' 00 
+TEXT "...Voc[ ama seus quadris esguios."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop070' 00 
+TEXT "...Voc[ ama seu bumbum."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop071' 00 
+TEXT "...Voc[ ama seu penteado."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop072' 00 
+TEXT "...Voc[ ama suas coxas."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop073' 00 
+TEXT "...Voc[ ama seus tornozelos."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop074' 00 
+TEXT "...Voc[ se ama at% a morte, n~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku126' 00 
+TEXT Sim......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop075' 00 
+TEXT "...Voc[ n~o tem confian|a em si mesma?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop076' 00 
+TEXT "...Voc[ n~o est$ ciente de ser a maior beleza da escola?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop077' 00 
+TEXT "...Voc[ n~o se orgulha de ser t~o fofa e ainda assim ser uma corredora t~o r$pida?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop078' 00 
+TEXT "...Durante o campeonato nacional de atletismo, voc[ n~o se orgulhou de que ningu%m l$ era t~o fofa quanto voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop079' 00 
+TEXT "...Quando foi entrevistada para o jornal local, voc[ n~o gostou de ser chamada de garota bonita?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop080' 00 
+TEXT "...Voc[ n~o assistiu #quela transmiss~o todos os dias como uma narcisista?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop081' 00 
+TEXT "...Voc[ n~o ficou encantada ao pausar na melhor cena e se observar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop082' 00 
+TEXT "...Voc[ realmente se ama."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop083' 00 
+TEXT "...Voc[ est$ loucamente apaixonada."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop084' 00 
+TEXT "...Voc[ se ama o suficiente para lamber um espelho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop085' 00 
+TEXT "...N~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku127' 00 
+TEXT "Sim......"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop086' 00 
+TEXT "...E esse Eu amado est$ bem na sua frente."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop087' 00 
+TEXT "...Uma das suas vers/es fofas est$ aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop088' 00 
+TEXT "...N~o % um espelho, n~o % bidimensional."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop089' 00  
+TEXT "...@ um segundo Eu que realmente existe."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop090' 00 
+TEXT "...Voc[ n~o quer que ela fa|a coisas pervertidas com voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop091' 00 
+TEXT "...Voc[ n~o quer se beijar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop092' 00 
+TEXT "...Voc[ n~o quer chupar seus pr+prios seios?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop093' 00 
+TEXT "...Voc[ n~o quer cheirar sua pr+pria vagina?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop094' 00 
+TEXT "...Voc[ n~o quer fazer coisas pervertidas com sua outra vers~o fofa?"
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e06_iku128' 00 
+TEXT "Sim... eu quero..."
+STOP_SOUND 01 
+BACKGROUND 'FG109' 
+X_24 00 
+X_25 06 
+X_3C 06 01 
+PLAY_SOUND 01 'e06_dop095' 00 
+TEXT "...Viu? N~o sou fofa?"
+STOP_SOUND 01 
+TEXT <Eu> coloquei <minhas> m~os nas minhas bochechas im+veis.
+TEXT <Meu> rosto surgiu diante dos meus olhos.
+TEXT T~o fofo...
+PLAY_SOUND 01 'e06_dop096' 00 
+TEXT "...Agora, voc[ n~o quer chupar essa l&ngua?"
+STOP_SOUND 01 
+TEXT Ela moveu a l&ngua debaixo dos l$bios.
+TEXT Quero chupar.
+PLAY_SOUND 01 'e06_dop097' 00 
+TEXT "...Vamos, voc[ pode chupar."
+STOP_SOUND 01 
+TEXT Ela colocou a l&ngua para fora.
+TEXT Eu estendi meu pesco|o e estiquei minha pr+pria l&ngua.
+TEXT *Tic*
+TEXT As pontas se tocaram.
+TEXT Nossas l&nguas se entrela|aram como serpentes.
+TEXT Queria chupar entre meus l$bios, mas ela n~o esticou tanto, ent~o s+ pude lamber.
+TEXT Ent~o a saliva come|ou a escorrer pelos cantos da minha boca.
+PLAY_SOUND 01 'e06_dop098' 00 
+TEXT "...Voc[ quer chupar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku035' 00 
+TEXT "Quero chupar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop099' 00 
+TEXT "...Voc[ quer beijar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku036' 00 
+TEXT "Quero beijar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop100' 00 
+TEXT "...Voc[ quer beber saliva?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku037' 00 
+TEXT "Quero beber..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop101' 00 
+TEXT "...Voc[ n~o tem jeito, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku038' 00 
+TEXT "Por favor..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop102' 00 
+TEXT "...T$ bom."
+STOP_SOUND 01 
+TEXT <Eu> estiquei <minha> boca semiaberta.
+TEXT E comecei a chupar.
+TEXT *Slurp*
+TEXT Nossas bocas se tocaram.
+TEXT <Meus> l$bios fofos.
+TEXT S~o lindos.
+TEXT <Minha> l&ngua fofa.
+TEXT Estava deliciosa e ativa.
+TEXT <Minha> saliva fofa.
+TEXT Pegajosa e deliciosa.
+TEXT Eu devorei <meus> l$bios sem pensar, chupei <minha> l&ngua e bebi <minha> saliva.
+TEXT O sabor era fascinante.
+TEXT Ao mesmo tempo, <eu> envolvia um dos meus seios com a m~o livre, e apertava meu mamilo entre <meu> dedo indicador e m%dio.
+TEXT Quando esses dois dedos apertaram meu mamilo, um arrepio percorreu meu corpo.
+TEXT <Eu> n~o esqueci de continuar apertando meu seio.
+TEXT <Eu> continuei exercendo press~o em toda sua extens~o.
+TEXT <Eu> mudei a forma como segurava, desta vez pressionando meu mamilo para baixo com <meu> polegar.
+TEXT <Eu> o rolei e o enterrei dentro do meu pr+prio seio.
+PLAY_SOUND 01 'e06_iku039' 00 
+TEXT "Aaahhha..."
+STOP_SOUND 01 
+TEXT O ar escapava de entre nossas bocas.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchu*
+TEXT Ent~o um arrepio percorreu meu ponto mais sens&vel.
+TEXT <Meus> dedos come|aram a me tocar ali.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk*
+TEXT <Meus> dedos se enterraram na minha vagina.
+TEXT Ent~o <meu> dedo indicador subiu para tocar o clit+ris.
+TEXT De novo, empurrando-a por toda parte.
+PLAY_SOUND 01 'e06_dop103' 00 
+TEXT "...Voc[ est$ fazendo coisas pervertidas comigo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop104' 00 
+TEXT "...Isso % bom?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku040' 00 
+TEXT "@ bom..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop105' 00 
+TEXT "...Voc[ ama sua vers~o fofa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku041' 00 
+TEXT "Eu te amo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop106' 00 
+TEXT "...Quer continuar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku042' 00 
+TEXT "N~o pare nunca..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00  
+TEXT *Tchuk*...*Tchuk*...
+TEXT Como se quisesse extrair todo meu l&quido, <meus> dedos esfregavam minha vagina.
+PLAY_SOUND 01 'e06_iku043' 00 
+TEXT "Haa... me abrace..."
+STOP_SOUND 01 
+TEXT Eu implorei a ela.
+PLAY_SOUND 01 'e06_dop107' 00 
+TEXT "...Entendi. Voc[ quer que eu te abrace?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku044' 00 
+TEXT "Sim... quero ser abra|ada pela minha vers~o fofa."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop108' 00 
+TEXT "...Voc[ realmente me ama."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku045' 00  
+TEXT "Eu amo...... eu te amo!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop109' 00 
+TEXT "...Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku046' 00 
+TEXT "Eu te amo!! ...Eu te amo at% a morte!!"
+STOP_SOUND 01 
+TEXT <Eu> me apertei com for|a, mordendo <meu> ombro, e gemendo adoravelmente.
+PLAY_SOUND 01 'e06_iku047' 00 
+TEXT "Nn......nnnn...!"
+STOP_SOUND 01 
+TEXT Minha cabe|a ficou branca.
+TEXT Ent~o...
+TEXT Toda minha for|a me deixou.
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> estava perdendo sangue do <meu> ombro, e me olhava com olhos s+brios.
+TEXT "........."
+STOP_SOUND 01 
+TEXT <Eu> apenas me olhou em sil[ncio.
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku048' 00 
+TEXT "Diga algo..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku049' 00 
+TEXT "Ei, diga algo..."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Olhos de desd%m...
+TEXT Me fuzilando.
+PLAY_SOUND 01 'e06_iku050' 00 
+TEXT "Diga algo!!"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_dop110' 00 
+TEXT "...Apenas reflita sobre o que acabou de fazer."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Dito isso, <eu> desapareci.
+PLAY_SOUND 01 'e06_iku051' 00 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku052' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku053' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku054' 00 
+TEXT N~o me d[ tempo para pensar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku055' 00 
+TEXT Ridicularize-me com palavras, e me machuque...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku056' 00 
+TEXT Insulte-me pelas coisas anormais que fiz...
+STOP_SOUND 01 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku057' 00 
+TEXT N~~~~~ooo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_iku058' 00 
+TEXT N~~~~~~~~~oooooooo!!!!
+STOP_SOUND 01 
+X_0C 0014 0001 
+
+:LABEL5
+RETURN 
+EOF 

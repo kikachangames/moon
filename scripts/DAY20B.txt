@@ -1,0 +1,1511 @@
+# Second part of DAY20.SNX
+# (for the first part, see DAY20A)
+
+PLAY_SOUND 01 'tok_dop010' 00 
+TEXT 「…なにをしてるの、あなたはこんなところで」
+STOP_SOUND 01 
+TEXT 私の後ろに並んでいた誰かが声をかけてくる。
+PLAY_SOUND 01 '004_ik2046' 00 
+TEXT 「すのこを買ってるのよ。すのこ」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop011' 00 
+TEXT 「…どうしてそんなものがいるのよ」
+STOP_SOUND 01 
+TEXT この人はなんにも知らないんだな。
+PLAY_SOUND 01 '004_ik2047' 00 
+TEXT 「だってハジに襲われたら、大変じゃない」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop012' 00 
+TEXT 「…ハジってなによ」
+STOP_SOUND 01 
+TEXT ほんとう、知らないの？
+PLAY_SOUND 01 'tok_dop013' 00 
+TEXT 「…あなたは知っているの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2048' 00 
+TEXT 「知ってる。すごく凶暴で、醜いのよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop014' 00 
+TEXT 「…それで」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2049' 00 
+TEXT 「それでって、そういうものなのよ、ハジって」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop015' 00 
+TEXT 「…それは知らないのと同じ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2050' 00 
+TEXT 「違う。知ってるもの」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop016' 00 
+TEXT 「…いや、知らないんじゃなくて、そこまで詳細を決めていなかったのね」
+STOP_SOUND 01 
+TEXT なんかこの喋り口調、聞いたことがあるな。
+PLAY_SOUND 01 '004_ik2051' 00 
+TEXT 「ねぇ、あなた誰よっ？」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop017' 00 
+TEXT 「…私？」
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'tok_dop018' 00 
+TEXT 「…私はあなたよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2052' 00 
+TEXT 「あ……」
+STOP_SOUND 01 
+TEXT 私か…。
+TEXT なんか長い間、ひっくり返っていた自分に見慣れていたから気づかなかった。
+TEXT そうそう、こんな顔してたっけ。
+PLAY_SOUND 01 'tok_dop019' 00 
+TEXT 「…なにを悠長に」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop020' 00 
+TEXT 「…ねぇ、あなた、自分の世界に閉じこもろうとしてるのよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2053' 00 
+TEXT 「自分の世界…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop021' 00 
+TEXT 「…そう。自分の手で母親を殺したことを認めてしまったら、だめ」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop022' 00 
+TEXT 「…決してあなたは、つまり私は、自分の手で母親を殺してなんかいない」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop023' 00 
+TEXT 「…信じて」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2054' 00 
+TEXT 「いいのよ、べつに。今の生活に不自由してないし」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2055' 00 
+TEXT 「ただハジは多いけどね」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop024' 00 
+TEXT 「…馬鹿なこと言ってないで」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop025' 00 
+TEXT 「…時の証人なんてものだって、存在しないのよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop026' 00 
+TEXT 「…ヤツが作り出した幻影」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop027' 00 
+TEXT 「…そんなものに騙されて、こんなところですのこ買ってるなんて…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2056' 00 
+TEXT 「あなたの言ってることは全然理解できないわ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2057' 00 
+TEXT 「もしかしてあなた、バカなの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop028' 00 
+TEXT 「……私だってねぇ、そんなこと言われたらキレるわよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ik2058' 00 
+TEXT 「え…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 'tok_dop029' 00 
+TEXT 「…いい加減に…」
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'tok_dop030' 00 
+TEXT 「戻れええええええええええええええええええぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇっっっっ！！！！！」
+STOP_SOUND 01 
+BACKGROUND 'FG092' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 '004_ik2059' 00 
+TEXT 郁未「あっ…」
+STOP_SOUND 01 
+TEXT 月…。
+TEXT まん丸い月。
+TEXT 悪意を持った月。
+TEXT 私を狂わそうとした月。
+TEXT …狂いたかったのはキミ自身なのだよ。
+TEXT 違う。騙されない。
+TEXT もう騙されない。
+TEXT これは戦いなのだから…
+TEXT 私はあなたを倒すまで。
+PLAY_SOUND 01 'se69' 00 
+TEXT シュゥゥゥゥゥゥッ…！
+TEXT 冬のアスファルトを走る白い蒸気に似た煙が私の顔を撫でてゆく。
+PLAY_SOUND 01 'se14' 00 
+TEXT ビシィッ！
+TEXT 鱗状だった私の頬の一部が剥げ落ちた。
+TEXT そしてその下の真っ赤な肉を露とさせてしまった。
+TEXT 待って…
+TEXT そんな鱗状の皮膚なんて私は持ってない。
+TEXT それにどうして、その下の真っ赤な肉など確認できようものか。
+TEXT 幻覚だ。
+TEXT …よく母親を殺してのうのうと＊＊＊＊＊＊＊
+STOP_SOUND 01 
+TEXT …よく母親＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+STOP_SOUND 01 
+TEXT …＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+STOP_SOUND 01 
+TEXT 言葉の介入を拒む。
+TEXT そして私は再び意志の力を集める。
+TEXT ぐわっ…！
+TEXT 圧倒的な力が巨大な水球のように私の目の前に浮かび上がる。
+TEXT 早い。
+TEXT さっきとは集中の速度が桁違いだ。
+PLAY_SOUND 01 '004_ik2060' 00 
+TEXT 郁未「でも足りない」
+STOP_SOUND 01 
+TEXT さらに意志をかき集める。
+TEXT 耳の裏、くるぶしの影に隠れた部分、ありとあらゆる場所から。
+TEXT 力の球の表面に、無数の針のような突起がビシシィィッ！と走り、そして消えてゆく。
+TEXT 漲る力に力自身が打ち震えているかのようだった。
+TEXT 再び私は頭上の月を睨み上げる。
+TEXT 消えろ。
+PLAY_SOUND 01 'se76' 00 
+TEXT ズバンッッ！！
+TEXT 一瞬だった。
+TEXT まばたきする間もなく、
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'se78' 00 
+TEXT グオオオオオオォォォォォォォォォンンンッッッ！！
+TEXT 世界が震撼した。
+PLAY_SOUND 01 'se79' 00 
+TEXT シュゴオオォォォォォォォォォォォォォォォォーーーッッッ！！
+TEXT そして、訪れる強風。
+TEXT 目も開けていられないほどだ。
+TEXT だが流れが、渦を巻くように部屋の中心へと向いているのがわかる。
+TEXT 足の裏が、じりじりとその方へ擦ってゆく。
+TEXT 一度浮いてしまえば、一気にその中心へと飲み込まれてしまうのだ。
+TEXT ただ私は闇雲に駆けた。
+PLAY_SOUND 01 'se80' 00 
+TEXT グオオオオオオオオオオォォォォォォォォォォォーーーーッッ！！
+TEXT そして、開け放たれたドアともおぼつかない空間に、私は身を投じた。
+STOP_SOUND 01 
+TEXT ………
+TEXT ……
+TEXT …
+TEXT 
+X_00 0009 000F 
+X_04 0096 0001 
+IF 17 86 00 15 01 00 02 17 64 00 15 01 00 02 0F 00 .LABEL63 
+BACKGROUND 'FG225' 
+X_24 00 
+X_25 06 
+X_28 0028 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se80' 00 
+TEXT ごおおおおおおおおおぉぉぉぉぉぉぉぉぉぉ………
+PLAY_SOUND 01 '021_yui000' 00 
+TEXT 由依（うわぁ…すごい地鳴り……一体なにが起き　　　てるんだろ…）
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui001' 00 
+TEXT 由依（おかげで巡回員のみなさんがいなくなって　　　自由に歩けるようになったけど…）
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui002' 00 
+TEXT 由依（へぇ…こんなところにも通路が伸びてる…）
+STOP_SOUND 01 
+STOP_SOUND 01 
+BACKGROUND 'FG171' 
+X_24 00 
+X_25 06 
+X_3C 15 01 
+PLAY_SOUND 00 'mon_cd06' 01 
+PLAY_SOUND 01 '021_yui003' 00 
+TEXT 由依「あ……あれっ…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui004' 00 
+TEXT 由依「晴香さんじゃないですかぁっ！！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har001' 00 
+TEXT 晴香「え…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui005' 00 
+TEXT 由依「晴香さん、無事だったんですねぇ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui006' 00 
+TEXT 由依「しばらく会えなくなっちゃってたから、す　　ごく心配してたんですよぉっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har002' 00 
+TEXT 晴香「誰よ…あんた」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui007' 00 
+TEXT 由依「もうやだなぁ…由依ですよ、由依」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har003' 00 
+TEXT 晴香「由依……そう…そうだったわね…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui008' 00 
+TEXT 由依「え……晴香さん？　どうしちゃったんです　　か…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har004' 00 
+TEXT 晴香「ううん……よくわからないのよ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har005' 00 
+TEXT 晴香「一体こんなところで何をしてるのか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui009' 00 
+TEXT 由依「晴香さん…」
+STOP_SOUND 01 
+TEXT 暗闇に目が慣れてくると、ようやく克明となってくる。
+TEXT 晴香の血だらけの姿が。
+PLAY_SOUND 01 '021_yui010' 00 
+TEXT 由依（…返り血だ）
+STOP_SOUND 01 
+TEXT 点々と染みのように張り付いた血が晴香のものではないことは、由依にでもわかった。
+TEXT 晴香が今日まで、どのような過酷の中に居たか、それを想像させるものだった。
+PLAY_SOUND 01 '021_yui011' 00 
+TEXT 由依「晴香さん……憶えてないんですか…？」
+STOP_SOUND 01 
+TEXT 酷な質問だったか。
+TEXT だが由依はそれを聞いた。
+PLAY_SOUND 01 '019_har006' 00 
+TEXT 晴香「いろんなことがあった。ただそんな気がす　　るだけ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui012' 00 
+TEXT 由依「とても……心が痛むことだったんですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har007' 00 
+TEXT 晴香「そう。心に深い傷が残るようなこと」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har008' 00 
+TEXT 晴香「でもいいのよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har009' 00 
+TEXT 晴香「私はそれを憶えていない。だからいいのよ、　　どんなことがあったんだとしても…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui013' 00 
+TEXT 由依「そう……でしょうか…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har010' 00 
+TEXT 晴香「そうなのよ。どんな辛い過去があってもね、　　それを知らなければ生きてゆける」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har011' 00 
+TEXT 晴香「ただ刹那、悲しいだけよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui014' 00 
+TEXT 由依「そんなので…いいんでしょうか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har012' 00 
+TEXT 晴香「なにが言いたいのよ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui015' 00 
+TEXT 由依「思い出さないままいたほうがいい真実なん　　て…実はないんじゃないですか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har013' 00 
+TEXT 晴香「どうして…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui016' 00 
+TEXT 由依「だってそれは…なんていうか…うまく言え　　ないけど…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui017' 00 
+TEXT 由依「その事実を受け止めた上で生きてゆかない　　と…自分勝手だって…そう思う…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har014' 00 
+TEXT 晴香「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui018' 00 
+TEXT 由依「すべてを受け止めて、自分の中で整理して、　　心の奥に閉まっておかないといけないんじ　　ゃないかな…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui019' 00 
+TEXT 由依「自分の過去の一部を一切閉じこめるって、　　その周囲に居た人たちの存在ってものも一　　緒に閉じこめてしまうわけで…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui020' 00 
+TEXT 由依「そんなものを伏したまま、のうのうと生き　　てゆくなんて…」
+STOP_SOUND 01 
+TEXT 声が震えていた。でもうまく喋ろうと、由依は頑張る。
+PLAY_SOUND 01 '021_yui021' 00 
+TEXT 由依「すごく自分勝手。自分に甘えてる」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui022' 00 
+TEXT 由依「正直に生きるってすごく…辛いけど……」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui023' 00 
+TEXT 由依「でもそれが人の強さなんだと思う…」
+STOP_SOUND 01 
+TEXT 最後の方はほとんど涙声だった。
+PLAY_SOUND 01 '019_har015' 00 
+TEXT 晴香「つたない言葉…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui024' 00 
+TEXT 由依「ごめんなさい…うまく言えなかった…」
+STOP_SOUND 01 
+TEXT 鼻水をずるずるとすする。
+PLAY_SOUND 01 '019_har016' 00 
+TEXT 晴香「あんた馬鹿でしょ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har017' 00 
+TEXT 晴香「馬鹿じゃないと、そんな真正直な考え方な　　んてできないもの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui025' 00 
+TEXT 由依「そう…なんでしょうね…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui026' 00 
+TEXT 由依「でもきっと、晴香さんにもできますよ、そ　　ういう生き方」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har018' 00 
+TEXT 晴香「それって馬鹿にしてるのよねぇ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui027' 00 
+TEXT 由依「そんなことないですよっ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui028' 00 
+TEXT 由依「さあ、一緒に……一緒にいきましょう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har019' 00 
+TEXT 晴香「どこへ…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui029' 00 
+TEXT 由依「とりあえずは、ここの人たちを助けてあげ　　たりなんかできたらいいなぁって思ってる　　んですけど」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui030' 00 
+TEXT 由依「これまであたし、人に迷惑かけるばかりの　　生き方してきたから…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har020' 00 
+TEXT 晴香「そう…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui031' 00 
+TEXT 由依「でもどこだって、ここよりはマシでしょう　　？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har021' 00 
+TEXT 晴香「…ま、そうね…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_yui032' 00 
+TEXT 由依「じゃあ、ほら立って」
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har022' 00 
+TEXT 晴香「ええ…」
+STOP_SOUND 01 
+BACKGROUND 'FG172' 
+X_24 00 
+X_25 06 
+X_3C 16 01 
+TEXT 由依…。
+TEXT ほんとうおかしな子だ、と晴香は思う。
+PLAY_SOUND 01 '019_har023' 00 
+TEXT 晴香（この子と一緒にいたら…）
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har024' 00 
+TEXT 晴香（私の記憶喪失の真似事だって、いつか終わ　　　れる日が来るのかもしれない）
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_har025' 00 
+TEXT 晴香（そのときは、良祐……あなたのために泣い　　　てあげられるわね）
+STOP_SOUND 01 
+TEXT 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+X_28 000A 
+
+:LABEL63
+BACKGROUND 'BG017' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+TEXT ＦＡＲＧＯの男達が、列を成して走り回っている。
+TEXT 黒い醜い集団だ。
+TEXT ある意味葬列の様にも思える。
+TEXT 何が起こっているのかも分からずに、ただ群集心理で右左へ疾走しているだけの無能な男達。
+PLAY_SOUND 01 '010_bt1000' 00 
+TEXT 男「大変だぁっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_bt2000' 00 
+TEXT 男「非常事態だぁっ！」
+STOP_SOUND 01 
+TEXT 右左から、サラウンドの様に男達の泣き言が聞こえる。
+TEXT 何が大変なのか、なにが非常事態なのか、言っている本人自体何も分かってはいないのだろう。
+TEXT 私がその渦中の人物とも気づかずに、幾人もの男達が横をすり抜けていく。
+TEXT 勝者の余韻。
+TEXT 特別な人間であることの優越感。
+TEXT 一人くらい私にちょっかいをかけてくればいい。
+TEXT そうすれば、不可視の力でその男の頭を吹き飛ばしてあげるのに。
+TEXT 夏の日の公園で、餌に向かって列を作る働き蟻の中心を靴で踏みにじるような快感が味わえるかもしれない。
+TEXT そう思うと愉快でたまらなかった。
+TEXT 自分たちの研究していた力が、逆に自分たちの破滅を導いたんだ。
+TEXT モルモットに喉仏を噛みちぎられる。
+TEXT こんな楽しい皮肉はない。
+TEXT ……けど。
+TEXT 私は見てしまった。
+STOP_SOUND 00 
+TEXT その黒い幕の中心に、一人の女性の姿を…。
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '005_ik2000' 00 
+TEXT 郁未「葉子さん…」
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you001' 00 
+TEXT 葉子「食堂でお待ちしています」
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ik2001' 00 
+TEXT 郁未「…えっ？」
+STOP_SOUND 01 
+TEXT 体内に何かが流れ込む感覚。
+TEXT 視界が暗転する。
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT 精神強度
+TEXT 一定値のクリア
+TEXT 力の注入
+TEXT 別棟への一時的隔離
+TEXT １日目
+TEXT ２日目
+TEXT ３日目
+TEXT ４日目
+TEXT ５日目
+TEXT ６日目
+TEXT ７日目
+TEXT ８日目
+TEXT ９日目
+TEXT １０日目
+TEXT １１日目
+TEXT １２日目
+TEXT 共存
+TEXT 不可視の力
+TEXT 成功体
+TEXT Ａ‐９
+TEXT 指令
+TEXT 消去
+TEXT 目標
+TEXT ……
+TEXT Ａ‐１２
+BACKGROUND 'BG017' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '005_ik2002' 00 
+TEXT 郁未「…どうして…」
+STOP_SOUND 01 
+TEXT 『勝者の余韻』
+TEXT 『特別な人間であることの優越感』
+TEXT そんな感情は一瞬でかき消えていた。
+PLAY_SOUND 01 '005_ik2003' 00 
+TEXT 郁未「どうして…」
+STOP_SOUND 01 
+TEXT もう一度問う。
+TEXT しかしその問いに答える者は誰もいなかった。
+TEXT 
+X_04 0028 0001 
+X_00 0009 000F 
+GOSUB_SCRIPT 'A_D20' 
+IF 16 17 00 15 01 00 02 00 .LABEL64 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL64
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+TEXT 食堂の扉。
+TEXT ノブに手をかける。
+PLAY_SOUND 01 '006_ik2000' 00 
+TEXT 郁未「……」
+STOP_SOUND 01 
+TEXT 本当に避けては通れないのか…。
+TEXT 自問する。
+TEXT それが、無意味な逃避だと分かっていても。
+PLAY_SOUND 01 '006_ik2001' 00 
+TEXT 郁未「……」
+STOP_SOUND 01 
+TEXT 一度息を吸って、ノブを回す。
+PLAY_SOUND 01 'se41' 00 
+TEXT カチャ…。
+TEXT 扉は簡単に開いた。
+BACKGROUND 'BG007' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd05' 01 
+TEXT 食堂に入る。
+TEXT 相変わらず無愛想な部屋だった。
+TEXT 視線を巡らせる。
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+TEXT いつもの場所に葉子さんが座っていた。
+TEXT きちんとトレイを正面に置いている。
+TEXT 料理は何も盛られていない。
+TEXT 空のトレイだった。
+PLAY_SOUND 01 '006_ik2002' 00 
+TEXT 郁未「こんにちは」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you002' 00 
+TEXT 葉子「…こんにちは」
+STOP_SOUND 01 
+TEXT 少しだけ頭を垂れる。
+TEXT 私はいつも食事の入っている小扉を開き、中からトレイを取り出す。
+TEXT 無論、料理は乗っていない。
+TEXT 軽いトレイを持って、葉子さんの向かいの席に立つ。
+PLAY_SOUND 01 '006_ik2003' 00 
+TEXT 郁未「ここ、座ってもいい？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you003' 00 
+TEXT 葉子「…どうぞ」
+STOP_SOUND 01 
+TEXT 椅子を引いて席に座る。
+TEXT トレイを真正面に据える。
+PLAY_SOUND 01 '006_ik2004' 00 
+TEXT 郁未「…ねえ、葉子さん」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you004' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2005' 00 
+TEXT 郁未「この食堂のことなんだけど…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you005' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2006' 00 
+TEXT 郁未「もう少し内装とか凝った方がいいと思わな　　い？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you006' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2007' 00 
+TEXT 郁未「明るい色の壁紙貼って、それで真っ白のテ　　ーブルクロス敷いて…」
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you007' 00 
+TEXT 葉子「…そうですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2008' 00 
+TEXT 郁未「でも、この食堂って殺風景だけど、テーブ　　ルとか綺麗に並んでていいよね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you008' 00 
+TEXT 葉子「…そうですね」
+STOP_SOUND 01 
+TEXT 首だけを動かして、食堂を見回す。
+PLAY_SOUND 01 '020_you009' 00 
+TEXT 葉子「…椅子が一つ欠けていますけど」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2009' 00 
+TEXT 郁未「そんなの黙っていれば分からないよ」
+STOP_SOUND 01 
+SPRITE 'CGYS02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you010' 00 
+TEXT 葉子「そうですよね」
+STOP_SOUND 01 
+TEXT 少し微笑む。
+PLAY_SOUND 01 '006_ik2010' 00 
+TEXT 郁未「ねえ、葉子さん」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you011' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2011' 00 
+TEXT 郁未「ここの料理って意外と美味しかったよね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you012' 00 
+TEXT 葉子「そうですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2012' 00 
+TEXT 郁未「誰が作ってるの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you013' 00 
+TEXT 葉子「さあ、存じませんが」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2013' 00 
+TEXT 郁未「…そうだ。…私ね、陸上部だったの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you014' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2014' 00 
+TEXT 郁未「全国大会にだって出たことあるのよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you015' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2015' 00 
+TEXT 郁未「葉子さん…そうだっ！　今度一緒にゲーム　　センターに行こうよっ」
+STOP_SOUND 01 
+TEXT 葉子「……」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2016' 00 
+TEXT 郁未「あの携帯ゲームのアーケード版があるんだ　　って」
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you016' 00 
+TEXT 葉子「…そう…ですか」
+STOP_SOUND 01 
+TEXT ………
+PLAY_SOUND 01 '006_ik2017' 00 
+TEXT 郁未「…あの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you017' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2018' 00 
+TEXT 郁未「葉子さん…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you018' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2019' 00 
+TEXT 郁未「私…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2020' 00 
+TEXT 郁未「私…あなたのこと嫌いじゃない」
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you019' 00 
+TEXT 葉子「…私もです」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2021' 00 
+TEXT 郁未「どうしても、引き返せないの…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you020' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2022' 00 
+TEXT 郁未「どうしても、戻れないの…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you021' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2023' 00 
+TEXT 郁未「どうしてっ！」
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you022' 00 
+TEXT 葉子「識別番号『Ａ‐１２』の消去」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you023' 00 
+TEXT 葉子「それが神の御意志ですから」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2024' 00 
+TEXT 郁未「神！？　そんなものは存在しないっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2025' 00 
+TEXT 郁未「もし、あの月が神だというのなら…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you024' 00 
+TEXT 葉子「違います。ＦＡＲＧＯ宗団自体が神なので　　す」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you025' 00 
+TEXT 葉子「ＦＡＲＧＯの規律は私にとって絶対の言葉　　であり、ＦＡＲＧＯの教えは全ての理なの　　です」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2026' 00 
+TEXT 郁未「…どうしてっ！　どうしてよぉっ！」
+STOP_SOUND 01 
+TEXT 私の問いかけを受け流し、葉子さんは私の左手に視線を送る。
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you026' 00 
+TEXT 葉子「『Ａ‐１２』…識別番号確認」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you027' 00 
+TEXT 葉子「消去します」
+STOP_SOUND 01 
+BACKGROUND 'FG086' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT 人でない者の力。
+TEXT 人が得てはいけない力。
+TEXT 由依の姉を狂わせた力。
+TEXT 晴香を支配した力。
+TEXT 少年が私に託した力。
+TEXT 意志の力。
+TEXT 『不可視の力』
+TEXT 葉子さんはその力を完全にコントロールしていた。
+TEXT 郁未「・・・・・・！」
+STOP_SOUND 01 
+TEXT 私の叫びはしかし声にならなかった。
+TEXT 確かに口は言葉を紡いだ。
+TEXT しかし、空気が振動しなかったのだ。
+TEXT 伝わらない音は音ではない。
+PLAY_SOUND 01 'se81' 00 
+TEXT キーーーーーーーーーン
+TEXT 耳鳴りがする。
+TEXT 気圧が急速に変化していた。
+TEXT 部屋の空気が葉子さんの前方に集められる。
+TEXT 意志の力によって確かな質量を与えられた空気が、まるで水晶球の様なたたずまいを見せていた。
+TEXT それが放たれる。
+TEXT 圧倒的なスピード。
+TEXT テーブルの一つをいとも簡単に瓦解させ、それでもなお威力を落とさないまま、私の方へと飛来する。
+TEXT 不可視の力。
+TEXT それに抗うだけの力が私にもある。
+TEXT 私は解放する…その力を。
+PLAY_SOUND 01 'se15' 00 
+TEXT グワッッ！
+TEXT 私の前に意識の固まりが現れ、目前まで迫っていた水晶球をはじく。
+TEXT 分散した力が、私の体をそれて食堂の壁に吸い込まれる。
+PLAY_SOUND 01 'se05' 00 
+TEXT ごっ！
+TEXT 強力な加重が加わり、壁がクレーター状に陥没する。
+TEXT 砕けた壁が塵の雨となって、辺り一面にパラパラと舞い落ちる。
+PLAY_SOUND 01 '006_ik2027' 00 
+TEXT 郁未「やめようっ！　もうやめようよ、葉子さん　　！」
+STOP_SOUND 01 
+TEXT 葉子「……」
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ik2028' 00 
+TEXT 郁未「どうして私たちが傷つけあわなければいけ　　ないのっ！？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you028' 00 
+TEXT 葉子「あなたはＦＡＲＧＯ宗団にとってよくない　　存在です」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you029' 00 
+TEXT 葉子「そして、私はＦＡＲＧＯ宗団の信者」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you030' 00 
+TEXT 葉子「…ただそれだけです」
+STOP_SOUND 01 
+TEXT それだけなの…？
+TEXT 本当にそれだけの理由なの…？
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT ごとんっ
+TEXT お母さんが
+TEXT もうすぐ
+TEXT Ｃ‐１１２
+TEXT 望みは叶え
+TEXT 切望していた瞬
+TEXT の手料理
+TEXT プレゼント
+TEXT Ｃｌａｓｓ
+TEXT ほら、笑っ
+TEXT ひきつった笑
+TEXT が触れた
+TEXT めでとう
+TEXT ａｓｓＡに
+TEXT ＦＡＲＧ
+BACKGROUND 'FG086' 
+X_24 00 
+X_25 06 
+TEXT え？
+TEXT 今の何…！？
+TEXT それは意識の断片。
+TEXT そう…意識の断片だ。
+TEXT 別の意識が濁流となって、私の身体に流れ込む。
+TEXT しかし、それは刹那の映像。
+TEXT 全てを見ることはできない。
+TEXT だったら、その流れをたどればいい。
+TEXT そうだ、その通りだ。
+TEXT 私は意識を集中させる。
+TEXT そして流れをさかのぼる。
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT ＦＡＲＧ
+TEXT ａｓｓＡに
+TEXT めでとう
+TEXT が触れた
+TEXT ひきつった笑
+TEXT ほら、笑っ
+TEXT Ｃｌａｓｓ
+TEXT プレゼント
+TEXT の手料理
+TEXT 切望していた瞬
+TEXT 望みは叶え
+TEXT Ｃ‐１１２
+TEXT もうすぐ
+TEXT お母さんが
+TEXT ごとんっ
+TEXT ここだ！
+TEXT 私はまるでリモコンを操作するように、意識映像を止める。
+TEXT そして再生。
+TEXT それはレコーダーの様に、私の意識の中で映像を映し始めた。
+TEXT ………
+TEXT ……
+TEXT …
+TEXT 
+BACKGROUND 'FG164' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 'se82' 00 
+TEXT ごとんっ
+TEXT 車が大きく揺れた。
+TEXT どこを走っているのか、この閉ざされた場所からは伺い知ることが出来ない。
+TEXT でもそんなことはどうでも良かった。
+TEXT 重要なのはこのトラックが向かっている場所。
+TEXT それだけだった。
+TEXT …ＦＡＲＧＯ宗団の隔離施設。
+TEXT お母さんがずっと居るところ。
+TEXT 長年暮らしているところ。
+TEXT この地球上で唯一私のお母さんが存在する場所。
+TEXT …今の私にはその事実だけで十分だった。
+TEXT 『また一緒に暮らしましょう』
+TEXT 数年ぶりに届いた母からの手紙は端的なものだった。
+TEXT お母さんに逢える。
+TEXT またお母さんと一緒に暮らせる。
+TEXT その事実だけが私の全てだった。
+TEXT お母さんの居ないこの数年は私にとって虚構以外の何ものでもなかった。
+TEXT お母さんの思い出にすがって…。
+TEXT お母さんの幻に語りかけて…。
+TEXT それで、ふと、お母さんの顔も声も明瞭に思い出せない自分に気づいて自己嫌悪に陥っては、古ぼけたアルバムから平面上に印刷された偽りの母の姿を眺めては溜飲を下げる。
+TEXT そんな頽廃的な時間を過ごしたこともあった。
+TEXT でも、これからは違う。
+TEXT 私の空白の時間は今日で埋まる。
+TEXT 止まった時間は動き出す。
+TEXT その時の私は何の疑いも懐かずにそう考えていた。
+PLAY_SOUND 01 'se82' 00 
+TEXT ごとんっ
+TEXT 一際大きく車が揺れた。
+TEXT そして、ブレーキ音。
+TEXT 車内がわずかに色めき立つ。
+TEXT どうやら施設に着いたらしい。
+TEXT ＦＡＲＧＯの関係者とおぼしき男の人がトラックから降りるように促す。
+TEXT もうすぐだ…。
+TEXT もうすぐお母さんに逢える。
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT そこは、不思議な部屋だった。
+TEXT 何もない。
+TEXT 窓も。
+TEXT 椅子も。
+TEXT 机も。
+TEXT 扉さえもない。
+TEXT それなら私はどこから入ったの？
+TEXT 覚えていない。
+TEXT でも、構わない。
+TEXT もうすぐお母さんに逢える。
+TEXT それが全て。
+PLAY_SOUND 01 '000_koe000' 00 
+TEXT …目を閉じて…
+STOP_SOUND 01 
+TEXT 声がした。
+TEXT 優しい声。
+TEXT 全てを包み込み、癒やしてくれるような、そんな声だった。
+PLAY_SOUND 01 '000_koe000' 00 
+TEXT …目を閉じて…
+STOP_SOUND 01 
+TEXT もう一度同じ声。
+TEXT 私は目を閉じる。
+TEXT 抗う理由がないから…。
+TEXT しばらくの沈黙。
+PLAY_SOUND 01 '020_you031' 00 
+TEXT 「いたっ」
+STOP_SOUND 01 
+TEXT 左手に鈍い痛みが走り、思わず目を開ける。
+TEXT 辺りを霞のような煙が取り巻いていた。
+TEXT 左手を見る。
+PLAY_SOUND 01 '020_you032' 00 
+TEXT 「Ｃ‐１１２…」
+STOP_SOUND 01 
+TEXT 手の甲にそんな烙印が押されていた。
+TEXT ひどい…。
+TEXT もう消えないかも知れない…。
+TEXT でも、構わなかった。
+TEXT もうすぐお母さんに逢える。
+TEXT お母さんの手料理がまた食べられる。
+TEXT それが全てだった…。
+BACKGROUND 'FG087' 
+X_24 00 
+X_25 06 
+TEXT 望みは叶えられた。
+TEXT Ｃ棟の居住区で私はお母さんと再会を果たした。
+TEXT でも、現実のお母さんの姿は、想像していた姿でも、写真で見た姿でもなかった。
+TEXT 体はやつれ、頬はこけ、瞳は落ち窪み、髪は白い部分が大半を占めていた。
+PLAY_SOUND 01 '020_you033' 00 
+TEXT 「お母さん…」
+STOP_SOUND 01 
+TEXT 「……」
+STOP_SOUND 01 
+TEXT お母さんは無言で私の左手を一瞥した。
+PLAY_SOUND 01 '000_yom000' 00 
+TEXT 「もしかしたらと思ったんだけど…」
+STOP_SOUND 01 
+TEXT それが第一声だった。
+PLAY_SOUND 01 '020_you034' 00 
+TEXT 「え？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom001' 00 
+TEXT 「まあいいわ…」
+STOP_SOUND 01 
+TEXT ため息混じりの声を吐き出す。
+TEXT 明らかに落胆した表情だった。
+TEXT そして、さして興味なさそうにつけ加える。
+PLAY_SOUND 01 '000_yom002' 00 
+TEXT 「明日から修練が始まるからね」
+STOP_SOUND 01 
+TEXT それが、私が切望していた瞬間の全てだった。
+TEXT お母さんは一度も私の名前を呼んでくれなかった。
+TEXT そして、私がお母さんのことを『お母さん』と呼ぶことも許さなかった。
+TEXT この施設の中で、私は『Ｃ‐１１２』。
+TEXT お母さんは『Ｃ‐７９』。
+TEXT それがこの施設での規律だとお母さんは言った。
+TEXT お母さんは熱心にＦＡＲＧＯの教えについて語ってくれた。
+TEXT 話の内容は理解しがたかったけど、それでも私は幸せだった。
+TEXT だって、私のがんばりを見てくれる人がすぐそばに居るのだから。
+TEXT お母さんとまた暮らすことができたのだから。
+TEXT 特製の手料理を食べることはできなかったけど…。
+TEXT お母さんと居るだけで毎日が充実していた。
+TEXT でも…嫌なこともあった。
+PLAY_SOUND 01 '000_yom003' 00 
+TEXT 「ねえ、あの連中をみてどう思う？」
+STOP_SOUND 01 
+TEXT その問いかけを訊くことが、私は一番嫌だった。
+PLAY_SOUND 01 '020_you035' 00 
+TEXT 「他の信者の人たちのこと？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom004' 00 
+TEXT 「あんな奴ら信者なんかじゃないわ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom005' 00 
+TEXT 「ただ毎日を無意味に過ごして、与えられる餌を貪って命をながらえてるゴミの様な連中よっ！」
+STOP_SOUND 01 
+TEXT お母さんはそう言って心底嫌そうな顔をした。
+TEXT 私はそんなお母さんの顔なんて見たくなかったのに。
+PLAY_SOUND 01 '000_yom006' 00 
+TEXT 「どうして私の様な敬虔な信者と、あんなゴミのような連中が同じクラスなのっ！？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you036' 00 
+TEXT 「……」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom007' 00 
+TEXT 「ね、あなたもそう思うでしょ？　おかしいって思うでしょっ？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you037' 00 
+TEXT 「う、うん…。おかしいよね…」
+STOP_SOUND 01 
+TEXT 頷くこと。
+TEXT それが、お母さんの嫌な一面を見ないですむ一番の良法だった。
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT その日はお母さんの誕生日だった。
+TEXT 私はこの日に備えてあらかじめ用意していたプレゼントをポケットに忍ばせて、お母さんの元へと向かった。
+PLAY_SOUND 01 '020_you038' 00 
+TEXT 「お母さん、これ見たらどんな顔するかな」
+STOP_SOUND 01 
+TEXT かわいい動物を象った置き時計。
+TEXT お店の中で何時間も悩んで、やっと選んだプレゼントだ。
+TEXT お母さんの誕生日にプレゼントを渡すことができるなんて、何年ぶりだろう。
+TEXT 気に入ってくれるかなぁ。
+TEXT お母さん時計好きだったから、きっと喜んでくれると思うけど…。
+PLAY_SOUND 01 '000_yom008' 00 
+TEXT 「ねえ！」
+STOP_SOUND 01 
+TEXT あ、お母さんだ。
+PLAY_SOUND 01 '020_you039' 00 
+TEXT 「あの…お誕生日おめで…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom009' 00 
+TEXT 「さっきね！　すごいこと訊いたのよ！」
+STOP_SOUND 01 
+TEXT 私の言葉を遮るようにまくし立てる。
+PLAY_SOUND 01 '000_yom010' 00 
+TEXT 「ＣｌａｓｓＡに昇格する方法があるのよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom011' 00 
+TEXT 「ＦＡＲＧＯの人たちが偶然話しているところを訊いたの！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you040' 00 
+TEXT 「そうなの…」
+STOP_SOUND 01 
+TEXT すっかりプレゼントを渡すタイミングを逃してしまう。
+PLAY_SOUND 01 '000_yom012' 00 
+TEXT 「それでね！　そのためにはあなたの協力が必要なの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you041' 00 
+TEXT 「私の…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom013' 00 
+TEXT 「そう！　もちろん協力してくれるわよね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you042' 00 
+TEXT 「うん。私…お母さんの為なら何だってするよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom014' 00 
+TEXT 「だったら…」
+STOP_SOUND 01 
+BACKGROUND 'FG088' 
+X_24 00 
+X_25 06 
+TEXT …え！？
+TEXT …どうしてっ…！？
+PLAY_SOUND 01 '000_yom015' 00 
+TEXT 「これが、精神に負荷をかける一番の方法なんだって」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom016' 00 
+TEXT 「最愛の家族の死に直面することがっ！」
+STOP_SOUND 01 
+TEXT …っ！…
+TEXT お母さんの手で気管を潰されて、声が出ない。
+PLAY_SOUND 01 '000_yom017' 00 
+TEXT 「お母さんね、この修練を経てＣｌａｓｓＡに昇格するのっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom018' 00 
+TEXT 「ほら、笑ってよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom019' 00 
+TEXT 「これでお母さんＣｌａｓｓＡになれるのよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom020' 00 
+TEXT 「ＣｌａｓｓＣのゴミとは違う世界に行けるのよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom021' 00 
+TEXT 「私の資質がやっと認められるのよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom022' 00 
+TEXT 「あなたも嬉しいでしょ？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom023' 00 
+TEXT 「お母さんＣｌａｓｓＡになったら嬉しいでしょ？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom024' 00 
+TEXT 「だからもっと笑ってよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom025' 00 
+TEXT 「嬉しそうな顔してよ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yom026' 00 
+TEXT 「ＣｌａｓｓＡよっ、ＣｌａｓｓＡ！　ＣｌａｓｓＡに昇格できるのよっ！」
+STOP_SOUND 01 
+TEXT お母さん笑ってた。
+TEXT ひきつった笑みを顔に張りつけて…。
+TEXT 狂ったレコードのように同じ言葉を何度も叫んで…。
+TEXT 私はその時抵抗しなければ良かったんだ…。
+TEXT お母さんのために自分を犠牲にしていれば良かったんだ…。
+TEXT そうすれば…。
+TEXT でもその時の私は無我夢中で腕を振り回していた。
+TEXT 何が起こっているのかも理解していなかった。
+TEXT どうして、お母さんに首を絞められているの？
+TEXT どうして、お母さんこんなひどいことするの？
+TEXT どうして、お母さん笑ってるの？
+TEXT 私はこんなに苦しいのに。
+TEXT …私はどうしたかったんだろう。
+TEXT 手を闇雲に振り回して、お母さんから逃れようとしていた。
+TEXT 私はこの苦しみから解き放たれたかった。
+TEXT ただ、それだけだった。
+TEXT でも…。
+BACKGROUND 'FG089' 
+X_24 00 
+X_25 06 
+TEXT そのとき手が触れた物。
+TEXT それが、お母さんへのプレゼントだった。
+TEXT あとは予定調和だった。
+PLAY_SOUND 01 '002_koe000' 00 
+TEXT …おめでとう…
+STOP_SOUND 01 
+TEXT 声。
+TEXT 直接頭に響くようなあの声。
+PLAY_SOUND 01 '002_koe001' 00 
+TEXT …おめでとう、鹿沼葉子…
+PLAY_SOUND 01 '020_you043' 00 
+TEXT 「いいえ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you044' 00 
+TEXT 「私はＣ‐１１２です。鹿沼葉子という名は今日捨てました」
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_koe002' 00 
+TEXT …そうか…
+PLAY_SOUND 01 '002_koe003' 00 
+TEXT …しかし残念ながら君はＣ‐１１２でもないのだよ…
+STOP_SOUND 01 
+TEXT 私の左手からＣの烙印が消えていた。
+PLAY_SOUND 01 '002_koe004' 00 
+TEXT …君はＣｌａｓｓＣの精神レベルを著しく凌駕した…
+PLAY_SOUND 01 '020_you045' 00 
+TEXT 「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_koe005' 00 
+TEXT …よって君は今日からＣｌａｓｓＡに配属される…
+STOP_SOUND 01 
+TEXT 左手の甲に鈍い痛み。
+TEXT 『Ａ‐９』
+TEXT そう読めた。
+TEXT Ａ‐９。
+TEXT ＣｌａｓｓＡの称号。
+TEXT お母さんが切望したもの。
+TEXT 娘を殺そうとしてまで欲したもの。
+TEXT それが今、私の左手にある。
+TEXT 私にはお母さんの気持ちを理解することはできなかった。
+TEXT だから、無感動にＡの烙印を眺めていた。
+TEXT 私がＦＡＲＧＯ宗団の教えを全て受け入れたとき、きっとお母さんの気持ちが理解できる。
+TEXT ＦＡＲＧＯ宗団を否定することは、お母さんを否定すること。
+TEXT ＦＡＲＧＯの教えを拒むことは、お母さんを拒むこと。
+TEXT だから、私はＦＡＲＧＯの信者として生きる。
+TEXT 左手に刻まれたお母さんと共に…。
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+X_28 000A 
+STOP_SOUND 00 
+TEXT ぐにゃっ…。
+TEXT 世界が歪んだ。
+TEXT 時計回りに、ゆっくりと回転する。
+TEXT そして、別の景色を映し出す。
+BACKGROUND 'BG007' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+TEXT 夢からの帰還。
+TEXT でもそれは決して夢などではなかった。
+TEXT まして、事実をねじ曲げた幻影などでもない。
+TEXT 実際に起こったこと。
+TEXT 目の前の鹿沼葉子という女性が体験した過去の光景。
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you046' 00 
+TEXT 葉子「どうして泣いているのですか…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2000' 00 
+TEXT 郁未「えっ？」
+STOP_SOUND 01 
+TEXT 問われて初めて気がついた。
+TEXT 私の頬からは涙が伝い、そして流れ落ちていた。
+PLAY_SOUND 01 '007_ik2001' 00 
+TEXT 郁未「可哀想だから…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you047' 00 
+TEXT 葉子「可哀想…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2002' 00 
+TEXT 郁未「そう、可哀想…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2003' 00 
+TEXT 郁未「…葉子さんが可哀想」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you048' 00 
+TEXT 葉子「私が…？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2004' 00 
+TEXT 郁未「そう」
+STOP_SOUND 01 
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_you049' 00 
+TEXT 葉子「何を根拠にそんなことを言うのですか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2005' 00 
+TEXT 郁未「だって、私と同じだもの…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2006' 00 
+TEXT 郁未「母との思い出にすがって」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2007' 00 
+TEXT 郁未「母との思い出を心のより所にして」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you050' 00 
+TEXT 葉子「……」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2008' 00 
+TEXT 郁未「でも、結局はその思い出に身体を束縛され　　る」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2009' 00 
+TEXT 郁未「そうでしょ？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you051' 00 
+TEXT 葉子「…私は…違います！」
+STOP_SOUND 01 
+BACKGROUND 'FG086' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT 再び空気が軋み、葉子さんの前に水晶球が形作られる。
+TEXT それも、大きさが尋常ではなかった。
+TEXT 最初の水晶球とは段違いだった。
+TEXT あれは危険だ。
+TEXT 私の中の別の意識が警報を発する。
+PLAY_SOUND 01 '007_ik2010' 00 
+TEXT 郁未「葉子さんっ！　もうやめようっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you052' 00 
+TEXT 葉子「………！」
+STOP_SOUND 01 
+PLAY_SOUND 01 'se76' 00 
+TEXT ブゥゥゥゥゥン！
+TEXT 空気がうねりをあげて、私の元へと打ち出される。
+TEXT とっさに意識の力を集中させる。
+TEXT 収束した意志の力が、葉子さんの意志の力と真っ向からぶつかり合い、空気の渦を作る。
+TEXT 渦に巻き込まれた椅子やテーブルが、消えたように粉々になる。
+PLAY_SOUND 01 '007_ik2011' 00 
+TEXT 郁未「どうしてもっと別の道を選択しなかったの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you053' 00 
+TEXT 葉子「別の道なんてありませんでした」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2012' 00 
+TEXT 郁未「違う。なかったんじゃない、考えなかった　　だけ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you054' 00 
+TEXT 葉子「違います」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2013' 00 
+TEXT 郁未「お母さんとの思い出を壊したくなかっただ　　け」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you055' 00 
+TEXT 葉子「違います！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2014' 00 
+TEXT 郁未「あなたは、お母さんの姿にいつまでも幻想　　を重ねていたかったから」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you056' 00 
+TEXT 葉子「違いますっ！」
+STOP_SOUND 01 
+TEXT 葉子さんの意志の力が不安定になり、空中に固定されていた水晶球が歪みを帯びる。
+TEXT 強固なダムが、たった一つの小さなひびから崩壊を引き起こすように…。
+PLAY_SOUND 01 'se83' 00 
+TEXT ピシッ！
+TEXT 大きく膨らんだ風船に針を刺すように…。
+PLAY_SOUND 01 'se68' 00 
+TEXT ピシィィィィィィッ！
+TEXT 意識の囲いが破れ、そして…。
+TEXT 集束した力が…爆ぜる。
+TEXT 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT …
+TEXT ……
+TEXT ………
+TEXT 白い。
+TEXT 真っ白な世界。
+TEXT この白は何の白なんだろう。
+TEXT ふと、そんなことを考える。
+TEXT 雲。
+TEXT そうだ、雲の白だ。
+PLAY_SOUND 01 '008_ikm001' 00 
+TEXT 『青一色に彩られた晴天も良いけど、雲のかかった晴れの日も好き』
+STOP_SOUND 01 
+TEXT それは、誰の言葉だったか…。
+PLAY_SOUND 01 '008_ikm002' 00 
+TEXT 『お母さんね、草原に落ちる雲の影が流れる様を眺めていることが好きなの』
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_ikm003' 00 
+TEXT 『郁未、あなたと一緒にね』
+STOP_SOUND 01 
+TEXT そうだ…お母さんだ。
+TEXT そっか…そうだったんだ。
+TEXT 今気がついた…。
+TEXT 私の目的は…。
+TEXT ふっと視界が反転する。
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd05' 01 
+TEXT …
+TEXT ……
+TEXT ………
+TEXT 意識が戻った。
+TEXT でもまだ身体は動かない。
+TEXT 身体の節々が悲鳴を上げている。
+PLAY_SOUND 01 '007_ik2015' 00 
+TEXT 郁未「……」
+STOP_SOUND 01 
+TEXT ゆっくりと瞳を開く。
+TEXT 食堂の天井の壁が一面に広がっていた。
+TEXT 所々に亀裂が入っている。
+TEXT 床に仰向けに寝転がっているみたいだ。
+PLAY_SOUND 01 '007_ik2016' 00 
+TEXT 郁未「…葉子さん？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you057' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+TEXT すぐ近くから声が返る。
+TEXT 同じくらいの高さからの声だった。
+TEXT たぶん葉子さんも私と似たり寄ったりの格好をしているのだろう。
+PLAY_SOUND 01 '007_ik2017' 00 
+TEXT 郁未「ありがとう、葉子さん」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you058' 00 
+TEXT 葉子「…お礼を言われる様なことはしていません　　が」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2018' 00 
+TEXT 郁未「途中で力を解放してくれたでしょ？」
+STOP_SOUND 01 
+TEXT そうでなかったら、今頃は二人とも塵一つ残さずに消し飛んでいた。
+PLAY_SOUND 01 '020_you059' 00 
+TEXT 葉子「手元が狂っただけです」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2019' 00 
+TEXT 郁未「どっちにしても、神の御意志は果たせなか　　ったわけね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you060' 00 
+TEXT 葉子「…そうですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2020' 00 
+TEXT 郁未「もう一度挑戦してみる？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you061' 00 
+TEXT 葉子「…いいえ。もう疲れました」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2021' 00 
+TEXT 郁未「うん…それがいいよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you062' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2022' 00 
+TEXT 郁未「戻るの？　外の世界、日常の世界に」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you063' 00 
+TEXT 葉子「それも良いかもしれませんね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2023' 00 
+TEXT 郁未「消費税、５％になったから気をつけてね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you064' 00 
+TEXT 葉子「消費税って何ですか？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2024' 00 
+TEXT 郁未「そっか…葉子さん、そんな長い間ここに居　　たんだ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you065' 00 
+TEXT 葉子「…はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you066' 00 
+TEXT 葉子「知らない間にずいぶん変わったんでしょう　　ね…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2025' 00 
+TEXT 郁未「うん…変わったよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2026' 00 
+TEXT 郁未「良くもなったし、悪くもなった」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you067' 00 
+TEXT 葉子「そうですか…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2027' 00 
+TEXT 郁未「でも、一つだけ確かなことは、ここにいる　　よりは退屈しないってことかな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you068' 00 
+TEXT 葉子「私に取り戻せますか？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you069' 00 
+TEXT 葉子「失った時間を…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2028' 00 
+TEXT 郁未「葉子さん、まだ２２でしょ？　だったら全　　然大丈夫だよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you070' 00 
+TEXT 葉子「２３です…今日が誕生日ですから」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2029' 00 
+TEXT 郁未「そっか…だったら…」
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+PLAY_SOUND 01 '007_ik2030' 00 
+TEXT 郁未「お誕生日おめでとう」
+STOP_SOUND 01 
+X_28 001E 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+BACKGROUND 'BG015' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYS02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '007_ik2031' 00 
+TEXT 郁未「これからどうするの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you071' 00 
+TEXT 葉子「まだはっきりとは決めていません」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you072' 00 
+TEXT 葉子「でも、いつかゲームセンターには行きたい　　ですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2032' 00 
+TEXT 郁未「うん」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you073' 00 
+TEXT 葉子「その後は郁未さんに会いに行ってもいいで　　すか？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2033' 00 
+TEXT 郁未「もちろんいいよ。ゲームセンターより後っ　　ていうのが気になるけど」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you074' 00 
+TEXT 葉子「はい」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2034' 00 
+TEXT 郁未「それならひとまずここでお別れね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you075' 00 
+TEXT 葉子「一緒に行かないのですか？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2035' 00 
+TEXT 郁未「うん…私はまだ本当にやらなければいけな　　いことが残ってるから」
+STOP_SOUND 01 
+TEXT そう、やっと気づいた…。
+TEXT 私の旅の目的は復讐なんかじゃなかったんだ。
+TEXT 薄墨の幕に覆われた視界が、ゆっくりと色彩を帯びていく。
+TEXT 由依と友里さん。
+TEXT 晴香と良祐。
+TEXT そして、葉子さん。
+TEXT それぞれが、内に秘めていた心の扉を開けはなった。
+TEXT だったら次は私の番……。
+PLAY_SOUND 01 '020_you076' 00 
+TEXT 葉子「では、ひとまずのお別れですね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ik2036' 00 
+TEXT 郁未「うん、ひとまずね」
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_you077' 00 
+TEXT 葉子「はい。　　…それでは」
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT 葉子さんが通廊の奥へと消えかけて、一度足を止める。
+PLAY_SOUND 01 '020_you078' 00 
+TEXT 葉子「…そう言えば、まだちゃんと自己紹介をし　　ていなかったですね」
+STOP_SOUND 01 
+TEXT 葉子さんがくるりと振り返る。
+BACKGROUND 'FG170' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '020_you079' 00 
+TEXT 葉子「私の名前は、鹿沼葉子です。よろしくお願　　いします」
+STOP_SOUND 01 
+TEXT 晴れやかな笑みを湛えて、葉子さんの止まった時間は今動き出した。
+X_28 0028 
+TEXT 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+X_28 000A 
+STOP_SOUND 00
+GOTO_SCRIPT 'DAY202' 
+EOF 

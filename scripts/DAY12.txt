@@ -1,0 +1,557 @@
+
+# MOON SCRIPT FILE "DAY12.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000C 
+SETSTATUS 'Å@Dia 12 Manh~ Pr%dio Ç`' 
+BACKGROUND 'FG211' 
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '026_boy000' 00 
+TEXT Garoto: "Bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '082_iku000' 00 
+TEXT Ikumi: "Ah, bom dia..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '026_boy001' 00 
+TEXT Garoto: "Voc[ est$ com olheiras."
+STOP_SOUND 01 
+PLAY_SOUND 01 '082_iku001' 00 
+TEXT Ikumi: "Eu n~o consegui dormir..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '026_boy002' 00 
+TEXT Garoto: "Voc[ est$ bem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '082_iku002' 00 
+TEXT Ikumi: "Sim...... eu vou ficar bem..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '026_boy003' 00 
+TEXT Garoto: "Certo, boa sorte."
+STOP_SOUND 01 
+TEXT Com o qu[...?
+TEXT Com a busca da verdade...?
+TEXT Encontrarei algum tipo de trag%dia ao encontrar outra pista.
+TEXT Como se quanto mais eu tentasse, mais as pessoas ao meu redor sofressem.
+TEXT Ent~o, talvez seja melhor desistir...
+TEXT Na verdade eu tive esse pensamento...
+TEXT Minha mente... paralisada...
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voz: "A& est$ voc[, A-12."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm03_min000' 00 
+TEXT Voz: "V$ para o centro da sala."
+STOP_SOUND 01 
+TEXT Eu fiquei no meio do padr~o.
+PLAY_SOUND 01 'm11_min000' 00 
+TEXT Voz: "Agora vamos come|ar o N&vel 11."
+STOP_SOUND 01 
+TEXT *Vruuuuun...*
+TEXT *Takatakatakata...*
+TEXT A m$quina come|ou a se mover.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT Minha vis~o foi bloqueada.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT ...*Taka*......*Taka*......
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku062' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm11_min006' 00 
+TEXT Voz: "N&vel 11 completo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku063' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sa& do MINMES.
+X_00 0009 000B 
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+PLAY_SOUND 01 'se64' 00 
+TEXT *Dimm...*
+TEXT Peguei minha bandeja e levei at% a porta.
+TEXT Ent~o abri de costas e entrei no corredor.
+X_04 0071 0001 
+IF 17 24 00 15 01 00 02 00 .LABEL3 
+X_00 0009 0009 
+JMP .LABEL4 
+
+:LABEL3
+X_00 0009 0016 
+
+:LABEL4
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL5 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL5
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT Em vez de uma mesa, me sentei na cama. Coloquei a bandeja sobre os joelhos e me preparei para comer.
+TEXT Mas eu estava sem fome.
+PLAY_SOUND 01 '028_boy000' 00 
+TEXT Garoto: "Bom apetite."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Enquanto isso, o garoto comia com facilidade.
+TEXT Peguei tudo que parecia f$cil de passar pela minha garganta.
+TEXT Ent~o terminei minha refei|~o em tempo recorde e sa& do quarto.
+X_04 0071 0000 
+X_00 0009 0012 
+X_00 000E 0003 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL6 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL6
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT Entrei no ELPOD.
+PLAY_SOUND 01 'es0_elp000' 00 
+TEXT Voz: "A-12 confirmada."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_elp000' 00 
+TEXT Voz: "Agora v$ para o centro da sala."
+STOP_SOUND 01 
+TEXT Fiquei em sil[ncio no meio do padr~o.
+PLAY_SOUND 01 'e07_elp000' 00 
+TEXT Voz: "N&vel 7... come|ando."
+STOP_SOUND 01 
+TEXT A luz desapareceu.
+TEXT Ent~o, no fundo da minha consci[ncia...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd08' 01 
+PLAY_SOUND 01 'se28' 01 
+TEXT *Tum*...*Dum*...
+TEXT ...*Tum*...*Dum*...
+TEXT ......*Tum*...*Dum*...
+STOP_SOUND 01 
+TEXT ...L$ estava ela.
+GOSUB_SCRIPT 'EL7' 
+IF 16 17 00 15 01 00 02 00 .LABEL7 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL7
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'e02_iku110' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_elp001' 00 
+TEXT Voz: "N&vel 7 completo. Bom trabalho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku111' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sa& da sala sem dizer uma palavra.
+X_00 0009 0017 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL8 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL8
+PLAY_SOUND 01 'se64' 00 
+TEXT *Dimm...*
+TEXT Peguei minha bandeja e levei at% a porta.
+TEXT Ent~o abri de costas e entrei no corredor.
+X_04 0071 0001 
+IF 17 24 00 15 01 00 02 00 .LABEL9 
+X_00 0009 0009 
+JMP .LABEL10 
+
+:LABEL9
+X_00 0009 0016 
+
+:LABEL10
+X_00 000E 0004 
+X_04 0025 0001 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL11 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL11
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '028_boy001' 00 
+TEXT Garoto: "Bom apetite."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Eu trouxe minha comida at% aqui... mas novamente n~o tenho fome.
+PLAY_SOUND 01 '028_boy002' 00 
+TEXT Garoto: "O que foi?"
+STOP_SOUND 01 
+TEXT O garoto parecia preocupado quando me perguntou.
+PLAY_SOUND 01 '084_iku000' 00 
+TEXT Ikumi: "...N~o estou com fome."
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_boy003' 00 
+TEXT Garoto: "@ bom comer pelo menos um pouco. Especialmente por aqui. Voc[ nunca sabe se ter$ outra oportunidade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '084_iku001' 00 
+TEXT Ikumi: "Ei..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_boy004' 00 
+TEXT Garoto: "Mm...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '084_iku002' 00 
+TEXT Ikumi: "Voc[ poderia me contar uma coisa...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_boy005' 00 
+TEXT Garoto: "Como o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '084_iku003' 00 
+TEXT Ikumi: "Algo sobre Haruka, quero dizer, sobre o onii-san de Haruka... Mima-san..."
+STOP_SOUND 01 
+SPRITE 'CGSY04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '028_boy006' 00 
+TEXT Garoto: "Mima..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '084_iku004' 00 
+TEXT Ikumi: "Voc[ sabe de alguma coisa...?"
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '028_boy007' 00 
+TEXT Garoto: "N~o, nada."
+STOP_SOUND 01 
+TEXT Mentiroso.
+TEXT Ele sabe.
+TEXT Mas simplesmente n~o quer me contar.
+TEXT Posso dizer pelos seus olhos.
+TEXT Ent~o isso significa...
+PLAY_SOUND 01 '028_boy008' 00 
+TEXT Garoto: "N~o pense em coisas desnecess$rias."
+STOP_SOUND 01 
+TEXT A declara|~o do garoto interrompeu meus pensamentos.
+PLAY_SOUND 01 '028_boy009' 00 
+TEXT Garoto: "O pior resultado % apenas o caso mais infeliz."
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_boy010' 00 
+TEXT Garoto: "E o 'mais' significa que est$ no extremo da probabilidade, certo...?"
+STOP_SOUND 01 
+TEXT Ela d$ muitas dicas...
+TEXT Mas nenhuma delas % ^til.
+TEXT No final, sa& do quarto sem tocar na minha refei|~o.
+X_04 0071 0000 
+X_00 0009 0012 
+X_00 000E 0005 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL12 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL12
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '029_boy000' 00 
+TEXT Garoto: "Bem-vinda de volta."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '029_boy001' 00 
+TEXT Garoto: "O que foi? Voc[ est$ bem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku000' 00 
+TEXT Ikumi: "N~o muito..."
+STOP_SOUND 01 
+TEXT Mesmo assim tive que cair na cama naquele instante.
+PLAY_SOUND 01 '029_boy002' 00 
+TEXT Garoto: "Voc[ j$ vai dormir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '029_boy003' 00 
+TEXT Garoto: "Ent~o vou apagar as luzes."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku001' 00 
+TEXT Ikumi: "T$ bom..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '029_boy004' 00 
+TEXT Garoto: "Certifique-se de se cobrir direito."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku002' 00 
+TEXT Ikumi: "T$..."
+STOP_SOUND 01 
+BACKGROUND 'FG010' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '029_boy005' 00 
+TEXT Garoto: "Boa noite..."
+STOP_SOUND 01 
+TEXT ...
+TEXT ......
+TEXT .........
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT ............
+TEXT ..................
+TEXT ...........................
+X_04 0079 0001 
+X_00 0009 000F 
+GOSUB_SCRIPT 'A_D12' 
+IF 16 17 00 15 01 00 02 00 .LABEL13 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL13
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '030_boy000' 00 
+TEXT Garoto: "O que est$ fazendo?"
+STOP_SOUND 01 
+TEXT O garoto estava acordado.
+PLAY_SOUND 01 '085_iku004' 00 
+TEXT Ikumi: "H~...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku005' 00 
+TEXT Ikumi: "Voc[ me carregou para fora...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '030_boy001' 00 
+TEXT Garoto: "Por que eu faria isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku006' 00 
+TEXT Ikumi: "@..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku007' 00 
+TEXT Ikumi: "Talvez eu seja son}mbula..."
+STOP_SOUND 01 
+TEXT Ah!
+PLAY_SOUND 01 '085_iku008' 00 
+TEXT Ikumi: "Isso j$ aconteceu antes na hora do almo|o. Antes que eu perceba, estou em outro lugar..."
+STOP_SOUND 01 
+SPRITE 'CGSY04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '030_boy002' 00 
+TEXT Garoto: "Entendi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku009' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '030_boy003' 00 
+TEXT Garoto: "Sobre isso, seria melhor n~o contar a ningu%m."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku010' 00 
+TEXT Ikumi: "...Por que n~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '030_boy004' 00 
+TEXT Garoto: "N~o % algo bem-vindo por aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku011' 00 
+TEXT Ikumi: "Como assim?Å@O que isso significa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '030_boy005' 00 
+TEXT Garoto: "Isso significa que a verdade j$ est$ dentro de voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku012' 00 
+TEXT Ikumi: "Qu[......?"
+STOP_SOUND 01 
+TEXT O que isso significa...?
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '030_boy006' 00 
+TEXT Garoto: "Voc[ deveria voltar a dormir agora. @ melhor gastar o m$ximo de tempo poss&vel fazendo isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '085_iku013' 00 
+TEXT Ikumi: "Ah, sim..."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT A verdade j$ est$ dentro de voc[...
+TEXT O que isso significa...?
+TEXT Eu n~o entendo...
+TEXT Que diabos est$ acontecendo dentro de mim...?
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT 
+GOTO_SCRIPT 'DAY13' 
+EOF 

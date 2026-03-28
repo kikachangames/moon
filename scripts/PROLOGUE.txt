@@ -1,0 +1,10 @@
+
+# MOON SCRIPT FILE "PROLOGUE.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_30 00 
+X_31 00 
+X_32 00 
+GOTO_SCRIPT 'DAY01' 
+EOF 

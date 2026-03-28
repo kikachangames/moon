@@ -1,0 +1,83 @@
+
+# MOON SCRIPT FILE "TATIITI.SNX"
+#
+# Comments are lines beginning with a # character
+
+SPRITE 'CGha01' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚P
+SPRITE 'CGha02' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚Q
+SPRITE 'CGha03' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚R
+SPRITE 'CGha04' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚S
+SPRITE 'CGha05' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚T
+SPRITE 'CGha06' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚U
+SPRITE 'CGha07' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚V
+SPRITE 'CGha01' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚g‚`‚O‚P
+SPRITE 'CGsy01' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚r‚x‚O‚P
+SPRITE 'CGsy02' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚r‚x‚O‚Q
+SPRITE 'CGsy03' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚r‚x‚O‚R
+SPRITE 'CGsy04' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚r‚x‚O‚S
+SPRITE 'CGYI01' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚P
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚Q
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚R
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚T
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚U
+SPRITE 'CGYI08' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚W
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+TEXT ‚b‚f‚x‚h‚O‚X
+RETURN 
+EOF 

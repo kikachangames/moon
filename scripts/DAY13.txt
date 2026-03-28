@@ -1,0 +1,725 @@
+
+# MOON SCRIPT FILE "DAY13.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000D 
+SETSTATUS '　Day 13 Morning Building A' 
+BACKGROUND 'FG212' 
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '031_boy000' 00 
+TEXT Boy: "Good morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '086_iku000' 00 
+TEXT Ikumi: "Yeah......"
+STOP_SOUND 01 
+TEXT After waking up, I remained lying down on the bed for a while.
+TEXT It wasn't that I was tired physically.
+TEXT It was more like my mind was being stretched so thin that one night's rest wasn't enough for it to recover...
+PLAY_SOUND 01 '031_boy001' 00 
+TEXT Boy: "It is time, so...what'll you do?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '086_iku001' 00 
+TEXT Ikumi: "I'll go."
+STOP_SOUND 01 
+PLAY_SOUND 01 '031_boy002' 00 
+TEXT Boy: "Good luck."
+STOP_SOUND 01 
+PLAY_SOUND 01 '086_iku002' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+TEXT I worked my way down from the bed, and managed to leave the room using my legs.
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D13' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voice: "There you are, A-12"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Yes."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm03_min000' 00 
+TEXT Voice: "Stand in the center of the room."
+STOP_SOUND 01 
+TEXT I stood in the pattern's center.
+PLAY_SOUND 01 'm12_min000' 00 
+TEXT Voice: "Now we'll begin Level 12."
+STOP_SOUND 01 
+TEXT *guuuuun...*
+TEXT *katakatakata...*
+TEXT The machine began to move.
+TEXT *gakon*...*gakon*...*gakon*...
+TEXT My vision was closed off.
+TEXT *gakon*...*gakon*...*gakon*...
+TEXT ...*gakon*......*gakon*......
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku062' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm12_min001' 00 
+TEXT Voice: "Level 12 complete."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku063' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I left the Minmes.
+X_00 0009 000B 
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D13' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'FG041A' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT When I came to, I was lying on a bed.
+PLAY_SOUND 01 '088_iku001' 00 
+TEXT Ikumi: "Hey......what...happened to me...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy000' 00 
+TEXT Boy: "You collapsed in the corridor."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku002' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku003' 00 
+TEXT Ikumi: "...what'll happen to me...from now on...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy001' 00 
+TEXT Boy: "Nothing's going to happen."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku004' 00 
+TEXT Ikumi: "Liar..."
+STOP_SOUND 01 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '088_iku005' 00 
+TEXT Ikumi: "I was so scared..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku006' 00 
+TEXT Ikumi: "I thought I was going to be killed..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku007' 00 
+TEXT Ikumi: "Something was trying to kill me..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku008' 00 
+TEXT Ikumi: "I'm sure to be killed eventually...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy002' 00 
+TEXT Boy: "It's okay. If you can sense that, then you can resist it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy003' 00 
+TEXT Boy: "After all, you didn't even notice it until today. Right?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku009' 00 
+TEXT Ikumi: "I don't care!! It would've been better not to notice...!　There was nothing like this before...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku010' 00 
+TEXT Ikumi: "What the hell is it!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku011' 00 
+TEXT Ikumi: "What's going on!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku012' 00 
+TEXT Ikumi: "What's trying to kill me!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku013' 00 
+TEXT Ikumi: "Save me!!　Do something!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku014' 00 
+TEXT Ikumi: "I......can't stand it...something that scary...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy004' 00 
+TEXT Boy: "Calm down."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy005' 00 
+TEXT Boy: "You're strong. Stronger than you think you are."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy006' 00 
+TEXT Boy: "Have confidence in yourself."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku015' 00 
+TEXT Ikumi: "Confidence......yeah right..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku016' 00 
+TEXT Ikumi: "It's impossible to resist a fear like that...　　　Next time it'll kill me for sure..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy007' 00 
+TEXT Boy: "Don't do that. If you act that weak who knows what'll happen?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy008' 00 
+TEXT Boy: "You're already holding a strong enough will to resist it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku017' 00 
+TEXT Ikumi: "I can't...resist that..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy009' 00 
+TEXT Boy: "Give it your all."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku018' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '032_boy010' 00 
+TEXT Boy: "Now, it's probably cold, but eat up."
+STOP_SOUND 01 
+TEXT He'd brought my food for me and left it on the floor.
+PLAY_SOUND 01 '088_iku019' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I had no appetite whatsoever.
+PLAY_SOUND 01 '032_boy011' 00 
+TEXT Boy: "Once you've eaten go to your afternoon training."
+STOP_SOUND 01 
+PLAY_SOUND 01 '088_iku020' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+TEXT I just barely answered him, and slowly crawled out of bed.
+TEXT Then left the room without touching my food.
+X_00 0009 0012 
+X_00 000E 0003 
+GOSUB_SCRIPT 'A_D13' 
+IF 16 17 00 15 01 00 02 00 .LABEL3 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL3
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT I entered the Elpod.
+PLAY_SOUND 01 'es0_elp000' 00 
+TEXT Voice: "A-12, confirmed."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_elp000' 00 
+TEXT Voice: "Now make your way to the center of the room."
+STOP_SOUND 01 
+TEXT I stood silent in the pattern's center.
+PLAY_SOUND 01 'e08_elp000' 00 
+TEXT Voice: "Level 8...begin."
+STOP_SOUND 01 
+TEXT This machine...
+TEXT This machine has planted something horrible within me.
+TEXT Playing with people's memories, and doing such a thing behind their backs...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd08' 01 
+PLAY_SOUND 01 'se28' 01 
+TEXT *doku*...*doku*...
+TEXT ...*doku*...*doku*...
+TEXT ......*doku*...*doku*...
+STOP_SOUND 01 
+TEXT She was there as usual.
+GOSUB_SCRIPT 'EL8' 
+IF 16 17 00 15 01 00 02 00 .LABEL4 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL4
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'e02_iku110' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e08_elp001' 00 
+TEXT Voice: "Level 8 complete. Good work."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku111' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I left the room without saying a word.
+X_00 0009 0017 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D13' 
+IF 16 17 00 15 01 00 02 00 .LABEL5 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL5
+STOP_SOUND 00 
+TEXT I had no appetite...
+TEXT I was about to take out my tray, but I didn't bother.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT The truth is already within you.
+TEXT The boy said that.
+TEXT In that case, I should be able to make that truth show itself.
+TEXT I'll try it...
+TEXT First, what is the truth I'm chasing?
+TEXT The reason for my mother's death...
+TEXT And that was something I'd learn through studying what went on in this facility.
+TEXT Everything this facility was hiding from the public.
+TEXT I had one major lead on that truth.
+IF 17 64 00 15 00 00 02 00 .LABEL6 
+TEXT Yui's sister's death.
+TEXT Yui's sister must have been eliminated for the same reason as my mother.
+TEXT They were in the same environment.
+TEXT So if I want to learn the reason for my mother's death, I simply have to look for the reason behind Yui's sister's elimination.
+TEXT Question:
+TEXT Why was Yui's sister eliminated?
+TEXT Answer:
+TEXT To Fargo, she'd become a source of fear.
+TEXT Question:
+TEXT What changed her into fear?
+TEXT Answer:
+TEXT Unknown.
+JMP .LABEL7 
+
+:LABEL6
+TEXT Yui's sister's death.
+TEXT Yui's sister must have died for the same reason as my mother.
+TEXT They were in the same environment.
+TEXT So if I want to learn the reason for my mother's death, I simply have to look for the reason behind Yui's sister's death.
+TEXT Question:
+TEXT Why did Yui's sister choose death?
+TEXT Answer:
+TEXT Because she understood what made her fear.
+TEXT Question:
+TEXT What changed her into fear?
+TEXT Answer:
+TEXT Unknown.
+
+:LABEL7
+TEXT I was at a standstill.
+TEXT But the truth is already within me.
+TEXT If I plug that in I can keep going.
+TEXT The truth = the reason my mother died.
+TEXT The reason my mother died = that of Yui's sister's death.
+TEXT The truth is the reason behind both their deaths.
+TEXT That truth is within me.
+IF 17 64 00 15 00 00 02 00 .LABEL8 
+TEXT The reason they were eliminated already exists within me.
+JMP .LABEL9 
+
+:LABEL8
+TEXT The reason they both died already exists within me.
+
+:LABEL9
+TEXT Which means,
+IF 17 64 00 15 00 00 02 00 .LABEL10 
+TEXT I'm already in a position to be eliminated just like them.
+JMP .LABEL11 
+
+:LABEL10
+TEXT I'm already in a position to be eliminated just like them.
+
+:LABEL11
+TEXT That has to be right.
+PLAY_SOUND 01 '033_boy000' 00 
+TEXT 　"It's not something welcomed around here."
+STOP_SOUND 01 
+TEXT The boy's words suggested that.
+TEXT So I'd already gone that far...
+TEXT No, grieving comes later...I'm moving forward.
+TEXT Elimination should be a countermeasure reserved for unforseen situations.
+TEXT In other words a countermeasure reserved for humans who tried and failed to gain the invisible strength.
+TEXT It was still unclear what happens to a person after failing to gain the invisible strength.
+TEXT But from what I say of Yui's sister's case, I can guess.
+TEXT They lose their mind and become violent.
+TEXT And then there's the fact of that state of alert.
+TEXT Technically, she hadn't failed to gain the invisible strength.
+TEXT She certainly had obtained the invisible strength.
+TEXT And by holding that strength she ran out of control.
+TEXT Otherwise there'd be no need to put the facility on high alert to eliminate her.
+TEXT The truth is already within me.
+TEXT So I must already have the invisible strength.
+TEXT That other will trying to kill me...that's the true form of the invisible strength.
+TEXT The invisible strength was a separate life form residing within me.
+TEXT But that separate life form had targeted Yui's sister, and my mother, and now me.
+TEXT It's eating at me from the inside, and trying to take possession of my body.
+TEXT There's no other explanation for that terror.
+TEXT This is the truth...
+TEXT The truth I'd been seeking for so long.
+TEXT I finally reached it.
+TEXT Okaa-san ran away from here in the same state I'm in now, and came back to me.
+TEXT Then she used her limited time for atonement by staying with me.
+PLAY_SOUND 01 '088_iku120' 00 
+TEXT 　"My objective is to learn the truth."
+STOP_SOUND 01 
+TEXT I finally have it.
+PLAY_SOUND 01 '088_iku121' 00 
+TEXT 　"I'll think about it when I know the truth. Until I know, I won't do any such thing."
+STOP_SOUND 01 
+TEXT Now I'll think.
+TEXT About what's right.
+TEXT And who's to blame.
+PLAY_SOUND 01 '012_har035' 00 
+TEXT 　"Just make sure that's not too late."
+STOP_SOUND 01 
+TEXT Yes.
+TEXT There's not much time left for me.
+TEXT It's all over if this body is eaten.
+TEXT .........
+TEXT I should go back...
+IF 17 24 00 15 01 00 02 00 .LABEL12 
+X_00 0009 0009 
+JMP .LABEL13 
+
+:LABEL12
+X_00 0009 0016 
+
+:LABEL13
+X_00 000E 0005 
+GOSUB_SCRIPT 'A_D13' 
+IF 16 17 00 15 01 00 02 00 .LABEL14 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL14
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '033_boy001' 00 
+TEXT Boy: "Welcome back."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku000' 00 
+TEXT Ikumi: "...I'm back."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy002' 00 
+TEXT Boy: "You haven't eaten again."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku001' 00 
+TEXT Ikumi: "I figured out a lot of things."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy003' 00 
+TEXT Boy: "I see. But you really should eat something."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku002' 00 
+TEXT Ikumi: "I don't have that much time left."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy004' 00 
+TEXT Boy: "That is true."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku003' 00 
+TEXT Ikumi: "I have to take my revenge."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku004' 00 
+TEXT Ikumi: "But I don't plan to take it out on just one lowlife."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku005' 00 
+TEXT Ikumi: "I won't go after the specific people who laid hands on my okaa-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku006' 00 
+TEXT Ikumi: "I'd prefer someone who symbolizes them all."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy005' 00 
+TEXT Boy: "Yeah."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku007' 00 
+TEXT Ikumi: "You wouldn't be a bad choice."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy006' 00 
+TEXT Boy: "That is true."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku008' 00 
+TEXT Ikumi: "Tell me. Who is a fitting target of my revenge?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy007' 00 
+TEXT Boy: "I see."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy008' 00 
+TEXT Boy: "You're threatening me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku009' 00 
+TEXT Ikumi: "If you've noticed that, then tell me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy009' 00 
+TEXT Boy: "I'll tell you, but your threat doesn't really count."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy010' 00 
+TEXT Boy: "You can't control the invisible strength."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku010' 00 
+TEXT Ikumi: "Yes, that's right."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku011' 00 
+TEXT Ikumi: "All I can do is run ragged until my body is eaten up by it, and if I'm lucky kill a few patrolmen in my final moments."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy011' 00 
+TEXT Boy: "Like C-188."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku012' 00 
+TEXT Ikumi: "Yes."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku013' 00 
+TEXT Ikumi: "But until then there's no proof I'm a failed product. As long as you don't warn them."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku014' 00 
+TEXT Ikumi: "It's all over if they shoot me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy012' 00 
+TEXT Boy: "I won't tell them."
+STOP_SOUND 01 
+TEXT I know that.
+TEXT I just wanted to emphasize how little time I have.
+PLAY_SOUND 01 '089_iku015' 00 
+TEXT Ikumi: "Answer me, please..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy013' 00 
+TEXT Boy: "But isn't that the core? I can't say that."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku016' 00 
+TEXT Ikumi: "I know...but..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy014' 00 
+TEXT Boy: "There's a little time left."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy015' 00 
+TEXT Boy: "If you wait a little longer, the path will open."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku017' 00 
+TEXT Ikumi: "What does that mean...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku018' 00 
+TEXT Ikumi: "If a little more time passes I won't be me anymore..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku019' 00 
+TEXT Ikumi: "My mind will be eaten by that monster!!! Are you telling me to wait for that!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku020' 00 
+TEXT Ikumi: "What kind of path will open from that!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy016' 00 
+TEXT Boy: "Is it okay?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy017' 00 
+TEXT Boy: "Are you okay with wasting your mental strength like that?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku021' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy018' 00 
+TEXT Boy: "Eat your meals, and get plenty of rest."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy019' 00 
+TEXT Boy: "Don't think about the bad possibilities. Act with a strong will."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku022' 00 
+TEXT Ikumi: "That means......several before me were able to escape this situation..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy020' 00 
+TEXT Boy: "...it's unprecedented, but..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku023' 00 
+TEXT Ikumi: "That's what a roommate's supposed to say..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy021' 00 
+TEXT Boy: "Well, yes."
+STOP_SOUND 01 
+PLAY_SOUND 01 '033_boy022' 00 
+TEXT Boy: "But it will at least buy you time. You would prefer to have a little more time, right?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku024' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '089_iku025' 00 
+TEXT Ikumi: "I'll try..."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd15' 01 
+TEXT .........
+TEXT The entrance to sleep.
+TEXT .........
+TEXT The sensation of my hair being caressed.
+TEXT A long time ago...I felt like I'd returned to my youth...
+PLAY_SOUND 01 '033_boy023' 00 
+TEXT ......"...I'm sorry."
+STOP_SOUND 01 
+TEXT A voice of atonement.
+TEXT A male voice.
+TEXT The boy's voice.
+TEXT What's there to be sorry about?
+TEXT What responsibility is there,
+TEXT for you to bear...?
+TEXT 
+GOTO_SCRIPT 'DAY14' 
+EOF 

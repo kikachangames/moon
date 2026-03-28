@@ -1,0 +1,627 @@
+
+# MOON SCRIPT FILE "UNGRO.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0004 
+IF 16 0E 00 15 01 00 02 00 .LABEL0 
+SETSTATUS ' Dia 2 Manh~ Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL0
+IF 16 0E 00 15 02 00 02 00 .LABEL2 
+SETSTATUS ' Dia 2 Meio-dia Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL2
+IF 16 0E 00 15 03 00 02 00 .LABEL4 
+SETSTATUS ' Dia 2 Tarde Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL4
+IF 16 0E 00 15 04 00 02 00 .LABEL6 
+SETSTATUS ' Dia 2 Noite Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL6
+IF 16 0E 00 15 05 00 02 00 .LABEL1 
+SETSTATUS ' Dia 2 Noite Passagem Subterr}nea' 
+
+
+:LABEL1
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay2' 
+X_56 00 005F 0017 
+X_3E 02 75 'g' 
+X_56 02 00BE 0017 
+IF 16 0E 00 15 01 00 02 00 .LABEL9 
+X_3E 01 74 'ime1' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL9
+IF 16 0E 00 15 02 00 02 00 .LABEL11 
+X_3E 01 74 'ime2' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL11
+IF 16 0E 00 15 03 00 02 00 .LABEL13 
+X_3E 01 74 'ime3' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL13
+IF 16 0E 00 15 04 00 02 00 .LABEL15 
+X_3E 01 74 'ime4' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL15
+IF 16 0E 00 15 05 00 02 00 .LABEL10 
+X_3E 01 74 'ime5' 
+X_56 01 0096 0017 
+
+:LABEL10
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'UG' 
+X_24 00 
+X_25 06 
+X_00 0007 0004 
+X_01 0006 0009 
+X_04 0040 0001 
+IF 16 09 00 15 1D 00 02 00 .LABEL18 
+JMP .LABEL19 
+JMP .LABEL19 
+
+:LABEL18
+IF 16 09 00 15 1E 00 02 00 .LABEL21 
+JMP .LABEL22 
+JMP .LABEL19 
+
+:LABEL21
+IF 16 09 00 15 1F 00 02 00 .LABEL24 
+JMP .LABEL25 
+JMP .LABEL19 
+
+:LABEL24
+IF 16 09 00 15 20 00 02 00 .LABEL27 
+JMP .LABEL28 
+JMP .LABEL19 
+
+:LABEL27
+IF 16 09 00 15 21 00 02 00 .LABEL30 
+JMP .LABEL31 
+JMP .LABEL19 
+
+:LABEL30
+IF 16 09 00 15 22 00 02 00 .LABEL33 
+JMP .LABEL34 
+JMP .LABEL19 
+
+:LABEL33
+IF 16 09 00 15 24 00 02 00 .LABEL36 
+JMP .LABEL37 
+JMP .LABEL19 
+
+:LABEL36
+IF 16 09 00 15 25 00 02 00 .LABEL39 
+JMP .LABEL40 
+JMP .LABEL19 
+
+:LABEL39
+IF 16 09 00 15 26 00 02 00 .LABEL42 
+JMP .LABEL43 
+JMP .LABEL19 
+
+:LABEL42
+IF 16 09 00 15 27 00 02 00 .LABEL45 
+JMP .LABEL46 
+JMP .LABEL19 
+
+:LABEL45
+IF 16 09 00 15 28 00 02 00 .LABEL48 
+JMP .LABEL49 
+JMP .LABEL19 
+
+:LABEL48
+IF 16 09 00 15 29 00 02 00 .LABEL19 
+JMP .LABEL52 
+
+:LABEL19
+X_01 0006 0009 
+
+:LABEL65
+X_52 00CC 00E6 
+X_51 01 
+X_25 01 
+IF 16 0F 00 15 02 00 02 16 1F 00 15 00 00 02 0F 00 .LABEL53 
+X_00 001F 0001 
+TEXT Fala s%rio...
+PLAY_SOUND 01 '009_iku035' 00 
+TEXT Ikumi: "Aquele garoto % um idiota ou o qu[...?"
+STOP_SOUND 01 
+TEXT Por que um vigia me contaria sobre uma passagem secreta t~o facilmente?
+TEXT Na verdade, revelar seu papel como vigia j$ % estranho por si s+.
+PLAY_SOUND 01 '009_iku036' 00 
+TEXT Ikumi: "...Talvez ele seja..."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Um estrategista' 'S+ um idiota mesmo' 
+IF 16 03 00 15 01 00 02 00 .LABEL54 
+TEXT Talvez ele esteja planejando algo... e seu objetivo foi alcan|ado ao me contar sobre essa passagem.
+TEXT Isso explicaria muita coisa.
+TEXT Mas...
+TEXT 
+SELECT 0003 'N~o pode ser isso' 'S+ pode ser isso' 
+IF 16 03 00 15 01 00 02 00 .LABEL55 
+TEXT Isso n~o parece certo para mim.
+TEXT Eu nem sei dizer exatamente por que pensei em uma coisa dessas.
+PLAY_SOUND 01 '009_iku037' 00 
+TEXT Ikumi: "Quem se importa! Isso n~o importa agora!"
+STOP_SOUND 01 
+TEXT Eu balancei a cabe|a e parei de pensar.
+TEXT Eu n~o deveria ficar parada aqui.
+PLAY_SOUND 01 '009_iku038' 00 
+TEXT Ikumi: "Eu preciso contar sobre essa passagem para as garotas."
+STOP_SOUND 01 
+TEXT Primeiro, tenho que entrar em contato com Haruka.
+TEXT Essa % minha prioridade.
+JMP .LABEL56 
+
+:LABEL55
+TEXT Deve ser isso. Sem d^vida.
+TEXT O que significaria... que eu estava sendo perfeitamente manipulada por ele.
+TEXT Mas eu realmente n~o me importo com isso.
+TEXT Vou apenas fingir que estou sendo usada enquanto na verdade o uso.
+TEXT Enganar ele deve ser f$cil.
+TEXT Pensar assim de algum modo me fez sentir melhor.
+PLAY_SOUND 01 '009_iku039' 00 
+TEXT Ikumi: "Eu preciso contar para Haruka e Yui sobre essa passagem."
+STOP_SOUND 01 
+TEXT Encontrar a Haruka vem primeiro.
+
+:LABEL56
+JMP .LABEL53 
+
+:LABEL54
+TEXT Aquele garoto % apenas um completo idiota.
+TEXT Por um momento, essas palavras cruzaram minha mente.
+TEXT Se for assim, ent~o tudo % simples.
+TEXT Vou me aproveitar dele para adquirir todas as informa|/es necess$rias.
+TEXT Embora eu n~o tenha certeza se ele tem informa|/es t~o ^teis assim...
+PLAY_SOUND 01 '009_iku040' 00 
+TEXT Ikumi: "Essa passagem pode ser apenas um enorme beco sem sa&da?"
+STOP_SOUND 01 
+TEXT Por um momento, essa d^vida apareceu.
+TEXT .........
+TEXT No entanto, como se para negar esse pensamento, eu podia ver claramente a luz que vinha do fundo da passagem.
+TEXT Definitivamente n~o parecia ser um beco sem sa&da.
+
+:LABEL53
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Subir para o Pr%dio A' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL58 
+TEXT H$ uma escada levando para o Pr%dio A.
+JMP .LABEL59 
+
+:LABEL58
+IF 16 03 00 15 02 00 02 00 .LABEL60 
+X_00 0009 0008 
+GOTO_SCRIPT 'MAP_A' 
+JMP .LABEL59 
+
+:LABEL60
+IF 16 03 00 15 03 00 02 00 .LABEL59 
+X_00 0009 001E 
+JMP .LABEL22 
+JMP .LABEL59 
+
+:LABEL59
+JMP .LABEL65 
+
+:LABEL22
+X_01 0006 0009 
+
+:LABEL74
+X_52 00F1 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL66 
+TEXT N~o h$ nada aqui.
+JMP .LABEL67 
+
+:LABEL66
+IF 16 03 00 15 02 00 02 00 .LABEL68 
+X_00 0009 001D 
+JMP .LABEL19 
+JMP .LABEL67 
+
+:LABEL68
+IF 16 03 00 15 03 00 02 00 .LABEL67 
+X_00 0009 001F 
+JMP .LABEL25 
+JMP .LABEL67 
+
+:LABEL67
+JMP .LABEL74 
+
+:LABEL25
+X_01 0006 0009 
+
+:LABEL83
+X_52 0117 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL75 
+TEXT N~o tem nada aqui.
+JMP .LABEL76 
+
+:LABEL75
+IF 16 03 00 15 02 00 02 00 .LABEL77 
+X_00 0009 001E 
+JMP .LABEL22 
+JMP .LABEL76 
+
+:LABEL77
+IF 16 03 00 15 03 00 02 00 .LABEL76 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL76 
+
+:LABEL76
+JMP .LABEL83 
+
+:LABEL28
+X_52 013C 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL84 
+TEXT N~o tem nada aqui.
+JMP .LABEL85 
+
+:LABEL84
+IF 16 03 00 15 01 00 02 00 .LABEL86 
+X_00 0009 0026 
+JMP .LABEL43 
+JMP .LABEL85 
+
+:LABEL86
+IF 16 03 00 15 02 00 02 00 .LABEL89 
+X_00 0009 001F 
+JMP .LABEL25 
+JMP .LABEL85 
+
+:LABEL89
+IF 16 03 00 15 03 00 02 00 .LABEL92 
+X_00 0009 0021 
+JMP .LABEL31 
+JMP .LABEL85 
+
+:LABEL92
+IF 16 03 00 15 04 00 02 00 .LABEL85 
+X_00 0009 0027 
+JMP .LABEL46 
+JMP .LABEL85 
+
+:LABEL85
+JMP .LABEL28 
+
+:LABEL31
+X_01 0006 0009 
+
+:LABEL107
+X_52 0162 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL99 
+TEXT N~o tem nada aqui.
+JMP .LABEL100 
+
+:LABEL99
+IF 16 03 00 15 02 00 02 00 .LABEL101 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL100 
+
+:LABEL101
+IF 16 03 00 15 03 00 02 00 .LABEL100 
+X_00 0009 0022 
+JMP .LABEL34 
+JMP .LABEL100 
+
+:LABEL100
+JMP .LABEL107 
+
+:LABEL34
+X_01 0006 0009 
+
+:LABEL116
+X_52 0188 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL108 
+TEXT N~o tem nada aqui.
+JMP .LABEL109 
+
+:LABEL108
+IF 16 03 00 15 02 00 02 00 .LABEL110 
+X_00 0009 0021 
+JMP .LABEL31 
+JMP .LABEL109 
+
+:LABEL110
+IF 16 03 00 15 03 00 02 00 .LABEL109 
+X_00 0009 0023 
+JMP .LABEL114 
+JMP .LABEL109 
+
+:LABEL109
+JMP .LABEL116 
+
+:LABEL114
+X_01 0006 0009 
+
+:LABEL122
+X_52 01AE 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(--)---:---' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL117 
+TEXT H$ um bueiro aqui.
+JMP .LABEL118 
+
+:LABEL117
+IF 16 03 00 15 02 00 02 00 .LABEL118 
+X_00 0009 0022 
+JMP .LABEL34 
+JMP .LABEL118 
+
+:LABEL118
+JMP .LABEL122 
+
+:LABEL37
+X_01 0006 0009 
+
+:LABEL139
+X_52 013C 0076 
+X_51 01 
+X_25 01 
+IF 17 37 00 15 00 00 02 00 .LABEL123 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Subir a escada' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL124 
+TEXT Tem uma escada aqui.
+JMP .LABEL125 
+
+:LABEL124
+IF 16 03 00 15 01 00 02 00 .LABEL126 
+X_00 0009 0008 
+GOTO_SCRIPT 'MAP_B' 
+JMP .LABEL125 
+
+:LABEL126
+IF 16 03 00 15 04 00 02 00 .LABEL125 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL125 
+
+:LABEL125
+JMP .LABEL131 
+
+:LABEL123
+TEXT 
+SELECT 0003 'Subir para o Pr%dio B' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL132 
+TEXT H$ uma escada levando ao Pr%dio B.
+JMP .LABEL131 
+
+:LABEL132
+IF 16 03 00 15 01 00 02 00 .LABEL134 
+X_00 0009 0008 
+GOTO_SCRIPT 'MAP_B' 
+JMP .LABEL131 
+
+:LABEL134
+IF 16 03 00 15 04 00 02 00 .LABEL131 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL131 
+
+:LABEL131
+JMP .LABEL139 
+
+:LABEL40
+X_01 0006 0009 
+
+:LABEL148
+X_52 013C 009B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL140 
+TEXT N~o tem nada por aqui.
+JMP .LABEL141 
+
+:LABEL140
+IF 16 03 00 15 01 00 02 00 .LABEL142 
+X_00 0009 0024 
+JMP .LABEL37 
+JMP .LABEL141 
+
+:LABEL142
+IF 16 03 00 15 04 00 02 00 .LABEL141 
+X_00 0009 0026 
+JMP .LABEL43 
+JMP .LABEL141 
+
+:LABEL141
+JMP .LABEL148 
+
+:LABEL43
+X_01 0006 0009 
+
+:LABEL157
+X_52 013C 00C1 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL149 
+TEXT N~o h$ nada aqui.
+JMP .LABEL150 
+
+:LABEL149
+IF 16 03 00 15 01 00 02 00 .LABEL151 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL150 
+
+:LABEL151
+IF 16 03 00 15 04 00 02 00 .LABEL150 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL150 
+
+:LABEL150
+JMP .LABEL157 
+
+:LABEL46
+X_01 0006 0009 
+
+:LABEL166
+X_52 013C 010C 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL158 
+TEXT N~o h$ nada aqui.
+JMP .LABEL159 
+
+:LABEL158
+IF 16 03 00 15 01 00 02 00 .LABEL160 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL159 
+
+:LABEL160
+IF 16 03 00 15 04 00 02 00 .LABEL159 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL159 
+
+:LABEL159
+JMP .LABEL166 
+
+:LABEL49
+X_01 0006 0009 
+
+:LABEL175
+X_52 013C 0132 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL167 
+TEXT Olhei para cima e encontrei um duto de ventila|~o.
+X_04 004A 0001 
+JMP .LABEL168 
+
+:LABEL167
+IF 16 03 00 15 01 00 02 00 .LABEL169 
+X_00 0009 0027 
+JMP .LABEL46 
+JMP .LABEL168 
+
+:LABEL169
+IF 16 03 00 15 04 00 02 00 .LABEL168 
+X_00 0009 0029 
+JMP .LABEL52 
+JMP .LABEL168 
+
+:LABEL168
+JMP .LABEL175 
+
+:LABEL52
+X_01 0006 0009 
+
+:LABEL192
+X_52 013C 0159 
+X_51 01 
+X_25 01 
+IF 17 38 00 15 00 00 02 00 .LABEL176 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Subir pela escada' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL177 
+TEXT Tem uma escada aqui.
+JMP .LABEL178 
+
+:LABEL177
+IF 16 03 00 15 04 00 02 00 .LABEL179 
+X_00 0009 0008 
+GOTO_SCRIPT 'MAP_C' 
+JMP .LABEL178 
+
+:LABEL179
+IF 16 03 00 15 01 00 02 00 .LABEL178 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL178 
+
+:LABEL178
+JMP .LABEL184 
+
+:LABEL176
+TEXT 
+SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Subir para o Pr%dio C' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL185 
+TEXT H$ uma escada levando ao Pr%dio C.
+JMP .LABEL184 
+
+:LABEL185
+IF 16 03 00 15 04 00 02 00 .LABEL187 
+X_00 0009 0008 
+GOTO_SCRIPT 'MAP_C' 
+JMP .LABEL184 
+
+:LABEL187
+IF 16 03 00 15 01 00 02 00 .LABEL184 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL184 
+
+:LABEL184
+JMP .LABEL192 
+EOF

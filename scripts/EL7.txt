@@ -1,0 +1,1142 @@
+
+# MOON SCRIPT FILE "EL7.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+IF 17 04 00 15 00 00 02 00 .LABEL0 
+PLAY_SOUND 01 'e07_dop000' 00 
+TEXT "...Boa tarde, Ikumi safada."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop001' 00 
+TEXT "...Agora, vamos fazer coisas pervertidas novamente."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop002' 00 
+TEXT "...Voc[ n~o quer?"
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop003' 00 
+TEXT "...Voc[ quer, certo?"
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop004' 00 
+TEXT "...O que voc[ gostaria?"
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop005' 00 
+TEXT "...Deseje isso."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop006' 00 
+TEXT "...Entendi."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'e07_dop007' 00 
+TEXT "...Seus pensamentos sempre superam minha imagina|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku000' 00 
+TEXT H~...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop008' 00 
+TEXT "...Admiro sua pervers~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku001' 00 
+TEXT Do que voc[ est$ falando...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop009' 00 
+TEXT "...Uma vez que sabe que pode fazer qualquer coisa, voc[ realmente pensa em algo incr&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku002' 00 
+TEXT N~o decida por mim o que eu penso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop010' 00 
+TEXT "...@ verdade. Voc[ estava secretamente apaixonada por algu%m."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop011' 00 
+TEXT "...Voc[ quer fazer isso com ele, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku003' 00 
+TEXT Quem... % esse algu%m...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop012' 00 
+TEXT "...Uma pessoa linda. Adulta."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop013' 00 
+TEXT "...Certo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop014' 00 
+TEXT "...Eu vou dar ele para voc[."
+STOP_SOUND 01 
+TEXT Enrolei os cantos dos meus l$bios e ri.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Ap+s esse movimento, ela desapareceu de repente.
+TEXT Ent~o a forma de outra pessoa come|ou a surgir nas sombras.
+TEXT Essa n~o era a minha forma.
+TEXT Eu me lembro dessas roupas.
+TEXT Eu me lembro desse penteado.
+TEXT Eu me lembro dessas linhas corporais.
+BACKGROUND 'CGYS01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '018_you001' 00 
+TEXT "...J$ faz um tempo."
+STOP_SOUND 01 
+TEXT Ent~o, uma voz que eu me lembro.
+PLAY_SOUND 01 'e07_iku004' 00 
+TEXT "Youko-san..."
+STOP_SOUND 01 
+TEXT Aquela forma n~o era outra sen~o a de Kanuma Youko.
+PLAY_SOUND 01 'e07_iku005' 00 
+TEXT "Por que voc[ est$..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you002' 00 
+TEXT "Porque voc[ me desejou..."
+STOP_SOUND 01 
+TEXT Eu desejei?
+TEXT Eu desejei ela?
+TEXT @ verdade que eu estava apaixonada por ela.
+TEXT Aquela forma e porte elegantes...
+TEXT Mas foi mais do que isso.
+TEXT Isso % o que eu realmente...
+TEXT Eu queria fazer do meu jeito com ela...
+TEXT Eu queria plantar meus l$bios naquele rosto lindo...
+TEXT Eu queria torcer sua l&ngua e beber sua saliva doce...
+TEXT Eu queria acariciar seus seios bem formados...
+TEXT Eu queria enfiar meus dedos profundamente naquela protuber}ncia carmesim...
+TEXT Ent~o, eu queria enfiar minha l&ngua dentro de sua virilha perfumada e beber todos os l&quidos que sa&ssem...
+TEXT Era isso que eu queria.
+TEXT E esse prazer ilus+rio se tornar$ realidade se eu desejar.
+TEXT Porque este % um mundo s+ para mim.
+TEXT Ningu%m est$ olhando.
+TEXT Ningu%m est$ repreendendo.
+TEXT Ningu%m est$ ridicularizando.
+TEXT Ningu%m est$ culpando.
+TEXT Ningu%m est$ machucando.
+TEXT Ningu%m...
+JMP .LABEL1 
+
+:LABEL0
+PLAY_SOUND 01 'e07_dop015' 00 
+TEXT "...Boa tarde, Ikumi safada."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku006' 00 
+TEXT Eu n~o sou safada...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop016' 00 
+TEXT "...N~o seja arrogante s+ porque seu autocontrole funcionou uma vez."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop017' 00 
+TEXT "...No final, voc[ simplesmente ficou entediada de dar prazer a si mesma."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku007' 00 
+TEXT N~o foi nada disso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop018' 00 
+TEXT "...Voc[ n~o estava se observando fazendo isso na frente de um espelho de corpo inteiro?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku008' 00 
+TEXT Eu n~o estava...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop019' 00 
+TEXT "...Seu corpo simplesmente n~o quer isso agora, j$ que voc[ exagerou."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku009' 00 
+TEXT N~o fa|o ideia do que voc[...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop020' 00 
+TEXT "...Mas n~o h$ necessidade de pensar t~o modestamente."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop021' 00 
+TEXT "...Por exemplo, que tal algu%m que voc[ admirava secretamente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop022' 00 
+TEXT "...Voc[ n~o gostaria de fazer isso com um certo algu%m?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku010' 00 
+TEXT Quem... % esse algu%m...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop023' 00 
+TEXT "...Uma pessoa linda. Adulta."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop024' 00 
+TEXT "...Eu vou dar ela para voc[."
+STOP_SOUND 01 
+TEXT Enrolei os cantos dos meus l$bios e ri.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Ap+s esse movimento, ela desapareceu de repente.
+TEXT Ent~o a forma de outra pessoa come|ou a surgir nas sombras.
+TEXT Essa n~o era a minha forma.
+TEXT Eu me lembro dessas roupas.
+TEXT Eu me lembro desse penteado.
+TEXT Eu me lembro dessas linhas corporais.
+BACKGROUND 'CGYS01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '018_you001' 00 
+TEXT "...J$ faz um tempo."
+STOP_SOUND 01 
+TEXT Ent~o, eu me lembrei dessa voz.
+PLAY_SOUND 01 'e07_iku011' 00 
+TEXT "Youko-san..."
+STOP_SOUND 01 
+TEXT Aquela forma n~o era outra sen~o a de Kanuma Youko.
+PLAY_SOUND 01 'e07_iku012' 00 
+TEXT "Por que voc[ est$..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you002' 00 
+TEXT "Porque voc[ me desejou..."
+STOP_SOUND 01 
+TEXT Eu desejei?
+TEXT Eu desejei ela?
+TEXT @ verdade que eu estava apaixonado por ela.
+TEXT Aquela forma e porte elegantes...
+TEXT Mas foi mais do que isso.
+TEXT Isso % o que eu realmente...
+TEXT Eu queria fazer do meu jeito com ela...
+TEXT Eu queria plantar meus l$bios naquele rosto lindo...
+TEXT Eu queria torcer sua l&ngua e beber sua saliva doce...
+TEXT Eu queria acariciar seus seios bem formados...
+TEXT Eu queria enfiar meus dedos profundamente naquela protuber}ncia carmesim...
+TEXT Ent~o, eu queria enfiar minha l&ngua dentro de sua virilha perfumada e beber todos os l&quidos que sa&ssem...
+TEXT Era isso que eu queria.
+TEXT E esse prazer ilus+rio se tornar$ realidade se eu desejar.
+TEXT Porque este % um mundo s+ para mim.
+TEXT Ningu%m est$ olhando.
+TEXT Ningu%m est$ repreendendo.
+TEXT Ningu%m est$ ridicularizando.
+TEXT Ningu%m est$ culpando.
+TEXT Ningu%m est$ machucando.
+TEXT Ningu%m...
+
+:LABEL1
+TEXT 
+SELECT 0003 'Sim, ningu%m vai se machucar' 'Isso n~o % verdade' 
+IF 16 03 00 15 01 00 02 00 .LABEL2 
+TEXT Isso mesmo, ningu%m vai se machucar.
+TEXT Este % o meu mundo.
+TEXT Um mundo preparado exclusivamente para mim.
+TEXT Ent~o...
+TEXT Vou desejar...
+TEXT E assim, este mundo concedeu o que eu desejava...
+BACKGROUND 'FG110' 
+X_24 00 
+X_25 06 
+X_3C 07 01 
+TEXT Correntes e algemas surgiram da escurid~o e se prenderam aos p%s e #s m~os de Youko-san.
+PLAY_SOUND 01 '018_you003' 00 
+TEXT "...Para que servem isso?"
+STOP_SOUND 01 
+TEXT Este % um mundo que eu controlo.
+PLAY_SOUND 01 '018_you004' 00 
+TEXT "...Tire isso imediatamente."
+STOP_SOUND 01 
+TEXT Isso % o que eu desejei.
+TEXT Quando me aproximei da im+vel Youko-san, suas roupas voaram para longe.
+TEXT Sua pele branca como porcelana estava exposta.
+PLAY_SOUND 01 'e07_iku013' 00 
+TEXT "Voc[ % t~o bonita..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you005' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Por vergonha, Youko-san se virou.
+PLAY_SOUND 01 'e07_iku014' 00 
+TEXT "Igual uma boneca..."
+STOP_SOUND 01 
+TEXT Enquanto passava meus dedos pelos cabelos de Youko-san, eles escorriam como $gua corrente.
+PLAY_SOUND 01 'e07_iku015' 00 
+TEXT "Eu sempre gostei de voc[..."
+STOP_SOUND 01 
+TEXT Coloquei minha m~o em seu peito bem formado.
+PLAY_SOUND 01 '018_you006' 00 
+TEXT "...Por favor, pare."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku016' 00 
+TEXT "Desde que te conheci no refeit+rio."
+STOP_SOUND 01 
+TEXT Apertei minha m~o e seus seios macios e el$sticos escorreram entre meus dedos.
+TEXT Uma protuber}ncia rosa brilhava vividamente em sua pele branca.
+PLAY_SOUND 01 '018_you007' 00 
+TEXT "...Voc[ entende o que est$ fazendo?"
+STOP_SOUND 01 
+TEXT Estou tocando os seios de uma mulher que admiro.
+PLAY_SOUND 01 '018_you008' 00 
+TEXT "...Sua conduta n~o ser$ perdoada."
+STOP_SOUND 01 
+TEXT Este % o meu mundo.
+TEXT Um mundo para realizar meus desejos.
+PLAY_SOUND 01 '018_you009' 00 
+TEXT "...Voc[ % uma pessoa t~o tola que n~o consegue controlar seus pr+prios desejos?"
+STOP_SOUND 01 
+TEXT L$bios encantadores ridicularizaram minhas a|/es.
+TEXT Mas, do jeito que eu estava agora, isso s+ serviu para ado|ar e acelerar a minha lux^ria.
+TEXT Aproximei meu rosto do de Youko-san e a beijei.
+PLAY_SOUND 01 '018_you010' 00 
+TEXT "......!"
+STOP_SOUND 01 
+TEXT Meu movimento repentino mudou a express~o de Youko-san.
+PLAY_SOUND 01 '018_you011' 00 
+TEXT "...Por favor, pare."
+STOP_SOUND 01 
+TEXT Ela tentou desviar o olhar.
+TEXT Mas eu n~o deixaria.
+TEXT Deslizei minha l&ngua dentro de seus l$bios fechados.
+PLAY_SOUND 01 '018_you012' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Movi minha l&ngua como se fosse absorver toda a saliva do interior de sua boca.
+TEXT O doce aroma de Youko-san...
+PLAY_SOUND 01 'e07_iku017' 00 
+TEXT "...Mmm."
+STOP_SOUND 01 
+TEXT Eu bebi minha saliva e soltei os l$bios de Youko-san.
+PLAY_SOUND 01 '018_you013' 00 
+TEXT "...Eu estou te implorando... pare de fazer isso."
+STOP_SOUND 01 
+TEXT Seus olhos lacrimejaram.
+PLAY_SOUND 01 'e07_iku018' 00 
+TEXT "Est$ tudo bem... serei gentil."
+STOP_SOUND 01 
+TEXT Deslizei meus l$bios pelo seu pesco|o e pelos seus seios.
+TEXT Uma linha de saliva brilhante foi esculpida no corpo de Youko-san.
+TEXT Ent~o, meus l$bios alcan|aram a ponta do peito dela.
+PLAY_SOUND 01 '018_you014' 00 
+TEXT ".........!"
+STOP_SOUND 01 
+TEXT Youko-san estremeceu por um momento.
+PLAY_SOUND 01 'e07_iku019' 00 
+TEXT "Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku020' 00 
+TEXT "Isso n~o % bom?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you015' 00 
+TEXT "...N~o %."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku021' 00 
+TEXT "Ah, n~o, eu entendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku022' 00 
+TEXT "Afinal, eu tamb%m sou uma garota."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you016' 00 
+TEXT "...Voc[ est$ julgando apenas com base em suas pr+prias opini/es."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku023' 00 
+TEXT "Voc[ n~o precisa se conter."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku024' 00 
+TEXT "Farei o que Youko-san desejar."
+STOP_SOUND 01 
+TEXT Estimulei seu seio com a ponta da l&ngua.
+TEXT Minha l&ngua encharcada de saliva brincou com seu mamilo.
+TEXT Chupei o mamilo que endurecia lentamente e o rolei dentro da minha boca.
+TEXT E, de vez em quando, eu mordia suavemente.
+PLAY_SOUND 01 '018_you017' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Algo parecido com um suspiro saiu da boca de Youko-san.
+TEXT Comecei a acariciar o outro seio da mesma maneira.
+TEXT A essa altura os seios de Youko-san estavam cobertos de saliva e brilhando tanto que parecia estranho.
+PLAY_SOUND 01 'e07_iku025' 00 
+TEXT "Ei, n~o parece que seu corpo est$ ficando dormente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku026' 00 
+TEXT "Voc[ n~o est$ com coceira a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku027' 00 
+TEXT "Voc[ n~o quer que eu toque a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku028' 00 
+TEXT "Voc[ n~o quer que eu lamba seus fluidos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku029' 00 
+TEXT "Voc[ n~o quer que eu te penetre com meus dedos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku030' 00 
+TEXT "Voc[ n~o quer que eu esfregue o interior da sua vagina?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku031' 00 
+TEXT "Voc[ n~o quer chegar ao cl&max pela minha m~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you018' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Youko-san n~o respondeu.
+TEXT Ela apenas fechou os olhos e sacudiu a cabe|a.
+PLAY_SOUND 01 'e07_iku032' 00 
+TEXT "Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku033' 00 
+TEXT "Por que voc[ n~o est$ falando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku034' 00 
+TEXT "Por que voc[ n~o me deixa ouvir sua voz?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku035' 00 
+TEXT "Por que voc[ est$ se segurando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku036' 00 
+TEXT "Por que voc[ n~o est$ sendo honesta sobre seu pr+prio prazer?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you019' 00 
+TEXT "...Pare com isso j$."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku037' 00 
+TEXT "Mas isso realmente % bom, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku038' 00 
+TEXT "Voc[ n~o quer que eu fa|a mais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you020' 00 
+TEXT "...Voc[ %... louca."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku039' 00 
+TEXT "Louca?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you021' 00 
+TEXT "...Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku040' 00 
+TEXT "N~o, sou um ser humano perfeitamente normal."
+STOP_SOUND 01 
+TEXT Quero ouvir mais da doce voz de Youko-san...
+TEXT Quero ver a express~o que Youko-san faz quando est$ se afogando em prazer, esse rostinho delicado de boneca francesa...
+TEXT Quero ver seus l$bios me persuadindo a lhe dar ainda mais prazer...
+TEXT Esse % um desejo natural.
+TEXT Ent~o eu vou desejar...
+BACKGROUND 'FG111' 
+X_24 00 
+X_25 06 
+X_3C 08 01 
+TEXT O pr+ximo momento.
+TEXT Youko-san caiu nua no ch~o.
+TEXT Suas m~os e p%s estavam fixados ao ch~o, em uma posi|~o que expunha sua genit$lia.
+PLAY_SOUND 01 '018_you022' 00 
+TEXT "...Por favor, pare com isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you023' 00 
+TEXT "...Por favor, n~o me envergonhe mais."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku041' 00 
+TEXT "Mentiras."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you024' 00 
+TEXT "...Por que...voc[ diz isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku042' 00 
+TEXT "Porque voc[ est$ completamente molhada a& embaixo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku043' 00 
+TEXT "Est$ gritando: 'Toque-me mais'."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku044' 00 
+TEXT "Est$ se preparando para dizer: 'Quero que voc[ enfie os dedos dentro de mim'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you025' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Os olhos de Youko-san pareciam estar com pena de mim.
+PLAY_SOUND 01 '018_you026' 00 
+TEXT "...Entendi... por favor, fa|a o que quiser."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you027' 00 
+TEXT "...Se isso te satisfaz."
+STOP_SOUND 01 
+TEXT Tomei as palavras de Youko-san como consentimento.
+TEXT Aproximei-me de Youko-san e inseri minha l&ngua em sua genit$lia.
+PLAY_SOUND 01 '018_you028' 00 
+TEXT "..."
+STOP_SOUND 01 
+TEXT Minha l&ngua tocou sua carne.
+TEXT Fios se formaram entre a saliva da minha l&ngua e as secre|/es de Youko-san.
+TEXT Concentrei-me em uma de suas dobras e passei minha l&ngua ao longo dela.
+TEXT De cima a baixo, lambi cuidadosamente com minha l&ngua ^mida, sem perder nenhum ponto.
+PLAY_SOUND 01 'e07_iku045' 00 
+TEXT "Viu, n~o % gostoso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you029' 00 
+TEXT "... Acho que sim."
+STOP_SOUND 01 
+TEXT Uma voz fria.
+PLAY_SOUND 01 'e07_iku046' 00 
+TEXT "Devo inserir meus dedos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you030' 00 
+TEXT "...Acho que sim."
+STOP_SOUND 01 
+TEXT Eu abri Youko-san com meus dedos.
+TEXT Ent~o coloquei meus dedos dentro dela.
+TEXT Sua vagina j$ estava bastante molhada, tanto pela minha saliva quanto pelos pr+prios fluidos de Youko-san.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk...*
+TEXT Meus dedos foram sugados, fazendo barulhos obscenos.
+TEXT Sua carne se torceu e grudou em meus dedos.
+PLAY_SOUND 01 'e07_iku047' 00 
+TEXT "Youko-san, seu interior est$ agrad$vel e quente..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you031' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Enterrei meus dedos ainda mais nela.
+TEXT Quando os inseri at% a segunda junta, enrolei-os em forma de L e movi como se quisesse raspar todos os fluidos dentro dela.
+PLAY_SOUND 01 'e07_iku048' 00 
+TEXT "Veja, meus dedos est~o esfregando todo o seu interior."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku049' 00 
+TEXT "N~o % bom?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku050' 00 
+TEXT "N~o % +timo?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku051' 00 
+TEXT "Voc[ pode deixar sua voz sair."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku052' 00 
+TEXT "O que foi?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku053' 00 
+TEXT "Ei, Youko-san?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku054' 00 
+TEXT "Youko... san...?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku055' 00 
+TEXT "Qual o...... problema...?"
+STOP_SOUND 01 
+BACKGROUND 'FG112' 
+X_24 00 
+X_25 06 
+X_3C 09 01 
+PLAY_SOUND 01 'e07_iku056' 00 
+TEXT N-N~oooooo!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku057' 00 
+TEXT Youko-san!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku058' 00 
+TEXT Ei!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku059' 00 
+TEXT Eu te imploro, me responda!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku060' 00 
+TEXT Por qu[!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku061' 00 
+TEXT Por qu[!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop025' 00 
+TEXT ...'Por qu['?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop026' 00 
+TEXT ...Que coisa estranha de se perguntar.
+STOP_SOUND 01 
+TEXT <Minha> voz.
+PLAY_SOUND 01 'e07_dop027' 00 
+TEXT ...N~o % +bvio?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop028' 00 
+TEXT ...A culpa % sua.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku062' 00 
+TEXT N~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku063' 00 
+TEXT Como assim a culpa % minha!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop029' 00 
+TEXT ...Ela n~o foi capaz de suportar sua conduta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop030' 00 
+TEXT ...Ao ponto em que ela escolheu a morte.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku064' 00 
+TEXT Isso n~o % verdade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku065' 00 
+TEXT Youko-san tamb%m desejou isso!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop031' 00 
+TEXT ...Uma interpreta|~o bem conveniente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku066' 00 
+TEXT N~o!! N~o!! N~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop032' 00 
+TEXT ...Voc[ empurrou ela para a morte.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku067' 00 
+TEXT Isso est$ errado!! Isso n~o % verdade!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop033' 00 
+TEXT ...V$ em frente, continue negando assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku068' 00 
+TEXT Eu n~o fiz nada de errado!! N~o % minha culpa!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop034' 00 
+TEXT ...Voc[ n~o pode silenciar seu pr+prio cora|~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku069' 00 
+TEXT Devolva-me!! Devolva-me # realidade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop035' 00 
+TEXT ...Pense incessantemente enquanto abra|a esse corpo frio como pedra.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku070' 00 
+TEXT N~ooooo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku071' 00 
+TEXT N~o me olhe desse jeito!!! N~o me olhe com esses olhos turvos!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku072' 00 
+TEXT Responda-me!! Diga alguma coisa!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku073' 00 
+TEXT Ei!! Youko-san!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku074' 00 
+TEXT Eu te imploro!!!!!
+STOP_SOUND 01 
+X_0C 0014 0002 
+X_04 0005 0001 
+JMP .LABEL3 
+
+:LABEL2
+TEXT N~o.
+TEXT Isso n~o % verdade.
+TEXT N~o % poss&vel que um ser humano dominado pelo desejo n~o machuque ningu%m.
+TEXT Eu sei disso.
+TEXT Eu sei disso melhor do que ningu%m.
+TEXT Se eu fosse sugada pelos meus desejos aqui, acabaria machucando o ser humano chamado Kanuma Youko.
+TEXT .........
+TEXT Mas...
+TEXT @ esse realmente o caso...?
+TEXT Este % um mundo s+ para mim...
+TEXT Ent~o, a garota diante de mim agora % apenas uma ilus~o que criei...
+TEXT Uma exist[ncia falsa produzida para satisfazer meus desejos...
+TEXT Nesse caso...
+TEXT 
+SELECT 0003 '.........' 'Vou terminar isso sem machucar ningu%m' 
+IF 16 03 00 15 01 00 02 00 .LABEL4 
+TEXT .........
+TEXT Eu vou desejar.
+TEXT Por sexo com a falsa Youko-san.
+BACKGROUND 'FG110' 
+X_24 00 
+X_25 06 
+X_3C 07 01 
+TEXT Algemas e correntes surgiram da escurid~o e se prenderam aos p%s e #s m~os de Youko-san.
+PLAY_SOUND 01 '018_you003' 00 
+TEXT "...Para que servem isso?"
+STOP_SOUND 01 
+TEXT Este % um mundo que eu controlo.
+PLAY_SOUND 01 '018_you004' 00 
+TEXT "...Tire isso imediatamente."
+STOP_SOUND 01 
+TEXT Isso % o que eu desejei.
+TEXT Quando me aproximei da im+vel Youko-san, suas roupas voaram.
+TEXT Sua pele branca como porcelana estava exposta.
+PLAY_SOUND 01 'e07_iku013' 00 
+TEXT "Voc[ % t~o bonita..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you005' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Por vergonha, Youko-san se virou.
+PLAY_SOUND 01 'e07_iku014' 00 
+TEXT "Igual uma boneca..."
+STOP_SOUND 01 
+TEXT Enquanto passava meus dedos pelos cabelos de Youko-san, eles escorriam como $gua corrente.
+PLAY_SOUND 01 'e07_iku015' 00 
+TEXT "Eu sempre gostei de voc[..."
+STOP_SOUND 01 
+TEXT Coloquei minha m~o em seu peito bem formado.
+PLAY_SOUND 01 '018_you006' 00 
+TEXT "...Por favor, pare."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku016' 00 
+TEXT "Desde que te conheci no refeit+rio."
+STOP_SOUND 01 
+TEXT Apertei minha m~o e seus seios macios e el$sticos escorreram entre meus dedos.
+TEXT Uma protuber}ncia rosa brilhava vividamente em sua pele branca.
+PLAY_SOUND 01 '018_you007' 00 
+TEXT "...Voc[ entende o que est$ fazendo?"
+STOP_SOUND 01 
+TEXT Estou tocando os seios de uma mulher que admiro.
+PLAY_SOUND 01 '018_you008' 00 
+TEXT "...Sua conduta n~o pode ser perdoada."
+STOP_SOUND 01 
+TEXT Este % o meu mundo.
+TEXT Um mundo para realizar meus desejos.
+PLAY_SOUND 01 '018_you009' 00 
+TEXT "...Ou voc[ % uma pessoa t~o tola que n~o consegue controlar seus pr+prios desejos?"
+STOP_SOUND 01 
+TEXT L$bios encantadores ridicularizaram minhas a|/es.
+TEXT Mas, do jeito que eu estava agora, isso s+ serviu para ado|ar e acelerar a minha lux^ria.
+TEXT Aproximei meu rosto do de Youko-san e a beijei.
+PLAY_SOUND 01 '018_you010' 00 
+TEXT "......!"
+STOP_SOUND 01 
+TEXT Meu movimento repentino mudou a express~o de Youko-san.
+PLAY_SOUND 01 '018_you011' 00 
+TEXT "...Por favor, pare."
+STOP_SOUND 01 
+TEXT Ela tentou desviar o olhar.
+TEXT Mas eu n~o deixaria.
+TEXT Deslizei minha l&ngua dentro de seus l$bios fechados.
+PLAY_SOUND 01 '018_you012' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Movi minha l&ngua como se fosse absorver toda a saliva do interior de sua boca.
+TEXT O doce aroma de Youko-san...
+PLAY_SOUND 01 'e07_iku017' 00 
+TEXT "...Mmm."
+STOP_SOUND 01 
+TEXT Eu bebi minha saliva e soltei os l$bios de Youko-san.
+PLAY_SOUND 01 '018_you013' 00 
+TEXT "...Eu estou te implorando... pare de fazer isso."
+STOP_SOUND 01 
+TEXT Seus olhos lacrimejaram.
+PLAY_SOUND 01 'e07_iku018' 00 
+TEXT "Est$ tudo bem... serei gentil."
+STOP_SOUND 01 
+TEXT Deslizei meus l$bios pelo seu pesco|o e pelos seus seios.
+TEXT Uma linha de saliva brilhante foi esculpida no corpo de Youko-san.
+TEXT Ent~o, meus l$bios alcan|aram a ponta do peito de Youko-san.
+PLAY_SOUND 01 '018_you014' 00 
+TEXT ".........!"
+STOP_SOUND 01 
+TEXT Youko-san estremeceu por um momento.
+PLAY_SOUND 01 'e07_iku019' 00 
+TEXT "Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku020' 00 
+TEXT "Isso n~o % bom?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you015' 00 
+TEXT "...N~o %."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku021' 00 
+TEXT "Ah, n~o, eu entendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku022' 00 
+TEXT "Afinal, eu tamb%m sou uma garota."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you016' 00 
+TEXT "...Voc[ est$ julgando com base apenas em suas pr+prias opini{es."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku023' 00 
+TEXT "Voc[ n~o precisa se conter."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku024' 00 
+TEXT "Farei o que Youko-san desejar."
+STOP_SOUND 01 
+TEXT Estimulei seu seio com a ponta da l&ngua.
+TEXT Minha l&ngua encharcada de saliva brincou com seu mamilo.
+TEXT Chupei o mamilo que endurecia lentamente e o rolei dentro da minha boca.
+TEXT E, de vez em quando, eu mordia suavemente.
+PLAY_SOUND 01 '018_you017' 00 
+TEXT "......"
+STOP_SOUND 01 
+TEXT Algo parecido com um suspiro saiu da boca de Youko-san.
+TEXT Comecei a acariciar seu outro seio da mesma maneira.
+TEXT A essa altura os seios de Youko-san estavam cobertos de saliva e brilhando tanto que parecia estranho.
+PLAY_SOUND 01 'e07_iku025' 00 
+TEXT "Ei, n~o parece que seu corpo est$ ficando dormente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku026' 00 
+TEXT "Voc[ n~o est$ com coceira a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku027' 00 
+TEXT "Voc[ n~o quer que eu toque a& embaixo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku028' 00 
+TEXT "Voc[ n~o quer que eu lamba seus fluidos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku029' 00 
+TEXT "Voc[ n~o quer que eu te penetre com meus dedos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku030' 00 
+TEXT "Voc[ n~o quer que eu arranhe o interior da sua vagina?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku031' 00 
+TEXT "Voc[ n~o quer chegar ao cl&max pela minha m~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you018' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Youko-san n~o respondeu.
+TEXT Ela apenas fechou os olhos e balan|ou a cabe|a.
+PLAY_SOUND 01 'e07_iku032' 00 
+TEXT "Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku033' 00 
+TEXT "Por que voc[ n~o est$ falando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku034' 00 
+TEXT "Por que voc[ n~o me deixa ouvir sua voz?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku035' 00 
+TEXT "Por que voc[ est$ se segurando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku036' 00 
+TEXT "Por que voc[ n~o est$ sendo honesta sobre seu pr+prio prazer?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you019' 00 
+TEXT "...Pare com isso j$."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku037' 00 
+TEXT "Mas isso realmente % bom, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku038' 00 
+TEXT "Voc[ n~o quer que eu fa|a mais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you020' 00 
+TEXT "...Voc[ %... louca."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku039' 00 
+TEXT "Louca?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you021' 00 
+TEXT "...Sim."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Isso n~o % verdade' 'Sou perfeitamente normal' 
+IF 16 03 00 15 01 00 02 00 .LABEL5 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e07_iku075' 00 
+TEXT N~o! Isso n~o % verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop036' 00 
+TEXT ...O que h$ de errado nisso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku076' 00 
+TEXT Loucos s~o os homens da FARGO!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop037' 00 
+TEXT ...Estuprar mulheres contra a sua vontade atrav%s da for|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop038' 00 
+TEXT ...N~o % igual ao que est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku077' 00 
+TEXT N~o!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop039' 00 
+TEXT ...Como assim?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku078' 00 
+TEXT N~o!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop040' 00 
+TEXT ...Ent~o voc[ n~o pode fazer nada al%m de negar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku079' 00 
+TEXT N~o!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop041' 00 
+TEXT ...Porque voc[ j$ admitiu isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku080' 00 
+TEXT N~o!! N~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop042' 00 
+TEXT ...Voc[ n~o pode mentir para o seu pr+prio cora|~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku081' 00 
+TEXT N~o!! N~o!! N~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop043' 00 
+TEXT ...Adeus, Ikumi pervertida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku082' 00 
+TEXT N~o!! N~o!! N~o!!!
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL6 
+
+:LABEL5
+PLAY_SOUND 01 'e07_iku040' 00 
+TEXT "N~o, sou um ser humano perfeitamente normal."
+STOP_SOUND 01 
+TEXT Quero ouvir mais da doce voz de Youko-san...
+TEXT Quero ver a express~o que Youko-san faz quando est$ se afogando em prazer, esse rostinho delicado de boneca francesa...
+TEXT Quero ver seus l$bios me persuadindo a lhe dar ainda mais prazer...
+TEXT Esse % um desejo natural.
+TEXT Ent~o eu vou desejar...
+BACKGROUND 'FG111' 
+X_24 00 
+X_25 06 
+X_3C 08 01 
+TEXT O pr+ximo momento.
+TEXT Youko-san caiu nua no ch~o.
+TEXT Suas m~os e p%s estavam fixados ao ch~o em uma posi|~o que expunha sua genit$lia.
+PLAY_SOUND 01 '018_you022' 00 
+TEXT "...Por favor, pare com isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you023' 00 
+TEXT "...Por favor, n~o me envergonhe mais."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku041' 00 
+TEXT "Mentiras."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you024' 00 
+TEXT "...Por que... voc[ diz isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku042' 00 
+TEXT "Porque voc[ est$ completamente molhada a& embaixo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku043' 00 
+TEXT "Est$ gritando: 'Toque-me mais.'"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku044' 00 
+TEXT "Est$ se preparando para dizer: 'Quero que voc[ enfie os dedos dentro de mim'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you025' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Os olhos de Youko-san pareciam estar com pena de mim.
+PLAY_SOUND 01 '018_you026' 00 
+TEXT "...Entendi... por favor, fa|a o que quiser."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you027' 00 
+TEXT "...Se isso te satisfaz."
+STOP_SOUND 01 
+TEXT Tomei as palavras de Youko-san como consentimento.
+TEXT Aproximei-me de Youko-san e inseri minha l&ngua em sua genit$lia.
+PLAY_SOUND 01 '018_you028' 00 
+TEXT "..."
+STOP_SOUND 01 
+TEXT Minha l&ngua tocou sua carne.
+TEXT Fios se formaram entre a saliva da minha l&ngua e as secre|/es de Youko-san.
+TEXT Concentrei-me em uma de suas dobras e passei minha l&ngua ao longo dela.
+TEXT De cima a baixo, lambi cuidadosamente com minha l&ngua ^mida, sem perder nenhum ponto.
+PLAY_SOUND 01 'e07_iku045' 00 
+TEXT "Viu? N~o % bom?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you029' 00 
+TEXT "...Acho que sim."
+STOP_SOUND 01 
+TEXT Uma voz fria.
+PLAY_SOUND 01 'e07_iku046' 00 
+TEXT "Devo inserir meus dedos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you030' 00 
+TEXT "...Acho que sim."
+STOP_SOUND 01 
+TEXT Eu abri Youko-san com meus dedos.
+TEXT Ent~o coloquei meus dedos dentro dela.
+TEXT Sua vagina j$ estava bastante molhada, tanto pela minha saliva quanto pelos pr+prios fluidos de Youko-san.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk...*
+TEXT Meus dedos foram sugados, fazendo barulhos obscenos.
+TEXT Sua carne se torceu e grudou em meus dedos.
+PLAY_SOUND 01 'e07_iku047' 00 
+TEXT "Youko-san, seu interior est$ agrad$vel e quente..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_you031' 00 
+TEXT "........."
+STOP_SOUND 01 
+TEXT Enterrei meus dedos ainda mais nela.
+TEXT Quando os inseri at% a segunda junta, enrolei-os em forma de L e movi como se quisesse raspar todos os fluidos dentro dela.
+PLAY_SOUND 01 'e07_iku048' 00 
+TEXT "Veja, meus dedos est~o esfregando todo o seu interior."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku049' 00 
+TEXT "N~o % bom?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku050' 00 
+TEXT "N~o % +timo?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku051' 00 
+TEXT "Voc[ pode deixar sua voz sair."
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku052' 00 
+TEXT "O que foi?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku053' 00 
+TEXT "Ei, Youko-san?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku054' 00 
+TEXT "Youko... san...?"
+STOP_SOUND 01 
+TEXT "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku055' 00 
+TEXT "O que...... foi...?"
+STOP_SOUND 01 
+BACKGROUND 'FG112' 
+X_24 00 
+X_25 06 
+X_3C 09 01 
+PLAY_SOUND 01 'e07_iku056' 00 
+TEXT N-N~oooooo!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku057' 00 
+TEXT Youko-san!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku058' 00 
+TEXT Ei!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku059' 00 
+TEXT Eu te imploro, me responda!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku060' 00 
+TEXT Por qu[!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku061' 00 
+TEXT Por qu[!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop025' 00 
+TEXT ...'Por qu['?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop026' 00 
+TEXT ...Que coisa estranha de se perguntar.
+STOP_SOUND 01 
+TEXT <Minha> voz.
+PLAY_SOUND 01 'e07_dop027' 00 
+TEXT ...N~o % +bvio?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop028' 00 
+TEXT ...A culpa % sua.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku062' 00 
+TEXT N~oo!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku063' 00 
+TEXT Como a culpa % minha!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop029' 00 
+TEXT ...Ela n~o foi capaz de suportar sua conduta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop030' 00 
+TEXT ...Ao ponto em que ela escolheu a morte.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku064' 00 
+TEXT Isso n~o % verdade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku065' 00 
+TEXT Youko-san tamb%m desejou isso!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop031' 00 
+TEXT ...Uma interpreta|~o conveniente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku066' 00 
+TEXT N~o!! N~o!! N~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop032' 00 
+TEXT ...Voc[ a empurrou at% a morte.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku067' 00 
+TEXT Isso est$ errado!! Isso n~o % verdade!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop033' 00 
+TEXT ...V$ em frente, continue negando assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku068' 00 
+TEXT Eu n~o fiz nada de errado!! A culpa n~o % minha!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop034' 00 
+TEXT ...Voc[ n~o pode silenciar seu pr+prio cora|~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku069' 00 
+TEXT Devolva-me!! Devolva-me # realidade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop035' 00 
+TEXT ...Reflita sobre seus atos enquanto abra|a esse corpo frio como pedra.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku070' 00 
+TEXT N~ooooo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku071' 00 
+TEXT N~o me olhe desse jeito!!! N~o me olhe com esses olhos turvos!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku072' 00 
+TEXT Responda-me!! Diga alguma coisa!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku073' 00 
+TEXT Ei!! Youko-san!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku074' 00 
+TEXT Eu te imploro!!!!!
+STOP_SOUND 01 
+X_0C 0014 0002 
+X_04 0005 0001 
+
+:LABEL6
+JMP .LABEL3 
+
+:LABEL4
+TEXT Sim, ningu%m ficar$ mchucado.
+TEXT Porque % um mundo onde s+ eu existo.
+TEXT Porque n~o h$ ningu%m para machucar.
+TEXT .........
+TEXT N~o!Å@Isso n~o % verdade.
+TEXT Se eu estiver aqui, vou me machucar.
+TEXT Vou machucar meu pr+prio cora|~o.
+TEXT Ent~o, meu cora|~o ferido se vingar$ de mim.
+TEXT Ent~o...
+TEXT Ent~o... eu n~o desejo nada.
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e07_dop044' 00 
+TEXT ...Ah, t$, voc[ vai manter seus desejos dentro de si novamente?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku083' 00 
+TEXT N~o, n~o vou segur$-los.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_dop045' 00 
+TEXT ...Eventualmente, esses desejos ir~o te destruir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku084' 00 
+TEXT Isso n~o % verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e07_iku085' 00 
+TEXT Ent~o voltarei # realidade.
+STOP_SOUND 01 
+X_08 0014 0001 
+
+:LABEL3
+RETURN 
+EOF 

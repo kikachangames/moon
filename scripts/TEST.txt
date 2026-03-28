@@ -1,0 +1,16 @@
+
+# MOON SCRIPT FILE "TEST.SNX"
+#
+# Comments are lines beginning with a # character
+
+TEXT 少年「つまりそれはキミと一緒に同じ時を過ごし　　たという実感さ」
+STOP_SOUND 01 
+BACKGROUND 'FG082' 
+X_24 00 
+X_25 06 
+TEXT 
+TEXT 「窓もなにもなかったこの部屋でね…」^
+STOP_SOUND 01 
+X_28 0032 
+TEXT こんな感じ
+EOF 

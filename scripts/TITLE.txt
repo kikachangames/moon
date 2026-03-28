@@ -1,0 +1,6 @@
+
+# MOON SCRIPT FILE "TITLE.SNX"
+#
+# Comments are lines beginning with a # character
+
+EOF 

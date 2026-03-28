@@ -1,0 +1,614 @@
+
+# MOON SCRIPT FILE "DAY15.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000F 
+SETSTATUS 'Å@Day 15 Morning Building Ç`' 
+BACKGROUND 'FG214' 
+X_24 00 
+X_25 06 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_00 0099 0000 
+X_00 009A 0000 
+X_00 009B 0000 
+X_00 009C 0000 
+X_00 009D 0000 
+X_00 009E 0000 
+X_00 009F 0000 
+X_00 00A0 0000 
+X_00 00A1 0000 
+X_00 00A2 0000 
+X_00 00A3 0000 
+X_00 00A4 0000 
+X_00 00A5 0000 
+X_00 00A6 0000 
+X_00 00A7 0000 
+X_00 00A8 0000 
+X_00 00A9 0000 
+X_00 00AA 0000 
+X_00 00AB 0000 
+X_00 00AC 0000 
+X_00 00AD 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '038_boy000' 00 
+TEXT Boy: "Ikumi, it's morning."
+STOP_SOUND 01 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '099_iku000' 00 
+TEXT Ikumi: "......ah."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy001' 00 
+TEXT Boy: "Good morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku001' 00 
+TEXT Ikumi: "......good morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy002' 00 
+TEXT Boy: "What's wrong?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku002' 00 
+TEXT Ikumi: "I wasn't able to wake up in time."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy003' 00 
+TEXT Boy: "Did you want to wake up earlier for some reason?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku003' 00 
+TEXT Ikumi: "Not that. I wanted to wake up before you, because I wanted to wake you up for once."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy004' 00 
+TEXT Boy: "...what?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku004' 00 
+TEXT Ikumi: "It doesn't matter."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy005' 00 
+TEXT Boy: "I see."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy006' 00 
+TEXT Boy: "So what will you do today?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku005' 00 
+TEXT Ikumi: "I'll stay here."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy005' 00 
+TEXT Boy: "I see."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy010' 00 
+TEXT Boy: "That sounds good."
+STOP_SOUND 01 
+PLAY_SOUND 01 '099_iku006' 00 
+TEXT Ikumi: "Yes, it is good."
+STOP_SOUND 01 
+TEXT This was the last time we'd get to pretend we were a family.
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+TEXT Simply carefree time.
+TEXT Rolling around the room, talking about ourselves,
+TEXT Laughing a little, being a little unsatisfied,
+TEXT Complaining a little, being bored a little,
+TEXT Then I thought of this time as special,
+TEXT Became slightly more cheerful, said things to annoy him slightly,
+TEXT Had a slight feeling I'd told everything,
+TEXT Becoming slightly prepared to lose everything,
+TEXT Then I badly wanted to hang onto this time,
+TEXT Being quiet for a bit, becoming a bit sad,
+TEXT Reflecting a bit, then I raised my head,
+PLAY_SOUND 01 '099_iku007' 00 
+TEXT Ikumi: "Thank you."
+STOP_SOUND 01 
+TEXT I said,
+PLAY_SOUND 01 '038_boy011' 00 
+TEXT Boy: "For what?"
+STOP_SOUND 01 
+TEXT He asked,
+PLAY_SOUND 01 '099_iku008' 00 
+TEXT Ikumi: "I was able to come this far because of you..."
+STOP_SOUND 01 
+TEXT I answered,
+PLAY_SOUND 01 '038_boy012' 00 
+TEXT Boy: "I see."
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy013' 00 
+TEXT Boy: "I'm happy to hear that..."
+STOP_SOUND 01 
+TEXT He said sorrowfully,
+PLAY_SOUND 01 'se27' 00 
+TEXT *gachan!*
+TEXT The door opened,
+TEXT Three gun-wielding men appeared,
+PLAY_SOUND 01 '005_bt2000' 00 
+TEXT Man: "......come with us. Don't resist."
+STOP_SOUND 01 
+TEXT He warned,
+TEXT The boy silently nodded,
+TEXT I realized we were truly being separated,
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT and I cried.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT ............
+TEXT ...............
+TEXT .........
+TEXT ...
+X_00 000E 0005 
+BACKGROUND 'FG073' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se71' 01 
+TEXT *kachaan*...
+TEXT .........
+TEXT Footsteps...
+TEXT The first sound I'd heard in a while...
+TEXT *kachaan*...
+TEXT .........
+TEXT They're getting closer.
+TEXT .........
+TEXT *kachaan*...
+TEXT They're getting closer.
+TEXT .........
+TEXT *kachaan*
+STOP_SOUND 01 
+TEXT .........
+TEXT They stopped.
+PLAY_SOUND 01 '004_tak000' 00 
+TEXT Voice: "Are you prepared to die?"
+STOP_SOUND 01 
+BACKGROUND 'FG074' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd12' 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak001' 00 
+TEXT Takatsuki: "I guess not."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak002' 00 
+TEXT Takatsuki: "...are you afraid?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak003' 00 
+TEXT Takatsuki: "Won't you beg me for your life?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak004' 00 
+TEXT Takatsuki: "You can beg. I might save you, you know."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak005' 00 
+TEXT Takatsuki: "What's wrong, won't you beg for your life?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak006' 00 
+TEXT Takatsuki: "By licking my cock while saying 'please save me' or something?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak007' 00 
+TEXT Takatsuki: "Maybe by moving your hips frantically in the cowgirl position while saying 'please save me'?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak008' 00 
+TEXT Takatsuki: "Aah?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak009' 00 
+TEXT Takatsuki: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak010' 00 
+TEXT Takatsuki: "...ka, you've got some nerve."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak011' 00 
+TEXT Takatsuki: "Or perhaps you finally noticed it's useless to try anything?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak012' 00 
+TEXT Takatsuki: "Well, it was inevitable."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak013' 00 
+TEXT Takatsuki: "The next time your mind is Lost, that'll be your end."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak014' 00 
+TEXT Takatsuki: "Judging by your cycles so far you won't be here next morning. Be sure to spend your last hours on earth well."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak015' 00 
+TEXT Takatsuki: "Or will you spend them hating him?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak016' 00 
+TEXT Takatsuki: "You do know what he is, right?"
+STOP_SOUND 01 
+TEXT He......?
+TEXT The boy...?
+PLAY_SOUND 01 '004_tak017' 00 
+TEXT Takatsuki: "That he's the root of everything here?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku000' 00 
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01 
+TEXT I looked up to Takatsuki without thinking.
+PLAY_SOUND 01 '004_tak018' 00 
+TEXT Takatsuki: "Now isn't this something? You actually don't know."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak019' 00 
+TEXT Takatsuki: "So you became like that without ever knowing."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak020' 00 
+TEXT Takatsuki: "I see, that makes sense. That's just his style."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak021' 00 
+TEXT Takatsuki: "Then you ought to breathe your last while cursing him."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak022' 00 
+TEXT Takatsuki: "He who planted that within your body."
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku001' 00 
+TEXT Ikumi: "'That'..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak023' 00 
+TEXT Takatsuki: "The other consciousness that's making you Lose your mind is his alter ego."
+STOP_SOUND 01 
+TEXT Other consciousness...
+TEXT Alter ego...
+TEXT What...?
+TEXT What does that mean...?
+PLAY_SOUND 01 '004_tak024' 00 
+TEXT Takatsuki: "You can't understand?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak025' 00 
+TEXT Takatsuki: "You did it with him,"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak026' 00 
+TEXT Takatsuki: "And that was when his alter ego was planted in you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak027' 00 
+TEXT Takatsuki: "Though he could just do it by force, that guy likes to get at your heart by playing nice for some reason."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak028' 00 
+TEXT Takatsuki: "He must enjoy doing that, but he's not even human."
+STOP_SOUND 01 
+TEXT He's not even human...?
+TEXT Who isn't...?
+TEXT That boy...!?
+PLAY_SOUND 01 '004_tak029' 00 
+TEXT Takatsuki: "Ahahaha!! That guy's no human at all!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak030' 00 
+TEXT Takatsuki: "You never noticed!!? That he's just been putting on human skin this whole time!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak031' 00 
+TEXT Takatsuki: "Below that is no human but a completely different creature!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak032' 00 
+TEXT Takatsuki: "Do you want to see it!!? You do, don't you!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak033' 00 
+TEXT Takatsuki: "Well give it up!! That's not something to be looked at!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak034' 00 
+TEXT Takatsuki: "It's a beast so horrifying you'd want to vomit!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak035' 00 
+TEXT Takatsuki: "Several researchers have done just that!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak036' 00 
+TEXT Takatsuki: "It's that ghastly!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak037' 00 
+TEXT Takatsuki: "Just remembering it makes me feel like vomiting!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak038' 00 
+TEXT Takatsuki: "Ahahaha!! You've been spending all this time with that monster!!"
+STOP_SOUND 01 
+TEXT No way...
+TEXT It couldn't...
+PLAY_SOUND 01 '100_iku002' 00 
+TEXT Ikumi: "Lies..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak039' 00 
+TEXT Takatsuki: "Are you stupid? Why would I bother lying to someone who's about to die!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku003' 00 
+TEXT Ikumi: "He's no monster..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku004' 00 
+TEXT Ikumi: "He's human..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku005' 00 
+TEXT Ikumi: "A much better human than most!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak040' 00 
+TEXT Takatsuki: "Now this is just perfect!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak041' 00 
+TEXT Takatsuki: "If you're going that far to defend him then I have no choice but to bow down to his womanizing talents!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku006' 00 
+TEXT Ikumi: "That's a lie..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak042' 00 
+TEXT Takatsuki: "Ahahahaha!! Aren't you a decisive one!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak043' 00 
+TEXT Takatsuki: "Why don't you spend your final hour cursing that demon!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak044' 00 
+TEXT Takatsuki: "Ahahahahahaha!!"
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'FG073' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT .........
+TEXT So that's......that's what it was...
+TEXT That invisible strength so many humans wanted, wasn't a human power to begin with.
+TEXT And what went on here was the implanting of an inhuman superpower into humans.
+TEXT But why?
+TEXT Just to make better than ordinary humans?
+TEXT Is there some other objective?
+TEXT That wasn't really a problem.
+TEXT Because this is my personal battle.
+TEXT Yes, the important truths are that the boy isn't human, and that he's the source of the invisible strength.
+TEXT The truth is nearby.
+TEXT He was talking about himself.
+TEXT The truth is already within you.
+TEXT He was talking about his own alter ego planted within me.
+TEXT He was the most fitting target for my revenge.
+TEXT It was his inhuman alter ego which devoured and killed okaa-san.
+TEXT And then what killed Haruka......was him inside me...
+TEXT In order to plant that within me, he manipulated my emotions...
+TEXT He deceived me flawlessly......and I let him...
+TEXT I enjoyed pretending to be a family with him...
+TEXT Having fun all on my own...
+TEXT How...how stupid could I have been...
+TEXT In the end I was just used for another experiment...
+TEXT How vexing...
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT Did I fall asleep...?
+TEXT How long has it been...?
+TEXT That shiver...his alter ego still hasn't come back...
+TEXT It really should hurry up.
+TEXT I'm tired of thinking.
+TEXT I'm fine with losing.
+TEXT I came here to exact revenge for my okaa-san...
+TEXT But I ended up simply meeting the same end.
+TEXT It's vexing, but that's okay.
+TEXT I'm sick of thinking it's vexing.
+TEXT Just show up already.
+TEXT You should just steal my heart and be done with it.
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 'se17' 00 
+TEXT *gugouuun!!*
+TEXT A distant sound.
+TEXT It doesn't matter anymore.
+PLAY_SOUND 01 'se22' 00 
+TEXT *zukyuuun!!*
+PLAY_SOUND 01 'se68' 00 
+TEXT *dugu**dugu*!!
+TEXT Someone's being eliminated again.
+PLAY_SOUND 01 'se22' 00 
+TEXT *zukyuuun!!*
+PLAY_SOUND 01 'se70' 00 
+TEXT *gishaaaa!!!*
+TEXT No...
+TEXT Ah, that's me.
+TEXT I'm being eliminated.
+TEXT Several bullets pierced my body, and I'm dead now.
+TEXT That's why I'm so calm.
+TEXT Aahh, it hurts.
+TEXT But it was only for a moment.
+PLAY_SOUND 01 '004_tak045' 00 
+TEXT Takatsuki: "You...what happened to B-58!!? What happened!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy000' 00 
+TEXT Voice: "He's stretching, out there."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak046' 00 
+TEXT Takatsuki: "He's stretching?......how come a shackled one like you has a Control Body...!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy001' 00 
+TEXT Voice: "Well, it did cost me a little."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak047' 00 
+TEXT Takatsuki: "But you only lost your arms!!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy002' 00 
+TEXT Voice: "Once I tried, that's how it turned out."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak048' 00 
+TEXT Takatsuki: "You...what you're doing is crazy!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak049' 00 
+TEXT Takatsuki: "Do you understand that!? Stop right there!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy003' 00 
+TEXT Voice: "I wonder if I should stop here."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak050' 00 
+TEXT Takatsuki: "Yes, that's right..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak051' 00 
+TEXT Takatsuki: "...no, wait! Don't use your power!!!!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se68' 00 
+TEXT *zubyushuuuuuuuuuuuuuuuuu!!!!!*
+PLAY_SOUND 01 '039_boy004' 00 
+TEXT Voice: "You should've said so sooner."
+STOP_SOUND 01 
+TEXT My memory ended there.
+TEXT Though I should have been dead, I was attacked once again by that shiver.
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY16' 
+EOF 

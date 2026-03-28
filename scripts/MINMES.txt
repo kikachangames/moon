@@ -1,0 +1,2450 @@
+
+# MOON SCRIPT FILE "MINMES.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+IF 16 0F 00 15 02 00 02 00 .LABEL0
+JMP .LABEL1
+
+:LABEL0
+IF 16 0F 00 15 03 00 02 00 .LABEL2 
+JMP .LABEL3 
+
+:LABEL2
+IF 16 0F 00 15 04 00 02 00 .LABEL4 
+JMP .LABEL5 
+
+:LABEL4
+IF 16 0F 00 15 05 00 02 00 .LABEL6 
+JMP .LABEL7 
+
+:LABEL6
+IF 16 0F 00 15 06 00 02 00 .LABEL8 
+JMP .LABEL9 
+
+:LABEL8
+IF 16 0F 00 15 07 00 02 00 .LABEL10 
+JMP .LABEL11 
+
+:LABEL10
+IF 16 0F 00 15 08 00 02 00 .LABEL12 
+JMP .LABEL13 
+
+:LABEL12
+IF 16 0F 00 15 09 00 02 00 .LABEL14 
+JMP .LABEL15 
+
+:LABEL14
+IF 16 0F 00 15 0A 00 02 00 .LABEL16 
+JMP .LABEL17 
+
+:LABEL16
+IF 16 0F 00 15 0B 00 02 00 .LABEL18 
+JMP .LABEL19 
+
+:LABEL18
+IF 16 0F 00 15 0C 00 02 00 .LABEL20 
+JMP .LABEL21 
+
+:LABEL20
+IF 16 0F 00 15 0D 00 02 00 .LABEL22 
+JMP .LABEL23 
+
+:LABEL22
+IF 16 0F 00 15 0E 00 02 00 .LABEL1 
+JMP .LABEL25 
+
+:LABEL1
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Onde... estou...?
+TEXT Quando eu cheguei aqui...?
+TEXT Desde quando eu estou aqui parada...?
+TEXT Eu estou sozinha.
+TEXT N~o h$ mais nada aqui al%m de mim.
+TEXT Mas, para uma pessoa existir, deve haver um mundo a que ela perten|a.
+TEXT Portanto, j$ que meu corpo est$ aqui, posso come|ar a influenciar este mundo.
+TEXT No entanto, eu n~o tinha nenhum objetivo.
+TEXT O que eu devo fazer?
+TEXT 
+SELECT 0003 'Caminhar' 'Pensar por um tempo'
+IF 16 03 00 15 01 00 02 00 .LABEL26 
+TEXT Eu vou caminhar.
+TEXT Eu posso caminhar.
+TEXT O que significa que existe um lugar.
+TEXT Um lugar por onde eu posso caminhar existe.
+TEXT Mas para onde eu devo ir?
+TEXT Existe algum lugar para o qual eu deveria estar indo?
+TEXT ...Voc[ deve procurar pela porta.
+TEXT De quem foram essas palavras...?
+TEXT Mas eu me lembro...
+TEXT N~o sei quando as ouvi.
+TEXT Mas eu definitivamente me lembro delas.
+TEXT Uma porta...
+TEXT Ser$ que tal coisa existe neste mundo vazio?
+TEXT De qualquer forma, eu tinha um objetivo.
+TEXT Eu vou procurar pela porta.
+TEXT Com o poder da minha vontade.
+JMP .LABEL27 
+
+:LABEL26
+TEXT Objetivo...
+TEXT Para come|ar, por que eu estou aqui...?
+TEXT N~o lembro das circunst}ncias...
+TEXT Eu n~o tenho nenhuma pista?
+TEXT .........
+TEXT ...Voc[ deve procurar pela porta.
+TEXT Isso mesmo, eu ouvi essa voz.
+TEXT N~o sei quando a ouvi.
+TEXT Mas eu definitivamente me lembro dela.
+TEXT Ser$ que tal coisa existe neste mundo vazio?
+TEXT De qualquer forma, eu tinha um objetivo.
+TEXT Eu vou procurar pela porta.
+TEXT Com o poder da minha vontade.
+
+:LABEL27
+TEXT .........
+TEXT Eu continuei caminhando.
+TEXT Eu n~o podia nem ter certeza se estava andando em linha reta.
+TEXT Al%m disso, % imposs&vel caminhar em linha reta em um mundo onde nada pode ser visto.
+TEXT Como h$ uma diferen|a de for|a entre minhas pernas, eu inevitavelmente estava andando em c&rculos.
+TEXT Buscar um objetivo particular em um mundo sem marcos % inerentemente sem esperan|a.
+TEXT Eu quero voltar...
+TEXT Pensei isso em meu cora|~o.
+TEXT Mas como se fosse chamada por aquele pensamento, ela apareceu.
+TEXT A porta.
+TEXT Ela estava de repente bem na minha frente.
+TEXT A porta de madeira exalava um cheiro nost$lgico e tinha um arco solto na parte superior. Era como se tivesse sa&do de um velho filme estrangeiro.
+TEXT Eu havia encontrado o ^nico objetivo que existia para mim neste mundo.
+TEXT N~o havia significado em estar neste mundo, exceto abrir esta porta.
+TEXT Eu agarrei a ma|aneta e a girei.
+TEXT A luz transbordou da porta aberta.
+TEXT Fui envolvida por uma luz branca.
+TEXT A luz transbordava at% mesmo por baixo das minhas p$lpebras fechadas.
+TEXT Ent~o, o mundo ficou branco.
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'FG119' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '005_iku005' 00 
+TEXT Huh...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm001' 00 
+TEXT ...Ikumi.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku006' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm002' 00 
+TEXT ...Eu estive procurando por voc[...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku007' 00 
+TEXT Procurando?
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku008' 00 
+TEXT Por mim?
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm003' 00 
+TEXT ...Voc[ est$ sempre vagando por a& sozinha...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm004' 00 
+TEXT ...E n~o % sempre voc[ que se perde e chora?
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku009' 00 
+TEXT Eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku010' 00 
+TEXT Oh...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku011' 00 
+TEXT Eu estava perdida...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm005' 00 
+TEXT ...N~o continue me preocupando.
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm006' 00 
+TEXT ...Se algo acontecer, apenas desabafe comigo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm007' 00 
+TEXT ...N~o saia por a& andando sozinha.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku012' 00 
+TEXT Desculpa...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku013' 00 
+TEXT Eu n~o quero te deixar preocupada...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm008' 00 
+TEXT ...Se voc[ quiser algo, % s+ pedir.
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm009' 00 
+TEXT ...Eu vou pensar no assunto.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku014' 00 
+TEXT T$ bom...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku015' 00 
+TEXT Hmm, m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm010' 00 
+TEXT ...Eu sei, j$ que a Ikumi % sempre quem se sente sozinha...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm011' 00 
+TEXT ...Hoje eu vou comprar algo que voc[ gosta.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku016' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku017' 00 
+TEXT Hmm, m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm012' 00 
+TEXT ...O que foi?
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm013' 00 
+TEXT ...Tem algo que voc[ quer?
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku018' 00 
+TEXT Sim!...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku019' 00 
+TEXT Hmm, m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ikm014' 00 
+TEXT ...O que foi?
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku020' 00 
+TEXT Sim!...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku021' 00 
+TEXT Ikumi...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku022' 00 
+TEXT Ikumi quer um bicho-pregui|a de pel^cia!
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL3
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Eu estou aqui.
+TEXT Eu estou aqui de novo.
+TEXT Por qu[...?
+TEXT O que estou tentando alcan|ar aqui...?
+TEXT Eu quero voltar...?
+TEXT N~o...
+TEXT Estou esperando ser consolada pelo passado...?
+TEXT Tamb%m n~o % isso...
+TEXT O que eu queria quando vim aqui...
+TEXT Eu n~o sei...
+TEXT Mas n~o tenho escolha a n~o ser procurar de novo.
+TEXT Por aquela porta.
+TEXT Eu posso encontrar aquela porta.
+TEXT Porque eu quero voltar.
+TEXT Eu posso sentir isso.
+TEXT Informa|/s visuais s~o in^teis.
+TEXT Embora eu n~o pudesse ver, eu era onipotente neste mundo.
+TEXT Eu quero voltar.
+TEXT Ent~o a luz me chamou.
+TEXT Eu fui...
+TEXT Para l$...
+TEXT Para onde eu quero voltar.
+BACKGROUND 'FG120' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+TEXT .........
+PLAY_SOUND 01 '015_iku000' 00 
+TEXT H$ tantas...!
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_iku001' 00 
+TEXT H$ tantas pessoas aqui!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm001' 00  
+TEXT ...Sim, h$ mesmo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm002' 00  
+TEXT ...H$ muitas.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf000' 00  
+TEXT ...N~o solte minha m~o.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf001' 00  
+TEXT ...Voc[ % especialmente habilidosa em se perder.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku002' 00  
+TEXT Sim, vou ter cuidado!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku003' 00  
+TEXT Ikumi est$ sendo guiada por mam~e e papai hoje, ent~o n~o vou me perder!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm003' 00  
+TEXT ...Isso mesmo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm004' 00  
+TEXT ...Hoje deve ser tranquilo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku004' 00  
+TEXT Sim, vai ser tranquilo!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf002' 00  
+TEXT ...Agora, vamos indo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf003' 00  
+TEXT ...Os fogos de artif&cio v~o come|ar.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm005' 00  
+TEXT ...Sim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku005' 00  
+TEXT Ei!
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm006' 00  
+TEXT ...O que foi?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku006' 00  
+TEXT O que % isso?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm007' 00  
+TEXT ...Isso o qu[?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku007' 00  
+TEXT Ela est$ pegando os peixes...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm008' 00  
+TEXT ...Ah, isso % o resgate de peixinhos dourados.
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku008' 00  
+TEXT Peixinhos dourados? Ela est$ salvando eles?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm009' 00  
+TEXT ...Sim, ela est$ salvando os peixinhos.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku009' 00  
+TEXT Ikumi quer tentar!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf004' 00  
+TEXT ...Espera, precisamos ver os fogos de artif&cio.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf005' 00  
+TEXT ...Voc[ n~o disse que queria assistir os fogos do come|o ao fim?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku010' 00  
+TEXT Eu quero salvar os peixes! Ikumi vai fazer isso!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm010' 00  
+TEXT ...Ah, voc[ % teimosa mesmo! S+ uma vez, tudo bem?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf006' 00  
+TEXT ...S+ uma vez.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku011' 00  
+TEXT Eba!  
+BACKGROUND 'FG121'  
+X_24 00  
+X_25 06  
+PLAY_SOUND 01 '015_iku012' 00  
+TEXT Voc[ salva eles com isso? Como?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm011' 00  
+TEXT ...Tente empurrar o peixinho para um canto e quando voc[ pegar, coloque ele no recipiente logo em seguida.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku013' 00  
+TEXT Uuu......... Ei!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku014' 00  
+TEXT Ah, quebrou...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm012' 00  
+TEXT ...Foi por pouco.
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_iku015' 00 
+TEXT Acabou?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm013' 00  
+TEXT ...Sim, acabou.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku016' 00  
+TEXT N~ooo! Quero ir de novo!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm014' 00  
+TEXT ...N~o dissemos que seria s+ uma vez?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku017' 00  
+TEXT Eu ainda n~o peguei o jeito! Vou de novo!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm015' 00  
+TEXT ...Os fogos de artif&cio j$ v~o come|ar. Tem certeza?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku018' 00  
+TEXT T$ tudo bem! Eu quero ir de novo!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm016' 00  
+TEXT ...Ent~o, s+ mais uma chance.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku019' 00  
+TEXT Sim! S+ mais uma chance!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm017' 00  
+TEXT ...Aqui est$. Tenha paci[ncia desta vez.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku020' 00  
+TEXT Sim! Vou fazer isso com paci[ncia!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku021' 00  
+TEXT Uuu......... Ei!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku022' 00  
+TEXT Ah!!! Consegui!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku023' 00  
+TEXT Olha! Eu salvei! Viu, viu!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm018' 00  
+TEXT ...Coloque logo no recipiente. Sua rede vai rasgar de novo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku024' 00  
+TEXT Eh...? Ah...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm019' 00  
+TEXT ...O peixinho dourado fugiu.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku025' 00  
+TEXT Por que fugiu... mesmo depois de Ikumi salvar ele?!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm020' 00  
+TEXT ...Voc[ tem que colocar ele no recipiente.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku026' 00  
+TEXT Eu n~o sabia disso! Ikumi n~o sabia!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf007' 00  
+TEXT ...Ei, se a gente n~o se apressar...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm021' 00  
+TEXT ...Sim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku027' 00  
+TEXT Vou de novo! Vou colocar no recipiente dessa vez!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf008' 00  
+TEXT ...Seja razo$vel, Ikumi.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_ikm022' 00 
+TEXT ...Isso mesmo, Ikumi. Dissemos que seria s+ mais uma vez, ent~o acabou.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku028' 00  
+TEXT N~ooo! Eu quero tentar de novo!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf009' 00  
+TEXT ...Ikumi!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm023' 00  
+TEXT ...N~o, Ikumi.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku029' 00  
+TEXT N~ooo! Eu vou fazer isso!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf010' 00  
+TEXT ...Ei, Ikumi!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf011' 00  
+TEXT ...Se voc[ chegar t~o perto...!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku030' 00  
+TEXT Aaaahhhh...\n*Splashhh...!*  
+STOP_SOUND 01  
+BACKGROUND 'FG122'  
+X_24 00  
+X_25 06  
+PLAY_SOUND 01 '002_ikm024' 00  
+TEXT ...Ikumi!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf012' 00  
+TEXT ...Ikumi, voc[ est$ bem?!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku031' 00  
+TEXT Buuuuaaaa...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm025' 00  
+TEXT ...Ah, agora voc[ est$ toda encharcada...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf013' 00  
+TEXT ...Vamos ter que voltar para casa.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku032' 00  
+TEXT O qu[?!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '002_ikm026' 00  
+TEXT ...Isso mesmo. Voc[ n~o poder$ ver os fogos de artif&cio com essa roupa molhada!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku033' 00  
+TEXT N~ooooo...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_ikf014' 00  
+TEXT ...Ei, Ikumi, estamos indo embora agora.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '015_iku034' 00  
+TEXT Ugu...  
+STOP_SOUND 01  
+BACKGROUND 'BO'  
+X_24 00  
+X_25 06  
+PLAY_SOUND 01 '015_iku035' 00  
+TEXT Buuaaaaaaaaaaaaaaaaaaaaaaaah!
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL5
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...  
+TEXT Agora, vou voltar.  
+TEXT Para onde eu quero retornar.  
+BACKGROUND 'FG123'  
+X_24 00  
+X_25 06  
+PLAY_SOUND 00 'mon_cd07' 01  
+PLAY_SOUND 01 '022_iku000' 00  
+TEXT M~e, olha.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku001' 00  
+TEXT M~e, olha, olha!  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku002' 00  
+TEXT N~o % incr&vel?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku003' 00  
+TEXT Foi Ikumi que fez isso.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku004' 00  
+TEXT Ei, voc[ sabe de uma coisa?  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku005' 00  
+TEXT @ um bicho-pregui|a, % o bicho-pregui|a-san!  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku006' 00  
+TEXT Os bra|os longos foram dif&ceis de fazer.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku007' 00  
+TEXT Eles s~o bem finos, e o fio ficava quebrando.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku008' 00  
+TEXT Mas eu me esforcei bastante.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku009' 00  
+TEXT At% o sensei elogiou o meu trabalho.\nEle falou que Ikumi % habilidosa.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku010' 00  
+TEXT Ser$ que ficou bom mesmo...?  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku011' 00  
+TEXT Ei, m~e?  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku012' 00  
+TEXT ..........  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku013' 00  
+TEXT Com quem voc[ tava falando no telefone?  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku014' 00  
+TEXT Mam~e parou de falar por causa disso?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm001' 00  
+TEXT ...N~o...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm002' 00  
+TEXT ...N~o foi nada.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm003' 00  
+TEXT ...M~e pode falar tranquilamente.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku015' 00  
+TEXT Aqui... o bicho-pregui|a-san tamb%m vai ouvir a mam~e...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm004' 00  
+TEXT ...Ah, realmente % um belo bicho-pregui|a.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm005' 00  
+TEXT ...Ikumi % t~o habilidosa.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku016' 00  
+TEXT Sim, eu sou habilidosa.  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku017' 00  
+TEXT Mas ainda assim, parece um pouco desajeitado.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm006' 00  
+TEXT ...Ei, Ikumi.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku018' 00  
+TEXT Sim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm007' 00  
+TEXT ...Voc[ n~o vai mais poder ver o papai... isso est$ bem para voc[?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku019' 00  
+TEXT Sim, n~o tem problema.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm008' 00  
+TEXT ...Entendi.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku020' 00  
+TEXT Mas eu odiaria n~o poder mais ver a mam~e.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '003_ikm009' 00  
+TEXT ...Entendi.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '022_iku021' 00  
+TEXT Mas, s%rio, essas pernas est~o muito desajeitadas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '022_iku022' 00 
+TEXT O que a mam~e acha?  
+STOP_SOUND 01  
+TEXT ..........  
+PLAY_SOUND 01 '022_iku023' 00  
+TEXT Ei, m~e?  
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL7
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, eu vou voltar.
+TEXT Para onde quero retornar.
+BACKGROUND 'FG124' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '004_ikm001' 00 
+TEXT ...Ikumi, como foi a corrida hoje?
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku000' 00 
+TEXT Hmm, voc[ se lembra...
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku001' 00 
+TEXT Ikumi foi a pr%-}ncora no revezamento! (Nota do tradutor: a }ncora % o corredor designado para a quarta e ^ltima etapa de um revezamento, geralmente o mais r$pido da equipe. O terceiro corredor, que corre antes da }ncora, geralmente % o mais lento.)
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ikm002' 00 
+TEXT ...Sim. Voc[ me contou isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku002' 00 
+TEXT Hmm, ent~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku003' 00 
+TEXT Nossa equipe estava em terceiro quando o bast~o foi passado para Ikumi!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku004' 00 
+TEXT Antes da Ikumi estava o Sugita-san, e ele era muito lento!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku005' 00 
+TEXT As outras pessoas eram bem r$pidas, mas o Sugita-san era meio lento!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku006' 00 
+TEXT Ent~o, quando ele me passou o bast~o, est$vamos em terceiro lugar!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku007' 00 
+TEXT E n~o s+ isso, o primeiro e o segundo estavam muito # frente!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku008' 00 
+TEXT Como o Sugita-san era t~o lento, eles ficaram muito distantes de n+s!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku009' 00 
+TEXT Ent~o Ikumi pensou que talvez fosse melhor desistir!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku010' 00 
+TEXT O quarto lugar estava bem atr$s, ent~o, mesmo se eu me esfor|asse, as posi|/es n~o mudariam!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku011' 00 
+TEXT Mas, eu pensei comigo mesma 'ainda temos uma chance...', e dei o meu m$ximo!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku012' 00 
+TEXT Afinal, mesmo que o Sugita-san fosse lento, todos os outros estavam dando tudo de si e correndo r$pido!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku013' 00 
+TEXT Eu queria dar o meu melhor por todos!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku014' 00 
+TEXT E a& eu corri com todas as minhas for|as!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku015' 00 
+TEXT Eu n~o consegui ultrapassar nenhum deles, mas diminu& a dist}ncia!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku016' 00 
+TEXT E ent~o a }ncora, Kiyomizu-san, correu t~o r$pido que passou os corredores do primeiro e do segundo lugar!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku017' 00 
+TEXT E a turma da Ikumi ficou em primeiro lugar!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku018' 00 
+TEXT Todos ficaram t~o surpresos e t~o felizes!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku019' 00 
+TEXT Ningu%m achava que conseguir&amos alcan|ar as duas equipes que estavam t~o # frente!
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ikm003' 00 
+TEXT ...Isso % maravilhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku020' 00 
+TEXT Sim!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku021' 00 
+TEXT Kiyomizu-san... foi t~o r$pida!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku022' 00 
+TEXT Ela... foi muito r$pida!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku023' 00 
+TEXT Ent~o todos disseram que ela foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku024' 00 
+TEXT Disseram que ficamos em primeiro por causa da Kiyomizu-san!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku025' 00 
+TEXT Disseram que s+ ficamos em primeiro por causa da Kiyomizu-san!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku026' 00 
+TEXT Mas, m-mas, o motivo verdadeiro pelo qual conseguimos ficar em primeiro...
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku027' 00 
+TEXT ...A-A verdade, ningu%m sabia disso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku028' 00 
+TEXT *snif* ...O-O motivo pelo qual a  conseguiu ultrapassar aqueles dois...
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ikm004' 00 
+TEXT ...A mam~e vai entender.
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ikm005' 00 
+TEXT ...Kiyomizu-san s+ conseguiu vencer porque Ikumi se esfor|ou tanto.
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku029' 00 
+TEXT Sim... *snif* @ isso mesmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku030' 00 
+TEXT Mesmo que ningu%m estivesse vendo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku031' 00 
+TEXT Ikumi tamb%m foi r$pida!
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku032' 00 
+TEXT *snif* Muito r$pida!
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ikm006' 00 
+TEXT ...Voc[ % incr&vel, Ikumi.
+STOP_SOUND 01 
+PLAY_SOUND 01 '028_iku033' 00 
+TEXT Sim... *snif* Ikumi foi incr&vel...!
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL9
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, vou voltar...
+TEXT Para onde eu quero retornar.
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '035_iku000' 00 
+TEXT Eu realmente n~o me importava.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku001' 00 
+TEXT N~o fazia diferen|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku002' 00 
+TEXT Qualquer um poderia ser o protagonista.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku003' 00 
+TEXT Poderia at% ser a Sugenuma-san de pernas curtas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku004' 00 
+TEXT Eu n~o reclamaria.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku005' 00 
+TEXT Mesmo que isso a colocasse contra Aiba-kun, eu realmente n~o me importava.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku006' 00 
+TEXT Eu gostava do Aiba-kun, mas n~o fazia diferen|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku007' 00 
+TEXT Afinal, eu n~o dava a m&nima para essa pe|a escolar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku008' 00 
+TEXT Eu s+ precisava passar por isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku009' 00 
+TEXT Foi assim que escolhi viver.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku010' 00 
+TEXT N~o haveria recompensa por tentar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku011' 00 
+TEXT Ent~o eu n~o queria ser a protagonista.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku012' 00 
+TEXT No fundo, eu sabia que poderia fazer melhor que Sugenuma-san.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku013' 00 
+TEXT Eu falava com mais fluidez e, mais importante, eu parecia com a hero&na.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku014' 00 
+TEXT Todos deveriam saber disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku015' 00 
+TEXT Mas eu n~o fiz isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku016' 00 
+TEXT Nem sequer fiz o teste.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku017' 00 
+TEXT Afinal, isso s+ me cansaria.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku018' 00 
+TEXT A protagonista possui muitas falas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku019' 00 
+TEXT Eu teria que ensaiar bastante.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku020' 00 
+TEXT @ claro que seria mais f$cil para todos se eu fizesse isso em vez da Sugenuma-san.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku021' 00 
+TEXT Mas eu n~o vou fazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku022' 00 
+TEXT Quero que decidam os pap%is sem mim.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku023' 00 
+TEXT J$ que eu n~o me importo nem um pouco.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku024' 00 
+TEXT Eu realmente n~o me importo nem um pouco.
+STOP_SOUND 01 
+BACKGROUND 'FG126' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku025' 00 
+TEXT Mam~e estava hospedada em outro lugar havia um tempo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku026' 00 
+TEXT Eu n~o a veria de novo por mais duas semanas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku027' 00 
+TEXT Nosso pr+ximo encontro estava distante.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku028' 00 
+TEXT Eu me acostumei a comer sozinha...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku029' 00 
+TEXT E comecei a sentir medo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku030' 00 
+TEXT Eu me acostumei a comer curry instant}neo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku031' 00 
+TEXT E comecei a odi$-lo.
+STOP_SOUND 01 
+BACKGROUND 'FG127' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku032' 00 
+TEXT =rvore...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku033' 00 
+TEXT Eu era a $rvore.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku034' 00 
+TEXT Tudo bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku035' 00 
+TEXT Era exatamente o que eu queria.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku036' 00 
+TEXT Sem falas, sem movimenta|~o no palco.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku037' 00 
+TEXT N~o poderia haver papel mais apropriado.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku038' 00 
+TEXT Estou bem apenas ficando aqui.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku039' 00 
+TEXT @ f$cil.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku040' 00 
+TEXT Diante dos meus olhos, o cl&max da hist+ria estava sendo encenado.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku041' 00 
+TEXT Eles s~o p%ssimos.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku042' 00 
+TEXT Eu estava perdendo o interesse.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku043' 00 
+TEXT Se eu estivesse na plateia, teria confundido isso com uma com%dia e come|ado a rir.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku044' 00 
+TEXT Era amador demais.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku045' 00 
+TEXT Mas tudo bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku046' 00 
+TEXT Contanto que terminasse logo, eu n~o me importava.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku047' 00 
+TEXT Mesmo que a pe|a da turma fosse t~o ruim que me desse vontade de vomitar, eu n~o pensaria nada sobre isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku048' 00 
+TEXT Eu era uma garota insens&vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku049' 00 
+TEXT Mas eu estava errada.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku050' 00 
+TEXT Percebi isso no momento em que olhei para o assento mais distante no fundo.
+TEXT L$, na plateia, estava minha m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku051' 00 
+TEXT Eu queria dar o meu melhor.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku052' 00 
+TEXT Mesmo que eu fosse p%ssima como todo mundo, queria tentar com todas as minhas for|as.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku053' 00 
+TEXT Mesmo que houvesse apenas uma pessoa que quisesse me ver fazendo isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku054' 00 
+TEXT Mesmo que fosse apenas minha m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku055' 00 
+TEXT Eu queria tanto que ela me visse dando o meu melhor em algo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku056' 00 
+TEXT Mas, naquele momento, eu era uma $rvore. Que ironia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku057' 00 
+TEXT Tudo o que eu podia fazer era ficar parada e olhar para minha m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku058' 00 
+TEXT Enquanto todos encenavam o final...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku059' 00 
+TEXT Eu apenas olhava sem parar na dire|~o da minha m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku060' 00 
+TEXT Eu apenas...
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku061' 00 
+TEXT ...Me sentia triste.
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL11
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, eu vou voltar.
+TEXT Para onde quero retornar.
+X_24 00  
+BACKGROUND 'WO'  
+X_25 06  
+PLAY_SOUND 00 'mon_cd07' 01  
+X_24 00  
+BACKGROUND 'BO'  
+X_25 06  
+PLAY_SOUND 01 '000_nis000' 00  
+TEXT ...Fam&lia.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis001' 00  
+TEXT ...Eu tenho um pai, uma m~e e uma onee-san.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis002' 00  
+TEXT ...Somos todos muito pr+ximos.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis003' 00  
+TEXT ...Quando a noite chega, jantamos todos juntos e conversamos sobre o que aconteceu no dia.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis004' 00  
+TEXT ...Eu sou meio desastrado, ent~o minhas hist+rias fazem todos rirem.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis005' 00  
+TEXT ...Uma vez, onee-chan cuspiu o miso por toda a mesa de tanto rir.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis006' 00  
+TEXT ...E ent~o todos n+s rimos de novo, e dessa vez mam~e cuspiu o caf% na mesa.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis007' 00  
+TEXT ...Depois, papai se juntou e cuspiu peda|os do que estava comendo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_nis008' 00  
+TEXT ...Somos uma fam&lia bem bagunceira, mas muito divertida. Fim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 'cls_laugh' 00  
+TEXT ...Ahahaha! Ahahaha! Ahahaha...
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_sen000' 00  
+TEXT ...Isso % verdade sobre os pais do Nishiyama-kun?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_sen001' 00  
+TEXT ...Que fam&lia maravilhosa!  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_sen002' 00  
+TEXT ...Agora, o pr+ximo %...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '000_sen003' 00  
+TEXT ...Amasawa-san.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku000' 00  
+TEXT Sim.  
+STOP_SOUND 01  
+BACKGROUND 'FG128'  
+X_24 00  
+X_25 06  
+PLAY_SOUND 01 '042_iku001' 00  
+TEXT Fam&lia...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku002' 00  
+TEXT Meu pai... eu n~o sei onde ele est$...  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku003' 00  
+TEXT Meu irm~o se foi h$ muito tempo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku004' 00  
+TEXT Ent~o minha fam&lia % s+ a minha m~e.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku005' 00  
+TEXT Mas ela quase nunca vem para casa.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku006' 00  
+TEXT Ent~o % como se eu n~o tivesse fam&lia.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku007' 00  
+TEXT Eu janto sozinha.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku008' 00  
+TEXT Toda noite % comida de micro-ondas ou um bent{ da loja de conveni[ncia.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku009' 00  
+TEXT Eles ficam surpreendentemente bons se voc[ assiste TV enquanto come.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku010' 00  
+TEXT Mas ficar doente % um problema de verdade.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku011' 00  
+TEXT Quando fico com febre e n~o consigo me mexer, eu sinto medo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_iku012' 00 
+TEXT Eu me pergunto o que aconteceria se eu morresse assim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku013' 00  
+TEXT Eu me pergunto o que aconteceria se eu morresse e ningu%m notasse.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku014' 00  
+TEXT Essa % minha ^nica preocupa|~o.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku015' 00  
+TEXT Tirando isso, o resto % tranquilo e divertido.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku016' 00  
+TEXT Fim.  
+STOP_SOUND 01  
+TEXT .........  
+PLAY_SOUND 01 '042_iku017' 00  
+TEXT A professora procurou por palavras.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku018' 00  
+TEXT Todos come|aram a sussurrar.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku019' 00  
+TEXT Vingan|a.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku020' 00  
+TEXT Uma vingan|a sutil.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku021' 00  
+TEXT Todos deviam saber o qu~o distorcida eu havia me tornado.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku022' 00  
+TEXT Eles deviam ficar impressionados.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku023' 00  
+TEXT Eles deviam se arrepender.  
+STOP_SOUND 01  
+TEXT .........  
+PLAY_SOUND 01 '042_iku024' 00  
+TEXT Mas e agora...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku025' 00  
+TEXT O que acontece agora...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku026' 00  
+TEXT Eu quero que sintam pena de mim?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku027' 00  
+TEXT Ser amada agora, depois de tudo?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku028' 00  
+TEXT N~o, isso n~o importa.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku029' 00  
+TEXT Eles s+ deviam se arrepender.  
+STOP_SOUND 01  
+X_24 00  
+BACKGROUND 'WO'  
+X_25 06  
+PLAY_SOUND 01 '042_iku030' 00  
+TEXT Mas n~o h$ nada depois desse arrependimento.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku031' 00  
+TEXT Ao mostrar o qu~o distorcida eu sou, o que estava tentando ganhar...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku032' 00  
+TEXT Compaix~o...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku033' 00  
+TEXT Eu queria a piedade deles...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku034' 00  
+TEXT Eu queria ser amada...?  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku035' 00  
+TEXT Sim, eu queria.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku036' 00  
+TEXT Agora que admito isso, % triste.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku037' 00  
+TEXT @ muito triste.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '042_iku038' 00  
+TEXT @... infinitamente triste. 
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL13
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Aqui estou de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde eu quero retornar.
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '057_iku000' 00 
+TEXT Me pergunto por qu[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku001' 00 
+TEXT Por que estou tentando fugir...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku002' 00 
+TEXT Os competidores est~o alinhados dos dois lados.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku003' 00 
+TEXT O que vai acontecer se eu venc[-los?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku004' 00 
+TEXT O que eu ganho com isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku005' 00 
+TEXT Todos querem testar sua pr+pria for|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku006' 00 
+TEXT Vencer, e se elogiar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku007' 00 
+TEXT Por ser quem sou, quero deixar que eles ven|am.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku008' 00 
+TEXT Por ser quem sou, quero deixar que mostrem seu talento.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku009' 00 
+TEXT Um pensamento humilde.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku010' 00 
+TEXT Mas eu n~o tinha esse pensamento.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku011' 00 
+TEXT E tamb%m n~o sentia nenhuma press~o para vencer.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku012' 00 
+TEXT Por isso, meus come|os sempre foram t~o bons.
+STOP_SOUND 01 
+BACKGROUND 'FG130' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '057_iku013' 00 
+TEXT Enquanto todos ainda olham para o ch~o, corro sozinha.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku014' 00  
+TEXT Puxo o ch~o com os p%s e levanto a cabe|a.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku015' 00  
+TEXT Vou aos poucos desfazendo a postura curvada para frente.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku016' 00  
+TEXT Movimentando os bra|os.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku017' 00  
+TEXT No canto da vis~o, vejo meus antigos sapatos se movendo no ritmo.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku018' 00  
+TEXT Enquanto todos os outros n~o conseguem manter a for|a que tinham na pr$tica, corro sozinha, sem me importar.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku019' 00  
+TEXT Sinto minha velocidade pela press~o do vento.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku020' 00  
+TEXT Isso % bom.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku021' 00  
+TEXT Isso eu tenho certeza.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku022' 00  
+TEXT Mas, ainda assim... 
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku023' 00  
+TEXT N~o havia nada de errado em parar de correr ali.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku024' 00  
+TEXT Eu poderia muito bem deixar que os mais inferiores tomassem a gl+ria que queriam.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku025' 00  
+TEXT N~o tenho inten|~o de me sentir superior por isso.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku026' 00  
+TEXT Ent~o, eu poderia deixar que se fingissem de fortes at% o fim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku027' 00  
+TEXT Mas hoje, est$ sendo bom.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku028' 00  
+TEXT O vento est$ t~o bom.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku029' 00  
+TEXT Ent~o, vou correr at% o fim.  
+STOP_SOUND 01  
+PLAY_SOUND 01 '057_iku030' 00  
+TEXT S+ por isso, vou correr.  
+STOP_SOUND 01 
+BACKGROUND 'FG131' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '057_iku031' 00 
+TEXT T{ dizendo alguma coisa.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku032' 00 
+TEXT Eles t~o dizendo alguma coisa.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku033' 00 
+TEXT N~o posso fazer piada?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku034' 00 
+TEXT N~o posso falar s%rio tamb%m?
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku035' 00 
+TEXT Poxa, assim n~o tem gra|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku036' 00 
+TEXT Ahaha, % verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku037' 00 
+TEXT Vamos deixar por isso mesmo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku038' 00 
+TEXT Muito obrigada a todos.
+STOP_SOUND 01 
+BACKGROUND 'FG132' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '057_iku039' 00 
+TEXT T{ cansada.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku040' 00 
+TEXT @ s+ isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku041' 00 
+TEXT O motivo de eu ter desistido era simples.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku042' 00 
+TEXT ...N~o % isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku043' 00 
+TEXT ...Isso n~o % verdade...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku044' 00 
+TEXT Desde o come|o, nunca tive interesse em competir.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku045' 00 
+TEXT ...Eu s+ queria que chegasse at% ele...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku046' 00 
+TEXT ...S+ isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku047' 00 
+TEXT Escolhi correr por um motivo bem trivial.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku048' 00 
+TEXT ...Pra aquela pessoa...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku049' 00 
+TEXT Se eu n~o gostasse, ia desistir logo de cara.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku050' 00 
+TEXT ...Queria que chegasse at% ele...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku051' 00 
+TEXT ...O meu esfor|o...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku052' 00 
+TEXT Eu desisti porque perdi o gosto por aquilo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku053' 00 
+TEXT S+ isso.
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+PLAY_SOUND 01 '057_iku054' 00 
+TEXT ...Queria que chegasse at% ele...
+STOP_SOUND 01 
+PLAY_SOUND 01 '057_iku055' 00 
+TEXT ...S+ isso...
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL15
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Aqui estou de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde eu quero retornar.
+BACKGROUND 'FG133A' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '066_iku000' 00 
+TEXT Bom dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku001' 00 
+TEXT Bom dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku002' 00 
+TEXT Pra quem eu digo isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku003' 00 
+TEXT Digo pra mim mesma.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku004' 00 
+TEXT Bom dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku005' 00 
+TEXT Ser$ que algu%m responde meu cumprimento?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku006' 00 
+TEXT Ningu%m responde.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku007' 00 
+TEXT Bom dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku008' 00 
+TEXT J$ tinha esquecido dessas palavras.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku009' 00 
+TEXT Faz muito, muito tempo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku010' 00 
+TEXT Bom dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku011' 00 
+TEXT S+ me lembro do som.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku012' 00 
+TEXT Um som familiar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku013' 00 
+TEXT Um som revigorante.
+STOP_SOUND 01 
+BACKGROUND 'FG133B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '066_iku014' 00 
+TEXT Boa noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku015' 00 
+TEXT Cheguei.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku016' 00 
+TEXT Pra quem eu digo isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku017' 00 
+TEXT Digo pra mim mesma.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku018' 00 
+TEXT Bem-vinda de volta.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku019' 00 
+TEXT Ser$ que algu%m responde meu cumprimento?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku020' 00 
+TEXT Ningu%m responde.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku021' 00 
+TEXT Cheguei.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku022' 00 
+TEXT J$ tinha esquecido dessas palavras.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku023' 00 
+TEXT H$ muito tempo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku024' 00 
+TEXT Bem-vinda de volta.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku025' 00 
+TEXT S+ me lembro do som.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku026' 00 
+TEXT Um som familiar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku027' 00 
+TEXT Um som acolhedor.
+STOP_SOUND 01 
+BACKGROUND 'FG133C' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '066_iku028' 00 
+TEXT Noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku029' 00 
+TEXT Boa noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku030' 00 
+TEXT Pra quem eu digo isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku031' 00 
+TEXT Digo pra mim mesma.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku032' 00 
+TEXT Boa noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku033' 00 
+TEXT Ser$ que algu%m responde minha despedida?
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku034' 00 
+TEXT Ningu%m responde.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku035' 00 
+TEXT Boa noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku036' 00 
+TEXT J$ tinha esquecido dessas palavras.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku037' 00 
+TEXT Faz muito, muito tempo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku038' 00 
+TEXT Boa noite.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku039' 00 
+TEXT S+ me lembro do som.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku040' 00 
+TEXT Um som familiar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '066_iku041' 00 
+TEXT Um som tranquilo.
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL17
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Aqui estou de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde eu quero retornar.
+BACKGROUND 'FG134' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '072_iku000' 00 
+TEXT Vaiii at% onde forÅÙ ...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku001' 00 
+TEXT Seguindo os triiilhosÅÙ ...
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+PLAY_SOUND 01 '072_iku002' 00 
+TEXT At% um lugar distaaanteÅÙ ...
+STOP_SOUND 01 
+TEXT ......
+TEXT ......
+TEXT ............
+PLAY_SOUND 01 '005_ikm001' 00 
+TEXT ...Ikumi.
+STOP_SOUND 01 
+TEXT ......
+PLAY_SOUND 01 '005_ikm002' 00 
+TEXT ...Ikumi, cheguei.
+STOP_SOUND 01 
+TEXT ......
+PLAY_SOUND 01 '005_ikm003' 00 
+TEXT ...Ikumi?
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku003' 00 
+TEXT ......
+PLAY_SOUND 01 '072_iku004' 00 
+TEXT Se......Seja bem-vinda...
+STOP_SOUND 01 
+BACKGROUND 'FG135' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '072_iku005' 00 
+TEXT Bem-vinda de volta... M~e!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm004' 00 
+TEXT ...Ikumi...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm005' 00 
+TEXT ...Me perdoa por ter demorado tanto.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm006' 00 
+TEXT ...Mas a partir de agora, estaremos juntas para sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm007' 00 
+TEXT ...A mam~e vai ficar ao seu lado para sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku006' 00 
+TEXT Ugh... t$ bom......
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm008' 00 
+TEXT ...Hoje vou fazer o ensopado cremoso favorito da Ikumi.
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku007' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_ikm009' 00 
+TEXT ...Vamos pra casa.
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku008' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku009' 00 
+TEXT ...M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku010' 00 
+TEXT .........M~e...
+STOP_SOUND 01 
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '072_iku011' 00 
+TEXT Agora eu n~o t{ mais sozinha...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku012' 00 
+TEXT A partir de hoje, a mam~e estar$ comigo outra vez...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku013' 00 
+TEXT Ela % t~o maravilhosa...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku014' 00 
+TEXT Se... Se eu tivesse perdido a mam~e, teria perdido at% mesmo o sentido de viver...
+STOP_SOUND 01 
+PLAY_SOUND 01 '072_iku015' 00 
+TEXT Eu perderia...
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL19
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Aqui estou de novo...
+TEXT Agora, vou voltar...
+TEXT Para o lugar onde quero retornar.
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '077_iku000' 00 
+TEXT Meu lugar favorito, o leito do rio...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku001' 00 
+TEXT Um leito de rio cheio de flores...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku002' 00 
+TEXT Vou colher um monte dessas flores pra dar de presente pra mam~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku003' 00 
+TEXT Muito mais flores do que qualquer floricultura teria.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku004' 00 
+TEXT Depois vou fazer uma surpresa e encher o quarto dela de flores.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku005' 00 
+TEXT Ela vai se surpreender, e tenho certeza de que vai adorar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku006' 00 
+TEXT Vai dizer "Obrigada, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku007' 00 
+TEXT E hoje vai virar um dia inesquec&vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku008' 00 
+TEXT Daqui pra frente, toda vez que a mam~e olhar pra essas flores, ela vai lembrar desse dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku009' 00 
+TEXT Vai lembrar que eu t{ aqui.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku010' 00 
+TEXT Que eu amo ela.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku011' 00 
+TEXT E eu tamb%m vou lembrar...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku012' 00 
+TEXT Que a minha m~e t$ aqui.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku013' 00 
+TEXT Que eu posso me esfor|ar por ela.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku014' 00 
+TEXT Isso % um la|o.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku015' 00 
+TEXT Um la|o caloroso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku016' 00 
+TEXT Um la|o precioso, que nunca ser$ desatado.
+STOP_SOUND 01 
+BACKGROUND 'FG137' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '077_iku017' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku018' 00 
+TEXT M~e, obrigada por tudo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku019' 00 
+TEXT Olha s+ o quanto eu t{ agradecida.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku020' 00 
+TEXT Porque hoje % o Dia das M~es...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku021' 00 
+TEXT Porque hoje % o dia de te agradecer por tudo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku022' 00 
+TEXT Eu queria agradecer com todas as flores que conseguisse carregar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku023' 00 
+TEXT Na verdade, eu tentei carregar muito mais que isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku024' 00 
+TEXT Mas, no caminho de volta, o vento levou um monte embora...
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku025' 00 
+TEXT Foi o m$ximo que consegui trazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku026' 00 
+TEXT Mas... minha gratid~o % muito maior do que isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku027' 00 
+TEXT Sou grata por voc[ estar aqui, m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku028' 00 
+TEXT Essas flores s~o s+ uma pequena parte disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku029' 00 
+TEXT Obrigada, m~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku030' 00 
+TEXT M~e, voc[ t$ me ouvindo...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku031' 00 
+TEXT Fica comigo daqui pra frente.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku032' 00 
+TEXT Eu vou me esfor|ar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '077_iku033' 00 
+TEXT Por voc[, m~e...
+STOP_SOUND 01 
+BACKGROUND 'FG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '077_iku034' 00 
+TEXT M~e...?
+X_28 000A 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL21
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde eu quero retornar.
+BACKGROUND 'WO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '083_iku000' 00 
+TEXT Luz...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku001' 00 
+TEXT Estou cercada por luz...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku002' 00 
+TEXT Luz da manh~...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku003' 00 
+TEXT Luz atravessando as cortinas...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku004' 00 
+TEXT Raios suaves... de sol primaveril...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm001' 00 
+TEXT "Bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku005' 00 
+TEXT Eh...?
+STOP_SOUND 01 
+BACKGROUND 'FG139' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '006_ikm002' 00 
+TEXT "Bom dia, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku006' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm003' 00 
+TEXT "O que foi? Parece surpresa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku007' 00 
+TEXT Eu queria te ver.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku008' 00 
+TEXT Queria tanto te ver.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm004' 00 
+TEXT "Entendo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku009' 00 
+TEXT Aconteceu tanta coisa.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku010' 00 
+TEXT Porque voc[ n~o estava l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm005' 00 
+TEXT "Foi mesmo...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku011' 00 
+TEXT Eu corri atr$s de voc[, at% a instala|~o da FARGO...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku012' 00 
+TEXT L$ aconteceram tantas coisas tristes...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku013' 00 
+TEXT Meus amigos tiveram finais horr&veis... e eu n~o pude fazer nada por eles...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm006' 00 
+TEXT "Entendo... voc[ teve um pesadelo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku014' 00 
+TEXT Pesadelo...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku015' 00 
+TEXT Isso n~o % um sonho, % a realidade...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku016' 00 
+TEXT Ah, % mesmo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku017' 00 
+TEXT Isso aqui % um sonho...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku018' 00 
+TEXT Olhei para as minhas palmas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku019' 00 
+TEXT M~os pequenas, como folhas de outono.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku020' 00 
+TEXT Voltei pra c$ de novo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku021' 00 
+TEXT Para um passado distante em que me sentia bem...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku022' 00 
+TEXT Mas na realidade, estou presa na instala|~o isolada da FARGO, vivendo com aquele garoto...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku023' 00 
+TEXT Al%m disso, a minha m~e j$......
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku024' 00 
+TEXT Mas eu j$ n~o tinha mais certeza de nada...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku025' 00 
+TEXT Talvez, s+ talvez, isso aqui fosse a realidade...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm007' 00 
+TEXT "N~o h$ com o que se preocupar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku026' 00 
+TEXT Eu s+ tive um sonho... onde eu crescia e coisas tristes aconteciam...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku027' 00 
+TEXT E na verdade, eu estava acordando sob os raios do sol da primavera.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku028' 00 
+TEXT Sendo acordada pela minha m~e como sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku029' 00 
+TEXT Talvez... essa seja a realidade.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm008' 00 
+TEXT "A mam~e n~o vai a lugar nenhum."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm009' 00 
+TEXT "Eu sempre vou estar com voc[, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku030' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku031' 00 
+TEXT @ verdade?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm010' 00 
+TEXT "Sim, eu sempre estarei perto da minha ador$vel Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm011' 00 
+TEXT "Ent~o fique tranquila."
+STOP_SOUND 01 
+IF 16 14 00 15 64 00 04 00 .LABEL28 
+PLAY_SOUND 01 '083_iku032' 00 
+TEXT Mas... de algum jeito...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku033' 00 
+TEXT D+i... meu peito d+i...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm012' 00 
+TEXT "Olha s+, o dia est$ lindo hoje."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm013' 00 
+TEXT "Deixei o dia livre s+ pra brincar com voc[, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku034' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm014' 00 
+TEXT "Quer brincar com a mam~e hoje?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku035' 00 
+TEXT Quero...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku036' 00 
+TEXT Mas, m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku037' 00 
+TEXT Meu peito d+i...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku038' 00 
+TEXT Se me perguntassem o porqu[...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku039' 00 
+TEXT Eu teria que dizer que % porque...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm015' 00 
+TEXT "Est$ na hora de acordar, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku040' 00 
+TEXT Eu sei que a mam~e n~o est$ aqui...
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+JMP .LABEL23 
+
+:LABEL28
+PLAY_SOUND 01 '083_iku041' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku042' 00 
+TEXT Isso soa t~o reconfortante...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku043' 00 
+TEXT A mam~e vai ficar comigo pra sempre...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku044' 00 
+TEXT J$ at% esqueci daqueles sonhos ruins...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm012' 00 
+TEXT "Olha s+, o dia est$ lindo hoje."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm013' 00 
+TEXT "Deixei o dia livre s+ pra brincar com voc[, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku045' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm014' 00 
+TEXT "Quer brincar com a mam~e hoje?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku046' 00 
+TEXT Sim... m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm015' 00 
+TEXT "Est$ na hora de acordar, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku047' 00 
+TEXT Sim, eu vou acordar.
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+STOP_SOUND 00 
+TEXT *viii*...!*viii*...!
+PLAY_SOUND 01 'm11_min001' 00 
+TEXT "Droga...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'es3_elp004' 00 
+TEXT "...formou-se uma cratera no inv+lucro mental dela! Ela est$ afundando nos valores negativos!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'm11_min002' 00 
+TEXT "Arranjem um jeito de parar isso! Pelo menos ganhem tempo!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'es3_elp005' 00 
+TEXT "@ in^til! A barreira externa j$ foi selada por dentro..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm11_min003' 00 
+TEXT "Idiota, n~o desista at% o ^ltimo segundo!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'es3_elp006' 00 
+TEXT "Mas nunca houve um caso de algu%m voltar desse estado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm11_min004' 00 
+TEXT "Sempre tem uma primeira vez!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'es3_elp007' 00 
+TEXT "% verdade... mas n~o temos meios de fazer isso acontecer..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm11_min005' 00 
+TEXT "Droga...!"
+STOP_SOUND 01 
+TEXT *viii*...!*viii*...!
+TEXT ......*viii*......*viii*...!...
+TEXT ..................*ii*............*ii*
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+BACKGROUND 'FG139' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '083_iku048' 00 
+TEXT Ei, m~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm016' 00 
+TEXT "O que foi, Ikumi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku049' 00 
+TEXT Eu queria te perguntar uma coisa.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm017' 00 
+TEXT "Perguntar o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku050' 00 
+TEXT Meu nome... por que voc[ escolheu 'Ikumi'?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm018' 00 
+TEXT "Foi o papai quem escolheu h$ muito tempo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm019' 00 
+TEXT "'Se for menina, vai ser Ikumi', foi o que ele disse."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku051' 00 
+TEXT Ah... ent~o foi o papai...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm020' 00 
+TEXT "Mas o 'mi' de 'Ikumi' era outro ideograma, e eu troquei pelo 'mi' do meu nome."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm021' 00 
+TEXT "Porque o meu nome, Miyako, tamb%m tem esse 'mi'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm022' 00 
+TEXT "E % por isso que eu vou estar sempre com a Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku052' 00 
+TEXT Ah... ent~o era isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm023' 00 
+TEXT "Ikumi gosta do seu nome?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku053' 00 
+TEXT Gosto, sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku054' 00 
+TEXT N~o... quer dizer, eu gostava...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm024' 00 
+TEXT "'Gostava'?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm025' 00 
+TEXT "E agora?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku055' 00 
+TEXT Agora eu amo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm026' 00 
+TEXT "Heheh, % porque ouviu o motivo, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku056' 00 
+TEXT %.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku057' 00 
+TEXT Mas...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm027' 00 
+TEXT "Mas o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku058' 00 
+TEXT M~e, n~o vai embora.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm028' 00 
+TEXT "Por que est$ dizendo isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku059' 00 
+TEXT Porque... parece que voc[ s+ disse isso porque n~o vai poder ficar comigo pra sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku060' 00 
+TEXT E se isso fosse verdade, ent~o um dia a Ikumi ia ficar triste toda vez que chamassem seu nome.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku061' 00 
+TEXT A Ikumi ia se lembrar da mam~e que perdeu.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku062' 00 
+TEXT Foi isso que Ikumi pensou depois de ouvir o motivo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm029' 00 
+TEXT "T$ pensando demais."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm030' 00 
+TEXT "Ikumi t$ s+ se preocupando demais com isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku063' 00 
+TEXT @ mesmo?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm031' 00 
+TEXT "Sim."
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+BACKGROUND 'FG140' 
+X_24 00 
+X_25 06 
+X_3C 0B 01 
+PLAY_SOUND 01 '083_iku064' 00 
+TEXT Eu t{ com a mam~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku065' 00 
+TEXT Minha m~e vai estar sempre comigo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku066' 00 
+TEXT Vai, n%?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm032' 00 
+TEXT "Vou, sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku067' 00 
+TEXT @...
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku068' 00 
+TEXT Eu vou ficar aqui, pra sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku069' 00 
+TEXT Vivendo junto com a mam~e.
+STOP_SOUND 01 
+PLAY_SOUND 01 '083_iku070' 00 
+TEXT Aqui...
+STOP_SOUND 01 
+TEXT 
+X_30 00 
+X_31 00 
+X_32 00 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+BACKGROUND 'FG226' 
+X_24 00 
+X_25 06 
+X_28 0050 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT 
+SELECT 0003 'Ouvir uma dica' 'Voltar para a tela inicial' 
+IF 16 03 00 15 01 00 02 00 .LABEL30 
+BACKGROUND 'CGsy01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '027_boy000' 00 
+TEXT Garoto: "Hmm... n~o achei que voc[ fosse uma garota t~o fraca assim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy001' 00 
+TEXT Garoto: "Acho que voc[ andou negligenciando o refor|o mental."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy002' 00 
+TEXT Garoto: "Seria bom prestar aten|~o no que dizem sobre isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy003' 00 
+TEXT Garoto: "Principalmente nos relat+rios do Elpod depois que voc[ for para a Sala de Relaxamento."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy004' 00 
+TEXT Garoto: "Escute, reflita bem... tenho certeza de que vai ser ^til."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy005' 00 
+TEXT Garoto: "Se voc[ s+ fizer o que for mais c{modo, vai acabar perdida assim de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy006' 00 
+TEXT Garoto: "Bom, talvez voc[ ache que isso % o melhor..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy007' 00 
+TEXT Garoto: "A decis~o % sua."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy008' 00 
+TEXT Garoto: "N~o vou te for|ar a nada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy009' 00 
+TEXT Garoto: "Mas achei que voc[ tinha vindo at% aqui com um prop+sito..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy010' 00 
+TEXT Garoto: "De qualquer forma, vou continuar esperando."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy011' 00 
+TEXT Garoto: "Embora eu n~o saiba se ser$ voc[ quem vir$ no fim... ou outra pessoa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '027_boy012' 00 
+TEXT Garoto: "Mesmo que isso seja o mesmo que desejar outra v&tima..."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+JMP .LABEL30 
+
+:LABEL30
+X_28 0028 
+X_00 0017 0001 
+RETURN 
+
+:LABEL23
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde quero retornar.
+BACKGROUND 'FG139' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '087_iku000' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm016' 00 
+TEXT "O que foi, Ikumi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku001' 00 
+TEXT Tenho tantas coisas para perguntar.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku002' 00 
+TEXT Tenho tantas coisas para saber.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm017' 00 
+TEXT "Como o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku003' 00 
+TEXT Meu nome... por que escolheu Ikumi?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm018' 00 
+TEXT "Papai escolheu h$ muito tempo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm019' 00 
+TEXT "'Se for menina, ser$ Ikumi', ele disse."
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku004' 00 
+TEXT Ah... foi o papai...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm020' 00 
+TEXT "Mas o 'mi' em 'Ikumi' vem do meu nome, eu fiz quest~o disso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm021' 00 
+TEXT "Porque meu nome, Miyako, tem esse 'mi'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm022' 00 
+TEXT "E por isso estarei com Ikumi para sempre."
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku005' 00 
+TEXT Ah... era isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm023' 00 
+TEXT "Ikumi gosta do pr+prio nome?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku006' 00 
+TEXT Sim, eu gosto.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku007' 00 
+TEXT N~o... eu gostava...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm024' 00 
+TEXT "Gostava?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm025' 00 
+TEXT "E agora?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku008' 00 
+TEXT Agora eu amo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm026' 00 
+TEXT "Hehe, porque ouviu o motivo por tr$s disso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku009' 00 
+TEXT Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku010' 00 
+TEXT Mas...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm027' 00 
+TEXT "O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku011' 00 
+TEXT M~e, n~o v$ embora.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm028' 00 
+TEXT "Por que est$ dizendo isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku012' 00 
+TEXT Porque... % como se voc[ usasse isso porque n~o pode ficar comigo para sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku013' 00 
+TEXT E se isso fosse verdade, ent~o um dia Ikumi ficaria triste toda vez que chamassem Ikumi pelo nome.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku014' 00 
+TEXT Ikumi lembraria da mam~e que perdeu.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku015' 00 
+TEXT Ikumi pensou isso depois de ouvir o motivo.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm029' 00 
+TEXT "Est$ pensando demais."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm030' 00 
+TEXT "Ikumi est$ s+ pensando demais."
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku016' 00 
+TEXT S%rio?
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm031' 00 
+TEXT "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku017' 00 
+TEXT Claro que sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm033' 00 
+TEXT "Tem mais alguma coisa que quer perguntar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku018' 00 
+TEXT Sim... muitas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku019' 00 
+TEXT Quero perguntar cada vez mais.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_ikm034' 00 
+TEXT "Como o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku020' 00 
+TEXT Sabe...
+STOP_SOUND 01 
+PLAY_SOUND 01 '087_iku021' 00 
+TEXT Sabe, sobre quando...
+STOP_SOUND 01 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+
+:LABEL25
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+TEXT Estou aqui de novo...
+TEXT Agora, vou voltar.
+TEXT Para onde quero retornar.
+BACKGROUND 'FG139' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '091_iku000' 00 
+TEXT M~e...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm001' 00 
+TEXT "O que foi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku001' 00 
+TEXT Por algum motivo, me sinto cansada...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm002' 00 
+TEXT "Entendo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku002' 00 
+TEXT %...
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku003' 00 
+TEXT Aprendi muitas coisas...
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku004' 00 
+TEXT E acho que terminei...
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku005' 00 
+TEXT Tem algo dentro de mim...
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku006' 00 
+TEXT Tenho certeza que mam~e tamb%m j$ sentiu isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm003' 00 
+TEXT "Isso % uma d^vida."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm004' 00 
+TEXT "Porque voc[ est$ cansada, est$ pensando que as coisas est~o piores do que realmente est~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm005' 00 
+TEXT "Ent~o, descanse."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm006' 00 
+TEXT "Na pr+xima vez que acordar, as d^vidas da Ikumi certamente ter~o desaparecido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku007' 00 
+TEXT Sim, talvez isso ajude...
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku008' 00 
+TEXT Se eu descansar, essas d^vidas ou seja l$ o que for podem desaparecer...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm007' 00 
+TEXT "Voc[ pode dormir agora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku009' 00 
+TEXT Mas se eu dormir agora, n~o vou conseguir...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm008' 00 
+TEXT "Voc[ est$ falando coisas estranhas de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm009' 00 
+TEXT "Tudo bem, vou ficar do seu lado enquanto voc[ dorme."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku010' 00 
+TEXT S%rio...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm010' 00 
+TEXT "Vou ficar olhando seu rosto enquanto dorme o tempo todo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm011' 00 
+TEXT "N~o h$ nada com que voc[ precise se preocupar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm012' 00 
+TEXT "Ent~o, boa noite."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku011' 00 
+TEXT Mas, da pr+xima vez que eu acordar...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm013' 00 
+TEXT "At% amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku012' 00 
+TEXT Estarei numa realidade dolorosa...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm014' 00 
+TEXT "Boa noite, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku013' 00 
+TEXT Volte...
+STOP_SOUND 01 
+PLAY_SOUND 01 '007_ikm015' 00 
+TEXT "Boa noite."
+STOP_SOUND 01 
+PLAY_SOUND 01 '091_iku014' 00 
+TEXT .........
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+RETURN 
+EOF 

@@ -1,0 +1,656 @@
+
+# MOON SCRIPT FILE "DAY15T.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000F 
+SETSTATUS '１５日目　午前　Ａ棟' 
+BACKGROUND 'FG214' 
+X_24 00 
+X_25 06 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_00 0099 0000 
+X_00 009A 0000 
+X_00 009B 0000 
+X_00 009C 0000 
+X_00 009D 0000 
+X_00 009E 0000 
+X_00 009F 0000 
+X_00 00A0 0000 
+X_00 00A1 0000 
+X_00 00A2 0000 
+X_00 00A3 0000 
+X_00 00A4 0000 
+X_00 00A5 0000 
+X_00 00A6 0000 
+X_00 00A7 0000 
+X_00 00A8 0000 
+X_00 00A9 0000 
+X_00 00AA 0000 
+X_00 00AB 0000 
+X_00 00AC 0000 
+X_00 00AD 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '040_boy000' 00 
+TEXT 少年「朝だよ、郁未」
+STOP_SOUND 01 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '101_iku000' 00 
+TEXT 郁未「……あ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy001' 00 
+TEXT 少年「おはよう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '101_iku001' 00 
+TEXT 郁未「……おはよう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy002' 00 
+TEXT 少年「どうしたの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '101_iku002' 00 
+TEXT 郁未「起きられなかった、結局」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy003' 00 
+TEXT 少年「どうして？　もっと早く起きたかったの？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '101_iku003' 00 
+TEXT 郁未「ううん、いいのよ。なんでもない」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy004' 00 
+TEXT 少年「そう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy005' 00 
+TEXT 少年「それで今日はどうするんだい」
+STOP_SOUND 01 
+TEXT 今日……
+TEXT 今日は……
+PLAY_SOUND 01 '101_iku004' 00 
+TEXT 郁未「晴香を探しにでる…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy006' 00 
+TEXT 少年「そう…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy007' 00 
+TEXT 少年「止めはしないよ、もう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy008' 00 
+TEXT 少年「でも気をつけるんだよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy009' 00 
+TEXT 少年「もうキミの居場所なんてどこにもないんだ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '101_iku005' 00 
+TEXT 郁未「わかってる」
+STOP_SOUND 01 
+PLAY_SOUND 01 '101_iku006' 00 
+TEXT 郁未「じゃあ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy010' 00 
+TEXT 少年「いってらっしゃい」
+STOP_SOUND 01 
+TEXT 私は少年の声を背に、部屋をでる。
+GOSUB_SCRIPT 'A_D15' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+STOP_SOUND 00 
+PLAY_SOUND 01 '040_boy011' 00 
+TEXT 少年「あれ、どうしたの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '103_iku000' 00 
+TEXT 郁未「考えが変わったの」
+STOP_SOUND 01 
+PLAY_SOUND 01 '103_iku001' 00 
+TEXT 郁未「今日はね、ずっとここにいることにした」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy012' 00 
+TEXT 少年「そう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '040_boy013' 00 
+TEXT 少年「いいんじゃない」
+STOP_SOUND 01 
+PLAY_SOUND 01 '103_iku002' 00 
+TEXT 郁未「うん、いいよね」
+STOP_SOUND 01 
+TEXT 最後の家族ごっこの始まりだ。
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+TEXT ただ、のんびりとした時間。
+TEXT ただ、部屋でごろごろして、他愛のない話をして、
+TEXT 少し笑って、少し不満を言って、
+TEXT 少し弱音を吐いて、少し退屈して、
+TEXT そしてこんな時間をまた大切に思って、
+TEXT 少し元気になって、少し困らせるようなことを言って、
+TEXT 少しすべてを悟ったような気がして、
+TEXT 少しすべてを失う覚悟ができて、
+TEXT そしてこの時間だけをまた失いたくなくなって、
+TEXT 少し黙り込んでしまって、少し悲しくなってしまって、
+TEXT 少し反省して、そして顔を上げて、
+PLAY_SOUND 01 '099_iku007' 00 
+TEXT 郁未「ありがとう」
+STOP_SOUND 01 
+TEXT と言って、
+PLAY_SOUND 01 '038_boy011' 00 
+TEXT 少年「なにが？」
+STOP_SOUND 01 
+TEXT と彼が聞いて、
+PLAY_SOUND 01 '099_iku008' 00 
+TEXT 郁未「あなたのおかげで私はここまでやってこれ　　たから…」
+STOP_SOUND 01 
+TEXT と答えて、
+PLAY_SOUND 01 '038_boy012' 00 
+TEXT 少年「そう」
+STOP_SOUND 01 
+PLAY_SOUND 01 '038_boy013' 00 
+TEXT 少年「そう言ってくれると、嬉しいけど…」
+STOP_SOUND 01 
+TEXT と彼が申し訳なさそうに言って、
+PLAY_SOUND 01 'se27' 00 
+TEXT ガチャン！
+TEXT と扉が開いて、
+TEXT 三人の銃を持った人たちが現れて、
+PLAY_SOUND 01 '005_bt2000' 00 
+TEXT 男「……連れてゆくぞ。いいな」
+STOP_SOUND 01 
+TEXT と告げて、
+TEXT それに対して少年は無言で頷いて、
+TEXT ほんとうの別れと知って、
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+X_24 00 
+BACKGROUND 'BO' 
+X_25 06 
+TEXT 私は泣いた。
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT …
+TEXT ……
+TEXT ………
+TEXT …………
+TEXT ……………
+TEXT ………
+TEXT …
+BACKGROUND 'FG073' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se71' 01 
+TEXT カチャーン…
+TEXT ………
+TEXT 足音…。
+TEXT 久しぶりに聞く音…。
+TEXT カチャーン…
+TEXT ………
+TEXT 近づいてくる。
+TEXT ………
+TEXT カチャーン…
+TEXT 近づいてくる。
+TEXT ………
+TEXT カチャーン。
+STOP_SOUND 01 
+TEXT ………。
+TEXT 止まる。
+PLAY_SOUND 01 '004_tak000' 00 
+TEXT 声「死ぬ準備はできたかい」
+STOP_SOUND 01 
+BACKGROUND 'FG074' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd12' 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak001' 00 
+TEXT 高槻「まだのようだなぁ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak002' 00 
+TEXT 高槻「…怖いか？」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak003' 00 
+TEXT 高槻「命乞いしないのか、この俺に」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak004' 00 
+TEXT 高槻「命乞いすればいい。助かるかもしれんぞ」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak005' 00 
+TEXT 高槻「どうした、命乞いしないか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak006' 00 
+TEXT 高槻「チ○ポれろれろ舐めますので助けてくださ　　いとなぁ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak007' 00 
+TEXT 高槻「騎乗位で一生懸命腰を動かしますので助け　　てくださいとなぁ」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak008' 00 
+TEXT 高槻「ぁあ？」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak009' 00 
+TEXT 高槻「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak010' 00 
+TEXT 高槻「…かっ、いい度胸だ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak011' 00 
+TEXT 高槻「それとも何したって無駄だって気づいてた　　か？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak012' 00 
+TEXT 高槻「まあ、そういうことだ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak013' 00 
+TEXT 高槻「次、おまえの自我がロストしたとき、それ　　が最後だ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak014' 00 
+TEXT 高槻「周期から言っても朝までもたん。せいぜい　　残りわずかの時間を有意義に過ごすんだな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak015' 00 
+TEXT 高槻「それともアイツを恨んで過ごすか？」
+STOP_SOUND 01 
+TEXT 郁未「………」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak016' 00 
+TEXT 高槻「知ってるんだろう、アイツの正体」
+STOP_SOUND 01 
+TEXT アイツ……？
+TEXT 少年のこと…？
+PLAY_SOUND 01 '004_tak017' 00 
+TEXT 高槻「アイツがすべての元凶だってこと」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku000' 00 
+TEXT 郁未「え…」
+STOP_SOUND 01 
+TEXT 思わず眼を高槻の方に向けてしまう。
+PLAY_SOUND 01 '004_tak018' 00 
+TEXT 高槻「傑作だな。知らないのか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak019' 00 
+TEXT 高槻「そうか、知らずにそうなってしまったのか」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak020' 00 
+TEXT 高槻「そうか、そうだな。それがアイツのやり方　　だったな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak021' 00 
+TEXT 高槻「なら最後にアイツを呪いながら死ぬべきだ　　な」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak022' 00 
+TEXT 高槻「おまえの体の中にアレを植え付けていった　　アイツをな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku001' 00 
+TEXT 郁未「アレって…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak023' 00 
+TEXT 高槻「おまえの自我をロストさせる別意識、アイ　　ツの分身のことだ」
+STOP_SOUND 01 
+TEXT 別意識…
+TEXT 分身…
+TEXT なんのこと…
+TEXT どういうこと…
+PLAY_SOUND 01 '004_tak024' 00 
+TEXT 高槻「理解できないか？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak025' 00 
+TEXT 高槻「おまえ、アイツとヤッたんだろうが」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak026' 00 
+TEXT 高槻「そんとき植え付けられたんだよ。アイツの　　分身をな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak027' 00 
+TEXT 高槻「力づくで襲ってやればいいのに、アイツは　　情に訴えかけて回りくどいやり方をするん　　だよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak028' 00 
+TEXT 高槻「そういうのを楽しんでるんだな、アイツは。　　人間でもないくせに」
+STOP_SOUND 01 
+TEXT 人間でもないくせに…？
+TEXT 誰が…？
+TEXT あの少年が…！？
+PLAY_SOUND 01 '004_tak029' 00 
+TEXT 高槻「あはははっ！　アイツは人間じゃないんだ　　よっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak030' 00 
+TEXT 高槻「気づかなかったかっ！？　ありゃ人の皮を　　被ってるだけなんだぜっ！？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak031' 00 
+TEXT 高槻「その下は人間じゃない別の生物だっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak032' 00 
+TEXT 高槻「見たいかっ！？　見たいだろうっ！？」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak033' 00 
+TEXT 高槻「やめとけぇっ！　あんなもの見るもんじゃ　　ないっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak034' 00 
+TEXT 高槻「吐くほどおぞましい姿をした生き物なんだ　　からなっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak035' 00 
+TEXT 高槻「何人もの研究員がアレを見て吐いてるっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak036' 00 
+TEXT 高槻「そんなシロモノだぁっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak037' 00 
+TEXT 高槻「げぇっ、思い出しただけで吐き気がもよお　　してきたぜぇっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak038' 00 
+TEXT 高槻「あはははっ！　そんな化け物と、てめぇは　　ずっと過ごしてきたんだぁっ！」
+STOP_SOUND 01 
+TEXT まさか…
+TEXT そんな…
+PLAY_SOUND 01 '100_iku002' 00 
+TEXT 郁未「うそだ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak039' 00 
+TEXT 高槻「バカかっ、死んでゆくおまえに嘘なんかつ　　いてどうするっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku003' 00 
+TEXT 郁未「あいつはそんな化け物なんかじゃないもの　　…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku004' 00 
+TEXT 郁未「人間だもの…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku005' 00 
+TEXT 郁未「沢山いる人間なんかより、よっぽどいい人　　間だものっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak040' 00 
+TEXT 高槻「こりゃまた傑作だっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak041' 00 
+TEXT 高槻「おまえがアイツを弁護するほど、俺はアイ　　ツの女を口説く才能にひれ伏してしまうよ　　っ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '100_iku006' 00 
+TEXT 郁未「うそだぁっ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak042' 00 
+TEXT 高槻「あははははっ！　決定だなっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak043' 00 
+TEXT 高槻「最後の時間はあの悪魔を呪って過ごすんだ　　なぁっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak044' 00 
+TEXT 高槻「あははははははっ！」
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT ………
+TEXT ……
+TEXT …
+BACKGROUND 'FG073' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT ………。
+TEXT そういう……そういうことだったんだ…。
+TEXT 人間たちが欲してやまないあの不可視の力とは、人間ではない者の力だったんだ。
+TEXT そしてここで行われてることとは、人間ではない者の異能力を人間に植えつけることだったんだ。
+TEXT 一体なんのために。
+TEXT ただより進化した人間を造ろうとしているだけか。
+TEXT べつの目的があるのか。
+TEXT そんなことは問題ではない。
+TEXT これは私個人の戦いなんだから。
+TEXT そう。重要な事実は、あの少年が人間ではない者、そして不可視の力の源だってこと。
+TEXT 真実は近くにある。
+TEXT それは彼自身のことだったんだ。
+TEXT 真実はすでにキミの中にある。
+TEXT それは私の中に植え付けられた、彼自身の分身のことだったんだ。
+TEXT なんてことはない。
+TEXT 私のカタキは彼だったのだ。
+TEXT お母さんの体を食い破ってしまったのも、彼を象徴とする人間ではない者の分身だったのだ。
+IF 17 86 00 15 00 00 02 00 .LABEL1 
+TEXT そして晴香を殺したのも……私の中の彼だったんだ…。
+
+:LABEL1
+TEXT アイツはそんなものを植え付けるために、私に情に訴えかけて、迫って…
+TEXT 私はまんまと騙されて……あいつに気を許して…
+TEXT 家族の真似事みたいなことして、喜んで…
+TEXT ひとりではしゃいで…
+TEXT なんて…なんてバカだったの…
+TEXT 結局実験体としていいように扱われただけ…
+TEXT 悔しい…
+TEXT ………
+TEXT ……
+TEXT …
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT ………。
+TEXT 眠ってたのか…。
+TEXT 何時間経っただろう…。
+TEXT あの戦慄は…アイツの分身はまだ現れていないのか…。
+TEXT 早く現れればいい。
+TEXT もう考えるのも疲れた。
+TEXT 私は負け犬でいい。
+TEXT お母さんの復讐を果たすべく乗り込んで…
+TEXT 結局お母さんと同じ末路を辿ろうとしている。
+TEXT 悔しいけど、もういい。
+TEXT 悔しいと思うのももうイヤだ。
+TEXT だから現れればいい。
+TEXT 現れて、私の心を奪ってくれればいい。
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 'se17' 00 
+TEXT グゴゥゥゥンッ！
+TEXT 遠くで音。
+TEXT もう関係ない。
+PLAY_SOUND 01 'se22' 00 
+TEXT ズキューーンッ！
+PLAY_SOUND 01 'se68' 00 
+TEXT ドゥグドゥグッ！
+TEXT また誰かを消去しているの。
+PLAY_SOUND 01 'se22' 00 
+TEXT ズキューーンッ！
+PLAY_SOUND 01 'se70' 00 
+TEXT ギシャァアァッッ！
+TEXT 違う。
+TEXT そう、私か。
+TEXT 私が消去されてるんだ。
+TEXT 銃弾が私の身体をいくつも貫き、そして死んだ後なんだ。
+TEXT だからこんな冷静なんだ。
+TEXT ああ、痛かった。
+TEXT でも一瞬でよかった。
+PLAY_SOUND 01 '004_tak045' 00 
+TEXT 高槻「おまえ…Ｂ‐５８をどうしたっ！？　Ｂ‐　　５８をっ！！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy000' 00 
+TEXT 声「のびてるさ、そこで」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak046' 00 
+TEXT 高槻「のびてるって……どうして足枷のある貴様　　に、コントロール体がっ…！！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy001' 00 
+TEXT 声「おかげでこの通りだよ」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak047' 00 
+TEXT 高槻「腕を失っただけで、済んだというのかっ！　　！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy002' 00 
+TEXT 声「まあ、やってみれば、できるもんなんだな」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak048' 00 
+TEXT 高槻「と…とんでもないことをしているぞ、おま　　えっ！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak049' 00 
+TEXT 高槻「わかっているのかっ！　止まれ、そこでッ　　！！」
+STOP_SOUND 01 
+PLAY_SOUND 01 '039_boy003' 00 
+TEXT 声「止まればいいのか、ここで」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak050' 00 
+TEXT 高槻「そうっ、そうだ…」
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_tak051' 00 
+TEXT 高槻「…いやっ、違う！　力を使うなァッッッツ　　！！」
+STOP_SOUND 01 
+PLAY_SOUND 01 'se68' 00 
+TEXT ズビュシュゥゥゥゥゥゥゥゥゥゥゥゥゥゥゥゥッッッ！！
+PLAY_SOUND 01 '039_boy004' 00 
+TEXT 声「遅いよ、言うのが」
+STOP_SOUND 01 
+TEXT 私の記憶があったのはそこまでだ。
+TEXT 死んでいるはずなのに、私は再びあの戦慄に襲われることになったからだ。
+TEXT ………
+TEXT ……
+TEXT …
+TEXT 
+GOTO_SCRIPT 'DAY16' 
+EOF 

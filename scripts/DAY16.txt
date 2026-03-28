@@ -1,0 +1,987 @@
+
+# MOON SCRIPT FILE "DAY16.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 0010 
+SETSTATUS ' Day 16 -- Facility Interior' 
+BACKGROUND 'FG215' 
+X_24 00 
+X_25 06 
+X_00 000E 0000 
+X_00 0013 0005 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_00 0099 0000 
+X_00 009A 0000 
+X_00 009B 0000 
+X_00 009C 0000 
+X_00 009D 0000 
+X_00 009E 0000 
+X_00 009F 0000 
+X_00 00A0 0000 
+X_00 00A1 0000 
+X_00 00A2 0000 
+X_00 00A3 0000 
+X_00 00A4 0000 
+X_00 00A5 0000 
+X_00 00A6 0000 
+X_00 00A7 0000 
+X_00 00A8 0000 
+X_00 00A9 0000 
+X_00 00AA 0000 
+X_00 00AB 0000 
+X_00 00AC 0000 
+X_00 00AD 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'BG014' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT .........
+TEXT I woke up.
+TEXT Dark, cold...
+TEXT I'm alive.
+TEXT I'm not dead.
+TEXT I couldn't tell what was a dream and what was reality.
+TEXT But I was alive.
+TEXT That was reality.
+TEXT I shook my head as if to wipe away the dreams.
+TEXT Sewage was flowing on one side of me.
+TEXT I pulled up one hand which had been soaking in it, and wiped it with the sleeve of my uniform.
+TEXT The unpleasant smell of sewage was now on my hand.
+TEXT Then I finally sat up, and looked around me.
+TEXT I couldn't see far in the darkness, but one direction was clearly a dead end.
+TEXT If I was going to go in that direction, I'd have to dive into the sewage.
+TEXT So I would have to go the other way.
+TEXT For now, I should just try walking...
+STOP_SOUND 00 
+X_00 0009 0042 
+GOSUB_SCRIPT 'WC_D16' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG014' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd06' 01 
+PLAY_SOUND 01 '104_iku000' 00 
+TEXT Ikumi: "Ah..."
+STOP_SOUND 01 
+X_3E 04 53 'G001' 
+X_56 04 0028 004E 
+X_3F 04 01 
+X_25 09 
+TEXT I hadn't noticed before, but there was a stuffed animal on the ground where I'd been sleeping.
+TEXT It was that herniated rabbit...
+TEXT ...that guy.
+TEXT He'd carried me all the way here.
+TEXT Why would he do that...?
+TEXT Does he need me for something...?
+TEXT What value could a failed product like me possibly have...?
+TEXT No...
+TEXT That's not it...
+TEXT He just saved the him within me.
+TEXT That's probably it.
+TEXT Takatsuki said the other consciousness within me was an alter ego of him.
+TEXT In other words it's a part of his body.
+TEXT He saved me because he's afraid of losing that.
+TEXT Then the least I can do is die.
+TEXT That's the only revenge I can take.
+TEXT But, that's okay.
+TEXT I'll make him regret it.
+TEXT I'll make him regret saving me.
+TEXT I'm no longer afraid of anything.
+TEXT I threw away that stuffed animal into the sewage along with all the days I spent with him.
+X_3F 04 00 
+X_25 09 
+TEXT Then I clenched my fist tightly.
+TEXT I'll go exact my final revenge.
+TEXT On him.
+STOP_SOUND 00 
+X_04 0089 0001 
+X_00 0009 0042 
+GOSUB_SCRIPT 'WC_D16' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'FG077' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy000' 00 
+TEXT Boy: "Nn...?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy001' 00 
+TEXT Boy: "Hey."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku000' 00 
+TEXT Ikumi: "...I've been looking for you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy002' 00 
+TEXT Boy: "Oh? You have some unfinished business with me?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku001' 00 
+TEXT Ikumi: "You know I do..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku002' 00 
+TEXT Ikumi: "You're the one I should be taking revenge on."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy003' 00 
+TEXT Boy: "Yes, that's right."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku003' 00 
+TEXT Ikumi: "I've been searching for you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku004' 00 
+TEXT Ikumi: "But you were here, in this place."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku005' 00 
+TEXT Ikumi: "Why this place...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy004' 00 
+TEXT Boy: "Isn't it convenient?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy005' 00 
+TEXT Boy: "As you can see, I can neither run nor hide. This is the perfect chance to take your revenge."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku006' 00 
+TEXT Ikumi: "Why..."
+STOP_SOUND 01 
+TEXT Boy: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku007' 00 
+TEXT Ikumi: "Why...did you save me, and then get captured yourself...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy006' 00 
+TEXT Boy: "I did something that made them want to capture me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku008' 00 
+TEXT Ikumi: "But then there's no point in saving me...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy007' 00 
+TEXT Boy: "Why?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku009' 00 
+TEXT Ikumi: "Didn't you save me for your own sake!!?　Because you were afraid to lose a part of your body!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy008' 00 
+TEXT Boy: "No."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku010' 00 
+TEXT Ikumi: "Liar...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy009' 00 
+TEXT Boy: "It's true."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku011' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy010' 00 
+TEXT Boy: "Somehow, you seem to be receiving another shock."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku012' 00 
+TEXT Ikumi: "Then why did you save me!!? Why...why were you willing to lose both your arms...!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy011' 00 
+TEXT Boy: "Atonement."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku013' 00 
+TEXT Ikumi: "Atonement...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy012' 00 
+TEXT Boy: "Yes, atonement."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy013' 00 
+TEXT Boy: "That's all I was able to do."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku014' 00 
+TEXT Ikumi: "You don't have to do anything like this just to make up!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy014' 00 
+TEXT Boy: "That's not true; this problem isn't just about us."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy015' 00 
+TEXT Boy: "It's about all of you and all of us. That's why I had to involve you all."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku015' 00 
+TEXT Ikumi: "What do you mean...'all of you,' 'all of us'...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy016' 00 
+TEXT Boy: "All of us, means everyone of the same species as me. All of you, means everyone of your species."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku016' 00 
+TEXT Ikumi: "Tell me everything."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy017' 00 
+TEXT Boy: "Good point."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy018' 00 
+TEXT Boy: "I no longer have a duty to hide it. I'll tell you everything."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy019' 00 
+TEXT Boy: "Thirty years ago."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy020' 00 
+TEXT Boy: "One of my race was captured by you humans, and everything started there."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy021' 00 
+TEXT Boy: "I don't know why, but you humans called us demons."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy022' 00 
+TEXT Boy: "Probably because we had rather strange appearances, you all labeled us with that frightening word."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy023' 00 
+TEXT Boy: "But what made you fear us even more was what you called our unique powers."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy024' 00 
+TEXT Boy: "At first he was made to do a lot of things using that power."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy025' 00 
+TEXT Boy: "He was treated horribly, and many of his friends died."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy026' 00 
+TEXT Boy: "But our powers seemed to be of great interest to the humans."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy027' 00 
+TEXT Boy: "Then someone came up with the idea of implanting that power in humans."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy028' 00 
+TEXT Boy: "They researched our unique traits, and succeded in implanting a piece of our will--which they called an 'alter ego'--inside a human body."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy029' 00 
+TEXT Boy: "But that alter ego had no intelligence. We happen to be an existence unified from several smaller ones."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy030' 00 
+TEXT Boy: "That's why humans need a strong mind in order to control it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy031' 00 
+TEXT Boy: "It used to be horrible."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy032' 00 
+TEXT Boy: "Most of the experimental subjects were eaten from the inside by our alter egos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy033' 00 
+TEXT Boy: "But humans then obtained means of heightening their mental strength."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy034' 00 
+TEXT Boy: "That's the mental training they have now."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy035' 00 
+TEXT Boy: "Should I talk about that?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku017' 00 
+TEXT Ikumi: "Yes...tell me."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy036' 00 
+TEXT Boy: "First, the subjects are divided up into three ranks based on how many cruel experiences they've had in life."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy037' 00 
+TEXT Boy: "You must have borne some truly painful feelings when you came here. It takes a lot to get assigned to Class A."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy038' 00 
+TEXT Boy: "Then, the Minmes fixates on a specific part of that past pain, in order to measure your mental strengthening."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy039' 00 
+TEXT Boy: "The Elpod makes you face your other self, and by reminiscing on past disgraces makes the same kind of measurement."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy040' 00 
+TEXT Boy: "Although, the memories they show you are made to be excessively dramatized."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy041' 00 
+TEXT Boy: "Then, once it's been determined that you've received enough training to cultivate a strong mind, one of our wills is injected."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy042' 00 
+TEXT Boy: "And that would be......well, you know."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy043' 00 
+TEXT Boy: "Theoretically, it would be possible to control our wills at that point. Or so they hypothesized."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy044' 00 
+TEXT Boy: "But as you know, the probability of achieving a finished product is still low."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy045' 00 
+TEXT Boy: "Their research has a long way to go."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy046' 00 
+TEXT Boy: "But, I do understand..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy047' 00 
+TEXT Boy: "That to all of you, none of us are good."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy048' 00 
+TEXT Boy: "That's why I bet on you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy049' 00 
+TEXT Boy: "I thought I could end everything with you as the final sacrifice."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy050' 00 
+TEXT Boy: "By being in this facility, we are naturally shackled."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy051' 00 
+TEXT Boy: "But if you become a finished product, you'd have the same power, without those shackles."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy052' 00 
+TEXT Boy: "If you took your revenge using that power, everything would end."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy053' 00 
+TEXT Boy: "But it didn't work out that way."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy054' 00 
+TEXT Boy: "You can't control your other consciousness, my alter ego, and now they've decided your mind is Lost."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy055' 00 
+TEXT Boy: "The only result left behind by all this, is the fact that I used you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy056' 00 
+TEXT Boy: "That's why I gave you a little freedom at the end, as atonement."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku019' 00 
+TEXT Ikumi: "You were a victim too..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy057' 00 
+TEXT Boy: "I dislike such pretty words."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy058' 00 
+TEXT Boy: "I used you in a scheme to free my species."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy059' 00 
+TEXT Boy: "And failed."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy060' 00 
+TEXT Boy: "That's the only truth."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku020' 00 
+TEXT Ikumi: "No..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku021' 00 
+TEXT Ikumi: "You could have done it over..."
+STOP_SOUND 01 
+TEXT Boy: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku022' 00 
+TEXT Ikumi: "If you hadn't saved me...you could have tried over and over to free yourselves..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy061' 00 
+TEXT Boy: "Like I have until now...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku023' 00 
+TEXT Ikumi: "Yes, like you have until now."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy062' 00 
+TEXT Boy: "I used to hate humans."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku024' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy063' 00 
+TEXT Boy: "Hey..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku025' 00 
+TEXT Ikumi: "Yes...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy064' 00 
+TEXT Boy: "My face itches."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku026' 00 
+TEXT Ikumi: "Oh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy065' 00 
+TEXT Boy: "Obviously, I can't scratch it."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy066' 00 
+TEXT Boy: "Would you mind...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku027' 00 
+TEXT Ikumi: "Sure..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku028' 00 
+TEXT Ikumi: "Bring your face over here."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy067' 00 
+TEXT Boy: "Okay."
+STOP_SOUND 01 
+BACKGROUND 'FG078' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '041_boy068' 00 
+TEXT Boy: "This is my final selfish act."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku029' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '041_boy069' 00 
+TEXT Boy: "Farewell, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '105_iku030' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+BACKGROUND 'BG014' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT What can I do...?
+TEXT What should I do...?
+TEXT What should my objective be...?
+PLAY_SOUND 01 '042_boy000' 00 
+TEXT "If you're going to take action on our behalf, I have two things to tell you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy001' 00 
+TEXT "Our common enemy is the founder of Fargo, known only as <The Voice's Owner>."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy002' 00 
+TEXT "Even we don't know where he is."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy003' 00 
+TEXT "If you're going to try and find out, you'll have only your instincts."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy004' 00 
+TEXT "And one other thing."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy005' 00 
+TEXT "That which shackles all of us is in the deepest reaches of the underground levels."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy006' 00 
+TEXT "But don't move based on a fleeting emotion."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy007' 00 
+TEXT "The underground is endlessly deep, and the form of those shackles is unclear."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy008' 00 
+TEXT "You won't break it in time for my elimination tomorrow morning."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy009' 00 
+TEXT "Think about yourself, and act with a goal in mind."
+STOP_SOUND 01 
+PLAY_SOUND 01 '042_boy010' 00 
+TEXT "You might be able to accomplish one of those things with the time you have left."
+STOP_SOUND 01 
+TEXT I ruminated on the boy's words.
+TEXT Two choices.
+TEXT Aim to kill our common enemy, <The Voice's Owner>...
+TEXT Or, aim to remove their shackles.
+TEXT If I made it in time, I may even save his life...
+TEXT If I had time, I could perform both, but I had no time.
+TEXT However, after hearing his side of the story, I already had my answer.
+TEXT ...I'll go.
+TEXT To the underground shackles.
+PLAY_SOUND 00 'mon_cd09' 01 
+X_04 008F 0001 
+X_00 0009 0042 
+GOSUB_SCRIPT 'WC_D16' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+BACKGROUND 'BG025' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+TEXT A door...
+TEXT Beyond this is the device acting as their shackles...
+TEXT I made it in time...
+PLAY_SOUND 01 '107_iku000' 00 
+TEXT Ikumi: (Dawn should still be a long ways off...）
+STOP_SOUND 01 
+TEXT I extended my hand to open that door.
+TEXT But there was no knob.
+PLAY_SOUND 01 '107_iku001' 00 
+TEXT Ikumi: (Eh......?）
+STOP_SOUND 01 
+TEXT I could see no protrusions of any kind on that flat, inorganic surface.
+TEXT There was no kind of door opening mechanism on either side.
+PLAY_SOUND 01 '107_iku002' 00 
+TEXT Ikumi: (How do I open this...?）
+STOP_SOUND 01 
+TEXT Ikumi: (.........）
+STOP_SOUND 01 
+TEXT ......no, I can't give up here.
+TEXT I have to open this door somehow...
+TEXT 
+SELECT 0003 'Pry it open with my bare hands' 'Think' 
+IF 16 03 00 15 01 00 02 00 .LABEL3 
+TEXT I stuck my fingers into the narrow slit between the doors and tried prying it open.
+PLAY_SOUND 01 '107_iku004' 00 
+TEXT Ikumi: "Uu..."
+STOP_SOUND 01 
+TEXT No matter how much strength I use, there's no sign of motion...
+PLAY_SOUND 01 '107_iku005' 00 
+TEXT Ikumi: "This stupid..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se14' 00 
+TEXT *gari*...!
+TEXT When I yanked on it with all my strength, the door simply tore my nails.
+PLAY_SOUND 01 '107_iku006' 00 
+TEXT Ikumi: "Owww..."
+STOP_SOUND 01 
+TEXT I saw my nails had broken off, and blood was oozing out around the corners.
+PLAY_SOUND 01 '107_iku007' 00 
+TEXT Ikumi: "Uaa..."
+STOP_SOUND 01 
+TEXT Seems there's no chance of opening it with my hands...
+JMP .LABEL4 
+
+:LABEL3
+TEXT What could I do to open it...?
+TEXT No keyhole. No card reader. No keypad lock...
+TEXT Would it open if I wasted all my strength on it...?
+
+:LABEL7
+TEXT 
+SELECT 0003 'Pry it open with my bare hands' 'Think' 
+IF 16 03 00 15 01 00 02 00 .LABEL5 
+TEXT I stuck my fingers into the narrow slit between the doors and tried prying it open.
+PLAY_SOUND 01 '107_iku004' 00 
+TEXT Ikumi: "Uu..."
+STOP_SOUND 01 
+TEXT No matter how much strength I use, there's no sign of motion...
+PLAY_SOUND 01 '107_iku005' 00 
+TEXT Ikumi: "This stupid..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se14' 00 
+TEXT *gari*...!
+TEXT When I yanked on it with all my strength, the door simply tore my nails.
+PLAY_SOUND 01 '107_iku006' 00 
+TEXT Ikumi: "Owww..."
+STOP_SOUND 01 
+TEXT I saw my nails had broken off, and blood was oozing out around the corners.
+PLAY_SOUND 01 '107_iku007' 00 
+TEXT Ikumi: "Uaa..."
+STOP_SOUND 01 
+TEXT Seems there's no chance of opening it with my hands...
+JMP .LABEL4 
+
+:LABEL5
+TEXT For now I'll try opening it with just my hands...
+JMP .LABEL7 
+
+:LABEL4
+TEXT 
+SELECT 0003 'Run into it' 'Think' 
+IF 16 03 00 15 01 00 02 00 .LABEL8 
+TEXT The door was so tough it almost seemed to be adhered to a solid wall...
+TEXT But, I have to try everything...
+TEXT I took a few steps back.
+PLAY_SOUND 01 '107_iku008' 00 
+TEXT Ikumi: (*gulp*...）
+STOP_SOUND 01 
+TEXT Then I sprinted.
+TEXT And hit the door with my shoulder.
+PLAY_SOUND 01 'se14' 00 
+TEXT *zun!!*
+PLAY_SOUND 01 '107_iku009' 00 
+TEXT Ikumi: "gu..."
+STOP_SOUND 01 
+TEXT Then I fell to the ground.
+TEXT It didn't even budge. This was hopeless...
+PLAY_SOUND 01 '107_iku010' 00 
+TEXT Ikumi: "Uuu..."
+STOP_SOUND 01 
+TEXT My shoulder hurt too much. I couldn't move for a while...
+JMP .LABEL9 
+
+:LABEL8
+TEXT The door was so tought it almost seemed to be adhered to a solid wall...
+TEXT But, I have to try everything...
+
+:LABEL12
+TEXT 
+SELECT 0003 'Run into it' 'Think' 
+IF 16 03 00 15 01 00 02 00 .LABEL10 
+TEXT I took a few steps back.
+PLAY_SOUND 01 '107_iku008' 00 
+TEXT Ikumi: (*gulp*...）
+STOP_SOUND 01 
+TEXT Then I sprinted.
+TEXT And hit the door with my shoulder.
+PLAY_SOUND 01 'se14' 00 
+TEXT *zun!!*
+PLAY_SOUND 01 '107_iku009' 00 
+TEXT Ikumi: "gu..."
+STOP_SOUND 01 
+TEXT Then I fell to the ground.
+TEXT It didn't even budge. This was hopeless...
+PLAY_SOUND 01 '107_iku010' 00 
+TEXT Ikumi: "Uuu..."
+STOP_SOUND 01 
+TEXT My shoulder hurt too much. I couldn't move for a while...
+JMP .LABEL9 
+
+:LABEL10
+TEXT I'll have to try it. I'd just regret not doing it later...
+JMP .LABEL12 
+
+:LABEL9
+PLAY_SOUND 01 '107_iku011' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT I leaned against the wall and breathed deeply for a while.
+PLAY_SOUND 01 '107_iku012' 00 
+TEXT Ikumi: (......everything I do is wasted...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku013' 00 
+TEXT Ikumi: (...there can't be that much time left...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku014' 00 
+TEXT Ikumi: (...he'll be eliminated tomorrow morning......）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku015' 00 
+TEXT Ikumi: (...and then...I'll regret everything...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku016' 00 
+TEXT Ikumi: (...I don't want that...to happen...）
+STOP_SOUND 01 
+TEXT I slowly stood up, and faced the door once again.
+PLAY_SOUND 01 'se04' 00 
+TEXT Then I clenched my fist and punched it.
+TEXT No movement.
+PLAY_SOUND 01 'se04' 00 
+TEXT But, again I clenched my fist and punched it.
+TEXT No movement.
+TEXT But I repeated that.
+TEXT Clenching my fist and punching it.
+TEXT Repeating that.
+PLAY_SOUND 01 'se04' 00 
+TEXT *dan!*
+TEXT .........
+PLAY_SOUND 01 'se04' 00 
+TEXT *dan!*
+TEXT ......
+PLAY_SOUND 01 'se04' 00 
+TEXT *dan!*
+TEXT ......
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'FG077' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'se30' 00 
+TEXT *gacha*...*gacha*...!
+PLAY_SOUND 01 'm99_min006' 00 
+TEXT Voice: "Hey, we're leaving. I'll be taking you to your death."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm99_min007' 00 
+TEXT Voice: "Don't do anything stupid. You'll just suffer more."
+STOP_SOUND 01 
+PLAY_SOUND 01 '043_boy000' 00 
+TEXT Boy: "What can I do with this body?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'm99_min008' 00 
+TEXT Voice: "Hmph...true enough."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm99_min009' 00 
+TEXT Voice: "Now get moving."
+STOP_SOUND 01 
+PLAY_SOUND 01 '043_boy001' 00 
+TEXT Boy: "As you wish. These arms hurt so much I might lose it."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm99_min010' 00 
+TEXT Voice: "...aren't you a strange one. Are you all like that...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '043_boy002' 00 
+TEXT Boy: "Even I'm surprised."
+STOP_SOUND 01 
+PLAY_SOUND 01 '043_boy003' 00 
+TEXT Boy: (...that I had this kind of emotion.）
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '043_boy004' 00 
+TEXT Boy: (...the reality we wait for is always cruel......）
+STOP_SOUND 01 
+PLAY_SOUND 01 '043_boy005' 00 
+TEXT Boy: (...never forget yourself, Ikumi.）
+STOP_SOUND 01 
+BACKGROUND 'BG025' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 'se04' 00 
+TEXT *dan!*
+TEXT ......
+PLAY_SOUND 01 'se04' 00 
+TEXT ...*dan!*
+TEXT .........
+PLAY_SOUND 01 'se04' 00 
+TEXT ......*dan!*...
+PLAY_SOUND 01 '107_iku017' 00 
+TEXT Ikumi: "guu..."
+STOP_SOUND 01 
+TEXT My fists were already broken.
+TEXT There was no longer any meaning to this other than the fact that I was trying.
+TEXT And I didn't want to tell myself that was useless...
+TEXT A long time had passed.
+TEXT His elimination is probably...
+PLAY_SOUND 01 '107_iku034' 00 
+TEXT Ikumi: (No...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku019' 00 
+TEXT Ikumi: (I want to do something...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku020' 00 
+TEXT Ikumi: (Tell me...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku021' 00 
+TEXT Ikumi: (You're inside me, aren't you...?）
+STOP_SOUND 01 
+TEXT I embraced my body.
+TEXT My battered body.
+TEXT The body his alter ego resides in...
+PLAY_SOUND 01 '107_iku022' 00 
+TEXT Ikumi: (Ah...）
+STOP_SOUND 01 
+TEXT A strange feeling...
+TEXT I should've been holding myself...
+PLAY_SOUND 01 '107_iku023' 00 
+TEXT Ikumi: (This is......you...?）
+STOP_SOUND 01 
+TEXT I felt it for the first time.
+TEXT The other heartbeat existing inside me...I was now embracing.
+PLAY_SOUND 01 '107_iku024' 00 
+TEXT Ikumi: (I didn't know...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku025' 00 
+TEXT Ikumi: (It really was you...）
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 'se16' 00 
+TEXT *gachan!*
+PLAY_SOUND 01 '107_iku026' 00 
+TEXT Ikumi: (......?）
+STOP_SOUND 01 
+TEXT What's that sound...?　It couldn't be...
+PLAY_SOUND 01 'se72' 01 
+TEXT *viiii*...
+TEXT It could. The door was opening.
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku027' 00 
+TEXT Ikumi: (But why...?）
+STOP_SOUND 01 
+TEXT That didn't matter.
+TEXT The final door had opened.
+TEXT The door to the shackles.
+PLAY_SOUND 01 '107_iku028' 00 
+TEXT Ikumi: (Yes...now I can save him...!）
+STOP_SOUND 01 
+TEXT I impatiently pushed into the opening between the doors.
+BACKGROUND 'BG018' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '107_iku029' 00 
+TEXT Ikumi: "Eh......?"
+STOP_SOUND 01 
+TEXT I was shocked.
+TEXT Because what I saw there was a field of flowers.
+TEXT The floor of this massive space was completely covered in flowers.
+TEXT I couldn't see the far end.
+TEXT If I hadn't brought an objective, that was a magnificent enough sight I would have forgotten time gazing at it.
+TEXT Instead, that's where I learned despair.
+TEXT What the hell am I supposed to do in this field of flowers?
+TEXT What in here could be their shackles?
+TEXT Am I supposed to pick all these flowers one at a time?
+TEXT Are these deeply rooted flowers restraining each and every one of them?
+TEXT Impossible.
+TEXT If this was the true form of their shackles, it would be impossible to remove them.
+TEXT I can't pick each and every one of them.
+TEXT ...impossible.
+PLAY_SOUND 01 '107_iku030' 00 
+TEXT Ikumi: (But, if I don't do something...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku031' 00 
+TEXT Ikumi: (I came this far...）
+STOP_SOUND 01 
+PLAY_SOUND 01 '107_iku032' 00 
+TEXT Ikumi: (And there's no time...）
+STOP_SOUND 01 
+BACKGROUND 'FG081' 
+X_24 00 
+X_25 06 
+TEXT I simply pulled up the flowers.
+TEXT Even then I couldn't pull out all the roots.
+TEXT I could only break them at the stalk.
+TEXT Impossible.
+TEXT But there was no other way to save him.
+TEXT I simply continued to tear the flowers.
+TEXT *buchi**buchi**buchi*...
+TEXT My hands began to hurt, then got cut, and red began to mix in with the green...
+TEXT Even so I continued tearing.
+TEXT *buchi**buchi**buchi*...
+TEXT Nothing but continuing to tear.
+TEXT *buchi**buchi**buchi*...
+TEXT Continuing to tear.
+TEXT *buchi**buchi**buchi*...
+TEXT Continuing.
+TEXT *buchi**buchi**buchi*...
+TEXT Continuing...
+TEXT *buchi**buchi**buchi*...
+TEXT Continuing...
+TEXT *buchi**buchi**buchi*...
+PLAY_SOUND 01 '107_iku033' 00 
+TEXT Ikumi: "Ah..."
+STOP_SOUND 01 
+TEXT I looked up into empty space.
+TEXT The remains of those flowers fell from my hand.
+TEXT Even separated, I knew.
+TEXT The boy's death.
+TEXT The sense of half your body vanishing.
+TEXT The half remaining inside me responded.
+TEXT I didn't make it.
+TEXT And I...
+TEXT Despaired.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT 
+GOTO_SCRIPT 'DAY17' 
+EOF 

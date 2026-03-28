@@ -1,0 +1,902 @@
+
+# MOON SCRIPT FILE "UG_D4.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0004 
+IF 16 0E 00 15 01 00 02 00 .LABEL0 
+SETSTATUS '　Dia 4 Manh~ Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL0
+IF 16 0E 00 15 02 00 02 00 .LABEL2 
+SETSTATUS '　Dia 4 Meio-dia Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL2
+IF 16 0E 00 15 03 00 02 00 .LABEL4 
+SETSTATUS '　Dia 4 Tarde Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL4
+IF 16 0E 00 15 04 00 02 00 .LABEL6 
+SETSTATUS '　Dia 4 Noite Passagem Subterr}nea' 
+JMP .LABEL1 
+
+:LABEL6
+IF 16 0E 00 15 05 00 02 00 .LABEL1 
+SETSTATUS '　Dia 4 Noite Passagem Subterr}nea' 
+
+:LABEL1
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay4' 
+X_56 00 005F 0017 
+X_3E 02 75 'g' 
+X_56 02 00BE 0017 
+IF 16 0E 00 15 01 00 02 00 .LABEL9 
+X_3E 01 74 'ime1' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL9
+IF 16 0E 00 15 02 00 02 00 .LABEL11 
+X_3E 01 74 'ime2' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL11
+IF 16 0E 00 15 03 00 02 00 .LABEL13 
+X_3E 01 74 'ime3' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL13
+IF 16 0E 00 15 04 00 02 00 .LABEL15 
+X_3E 01 74 'ime4' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL15
+IF 16 0E 00 15 05 00 02 00 .LABEL10 
+X_3E 01 74 'ime5' 
+X_56 01 0096 0017 
+
+:LABEL10
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'UG' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+X_00 0007 0004 
+X_01 0006 0009 
+X_04 0040 0001 
+X_04 005E 0000 
+IF 16 09 00 15 1D 00 02 00 .LABEL18 
+JMP .LABEL19 
+JMP .LABEL19 
+
+:LABEL18
+IF 16 09 00 15 1E 00 02 00 .LABEL21 
+JMP .LABEL22 
+JMP .LABEL19 
+
+:LABEL21
+IF 16 09 00 15 1F 00 02 00 .LABEL24 
+JMP .LABEL25 
+JMP .LABEL19 
+
+:LABEL24
+IF 16 09 00 15 20 00 02 00 .LABEL27 
+JMP .LABEL28 
+JMP .LABEL19 
+
+:LABEL27
+IF 16 09 00 15 21 00 02 00 .LABEL30 
+JMP .LABEL31 
+JMP .LABEL19 
+
+:LABEL30
+IF 16 09 00 15 22 00 02 00 .LABEL33 
+JMP .LABEL34 
+JMP .LABEL19 
+
+:LABEL33
+IF 16 09 00 15 24 00 02 00 .LABEL36 
+JMP .LABEL37 
+JMP .LABEL19 
+
+:LABEL36
+IF 16 09 00 15 25 00 02 00 .LABEL39 
+JMP .LABEL40 
+JMP .LABEL19 
+
+:LABEL39
+IF 16 09 00 15 26 00 02 00 .LABEL42 
+JMP .LABEL43 
+JMP .LABEL19 
+
+:LABEL42
+IF 16 09 00 15 27 00 02 00 .LABEL45 
+JMP .LABEL46 
+JMP .LABEL19 
+
+:LABEL45
+IF 16 09 00 15 28 00 02 00 .LABEL48 
+JMP .LABEL49 
+JMP .LABEL19 
+
+:LABEL48
+IF 16 09 00 15 29 00 02 00 .LABEL19 
+JMP .LABEL52 
+
+:LABEL19
+X_01 0006 0009 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 16 4E 00 15 00 00 02 0F 00 .LABEL53 
+TEXT Cheguei ao fundo e olhei para a cadeira ca&da.
+TEXT Bom. Sem grandes danos.
+TEXT Eu a peguei novamente.
+X_00 004E 0001 
+
+:LABEL53
+IF 16 0E 00 15 01 00 02 16 49 00 15 00 00 02 0F 00 .LABEL54 
+TEXT ...Eu posso chegar ao dep+sito de carga pelo duto de ventila|~o aqui.
+TEXT N~o sei quanto tempo levar$ para encontrar, por isso n~o posso procur$-lo agora.
+TEXT Voltarei aqui na hora do almo|o.
+TEXT Neste momento, devo ir para o meu treinamento programado da MINMES.
+X_00 0049 0001 
+
+:LABEL54
+IF 16 0E 00 15 02 00 02 16 48 00 15 00 00 02 0F 00 .LABEL55 
+IF 17 4A 00 15 01 00 02 00 .LABEL56 
+TEXT Desci at% a passagem subterr}nea pela escada do Pr%dio A.
+TEXT Posso chegar ao dep+sito de carga pelo duto de ventila|~o aqui.
+TEXT @ claro que isso pressup/e que eu possa confiar no que aquele garoto diz.
+TEXT Mas n~o h$ mais nada que eu possa fazer agora.
+TEXT Ainda tenho tempo at% meu treinamento com o ELPOD.
+TEXT Preciso proteger a rota de fuga antes disso...
+TEXT Se bem me lembro, havia um duto de ventila|~o ao longo da passagem para o Pr%dio C.
+TEXT N~o devo ter problemas para encontr$-lo.
+JMP .LABEL57 
+
+:LABEL56
+TEXT Desci at% a passagem subterr}nea pela escada do Pr%dio A.
+TEXT Posso chegar ao dep+sito de carga pelo duto de ventila|~o aqui.
+TEXT @ claro que isso pressup/e que eu possa confiar no que aquele garoto diz.
+TEXT Mas n~o h$ mais nada que eu possa fazer agora.
+TEXT Ainda tenho tempo at% meu treinamento com o ELPOD.
+TEXT Preciso proteger a rota de fuga antes disso...
+PLAY_SOUND 01 '023_iku000' 00 
+TEXT Ikumi: "Mesmo assim, ele poderia ter me dado instru|/es melhores..."
+STOP_SOUND 01 
+TEXT Eu transformei aquele garoto no vil~o antes mesmo de come|ar a procurar.
+
+:LABEL57
+X_00 0048 0001 
+
+:LABEL55
+X_52 00CC 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Subir para o Pr%dio A' '(→ )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL58 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL59 
+TEXT H$ uma escada para o Pr%dio A, mas nada que se pare|a com um duto de ventila|~o.
+JMP .LABEL60 
+
+:LABEL59
+TEXT H$ uma escada para o Pr%dio A.
+
+:LABEL60
+JMP .LABEL61 
+
+:LABEL58
+IF 16 03 00 15 02 00 02 00 .LABEL62 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 00 .LABEL63 
+TEXT N~o, depois de chegar at% aqui, n~o posso voltar atr$s.
+TEXT Preciso encontrar a rota de fuga.
+JMP .LABEL64 
+
+:LABEL63
+X_00 0009 0008 
+GOTO_SCRIPT 'A_D4' 
+
+:LABEL64
+JMP .LABEL61 
+
+:LABEL62
+IF 16 03 00 15 03 00 02 00 .LABEL61 
+IF 16 0E 00 15 01 00 02 00 .LABEL67 
+TEXT N~o, n~o seria sensato fazer algo t~o suspeito como faltar ao meu treinamento no MINMES.
+TEXT Eu deveria ir para l$ agora.
+JMP .LABEL68 
+
+:LABEL67
+X_00 0009 001E 
+JMP .LABEL22 
+
+:LABEL68
+JMP .LABEL61 
+
+:LABEL61
+JMP .LABEL55 
+
+:LABEL22
+X_01 0006 0009 
+
+:LABEL82
+X_52 00F1 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Passagem' '(→ )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL72 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL73 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL74 
+
+:LABEL73
+TEXT N~o tem nada aqui.
+
+:LABEL74
+JMP .LABEL75 
+
+:LABEL72
+IF 16 03 00 15 02 00 02 00 .LABEL76 
+X_00 0009 001D 
+JMP .LABEL19 
+JMP .LABEL75 
+
+:LABEL76
+IF 16 03 00 15 03 00 02 00 .LABEL75 
+X_00 0009 001F 
+JMP .LABEL25 
+JMP .LABEL75 
+
+:LABEL75
+JMP .LABEL82 
+
+:LABEL25
+X_01 0006 0009 
+
+:LABEL93
+X_52 0117 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Passagem' '(→ )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL83 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL84 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL85 
+
+:LABEL84
+TEXT N~o tem nada aqui.
+
+:LABEL85
+JMP .LABEL86 
+
+:LABEL83
+IF 16 03 00 15 02 00 02 00 .LABEL87 
+X_00 0009 001E 
+JMP .LABEL22 
+JMP .LABEL86 
+
+:LABEL87
+IF 16 03 00 15 03 00 02 00 .LABEL86 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL86 
+
+:LABEL86
+JMP .LABEL93 
+
+:LABEL28
+IF 16 0E 00 15 05 00 02 17 39 00 15 00 00 02 0F 00 .LABEL94 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+
+:LABEL94
+X_52 013C 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(← )Oeste: Passagem' '(→ )Leste: Passagem' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL95 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL96 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL97 
+
+:LABEL96
+TEXT N~o tem ningu%m aqui.
+
+:LABEL97
+JMP .LABEL98 
+
+:LABEL95
+IF 16 03 00 15 01 00 02 00 .LABEL99 
+X_00 0009 0026 
+JMP .LABEL43 
+JMP .LABEL98 
+
+:LABEL99
+IF 16 03 00 15 02 00 02 00 .LABEL102 
+X_00 0009 001F 
+JMP .LABEL25 
+JMP .LABEL98 
+
+:LABEL102
+IF 16 03 00 15 03 00 02 00 .LABEL105 
+X_00 0009 0021 
+JMP .LABEL31 
+JMP .LABEL98 
+
+:LABEL105
+IF 16 03 00 15 04 00 02 00 .LABEL98 
+X_00 0009 0027 
+JMP .LABEL46 
+JMP .LABEL98 
+
+:LABEL98
+JMP .LABEL94 
+
+:LABEL31
+X_01 0006 0009 
+
+:LABEL122
+X_52 0162 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Passagem' '(→ )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL112 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL113 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL114 
+
+:LABEL113
+TEXT N~o tem nada aqui.
+
+:LABEL114
+JMP .LABEL115 
+
+:LABEL112
+IF 16 03 00 15 02 00 02 00 .LABEL116 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL115 
+
+:LABEL116
+IF 16 03 00 15 03 00 02 00 .LABEL115 
+X_00 0009 0022 
+JMP .LABEL34 
+JMP .LABEL115 
+
+:LABEL115
+JMP .LABEL122 
+
+:LABEL34
+X_01 0006 0009 
+
+:LABEL133
+X_52 0188 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Passagem' '(→ )Leste: Passagem' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL123 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL124 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL125 
+
+:LABEL124
+TEXT N~o tem nada aqui.
+
+:LABEL125
+JMP .LABEL126 
+
+:LABEL123
+IF 16 03 00 15 02 00 02 00 .LABEL127 
+X_00 0009 0021 
+JMP .LABEL31 
+JMP .LABEL126 
+
+:LABEL127
+IF 16 03 00 15 03 00 02 00 .LABEL126 
+X_00 0009 0023 
+JMP .LABEL131 
+JMP .LABEL126 
+
+:LABEL126
+JMP .LABEL133 
+
+:LABEL131
+X_01 0006 0009 
+IF 17 45 00 15 01 00 02 16 46 00 15 00 00 02 0F 00 .LABEL134 
+TEXT Haruka: "Um beco sem sa&da..."
+STOP_SOUND 01 
+TEXT Haruka: "H$ outra passagem que vai em uma dire|~o diferente. Vamos tentar isso."
+STOP_SOUND 01 
+TEXT Ikumi: "Certo..."
+STOP_SOUND 01 
+X_00 0046 0001 
+JMP .LABEL135 
+
+:LABEL134
+IF 17 45 00 15 01 00 02 16 46 00 15 01 00 02 0F 00 .LABEL135 
+TEXT Haruka: "O que voc[ acha que vai encontrar aqui?"
+STOP_SOUND 01 
+TEXT Ikumi: "N~o..."
+STOP_SOUND 01 
+TEXT Haruka: "Ent~o n~o continue vindo aqui."
+STOP_SOUND 01 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+
+:LABEL135
+X_52 01AE 00E6 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Passagem' '(--)---:---' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL137 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL138 
+TEXT Tem um bueiro aqui, mas nada parecido com um duto de ventila|~o.
+JMP .LABEL139 
+
+:LABEL138
+TEXT Tem um bueiro aqui.
+
+:LABEL139
+JMP .LABEL140 
+
+:LABEL137
+IF 16 03 00 15 02 00 02 00 .LABEL140 
+X_00 0009 0022 
+JMP .LABEL34 
+JMP .LABEL140 
+
+:LABEL140
+JMP .LABEL135 
+
+:LABEL37
+X_01 0006 0009 
+IF 17 45 00 15 01 00 02 16 47 00 15 00 00 02 0F 16 46 00 15 00 00 02 0F 00 .LABEL145 
+TEXT Haruka: "Se subirmos aqui, estaremos no Pr%dio B?"
+STOP_SOUND 01 
+TEXT Ikumi: "Acho que sim."
+STOP_SOUND 01 
+X_00 0046 0001 
+JMP .LABEL146 
+
+:LABEL145
+IF 17 45 00 15 01 00 02 16 47 00 15 01 00 02 0F 16 46 00 15 00 00 02 0F 00 .LABEL146 
+TEXT Haruka: "Veja, h$ uma escada aqui tamb%m. O Pr%dio B deve estar bem acima de n+s."
+STOP_SOUND 01 
+TEXT Ikumi: "Provavelmente."
+STOP_SOUND 01 
+X_00 0046 0001 
+JMP .LABEL146 
+
+:LABEL146
+X_52 013C 0076 
+X_51 01 
+X_25 01 
+IF 17 37 00 15 00 00 02 00 .LABEL149 
+TEXT 
+SELECT 0003 '(↑ )Norte: Subir pela escada' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL150 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL151 
+TEXT Tem uma escada aqui, mas nada que se pare|a com um duto de ventila|~o.
+JMP .LABEL152 
+
+:LABEL151
+TEXT Tem uma escada aqui.
+
+:LABEL152
+JMP .LABEL153 
+
+:LABEL150
+IF 16 03 00 15 01 00 02 00 .LABEL154 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 00 .LABEL155 
+TEXT N~o, depois de chegar at% aqui, n~o posso fazer um desvio para os outros pr%dios.
+TEXT Preciso encontrar a rota de fuga.
+JMP .LABEL156 
+
+:LABEL155
+X_00 0009 0008 
+GOTO_SCRIPT 'B_D4' 
+
+:LABEL156
+JMP .LABEL153 
+
+:LABEL154
+IF 16 03 00 15 04 00 02 00 .LABEL153 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL153 
+
+:LABEL153
+JMP .LABEL161 
+
+:LABEL149
+TEXT 
+SELECT 0003 '(↑ )Norte: Pr%dio B' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL162 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL163 
+TEXT H$ a escada para o Pr%dio B, mas nada que se pare|a com um duto de ventila|~o.
+JMP .LABEL164 
+
+:LABEL163
+TEXT H$ uma escada que leva ao Pr%dio B.
+
+:LABEL164
+JMP .LABEL161 
+
+:LABEL162
+IF 16 03 00 15 01 00 02 00 .LABEL166 
+X_00 0009 0008 
+GOTO_SCRIPT 'B_D4' 
+JMP .LABEL161 
+
+:LABEL166
+IF 16 03 00 15 04 00 02 00 .LABEL161 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL161 
+
+:LABEL161
+JMP .LABEL146 
+
+:LABEL40
+X_01 0006 0009 
+
+:LABEL182
+X_52 013C 009B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL172 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL173 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL174 
+
+:LABEL173
+TEXT N~o tem nada aqui.
+
+:LABEL174
+JMP .LABEL175 
+
+:LABEL172
+IF 16 03 00 15 01 00 02 00 .LABEL176 
+X_00 0009 0024 
+JMP .LABEL37 
+JMP .LABEL175 
+
+:LABEL176
+IF 16 03 00 15 04 00 02 00 .LABEL175 
+X_00 0009 0026 
+JMP .LABEL43 
+JMP .LABEL175 
+
+:LABEL175
+JMP .LABEL182 
+
+:LABEL43
+X_01 0006 0009 
+
+:LABEL193
+X_52 013C 00C1 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL183 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL184 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL185 
+
+:LABEL184
+TEXT N~o tem nada aqui.
+
+:LABEL185
+JMP .LABEL186 
+
+:LABEL183
+IF 16 03 00 15 01 00 02 00 .LABEL187 
+X_00 0009 0025 
+JMP .LABEL40 
+JMP .LABEL186 
+
+:LABEL187
+IF 16 03 00 15 04 00 02 00 .LABEL186 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL186 
+
+:LABEL186
+JMP .LABEL193 
+
+:LABEL46
+X_01 0006 0009 
+
+:LABEL204
+X_52 013C 010C 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL194 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL195 
+PLAY_SOUND 01 '023_iku001' 00 
+TEXT Ikumi: (Parece que n~o h$ ventila|~o aqui...)
+STOP_SOUND 01 
+TEXT Fui procurar em outro lugar.
+JMP .LABEL196 
+
+:LABEL195
+TEXT N~o tem nada aqui.
+
+:LABEL196
+JMP .LABEL197 
+
+:LABEL194
+IF 16 03 00 15 01 00 02 00 .LABEL198 
+X_00 0009 0020 
+JMP .LABEL28 
+JMP .LABEL197 
+
+:LABEL198
+IF 16 03 00 15 04 00 02 00 .LABEL197 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL197 
+
+:LABEL197
+JMP .LABEL204 
+
+:LABEL49
+X_01 0006 0009 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 00 .LABEL205 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+
+:LABEL205
+IF 16 0E 00 15 03 00 02 16 A7 00 15 00 00 02 0F 00 .LABEL206 
+TEXT Eu aterrissei na passagem subterr}nea mais uma vez e sacudi a poeira.
+TEXT Agora eu deveria ir para o ELPOD.
+X_00 00A7 0001 
+
+:LABEL206
+X_52 013C 0132 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Passagem' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL207 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL208 
+IF 17 4A 00 15 01 00 02 00 .LABEL209 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG016' 
+X_24 00 
+X_25 06 
+X_3E 04 53 'G003' 
+X_56 04 0028 004E 
+X_3F 04 01 
+X_25 01 
+PLAY_SOUND 01 '023_iku002' 00 
+TEXT Ikumi: (A& est$...)
+STOP_SOUND 01 
+TEXT O duto de ventila|~o estava onde eu me lembrava.
+TEXT Mas ele estava posicionado logo abaixo do teto, e eu n~o conseguia chegar t~o alto.
+PLAY_SOUND 01 '023_iku003' 00 
+TEXT Ikumi: (Terei que encontrar algo que sirva como um trampolim...)
+STOP_SOUND 01 
+TEXT Um trampolim... Deve haver em algum lugar alguma coisa que eu possa usar para isso...
+TEXT @ melhor eu come|ar a procurar. Ficar olhando para as paredes n~o vai ajudar.
+X_3F 04 00 
+X_25 01 
+JMP .LABEL210 
+
+:LABEL209
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG016' 
+X_24 00 
+X_25 06 
+X_3E 04 53 'G003' 
+X_56 04 0028 004E 
+X_3F 04 01 
+X_25 01 
+PLAY_SOUND 01 '023_iku004' 00 
+TEXT Ikumi: (A& est$...)
+STOP_SOUND 01 
+TEXT Ele estava posicionado pr+ximo ao teto.
+PLAY_SOUND 01 '023_iku005' 00 
+TEXT Ikumi: (@ t~o alto...... o que posso fazer...?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '023_iku006' 00 
+TEXT Ikumi: (.........)
+STOP_SOUND 01 
+TEXT Se eu tivesse algum tipo de trampolim, poderia chegar l$ em cima.
+TEXT Um trampolim... Deve haver alguma coisa por aqui que eu possa usar para isso...
+TEXT @ melhor eu come|ar a procurar. Ficar olhando para as paredes n~o vai resolver nada.
+X_3F 04 00 
+X_25 01 
+
+:LABEL210
+X_04 004D 0001 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'UG' 
+X_24 00 
+X_25 06 
+X_01 0006 0009 
+JMP .LABEL211 
+
+:LABEL208
+IF 16 0E 00 15 03 00 02 16 0E 00 15 04 00 02 0A 16 0E 00 15 05 00 02 0A 00 .LABEL212 
+TEXT Deixei a cadeira embaixo do duto de ventila|~o.
+TEXT N~o havia necessidade de rastejar at% ele agora.
+JMP .LABEL211 
+
+:LABEL212
+TEXT Olhei para cima e vi um duto de ventila|~o.
+
+:LABEL211
+JMP .LABEL214 
+
+:LABEL207
+IF 16 03 00 15 01 00 02 00 .LABEL215 
+X_00 0009 0027 
+JMP .LABEL46 
+JMP .LABEL214 
+
+:LABEL215
+IF 16 03 00 15 04 00 02 00 .LABEL214 
+X_00 0009 0029 
+JMP .LABEL52 
+JMP .LABEL214 
+
+:LABEL214
+JMP .LABEL206 
+
+:LABEL52
+X_01 0006 0009 
+
+:LABEL246
+X_52 013C 0159 
+X_51 01 
+X_25 01 
+IF 17 38 00 15 00 00 02 00 .LABEL222 
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Subir a escada' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL223 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL224 
+TEXT Tem uma escada aqui, mas nada que se pare|a com um duto de ventila|~o.
+JMP .LABEL225 
+
+:LABEL224
+TEXT Tem uma escada aqui.
+
+:LABEL225
+JMP .LABEL226 
+
+:LABEL223
+IF 16 03 00 15 04 00 02 00 .LABEL227 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 00 .LABEL228 
+TEXT N~o, depois de chegar at% aqui, n~o posso fazer um desvio para os outros pr%dios.
+TEXT Preciso encontrar a rota de fuga.
+JMP .LABEL229 
+
+:LABEL228
+X_00 0009 0008 
+GOTO_SCRIPT 'C_D4' 
+
+:LABEL229
+JMP .LABEL226 
+
+:LABEL227
+IF 16 03 00 15 01 00 02 00 .LABEL226 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL226 
+
+:LABEL226
+JMP .LABEL234 
+
+:LABEL222
+TEXT 
+SELECT 0003 '(↑ )Norte: Passagem' '(--)---:---' '(--)---:---' '(↓ )Sul: Pr%dio C' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL235 
+IF 17 4C 00 15 01 00 02 17 4D 00 15 00 00 02 0F 00 .LABEL236 
+TEXT H$ uma escada para o Pr%dio C, mas nada que se pare|a com um duto de ventila|~o.
+JMP .LABEL237 
+
+:LABEL236
+TEXT Aqui tem uma escada para o Pr%dio C.
+
+:LABEL237
+JMP .LABEL234 
+
+:LABEL235
+IF 16 03 00 15 04 00 02 00 .LABEL239 
+IF 16 0E 00 15 02 00 02 17 53 00 15 01 00 02 0F 00 .LABEL240 
+TEXT N~o, depois de chegar at% aqui, n~o posso fazer um desvio para os outros pr%dios.
+TEXT Preciso encontrar a rota de fuga.
+JMP .LABEL241 
+
+:LABEL240
+X_00 0009 0008 
+GOTO_SCRIPT 'C_D4' 
+
+:LABEL241
+JMP .LABEL234 
+
+:LABEL239
+IF 16 03 00 15 01 00 02 00 .LABEL234 
+X_00 0009 0028 
+JMP .LABEL49 
+JMP .LABEL234 
+
+:LABEL234
+JMP .LABEL246 
+EOF

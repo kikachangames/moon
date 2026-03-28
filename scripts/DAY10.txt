@@ -1,0 +1,902 @@
+
+# MOON SCRIPT FILE "DAY10.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 000A 
+SETSTATUS 'Å@Dia 10 Manh~ Pr%dio Ç`' 
+BACKGROUND 'FG209' 
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_04 0046 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_28 0028 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd14' 01 
+PLAY_SOUND 01 '020_boy000' 00 
+TEXT Garoto: "Bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku000' 00 
+TEXT Ikumi: "@...... bom dia."
+STOP_SOUND 01 
+TEXT Garoto: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku001' 00 
+TEXT Ikumi: "Ei... como est$ o tempo hoje?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy001' 00 
+TEXT Garoto: "Boa pergunta. Deve estar ensolarado hoje."
+STOP_SOUND 01 
+TEXT Senti um al&vio.
+TEXT Por que ser$?
+TEXT Nesta situa|~o cruel, devo ter come|ado a buscar consolo nele.
+TEXT Mais um sentimento fugaz.
+PLAY_SOUND 01 '071_iku002' 00 
+TEXT Ikumi: "Ei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy002' 00 
+TEXT Garoto: "Mm, o que foi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku003' 00 
+TEXT Ikumi: "Nada, n~o foi nada."
+STOP_SOUND 01 
+TEXT N~o pode ser.
+TEXT Eu...
+SPRITE 'CGSY04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '020_boy003' 00 
+TEXT Garoto: "Voc[ deveria ter cuidado."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku004' 00 
+TEXT Ikumi: "O qu[?"
+STOP_SOUND 01 
+TEXT Meus pensamentos foram interrompidos pelas palavras do garoto.
+PLAY_SOUND 01 '020_boy004' 00 
+TEXT Garoto: "Mima % gente boa, mas Takatsuki n~o % confi$vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku005' 00 
+TEXT Ikumi: "J$ percebi isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy005' 00 
+TEXT Garoto: "Ele % perigoso. Seria melhor n~o usar aquele t^nel subterr}neo de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku006' 00 
+TEXT Ikumi: "Mas... se eu n~o usar aquilo, n~o consigo chegar aos outros pr%dios..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy006' 00 
+TEXT Garoto: "Seria melhor voc[ n~o ir mais at% l$."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku007' 00 
+TEXT Ikumi: "E n~o vou conseguir chegar mais perto da verdade..."
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '020_boy007' 00 
+TEXT Garoto: "A verdade est$ pr+xima."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku008' 00 
+TEXT Ikumi: "...O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy008' 00 
+TEXT Garoto: "@ isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku009' 00 
+TEXT Ikumi: "O que voc[ quer dizer...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy009' 00 
+TEXT Garoto: "@ uma pista."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku010' 00 
+TEXT Ikumi: "Ent~o... isso quer dizer que...\na verdade est$ no Pr%dio A...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy010' 00 
+TEXT Garoto: "Na verdade, isso pode ter sido um pouco precipitado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku011' 00 
+TEXT Ikumi: "Precipitado... como assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_boy011' 00 
+TEXT Garoto: "S+ quis dizer que seria bom se voc[ parasse de usar aquele t^nel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '071_iku012' 00 
+TEXT Ikumi: "T$ bom...... eu entendi."
+STOP_SOUND 01 
+TEXT Eu lhe respondi.
+TEXT Ent~o sa& do quarto, indo em dire|~o ao meu treinamento matinal.
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voz: "A& est$ voc[, A-12."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm03_min000' 00 
+TEXT Voz: "V$ para o centro da sala."
+STOP_SOUND 01 
+TEXT Eu me posicionei no centro do padr~o.
+PLAY_SOUND 01 'm09_min000' 00 
+TEXT Voz: "Agora vamos come|ar o N&vel 9."
+STOP_SOUND 01 
+TEXT *Vruuuuun...*
+TEXT *Takatakatakata...*
+TEXT A m$quina come|ou a se mover.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT Minha vis~o foi bloqueada.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT ...*Taka*......*Taka*......
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '035_iku062' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm09_min001' 00 
+TEXT Voz: "N&vel 9 completo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '035_iku063' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Eu sa& do MINMES.
+X_00 0009 000B 
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+STOP_SOUND 00 
+PLAY_SOUND 01 '073_iku000' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Mais uma vez, Youko-san n~o estava aqui hoje.
+TEXT @ verdade que eu havia pulado v$rias refei|/es para fazer outras coisas.
+TEXT Mas ela nunca faria isso.
+TEXT Ela % algu%m que segue a vida que lhe foi tra|ada.  
+TEXT Ou seja, algo inesperado rompeu esse destino.
+TEXT Ser$ que ela entrou em um treinamento isolado de longa dura|~o...?
+TEXT Talvez tenha sido transferida para outro pr%dio...
+TEXT Ou... talvez tenha sido eliminada.
+PLAY_SOUND 01 '073_iku001' 00 
+TEXT Ikumi: "Ah......"
+STOP_SOUND 01 
+TEXT Fiquei chocada comigo mesmo por enumerar aquelas possibilidades de forma t~o casual.
+TEXT Isso n~o podia ser...
+TEXT .........
+TEXT Um del&rio in^til...
+TEXT Terminei o almo|o e sa& do refeit+rio #s pressas.
+IF 17 24 00 15 01 00 02 00 .LABEL3 
+X_00 0009 0009 
+JMP .LABEL4 
+
+:LABEL3
+X_00 0009 0016 
+
+:LABEL4
+X_00 000E 0003 
+X_04 0025 0001 
+GOSUB_SCRIPT 'A_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL5 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL5
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT Eu entrei no ELPOD.
+PLAY_SOUND 01 'es0_elp000' 00 
+TEXT Voz: "A-12, confirmado."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_elp000' 00 
+TEXT Voz: "Agora siga para o centro da sala."
+STOP_SOUND 01 
+TEXT Fiquei em sil[ncio no centro do padr~o.
+PLAY_SOUND 01 'e06_elp000' 00 
+TEXT Voz: "N&vel 6... come|ando."
+STOP_SOUND 01 
+TEXT A luz desapareceu.
+TEXT Ent~o, no fundo da minha consci[ncia...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd08' 01 
+PLAY_SOUND 01 'se28' 01 
+TEXT *Tum*...*Tum*...
+TEXT ...*Tum*...*Tum*...
+TEXT ......*Tum*...*Tum*...
+STOP_SOUND 01 
+TEXT ...L$ estava ela.
+GOSUB_SCRIPT 'EL6' 
+IF 16 17 00 15 01 00 02 00 .LABEL6 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL6
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'e02_iku110' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e06_elp001' 00 
+TEXT Voz: "N&vel 6 completo. Bom trabalho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku111' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sa& da sala sem dizer uma palavra.
+X_00 0009 0017 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL7 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL7
+STOP_SOUND 00 
+TEXT Entrei no refeit+rio, peguei minha bandeja e me sentei.
+TEXT Como de costume, Youko-san n~o estava em lugar algum.
+TEXT Por qu[...?
+TEXT Tive a sensa|~o de que nunca mais far&amos outra refei|~o juntas...
+PLAY_SOUND 01 '074_iku000' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Assustador...
+TEXT Deve ser por causa do meu del&rio durante o almo|o...
+TEXT ...@ isso.
+TEXT Comer sozinha em um espa|o t~o grande % assustador...
+TEXT A partir de amanh~, vou comer no meu quarto.
+TEXT ...Mas ele pode estar l$.
+TEXT Eu realmente n~o queria que ele estivesse l$, mas comer com ele ainda deve ser bem melhor do que ficar neste lugar.
+TEXT Certo, vou come|ar a fazer isso.
+TEXT Devorei o restante da comida de uma vez s+.
+TEXT Ent~o, enquanto mastigava e guardava minha bandeja, sa& rapidamente do refeit+rio.
+IF 17 24 00 15 01 00 02 00 .LABEL8 
+X_00 0009 0009 
+JMP .LABEL9 
+
+:LABEL8
+X_00 0009 0016 
+
+:LABEL9
+X_00 000E 0005 
+GOSUB_SCRIPT 'A_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL10 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL10
+BACKGROUND 'BG009' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+TEXT O ponto de encontro subterr}neo.
+TEXT N~o havia ningu%m aqui.
+TEXT Haruka n~o estava, e % claro que Yui tamb%m n~o...
+TEXT ...O que aconteceu, Haruka?
+TEXT Ser$ que ela foi tentar convencer o irm~o de novo?
+TEXT Ou talvez, depois do que aconteceu...
+TEXT Talvez ela tenha se trancado no quarto.
+TEXT Mas isso n~o combinaria nem um pouco com a personalidade da Haruka.
+TEXT .........
+TEXT 
+SELECT 0003 'Ir para o Pr%dio B' 'Esperar um pouco' 
+IF 16 03 00 15 01 00 02 00 .LABEL11 
+TEXT Devo tentar ir novamente... para o MINMES do Pr%dio B.
+TEXT Provavelmente a Haruka est$ l$ dentro.
+TEXT Para persuadir o onii-san dela...
+X_04 006F 0001 
+GOSUB_SCRIPT 'UG_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL12 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL12
+STOP_SOUND 00 
+PLAY_SOUND 01 'se61' 00 
+TEXT *Kabam!*
+PLAY_SOUND 01 '074_iku002' 00 
+TEXT Ikumi: "Ah...!"
+STOP_SOUND 01 
+TEXT Algu%m acabou de descer para o t^nel subterr}neo.
+TEXT Seria a Haruka...?
+TEXT N~o, n~o %. Aquele som veio do Pr%dio B.
+TEXT Mas... ela pode estar voltando do Pr%dio B.
+PLAY_SOUND 01 '021_boy000' 00
+TEXT <Ele % perigoso.>
+STOP_SOUND 01 
+PLAY_SOUND 01 '021_boy001' 00 
+TEXT <Seria melhor n~o usar aquele t^nel subterr}neo de novo.>
+STOP_SOUND 01 
+TEXT ...N~o pode ser...
+PLAY_SOUND 01 'se62' 00 
+TEXT *Tap**Tap**Tap*...
+TEXT Os passos se aproximaram.
+TEXT Quem quer que fosse, estava prestes a sair das sombras.
+TEXT Preciso me esconder!
+PLAY_SOUND 01 'se62' 00 
+TEXT *Tap**Tap**Tap*...
+TEXT Mas... n~o consigo! N~o h$ tempo suficiente.
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku003' 00 
+TEXT Ikumi: "......!"
+STOP_SOUND 01 
+BACKGROUND 'BG009' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_ryo000' 00 
+TEXT Ryousuke: "Voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku004' 00 
+TEXT Ikumi: "O... irm~o de Haruka..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo001' 00 
+TEXT Ryousuke: "Onde est$ a Haruka...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku005' 00 
+TEXT Ikumi: "Desculpe, hoje ela..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo002' 00 
+TEXT Ryousuke: "Entendi. Ent~o eu gostaria que voc[ dissesse algo a ela."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku006' 00 
+TEXT Ikumi: "Sim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo003' 00 
+TEXT Ryousuke: "Vou tirar voc[ e a Haruka daqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo004' 00 
+TEXT Ryousuke: "Ent~o... % isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo005' 00 
+TEXT Ryousuke: "Traga a Haruka aqui amanh~, no mesmo hor$rio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku007' 00 
+TEXT Ikumi: "E voc[ n~o vai...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo006' 00 
+TEXT Ryousuke: "Mm?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku008' 00 
+TEXT Ikumi: "Voc[ n~o vai fugir com a Haruka?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo007' 00 
+TEXT Ryousuke: "N~o, eu vou ficar aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku009' 00 
+TEXT Ikumi: "Haruka... mesmo depois de tudo que aconteceu com ela, voc[ escolheria ficar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo008' 00 
+TEXT Ryousuke: "Tenho o dever de ver tudo at% o fim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo009' 00 
+TEXT Ryousuke: "N~o posso fugir no meio disso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku010' 00 
+TEXT Ikumi: "Quer dizer que voc[ precisa ficar e descobrir se o que fez foi certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo010' 00 
+TEXT Ryousuke: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku011' 00 
+TEXT Ikumi: "Mesmo que isso signifique... abandonar a Haruka, sua pr+pria irm~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo011' 00 
+TEXT Ryousuke: "......Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku012' 00 
+TEXT Ikumi: "Ent~o me diga."
+STOP_SOUND 01 
+TEXT Ryousuke: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku013' 00 
+TEXT Ikumi: "Vi minha m~e morrer e testemunhei a morte da irm~ de uma amiga."
+STOP_SOUND 01 
+TEXT Ryousuke: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku014' 00 
+TEXT Ikumi: "Tenho o direito de saber o que todos voc[s t[m feito."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku015' 00 
+TEXT Ikumi: "Diga-me, toda a verdade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo012' 00 
+TEXT Ryousuke: "......N~o posso. Isso n~o pode ser dito."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku016' 00 
+TEXT Ikumi: "Por que n~o?"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku017' 00
+TEXT Ikumi: "Minha m~e foi assassinada!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku018' 00
+TEXT Ikumi: "E voc[ t$ me dizendo para ir para casa sem aprender nada sobre isso!?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo013' 00
+TEXT Ryousuke: "Sim. V$ para casa."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku019' 00
+TEXT Ikumi: "...Voc[ t$ me dizendo para aceitar isso por seus motivos pessoais?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo014' 00
+TEXT Ryousuke: "N~o h$ necessidade de aceitar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo015' 00 
+TEXT Ryousuke: "Esque|am tudo. Isso % o melhor para todos voc[s."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku020' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Sem chance.
+TEXT A verdade n~o sair$ da boca dele.
+PLAY_SOUND 01 '001_ryo016' 00
+TEXT Ryousuke: "Pode ser que eu fique incapaz de me mover mais tarde."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo017' 00
+TEXT Ryousuke: "Quando isso acontecer, por favor use isto para escapar daqui."
+STOP_SOUND 01
+X_3E 04 53 'G004'
+X_56 04 0028 004E
+X_3F 04 01
+X_25 09
+TEXT Ele me entregou um cart~o.
+PLAY_SOUND 01 '001_ryo018' 00
+TEXT Ryousuke: "Meu cart~o de acesso."
+STOP_SOUND 01
+TEXT Eu o peguei.
+X_3F 04 00
+X_25 09
+PLAY_SOUND 01 '001_ryo019' 00
+TEXT Ryousuke: "E este % meu aviso final."
+STOP_SOUND 01
+TEXT Ele come|ou a se afastar, desviando o olhar de mim enquanto falava.
+PLAY_SOUND 01 '001_ryo020' 00
+TEXT Ryousuke: "Cuidado com seu colega de quarto."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '074_iku021' 00 
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01 
+TEXT Colega de quarto...
+TEXT Ele quer dizer...
+PLAY_SOUND 01 '074_iku022' 00
+TEXT Ikumi: "O que... quer dizer..."
+STOP_SOUND 01
+TEXT Ryousuke j$ tinha ido embora.
+X_04 006F 0000 
+JMP .LABEL13 
+
+:LABEL11
+TEXT Vou esperar mais um pouco.
+TEXT A Haruka certamente vai agir esta noite.
+TEXT .........
+STOP_SOUND 00 
+PLAY_SOUND 01 'se61' 00 
+TEXT *Kabam!*
+PLAY_SOUND 01 '074_iku002' 00 
+TEXT Ikumi: "Ah...!"
+STOP_SOUND 01 
+TEXT Algu%m acabou de descer para o t^nel subterr}neo.
+TEXT Seria a Haruka...?
+TEXT N~o, n~o %. Aquele som veio do Pr%dio B.
+TEXT Mas... ela pode estar voltando do Pr%dio B.
+PLAY_SOUND 01 '021_boy000' 00
+TEXT <Ele % perigoso.>
+STOP_SOUND 01
+PLAY_SOUND 01 '021_boy001' 00
+TEXT <Seria melhor n~o usar aquele t^nel subterr}neo novamente.>
+STOP_SOUND 01
+TEXT ...N~o pode ser...
+PLAY_SOUND 01 'se62' 00
+TEXT *Tap**Tap**Tap*...
+TEXT Os passos se aproximaram.
+TEXT Quem quer que fosse, ele ou ela estava prestes a sair das sombras.
+TEXT Preciso me esconder!
+PLAY_SOUND 01 'se62' 00
+TEXT *Tap**Tap**Tap*...
+TEXT Mas... n~o consigo! N~o h$ tempo suficiente.
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku003' 00 
+TEXT Ikumi: "......!"
+STOP_SOUND 01 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '001_ryo000' 00 
+TEXT Ryousuke: "Voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku004' 00 
+TEXT Ikumi: "O... irm~o de Haruka..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo001' 00 
+TEXT Ryousuke: "Onde est$ a Haruka...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku005' 00 
+TEXT Ikumi: "Desculpe, hoje ela..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo002' 00 
+TEXT Ryousuke: "Entendi. Ent~o eu gostaria que voc[ dissesse algo a ela."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku006' 00 
+TEXT Ikumi: "Sim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_ryo003' 00 
+TEXT Ryousuke: "Vou tirar voc[ e a Haruka daqui."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo004' 00
+TEXT Ryousuke: "Ent~o... % isso..."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo005' 00
+TEXT Ryousuke: "Traga a Haruka aqui amanh~, no mesmo hor$rio."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku007' 00
+TEXT Ikumi: "E voc[ n~o vai...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo006' 00
+TEXT Ryousuke: "Hm?"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku008' 00
+TEXT Ikumi: "Voc[ n~o vai fugir com a Haruka?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo007' 00
+TEXT Ryousuke: "N~o, vou ficar aqui."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku009' 00
+TEXT Ikumi: "Haruka... mesmo depois de tudo que aconteceu com ela, voc[ vai ficar?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo008' 00
+TEXT Ryousuke: "Tenho o dever de ver tudo at% o fim."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo009' 00
+TEXT Ryousuke: "N~o posso fugir no meio disso."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku010' 00
+TEXT Ikumi: "Quer dizer que voc[ precisa ficar e descobrir se o que fez foi certo?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo010' 00
+TEXT Ryousuke: "Sim."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku011' 00
+TEXT Ikumi: "Mesmo que isso signifique... abandonar a Haruka, sua irm~zinha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo011' 00
+TEXT Ryousuke: "......Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku012' 00 
+TEXT Ikumi: "Ent~o me conte."
+STOP_SOUND 01 
+TEXT Ryousuke: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku013' 00 
+TEXT Ikumi: "Vi minha m~e morrer e testemunhei a morte da irm~ de uma amiga."
+STOP_SOUND 01
+TEXT Ryousuke: "......"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku014' 00
+TEXT Ikumi: "Tenho o direito de julgar o que todos voc[s t[m feito."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku015' 00
+TEXT Ikumi: "Conte-me, toda a verdade."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo012' 00
+TEXT Ryousuke: "......N~o. N~o posso contar."
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku016' 00
+TEXT Ikumi: "Por que n~o?"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku017' 00
+TEXT Ikumi: "Minha m~e foi assassinada!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku018' 00
+TEXT Ikumi: "E voc[ t$ me dizendo para ir pra casa sem descobrir nada sobre isso!?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo013' 00
+TEXT Ryousuke: "Isso mesmo. V$ para casa!"
+STOP_SOUND 01
+PLAY_SOUND 01 '074_iku019' 00
+TEXT Ikumi: "...Voc[ t$ me dizendo para aceitar isso por motivos seus pessoais?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo014' 00
+TEXT Ryousuke: "N~o h$ necessidade de aceitar."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo015' 00
+TEXT Ryousuke: "Esque|am tudo. Isso % o melhor para todos voc[s."
+STOP_SOUND 01 
+PLAY_SOUND 01 '074_iku020' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Sem chance.
+TEXT Esse cara n~o ia abrir o jogo.
+PLAY_SOUND 01 '001_ryo016' 00 
+TEXT Ryousuke: "Pode ser que eu fique incapaz de me mover mais tarde."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_ryo017' 00
+TEXT Ryousuke: "Quando isso acontecer, por favor use isto para escapar daqui."
+STOP_SOUND 01
+X_3E 04 53 'G004'
+X_56 04 0028 004E
+X_3F 04 01
+X_25 09
+TEXT Ele me entregou um cart~o.
+PLAY_SOUND 01 '001_ryo018' 00
+TEXT Ryousuke: "Meu cart~o de acesso."
+STOP_SOUND 01
+TEXT Eu o peguei.
+X_3F 04 00
+X_25 09
+PLAY_SOUND 01 '001_ryo019' 00
+TEXT Ryousuke: "Este % meu aviso final."
+STOP_SOUND 01
+TEXT Ele come|ou a se afastar, desviando o olhar de mim enquanto falava.
+PLAY_SOUND 01 '001_ryo020' 00
+TEXT Ryousuke: "Cuidado com seu colega de quarto."
+STOP_SOUND 01
+X_24 00
+X_25 09
+PLAY_SOUND 01 '074_iku021' 00
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01
+TEXT Colega de quarto...
+TEXT Ele quer dizer...
+PLAY_SOUND 01 '074_iku022' 00
+TEXT Ikumi: "O que... significa isso..."
+STOP_SOUND 01
+TEXT Ryousuke j$ tinha ido embora.
+
+:LABEL13
+STOP_SOUND 00 
+PLAY_SOUND 01 '074_iku023' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT @ muito arriscado ir atr$s dele...
+TEXT N~o tenho escolha a n~o ser voltar para o meu quarto.
+X_04 0070 0001 
+X_04 0039 0001 
+GOSUB_SCRIPT 'UG_D10' 
+IF 16 17 00 15 01 00 02 00 .LABEL14 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL14
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '022_boy000' 00 
+TEXT Garoto: "Bem-vinda de volta."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku000' 00
+TEXT Ikumi: "@, estou de volta."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy001' 00
+TEXT Garoto: "O que houve? Voc[ n~o parece bem."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku001' 00
+TEXT Ikumi: "N~o, n~o % nada."
+STOP_SOUND 01
+TEXT <Cuidado com seu colega de quarto.>
+PLAY_SOUND 01 '022_boy002' 00
+TEXT Garoto: "Voc[ entrou no t^nel?"
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku002' 00
+TEXT Ikumi: "S-Sim..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy003' 00
+TEXT Garoto: "Realmente seria melhor parar."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku003' 00
+TEXT Ikumi: "Mas a& n~o vou conseguir ver a Haruka..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy004' 00
+TEXT Garoto: "E voc[ conseguiu encontrar essa 'Haruka' hoje?"
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku004' 00
+TEXT Ikumi: "N~o..."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku005' 00
+TEXT Ikumi: "Mas... o onii-san da Haruka... o Mima-san estava l$."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy005' 00
+TEXT Garoto: "Entendi. E ent~o, o que aconteceu?"
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku006' 00
+TEXT Ikumi: "Ele disse que nos tiraria daqui..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy006' 00
+TEXT Garoto: "Hmph, ent~o voc[s v~o fugir?"
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku007' 00
+TEXT Ikumi: "Eu n~o vou fugir."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku008' 00
+TEXT Ikumi: "A Haruka tamb%m n~o... duvido que ela v$."
+STOP_SOUND 01 
+PLAY_SOUND 01 '022_boy007' 00 
+TEXT Garoto: "Mas se Mima ajudasse, voc[s realmente poderiam fugir."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku009' 00
+TEXT Ikumi: "Voc[ est$ me dizendo para fugir?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy008' 00
+TEXT Garoto: "N~o estou dizendo isso."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy009' 00
+TEXT Garoto: "S+ quis enfatizar que % uma oportunidade ^nica."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku010' 00
+TEXT Ikumi: "N~o vou fugir."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy010' 00
+TEXT Garoto: "Fa|a como quiser."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_boy011' 00
+TEXT Garoto: "Mas ainda assim seria melhor n~o descer l$ de novo."
+STOP_SOUND 01
+PLAY_SOUND 01 '075_iku011' 00
+TEXT Ikumi: "T$..."
+STOP_SOUND 01
+BACKGROUND 'FG010'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '075_iku012' 00
+TEXT Ikumi: "........."
+STOP_SOUND 01
+TEXT <Cuidado com seu colega de quarto.>
+TEXT O que ele quis dizer com isso...?
+TEXT Aquelas palavras n~o sa&ram da minha cabe|a.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY11' 
+EOF 

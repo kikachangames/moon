@@ -1,0 +1,506 @@
+
+# MOON SCRIPT FILE "DAY022.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '003_boy000' 00 
+TEXT Garoto: "Bem-vinda de volta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku000' 00 
+TEXT Ikumi: Aaaah...
+STOP_SOUND 01 
+IF 17 29 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 '003_boy001' 00 
+TEXT Garoto: "Como sua amiga est$ se saindo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku001' 00 
+TEXT Ikumi: "Ela parecia bastante cansada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy002' 00 
+TEXT Garoto: "Bem, pode ser esse o caso."
+STOP_SOUND 01 
+JMP .LABEL1 
+
+:LABEL0
+IF 17 2A 00 15 01 00 02 00 .LABEL1 
+PLAY_SOUND 01 '003_boy003' 00 
+TEXT Garoto: "E a&, como foi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku002' 00 
+TEXT Ikumi: "Ela parecia bem cansada."
+STOP_SOUND 01 
+SPRITE 'CGSY02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '003_boy004' 00 
+TEXT Garoto: "Ah, ent~o at% uma coisinha pregui|osa assim pode se cansar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku003' 00 
+TEXT Ikumi: "O qu[... voc[ sabe o que est$ dizendo sobre a Haruka?!"
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '003_boy005' 00 
+TEXT Garoto: "H~? N~o estamos falando de um gato?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku004' 00 
+TEXT Ikumi: "H~? Ah..."
+STOP_SOUND 01 
+TEXT Ah %...
+TEXT Agora lembrei que eu disse para ele que estava procurando um gato...
+PLAY_SOUND 01 '003_boy006' 00 
+TEXT Garoto: "Ent~o o nome dela % Haruka?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku005' 00 
+TEXT Ikumi: "Sim... o nome dela % Haruka..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy007' 00 
+TEXT Garoto: "...Ela % sua amiga?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku006' 00 
+TEXT Ikumi: "Hmm......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku007' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku008' 00 
+TEXT Ikumi: "...Sim."
+STOP_SOUND 01 
+TEXT Ent~o ele percebeu.
+PLAY_SOUND 01 '003_boy008' 00 
+TEXT Garoto: "Nesse caso, voc[ podia ter dito logo de in&cio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku009' 00 
+TEXT Ikumi: "Sim... desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy009' 00 
+TEXT Garoto: "E em que classe est$ essa sua amiga?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku010' 00 
+TEXT Ikumi: "C."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy010' 00 
+TEXT Garoto: "Ent~o provavelmente ela est$ cansada."
+STOP_SOUND 01
+
+:LABEL1
+PLAY_SOUND 01 '012_iku011' 00 
+TEXT Ikumi: "Por qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy011' 00 
+TEXT Garoto: "Hmmmm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku012' 00 
+TEXT Ikumi: "H$ alguma diferen|a entre esse pr%dio e os outros?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy012' 00 
+TEXT Garoto: "Sim, uma diferen|a enorme."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku013' 00 
+TEXT Ikumi: "Como % diferente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy013' 00 
+TEXT Garoto: "Hmm, %... o tratamento % diferente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku014' 00 
+TEXT Ikumi: "Por exemplo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy014' 00 
+TEXT Garoto: "Eu mesmo n~o sei tanto assim... mas no pr%dio C..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy015' 00 
+TEXT Garoto: "...Eles n~o t[m chuveiros."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku015' 00 
+TEXT Ikumi: "S+ isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy016' 00 
+TEXT Garoto: "'S+'...? Isso j$ n~o % um grande problema...? Para todos voc[s, quero dizer."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku016' 00 
+TEXT Ikumi: "N~o ter chuveiros individuais n~o seria um problema. Afinal, % tudo comunit$rio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy017' 00 
+TEXT Garoto: "N~o, quero dizer que l$ eles n~o tem nenhum."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku017' 00 
+TEXT Ikumi: ".........H~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy018' 00 
+TEXT Garoto: "@ um problema se voc[ n~o tiver um, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku018' 00 
+TEXT Ikumi: "Absolutamente nenhum...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy019' 00 
+TEXT Garoto: "Absolutamente... bem, eles t[m uma torneira, mas isso ainda % problem$tico."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku019' 00 
+TEXT Ikumi: "Bem... sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku020' 00 
+TEXT Ikumi: "Espere..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku021' 00 
+TEXT Ikumi: "Mas periodicamente..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy020' 00 
+TEXT Garoto: "N~o... eu n~o acho que seja permitido nunca."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku022' 00 
+TEXT Ikumi: "Isso %... verdade?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy021' 00 
+TEXT Garoto: "@ verdade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy022' 00 
+TEXT Garoto: "E n~o h$ quartos privados.\nUm quarto um pouco maior que este abriga dezenas de pessoas."
+STOP_SOUND 01 
+TEXT Meu Deus...... e pensar que eles estavam sendo tratados t~o mal...
+
+TEXT 
+SELECT 0003 'Intimar o garoto' 'Ficar quieta' 
+IF 16 03 00 15 01 00 02 00 .LABEL3 
+PLAY_SOUND 01 '012_iku023' 00 
+TEXT Ikumi: "M-Mas esse tipo de condi|~o de vida % rid&culo!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku024' 00 
+TEXT Ikumi: "Voc[ n~o pode fazer nada a respeito?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy023' 00 
+TEXT Garoto: "Eu n~o estou autorizado para fazer algo assim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku025' 00 
+TEXT Ikumi: "N~o haveria problema se voc[ n~o fosse s+ um pau-mandado!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy024' 00 
+TEXT Garoto: "O qu[... agora % voc[ quem est$ sendo rid&cula..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku026' 00 
+TEXT Ikumi: "Ah, desculpa..."
+STOP_SOUND 01 
+TEXT Eu fiquei um pouco agitada.
+TEXT @ verdade que, se este vigia fosse promovido, n~o haveria dificuldades.
+PLAY_SOUND 01 '012_iku027' 00 
+TEXT Ikumi: "Talvez pud%ssemos trazer ela para c$ de vez em quando..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy025' 00 
+TEXT Garoto: "Voc[ n~o pode fazer isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku028' 00 
+TEXT Ikumi: "Por que n~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy026' 00 
+TEXT Garoto: "Voc[ ser$ descoberta rapidamente, j$ que outros n~o estar~o usando o chuveiro."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku029' 00 
+TEXT Ikumi: "Ser descoberta seria t~o ruim assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy027' 00 
+TEXT Garoto: "Bem ruim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy028' 00 
+TEXT Garoto: "Isso n~o vai nos ajudar, e vai trazer mais problemas para a sua amiga."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy029' 00 
+TEXT Garoto: "Se quer ajud$-la, endure|a seu cora|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku030' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sim, seria como abusar da minha estadia.
+TEXT Do ponto de vista de Haruka.
+JMP .LABEL4 
+
+:LABEL3
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy030' 00 
+TEXT Garoto: "Hm... De novo, parece que voc[ est$ bem chocada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku031' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy031' 00 
+TEXT Garoto: "Bom, % realmente deprimente saber que sua amiga vive em um ambiente t~o horr&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku032' 00 
+TEXT Ikumi: "Voc[ n~o pode fazer algo a respeito?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy032' 00 
+TEXT Garoto: "H~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku033' 00 
+TEXT Ikumi: "...Voc[, %, voc[ mesmo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy033' 00 
+TEXT Garoto: "Eu... fazer o qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku034' 00 
+TEXT Ikumi: "...Voc[ poderia solicitar uma melhoria nas condi|~es de vida deles."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy034' 00 
+TEXT Garoto: "Isso % imposs&vel. Eu n~o tenho nenhum poder ou posi|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku035' 00 
+TEXT Ikumi: Aaaah...
+STOP_SOUND 01 
+TEXT @ verdade que, se este vigia fosse promovido, n~o haveria dificuldades.
+PLAY_SOUND 01 '012_iku027' 00 
+TEXT Ikumi: "Talvez pud%ssemos trazer ela para c$ de vez em quando..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy025' 00 
+TEXT Garoto: "Voc[ n~o pode fazer isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku028' 00 
+TEXT Ikumi: "Por que n~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy026' 00 
+TEXT Garoto: "Voc[ ser$ descoberta rapidamente, j$ que os outros n~o estar~o tomando banho."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku029' 00 
+TEXT Ikumi: "Ser descoberta seria t~o ruim assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy027' 00 
+TEXT Garoto: "Seria bem ruim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy028' 00 
+TEXT Garoto: "Isso n~o vai nos ajudar, e s+ vai complicar ainda mais a situa|~o da sua amiga."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy029' 00 
+TEXT Garoto: "Se quer ajud$-la, endure|a seu cora|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku030' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sim, seria como abusar da minha estadia.
+TEXT Do ponto de vista de Haruka.
+
+:LABEL4
+BACKGROUND 'FG010' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd14' 01 
+TEXT Tomei uma ducha como ontem # noite e, sem ter nada melhor para fazer, me enrolei na cama.
+TEXT Garoto: "........."
+STOP_SOUND 01 
+TEXT Ser$ que ele j$ adormeceu...?
+TEXT 
+SELECT 0003 'Vou dormir tamb%m' 'Tentar falar com ele' 
+IF 16 03 00 15 01 00 02 00 .LABEL5 
+TEXT Vou dormir...
+TEXT O dia de hoje realmente me deixou exausta...
+JMP .LABEL6
+
+:LABEL5
+PLAY_SOUND 01 '012_iku036' 00 
+TEXT Ikumi: "Ei, voc[ ainda est$ acordado...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy040' 00 
+TEXT Garoto: "...Sim, estou acordado."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy041' 00 
+TEXT Garoto: "...Tem mais alguma coisa que voc[ quer perguntar?"
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Tenho' 'Na verdade, n~o...' 
+IF 16 03 00 15 01 00 02 00 .LABEL7 
+PLAY_SOUND 01 '012_iku037' 00 
+TEXT Ikumi: "Sim, eu tenho..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy042' 00 
+TEXT Garoto: "O que %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku038' 00 
+TEXT Ikumi: "Hmm..."
+STOP_SOUND 01 
+TEXT H$ tantas coisas que quero perguntar. Mas quanto ao que eu deveria perguntar, nada parece se destacar.
+TEXT N~o consigo organizar meus pensamentos.
+PLAY_SOUND 01 '012_iku039' 00 
+TEXT Ikumi: "Ah... hmm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy043' 00 
+TEXT Garoto: "Acho que voc[ n~o deveria se for|ar a perguntar algo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku040' 00 
+TEXT Ikumi: "N~o... eu quero... s+ espere um pouco..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy044' 00 
+TEXT Garoto: "Como voc[ se mudou para um novo ambiente, % natural que tenha muitas coisas que queira perguntar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy045' 00 
+TEXT Garoto: "Mas acho que voc[ deve buscar apenas as informa|~es de que precisa para cumprir um objetivo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy046' 00 
+TEXT Garoto: "Informa|~es obtidas aleatoriamente s~o muito complexas, e voc[ n~o consegue organiz$-las. S+ vai ser um inc{modo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy047' 00 
+TEXT Garoto: "Por enquanto, reflita sobre o conhecimento que adquiriu hoje."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku041' 00 
+TEXT Ikumi: "......Voc[ tem raz~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy048' 00 
+TEXT Garoto: "Mas n~o encurte seu tempo de sono."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku042' 00 
+TEXT Ikumi: "Eu sei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy049' 00 
+TEXT Garoto: "...Boa noite."
+STOP_SOUND 01 
+TEXT Ikumi: ".........."
+STOP_SOUND 01 
+JMP .LABEL6
+
+:LABEL7
+PLAY_SOUND 01 '012_iku043' 00 
+TEXT Ikumi: "N~o...particularmente..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy050' 00 
+TEXT Garoto: "Certo. Ent~o por que n~o vai dormir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku044' 00 
+TEXT Ikumi: "N~o, espere..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy051' 00 
+TEXT Garoto: "O que foi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku045' 00 
+TEXT Ikumi: "Hmm...hmm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku046' 00 
+TEXT Ikumi: "Voc[ n~o acha estranho dormir no mesmo quarto que uma garota como eu?"
+STOP_SOUND 01 
+TEXT Estou perguntando algo realmente bobo, n~o estou...?
+PLAY_SOUND 01 '003_boy052' 00 
+TEXT Garoto: "Por que eu deveria achar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku047' 00 
+TEXT Ikumi: "N~o, s+...hmm...voc[ n~o fica constrangido por ficar t~o perto de algu%m do sexo oposto...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy053' 00 
+TEXT Garoto: "Por que eu ficaria constrangido com isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku048' 00 
+TEXT Ikumi: "O que quero dizer %... # noite, no mesmo quarto assim... Isso..."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'N~o te excita?' 'N~o te deixa nervoso?'
+IF 16 03 00 15 01 00 02 00 .LABEL9 
+PLAY_SOUND 01 '012_iku049' 00 
+TEXT Ikumi: "Isso n~o te excita a ponto de querer me atacar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy054' 00 
+TEXT Garoto: "...Que pergunta mais..."
+STOP_SOUND 01 
+TEXT Eu sei o que voc[ quer dizer.
+PLAY_SOUND 01 '003_boy055' 00 
+TEXT Garoto: "...Isso n~o vai acontecer. Relaxe."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku050' 00 
+TEXT Ikumi: "Ah, t$ bom..."
+STOP_SOUND 01 
+TEXT Decepcionante.
+PLAY_SOUND 01 '012_iku051' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Isso quer dizer que n~o sou bonita?' 'Durma logo'
+IF 16 03 00 15 01 00 02 00 .LABEL10 
+PLAY_SOUND 01 '012_iku052' 00 
+TEXT Ikumi: "Isso quer dizer que n~o sou bonita o suficiente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy056' 00 
+TEXT Garoto: "...Mais uma pergunta inacredit$vel..."
+STOP_SOUND 01 
+TEXT Eu tamb%m acho.
+PLAY_SOUND 01 '003_boy057' 00 
+TEXT Garoto: "Isso quer dizer que voc[ quer que eu te ataque?"
+STOP_SOUND 01 
+TEXT Balancei a cabe|a para os lados.
+PLAY_SOUND 01 '003_boy058' 00 
+TEXT Garoto: "Ent~o, por favor, n~o pergunte mais coisas estranhas."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku053' 00 
+TEXT Ikumi: "Ah, t$ bom..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy059' 00 
+TEXT Garoto: "Voc[ deveria estar dormindo em vez de perder tempo assim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku054' 00 
+TEXT Ikumi: "@..."
+STOP_SOUND 01 
+TEXT Eu realmente s+ estou perdendo tempo sem motivo...
+PLAY_SOUND 01 '003_boy060' 00 
+TEXT Garoto: "...Boa noite."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+JMP .LABEL11
+
+:LABEL10
+PLAY_SOUND 01 '003_boy061' 00 
+TEXT Garoto: "Voc[ n~o deveria desperdi|ar seu tempo com perguntas t~o est^pidas, e ir logo dormir."
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku055' 00 
+TEXT Ikumi: *Zzz...*
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy062' 00 
+TEXT Garoto: "Ela j$ est$...!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy063' 00 
+TEXT Garoto: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy064' 00 
+TEXT Garoto: "...Boa noite."
+STOP_SOUND 01
+
+:LABEL11
+JMP .LABEL6 
+
+:LABEL9
+PLAY_SOUND 01 '012_iku056' 00 
+TEXT Ikumi: "Isso n~o te deixa nervoso demais para dormir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy065' 00 
+TEXT Garoto: "O que voc[ quer dizer com isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku057' 00 
+TEXT Ikumi: "Bem, veja, quero dizer... eu sou uma garota..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy066' 00 
+TEXT Garoto: "Isso n~o % um problema. Estou bem confort$vel."
+STOP_SOUND 01 
+TEXT Voc[ n~o precisa ser t~o direto assim...
+PLAY_SOUND 01 '012_iku058' 00 
+TEXT Ikumi: "Mas voc[ % um garoto e nessa idade..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_boy067' 00 
+TEXT Garoto: *Zzz...*
+STOP_SOUND 01 
+PLAY_SOUND 01 '012_iku059' 00 
+TEXT Ikumi: "Eita, ele realmente est$ bem confort$vel!"
+STOP_SOUND 01 
+TEXT Por algum motivo, isso % irritante.
+
+:LABEL6
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY03A' 
+EOF

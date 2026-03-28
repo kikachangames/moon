@@ -1,0 +1,736 @@
+
+# MOON SCRIPT FILE "EL4.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e04_dop000' 00 
+TEXT ...Boa tarde.
+STOP_SOUND 01 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop000' 00 
+TEXT ...Boa tarde.
+STOP_SOUND 01 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop001' 00 
+TEXT ...Por que voc[ n~o est$ respondendo?
+STOP_SOUND 01 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop000' 00 
+TEXT ...Boa tarde.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku000' 00 
+TEXT Boa tarde...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop002' 00 
+TEXT ...Voc[ est$ refletindo sobre suas a|/es?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Estou' 'N~o estou' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 'e04_iku001' 00 
+TEXT Estou refletindo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop003' 00 
+TEXT ...Isso % bom de ouvir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku002' 00 
+TEXT Ent~o, podemos por favor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop004' 00 
+TEXT ...Isso n~o pode ser.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku003' 00 
+TEXT Eu estou refletindo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku004' 00 
+TEXT Isso n~o % suficiente...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop005' 00 
+TEXT ...Isso % inaceit$vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop006' 00 
+TEXT ...Voc[ ainda tem muita dor esquecida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku005' 00 
+TEXT Espere, eu vou me lembrar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop007' 00 
+TEXT ...Inaceit$vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop008' 00 
+TEXT ...N~o tem significado nisso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop009' 00 
+TEXT ...A dor que voc[ s+ pode lembrar vagamente n~o tem significado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku006' 00 
+TEXT Espere.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku007' 00 
+TEXT Eu vou me lembrar em detalhes.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop010' 00 
+TEXT ...Inaceit$vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop011' 00 
+TEXT ...Depois de tudo, essa dor j$ est$ se apagando dentro de voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku008' 00 
+TEXT Ent~o, o que eu devo fazer!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop012' 00 
+TEXT ...Voc[ deve observar.
+STOP_SOUND 01 
+JMP .LABEL1 
+
+:LABEL0
+PLAY_SOUND 01 'e04_iku009' 00 
+TEXT Eu n~o estou refletindo sobre nada...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop013' 00 
+TEXT ...Teimosa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop014' 00 
+TEXT ...Mas n~o faz sentido voc[ refletir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop015' 00 
+TEXT ...Voc[ tem muita dor esquecida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop016' 00 
+TEXT ...Faz sentido enterrar essa verdade dentro de voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop017' 00 
+TEXT ...Voc[ deve observar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop018' 00 
+TEXT ...Com aten|~o. 
+STOP_SOUND 01 
+
+:LABEL1
+BACKGROUND 'FG104' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e04_iku010' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop019' 00 
+TEXT ...De novo voc[ est$ fazendo algo incr&vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku011' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop020' 00 
+TEXT ...N~o % verdade?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku012' 00 
+TEXT O que %...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop021' 00 
+TEXT ...N~o % verdade?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku013' 00 
+TEXT O que %!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop022' 00 
+TEXT ...Isso % um objeto que deve ser colocado na sua boca e lamber?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop023' 00 
+TEXT ...N~o % estranho?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku014' 00 
+TEXT Sim, % isso!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop024' 00 
+TEXT ...@ estranho.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop025' 00 
+TEXT ...Isso % o +rg~o excretor de um homem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku015' 00 
+TEXT Isso mesmo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop026' 00 
+TEXT ...@ estranho.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop027' 00 
+TEXT ...@ de onde sai a urina de um homem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku016' 00 
+TEXT Isso mesmo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop028' 00 
+TEXT ...@ estranho.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop029' 00 
+TEXT ...Essa % a parte mais suja de um homem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku017' 00 
+TEXT Isso mesmooo!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku018' 00 
+TEXT Eu coloquei aquele +rg~o excretor, aquele esf&ncter urin$rio, aquela parte suja de um homem na minha boca!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop030' 00 
+TEXT ...Se voc[ admite, ent~o por que est$ colocando isso na sua boca?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku019' 00 
+TEXT Era o senpai de quem eu gostava...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop031' 00 
+TEXT ...O senpai de quem voc[ gostava.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop032' 00 
+TEXT ...Por causa disso voc[ lamberia at% aquela parte suja dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku020' 00 
+TEXT Sim... ele era uma pessoa honesta...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop033' 00 
+TEXT ...Ent~o voc[ lamberia as partes sujas de uma pessoa honesta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku021' 00 
+TEXT Sim... para falar a verdade, ele me implorou para...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop034' 00 
+TEXT ...Ent~o voc[ lambeu ele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku022' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop035' 00 
+TEXT ...Que parte dele voc[ estava olhando?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku023' 00 
+TEXT Eu o observei por muito tempo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku024' 00 
+TEXT Observei ele por completo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop036' 00 
+TEXT ...Voc[ n~o apenas observou, certo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku025' 00 
+TEXT Eu pensei. E sonhei.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop037' 00 
+TEXT ...N~o % disso que estou falando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop038' 00 
+TEXT ...H$ algo que voc[ reprimiu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop039' 00 
+TEXT ...Dentro do seu cora|~o.
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'N~o h$...' 'H$ algo sim...' 
+IF 16 03 00 15 01 00 02 00 .LABEL2 
+PLAY_SOUND 01 'e04_iku026' 00 
+TEXT N~o h$...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku027' 00 
+TEXT N~o existe...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku028' 00 
+TEXT Na minha mente, o senpai era perfeito...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku029' 00 
+TEXT Sempre falando com uma voz gentil...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku030' 00 
+TEXT Quando eu estava preocupada, ele me ouvia...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku031' 00 
+TEXT Na minha mente, ele era perfeito...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop040' 00 
+TEXT ...Voc[ realmente acha que existe uma pessoa t~o perfeita?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku032' 00 
+TEXT Aquele senpai realmente era essa pessoa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop041' 00 
+TEXT ...Isso % algo que voc[ inventou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku033' 00 
+TEXT Eu n~o estou inventando nada. Era assim que ele era...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop042' 00 
+TEXT ...Isso % algo que voc[ inventou, se agarrando apenas #s partes boas dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku034' 00 
+TEXT Ele era s+ partes boas. N~o havia nada de errado com ele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop043' 00 
+TEXT ...Voc[ s+ quer pensar assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku035' 00 
+TEXT O que mais eu poderia pensar? 
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop044' 00 
+TEXT ...Isso % um pensamento bem f$cil.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop045' 00 
+TEXT ...Um privil%gio especial do seu eu mais superficial.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku036' 00 
+TEXT O que voc[ est$ tentando dizer...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop046' 00 
+TEXT ...Voc[ entende isso, e admite.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku037' 00 
+TEXT Admitir o qu[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop047' 00 
+TEXT ...Olhe para a verdadeira natureza do seu amado senpai.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku038' 00 
+TEXT Como eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop048' 00 
+TEXT ...Escute a voz dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku039' 00 
+TEXT Como eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop049' 00 
+TEXT ...Voc[ n~o consegue ouvir? 
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku040' 00 
+TEXT Eh......? 
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop050' 00 
+TEXT ...Escute, uma voz vulgar de homem...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp000' 00 
+TEXT ...Haaaa... uoooo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku041' 00 
+TEXT O qu[...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp001' 00 
+TEXT ...Haaaaa, incr&vel... essa garota % incr&vel...!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku042' 00 
+TEXT N~o, eu n~o estou ouvindo isso...!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp002' 00 
+TEXT ...Essa garota realmente sabe chupar...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku043' 00 
+TEXT Eu n~o estou ouvindo isso...!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp003' 00 
+TEXT ...Amasawa Ikumi! ...A Amasawa Ikumi est$ chupando o meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp004' 00 
+TEXT ...A garota mais gostosa da escola... Amasawa Ikumi!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp005' 00 
+TEXT ...Eu sempre estive de olho nela, desde que chegou na escola!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp006' 00 
+TEXT ...Fingir ser um bom senpai realmente valeu a pena!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp007' 00 
+TEXT ...S+ de pensar que ela realmente me lambeu!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp008' 00 
+TEXT ...Ela % t~o linda!!! Ela % t~o fofa, porra!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp009' 00 
+TEXT ...E essa gracinha t$ lambendo meu pau com vontade!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp010' 00 
+TEXT ...Ela t$ lambendo tudo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp011' 00 
+TEXT ...Incr&vel!!! Nada poderia ser t~o bom!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp012' 00 
+TEXT ...Aaaahh, t$ passando direto por aqueles l$bios bonitos dela!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp013' 00 
+TEXT ...Meu pau t$ passando por entre aqueles l$bios brilhantes e encharcados de saliva!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp014' 00 
+TEXT ...E a l&ngua dela t$ se contorcendo em volta dele!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp015' 00 
+TEXT ...Sua l&ngua rosa e salivante est$ se contorcendo em volta do meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp016' 00 
+TEXT ...Ela t$ se mexendo tanto!!! Quanto mais meu pau treme para a esquerda e para a direita, mais a l&ngua dela se enrosca nele!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp017' 00 
+TEXT ...E a saliva dela % incr&vel!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp018' 00 
+TEXT ...A saliva que se acumula em sua boca t$ encharcando meu pau e sendo sugada ao mesmo tempo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp019' 00 
+TEXT ...Uuwaaaa!!! Ela est$ indo ainda mais fundo!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp020' 00 
+TEXT ...Seus l$bios est~o ro|ando no meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp021' 00 
+TEXT ...Sua l&ngua ^mida est$ comprimindo meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp022' 00 
+TEXT ...Meu pau t$ entrando e saindo da boca dela!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp023' 00 
+TEXT ...Meu pau t$ coberto de saliva mesmo quando sai de sua boca!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp024' 00 
+TEXT ...Eu nunca vou tirar o cheiro da Ikumi do meu pau!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp025' 00 
+TEXT ...Ikumi!!!! T$ gostando!!? T$ delicioso!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp026' 00 
+TEXT ...Ikumi!!!! Meu pau % t~o delicioso assim!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp027' 00 
+TEXT ...Uuwaaaaa!!! Ser$ que algum dia ela vai parar de lamber!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp028' 00 
+TEXT ...J$ chega!!! N~o aguento mais!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp029' 00 
+TEXT ...Nunca mais vou tirar o cheiro da Ikumi do meu pau!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp030' 00 
+TEXT ...Uuwaaaaaaa!!!! Esse % o meu limite!!!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp031' 00 
+TEXT ...Uuhaaaaaa!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp032' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp033' 00 
+TEXT ......
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp034' 00 
+TEXT ...Uah...... ela t$ bebendo...... Ikumi t$ bebendo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp035' 00 
+TEXT ...Ela t$ engolindo a minha porra...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp036' 00 
+TEXT ...Uwaaa, ela t$ chupando com tanta for|a que meu pau t$ at% doendo...!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp037' 00 
+TEXT ...Simplesmente incr&vel...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp038' 00 
+TEXT ...Ikumi, voc[ % incr&vel!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp039' 00 
+TEXT ...Ikumi... voc[ % uma... vadia... pervertida!!!!
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e04_iku044' 00 
+TEXT U-Uuwaaaaa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop051' 00 
+TEXT ...voc[ est$ entendendo agora?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku045' 00 
+TEXT I-Isso % tudo inven|~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop052' 00 
+TEXT ...E foi voc[ quem inventou tudo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop053' 00 
+TEXT ...E voc[ se sente desconfort$vel por causa disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku046' 00 
+TEXT N~o estou incomodada. N~o tenho nem um pingo de d^vida...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop054' 00 
+TEXT ...Idiota.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku047' 00 
+TEXT Eu n~o sou idiotaaa!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop055' 00 
+TEXT ...Se voc[ n~o consegue admitir isso, ent~o n~o poder$ se salvar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku048' 00 
+TEXT N~o preciso me salvar!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop056' 00 
+TEXT ...Ent~o isso vai durar para sempre.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop057' 00 
+TEXT ...Esse sofrimento.
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL3 
+
+:LABEL2
+PLAY_SOUND 01 'e04_iku049' 00 
+TEXT Sim..... pode haver...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop058' 00 
+TEXT ...@ isso mesmo. O que % isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku050' 00 
+TEXT O senpai era perfeito em minha mente...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku051' 00 
+TEXT Sempre falando com uma voz gentil...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku052' 00 
+TEXT Quando eu estava preocupada, ele me ouvia...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku053' 00 
+TEXT Em minha mente, ele era perfeito...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop059' 00 
+TEXT ...Sim. Mas esse % um &dolo que voc[ criou empurrando para baixo as partes ruins.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop060' 00 
+TEXT ...Ent~o, o que voc[ empurrou para baixo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku054' 00 
+TEXT As partes do senpai...... que eu n~o gostei...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop061' 00 
+TEXT ...Sim. Voc[ as empurrou para baixo quando olhou para o senpai.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop062' 00 
+TEXT ... Isso foi uma coisa agrad$vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop063' 00 
+TEXT ...Um privil%gio especial de seu eu mais externo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku055' 00 
+TEXT O que voc[ est$ tentando dizer...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop064' 00 
+TEXT ...Voc[ o empurrou para baixo e o trancou para que se tornasse apenas nosso sofrimento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop065' 00 
+TEXT ...Ent~o voc[ deve ouvir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop066' 00 
+TEXT ...Ou|a a voz dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku056' 00 
+TEXT De quem...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop067' 00 
+TEXT ...A voz de seu amado senpai.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop048' 00 
+TEXT ...Ou|a a voz dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku057' 00 
+TEXT Como fa|o para...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop049' 00 
+TEXT ...Voc[ n~o consegue ouvir?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku058' 00 
+TEXT Eh......?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop050' 00 
+TEXT ...Ou|a, uma voz masculina vulgar...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp000' 00 
+TEXT ...Uhaaa... uhooo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku059' 00 
+TEXT O qu[...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp001' 00 
+TEXT ...Haaaaa, incr&vel... essa garota % incr&vel...!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku060' 00 
+TEXT Ah...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp002' 00 
+TEXT ...Essa garota sabe mesmo lamber...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku061' 00 
+TEXT Eu consigo ouvir......
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp003' 00 
+TEXT ...Amasawa Ikumi! ...A Amasawa Ikumi t$ lambendo meu pau!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp004' 00 
+TEXT ...A garota mais gostosa da escola... Amasawa Ikumi!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp005' 00 
+TEXT ...Eu sempre quis comer ela desde que entrou na escola!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp006' 00 
+TEXT ...Fingir ser um bom senpai realmente valeu a pena!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp007' 00 
+TEXT ...S+ de pensar que ela realmente t$ me chupando!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp008' 00 
+TEXT ...Ela % t~o linda!!! Ela % t~o fofa, porra!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp009' 00 
+TEXT ...E essa gracinha t$ lambendo meu pau com vontade!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp010' 00 
+TEXT ...Ela t$ devorando tudo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp011' 00 
+TEXT ...Incr&vel!!! Nada poderia ser melhor!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp012' 00 
+TEXT ...Aaaahh, meu pau t$ dentro da boquinha dela!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp013' 00 
+TEXT ...Meu pau t$ passando entre aqueles l$bios brilhantes e molhados!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp014' 00 
+TEXT ...E a l&ngua dela t$ se contorcendo em volta dele!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp015' 00 
+TEXT ...Sua l&ngua rosa e quente t$ se contorcendo em volta do meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp016' 00 
+TEXT ...Ela t$ se mexendo tanto!!! Quanto mais meu pau treme pra esquerda e pra direita, mais a l&ngua dela se enrosca nele!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp017' 00 
+TEXT ...E mais uma vez, a saliva dela % incr&vel!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp018' 00 
+TEXT ...A saliva que se acumula em sua boca t$ encharcando meu pau duro e sendo sugada ao mesmo tempo!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp019' 00 
+TEXT ...Uuwaaaa!!! Ela t$ indo ainda mais fundo!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp020' 00 
+TEXT ...Seus l$bios est~o ro|ando no meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp021' 00 
+TEXT ...Sua l&ngua molhada t$ apertando meu pau!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp022' 00 
+TEXT ...Meu pau t$ entrando e saindo da boquinha dela!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp023' 00 
+TEXT ...Meu pau t$ coberto de saliva mesmo quando sai da boca dela!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp024' 00 
+TEXT ...Eu nunca mais vou lavar o meu pau, pra n~o tirar o cheiro da Ikumi!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp025' 00 
+TEXT ...Ikumi!! T$ gostoso!!? @ t~o delicioso assim!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp026' 00 
+TEXT ...Ikumi!!! Meu pau % t$ delicioso assim!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp027' 00 
+TEXT ...Uuwaaaaa!!! Ser$ que algum dia ela vai parar de lamber!!!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp028' 00 
+TEXT ...J$ chega!!! N~o aguento mais!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp029' 00 
+TEXT ...Nunca mais vou tirar o cheiro da Ikumi do meu pau!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp030' 00 
+TEXT ...Uuwaaaaaaa!!!! Esse % o meu limite!!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp031' 00 
+TEXT ...Uuhaaaa!!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp032' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp033' 00 
+TEXT ......
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp034' 00 
+TEXT ...Uuahhhh...... ela t$ engolindo...... Ikumi t$ engolindo tudo...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp035' 00 
+TEXT ...Ela t$ engolindo a minha porra...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp036' 00 
+TEXT ...Uuwaaaha, ela t$ chupando com tanta for|a que meu pau t$ at% doendo...!!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp037' 00 
+TEXT ...Simplesmente incr&vel...
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp038' 00 
+TEXT ...Ikumi, voc[ % incr&vel!!!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_snp039' 00 
+TEXT ...Ikumi, voc[ % uma safada pervertida!!!!
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e04_iku062' 00 
+TEXT Uuaaahh...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop068' 00 
+TEXT ...Voc[ est$ entendendo agora?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku063' 00 
+TEXT Eu sabia disso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop069' 00 
+TEXT ...Sim. Voc[ sabia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku064' 00 
+TEXT Eu tinha dado prazer para um homem vulgar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku065' 00 
+TEXT E n~o ganhei nada com isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop070' 00 
+TEXT ...Sim. @ isso mesmo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop071' 00 
+TEXT ...Incrivelmente tola. Voc[ foi incrivelmente idiota.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop072' 00 
+TEXT ...Certo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku066' 00 
+TEXT Sim. Uma idiota...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop073' 00 
+TEXT ...Sim. Voc[ se salvar$ se continuar admitindo coisas como essa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku067' 00 
+TEXT Idiota...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop074' 00 
+TEXT ...Sim. Idiota.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku068' 00 
+TEXT Idiota...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_dop075' 00 
+TEXT ...Idiota.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e04_iku069' 00 
+TEXT Idiota...
+STOP_SOUND 01 
+X_08 0014 0001 
+
+:LABEL3
+RETURN 
+EOF 

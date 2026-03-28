@@ -1,0 +1,249 @@
+
+# MOON SCRIPT FILE "PR_D16.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0005 
+SETSTATUS ' Dia 16Å@Å|Å|Å@Interior das Instala|/es'
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay16' 
+X_56 00 005F 0017 
+X_3E 02 73 'isetu' 
+X_56 02 00BE 0017 
+X_3E 01 74 'ime6' 
+X_56 01 0096 0017 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'PR' 
+X_24 00 
+X_25 06 
+X_00 0007 0007 
+X_01 0006 0009 
+IF 16 09 00 15 0D 00 02 00 .LABEL0 
+JMP .LABEL1 
+JMP .LABEL1 
+
+:LABEL0
+IF 16 09 00 15 35 00 02 00 .LABEL3 
+JMP .LABEL4 
+JMP .LABEL1 
+
+:LABEL3
+IF 16 09 00 15 44 00 02 00 .LABEL6 
+JMP .LABEL7 
+JMP .LABEL1 
+
+:LABEL6
+IF 16 09 00 15 11 00 02 00 .LABEL9 
+JMP .LABEL10 
+JMP .LABEL1 
+
+:LABEL9
+IF 16 09 00 15 45 00 02 00 .LABEL1 
+JMP .LABEL13 
+
+:LABEL1
+X_01 0006 0009 
+IF 16 85 00 15 00 00 02 00 .LABEL14 
+TEXT Tenho quase certeza de que foi aqui que me trancaram...  
+TEXT O que estou fazendo de volta aqui...?
+X_00 0085 0001 
+
+:LABEL14
+X_52 0175 00BC 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(--)---:---' '(Å® )Leste: Porta' '(Å´ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL15 
+TEXT Uma porta.
+JMP .LABEL16 
+
+:LABEL15
+IF 16 03 00 15 03 00 02 00 .LABEL17 
+TEXT Abri a porta silenciosamente, confirmei que n~o havia patrulheiros por perto e passei despercebida.
+X_00 0009 0009 
+GOTO_SCRIPT 'JO_D16' 
+JMP .LABEL16 
+
+:LABEL17
+IF 16 03 00 15 04 00 02 00 .LABEL16 
+IF 17 8F 00 15 01 00 02 16 8A 00 15 00 00 02 0F 00 .LABEL20 
+PLAY_SOUND 01 '105_iku031' 00 
+TEXT Ikumi: (Ah...)
+STOP_SOUND 01 
+TEXT Tive sorte de conseguir falar com o garoto mais cedo...
+TEXT Eu tinha visto um guarda na frente da cela e recuei.
+TEXT N~o posso mais falar com aquele garoto...
+TEXT N~o...
+TEXT S+ preciso remover as algemas da ra|a dele.
+PLAY_SOUND 01 '105_iku032' 00 
+TEXT Ikumi: (Se eu fizer isso, acabaremos conversando de novo mesmo que eu n~o queira...)
+STOP_SOUND 01 
+TEXT Ent~o agora eu devo ir para o subterr}neo.
+X_00 008A 0001 
+JMP .LABEL21 
+
+:LABEL20
+IF 17 8F 00 15 01 00 02 16 8A 00 15 01 00 02 0F 00 .LABEL22 
+TEXT Sem chance...... o guarda est$ l$...
+TEXT Preciso encontrar a entrada para o subterr}neo sozinha.
+JMP .LABEL21 
+
+:LABEL22
+X_00 0009 0045 
+JMP .LABEL13 
+
+:LABEL21
+JMP .LABEL16 
+
+:LABEL16
+JMP .LABEL14 
+
+:LABEL13
+X_01 0006 0009 
+IF 16 86 00 15 00 00 02 00 .LABEL27 
+X_52 0175 00E2 
+X_51 01 
+X_25 01 
+TEXT As celas estavam alinhadas em uma fileira...
+TEXT Tenho quase certeza de que a mais distante era a minha...
+X_00 0086 0001 
+
+:LABEL27
+X_52 0175 00E2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Cela' '(--)---:---' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL28 
+TEXT N~o tem nada aqui.
+JMP .LABEL29 
+
+:LABEL28
+IF 16 03 00 15 01 00 02 00 .LABEL30 
+X_00 0009 000D 
+JMP .LABEL1 
+JMP .LABEL29 
+
+:LABEL30
+IF 16 03 00 15 02 00 02 00 .LABEL29 
+X_00 0009 0011 
+JMP .LABEL10 
+JMP .LABEL29 
+
+:LABEL29
+JMP .LABEL27 
+
+:LABEL10
+X_01 0006 0009 
+IF 16 87 00 15 00 00 02 00 .LABEL37 
+X_52 014F 00E2 
+X_51 01 
+X_25 01 
+TEXT Muito silencioso...
+TEXT Espiei cuidadosamente a primeira cela: estava vazia.
+X_00 0087 0001 
+
+:LABEL37
+X_52 014F 00E2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Cela' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL38 
+TEXT N~o tem ningu%m nesta cela.
+JMP .LABEL39 
+
+:LABEL38
+IF 16 03 00 15 02 00 02 00 .LABEL40 
+X_00 0009 0044 
+JMP .LABEL7 
+JMP .LABEL39 
+
+:LABEL40
+IF 16 03 00 15 03 00 02 00 .LABEL39 
+X_00 0009 0045 
+JMP .LABEL13 
+JMP .LABEL39 
+
+:LABEL39
+JMP .LABEL37 
+
+:LABEL7
+X_01 0006 0009 
+IF 16 88 00 15 00 00 02 00 .LABEL47 
+X_52 0129 00E2 
+X_51 01 
+X_25 01 
+TEXT A segunda cela...
+TEXT Vazia tamb%m.
+X_00 0088 0001 
+
+:LABEL47
+X_52 0129 00E2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Cela' '(Å® )Leste: Cela' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL48 
+TEXT N~o tem ningu%m nesta cela.
+JMP .LABEL49 
+
+:LABEL48
+IF 16 03 00 15 02 00 02 00 .LABEL50 
+X_00 0009 0035 
+JMP .LABEL4 
+JMP .LABEL49 
+
+:LABEL50
+IF 16 03 00 15 03 00 02 00 .LABEL49 
+X_00 0009 0011 
+JMP .LABEL10 
+JMP .LABEL49 
+
+:LABEL49
+JMP .LABEL47 
+
+:LABEL4
+X_01 0006 0009 
+IF 17 8C 00 15 00 00 02 00 .LABEL57 
+X_52 0103 00E2 
+X_51 01 
+X_25 01 
+TEXT A terceira cela...  
+TEXT L$ estava ele.
+X_51 00 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+
+:LABEL57
+X_52 0103 00E2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(--)---:---' '(Å® )Leste: Cela' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL58 
+TEXT N~o tem ningu%m nesta cela.
+JMP .LABEL59 
+
+:LABEL58
+IF 16 03 00 15 03 00 02 00 .LABEL59 
+X_00 0009 0044 
+JMP .LABEL7 
+JMP .LABEL59 
+
+:LABEL59
+JMP .LABEL57 
+EOF 

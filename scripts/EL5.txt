@@ -1,0 +1,1191 @@
+
+# MOON SCRIPT FILE "EL5.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_dop000' 00 
+TEXT ...Voc[ % uma garota pervertida. J$ se conformou com isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku000' 00 
+TEXT "Voc[ n~o perde tempo, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop001' 00 
+TEXT ...Voc[ % uma garota pervertida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop002' 00 
+TEXT ...Voc[ sofreu feridas profundas por ser assim, certo?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Eu sei disso' 'Isso n~o % verdade' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 'e05_iku001' 00 
+TEXT Eu sei......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku002' 00 
+TEXT Eu me lembro disso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku003' 00 
+TEXT Eu me lembro em detalhes...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop003' 00 
+TEXT ...Ent~o relembre isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku004' 00 
+TEXT Mas n~o foi porque eu era pervertida!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku005' 00 
+TEXT Muitas raz/es se juntaram ao mesmo tempo... e...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop004' 00 
+TEXT ...E ele fugiu de voc[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku006' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop005' 00 
+TEXT ...E qual foi o motivo desse resultado?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku007' 00 
+TEXT @ algo que...... n~o pode ser facilmente compreendido...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop006' 00 
+TEXT ...Voc[ n~o consegue compreender porque esqueceu o motivo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku008' 00 
+TEXT Eu n~o esqueci!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop007' 00 
+TEXT ...Qual foi o motivo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku009' 00 
+TEXT Eu... Eu n~o estava dando aten|~o suficiente...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku010' 00 
+TEXT Eu estava sempre fazendo atletismo e, por causa do treinamento...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku011' 00 
+TEXT N~o havia muito tempo para passarmos juntos...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop008' 00 
+TEXT ...E quando tiveram tempo para ficar juntos, voc[s fizeram aquilo e tudo acabou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku012' 00 
+TEXT Essa foi a consequ[ncia natural dos acontecimentos!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop009' 00 
+TEXT ...Voc[ pediu por isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku013' 00 
+TEXT N~o, eu n~o pedi!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop010' 00 
+TEXT ...Ent~o voc[ deve relembrar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop011' 00 
+TEXT ...E aprender o qu~o pervertida voc[ realmente %.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop012' 00 
+TEXT ...Voc[ tem que se tornar a voc[ que existia naquele momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop013' 00 
+TEXT ...Mas o destino n~o mudar$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop014' 00 
+TEXT ...Voc[ deve repetir aqueles mesmos eventos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop015' 00 
+TEXT ...E voc[ n~o vai mais esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop016' 00 
+TEXT ...O qu~o pervertida voc[ realmente era naquela %poca.
+STOP_SOUND 01 
+JMP .LABEL1 
+
+:LABEL0
+PLAY_SOUND 01 'e05_iku014' 00 
+TEXT N~o!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku015' 00 
+TEXT N~o foi porque eu era pervertida!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop017' 00 
+TEXT ...Voc[ n~o est$ admitindo isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku005' 00 
+TEXT Muitas coisas aconteceram ao mesmo tempo... e...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop004' 00 
+TEXT ...E ele fugiu de voc[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku006' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop005' 00 
+TEXT ...E qual foi o motivo para isso acontecer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku007' 00 
+TEXT Ele...... n~o pode ser facilmente compreendido...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop006' 00 
+TEXT ...Voc[ n~o consegue compreender porque se esqueceu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku008' 00 
+TEXT Eu n~o esqueci!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop007' 00 
+TEXT ...Qual foi o motivo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku009' 00 
+TEXT Eu... eu n~o estava dando aten|~o suficiente...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku010' 00 
+TEXT Eu estava sempre fazendo atletismo e, por causa de todo o treinamento...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku011' 00 
+TEXT N~o sobrava muito tempo para ficarmos juntos...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop008' 00 
+TEXT ...E quando tinham tempo, voc~s ficavam juntos mas tudo acabou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku012' 00 
+TEXT Foi o fluxo natural dos acontecimentos!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop009' 00 
+TEXT ...Voc[ queria isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku013' 00 
+TEXT N~o, eu n~o queria!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop010' 00 
+TEXT ...Ent~o voc[ deve relembrar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop011' 00 
+TEXT ...E aprender com esse corpo o qu~o pervertida voc[ realmente %.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop012' 00 
+TEXT ...Voc[ deve se tornar o voc[ daquele dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop013' 00 
+TEXT ...Mas o destino n~o mudar[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop014' 00 
+TEXT ...Voc[ deve repetir aqueles mesmos eventos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop015' 00 
+TEXT ...E voc[ n~o vai mais esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop016' 00 
+TEXT ...O qu~o pervertida voc[ realmente era naquela %poca.
+STOP_SOUND 01 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se84' 00 
+TEXT *Jii* *Jii* *Jii*
+TEXT Est$ t~o quente hoje...
+TEXT O treino foi muito chato...
+TEXT Eu tava suando horrores...
+TEXT Pela primeira vez o treino foi encerrado antes do meio-dia...
+TEXT Fiquei feliz...
+TEXT Por causa disso, acabei visitando a casa de Aida-kun.
+PLAY_SOUND 01 'se84' 00 
+TEXT *Jii* *Jii* *Jii*
+TEXT Mas ainda est$ quente...
+TEXT @ tudo culpa desse calor...
+TEXT Incluindo eu entrar no clima.
+TEXT Como o Aida-kun n~o ligou o ar-condicionado, achei que ele estava tentando me deixar com calor.
+PLAY_SOUND 01 'se84' 00 
+TEXT *Jii* *Jii* *Jii*
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid000' 00 
+TEXT "Aqui est$."
+STOP_SOUND 01 
+TEXT Aida-kun trouxe ch$ de cevada gelado.
+TEXT Quando ele me entregou uma x&cara, eu puxei seu bra|o.
+PLAY_SOUND 01 '000_aid001' 00 
+TEXT "Uwaa!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se86' 00 
+TEXT *Pleft!*
+TEXT A x&cara caiu do pires e se espalhou pelo ch~o, mas n~o me importei.
+TEXT Puxei Aida-kun para a cama, forcei ele a se sentar ao meu lado e coloquei minhas m~os em suas bochechas.
+PLAY_SOUND 01 '000_aid002' 00 
+TEXT "A-Amasawa-san, o que voc[..."
+STOP_SOUND 01 
+TEXT Coloquei minha boca aberta contra a dele.
+BACKGROUND 'FG105' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku016' 00 
+TEXT "Nmm......"
+STOP_SOUND 01 
+TEXT Minha l&ngua deslizou para dentro dos l$bios fechados de Aida-kun.
+TEXT Em seguida, encontrei a l&ngua dele e a contorci persistentemente.
+TEXT Est$ vendo como minha l&ngua se move bem?
+TEXT Chupei com for|a a l&ngua de Aida-kun at% que entrasse totalmente em minha boca.
+TEXT Pressionei ela suavemente com meus l$bios.
+TEXT Chupe minha l&ngua.
+TEXT Depois, vou deixar voc[ beber isso.
+TEXT Movi a saliva acumulada com a l&ngua, fazendo-a fluir para a boca de Aida-kun.
+TEXT Viu, minha saliva n~o % deliciosa?
+TEXT Ent~o, minha l&ngua contornou o interior da boca de Aida-kun, que agora estava cheia da minha saliva.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock tchock...*
+TEXT Est$ fazendo um som.
+TEXT Entre as nossas bocas enrugadas, saiu um som pervertido.
+PLAY_SOUND 01 'e05_iku017' 00 
+TEXT "Mmu..."
+STOP_SOUND 01 
+TEXT Eu me afastei para respirar, e um fio brilhante caiu de nossos l$bios.
+PLAY_SOUND 01 'e05_iku018' 00 
+TEXT "Ei, t$ gostoso?"
+STOP_SOUND 01 
+TEXT Eu tinha que dizer em voz alta o que havia pensado em meu cora|~o.
+PLAY_SOUND 01 'e05_iku019' 00 
+TEXT "Ei, minha saliva est$ gostosa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid003' 00 
+TEXT "Eu... o que voc[ quer que eu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku020' 00 
+TEXT "Aida-kun, voc[ n~o bebeu muito da minha saliva?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid004' 00 
+TEXT "Eu... bebi, mas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku021' 00 
+TEXT "Aida-kun, sua boca est$ fedendo # minha saliva..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid005' 00 
+TEXT "Voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku022' 00 
+TEXT "Voc[ quer mais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid006' 00 
+TEXT "N-N~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku023' 00 
+TEXT "Ou voc[ quer isso depois?"
+STOP_SOUND 01 
+TEXT Coloquei uma das m~os no meu short.
+TEXT Coloquei meus dedos no meio das minhas pernas, que j$ estavam molhadas, e comecei a mov[-los.
+TEXT E ent~o empurrei os dedos para dentro da minha calcinha.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Frosh...*
+TEXT Eu a abri e enterrei meus dedos dentro dela.
+PLAY_SOUND 01 'e05_iku024' 00 
+TEXT "Haa..."
+STOP_SOUND 01 
+TEXT Puxei meus dedos para fora, respingando meus fluidos corporais.
+TEXT As secre|/es escorreram pelos meus dedos at% as costas da minha m~o.
+PLAY_SOUND 01 'e05_iku025' 00 
+TEXT "Veja, aqui tem mais..."
+STOP_SOUND 01 
+TEXT Estendi meus dedos brilhantes na cara do Aida-kun.
+PLAY_SOUND 01 'e05_iku026' 00 
+TEXT "Quer lamber isso tamb%m? Quer sentir o gosto?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid007' 00 
+TEXT "Est$... est$ tudo bem..."
+STOP_SOUND 01 
+TEXT Aida-kun ainda n~o estava sendo honesto.
+PLAY_SOUND 01 'e05_iku027' 00 
+TEXT "Ei, este % o meu fluido vaginal, a secre|~o do buraco mais pervertido de uma mulher."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku028' 00 
+TEXT "Ainda est$ quente. Este % o meu fluido cru e pervertido."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku029' 00 
+TEXT "Voc[ n~o quer lamber, provar?"
+STOP_SOUND 01 
+TEXT Quando os l$bios de Aida-kun se abriram naturalmente, eu enfiei meus dedos lentamente.
+TEXT E meus dedos se enrolaram na l&ngua dele, fazendo-o sentir o gosto do meu suco vaginal.
+PLAY_SOUND 01 'e05_iku030' 00 
+TEXT "Viu? Esse % o gosto do meu lugar mais secreto. N~o % delicioso?"
+STOP_SOUND 01 
+TEXT Ele j$ tinha bebido bastante dos meus fluidos, ent~o tirei meus dedos.
+PLAY_SOUND 01 'e05_iku031' 00 
+TEXT "De qual voc[ gostou mais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku032' 00 
+TEXT "Minha saliva ou meu fluido vaginal. Qual estava mais gostoso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid008' 00 
+TEXT "Os dois eram..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku033' 00 
+TEXT "Os dois estavam deliciosos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid009' 00 
+TEXT "N~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku034' 00 
+TEXT "Ent~o vou deixar voc[ lamber diretamente."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku035' 00 
+TEXT "E eu vou lamber o do Aida-kun tamb%m."
+STOP_SOUND 01 
+TEXT Eu me deitei sobre ele.
+BACKGROUND 'FG106' 
+X_24 00 
+X_25 06 
+TEXT Tirei o p[nis do Aida-kun pra fora e o devorei de uma vez.
+PLAY_SOUND 01 '000_aid010' 00 
+TEXT "Uwaa...!!"
+STOP_SOUND 01 
+TEXT Ele ficou louco.
+TEXT Compreens&vel ele ficar duro de repente.
+TEXT Apertei meus l$bios com for|a e chupei o pau de Aida-kun como se fosse um picol% delicioso.
+PLAY_SOUND 01 '000_aid011' 00 
+TEXT "A-Ai, Amasawa-san!!! N~o morda!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku036' 00 
+TEXT "Mas % delicioso. O p[nis do Aida-kun % gostoso demais!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se58' 00 
+TEXT *Sluuurp sluuurp...*
+TEXT Continuei chupando o pau de Aida-kun.
+PLAY_SOUND 01 'e05_iku037' 00 
+TEXT "Ei, me chupa tamb%m!! @ gostoso, tamb%m quero!!"
+STOP_SOUND 01 
+TEXT Abri minhas pernas e a empurrei para o rosto de Aida-kun.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Sluuurp sluuurp...*
+TEXT A sensa|~o de Aida-kun me lambendo ali.
+PLAY_SOUND 01 'e05_iku038' 00 
+TEXT "Hmm... n~o % delicioso? Continue lambendo a&!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Sluuurp sluuurp...*
+PLAY_SOUND 01 'e05_iku039' 00 
+TEXT "Haaau...!"
+STOP_SOUND 01 
+TEXT Eu n~o podia me soltar agora. Devorei o p[nis do Aida-kun at% que sua ponta tocasse no fundo da minha garganta e chupei com for|a.
+TEXT Ao mesmo tempo, a l&ngua de Aida-kun se arrastou sobre minha parte mais sens&vel.
+PLAY_SOUND 01 'e05_iku040' 00 
+TEXT "Aaa...... a&... nessa parte!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid012' 00 
+TEXT "Essa parte em forma de feij~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku041' 00 
+TEXT "Sim...... Aaaahhhhhh...!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku042' 00 
+TEXT "N~o pare...! Quero que mexa com sua l&ngua a&!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid013' 00 
+TEXT "Como... assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku043' 00 
+TEXT "Haau... sim... assim...!"
+STOP_SOUND 01 
+TEXT Em troca, concentrei meu ataque na parte mais sens&vel de Aida-kun.
+PLAY_SOUND 01 '000_aid014' 00 
+TEXT "Guwah... Amasawa-san, a& n~o!!"
+STOP_SOUND 01 
+TEXT Acariciei persistentemente a abertura do seu trato urin$rio com a minha l&ngua.
+PLAY_SOUND 01 'e05_iku044' 00 
+TEXT "Ei, Aida-kun, quer colocar isso dentro de mim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku045' 00 
+TEXT "Voc[ quer colocar isso a& dentro, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku046' 00 
+TEXT "Quer colocar... porque sabe que vai ser gostoso, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid015' 00 
+TEXT "N... N~o... isso seria..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku047' 00 
+TEXT "Est$ tudo bem... Pode colocar."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku048' 00 
+TEXT "Eu tamb%m vou me sentir bem! Vem, coloque!!"
+STOP_SOUND 01 
+TEXT Mudei de posi|~o para transar com Aida-kun. Agarrei o pau dele, pingando saliva, e meti na minha vagina.
+BACKGROUND 'FG107' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku049' 00 
+TEXT "Ok, t$ entrando. O p[nis do Aida-kun t$ entrando na minha vagina. Olha s+!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid016' 00 
+TEXT "E-Est$... Est$ entrando..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock...*
+PLAY_SOUND 01 'e05_iku050' 00 
+TEXT "Ei, s+ a cabe|a est$ entrando. S+ a ponta est$ quente... consegue ver?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid017' 00 
+TEXT "T-T{ vendo...... t$ entrando na Amasawa-san..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock *Tchock*
+PLAY_SOUND 01 'e05_iku051' 00 
+TEXT "Veja, entrou mais... Ainda tem mais..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock *Tchock* *Tchock*
+PLAY_SOUND 01 'e05_iku052' 00 
+TEXT "Veja, entrou tudo! O pau do Aida-kun t$ me fodendo! T$ vendo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid018' 00 
+TEXT "T{ vendo! ......t$ dentro de Amasawa-san!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku053' 00 
+TEXT "Ei, sinta isso!!"
+STOP_SOUND 01 
+TEXT Peguei a m~o do Aida-kun e a coloquei entre os dois +rg~os genitais.
+PLAY_SOUND 01 'e05_iku054' 00 
+TEXT "Viu, n~o tem espa|o nenhum? Entrou tudo!!"
+STOP_SOUND 01 
+TEXT Puxei os quadris para cima, parando um pouco antes de sair completamente.
+PLAY_SOUND 01 'e05_iku055' 00 
+TEXT "Veja, o pau do Aida-kun t$ me fodendo, t$ todo molhado!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku056' 00 
+TEXT "Vou colocar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid019' 00 
+TEXT "Uwaaa...!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchooock!!*
+TEXT Mais uma vez, seu p[nis se escondeu dentro da minha vagina.
+PLAY_SOUND 01 'e05_iku057' 00 
+TEXT "Veja, entrou!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku058' 00 
+TEXT "Vou puxar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuck!*
+TEXT O p[nis molhado de Aida-kun apareceu.
+PLAY_SOUND 01 'e05_iku059' 00 
+TEXT "Vou colocar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid020' 00 
+TEXT "Espere...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchooock!!*
+PLAY_SOUND 01 '000_aid021' 00 
+TEXT "Uaaaa!!"
+STOP_SOUND 01 
+TEXT Comecei a repetir esse movimento para cima e para baixo sem pausa.
+PLAY_SOUND 01 'se58' 00 
+TEXT *Tchuck!*...*Tchock!*...*Tchuck!*...!
+TEXT Esse processo produziu v$rios sons pervertidos.
+PLAY_SOUND 01 'e05_iku060' 00 
+TEXT "Que sensa|~o incr&vel!!! Aida-kun, voc[ tamb%m t$ sentindo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid022' 00 
+TEXT "Ah... Amasawa-san... Eu...!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku061' 00 
+TEXT "Voc[ vai gozar!? Vai, goza dentro de mim!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid023' 00 
+TEXT "Aaaaaaa...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku062' 00 
+TEXT "Aida-kun, realize seu desejo!! Realize seus desejos dentro de mim!!"
+STOP_SOUND 01 
+TEXT A essa altura, eu estava mexendo os quadris sem pensar.
+TEXT O suor escorria, junto com v$rios outros fluidos.
+PLAY_SOUND 01 '000_aid024' 00 
+TEXT "Uuaaaaaaaaaaaa!!"
+STOP_SOUND 01 
+TEXT Aida-kun atingiu seu cl&max.
+TEXT Apertei a minha vagina como se quisesse decepar o seu p[nis.
+TEXT *Tchuck!* *Tchock!*
+PLAY_SOUND 01 'e05_iku063' 00 
+TEXT "Est$ chegando! O esperma do Aida-kun est$ chegando dentro de mim!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid025' 00 
+TEXT "Gaaaaaa!!"
+STOP_SOUND 01 
+TEXT Ele liberou tudo e desmaiou.
+PLAY_SOUND 01 'e05_iku064' 00 
+TEXT "Aida-kun, foi bom pra voc[?"
+STOP_SOUND 01 
+TEXT Perguntei enquanto limpava distraidamente o p[nis dele com um len|o de papel.
+PLAY_SOUND 01 'e05_iku065' 00 
+TEXT "Eu tamb%m me senti bem."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku066' 00 
+TEXT "Ent~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku067' 00 
+TEXT "Vamos fazer isso de novo!?"
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_dop018' 00 
+TEXT ...Qualquer um ficaria decepcionado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku068' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop019' 00 
+TEXT ...H$ quanto tempo voc[s estavam namorando?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku069' 00 
+TEXT Um...... um m[s...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop020' 00 
+TEXT ...At% onde voc[s tinham ido antes disso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku070' 00 
+TEXT Apenas um beijo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop021' 00 
+TEXT ...Voc[s chuparam a l&ngua um do outro?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku071' 00 
+TEXT N~o...... foi s+ um selinho...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop022' 00 
+TEXT ...E, de repente, voc[ tocou o terror...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku072' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop023' 00 
+TEXT ...Imprudente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop024' 00 
+TEXT ...N~o me admira que ele tenha te dado um p% na bunda.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop025' 00 
+TEXT ...Ele era realmente um cara gentil.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop026' 00 
+TEXT ...Apesar dele ser a pessoa honesta que voc[ desejava.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku073' 00 
+TEXT Sim, ele era uma pessoa honesta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku074' 00 
+TEXT Mas esse n~o foi o ^nico motivo pelo qual ele me deixou!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku075' 00 
+TEXT Al%m disso, ele deve ter gostado do que eu fiz!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku076' 00 
+TEXT Ele era lento e, apesar de termos nos beijado, nunca usou a l&ngua.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku077' 00 
+TEXT Ent~o, eu lhe dei tudo. Tudo de uma vez!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku078' 00 
+TEXT Ele pode ter ficado sem jeito, mas certamente gostou!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku079' 00 
+TEXT Afinal, por mais lerdos que sejam, todo homem % um pervertido!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku080' 00 
+TEXT Tenho certeza que ele adorou todas as coisas pervertidas que fiz!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku081' 00 
+TEXT Qualquer garoto adoraria!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku082' 00 
+TEXT Fala s%rio... quem n~o ia querer fazer isso com uma namorada t~o bonita?!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku083' 00 
+TEXT Nesse ponto, eu fui uma boa namorada!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku084' 00 
+TEXT O motivo foi outro...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku085' 00 
+TEXT Alguma outra coisa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku086' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop027' 00 
+TEXT ...J$ terminou?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku087' 00 
+TEXT O que foi agora...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop028' 00 
+TEXT ...J$ disse tudo o que queria?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku088' 00 
+TEXT O que voc[ quer dizer com isso...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop029' 00 
+TEXT ...Voc[ precisa entender sua pr+pria d^vida. Encare a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku089' 00 
+TEXT .........
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Eu n~o preciso que me diga isso' 'Ent~o me mostre essa verdade' 
+IF 16 03 00 15 01 00 02 00 .LABEL2 
+PLAY_SOUND 01 'e05_iku090' 00 
+TEXT N~o precisa ficar jogando isso na minha cara.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop030' 00 
+TEXT ...@ mesmo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku091' 00 
+TEXT Na verdade... eu percebo como voc[ est$ pensando... como o seu eu mais profundo lida com isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop031' 00 
+TEXT ...Parece que finalmente voc[ come|ou a entender o que n+s somos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku092' 00 
+TEXT No fundo, voc[... ou melhor, eu penso assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku093' 00 
+TEXT E isso... % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku094' 00 
+TEXT Ele era mesmo... uma pessoa boa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku095' 00 
+TEXT Ele era t~o puro... t~o sincero...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku096' 00 
+TEXT Fez uma promessa a si mesmo de nunca passar de um beijo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku097' 00 
+TEXT Ele se importava de verdade comigo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku098' 00 
+TEXT Me amava de verdade...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku099' 00 
+TEXT E eu... eu destru& tudo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku100' 00 
+TEXT Esmaguei a boa vontade dele no ch~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku101' 00 
+TEXT Naquela tarde, tudo dentro dele desmoronou...
+STOP_SOUND 01 
+BACKGROUND 'FG105' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku102' 00 
+TEXT Eu planejava terminar apenas com um beijo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku103' 00 
+TEXT Mas naquela hora, no calor do momento, eu n~o consegui me controlar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku104' 00 
+TEXT Eu queria trocar saliva com ele, custe o que custasse.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku105' 00 
+TEXT Mas quando enfiei a l&ngua e senti o gosto dele, j$ era.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku106' 00 
+TEXT Comecei a querer fazer ele beber aquilo, de qualquer jeito.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku107' 00 
+TEXT Forcei meus dedos na boca dele.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku108' 00 
+TEXT E comecei a querer ele n~o s+ pela metade, mas inteiro.
+STOP_SOUND 01 
+BACKGROUND 'FG106' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku109' 00 
+TEXT Eu queria lamber ele todinho, e queria que ele me lambesse tamb%m...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku110' 00 
+TEXT E ent~o, eu quis sentir ele dentro de mim.
+STOP_SOUND 01 
+BACKGROUND 'FG107' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku111' 00 
+TEXT Sentei em cima dele e nos tornamos um s+...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku112' 00 
+TEXT N~o havia mais nada a fazer a n~o ser ir com tudo at% o fim.
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku113' 00 
+TEXT No fim, eu n~o fiz nada mais do que usar o corpo dele para me sentir bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku114' 00 
+TEXT E o pre|o que paguei, foi perd[-lo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop032' 00 
+TEXT ...@ isso mesmo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku115' 00 
+TEXT Isso d+i...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku116' 00 
+TEXT Est$ doendo muito...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop033' 00 
+TEXT ...Sim, tem que doer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop034' 00 
+TEXT ...Mas essa dor vai nos salvar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop035' 00 
+TEXT ...Essa dor vai salvar voc[.
+STOP_SOUND 01 
+X_08 0014 0001 
+JMP .LABEL3 
+
+:LABEL2
+PLAY_SOUND 01 'e05_iku117' 00 
+TEXT Ent~o me mostre essa verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku118' 00 
+TEXT N~o, isso nem % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku119' 00 
+TEXT @ uma hist+ria que voc[ inventou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop036' 00 
+TEXT ...Voc[ n~o entende.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop037' 00 
+TEXT ...Bem, % compreens&vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop038' 00 
+TEXT ...Voc[ % s+ a sua camada mais externa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop039' 00 
+TEXT ...@ f$cil dizer coisas assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop040' 00 
+TEXT ...Mas voc[ vai entender.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop041' 00 
+TEXT ...O que % real.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop042' 00 
+TEXT ...Desta vez, torne-se ele e volte #quele dia.
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se84' 00 
+TEXT *Jii* *Jii* *Jii*
+TEXT Hoje, eu vou lev$-la pra casa...
+TEXT Porque as atividades do clube dela terminaram mais cedo.
+TEXT E quando perguntei se queria ir na minha casa, ela aceitou toda feliz.
+TEXT J$ faz um tempo que eu queria apresent$-la aos meus pais.
+TEXT E pensar que essa chance viria t~o cedo...
+TEXT Meu pai e minha m~e com certeza v~o gostar dela.
+TEXT N~o existem muitas garotas que sejam t~o bonitas e modestas ao mesmo tempo.
+TEXT Ela % a melhor atleta da escola, est$ indo at% pra um torneio nacional de atletismo!
+TEXT E mesmo com isso, n~o fica nem um pouco convencida.
+TEXT De verdade, ela % uma garota comum... ela % incr&vel.
+TEXT Conhecer algu%m t~o perfeita assim...
+TEXT E pensar que ela % minha namorada...
+TEXT Eu tenho tanto orgulho dela!
+TEXT Mas meus pais s+ voltam no fim da tarde, ent~o teremos que matar o tempo...
+TEXT Peguei um pouco de ch$ de cevada gelado, servi em duas x&caras com pires e voltei pro meu quarto.
+TEXT E l$ estava ela me esperando, sentada, quietinha.
+TEXT Ela % t~o fofa.
+PLAY_SOUND 01 '000_aid000' 00 
+TEXT "Aqui, pra voc[."
+STOP_SOUND 01 
+TEXT Estendi uma das x&caras pra ela.
+TEXT Mas ent~o aconteceu algo que eu jamais teria imaginado.
+TEXT Ela puxou meu bra|o com for|a.
+PLAY_SOUND 01 '000_aid001' 00 
+TEXT "Uwaa!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se86' 00 
+TEXT *Pleft!*
+TEXT A x&cara caiu e derramou o ch$ no ch~o, mas ela n~o pareceu se importar e me fez sentar.
+TEXT Em seguida, colocou as m~os nas minhas bochechas.
+PLAY_SOUND 01 '000_aid002' 00 
+TEXT "Amasawa-san, o que voc[..."
+STOP_SOUND 01 
+TEXT Ela encostou a sua boca aberta na minha.
+BACKGROUND 'FG105' 
+X_24 00 
+X_25 06 
+TEXT N~o foi o tipo de beijo leve que j$ hav&amos trocado algumas vezes.
+TEXT Sua l&ngua deslizou para dentro da minha boca.
+TEXT E se enroscou persistentemente na minha l&ngua.
+TEXT O tipo de beijo profundo que s+ aparecia nas hist+rias vulgares dos meus amigos.
+TEXT Fiquei chocado.
+TEXT Nunca pensei que ela seria do tipo que tomaria uma atitude t~o ousada.
+TEXT Ela chupou minha l&ngua com for|a at% que fosse puxada para fora da boca dela.
+TEXT Ent~o, ela a pressionou suavemente com os l$bios.
+TEXT Quando pensei que ela tinha me soltado, sua l&ngua empurrou de volta para dentro da minha boca.
+TEXT Junto com muita saliva.
+TEXT Foi a primeira vez que aprendi que a saliva de outra pessoa tinha sabor.
+TEXT A saliva de uma garota.
+TEXT N~o parecia nem um pouco delicioso.
+TEXT E, naquela mistura de salivas, sua l&ngua se enroscou na minha novamente.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock tchock...*
+TEXT Isso fez um som desagrad$vel.
+PLAY_SOUND 01 'e05_iku017' 00 
+TEXT "Mmu..."
+STOP_SOUND 01 
+TEXT Ela finalmente soltou minha boca.
+TEXT Um fio claro caiu de nossos l$bios.
+TEXT Nojento.
+TEXT E ent~o ela me perguntou algo inacredit$vel.
+PLAY_SOUND 01 'e05_iku018' 00 
+TEXT "Ei, est$ delicioso?"
+STOP_SOUND 01 
+TEXT O que essa garota est$ perguntando?
+PLAY_SOUND 01 'e05_iku019' 00 
+TEXT "Ei, minha saliva % deliciosa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid003' 00 
+TEXT "Eu... o que voc[ quer que..."
+STOP_SOUND 01 
+TEXT Como eu poderia responder isso?
+PLAY_SOUND 01 'e05_iku020' 00 
+TEXT "Aida-kun, voc[ n~o bebeu muita da minha saliva?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid004' 00 
+TEXT "Eu... bebi, mas..."
+STOP_SOUND 01 
+TEXT Eu n~o consegui evitar.
+TEXT Voc[ me fez beber.
+PLAY_SOUND 01 'e05_iku021' 00 
+TEXT "Aida-kun, sua boca fede # minha saliva."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid005' 00 
+TEXT "Voc[..."
+STOP_SOUND 01 
+TEXT Como voc[... p{de dizer uma coisa dessas...
+PLAY_SOUND 01 'e05_iku022' 00 
+TEXT "Voc[ quer mais?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid006' 00 
+TEXT "N-N~o..."
+STOP_SOUND 01 
+TEXT Por favor, pare, n~o me pergunte algo assim...
+PLAY_SOUND 01 'e05_iku023' 00 
+TEXT "Ou voc[ quer isso depois?"
+STOP_SOUND 01 
+TEXT A m~o dela desapareceu.
+TEXT Dentro de seu short.
+TEXT E, quando ela tirou de novo, os dedos estavam molhados, cobertos por uma gosma brilhante.
+TEXT Aquele fluido escorreu para as costas da m~o dela.
+PLAY_SOUND 01 'e05_iku025' 00 
+TEXT "Olha, aqui est$ outro dos meus fluidos."
+STOP_SOUND 01 
+TEXT Ela disse isso? Ela realmente disse isso... e estendeu aqueles dedos na frente do meu rosto.
+PLAY_SOUND 01 'e05_iku026' 00 
+TEXT "Quer lamber isso tamb%m? Quer provar isso tamb%m?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid007' 00 
+TEXT "Erm... tudo bem..."
+STOP_SOUND 01 
+TEXT Tudo bem. Por favor, pare. Por favor, isso t$ ficando estranho.
+PLAY_SOUND 01 'e05_iku027' 00 
+TEXT "Ei, este % o meu fluido vaginal, a secre|~o do buraco mais pervertido de uma mulher."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku028' 00 
+TEXT "Ainda est$ quente. Este % o meu fluido pervertido e cru."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku029' 00 
+TEXT "Voc[ n~o quer lamber, n~o quer provar?"
+STOP_SOUND 01 
+TEXT Ela enfiou seus dedos dentro da minha boca.
+TEXT Com aquela m~o gosmenta.
+TEXT Ela est$ tentando me fazer provar um fluido que ela segregou l$ de baixo.
+TEXT Um ato t~o constrangedor pode realmente ser realizado?
+TEXT Ela estava fazendo exatamente isso!
+TEXT Aquele fluido em seus dedos est$ mesmo sendo passado na minha l&ngua e boca!?
+TEXT Ent~o essa coisa triste ganhou um sabor de realidade.
+TEXT O sabor do que escorreu dela... l$ embaixo.
+PLAY_SOUND 01 'e05_iku030' 00 
+TEXT "Viu? Este % o suco do meu lugar mais secreto. N~o % delicioso?"
+STOP_SOUND 01 
+TEXT Voc[ est$ brincando comigo...?
+PLAY_SOUND 01 'e05_iku031' 00 
+TEXT "Qual % mais delicioso?"
+STOP_SOUND 01 
+TEXT Como eu poderia compar$-los?
+PLAY_SOUND 01 'e05_iku032' 00 
+TEXT "Minha saliva ou meu fluido vaginal. Qual % mais gostoso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid008' 00 
+TEXT "Os dois s~o..."
+STOP_SOUND 01 
+TEXT Os dois s~o horr&veis.
+PLAY_SOUND 01 'e05_iku033' 00 
+TEXT "Os dois s~o deliciosos?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid009' 00 
+TEXT "N~o..."
+STOP_SOUND 01 
+TEXT Entendi, voc[ n~o quer beber aqui n%?
+PLAY_SOUND 01 'e05_iku034' 00 
+TEXT "Ent~o vou deixar voc[ lamber diretamente."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku035' 00 
+TEXT "E eu vou lamber o Aida-kun tamb%m."
+STOP_SOUND 01 
+TEXT O que voc[ vai fazer desta vez?
+BACKGROUND 'FG106' 
+X_24 00 
+X_25 06 
+TEXT Ela puxou minha genit$lia sem nenhum pudor e a devorou de uma vez.
+PLAY_SOUND 01 '000_aid010' 00 
+TEXT "Uwaa...!!"
+STOP_SOUND 01 
+TEXT Isso embaralhou tudo na minha cabe|a.
+TEXT Isso n~o % normal.
+TEXT O que voc[ est$ fazendo?!
+TEXT Ela esfregou minha genit$lia com for|a entre os l$bios e a l&ngua, apertando-a para cima e para baixo.
+TEXT Isso se lembrava o que eu fazia para satisfazer meus desejos masculinos.
+TEXT Mas n~o era minha m~o direita fazendo isso.
+TEXT Era a boca de uma garota.
+TEXT M~os at% fariam sentido.
+TEXT Mas com a boca?
+TEXT Por que apertar com essa sua l&ngua encharcada de saliva?
+TEXT Voc[ est$ me molhando...
+TEXT Mas isso n~o % importante.
+TEXT E voc[?
+TEXT Por que est$ devorando isso, para come|o de conversa?
+TEXT Essa % a parte mais suja do meu corpo.
+TEXT Por que est$ envolvendo isso com sua boca?
+TEXT @ anormal demais!
+TEXT Por que voc[ est$ sendo t~o rude?
+TEXT Por que voc[ est$ balan|ando a cabe|a para cima e para baixo com tanta for|a?
+TEXT Nunca vi voc[ t~o s%ria, exceto quando corre nas competi|/es de atletismo.
+TEXT Por que voc[ est$ desperdi|ando seu esfor|o em algo assim?
+PLAY_SOUND 01 'se58' 00 
+TEXT *Sluuurp sluuurp...*
+TEXT Chega! Chega, Amasawa-san!
+PLAY_SOUND 01 '000_aid026' 00 
+TEXT "Por favor, pare, Amasawa-san!! Por que est$-...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku036' 00 
+TEXT "Mas % delicioso. O pau do Aida-kun % delicioso demais!!"
+STOP_SOUND 01 
+TEXT Meu pau % delicioso!?
+TEXT Realmente, voc[ mudou muito, Amasawa-san...
+PLAY_SOUND 01 'e05_iku037' 00 
+TEXT "Ei, me chupa tamb%m!! @ uma del&cia, me chupa!!"
+STOP_SOUND 01 
+TEXT Amasawa-san abriu as pernas e enfiou na minha cara.
+TEXT *Sluuurp...*
+TEXT Ela esfregou os l$bios com for|a contra minha genit$lia gotejante.
+TEXT Isso % uma vingan|a?
+TEXT Eu fiz algo que a deixou brava comigo?
+TEXT N~o me lembro de ter feito nada pra ela ficar assim...
+TEXT N~o me lembro de nada que justificasse ela enfiar seus +rg~os indecentes na minha cara.
+TEXT ......N~o suporto ver isso...
+TEXT Ent~o abri minha boca para respirar, e acabou.
+TEXT Aquela genit$lia foi empurrada para a minha boca aberta, e eu n~o conseguia fech$-la.
+TEXT Se eu fechasse minha boca eu acabaria mordendo ela.
+TEXT Coloquei minha l&ngua entre a genit$lia dela e meus dentes.
+TEXT *Sluuurp...*
+TEXT Minha l&ngua deslizou sobre a genit$lia dela.
+TEXT O mesmo gosto que ela me for|ou provar mais cedo.
+TEXT Encheu minha boca e garganta, e me deu vontade de vomitar.
+PLAY_SOUND 01 'e05_iku038' 00 
+TEXT "N-... N~o % uma del&cia? Continue lambendo a&!!"
+STOP_SOUND 01 
+TEXT Uaaaaa!!
+PLAY_SOUND 01 'e05_iku039' 00 
+TEXT "Haaau...!"
+STOP_SOUND 01 
+TEXT Os movimentos da boca dela sobre minha genit$lia ficaram ainda piores.
+PLAY_SOUND 01 'se58' 00 
+TEXT *Sleeerp sluuurp sleeerp...*
+STOP_SOUND 01 
+TEXT E quando pensei que tinha parado, ela passou a l&ngua sobre minha parte mais sens&vel.
+PLAY_SOUND 01 '000_aid014' 00 
+TEXT "Guwa... Amasawa-san, a& n~o!!"
+STOP_SOUND 01 
+TEXT Ela n~o estava me ouvindo.
+TEXT Ela atacou persistentemente a abertura do meu trato urin$rio com a l&ngua.
+PLAY_SOUND 01 'e05_iku044' 00 
+TEXT "Ei, Aida-kun, pode colocar isso dentro de mim?"
+STOP_SOUND 01 
+TEXT O que voc[ est$ perguntando agora...
+PLAY_SOUND 01 'e05_iku045' 00 
+TEXT "Voc[ quer colocar isso dentro de mim, n%?"
+STOP_SOUND 01 
+TEXT Voc[ n~o est$ querendo dizendo... que...
+PLAY_SOUND 01 'e05_iku046' 00 
+TEXT "Voc[ quer colocar porque sabe que vai ser incr&vel, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid015' 00 
+TEXT "N... N~o... isso seria..."
+STOP_SOUND 01 
+TEXT Percebi que esse seria um caminho sem volta.
+TEXT Ao menos isso eu tinha que evitar.
+PLAY_SOUND 01 'e05_iku047' 00 
+TEXT "Tudo bem. Pode colocar."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku048' 00 
+TEXT "Eu tamb%m vou me sentir bem, ent~o coloque!!"
+STOP_SOUND 01 
+TEXT Mas no final ela fez exatamente o que eu n~o queria, sem hesitar.
+BACKGROUND 'FG107' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku049' 00 
+TEXT "Ok, vai entrar. O pau do Aida-kun est$ entrando na minha vagina. Olha s+!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_aid016' 00 
+TEXT "Est$... est$ entrando..."
+STOP_SOUND 01 
+TEXT Eu esperei at% o ^ltimo momento.
+TEXT Por algo que pudesse destruir a realidade desse pesadelo.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock...*
+PLAY_SOUND 01 'e05_iku050' 00 
+TEXT "Ei, s+ a ponta entrou. S+ a ponta t$ quente... consegue ver?"
+STOP_SOUND 01 
+TEXT Esperei que ela sorrisse de repente e dissesse, mostrando a l&ngua, que tinha exagerado.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock* *Tchock* *Tchock*
+PLAY_SOUND 01 'e05_iku051' 00 
+TEXT "Olha, t$ entrando mais! Ainda tem mais..."
+STOP_SOUND 01 
+TEXT Mas isso n~o aconteceu.
+TEXT Nada destruiu essa realidade.
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuck* *Tchock* *Tchuck*
+PLAY_SOUND 01 'e05_iku052' 00 
+TEXT "Olha, est$ todo dentro! O pau do Aida-kun est$ me penetrando completamente! Viu!?"
+STOP_SOUND 01 
+TEXT Essa % a verdade.
+PLAY_SOUND 01 'e05_iku054' 00 
+TEXT "Viu, n~o tem brecha nenhuma? Entrou tudo!!"
+STOP_SOUND 01 
+TEXT Ela ergueu os quadris, parando um pouco, antes de sair completamente.
+PLAY_SOUND 01 'e05_iku055' 00 
+TEXT "Olha, o pau do Aida-kun me fodendo! E t$ todo coberto com meus fluidos pervertidos!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku056' 00 
+TEXT "Vou enfiar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock*
+TEXT Minha genit$lia estava mais uma vez enterrada na vagina dela.
+PLAY_SOUND 01 'e05_iku057' 00 
+TEXT "Olha, entrou!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku058' 00 
+TEXT "Vou tirar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuck*
+TEXT Uma genit$lia molhada emergiu.
+PLAY_SOUND 01 'e05_iku059' 00 
+TEXT "Vou colocar de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchock*
+TEXT Ela come|ou a repetir aquele movimento para cima e para baixo sem parar.
+PLAY_SOUND 01 'se58' 00 
+TEXT *Tchock* *Tchuck* *Tchock*
+TEXT Enquanto fazia isso, um som irritante atingiu meus t&mpanos.
+PLAY_SOUND 01 'e05_iku060' 00 
+TEXT "Que sensa|~o incr&vel!! Aida-kun, voc[ tamb%m t$ gostando, n%!?"
+STOP_SOUND 01 
+TEXT Esta % a verdade...
+PLAY_SOUND 01 'e05_iku061' 00 
+TEXT "Vai gozar!? V$ em frente, goze dentro de mim!!"
+STOP_SOUND 01 
+TEXT Ela se tornou uma pessoa totalmente diferente.
+PLAY_SOUND 01 'e05_iku062' 00 
+TEXT "Aida-kun, realize seu desejo!! Realize seus desejos dentro de mim!!"
+STOP_SOUND 01 
+TEXT Ela moveu os quadris como um animal selvagem.
+TEXT Eu nunca tinha visto isso... sua verdadeira natureza.
+TEXT Ent~o eu gozei.
+TEXT A vagina dela apertou meu p[nis, como se fosse arranc$-lo.
+TEXT *Tchuck!* *Tchuck!*
+PLAY_SOUND 01 'e05_iku063' 00 
+TEXT "T$ chegando! O esperma de Aida-kun t$ entrando em mim!!"
+STOP_SOUND 01 
+TEXT Eu soltei tudo e desabei.
+PLAY_SOUND 01 'e05_iku064' 00 
+TEXT "Aida-kun, foi bom pra voc[?"
+STOP_SOUND 01 
+TEXT Voc[ ainda est$ perguntando isso?
+PLAY_SOUND 01 'e05_iku065' 00 
+TEXT "Eu tamb%m me senti bem."
+STOP_SOUND 01 
+TEXT Ent~o, voc[ n~o vai voltar mais...
+PLAY_SOUND 01 'e05_iku066' 00 
+TEXT "Ent~o..."
+STOP_SOUND 01 
+TEXT Adeus.
+PLAY_SOUND 01 'e05_iku067' 00 
+TEXT "Vamos fazer isso de novo."
+STOP_SOUND 01 
+TEXT A garota que eu amei um dia.
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e05_iku120' 00 
+TEXT .........
+STOP_SOUND 01 
+TEXT ......
+PLAY_SOUND 01 'e05_iku121' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop043' 00 
+TEXT ...Ei.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku122' 00 
+TEXT .........
+PLAY_SOUND 01 'e05_dop044' 00 
+TEXT ...Essa % a d^vida que te cerca.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku123' 00 
+TEXT .........
+PLAY_SOUND 01 'e05_dop045' 00 
+TEXT ...E a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku124' 00 
+TEXT .........
+PLAY_SOUND 01 'e05_dop046' 00 
+TEXT ...No fim, voc[ n~o fez nada mais do que usar o corpo dele para se sentir bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop047' 00 
+TEXT ...E o pre|o que pagou, foi perd[-lo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku125' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_iku126' 00 
+TEXT Isso d+i...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop048' 00 
+TEXT ...Sim, tem que doer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop049' 00 
+TEXT ...Mas essa dor vai nos salvar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_dop050' 00 
+TEXT ...Essa dor vai salvar voc[.
+STOP_SOUND 01 
+X_0C 0014 0001 
+
+:LABEL3
+RETURN 
+EOF 

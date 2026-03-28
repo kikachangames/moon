@@ -1,0 +1,1074 @@
+
+# MOON SCRIPT FILE "EL1.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd08' 01 
+PLAY_SOUND 01 'e01_iku001' 00 
+TEXT Ah...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku002' 00 
+TEXT Quem...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop000' 00 
+TEXT ...Eu?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku003' 00 
+TEXT Sim. Voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop001' 00 
+TEXT ...Eu te conhe|o melhor do que ningu%m.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku004' 00 
+TEXT Melhor do que ningu%m...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop002' 00 
+TEXT ...Sim. Eu te conhe|o muito bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop003' 00 
+TEXT ...E tamb%m conhe|o muito da sua dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku005' 00 
+TEXT Minha dor...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop004' 00 
+TEXT ...Sua dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop005' 00 
+TEXT ...Sua tristeza.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop006' 00 
+TEXT ...Seu sofrimento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop007' 00 
+TEXT ...Todas as suas emo|/es desagrad$veis.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku006' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop008' 00 
+TEXT ...N+s que suportamos as dores que voc[ h$ muito esqueceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop009' 00 
+TEXT ...N~o % lament$vel?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku007' 00 
+TEXT Lament$vel...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop010' 00 
+TEXT ...Sua conduta em rela|~o aos seus "eus" do passado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop011' 00 
+TEXT ...Por que voc[ precisa nos tratar assim?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku008' 00 
+TEXT Eu n~o fa|o ideia do que voc[ est$ falando...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop012' 00 
+TEXT ...Em algumas vezes voc[ suportava a dor e vivia com ela.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop013' 00 
+TEXT ...Tente se olhar objetivamente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop014' 00 
+TEXT ...Muito lament$vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop015' 00 
+TEXT ...N~o %?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'N~o...' 'Pode ser.'
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 'e01_iku009' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku010' 00 
+TEXT Sou eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku011' 00 
+TEXT Como posso objetivamente me chamar de lament$vel?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku012' 00 
+TEXT Isso % s+ autoindulg[ncia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop016' 00 
+TEXT ...Errado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop017' 00 
+TEXT ...Isso n~o % voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop018' 00 
+TEXT ...N~o % o voc[ atual, ent~o n~o % voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop019' 00 
+TEXT ...Afinal, sou eu que estou existindo aqui e agora.
+STOP_SOUND 01 
+JMP .LABEL1 
+
+:LABEL0
+PLAY_SOUND 01 'e01_iku013' 00 
+TEXT Pode ser...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku014' 00 
+TEXT Mas como um eu do passado, ainda sou eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku015' 00 
+TEXT Isso % como se eu estivesse me vitimizando...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop016' 00 
+TEXT ...Errado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop017' 00 
+TEXT ...Isso n~o % voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop018' 00 
+TEXT ...N~o % o voc[ atual, ent~o n~o % voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop019' 00 
+TEXT ...Afinal, sou eu que estou existindo aqui e agora.
+STOP_SOUND 01 
+
+:LABEL1
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku016' 00 
+TEXT Quem % voc[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop020' 00 
+TEXT ...Eu sou voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop021' 00 
+TEXT ...Mas n~o sou voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop022' 00 
+TEXT ...Existem v$rios "voc[s" em uma exist[ncia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop023' 00 
+TEXT ...Eu sou uma delas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop024' 00 
+TEXT ...Eu sou uma de voc[s.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku017' 00 
+TEXT Mas, voc[ % eu, certo...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop025' 00 
+TEXT ...Sim, todas somos voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop026' 00 
+TEXT ...A essa altura, voc[ deve entender.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop027' 00 
+TEXT ...Voc[ pode sentir pena de si mesmo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop028' 00 
+TEXT ...Voc[ pode sentir pena de mim, que carrego a dor que voc[ esqueceu.
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Acho que posso.' 'Eu n~o entendo.' 
+IF 16 03 00 15 01 00 02 00 .LABEL2 
+PLAY_SOUND 01 'e01_iku018' 00 
+TEXT Acho que posso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop029' 00 
+TEXT ...N~o sou apenas eu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop030' 00 
+TEXT ...Voc[ pode sentir pena de todos os outros voc[s.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku019' 00 
+TEXT Acho...que posso fazer isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop031' 00 
+TEXT ...Ent~o sinta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop032' 00 
+TEXT ...Isso % o come|o do arrependimento.
+STOP_SOUND 01 
+JMP .LABEL3 
+
+:LABEL2
+PLAY_SOUND 01 'e01_iku020' 00 
+TEXT Eu n~o entendo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku021' 00 
+TEXT O que voc[ est$ dizendo % muito confuso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop033' 00 
+TEXT ...Isso % apenas escapismo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop034' 00 
+TEXT ...Voc[ simplesmente n~o quer entender.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop035' 00 
+TEXT ...Afinal, eu entendo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop036' 00 
+TEXT ...E quem entende isso n~o % ningu%m al%m de voc[, certo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku022' 00 
+TEXT Sim...
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Talvez...' 'Essa interpreta|~o % conveniente demais' 
+IF 16 03 00 15 01 00 02 00 .LABEL4 
+PLAY_SOUND 01 'e01_iku023' 00 
+TEXT Talvez...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop029' 00 
+TEXT ...N~o sou apenas eu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop030' 00 
+TEXT ...Voc[ pode sentir pena de todos os outros voc[s.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku025' 00 
+TEXT Acho...que posso fazer isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop031' 00 
+TEXT ...Ent~o sinta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop032' 00 
+TEXT ...Isso % o come|o do arrependimento.
+STOP_SOUND 01 
+JMP .LABEL3 
+
+:LABEL4
+PLAY_SOUND 01 'e01_iku026' 00 
+TEXT Essa explica|~o % conveniente demais...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku027' 00 
+TEXT S+ quando conv%m, voc[ e eu somos id[nticas...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop037' 00 
+TEXT ...Quando conv%m a mim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop038' 00 
+TEXT ...@ voc[ quem est$ fazendo esse julgamento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku028' 00 
+TEXT Eh...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop039' 00 
+TEXT ...Eu n~o acabei de dizer que sou voc[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku029' 00 
+TEXT E eu estou dizendo que isso % conveniente demais...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop040' 00 
+TEXT ...E % voc[ quem decidiu isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop041' 00 
+TEXT ...@ voc[ quem est$ negando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop042' 00 
+TEXT ...@ tudo voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop043' 00 
+TEXT ...Uma vez que voc[ percebe essa contradi|~o, ent~o deveria sentir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop044' 00 
+TEXT ...Isso % o come|o do arrependimento.
+STOP_SOUND 01 
+
+:LABEL3
+BACKGROUND 'FG101a2' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku030' 00 
+TEXT Eh......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku031' 00 
+TEXT .........
+BACKGROUND 'FG101a1' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku032' 00 
+TEXT O que % essa imagem......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku033' 00 
+TEXT Espera... pera&...
+STOP_SOUND 01 
+BACKGROUND 'FG101' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku034' 00 
+TEXT Ah...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Assuma' 'Finja que n~o sabe' 
+IF 16 03 00 15 01 00 02 00 .LABEL6 
+PLAY_SOUND 01 'e01_iku035' 00 
+TEXT Aconteceu h$ muito tempo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop046' 00 
+TEXT ...O que voc[ estava fazendo naquela %poca?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku036' 00 
+TEXT Durante os exerc&cios de corrida do nosso clube...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop047' 00 
+TEXT ...O que voc[ estava fazendo durante essa corrida?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku037' 00 
+TEXT Meu almo|o tinha estragado...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop048' 00 
+TEXT ...N~o h$ necessidade de desculpas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku038' 00 
+TEXT Meu est{mago n~o estava funcionando direito...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop048' 00 
+TEXT ...N~o h$ necessidade de desculpas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku039' 00 
+TEXT N~o havia lugar por perto onde eu pudesse fazer isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop048' 00 
+TEXT ...N~o h$ necessidade de desculpas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku040' 00 
+TEXT Eu n~o tive escolha...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop049' 00 
+TEXT ...O que voc[ estava fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku041' 00 
+TEXT Eu estava...l$ fora...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop050' 00 
+TEXT ...Fazendo o que l$ fora?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku042' 00 
+TEXT De......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop051' 00 
+TEXT De...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku043' 00 
+TEXT Defecando...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop052' 00 
+TEXT ...Sim. Voc[ est$ defecando l$ fora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku044' 00 
+TEXT Sim. Eu estou defecando l$ fora!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop053' 00 
+TEXT ...Voc[ est$ defecando ao ar livre, # luz do dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku045' 00 
+TEXT Isso mesmo, estou defecando # luz do dia!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop054' 00 
+TEXT ...N~o foi vergonhoso?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Foi vergonhoso' 'N~o foi vergonhoso' 
+IF 16 03 00 15 01 00 02 00 .LABEL7 
+PLAY_SOUND 01 'e01_iku046' 00 
+TEXT Foi vergonhoso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop055' 00 
+TEXT ...@ claro. Voc[ esvaziou completamente seus intestinos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku047' 00 
+TEXT Foi embara|oso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop056' 00 
+TEXT ...@ claro. Voc[ segurou tudo isso por um bom tempo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku048' 00 
+TEXT Foi embara|oso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop057' 00 
+TEXT ...@ claro. Naquele calor, dava para sentir o qu~o suja voc[ estava. Voc[ provavelmente queria vomitar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku049' 00 
+TEXT Foi embara|oso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop058' 00 
+TEXT ...Se voc[ est$ refletindo sobre isso, ent~o assuma a dor que carreguei at% agora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku050' 00 
+TEXT Mas sou eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku051' 00 
+TEXT Eu carreguei essa dor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop059' 00 
+TEXT ...Mas voc[ est$ esquecendo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop060' 00 
+TEXT ...Voc[ est$ colocando esse peso pesado em mim, em vez de em voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop061' 00 
+TEXT ...Que tristeza.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku052' 00 
+TEXT N~o importa se % triste...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku053' 00 
+TEXT Ela tamb%m sou eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop062' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop063' 00 
+TEXT ...Ent~o assista at% o fim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku054' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku055' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku056' 00 
+TEXT Eu n~o quero...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku057' 00 
+TEXT Por que eu tenho que ver algo de tanto tempo atr$s...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku058' 00 
+TEXT Pare...
+STOP_SOUND 01 
+PLAY_SOUND 01 'se85' 00 
+PLAY_SOUND 01 'e01_iku059' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop064' 00 
+TEXT ...Voc[ pode ouvir?
+STOP_SOUND 01 
+PLAY_SOUND 01 'se85' 00 
+PLAY_SOUND 01 'e01_iku060' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop065' 00 
+TEXT ...Voc[ pode? Voc[ consegue ouvir o som da sua defeca|~o?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku061' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop066' 00 
+TEXT ...Voc[ consegue sentir o cheiro?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku062' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop067' 00 
+TEXT ...O cheiro que fez voc[ querer vomitar naquele dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku063' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop068' 00 
+TEXT ...Voc[ consegue ver?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku064' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop069' 00 
+TEXT ...A pilha de fezes expelida do seu }nus sobrecarregado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku065' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku066' 00 
+TEXT Pare...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop070' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku067' 00 
+TEXT Pare com isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop071' 00 
+TEXT ...Parar com o qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku068' 00 
+TEXT De me fazer assistir a mim mesma assim!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop072' 00 
+TEXT ...Isso % expia|~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku069' 00 
+TEXT Eu j$ entendi! Eu vou suportar tudo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop073' 00 
+TEXT ...Ent~o assista at% o fim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku070' 00 
+TEXT Ahhhhhhh! N~o, pare com isso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop074' 00 
+TEXT ...Voc[ n~o est$ refletindo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku071' 00 
+TEXT Jogue isso fora!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop075' 00 
+TEXT ...Voc[ n~o est$ refletindo sobre o seu passado...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku072' 00 
+TEXT Jogue isso fora!!
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku073' 00 
+TEXT Ah...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku074' 00 
+TEXT Haa...haa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop076' 00 
+TEXT ...Voc[ n~o est$ refletindo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku075' 00 
+TEXT Haa...haa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop077' 00 
+TEXT ...Mesmo sendo a sua dor para carregar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop078' 00 
+TEXT ...No final voc[ n~o conseguiu terminar de assistir...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku076' 00 
+TEXT N~o... essa % a minha dor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop079' 00 
+TEXT ...Sim, uma dor que foi sua um dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop080' 00 
+TEXT ...Mas voc[ a jogou fora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku077' 00 
+TEXT N~o... o que voc[ est$ dizendo...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku078' 00 
+TEXT Esquecer tais eventos % o que permite #s pessoas seguir vivendo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop081' 00 
+TEXT ...Ent~o, que benef&cio se obt%m ao esquecer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku079' 00 
+TEXT Deve haver...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop082' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku080' 00 
+TEXT Deve haver...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop082' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku081' 00 
+TEXT Algum!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop083' 00 
+TEXT ...Isso % o mesmo que dizer nada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop084' 00 
+TEXT ...Nada vem do esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop085' 00 
+TEXT ...Nada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku082' 00 
+TEXT Nada vem do esquecer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku083' 00 
+TEXT Nada % ganho...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop086' 00 
+TEXT ...Nada % ganho.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop087' 00 
+TEXT ...Tal conduta n~o % nada mais que maltratar a gente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop088' 00 
+TEXT ...Ent~o voc[ carregar$ a vingan|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku084' 00 
+TEXT De quem...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop089' 00 
+TEXT ...De seus "eus" passados.
+STOP_SOUND 01 
+JMP .LABEL8 
+
+:LABEL7
+PLAY_SOUND 01 'e01_iku085' 00 
+TEXT N~o foi vergonhoso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop090' 00 
+TEXT ...N~o foi vergonhoso esvaziar seus intestinos assim?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku086' 00 
+TEXT N~o, n~o foi vergonhoso esvaziar meus intestinos!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop091' 00 
+TEXT ...N~o foi vergonhoso ter segurado isso por tanto tempo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku087' 00 
+TEXT N~o, n~o foi vergonhoso segurar tudo isso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop092' 00 
+TEXT ...N~o foi vergonhoso sentir o cheiro de suas pr+prias fezes naquele calor at% sentir vontade de vomitar?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku088' 00 
+TEXT N~o! O calor, as fezes, a vontade de vomitar, nada disso foi vergonhoso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop093' 00 
+TEXT ...Ok, ent~o assista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop094' 00 
+TEXT ...E receba a dor dela.
+STOP_SOUND 01 
+PLAY_SOUND 01 'se85' 00 
+PLAY_SOUND 01 'e01_iku059' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop064' 00 
+TEXT ...Voc[ consegue ouvir?
+STOP_SOUND 01 
+PLAY_SOUND 01 'se85' 00 
+PLAY_SOUND 01 'e01_iku060' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop065' 00 
+TEXT ...Consegue? Consegue ouvir o som da sua defeca|~o?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku061' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop066' 00 
+TEXT ...Consegue sentir o cheiro?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku062' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop067' 00 
+TEXT ...O cheiro que fez voc[ querer vomitar naquele dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku063' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop068' 00 
+TEXT ...Consegue ver?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku064' 00 
+TEXT .........
+PLAY_SOUND 01 'e01_dop069' 00 
+TEXT ...A pilha de fezes expelida do seu }nus sobrecarregado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku065' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku066' 00 
+TEXT Pare...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop070' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku089' 00 
+TEXT Pare com isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop095' 00 
+TEXT ...Pare com o qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku090' 00 
+TEXT De me fazer assistir a mim mesma assim!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop096' 00 
+TEXT ...Mas n~o % vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku091' 00 
+TEXT Pare com isso! Isso % apenas cruel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop097' 00 
+TEXT ...Cruel...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop098' 00 
+TEXT ...Voc[ diria isso para o seu eu do passado...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku092' 00 
+TEXT Ahhhhh! Como isso n~o % cruel!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop099' 00 
+TEXT ...Cruel...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku093' 00 
+TEXT Jogue isso fora!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop100' 00 
+TEXT ...Ou melhor... cruel...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku094' 00 
+TEXT Jogue isso fora!!
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_iku073' 00 
+TEXT Ah...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku074' 00 
+TEXT Haa...haa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop101' 00 
+TEXT ...Cruel...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku075' 00 
+TEXT Haa...haa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop102' 00 
+TEXT ...Mesmo sendo a sua dor para carregar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop103' 00 
+TEXT ...Olhar para isso e dizer algo assim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku076' 00 
+TEXT N~o...essa % a minha dor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop079' 00 
+TEXT ...E ainda assim uma dor que foi sua um dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop080' 00 
+TEXT ...Mas voc[ a jogou fora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku077' 00 
+TEXT N~o...o que voc[ est$ dizendo...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku078' 00 
+TEXT Esquecer tais eventos % o que permite #s pessoas continuar vivendo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop081' 00 
+TEXT ...Ent~o, que benef&cio se produz ao esquecer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku079' 00 
+TEXT Deve haver algo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop082' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku080' 00 
+TEXT Deve haver algo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop082' 00 
+TEXT ...O qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku081' 00 
+TEXT Algo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop083' 00 
+TEXT ...Isso % o mesmo que dizer nada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop084' 00 
+TEXT ...Nada vem do esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop085' 00 
+TEXT ...Nada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku082' 00 
+TEXT Nada vem do esquecer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku083' 00 
+TEXT Nada % ganho...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop086' 00 
+TEXT ...Nada % ganho.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop087' 00 
+TEXT ...Tal conduta n~o % nada mais do que nos maltratar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop088' 00 
+TEXT ...Ent~o voc[ suportar$ a vingan|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku084' 00 
+TEXT De quem......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop089' 00 
+TEXT ...De seus "eus" passados.
+STOP_SOUND 01 
+X_0C 0014 0001 
+
+:LABEL8
+JMP .LABEL9 
+
+:LABEL6
+PLAY_SOUND 01 'e01_iku095' 00 
+TEXT Eu n~o sei disso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop104' 00 
+TEXT ...Mentira.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku096' 00 
+TEXT Eu n~o consigo me lembrar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop105' 00 
+TEXT ...Voc[ n~o quer se lembrar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku097' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku098' 00 
+TEXT N~o h$ necessidade de lembrar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop106' 00 
+TEXT ...Fugindo novamente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop107' 00 
+TEXT ...Voc[ deveria assumir a dor que ela suportou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop108' 00 
+TEXT ...Voc[ n~o entende isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku099' 00 
+TEXT Mas essa sou eu!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku100' 00 
+TEXT Eu tenho suportado isso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop109' 00 
+TEXT ...Mas voc[ est$ esquecendo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop110' 00 
+TEXT ...Voc[ est$ apenas for|ando esse fardo sobre ela.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop111' 00 
+TEXT ...Que triste.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku101' 00 
+TEXT N~o importa se % triste!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku102' 00 
+TEXT Ela tamb%m sou eu!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop062' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop063' 00 
+TEXT ...Ent~o, veja at% o final.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku103' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku104' 00 
+TEXT Pare...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku105' 00 
+TEXT Eu n~o quero...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku106' 00 
+TEXT Por que eu tenho que ver algo de tanto tempo atr$s...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku107' 00 
+TEXT Pare com isso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku108' 00 
+TEXT Pare de me mostrar isso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku109' 00 
+TEXT Exatamente o que parece!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku110' 00 
+TEXT Agora me deixe ir!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop045' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku111' 00 
+TEXT Eu n~o tive escolha...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku112' 00 
+TEXT Durante os treinos de corrida do meu clube... n~o havia nenhum lugar por perto onde eu pudesse fazer isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop112' 00 
+TEXT ...Eu n~o consegui segurar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku113' 00 
+TEXT Meu est{mago n~o estava funcionando direito...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop113' 00 
+TEXT ...Por isso voc[ defecou tanto.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku114' 00 
+TEXT N-N~o diga essas coisas!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop114' 00 
+TEXT ...Ela est$ fazendo exatamente isso, bem a&.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku115' 00 
+TEXT Ugu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop115' 00 
+TEXT ...Que tipo de coragem % necess$ria para uma garota defecar em um lugar assim?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku116' 00 
+TEXT Eu n~o tive escolha...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku117' 00 
+TEXT Foi melhor do que sujar o meu uniforme...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop116' 00 
+TEXT ...H$ uma garota defecando aqui # luz do dia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku118' 00 
+TEXT M-Mas... mas ningu%m est$ olhando!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop117' 00 
+TEXT ...Voc[ est$ olhando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop118' 00 
+TEXT ...Voc[ n~o consegue ver a si mesma defecando essas fezes moles uma ap+s a outra?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku119' 00 
+TEXT N-N~o...... n~o diga isso......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop119' 00 
+TEXT ...Tem tanto.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop120' 00 
+TEXT ...Olha, n~o termina nunca.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku120' 00 
+TEXT Ughh...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku121' 00 
+TEXT O cheiro......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop121' 00 
+TEXT ...Sim. O cheiro.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop122' 00 
+TEXT ...Ela % capaz de sentir o cheiro de suas pr+prias fezes.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop123' 00 
+TEXT ...Suas pr+prias fezes.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku122' 00 
+TEXT Uuuhh......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku123' 00 
+TEXT Eu sinto que vou vomitar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop124' 00 
+TEXT ...Sem vento, o fedor das suas fezes est$ se instalando naquele lugar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku124' 00 
+TEXT Guhhh......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku125' 00 
+TEXT Um cheiro forte......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop125' 00 
+TEXT ...Agora o que voc[ planeja fazer com aquele jornal que pegou?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku126' 00 
+TEXT Eu...... eu n~o tinha papel higi[nico comigo...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku127' 00 
+TEXT Por que eu iria carregar isso...... durante uma corrida...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop126' 00 
+TEXT ...Aquele jornal.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop127' 00 
+TEXT ...Que coragem % necess$ria para se limpar com isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop128' 00 
+TEXT ...Que coragem % necess$ria para limpar o seu }nus com esses peda|os de jornais sujos?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku128' 00 
+TEXT Que......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku129' 00 
+TEXT Que... cena cruel......
+STOP_SOUND 01 
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e01_dop129' 00 
+TEXT ...Voc[ entendeu a dor dela?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku130' 00 
+TEXT Dor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku131' 00 
+TEXT Essa % a minha dor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop130' 00 
+TEXT ...Sim, sua dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop131' 00 
+TEXT ...A dor que voc[ deveria suportar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop132' 00 
+TEXT ...Voc[ jogou isso fora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku132' 00 
+TEXT N~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku133' 00 
+TEXT O que voc[ est$ dizendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku134' 00 
+TEXT Esquecer tais eventos % o que permite que as pessoas sigam vivendo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop133' 00 
+TEXT ...Ent~o, que benef&cio se produz ao esquecer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku135' 00 
+TEXT Nada vem do esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku136' 00 
+TEXT Mas ao esquecer, a dor pode ser removida.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop134' 00 
+TEXT ...Sofrimento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop135' 00 
+TEXT ...Qual o benef&cio de remov[-lo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku137' 00 
+TEXT Nada vem disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku138' 00 
+TEXT Mas com isso, pode-se viver.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop136' 00 
+TEXT ...Isso % s+ escapismo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop137' 00 
+TEXT ...A ilus~o do esquecimento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku139' 00 
+TEXT O que h$ de errado com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku140' 00 
+TEXT O que h$ de errado em viver facilmente!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop138' 00 
+TEXT ...@ por isso que voc[ deve suportar a vingan|a.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku141' 00 
+TEXT Vingan|a de quem!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_dop139' 00 
+TEXT ...Dos seus 'eus' do passado.
+STOP_SOUND 01 
+
+:LABEL9
+RETURN 
+EOF 

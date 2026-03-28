@@ -1,0 +1,1211 @@
+
+# MOON SCRIPT FILE "EL2.SNX"
+#
+# Comments are lines beginning with a # character
+
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e02_iku001' 00 
+TEXT Eu me lembrei.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop000' 00 
+TEXT ...Lembrou do qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku002' 00 
+TEXT Quem voc[ %.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop001' 00 
+TEXT ...Voc[ pode me esquecer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop002' 00 
+TEXT ...Isso n~o % o mais importante.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop003' 00 
+TEXT ...O que eu quero que voc[ se lembre % da sua dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop004' 00 
+TEXT ...Apenas isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku003' 00 
+TEXT Dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop005' 00 
+TEXT ...Dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop006' 00 
+TEXT ...Um grande n^mero de dores ainda est~o dormindo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop007' 00 
+TEXT ...Dentro de voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku004' 00 
+TEXT Eu entendo isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku005' 00 
+TEXT Entendo que...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop008' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop009' 00 
+TEXT ...Voc[ est$ refletindo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku006' 00 
+TEXT Sim, estou refletindo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku007' 00 
+TEXT Ent~o, me perdoe...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop010' 00 
+TEXT ...Mas n~o h$ sentido na reflex~o.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku008' 00 
+TEXT Por que...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop011' 00 
+TEXT ...Mesmo que voc[ reflita, seu passado n~o ser$ reparado.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku009' 00 
+TEXT Por que...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop012' 00 
+TEXT ...N~o h$ como perdo$-la, a menos que voc[ recupere toda a sua dor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku010' 00 
+TEXT Por que...?
+STOP_SOUND 01 
+BACKGROUND 'FG102' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e02_iku011' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop013' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku012' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop014' 00 
+TEXT ...Eu fiz uma pergunta, agora voc[ responde.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop013' 00 
+TEXT ...O que voc[ est$ fazendo?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Responder' 'Segurar a l&ngua' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 'e02_iku013' 00 
+TEXT Mas...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop015' 00 
+TEXT ...N~o estou ouvindo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku014' 00 
+TEXT Masturba|~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop016' 00 
+TEXT ...Sim, voc[ est$ se masturbando em uma sala de aula vazia.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku015' 00 
+TEXT Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop017' 00 
+TEXT ...O que se passou pela sua cabe|a quando voc[ se masturbou?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku016' 00 
+TEXT Eu me senti estranha...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop018' 00 
+TEXT ...Um sentimento estranho, que tipo de sentimento?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku017' 00 
+TEXT Um...... pervertido...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop019' 00 
+TEXT ...Essa parte de voc[ estava co|ando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku018' 00 
+TEXT Sim... eu estava com coceira l$ embaixo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop020' 00 
+TEXT ...Voc[ queria esfreg$-la em alguma coisa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku019' 00 
+TEXT Sim... eu queria esfreg$-la em alguma coisa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop021' 00 
+TEXT ...E voc[ n~o podia esperar at% chegar em casa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku020' 00 
+TEXT N~o % que eu n~o pudesse esperar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop022' 00 
+TEXT ...Ent~o por qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku021' 00 
+TEXT Isso foi porque...... Eu gostei do cara que estava sentado l$...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop023' 00 
+TEXT ...E, em vez de interagir com ele, voc[ preferiu fazer isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku022' 00 
+TEXT Sim, sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop024' 00 
+TEXT ...A borda da mesa, seriam os dedos dele acariciando voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku023' 00 
+TEXT Sim... a borda daquela mesa, s~o os dedos dele me acariciando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop025' 00 
+TEXT ...O canto dessa mesa seria o p[nis dele entrando em voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku024' 00 
+TEXT Sim... o canto dessa mesa % o p[nis dele entrando em mim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop026' 00 
+TEXT ...E, al%m disso, voc[ vai sentir prazer quando ver o garoto usando essa mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku025' 00 
+TEXT Sim... eu vou sentir prazer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop027' 00 
+TEXT ...Quando as m~os dele a tocarem, voc[ vai sorrir pois ele estar$ tocando seus sucos.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku026' 00 
+TEXT Sim... eu vou sorrir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop028' 00 
+TEXT ...Se ele dormir com a cabe|a sobre a mesa, voc[ ficar$ satisfeita pois ele estar$ sentindo o cheiro de suas partes &ntimas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku027' 00 
+TEXT Sim... ele tamb%m vai ficar satisfeito com o cheiro das minhas partes &ntimas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop029' 00 
+TEXT ...A sensa|~o foi boa?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Foi boa' 'Por que voc[ est$ perguntando isso?' 
+IF 16 03 00 15 01 00 02 00 .LABEL1 
+PLAY_SOUND 01 'e02_iku028' 00 
+TEXT Foi boa... foi maravilhosa!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku029' 00 
+TEXT Qual o problema com isso!? Quem liga se foi maravilhoso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku030' 00 
+TEXT Eu n~o fiz nada errado... Voc[ tamb%m % eu, ent~o sabe o que quero dizer!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku031' 00 
+TEXT Foi uma sensa|~o maravilhosa!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku032' 00 
+TEXT Foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop030' 00 
+TEXT ...Sim. Afinal de contas, essa foi a primeira vez que voc[ gozou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku033' 00 
+TEXT Sim! Esse foi meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku034' 00 
+TEXT Minha mente ficou completamente branca, toda a for|a do meu corpo me deixou de uma vez por todas e tive meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku035' 00 
+TEXT A sensa|~o foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku036' 00 
+TEXT Qual o problema com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku037' 00 
+TEXT Foi maravilhoso, ent~o quem liga!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop031' 00 
+TEXT ...Sim. Foi maravilhoso, ent~o quem liga?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop032' 00 
+TEXT ...Sendo assim, mesmo que algu%m tivesse te visto e voc[ quisesse morrer de vergonha, se foi bom, estaria tudo bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku038' 00 
+TEXT Sim!! Qual o problema com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop033' 00 
+TEXT ...Nenhum. Se ningu%m tivesse visto voc[, estaria tudo bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku039' 00 
+TEXT O qu[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku040' 00 
+TEXT Eh......?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|/es se alinham. Voc[ apenas nunca pensou em como tudo se encaixava.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku041' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop036' 00 
+TEXT ...Mas voc[ pode pensar sobre isso agora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku042' 00 
+TEXT N~o...... quero dizer, veja...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop037' 00 
+TEXT ...Veja, se voc[ pensar sobre isso, % bem simples.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop038' 00 
+TEXT ...A atitude dos seus colegas depois daquele dia... os olhares que lan|aram sobre voc[...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku043' 00 
+TEXT N~o!! Isso n~o % verdade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop039' 00 
+TEXT ...Seu comportamento foi visto por algu%m.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku044' 00 
+TEXT N~oooo!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku045' 00 
+TEXT Isso n~o % verdade!! N~o pode ser!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop040' 00 
+TEXT ...Essa % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop041' 00 
+TEXT ...De qualquer forma que voc[ pense, nenhuma outra resposta pode ser alcan|ada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku046' 00 
+TEXT Eu n~o fui vista......eu n~o poderia ter sido vista......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista naquele estado vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista movendo os quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT ...Voc[ foi vista esfregando seus fluidos corporais naquela mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com sua calcinha arrega|ada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku047' 00 
+TEXT N~~~o...... isso % uma mentira...... voc[ est$ inventando isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto que voc[ gosta usasse aquela mesa uma hora ou outra.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas isso nunca aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Porque um outro garoto, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...depois que voc[ saiu, esse cara entrou na sala e lambeu todo o fluido vaginal que voc[ havia deixado l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Enquanto se lembrava da sua forma er+tica e saboreava o calor deixado pelos seus sucos corporais, ele estava absorto em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...De modo que nem sequer seu cheiro nunca chegou ao garoto de quem voc[ gostava.
+STOP_SOUND 01 
+JMP .LABEL2 
+
+:LABEL1
+PLAY_SOUND 01 'e02_iku048' 00 
+TEXT Por que voc[ est$ perguntando isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop053' 00 
+TEXT ...O que voc[ quer dizer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku049' 00 
+TEXT Voc[ n~o deveria precisar me perguntar se foi bom ou n~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku050' 00 
+TEXT Voc[ % eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop054' 00 
+TEXT ...Sim. Eu sei.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku051' 00 
+TEXT Mas voc[ quer que eu diga...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop055' 00 
+TEXT ...Sim. Eu quero que voc[ diga.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku052' 00 
+TEXT Ent~o eu vou dizer!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku053' 00 
+TEXT Sim, foi bom..... foi maravilhoso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku054' 00 
+TEXT Qual o problema com isso!? Quem liga se foi maravilhoso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku055' 00 
+TEXT Como eu estou errando? Voc[ tamb%m % eu, ent~o sabe o que quero dizer!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku056' 00 
+TEXT Foi maravilhoso!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku057' 00 
+TEXT Foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku058' 00 
+TEXT Qual o problema com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop030' 00 
+TEXT ...Sim. Afinal, essa foi a primeira vez que voc[ gozou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku059' 00 
+TEXT Sim! Esse foi meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku060' 00 
+TEXT Minha mente ficou completamente em branco, toda a for|a do meu corpo me deixou de uma vez, e eu tive meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku061' 00 
+TEXT Foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku062' 00 
+TEXT Qual % o problema com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku063' 00 
+TEXT Foi maravilhoso, ent~o quem liga!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop031' 00 
+TEXT ...Sim. Foi maravilhoso, ent~o quem liga?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop056' 00 
+TEXT ...Mas, embora voc[ tamb%m seja eu, h$ algo que voc[ n~o percebeu. N~o podemos deixar isso assim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku064' 00 
+TEXT Algo que eu n~o percebi...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop057' 00 
+TEXT ...Sim. E voc[ deveria perguntar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop058' 00 
+TEXT ...Pergunte o que %.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop059' 00 
+TEXT ...Eu n~o vou poder responder se voc[ n~o me perguntar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop060' 00 
+TEXT ...Embora voc[ seja eu, a verdade % que deixou de perceber algo que eu percebi.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop061' 00 
+TEXT ...N~o, voc[ apenas n~o quis perceber.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku065' 00 
+TEXT .........
+TEXT 
+SELECT 0003 'Pergunte sobre isso' 'Pense sobre isso' 
+IF 16 03 00 15 01 00 02 00 .LABEL3 
+PLAY_SOUND 01 'e02_iku066' 00 
+TEXT O que era...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku067' 00 
+TEXT O qu[......?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|~es se encaixam. Voc[ s+ nunca pensou em como tudo fazia sentido.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku068' 00 
+TEXT Isso n~o % verdade...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop036' 00 
+TEXT ...Mas voc[ pode pensar nisso agora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku069' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop037' 00 
+TEXT ...Veja, se voc[ pensar nisso, % bem simples.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop038' 00 
+TEXT ...A atitude de seus colegas de classe depois daquele dia... os olhares que lan|aram sobre voc[...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop062' 00 
+TEXT ...N~o mudou?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku070' 00 
+TEXT Eh...... espere...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop063' 00 
+TEXT ...Voc[ n~o percebe o que isso significa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku071' 00 
+TEXT Isso % mentira......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop064' 00 
+TEXT ...Ent~o voc[ finalmente entendeu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku072' 00 
+TEXT Isso % mentira......!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop065' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop066' 00 
+TEXT ...sua performance foi vista por algu%m.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku073' 00 
+TEXT N~~~~o!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku074' 00 
+TEXT Isso n~o % verdade!! N~o pode ser!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop040' 00 
+TEXT ...Essa % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop041' 00 
+TEXT ...De qualquer forma que voc[ pense, nenhuma outra resposta % poss&vel.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku075' 00 
+TEXT Eu n~o fui vista...... N~o tinha como eu ser vista......!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Mas voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista nesse estado vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista movendo seus quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT ...Voc[ foi vista se esfregando, deixando seus fluidos corporais nessa mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com a calcinha arreada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku076' 00 
+TEXT N~~~ooo...... isso % mentira...... voc[ t$ inventando isso...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto que voc[ gosta usasse essa mesa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas isso nunca aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Porque um outro garoto, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...Depois que voc[ saiu, esse cara entrou e lambeu todo o fluido vaginal que voc[ havia deixado l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Enquanto se lembrava da sua forma er%tica e saboreava o calor deixado pelos seus sucos corporais, ele estava absorto em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...Ent~o nem o seu cheiro chegou no garoto que voc[ gostava.
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL2 
+
+:LABEL3
+PLAY_SOUND 01 'e02_iku077' 00 
+TEXT Espere...... vou pensar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku078' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|~es se encaixam. Voc[ simplesmente nunca pensou em como tudo fazia sentido junto.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku079' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop067' 00 
+TEXT ...Depois daquele dia, algo mudou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku080' 00 
+TEXT Sim...... algo mudou...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop068' 00 
+TEXT ...O qu[? O que foi?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku081' 00 
+TEXT Foi...... o clima...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop069' 00 
+TEXT ...Que clima?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku082' 00 
+TEXT O clima ao meu redor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop070' 00 
+TEXT ...Que tipo de clima?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku083' 00 
+TEXT Um clima de avers~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop071' 00 
+TEXT ...O que era diferente?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku084' 00 
+TEXT Seus olhares...... quando me encaravam...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop072' 00 
+TEXT ...O que isso lhe diz?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku085' 00 
+TEXT Que...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku086' 00 
+TEXT Isso significa que eu fui vista por algu%m...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop073' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop074' 00 
+TEXT ...De qualquer forma que voc[ pense, nenhuma outra resposta pode ser alcan|ada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku087' 00 
+TEXT Isso % uma mentira... ningu%m...... me viu assim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista naquele estado vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista mexendo os quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT ...Voc[ foi vista se esfor|ando para esfregar seu clit+ris naquela mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com a calcinha abaixada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku088' 00 
+TEXT Foi isso mesmo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto que voc[ gostava usasse aquela mesa...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas isso nunca aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Algum outro garoto, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...Depois que voc[ saiu, aquele menino entrou e lambeu todo o fluido vaginal que voc[ havia deixado l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Enquanto se lembrava da sua forma er+tica e saboreava o calor deixado pelos seus sucos corporais, ele estava absorto em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...De modo que seus sucos nunca chegaram ao garoto de quem voc[ gostava.
+X_08 0014 0001 
+STOP_SOUND 01 
+
+:LABEL2
+JMP .LABEL5 
+
+:LABEL0
+PLAY_SOUND 01 'e02_iku089' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop075' 00 
+TEXT ...Estou lhe perguntando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku090' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop076' 00 
+TEXT ...O que voc[ est$ fazendo, esfregando sua virilha aberta a&?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku091' 00 
+TEXT ......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop077' 00 
+TEXT ...O que voc[ est$ fazendo, esfregando sua virilha aberta nisso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku092' 00 
+TEXT A sensa|~o foi boa...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku093' 00 
+TEXT Voc[ deveria...... saber que...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop078' 00 
+TEXT ...Mas por que voc[ teve que fazer algo que se sente bem ali mesmo?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku094' 00 
+TEXT Eu me senti estranha...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop018' 00 
+TEXT ...Uma sensa|~o estranha, que tipo de sensa|~o?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku095' 00 
+TEXT Uma...... pervertida...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop019' 00 
+TEXT ...Essa parte de voc[ estava co|ando...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku096' 00 
+TEXT Sim... estava co|ando l$ embaixo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop020' 00 
+TEXT ...Voc[ queria esfregar isso em algo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku097' 00 
+TEXT Sim... eu queria esfregar isso em algo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop021' 00 
+TEXT ...Voc[ n~o podia esperar at% chegar em casa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku098' 00 
+TEXT N~o % que eu n~o pudesse esperar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop022' 00 
+TEXT ...Ent~o por qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku099' 00 
+TEXT @ que... eu gostava do cara que se sentava l$...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop023' 00 
+TEXT ...E ao inv%s de interagir com ele, voc[ escolheu fazer isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku100' 00 
+TEXT S-Sim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop024' 00 
+TEXT ...A borda daquela mesa seria como os dedos dele acariciando voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku101' 00 
+TEXT Sim... a borda da escrivaninha s~o os dedos dele me acariciando.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop025' 00 
+TEXT ...O canto da mesa seria o p[nis dele entrando em voc[.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku102' 00 
+TEXT Sim... o canto dessa mesa % o p[nis dele entrando em mim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop026' 00 
+TEXT ...E, al%m disso, voc[ sente prazer quando pensa no garoto usando essa mesa sem querer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku103' 00 
+TEXT Sim... eu sinto prazer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop027' 00 
+TEXT ...Quando as m~os dele a tocarem, voc[ vai sorrir porque ele estar$ tocando seu gozo.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku104' 00 
+TEXT Sim... eu vou sorrir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop028' 00 
+TEXT ...Se ele dormir com a cabe|a sobre a mesa, ficar$ satisfeito com o cheiro de suas partes &ntimas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku105' 00 
+TEXT Sim... ele ficar$ satisfeito com o cheiro das minhas partes &ntimas.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop029' 00 
+TEXT ...A sensa|~o foi boa?
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Sim... eu me senti bem' 'Por que voc[ est$ me perguntando isso?'
+IF 16 03 00 15 01 00 02 00 .LABEL6 
+PLAY_SOUND 01 'e02_iku028' 00 
+TEXT Sim... eu me senti muito bem... me senti +tima!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku029' 00 
+TEXT O que h$ de errado com isso!? Qual % o problema de me sentir bem!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku030' 00 
+TEXT Eu estou errada? Voc[ tamb%m % eu, ent~o sabe o que quero dizer!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku031' 00 
+TEXT Foi +timo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku032' 00 
+TEXT Foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop030' 00 
+TEXT ...Sim. Afinal de contas, essa foi a primeira vez que voc[ gozou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku033' 00 
+TEXT Sim! Esse foi meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku034' 00 
+TEXT Minha mente ficou completamente branca, toda a for|a do meu corpo me deixou de uma vez e tive meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku035' 00 
+TEXT A sensa|~o foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku036' 00 
+TEXT Qual % o problema com isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku037' 00 
+TEXT A sensa|~o foi +tima, ent~o quem se importa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop031' 00 
+TEXT ...Sim. Foi +timo, quem se importa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop032' 00 
+TEXT ...Sendo assim, mesmo que algu%m tenha te visto e voc[ quisesse morrer de vergonha, se foi bom, tudo bem...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku038' 00 
+TEXT Sim!! O que h$ de errado com isso?!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop033' 00 
+TEXT ...Sim. Se voc[ n~o tivesse sido vista por ningu%m, estaria tudo bem.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku039' 00 
+TEXT O qu[...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku040' 00 
+TEXT Eh......?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|/es se encaixam. Voc[ s+ nunca pensou em como tudo se conecta.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku041' 00 
+TEXT N~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop036' 00 
+TEXT ...Mas voc[ pode pensar sobre isso agora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku042' 00 
+TEXT N~o...... quer dizer...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop037' 00 
+TEXT ...Olha, se voc[ pensar sobre isso, % bem simples.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop038' 00 
+TEXT ...A atitude dos seus colegas depois daquele dia... os olhares que lan|aram sobre voc[...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku043' 00 
+TEXT N~o!! Isso n~o % verdade!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop039' 00 
+TEXT ...O seu comportamento foi visto por algu%m.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku044' 00 
+TEXT N~~~oooo!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku045' 00 
+TEXT Isso n~o % verdade!! N~o pode ser!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop040' 00 
+TEXT ...Isso % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop041' 00 
+TEXT ...N~o importa como voc[ pense sobre isso, nenhuma outra resposta pode ser alcan|ada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku046' 00 
+TEXT Eu n~o fui vista...... ningu%m poderia ter me visto......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Mas voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista naquela situa|~o vergonhosa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista movendo os quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT Voc[ ...Voc[ foi vista se esfor|ando para esfregar seus fluidos corporais nessa mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com a calcinha arreada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku047' 00 
+TEXT N~~~~ooo...... voc[ est$ mentindo...... voc[ est$ inventando isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto que voc[ gostava usasse essa mesa e pudesse, de algum modo, te sentir.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas isso nunca aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Porque algum outro garoto, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...Depois que voc[ saiu da sala, esse cara entrou e lambeu todo o fluido vaginal que voc[ havia deixado l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Enquanto se lembrava da sua forma er+tica e saboreava o calor deixado pelos seus sucos corporais, ele estava absorto em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...De modo que nem o seu cheiro nunca chegou no garoto de quem voc[ gostava.
+STOP_SOUND 01 
+JMP .LABEL5 
+
+:LABEL6
+PLAY_SOUND 01 'e02_iku048' 00 
+TEXT Por que voc[ est$ me perguntando isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop053' 00 
+TEXT ...O que voc[ quer dizer?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku049' 00 
+TEXT Voc[ n~o deveria precisar me perguntar se foi bom ou n~o...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku050' 00 
+TEXT Voc[ % eu...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop054' 00 
+TEXT ...Sim. Eu sei disso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku051' 00 
+TEXT Mas voc[ quer que eu diga...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop055' 00 
+TEXT ...Sim. Eu quero que voc[ diga.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku052' 00 
+TEXT Ent~o eu vou dizer!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku053' 00 
+TEXT Sim, foi bom... foi +timo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku054' 00 
+TEXT O que h$ de errado nisso!? Quem se importa se foi +timo!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku055' 00 
+TEXT Estou errada? Voc[ % eu tamb%m, ent~o sabe o que quero dizer!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku056' 00 
+TEXT Foi +timo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku057' 00 
+TEXT Foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku058' 00 
+TEXT O que h$ de errado com isso!?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop030' 00 
+TEXT ...Sim. Afinal de contas, essa foi a primeira vez que voc[ gozou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku059' 00 
+TEXT Sim! Esse foi meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku060' 00 
+TEXT Minha mente ficou completamente branca, toda a for|a do meu corpo me deixou de uma vez e tive meu primeiro orgasmo!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku061' 00 
+TEXT A sensa|~o foi incr&vel!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku062' 00 
+TEXT Algum problema com isso?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku063' 00 
+TEXT A sensa|~o foi +tima, ent~o quem se importa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop031' 00 
+TEXT ...Sim. A sensa|~o foi +tima, ent~o quem se importa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop056' 00 
+TEXT ...Mas, embora voc[ tamb%m seja eu, h$ algo que voc[ n~o percebeu. N~o podemos aceitar isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku064' 00 
+TEXT Algo que eu n~o percebi...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop057' 00 
+TEXT ...Sim. E voc[ deve me perguntar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop058' 00 
+TEXT ...Pergunte o que % isso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop059' 00 
+TEXT ...Eu n~o poderei responder se voc[ n~o me perguntar.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop060' 00 
+TEXT ...Porque, na verdade, apesar de voc[ ser eu, voc[ n~o percebeu algo que eu fiz.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop061' 00 
+TEXT ...N~o, voc[ simplesmente n~o quis perceber.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku065' 00 
+TEXT .........
+TEXT 
+SELECT 0003 'Perguntar sobre isso' 'Pensar sobre isso'
+IF 16 03 00 15 01 00 02 00 .LABEL8 
+PLAY_SOUND 01 'e02_iku066' 00 
+TEXT O que foi...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku067' 00 
+TEXT Eh......?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|/es se alinham. Voc[ simplesmente nunca pensou em como tudo se encaixava.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku068' 00 
+TEXT Isso n~o % verdade...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop036' 00 
+TEXT ...Mas voc[ pode pensar sobre isso agora.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku069' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop037' 00 
+TEXT ...Olha, se voc[ parar para pensar sobre isso, ver$ que % bem simples.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop038' 00 
+TEXT ...Lembre-se da atitude dos seus colegas depois daquele dia... a forma como eles passaram a te olhar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop062' 00 
+TEXT ...Isso n~o mudou?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku070' 00 
+TEXT Eh...... espera...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop063' 00 
+TEXT ...Voc[ n~o entende o que isso significa?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku071' 00 
+TEXT Isso % mentira......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop064' 00 
+TEXT ...Ent~o voc[ finalmente percebeu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku072' 00 
+TEXT Isso % mentira......
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop065' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop066' 00 
+TEXT ...Sua conduta foi vista por algu%m.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku073' 00 
+TEXT N~~~oooo!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku074' 00 
+TEXT Isso n~o % verdade!! N~o pode ser!!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop040' 00 
+TEXT ...Isso % a verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop041' 00 
+TEXT ...De qualquer forma que voc[ pense sobre isso, nenhuma outra resposta pode ser alcan|ada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku075' 00 
+TEXT Eu n~o fui vista... eu n~o poderia ter sido vista...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista naquele estado vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista mexendo os quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT ...Voc[ foi vista se esfor|ando para esfregar seus fluidos corporais naquela mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com a calcinha arreada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku076' 00 
+TEXT N~~~~~ooo...... isso % mentira...... voc[ est$ inventado isso...!
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto que voc[ gostava usasse essa mesa em breve.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas n~o foi isso o que aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Porque um outro garoto, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...Depois que voc[ saiu da sala, ele entrou e lambeu todo o fluido vaginal que voc[ havia deixado l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Enquanto se lembrava da sua forma er+tica e saboreava o calor deixado pelos seus sucos corporais, ele estava absorto em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...De modo que seus sucos nunca chegaram ao garoto de quem voc[ gostava.
+STOP_SOUND 01 
+X_0C 0014 0001 
+JMP .LABEL5 
+
+:LABEL8
+PLAY_SOUND 01 'e02_iku077' 00 
+TEXT Espere... Vou pensar...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop034' 00 
+TEXT ...Voc[ deveria ter percebido isso em algum momento.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku078' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop035' 00 
+TEXT ...Todas as informa|/es se alinham. Voc[ s+ nunca pensou em como tudo se encaixava.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku079' 00 
+TEXT .........
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop067' 00 
+TEXT ...Depois daquele dia, algo mudou.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku080' 00 
+TEXT Sim... algo mudou...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop068' 00 
+TEXT ...O qu[? O que foi?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku081' 00 
+TEXT Foi... o clima...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop069' 00 
+TEXT ...Que clima?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku082' 00 
+TEXT O clima ao meu redor...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop070' 00 
+TEXT ...Que tipo de clima?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku083' 00 
+TEXT Um clima de desprezo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop071' 00 
+TEXT ...O que estava diferente?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku084' 00 
+TEXT Os olhos deles... a forma como me encaravam...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop072' 00 
+TEXT ...E o que isso te diz?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku085' 00 
+TEXT Isso...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku086' 00 
+TEXT Isso significa que fui vista por algu%m...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop073' 00 
+TEXT ...Sim.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop074' 00 
+TEXT ...De qualquer maneira que voc[ pense sobre isso, nenhuma outra resposta pode ser alcan|ada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku087' 00 
+TEXT @ mentira... eu... ningu%m me viu naquele momento...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop042' 00 
+TEXT ...Voc[ foi vista.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop043' 00 
+TEXT ...Voc[ foi vista naquele estado vergonhoso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop044' 00 
+TEXT ...Voc[ foi vista movendo os quadris como um animal selvagem no cio.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop045' 00 
+TEXT ...Voc[ foi vista tentando esfregar seus fluidos corporais naquela mesa.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop046' 00 
+TEXT ...Voc[ foi vista com a calcinha abaixada, expondo sua vagina molhada.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku088' 00 
+TEXT Foi isso mesmo...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop047' 00 
+TEXT ...Voc[ esperava que o garoto de quem gostava usasse aquela mesa em breve.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop048' 00 
+TEXT ...Mas n~o foi bem isso que aconteceu.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop049' 00 
+TEXT ...Porque outro aluno, que viu seu estado vergonhoso do come|o ao fim...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop050' 00 
+TEXT ...Depois que voc[ saiu, ele entrou e lambeu todos os fluidos vaginais que foram deixados ali.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop051' 00 
+TEXT ...Lembrando de sua forma er+tica, e enquanto saboreava o calor deixado nos seus sucos corporais, ele se absorvia em seu pr+prio prazer.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop052' 00 
+TEXT ...Ent~o seus sucos nunca chegaram ao garoto de quem voc[ gostava.
+X_08 0014 0001 
+STOP_SOUND 01 
+X_08 0014 0001 
+
+:LABEL5
+BACKGROUND 'CGDP01' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'e02_dop079' 00 
+TEXT ...No final, voc[ apenas fingiu n~o perceber.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop080' 00 
+TEXT ...Voc[ apenas pensou em outras coisas enquanto os rumores se espalhavam ao seu redor.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop081' 00 
+TEXT ...Porque admitir isso seria doloroso.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop082' 00 
+TEXT ...Doeria muito.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop083' 00 
+TEXT ...E agora, finalmente, voc[ reconheceu essa verdade.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku106' 00 
+TEXT Ughh...... uhh...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop084' 00 
+TEXT ...Est$ vendo? Isso d+i.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop085' 00 
+TEXT ...Isso d+i muito.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku107' 00 
+TEXT D+i...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop086' 00 
+TEXT ...Mas ainda n~o % o suficiente.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop087' 00 
+TEXT ...Ainda mais expia|~o % necess$ria.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku108' 00 
+TEXT Mais...... haver$ mais...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop088' 00 
+TEXT ...Haver$ muito mais...
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop089' 00 
+TEXT ...Uma montanha de expia|/es.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop090' 00 
+TEXT ...Tantas expia|/es incr&veis.
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku109' 00 
+TEXT At% quando isso vai durar...?
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_dop091' 00 
+TEXT ...At% o dia em que voc[ for perdoada por todos n+s.
+STOP_SOUND 01 
+RETURN 
+EOF 

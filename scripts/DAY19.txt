@@ -1,0 +1,244 @@
+
+# MOON SCRIPT FILE "DAY19.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 0013 
+SETSTATUS ' Day 19 -- Facility Interior'
+BACKGROUND 'FG218' 
+X_24 00 
+X_25 06 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_00 007C 0000 
+X_00 007D 0000 
+X_00 007E 0000 
+X_00 007F 0000 
+X_00 0080 0000 
+X_00 0081 0000 
+X_00 0082 0000 
+X_00 0083 0000 
+X_00 0084 0000 
+X_00 0085 0000 
+X_00 0086 0000 
+X_00 0087 0000 
+X_00 0088 0000 
+X_00 0089 0000 
+X_00 008A 0000 
+X_00 008B 0000 
+X_00 008C 0000 
+X_00 008D 0000 
+X_00 008E 0000 
+X_00 008F 0000 
+X_00 0090 0000 
+X_00 0091 0000 
+X_00 0092 0000 
+X_00 0093 0000 
+X_00 0094 0000 
+X_00 0095 0000 
+X_00 0096 0000 
+X_00 0097 0000 
+X_00 0098 0000 
+X_00 0099 0000 
+X_00 009A 0000 
+X_00 009B 0000 
+X_00 009C 0000 
+X_00 009D 0000 
+X_00 009E 0000 
+X_00 009F 0000 
+X_00 00A0 0000 
+X_00 00A1 0000 
+X_00 00A2 0000 
+X_00 00A3 0000 
+X_00 00A4 0000 
+X_00 00A5 0000 
+X_00 00A6 0000 
+X_00 00A7 0000 
+X_00 00A8 0000 
+X_00 00A9 0000 
+X_00 00AA 0000 
+X_00 00AB 0000 
+X_00 00AC 0000 
+X_00 00AD 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0074 0000 
+X_28 0028 
+BACKGROUND 'FG080' 
+X_24 00 
+X_25 06 
+TEXT Ikumi: (.........）
+STOP_SOUND 01 
+TEXT Ikumi: (......）
+STOP_SOUND 01 
+TEXT Ikumi: (.........）
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ik2000' 00 
+TEXT Ikumi: (......）
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ik2001' 00 
+TEXT Ikumi: (......huh...?）
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ik2002' 00 
+TEXT Ikumi: (...what...was I thinking about...?）
+STOP_SOUND 01 
+
+:LABEL1
+TEXT 
+SELECT 0003 'About revenge' 'About happier days' 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 '000_ik2003' 00 
+TEXT Ikumi: (Revenge...?）
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ik2004' 00 
+TEXT Ikumi: (What's...that...?）
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ik2005' 00 
+TEXT Ikumi: (I've long forgotten that...）
+STOP_SOUND 01 
+JMP .LABEL1 
+JMP .LABEL2 
+
+:LABEL0
+TEXT Yes...
+TEXT There's nothing left for me...
+TEXT So I'll spend my remaining time living inside the happy memories I still have.
+TEXT .........
+TEXT Okaa-san...
+TEXT All of the happy memories I had were of okaa-san.
+TEXT The time I was happiest, when I was still young, and the world was still filled with mystery.
+TEXT The sea at the end of summer.
+BACKGROUND 'FG136' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd15' 01 
+TEXT Making a sand castle on an unpopular beach...
+TEXT As if our time was isolated there...
+TEXT When I raised my face, okaa-san would smile at me...
+TEXT "Just a little more" she'd say...
+TEXT When I looked up at the sky, it was so high...
+TEXT I thought I'd like to go on forever, until I reached the sky above some foreign city...
+TEXT I thought that being together in the same place within this wide world was something irreplaceable...
+TEXT I started to cry...
+TEXT But they were tears of happiness...
+TEXT Don't worry, okaa-san...
+PLAY_SOUND 01 'se74' 00 
+TEXT *zazaa*...
+TEXT It scuttled past me...
+TEXT The crabs were pulling back...
+TEXT I have to hurry up and finish it...
+TEXT I wasn't feeling uneasy...
+TEXT I just became passionate about making the sand castle...
+TEXT Because okaa-san was staying beside me...
+TEXT And letting me go on innocently...
+
+:LABEL2
+TEXT Time should've just stopped then...
+TEXT Forever...
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT 
+GOTO_SCRIPT 'DAY20A' 
+EOF 
