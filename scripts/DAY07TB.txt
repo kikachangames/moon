@@ -1,0 +1,1232 @@
+# Second part of DAY07T.SNX
+# (for the first part, see DAY07TA)
+
+BACKGROUND 'BG010' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '016_yui000' 00 
+TEXT Yui: "Ah!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku000' 00 
+TEXT Ikumi: "Yui! A Yuri-san veio por aqui!?"
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '016_yui001' 00 
+TEXT Yui: "Eh...... a Yuri-san acordou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_yui002' 00 
+TEXT Yui: "Gra|as a Deus..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku001' 00 
+TEXT Ikumi: "Isso..."
+STOP_SOUND 01 
+TEXT Resumi tudo pra ela.
+PLAY_SOUND 01 '053_iku002' 00 
+TEXT Ikumi: "De qualquer forma, vamos procur$-la."
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '016_yui003' 00 
+TEXT Yui: "Ent~o... devemos nos separar!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku003' 00 
+TEXT Ikumi: "Sim, voc[ tem raz~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku004' 00 
+TEXT Ikumi: "Ent~o eu vou por aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_yui004' 00 
+TEXT Yui: "Eu vou por aqui!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku005' 00 
+TEXT Ikumi: "Certo, se cuida..."
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '016_yui005' 00 
+TEXT Yui: "Voc[ tamb%m, Ikumi-san."
+STOP_SOUND 01 
+TEXT 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+X_28 000A 
+BACKGROUND 'FG225' 
+X_24 00 
+X_25 06 
+X_28 0028 
+BACKGROUND 'BG026' 
+X_24 00 
+X_25 06 
+TEXT ...
+TEXT ......
+TEXT .........
+PLAY_SOUND 01 '008_yri000' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri001' 00 
+TEXT Yuri: "......Urg!"
+STOP_SOUND 01 
+TEXT Ela socou a parede cinza sem motivo algum.
+TEXT Ela sabia que estava irritada.
+TEXT E saber disso s+ a irritava ainda mais.
+PLAY_SOUND 01 '008_yri002' 00 
+TEXT Yuri: "...Por qu[?"
+STOP_SOUND 01 
+TEXT Sua atitude era imperdo$vel.
+TEXT ...Suas a|/es quando a Yui falou com ela pela ^ltima vez foram...
+PLAY_SOUND 01 '008_yri003' 00 
+TEXT Yuri: "...Por que... eu estou..."
+STOP_SOUND 01 
+BACKGROUND 'FG168' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd06' 01 
+X_3C 13 01 
+TEXT ...
+TEXT ......
+TEXT .........
+PLAY_SOUND 01 '017_yui000' 00 
+TEXT Yui: "Hm... o Choco parou de se mexer..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui001' 00 
+TEXT Yui: "Ele n~o vai mais brincar comigo...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui002' 00 
+TEXT Yui: "Uaaa...!! N~oooo...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui003' 00 
+TEXT Yui: "...Volte # vida...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui004' 00 
+TEXT Yui: "Pai... fa|a o Choco voltar # vida!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui005' 00 
+TEXT Yui: "M~e... o Choco vai ficar melhor logo, n%...!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui006' 00 
+TEXT Yui: "Por que... pai... m~e... por que voc[s n~o dizem nada!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui007' 00 
+TEXT Yui: "Ah... onee-chan! Onee-chan, voc[ pode trazer o Choco de volta, n~o pode!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui008' 00 
+TEXT Yui: "A gente vai poder brincar de novo no rio, n%...!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui009' 00 
+TEXT Yui: "Afinal, a onee-chan % a onee-chan da Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui010' 00 
+TEXT Yui: "Ela disse que sempre ajudaria... sempre... se a Yui estivesse em apuros!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui011' 00 
+TEXT Yui: "...N~o % verdade, onee-chan!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui012' 00 
+TEXT ...Voc[ n~o vai me salvar...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui013' 00 
+TEXT ...Onee-chan...
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+BACKGROUND 'BG026' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+SPRITE 'CGYR03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '008_yri004' 00 
+TEXT Yuri: (Naquela %poca, eu jurei para mim mesma que protegeria a Yui, custe o que custasse.)
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui014' 00 
+TEXT <Por que voc[ n~o me salvou?>
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri005' 00 
+TEXT Yuri: (Eu disse pra mim mesma... que nunca mais veria a Yui chorar.)
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui015' 00 
+TEXT <Eu estava dizendo 'me salve.'>
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui016' 00 
+TEXT <Eu chorei o tempo todo.>
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri006' 00 
+TEXT Yuri: (...Mesmo assim... eu...)
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+PLAY_SOUND 01 '008_yri007' 00 
+TEXT Yuri: "...Eh?"
+STOP_SOUND 01 
+TEXT Dentro do corpo da Yuri, ela sentiu algo pulsando.
+PLAY_SOUND 01 '008_yri008' 00 
+TEXT Yuri: "Ughu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri009' 00 
+TEXT Yuri: "Guuaaaa!!!"
+STOP_SOUND 01 
+TEXT O interior de seu corpo foi tomado por uma dor repentina, e ela caiu contra a parede.
+PLAY_SOUND 01 '008_yri010' 00 
+TEXT Yuri: (De novo... isso...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri011' 00 
+TEXT Yuri: "Urghu...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri012' 00 
+TEXT Yuri: "...Guaaaaah!!!"
+STOP_SOUND 01 
+TEXT Ela vinha tendo essas crises por v$rios dias seguidos.
+PLAY_SOUND 01 '008_yri013' 00 
+TEXT Yuri: "AAAAAAAaaaaaaaa!!!!"
+STOP_SOUND 01 
+TEXT Seu cora|~o estava sendo apertado com for|a.
+TEXT Seus ossos se quebravam por dentro.
+TEXT Seu f&gado estourava como um bal~o.
+TEXT Algo subia por sua traqueia e sa&a por sua boca.
+TEXT ...Ela se lembrava dessa ilus~o.
+TEXT Mas, essa dor era real.
+TEXT Ela n~o sabia a causa.
+TEXT Mas uma coisa era certa.
+TEXT Essas crises que remexiam seu interior estavam ficando cada vez piores.
+PLAY_SOUND 01 '008_yri014' 00 
+TEXT Yuri: "GAAAAAA.....gu!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+TEXT Dentro de seu corpo, algo pulsou mais uma vez.
+TEXT Um terror prestes a explodir de dentro dela.
+PLAY_SOUND 01 '008_yri015' 00 
+TEXT Yuri: "Urghhu!!"
+STOP_SOUND 01 
+TEXT A dor atingiu seu pico.
+TEXT E ent~o...
+BACKGROUND 'BG026' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT A crise se intensificou por um momento como se zombasse dela, e ent~o se acalmou.
+PLAY_SOUND 01 '008_yri016' 00 
+TEXT Yuri: "H-Haa..."
+STOP_SOUND 01 
+TEXT Ela se abra|ou, como se quisesse se certificar de que ainda estava inteira.
+TEXT E caiu no ch~o.
+PLAY_SOUND 01 '008_yri017' 00 
+TEXT Yuri: "...Haa... haa..."
+STOP_SOUND 01 
+TEXT Ca&da no ch~o, ela respirava com dificuldade.
+TEXT A crise parecia ter acabado.
+TEXT Mas... o intervalo entre as convuls/es definitivamente havia diminu&do.
+TEXT A pr+xima provavelmente...
+PLAY_SOUND 01 '008_yri018' 00 
+TEXT Yuri: (N~o que eu me importe... n~o tenho medo da morte...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri019' 00 
+TEXT Yuri: (Al%m disso... eu n~o tenho mais nenhum motivo pra viver...)
+STOP_SOUND 01 
+SPRITE 'CGFA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd12' 01 
+PLAY_SOUND 01 '003_bt2000' 00 
+TEXT Homem: "Ei! Voc[ a&!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri020' 00 
+TEXT Yuri: "...O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt2001' 00 
+TEXT Homem: "...Merda, voc[ % aquele Corpo Perdido de ontem!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '008_yri021' 00 
+TEXT Yuri: "Corpo Perdido...?"
+STOP_SOUND 01 
+TEXT Como se quisesse cortar suas palavras, o homem sacou sua arma e a apontou entre os olhos de Yuri.
+PLAY_SOUND 01 '008_yri022' 00 
+TEXT Yuri: "...O que voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt2002' 00 
+TEXT Homem: "Morraaa!!"
+STOP_SOUND 01 
+TEXT Sem pensar duas vezes, o homem apertou o gatilho.
+PLAY_SOUND 01 '008_yri023' 00 
+TEXT Yuri: "...Eh!?"
+STOP_SOUND 01 
+TEXT A morte para a qual ela j$ estava preparada surgiu diante de seus olhos, e Yuri gritou.
+TEXT Esse sentimento n~o era outro sen~o o... medo.
+PLAY_SOUND 01 '008_yri024' 00 
+TEXT Yuri: "N~o! Me salve!!"
+STOP_SOUND 01 
+TEXT Ela gritou instintivamente.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'se20' 00 
+TEXT *BANG*
+TEXT Ao fechar os olhos, um tiro alcan|ou seus ouvidos.
+TEXT E mesmo em seu estado de consci[ncia, ela entendeu o que era.
+TEXT Mas n~o doeu.
+TEXT Talvez todos os seus nervos capazes de sentir dor tivessem ficado dormentes... ou talvez n~o.
+TEXT A bala ro|ou a orelha de Yuri e se cravou na parede atr$s dela.
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '003_bt2003' 00 
+TEXT Homem: "...Mas o qu[!? Por que me impediu!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui017' 00 
+TEXT Voz: "N~o atire na Yuri-san!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt2004' 00 
+TEXT Homem: "Pare! Me larga!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui018' 00 
+TEXT Voz: "Por favor, n~o!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_bt2005' 00 
+TEXT Homem: "Droga... me larga!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se51' 00 
+TEXT *POW*
+TEXT Um som surdo.
+PLAY_SOUND 01 '003_bt2006' 00 
+TEXT Homem: "Ugh......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku006' 00 
+TEXT Voz: "Leve a Yuri-san enquanto temos uma chance!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui019' 00 
+TEXT Voz: "Ah... sim!"
+STOP_SOUND 01 
+TEXT A sensa|~o de ser segurada pelos dois lados.
+PLAY_SOUND 01 '003_bt2007' 00 
+TEXT Homem: "Esperem!! Voc[s duas!!"
+STOP_SOUND 01 
+TEXT A voz do homem se afastava.
+PLAY_SOUND 01 '053_iku007' 00 
+TEXT Voz: "...R$pido! Precisamos esconder ela em algum lugar!"
+STOP_SOUND 01 
+TEXT Uma voz vinda da sua direita.
+PLAY_SOUND 01 '017_yui020' 00 
+TEXT Voz: "Mas onde podemos escond[-la!?"
+STOP_SOUND 01 
+TEXT Dessa vez, da esquerda.
+PLAY_SOUND 01 '053_iku008' 00 
+TEXT Voz: "Qualquer lugar serve!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui021' 00 
+TEXT Voz: "Dizer 'qualquer lugar' % f$cil... Ah! Esse quarto talvez sirva!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku009' 00 
+TEXT Voz: "Mas, esse quarto..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_yui022' 00 
+TEXT Voz: "N~o temos tempo pra ficar escolhendo agora!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '053_iku010' 00 
+TEXT Voz: "@... tem raz~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se52' 00 
+TEXT *Creeek...!*
+TEXT O som de uma porta se abrindo...
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'se33' 00 
+TEXT *Bam*
+TEXT A porta pesada de ferro reverberou ao se fechar.
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui000' 00 
+TEXT Yui: "...Por enquanto, estamos seguras."
+STOP_SOUND 01 
+TEXT O rosto de Yui parecia aliviado.
+TEXT Nenhuma de n+s achou que acabar&amos nos escondendo nesse quarto.
+PLAY_SOUND 01 '018_yui001' 00 
+TEXT Yui: "Ikumi-san, voc[ realmente pegou pesado ali atr$s."
+STOP_SOUND 01 
+TEXT Ela deve estar se referindo ao momento em que golpeei a nuca do patrulheiro da FARGO.
+PLAY_SOUND 01 '018_yui002' 00 
+TEXT Yui: "Espero que ele esteja bem."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku000' 00 
+TEXT Ikumi: "...Provavelmente est$."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+PLAY_SOUND 00 'mon_cd06' 01 
+PLAY_SOUND 01 '009_yri000' 00 
+TEXT Yuri: "......Mmm."
+STOP_SOUND 01 
+TEXT Yuri-san gemeu no ch~o.
+TEXT Ela ainda parecia consciente.
+TEXT Mas um tanto desorientada diante dos acontecimentos.
+TEXT Ela colocou a m~o no ch~o e se levantou lentamente.
+SPRITE 'CGYR03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '009_yri001' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+TEXT Com a cabe|a tombando desconfortavelmente, Yuri-san foi cuidadosamente amparada por Yui, que correu at% ela.
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui003' 00 
+TEXT Yui: "......Uhumm... uhh..."
+STOP_SOUND 01 
+TEXT Ela ainda estava pensando no que deveria dizer.
+TEXT Mesmo sem saber o que falar, ela acabou dizendo algo.
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui004' 00 
+TEXT Yui: "...Yuri-san... Foi dif&cil te carregar at% aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri002' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui005' 00 
+TEXT Yui: "Voc[... por acaso engordou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri003' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui006' 00 
+TEXT Yui: "Hmm..."
+STOP_SOUND 01 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui007' 00 
+TEXT Yui: "...Desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui008' 00 
+TEXT Yui: "Acho que sou mesmo um estorvo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui009' 00 
+TEXT Yui: "Voc[ n~o queria mais ver meu rosto..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri004' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui010' 00 
+TEXT Yui: "Eu vou pra outro lugar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui011' 00 
+TEXT Yui: "Eu... eu n~o... vou mais chegar perto de voc[, Yuri-san..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui012' 00 
+TEXT Yui: "Ent~o..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYR01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '009_yri005' 00 
+TEXT Yuri: "...Voc[ me salvou?"
+STOP_SOUND 01 
+TEXT Ela sussurrou enquanto olhava para o ch~o.
+PLAY_SOUND 01 '009_yri006' 00 
+TEXT Yuri: "...Por qu[...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui013' 00 
+TEXT Yui: "Eh...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri007' 00 
+TEXT Yuri: "...Por que voc[ me salvou!?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+TEXT O grito repentino fez o corpo de Yui estremecer.
+PLAY_SOUND 01 '018_yui014' 00 
+TEXT Yui: "...Yuri-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri008' 00 
+TEXT Yuri: "Mesmo que... mesmo que eu n~o tenha conseguido fazer nada!!"
+STOP_SOUND 01 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd03' 01 
+PLAY_SOUND 01 '018_yui015' 00 
+TEXT Yui: "...Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri009' 00 
+TEXT Yuri: "Quando voc[ foi atacada... eu n~o consegui te salvar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri010' 00 
+TEXT Yuri: "E mesmo assim... quando estou em apuros, voc[ me salva!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui016' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri011' 00 
+TEXT Yuri: "Eu prometi... que sempre que a Yui estivesse em perigo... a onee-chan ia salv$-la!!"
+STOP_SOUND 01 
+TEXT ......
+TEXT Foi a& que entendi...
+TEXT O motivo pelo qual Yuri-san estava fugindo da Yui...
+TEXT O motivo pelo qual ela desejava aquela for|a invis&vel...
+TEXT Yuri-san n~o conseguia perdoar... sua pr+pria incapacidade de proteger a Yui.
+TEXT Odiando a si mesma por ser fraca, ela se agarrou naquela suposta onipot[ncia como sua ^ltima esperan|a.
+TEXT Essa onipot[ncia... a for|a invis&vel...
+PLAY_SOUND 01 '009_yri012' 00 
+TEXT Yuri: "Eu sempre soube... que a Yui nunca teve culpa de nada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri013' 00 
+TEXT Yuri: "Eu sabia que a Yui foi a v&tima de tudo isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri014' 00 
+TEXT Yuri: "Achei que, naquela hora, a Yui precisava da fam&lia toda pra se curar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri015' 00 
+TEXT Yuri: "Mas, naquela hora..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri016' 00 
+TEXT Yuri: "Eu queria que algu%m fosse o vil~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri017' 00 
+TEXT Yuri: "Coloquei toda a culpa na Yui... e quis continuar fingindo que eu era a ^nica v&tima..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri018' 00 
+TEXT Yuri: "Porque era o caminho mais f$cil."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri019' 00 
+TEXT Yuri: "De uma vez s+... tanta coisa aconteceu de uma vez s+..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri020' 00 
+TEXT Yuri: "Mesmo sabendo... que quem mais estava sofrendo era a Yui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri021' 00 
+TEXT Yuri: "Eu empurrei toda a dor pra ela..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri022' 00 
+TEXT Yuri: "...Eu fui a ^nica... que simplesmente esqueceu das coisas ruins... e seguiu em frente como se nada tivesse acontecido..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri023' 00 
+TEXT Yuri: "...Porque... meu cora|~o era fraco..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri024' 00 
+TEXT Yuri: "...Porque eu escolhi o caminho que deixaria menos cicatrizes..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri025' 00 
+TEXT Yuri: "Porque..."
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui017' 00 
+TEXT Yui: "Desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri026' 00 
+TEXT Yuri: "Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui018' 00 
+TEXT Yui: "Eu decidi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui019' 00 
+TEXT Yui: "De agora em diante, eu vou continuar pedindo desculpas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui020' 00 
+TEXT Yui: "Vou dizer 'me desculpa' todos os dias..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri027' 00 
+TEXT Yuri: "...Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui021' 00 
+TEXT Yui: "Ent~o, me desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui022' 00 
+TEXT Yui: "Afinal, foi culpa minha."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui023' 00 
+TEXT Yui: "Eu vou continuar pedindo desculpas todos os dias, ent~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui024' 00 
+TEXT Yui: "Ent~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui025' 00 
+TEXT Yui: "Ent~o... a gente pode sair daqui juntas?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui026' 00 
+TEXT Yui: "A gente pode ir morar juntas em algum lugar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui027' 00 
+TEXT Yui: "N~o vou dizer... que vai ser como antigamente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri028' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri029' 00 
+TEXT Yuri: "...Isso % algo... que n~o posso fazer."
+STOP_SOUND 01 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui028' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYR03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '009_yri030' 00 
+TEXT Yuri: "J$... j$ % tarde demais pra isso."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui029' 00 
+TEXT Yui: "Isso n~o % verdade!! Podemos morar juntas de novo!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri031' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui030' 00 
+TEXT Yui: "...Sei que voc[... me odeia..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui031' 00 
+TEXT Yui: "Nesse caso vou pedir mais desculpas!! Vou pedir desculpas pra sempre!! Ent~o... Por favor!!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYR02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '009_yri032' 00 
+TEXT Yuri: "N~o... n~o % isso que eu quis dizer."
+STOP_SOUND 01 
+TEXT Yuri-san balan|ou a cabe|a suavemente.
+TEXT Aquilo j$ n~o era mais uma resposta vinda do vitimismo.
+TEXT Eram os olhos gentis de uma irm~ compreensiva... uma irm~ que compreendia Yui.
+TEXT Ela encarou Yui com aqueles olhos, e continuou a falar.
+PLAY_SOUND 01 '009_yri033' 00 
+TEXT Yuri: "...Eu n~o vou viver por muito tempo."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui032' 00 
+TEXT Yui: "Eh...? Voc[ t$ doente...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui033' 00 
+TEXT Yui: "Ent~o vamos pro hospital!! Voc[ vai ficar bem!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri034' 00 
+TEXT Yuri: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui034' 00 
+TEXT Yui: "Eles v~o te dar rem%dio, aplicar uma inje|~o... e depois de descansar um pouco, voc[ vai melhorar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri035' 00 
+TEXT Yuri: "...Yui, n~o % t~o simples assim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui035' 00 
+TEXT Yui: "Ah, e tem mais!! Eu... eu vou fazer mingau pra voc[!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui036' 00 
+TEXT Yui: "O mingau especial e perfeitamente nutritivo da Yui... se voc[ comer isso vai ficar bem!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui037' 00 
+TEXT Yui: "E depois..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYR02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '009_yri036' 00 
+TEXT Yuri: "Desculpa, Yui."
+STOP_SOUND 01 
+TEXT Yuri-san interrompeu gentilmente as palavras de Yui.
+PLAY_SOUND 01 '018_yui038' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri037' 00 
+TEXT Yuri: "S%rio... sinto muito."
+STOP_SOUND 01 
+BACKGROUND 'FG169' 
+X_24 00 
+X_25 06 
+X_3C 14 01 
+TEXT Yui simplesmente abra|ou sua irm~.
+TEXT Ela sabia que aquelas palavras marcavam a verdadeira despedida delas.
+PLAY_SOUND 01 '009_yri038' 00 
+TEXT Yuri: "Me desculpe... eu... eu n~o consegui fazer nada do que uma irm~ mais velha deveria fazer por voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui039' 00 
+TEXT Yui: "N~o... isso n~o % verdade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri039' 00 
+TEXT Yuri: "Eu fui... a pior..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri040' 00 
+TEXT Yuri: "Ei, Yui... por favor, me pe|a... uma ^ltima coisa..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri041' 00 
+TEXT Yuri: "Eu n~o sei o que posso fazer por voc[ agora, mas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui040' 00 
+TEXT Yui: "Voc[... vai deixar eu te pedir uma coisa...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri042' 00 
+TEXT Yuri: "Sim."
+STOP_SOUND 01 
+TEXT Ela assentiu.
+PLAY_SOUND 01 '018_yui041' 00 
+TEXT Yui: "S%rio...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri043' 00 
+TEXT Yuri: "Sim."
+STOP_SOUND 01 
+TEXT Ela assentiu novamente.
+PLAY_SOUND 01 '018_yui042' 00 
+TEXT Yui: "Meu... pedido %..."
+STOP_SOUND 01 
+TEXT A voz de Yui era fraca e tremia de tanto chorar, mas ela escolheu suas palavras sem hesitar.
+PLAY_SOUND 01 '018_yui043' 00 
+TEXT Yui: "...Eu quero... poder te chamar de onee-chan de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui044' 00 
+TEXT Yui: "...Eu quero chamar a onee-chan de onee-chan novamente!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri044' 00 
+TEXT Yuri: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui045' 00 
+TEXT Yui: "...Ugu... ugh..."
+STOP_SOUND 01 
+TEXT Enquanto as l$grimas escorriam, ela mal conseguia falar.
+PLAY_SOUND 01 '018_yui046' 00 
+TEXT Yui: "...Onee...chan..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui047' 00 
+TEXT Yui: "...Onee-chan."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui048' 00 
+TEXT Yui: "Onee-chan! Onee-chan!! Onee-chan!! Onee-chaaan!!!"
+STOP_SOUND 01 
+TEXT Yui gritou com toda a for|a dos seus pulm/es.
+TEXT At% que sua garganta ficasse rouca e lhe faltasse o ar, ela continuou chamando por sua amada irm~.
+TEXT Yuri-san respondeu com um abra|o.
+TEXT Um verdadeiro abra|o de irm~s que n~o tinham h$ anos.
+TEXT Como se quisessem recuperar tudo que haviam perdido, as duas sentiram a exist[ncia uma da outra.
+TEXT Mas aquele momento tamb%m foi o ^ltimo.
+TEXT Yuri-san colocou as m~os nos ombros de Yui e, suavemente, a afastou.
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+TEXT Yuri-san se virou para mim.
+PLAY_SOUND 01 '009_yri045' 00 
+TEXT Yuri: "...Cuide da Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku001' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Assenti com a cabe|a e coloquei uma m~o sobre os ombros de Yui.
+PLAY_SOUND 01 '054_iku002' 00 
+TEXT Ikumi: "...Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui049' 00 
+TEXT Yui: "...Eu entendo..."
+STOP_SOUND 01 
+TEXT Ela abra|ou Yuri-san uma ^ltima vez, ent~o se afastou.
+TEXT 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '015_boy006' 00 
+TEXT <Deixe-me te perguntar uma coisa.>
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_boy007' 00 
+TEXT <O motivo pelo qual deseja a for|a invis&vel.>
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri046' 00 
+TEXT <Eu... eu s+ quero recuperar a fam&lia que perdi.>
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_boy008' 00 
+TEXT <Absurdo...>
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_boy009' 00 
+TEXT <Eu n~o consigo entender por que precisa da for|a invis&vel para algo t~o trivial...>
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri047' 00 
+TEXT Yuri: (Ele estava certo...)
+STOP_SOUND 01 
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+PLAY_SOUND 01 '009_yri048' 00 
+TEXT Yuri: (A for|a invis&vel foi completamente in^til pra isso...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '009_yri049' 00 
+TEXT Yuri: (...Embora eu tenha percebido tarde demais.)
+STOP_SOUND 01 
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+PLAY_SOUND 01 '009_yri050' 00 
+TEXT Yuri: (...Ou talvez, tenha sido a tempo...)
+STOP_SOUND 01 
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+PLAY_SOUND 01 '009_yri051' 00 
+TEXT Yuri: (Afinal de contas... a Yui me chamou de onee-chan de novo...)
+STOP_SOUND 01 
+TEXT ......
+PLAY_SOUND 01 'se50' 00 
+TEXT *Tumdum...*
+BACKGROUND 'BG011' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd03' 01 
+TEXT A porta pesada se fechou lentamente.
+PLAY_SOUND 01 'se33' 00 
+TEXT *Bam*
+TEXT Dentro da sala, apenas Yuri-san permaneceu.
+PLAY_SOUND 01 '054_iku003' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Ent~o, ela se transfigurou na Yuri-san de ontem.
+TEXT O motivo pelo qual os homens da FARGO tentavam eliminar ela durante o estado de alerta.
+TEXT A pr+pria Yuri-san estava bem ciente disso.
+TEXT Ela sabia que pouco tempo lhe restava...
+TEXT Em seus momentos finais, ela perdoou Yui e tentou guard$-la na mem+ria...
+TEXT Assim como...
+TEXT Sim, assim como... a minha m~e...
+PLAY_SOUND 01 '009_yri052' 00 
+TEXT Yuri: "GuaaAAAAAAAAaaaaa!!!!!!"
+STOP_SOUND 01 
+TEXT De repente, do outro lado da porta pesada de ferro, ouvimos o grito abafado de Yuri-san.
+PLAY_SOUND 01 '018_yui050' 00 
+TEXT Yui: "Ah...!"
+STOP_SOUND 01 
+TEXT Yui se virou com aquele som, e encarou a porta de ferro.
+PLAY_SOUND 01 '009_yri053' 00 
+TEXT Yuri: "AAAAAAAAAaaaaaa!!!!!!!!"
+STOP_SOUND 01 
+TEXT Era um grito extremamente anormal.
+PLAY_SOUND 01 'se53' 00 
+TEXT *Bam... Bam... Bam... Bam...*
+TEXT Algo estava batendo contra a porta.
+TEXT Sab&amos o que era... apenas Yuri-san estava l$ dentro.
+TEXT Yuri-san estava atirando o pr+prio corpo contra a porta.
+PLAY_SOUND 01 'se53' 00 
+TEXT *Bam... Bam... Bam... Bam...*
+TEXT A porta pesada vibrava com algum ser enlouquecido tentando arromb$-la do outro lado.
+PLAY_SOUND 01 '018_yui051' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+TEXT Yui permaneceu incrivelmente calma ao olhar para aquela porta.
+TEXT Como se quisesse gravar tudo aquilo na mem+ria.
+PLAY_SOUND 01 'se54' 00 
+TEXT *SplAarRrrGh...*
+TEXT Um som desagrad$vel.
+PLAY_SOUND 01 '009_yri054' 00 
+TEXT Yuri: "GuUUUAAAAAAAAaa!!!!!"
+STOP_SOUND 01 
+TEXT Outro grito.
+PLAY_SOUND 01 'se54' 00 
+TEXT *SplAarRrrGh...*
+TEXT Mais um som desagrad$vel.
+PLAY_SOUND 01 '009_yri055' 00 
+TEXT Yuri: "GuuUuu____AAAAAAAAaaaRRRHHHH!!!!"
+STOP_SOUND 01 
+TEXT O grito virou um lamento aterrorizante.
+TEXT O que estava acontecendo com o corpo de Yuri-san...
+TEXT ...Eu n~o conseguia nem imaginar.
+TEXT Yui: "......"
+STOP_SOUND 01 
+TEXT Yui mordeu os l$bios e conteve o impulso de gritar.
+TEXT Ela cerrava o punho com tanta for|a que as unhas penetravam na sua m~o...
+PLAY_SOUND 01 '054_iku004' 00 
+TEXT Ikumi: "...Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se55' 00 
+TEXT *Splooosh...!*
+TEXT Um som inesperado, que lembrava algu%m pisando em uma po|a.
+TEXT Ent~o vi um l&quido vermelho escorrer por baixo da porta, invadindo o corredor.
+TEXT Um l&quido carmesim transbordando, e a voz de Yuri-san j$ inaud&vel.
+TEXT Yui: "......"
+STOP_SOUND 01 
+TEXT Yui apertou ainda mais a m~o, fazendo todo seu corpo tremer.
+TEXT Ap+s isso.. como se nada tivesse acontecido, o local mergulhou no sil[ncio.
+PLAY_SOUND 01 '018_yui052' 00 
+TEXT Yui: "...Vamos, Ikumi-san."
+STOP_SOUND 01 
+TEXT Ela desviou o olhar da porta e agora encarava o fim do corredor.
+TEXT Sangue pingava da palma de sua m~o.
+TEXT Balancei a cabe|a, concordando com ela.
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_yui053' 00 
+TEXT Yui: "...Adeus, onee-chan."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Yui sussurrou essa ^ltima despedida e se afastou.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+X_28 000A 
+BACKGROUND 'BG027' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '054_iku005' 00 
+TEXT Ikumi: "Ei, Yui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui054' 00 
+TEXT Yui: "O que foi?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku006' 00 
+TEXT Ikumi: "O que vai fazer agora...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui055' 00 
+TEXT Yui: "Boa pergunta... por enquanto, vou voltar pro meu quarto."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku007' 00 
+TEXT Ikumi: "...Lembre-se que temos uma rota de fuga."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku008' 00 
+TEXT Ikumi: "Mas... s+ vamos poder us$-la at% amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui056' 00 
+TEXT Yui: "S%rio...? ...T$ bom."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui057' 00 
+TEXT Yui: "...Por favor, me deixe pensar sobre isso esta noite."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku009' 00 
+TEXT Ikumi: "Claro. Estarei esperando no lugar de sempre amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui058' 00 
+TEXT Yui: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '054_iku010' 00 
+TEXT Ikumi: "Boa noite."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_yui059' 00 
+TEXT Yui: "Boa noite."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT .........
+TEXT Melhor eu voltar tamb%m, antes que algu%m me veja...
+X_00 0009 0036 
+X_04 006A 0000 
+X_04 0039 0001 
+GOSUB_SCRIPT 'B_D7T' 
+IF 16 17 00 15 01 00 02 00 .LABEL14 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL14
+BACKGROUND 'BG009' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '011_har014' 00 
+TEXT Haruka: "Est$ atrasada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku000' 00 
+TEXT Ikumi: "Ah...!"
+STOP_SOUND 01 
+TEXT Haruka estava encostada na parede de sempre.
+PLAY_SOUND 01 '011_har015' 00 
+TEXT Haruka: "...Hoje voc[ est$ bem atrasada mesmo!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku001' 00 
+TEXT Ikumi: "Haruka... desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '011_har016' 00 
+TEXT Haruka: "N~o importa... ent~o, o que aconteceu?"
+STOP_SOUND 01 
+TEXT Ela foi direto ao ponto.
+PLAY_SOUND 01 '055_iku002' 00 
+TEXT Ikumi: "A situa|~o da Yui... chegou a uma conclus~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '011_har017' 00 
+TEXT Haruka: "Entendi, ent~o agora % a nossa vez. Vim aqui hoje pra falar sobre isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku003' 00 
+TEXT Ikumi: "Entendi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku004' 00 
+TEXT Ikumi: "Tem raz~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku005' 00 
+TEXT Ikumi: "Mas espera."
+STOP_SOUND 01 
+PLAY_SOUND 01 '055_iku006' 00 
+TEXT Ikumi: "Vamos deixar esse assunto pra amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '011_har018' 00 
+TEXT Haruka: "...Entendi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '011_har019' 00 
+TEXT Haruka: "Ent~o nos vemos aqui amanh~."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Haruka desapareceu pelo corredor.
+TEXT ...@ verdade que preciso pensar nos interesses da Haruka.
+TEXT Ela tamb%m veio pra esta instala|~o com um objetivo importante.
+TEXT Ela suportou coisas horr&veis por causa disso.
+TEXT ...Mas... agora s+ consigo pensar na Yui.
+TEXT S+ mais um pouco...
+TEXT Eu queria pensar nela s+ mais um pouco.
+TEXT Pelo menos esta noite...
+TEXT Mesmo que eu seja a ^nica...
+X_04 0039 0001 
+GOSUB_SCRIPT 'UG_D7T' 
+IF 16 17 00 15 01 00 02 00 .LABEL15 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL15
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '015_boy010' 00 
+TEXT Garoto: "Bem-vinda de volta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku000' 00 
+TEXT Ikumi: "Oi...... voltei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '015_boy011' 00 
+TEXT Garoto: "Voc[ parece exausta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku001' 00 
+TEXT Ikumi: "...Eu estou exausta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy005' 00 
+TEXT Garoto: "Vai dormir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku002' 00 
+TEXT Ikumi: "Sim, vou fazer isso..."
+STOP_SOUND 01 
+TEXT Fui at% a cama, me ajoelhei sobre ela e deixei meu corpo desabar.
+PLAY_SOUND 01 'se47' 00 
+TEXT *Pof!*
+TEXT O travesseiro est$ bem sujo hoje...
+PLAY_SOUND 01 '047_iku003' 00 
+TEXT Ikumi: "...Espera, o que % isso?"
+STOP_SOUND 01 
+TEXT Peguei algo que n~o era o travesseiro e o levantei.
+X_3E 04 53 'G001' 
+X_56 04 0028 004E 
+X_3F 04 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd14' 01 
+TEXT Lixo...?
+TEXT N~o... % um coelho de pel^cia...
+TEXT Embora pare|a mais um coelho de pel^cia morto...
+TEXT Estava completamente detonado, a ponto de parecer que tinha sido atropelado.
+SPRITE 'CGSY02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '013_boy006' 00 
+TEXT Garoto: "Hmm? ......Ah, isso!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy007' 00 
+TEXT Garoto: "Gostou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku004' 00 
+TEXT Ikumi: "Gostei...? Como que eu devia responder isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy008' 00 
+TEXT Garoto: "Bom, imaginei que voc[ ia reagir de algum jeito."
+STOP_SOUND 01 
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku005' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Isso %...?
+PLAY_SOUND 01 '047_iku006' 00 
+TEXT Ikumi: "Espera um segundo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy009' 00 
+TEXT Garoto: "T{ esperando."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku007' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku008' 00 
+TEXT Ikumi: "Isso foi algo que voc[ deixou aqui de prop+sito...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy010' 00 
+TEXT Garoto: "Sim."
+STOP_SOUND 01 
+TEXT @ isso mesmo.
+TEXT N~o tem como ele ter simplesmente deixado os restos de alguma coisa jogados aqui.
+TEXT Ele deixou isso em cima da minha cama... ent~o deve ser um presente pra mim.
+TEXT ...Um presente dele.
+PLAY_SOUND 01 '013_boy011' 00 
+TEXT Garoto: "Ent~o, o que achou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku009' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT O que posso dizer...
+PLAY_SOUND 01 '013_boy012' 00 
+TEXT Garoto: "E ent~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku010' 00 
+TEXT Ikumi: "......Boa noite."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy013' 00 
+TEXT Garoto: "O qu[!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku011' 00 
+TEXT Ikumi: "I-I-Isso foi uma piada..."
+STOP_SOUND 01 
+TEXT Claramente n~o vou escapar dessa situa|~o sem dar uma opini~o.
+PLAY_SOUND 01 '047_iku012' 00 
+TEXT Ikumi: "Uh, uhmmm......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy014' 00 
+TEXT Garoto: "Sim?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Agradecer de verdade' 'Dizer minha opini~o sincera' 
+IF 16 03 00 15 02 00 02 00 .LABEL16 
+PLAY_SOUND 01 '047_iku013' 00 
+TEXT Ikumi: "Eba! @ exatamente o que eu queria!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy015' 00 
+TEXT Garoto: "Eh? S%rio?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku014' 00 
+TEXT Ikumi: "@ isso que voc[ esperava que eu dissesse?"
+STOP_SOUND 01 
+SPRITE 'CGSY03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '013_boy016' 00 
+TEXT Garoto: "Eh...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku015' 00 
+TEXT Ikumi: "Nenhuma garota ficaria feliz em receber algo assim. Vai saber de onde isso veio?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy017' 00 
+TEXT Garoto: "S%rio mesmo...?"
+STOP_SOUND 01 
+TEXT Esse cara realmente pensou...
+TEXT Ele achou mesmo que eu fosse gostar disso.
+PLAY_SOUND 01 '013_boy018' 00 
+TEXT Garoto: "Bom, eu achei fofo."
+STOP_SOUND 01 
+TEXT Mas ele est$ tentando me animar...
+TEXT Ele sempre tenta fazer algo por mim.
+TEXT Muito estranho...
+PLAY_SOUND 01 '047_iku016' 00 
+TEXT Ikumi: "Ahaha..."
+STOP_SOUND 01 
+TEXT Por algum motivo, eu ri.
+PLAY_SOUND 01 '013_boy019' 00 
+TEXT Garoto: "Eh...? O que foi...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku017' 00 
+TEXT Ikumi: "Obrigada..."
+STOP_SOUND 01 
+TEXT Falei isso por precau|~o.
+PLAY_SOUND 01 '047_iku018' 00 
+TEXT Ikumi: "Vai ficar melhor se eu deixar no chuveiro um pouco."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy020' 00 
+TEXT Garoto: "Ei, por favor n~o use o chuveiro pra isso."
+STOP_SOUND 01 
+TEXT Talvez eu tenha falado demais...
+JMP .LABEL17 
+
+:LABEL16
+PLAY_SOUND 01 '047_iku019' 00 
+TEXT Ikumi: "Obrigada..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy021' 00 
+TEXT Garoto: "Ahaha, eu tinha esperan|a que voc[ fosse gostar. Ouvi dizer que garotas gostam desse tipo de coisa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy022' 00 
+TEXT Garoto: "Foi bem dif&cil encontrar isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku020' 00 
+TEXT Ikumi: "Voc[ tem bom gosto..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_boy023' 00 
+TEXT Garoto: "S%rio? Voc[ acha mesmo?"
+STOP_SOUND 01 
+TEXT ...Eu n~o gostei nem um pouco.
+TEXT Mas ele estava tentando me animar...
+TEXT Ele sempre tenta fazer algo por mim.
+TEXT Muito estranho...
+PLAY_SOUND 01 '047_iku021' 00 
+TEXT Ikumi: "Ahaha"
+STOP_SOUND 01 
+TEXT Por algum motivo, eu ri.
+PLAY_SOUND 01 '013_boy024' 00 
+TEXT Garoto: "Eh...? O que foi...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku022' 00 
+TEXT Ikumi: "Nada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '047_iku023' 00 
+TEXT Ikumi: "Obrigada."
+STOP_SOUND 01 
+TEXT Falei isso de novo, por precau|~o.
+
+:LABEL17
+X_3F 04 00 
+BACKGROUND 'FG010' 
+X_24 00 
+X_25 06 
+TEXT Hoje, sinto que fui salva...
+TEXT E agora tenho tempo pra pensar na Yui...
+TEXT Esse ser$ meu descanso passageiro...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY08A' 
+EOF 

@@ -1,0 +1,478 @@
+
+# MOON SCRIPT FILE "B01.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0005 
+SETSTATUS 'Day 16Å@Å|Å|Å@Facility Interior'
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay16' 
+X_56 00 005F 0017 
+X_3E 02 73 'isetu' 
+X_56 02 00BE 0017 
+X_3E 01 74 'ime6' 
+X_56 01 0096 0017 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'D1' 
+X_24 00 
+X_25 06 
+X_00 0007 0009 
+X_01 0006 0009 
+IF 16 09 00 15 46 00 02 00 .LABEL0 
+JMP .LABEL1 
+JMP .LABEL1 
+
+:LABEL0
+IF 16 09 00 15 47 00 02 00 .LABEL3 
+JMP .LABEL4 
+JMP .LABEL1 
+
+:LABEL3
+IF 16 09 00 15 48 00 02 00 .LABEL6 
+JMP .LABEL7 
+JMP .LABEL1 
+
+:LABEL6
+IF 16 09 00 15 49 00 02 00 .LABEL9 
+JMP .LABEL10 
+JMP .LABEL1 
+
+:LABEL9
+IF 16 09 00 15 4A 00 02 00 .LABEL12 
+JMP .LABEL13 
+JMP .LABEL1 
+
+:LABEL12
+IF 16 09 00 15 4B 00 02 00 .LABEL15 
+JMP .LABEL16 
+JMP .LABEL1 
+
+:LABEL15
+IF 16 09 00 15 4C 00 02 00 .LABEL18 
+JMP .LABEL19 
+JMP .LABEL1 
+
+:LABEL18
+IF 16 09 00 15 4E 00 02 00 .LABEL21 
+JMP .LABEL22 
+JMP .LABEL1 
+
+:LABEL21
+IF 16 09 00 15 4F 00 02 00 .LABEL24 
+JMP .LABEL25 
+JMP .LABEL1 
+
+:LABEL24
+IF 16 09 00 15 50 00 02 00 .LABEL27 
+JMP .LABEL28 
+JMP .LABEL1 
+
+:LABEL27
+IF 16 09 00 15 51 00 02 00 .LABEL1 
+JMP .LABEL31 
+
+:LABEL1
+X_01 0006 0009 
+
+:LABEL40
+X_52 0105 00AC 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[--]---:---' '[Å® ]East: Passage' '[Å´ ]South: Passage' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL32 
+TEXT There's nothing here.
+JMP .LABEL33 
+
+:LABEL32
+IF 16 03 00 15 03 00 02 00 .LABEL34 
+X_00 0009 0047 
+JMP .LABEL4 
+JMP .LABEL33 
+
+:LABEL34
+IF 16 03 00 15 04 00 02 00 .LABEL33 
+X_00 0009 004A 
+JMP .LABEL13 
+JMP .LABEL33 
+
+:LABEL33
+JMP .LABEL40 
+
+:LABEL4
+X_01 0006 0009 
+
+:LABEL49
+X_52 012B 00AC 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL41 
+TEXT There's nothing here.
+JMP .LABEL42 
+
+:LABEL41
+IF 16 03 00 15 02 00 02 00 .LABEL43 
+X_00 0009 0046 
+JMP .LABEL1 
+JMP .LABEL42 
+
+:LABEL43
+IF 16 03 00 15 03 00 02 00 .LABEL42 
+X_00 0009 0048 
+JMP .LABEL7 
+JMP .LABEL42 
+
+:LABEL42
+JMP .LABEL49 
+
+:LABEL7
+X_01 0006 0009 
+
+:LABEL58
+X_52 0151 00AC 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL50 
+TEXT There's nothing here.
+JMP .LABEL51 
+
+:LABEL50
+IF 16 03 00 15 03 00 02 00 .LABEL52 
+X_00 0009 0049 
+JMP .LABEL10 
+JMP .LABEL51 
+
+:LABEL52
+IF 16 03 00 15 02 00 02 00 .LABEL51 
+X_00 0009 0047 
+JMP .LABEL4 
+JMP .LABEL51 
+
+:LABEL51
+JMP .LABEL58 
+
+:LABEL10
+X_01 0006 0009 
+
+:LABEL67
+X_52 0177 00AC 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL59 
+TEXT There's nothing here.
+JMP .LABEL60 
+
+:LABEL59
+IF 16 03 00 15 02 00 02 00 .LABEL61 
+X_00 0009 0048 
+JMP .LABEL7 
+JMP .LABEL60 
+
+:LABEL61
+IF 16 03 00 15 04 00 02 00 .LABEL60 
+X_00 0009 004B 
+JMP .LABEL16 
+JMP .LABEL60 
+
+:LABEL60
+JMP .LABEL67 
+
+:LABEL13
+X_01 0006 0009 
+
+:LABEL76
+X_52 0105 00D2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL68 
+TEXT There's nothing here.
+JMP .LABEL69 
+
+:LABEL68
+IF 16 03 00 15 01 00 02 00 .LABEL70 
+X_00 0009 0046 
+JMP .LABEL1 
+JMP .LABEL69 
+
+:LABEL70
+IF 16 03 00 15 04 00 02 00 .LABEL69 
+X_00 0009 004C 
+JMP .LABEL19 
+JMP .LABEL69 
+
+:LABEL69
+JMP .LABEL76 
+
+:LABEL16
+X_01 0006 0009 
+IF 16 8C 00 15 00 00 02 00 .LABEL77 
+X_52 0177 00D2 
+X_51 01 
+X_25 01 
+TEXT A ladder...it continues on down...
+X_00 008C 0001 
+
+:LABEL77
+X_52 0177 00D2 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' 'Down: Go down the ladder' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL78 
+TEXT There's a ladder here.
+JMP .LABEL79 
+
+:LABEL78
+IF 16 03 00 15 01 00 02 00 .LABEL80 
+X_00 0009 0049 
+JMP .LABEL10 
+JMP .LABEL79 
+
+:LABEL80
+IF 16 03 00 15 04 00 02 00 .LABEL79 
+X_08 0010 0001 
+X_00 0009 0046 
+GOTO_SCRIPT 'B02' 
+JMP .LABEL79 
+
+:LABEL79
+JMP .LABEL77 
+
+:LABEL19
+X_01 0006 0009 
+
+:LABEL94
+X_52 0105 00F8 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL86 
+TEXT There's nothing here.
+JMP .LABEL87 
+
+:LABEL86
+IF 16 03 00 15 01 00 02 00 .LABEL88 
+X_00 0009 004A 
+JMP .LABEL13 
+JMP .LABEL87 
+
+:LABEL88
+IF 16 03 00 15 04 00 02 00 .LABEL87 
+X_00 0009 004E 
+JMP .LABEL22 
+JMP .LABEL87 
+
+:LABEL87
+JMP .LABEL94 
+
+:LABEL22
+X_01 0006 0009 
+
+:LABEL103
+X_52 0105 011D 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL95 
+TEXT There's nothing here.
+JMP .LABEL96 
+
+:LABEL95
+IF 16 03 00 15 01 00 02 00 .LABEL97 
+X_00 0009 004C 
+JMP .LABEL19 
+JMP .LABEL96 
+
+:LABEL97
+IF 16 03 00 15 03 00 02 00 .LABEL96 
+X_00 0009 004F 
+JMP .LABEL25 
+JMP .LABEL96 
+
+:LABEL96
+JMP .LABEL103 
+
+:LABEL25
+X_01 0006 0009 
+
+:LABEL112
+X_52 012B 011D 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL104 
+TEXT There's nothing here.
+JMP .LABEL105 
+
+:LABEL104
+IF 16 03 00 15 02 00 02 00 .LABEL106 
+X_00 0009 004E 
+JMP .LABEL22 
+JMP .LABEL105 
+
+:LABEL106
+IF 16 03 00 15 03 00 02 00 .LABEL105 
+X_00 0009 0050 
+JMP .LABEL28 
+JMP .LABEL105 
+
+:LABEL105
+JMP .LABEL112 
+
+:LABEL28
+X_01 0006 0009 
+
+:LABEL121
+X_52 0151 011D 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL113 
+TEXT There's nothing here.
+JMP .LABEL114 
+
+:LABEL113
+IF 16 03 00 15 02 00 02 00 .LABEL115 
+X_00 0009 004F 
+JMP .LABEL25 
+JMP .LABEL114 
+
+:LABEL115
+IF 16 03 00 15 03 00 02 00 .LABEL114 
+X_00 0009 0051 
+JMP .LABEL31 
+JMP .LABEL114 
+
+:LABEL114
+JMP .LABEL121 
+
+:LABEL31
+X_01 0006 0009 
+IF 16 10 00 15 01 00 02 00 .LABEL122 
+IF 17 8F 00 15 00 00 02 17 8E 00 15 00 00 02 0F 00 .LABEL123 
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+TEXT Where am I...
+TEXT It was pretty quiet, and there was absolutely no sign of people.
+TEXT This place seemed to have been forgotten about for a long time, and being in it slowly built up a strange hollow feeling.
+X_04 008E 0001 
+JMP .LABEL124 
+
+:LABEL123
+IF 17 8F 00 15 01 00 02 17 8E 00 15 00 00 02 0F 00 .LABEL125 
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+TEXT Where am I...
+TEXT It was pretty quiet, and there was absolutely no sign of people.
+TEXT This place seemed to have been forgotten about for a long time, and being in it slowly built up a strange hollow feeling.
+TEXT This might be the entrance to the underground...
+TEXT I just had a hunch...
+X_04 008E 0001 
+JMP .LABEL124 
+
+:LABEL125
+IF 17 8F 00 15 01 00 02 17 8E 00 15 01 00 02 0F 17 90 00 15 00 00 02 0F 00 .LABEL124 
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+TEXT This might be the entrance to the underground...
+TEXT I just had a hunch...
+X_04 0090 0001 
+
+:LABEL124
+JMP .LABEL128 
+
+:LABEL122
+IF 16 10 00 15 05 00 02 00 .LABEL129 
+IF 16 8F 00 15 00 00 02 00 .LABEL130 
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+TEXT This should be the fifth underground level...
+X_00 008F 0001 
+
+:LABEL130
+JMP .LABEL128 
+
+:LABEL129
+IF 16 10 00 15 11 00 02 00 .LABEL128 
+IF 16 93 00 15 00 00 02 00 .LABEL128 
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+PLAY_SOUND 01 '106_iku001' 00 
+TEXT Ikumi: (Oww...)
+STOP_SOUND 01 
+TEXT My hips hit the floor hard...
+TEXT The impact shook my knees apart, and I hurt too much to stand up...
+PLAY_SOUND 01 '106_iku002' 00 
+TEXT Ikumi: (.........)
+STOP_SOUND 01 
+TEXT But if I don't hurry...
+TEXT I pushed against the pain and stood up.
+X_00 0093 0001 
+
+:LABEL128
+X_52 0177 011D 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Passage' 'Up: Go up the ladder' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL134 
+TEXT There's nothing here.
+JMP .LABEL135 
+
+:LABEL134
+IF 16 03 00 15 02 00 02 00 .LABEL136 
+X_00 0009 0050 
+JMP .LABEL28 
+JMP .LABEL135 
+
+:LABEL136
+IF 16 03 00 15 03 00 02 00 .LABEL135 
+X_0C 0010 0001 
+IF 16 10 00 15 00 00 02 00 .LABEL140 
+X_04 0040 0001 
+X_00 0009 003F 
+GOTO_SCRIPT 'JO_D16' 
+JMP .LABEL141 
+
+:LABEL140
+X_00 0009 004A 
+GOTO_SCRIPT 'B04' 
+
+:LABEL141
+JMP .LABEL135 
+
+:LABEL135
+JMP .LABEL128 
+EOF 

@@ -1,0 +1,1641 @@
+
+# MOON SCRIPT FILE "DAY03.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 0003
+SETSTATUS ' Dia 3 Manh~ Pr%dio A' 
+BACKGROUND 'FG202' 
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_04 0046 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_04 0039 0000 
+X_28 0028 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '004_boy000' 00 
+TEXT Voz: "Ikumi, est$ de manh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku000' 00 
+TEXT Ikumi: ".........Mmm..."
+STOP_SOUND 01 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd14' 01 
+PLAY_SOUND 01 '004_boy001' 00 
+TEXT Garoto: "Bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku001' 00 
+TEXT Ikumi: "Mmn......"
+STOP_SOUND 01 
+TEXT Eu me sentia grogue... certamente meu corpo ainda n~o deve estar acostumado com essa nova rotina.
+TEXT Espera a&...
+PLAY_SOUND 01 '013_iku002' 00 
+TEXT Ikumi: "...Ei, voc[ acabou de... me chamar pelo meu nome?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy002' 00 
+TEXT Garoto: "Eu chamei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku003' 00 
+TEXT Ikumi: "Como voc[ sabe meu nome?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy017' 00 
+TEXT Garoto: "Amasawa Ikumi. Nascida em 13 de janeiro. Capric+rnio. Tipo sangu&neo O."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy004' 00 
+TEXT Garoto: "Uma pessoa ambiciosa."
+STOP_SOUND 01 
+TEXT Isso estava certo...
+PLAY_SOUND 01 '013_iku004' 00 
+TEXT Ikumi: "......Como voc[ descobriu tudo isso?"
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 '004_boy005' 00 
+TEXT Garoto: "A for|a invis&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy006' 00 
+TEXT Garoto: "Esse % o poder que voc[ deseja."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku005' 00 
+TEXT Ikumi: "O qu[...!"
+STOP_SOUND 01 
+TEXT Dei um grito curto sem querer.
+TEXT A for|a invis&vel...
+TEXT Ser$ que esse poder % capaz de roubar os segredos de uma pessoa?
+TEXT Al%m disso, o garoto na minha frente j$ possu&a esse poder.
+PLAY_SOUND 01 '013_iku006' 00 
+TEXT Ikumi: (Quem % afinal esse garoto...?)
+STOP_SOUND 01 
+TEXT Mas, depois de olhar atr$s dele...
+PLAY_SOUND 01 '013_iku007' 00 
+TEXT Ikumi: "Oh..."
+STOP_SOUND 01 
+TEXT Vi que o conte^do da minha bagagem estava espalhado.
+PLAY_SOUND 00 'mon_cd14' 01 
+PLAY_SOUND 01 '013_iku008' 00 
+TEXT Ikumi: "Kyaaah!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se08' 00 
+TEXT *Bop!*
+SPRITE 'CGSY03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '013_iku009' 00 
+TEXT Ikumi: "Que for|a invis&vel que nada!\nEu ainda posso ver as evid[ncias da sua busca!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy007' 00 
+TEXT Garoto: "Ah, voc[ percebeu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku010' 00 
+TEXT Ikumi: "@ claro que eu percebi!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku011' 00 
+TEXT Ikumi: "Mas mexer nas minhas coisas sem pedir... onde est$ o seu bom senso?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy008' 00 
+TEXT Garoto: "Ah, voc[ est$ brava..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku012' 00 
+TEXT Ikumi: "@ claro que estou! Quem n~o ficaria?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy009' 00 
+TEXT Garoto: "Mas eu s+ queria saber mais sobre voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku013' 00 
+TEXT Ikumi: "Ent~o por que n~o me perguntou?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy010' 00 
+TEXT Garoto: "Voc[ estava dormindo... achei que assim seria mais r$pido..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku014' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Estou morando com esse garoto sem no|~o......
+TEXT S+ de pensar nisso, j$ fico deprimida...
+PLAY_SOUND 01 '004_boy011' 00 
+TEXT Garoto: "Parece que voc[ recebeu um grande choque de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_iku015' 00 
+TEXT Ikumi: "E por que ser$, hein?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_boy012' 00 
+TEXT Garoto: "Ahaha, % verdade..."
+STOP_SOUND 01 
+TEXT Quanto disso era s%rio... e quanto era brincadeira...?
+TEXT Ignorei ele enquanto lavava meu rosto e sa&a do quarto.
+PLAY_SOUND 01 '004_boy013' 00 
+TEXT Garoto: "Ahaha, at% logo..."
+STOP_SOUND 01 
+TEXT Ouvi sua risada for|ada atr$s de mim enquanto fechava a porta com for|a.
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D2' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT Conforme o combinado, voltei a este quarto.
+TEXT As linhas de luz de sempre estavam l$, me esperando.
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voz: "A& est$ voc[, A-12."
+STOP_SOUND 01 
+TEXT S+ existem duas pessoas na Classe A.\nVoc[ devia conseguir se lembrar de mim sem checar meu n^mero.
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+TEXT Respondi a ele.
+TEXT Isso parecia ser o mais educado a se fazer.
+PLAY_SOUND 01 'm02_min000' 00 
+TEXT Voz: "Vamos come|ar. Fique no centro da sala."
+STOP_SOUND 01 
+TEXT Obedeci em sil[ncio.
+TEXT Hoje verei a verdade por tr$s do meu treinamento.
+TEXT Se isso s~o sonhos, ent~o tentarei me lembrar.
+TEXT Se eu continuar mantendo uma forte vontade...
+TEXT Eu posso conseguir.
+PLAY_SOUND 01 'm02_min001' 00 
+TEXT Voz: "Agora vamos come|ar o N&vel 2."
+STOP_SOUND 01 
+TEXT *Guuuuun...*
+TEXT *Katakatakata*...
+TEXT A m$quina come|ou a se mover.
+TEXT *Vruuum*...*Vruuumm*...*Vruuummm*...
+TEXT Meu campo de vis~o foi fechado.
+TEXT *Vruuum*...*Vruuumm*...*Vruuummm*...
+TEXT Estou saindo de novo...
+TEXT Para encontrar a porta...
+TEXT Porta...?
+TEXT Que porta...?
+TEXT O qu[...?
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+IF 17 03 00 15 01 00 02 00 .LABEL2 
+PLAY_SOUND 01 '015_iku036' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT De novo n~o consegui enxergar.
+TEXT N~o me lembro de nada...
+TEXT Algo aconteceu. Eu vi algo. Senti algo e pensei sobre isso.
+TEXT Mas n~o consigo lembrar...
+PLAY_SOUND 01 'm02_min002' 00 
+TEXT Voz: "Parece que voc[ j$ se acostumou."
+STOP_SOUND 01 
+TEXT se acostumou...
+TEXT Eu estava mais calma do que da ^ltima vez, mas de forma alguma sentia que tinha me acostumado com isso.
+JMP .LABEL3 
+
+:LABEL2
+PLAY_SOUND 01 '015_iku037' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Minha respira|~o estava ofegante.
+TEXT Meu peito estava apertado e eu n~o conseguia respirar bem.
+TEXT E de novo, n~o enxerguei...
+TEXT N~o me lembro de nada...
+TEXT Algo aconteceu. Eu vi algo. Senti algo e pensei sobre isso.
+TEXT Mas n~o consigo lembrar...
+PLAY_SOUND 01 'm02_min003' 00 
+TEXT Voz: "Parece que voc[ ainda n~o se acostumou."
+STOP_SOUND 01 
+
+:LABEL3
+PLAY_SOUND 01 '015_iku038' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Enquanto minha cabe|a latejava, virei de costas e sa& do MINMES.
+TEXT 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+X_28 000A 
+BACKGROUND 'FG221' 
+X_24 00 
+X_25 06 
+X_28 0028 
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '000_tak000' 00 
+TEXT Voz: "A& est$ voc[, B-73."
+STOP_SOUND 01 
+TEXT Uma voz mon+tona saiu dos alto-falantes.
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_yui000' 00 
+TEXT Yui: "Eh? Ah, sim... eu acho."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tak001' 00 
+TEXT Voz: "N^mero de identifica|~o confirmado. Voc[ % definitivamente B-73."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui001' 00 
+TEXT Yui: "...Se voc[ j$ sabia ent~o por que perguntou...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tak002' 00 
+TEXT Voz: "Voc[ disse algo?"
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_yui002' 00 
+TEXT Yui: "N~o, n~o % nada!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tak003' 00 
+TEXT Voz: "Fique no centro da sala."
+STOP_SOUND 01 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_yui003' 00 
+TEXT Yui: "S-Sim"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '000_tak004' 00 
+TEXT Voz: "Agora vamos come|ar o N&vel 2."
+STOP_SOUND 01 
+TEXT *Guuuuun...*
+TEXT *Katakatakata...*
+TEXT A m$quina lentamente come|ou a se mover.
+TEXT *Vruuum*...*Vruuumm*...*Vruuummm*...
+TEXT Yui: "......"
+STOP_SOUND 01 
+TEXT Os sons desagrad$veis da m$quina pareciam inexplicavelmente como uma can|~o de ninar para ela.
+TEXT *Vruuum*...*Vruuumm*...*Vruuummm*...
+TEXT ...*Vruuumm*......*Vruuum*......
+TEXT ...
+TEXT ......
+TEXT .........
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd07' 01 
+PLAY_SOUND 01 '002_yui004' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui005' 00 
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui006' 00 
+TEXT Yui: "...De novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui007' 00 
+TEXT Yui: "...Este mundo... de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui008' 00 
+TEXT Yui: "Ontem..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui009' 00 
+TEXT Yui: "Vi a morte do cachorro que eu tinha na pr%-escola."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui010' 00 
+TEXT Yui: "...Eu chorei..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui011' 00 
+TEXT Yui: "Pedi para mam~e e papai trazerem ele de volta # vida..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui012' 00 
+TEXT Yui: "Eu realmente magoei eles..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui013' 00 
+TEXT Yui: "Eu tinha... me esquecido disso completamente..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui014' 00 
+TEXT Yui: "Eu n~o queria... lembrar disso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui015' 00 
+TEXT Yui: "Hoje... ser$ que terei que ver outra mem+ria triste?"
+STOP_SOUND 01 
+TEXT ...
+TEXT ......
+TEXT .........
+X_24 00 
+BACKGROUND 'WO' 
+X_25 06 
+PLAY_SOUND 01 'se25' 00 
+TEXT *Tum tum tum...*
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui016' 00 
+TEXT Passos.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui017' 00 
+TEXT V$rias pessoas est~o subindo as escadas.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui018' 00 
+TEXT Eu posso sentir cheiro de sangue.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui019' 00 
+TEXT Est$ enchendo este quarto.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui020' 00 
+TEXT O cheiro de ferro % forte o suficiente para provocar v{mito.
+PLAY_SOUND 01 'se26' 00 
+TEXT *Toc toc toc...!*
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui021' 00 
+TEXT Algu%m est$ batendo na porta.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui022' 00 
+TEXT Estou nesse quarto, segurando algo na minha m~o direita, olhando para o nada.
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf000' 00 
+TEXT ...Ei! O que est$ acontecendo!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui023' 00 
+TEXT Essa % a voz do papai.
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yum001' 00 
+TEXT ...Diga o que est$ errado!
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui024' 00 
+TEXT Ah, mam~e tamb%m est$ l$.
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf001' 00 
+TEXT ...N+s vamos entrar!
+STOP_SOUND 01 
+PLAY_SOUND 01 'se27' 00 
+TEXT *Bam!*
+BACKGROUND 'FG017' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '000_yum002' 00 
+TEXT ...Yui!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yum003' 00 
+TEXT ...O que voc[ est$ fazendo!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui025' 00 
+TEXT Papai e mam~e est~o me olhando de um jeito estranho.
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf002' 00 
+TEXT ...O telefone! R$pido!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf003' 00 
+TEXT ...Chame uma ambul}ncia!
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui026' 00 
+TEXT O que h$ de errado com eles?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui027' 00 
+TEXT Por que voc[s est~o gritando tanto?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui028' 00 
+TEXT Por que voc[s est~o me olhando com essas caras de surpresa?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf004' 00 
+TEXT ...R$pido, segurem a Yui!
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui029' 00 
+TEXT Ah... papai, isso d+i. N~o aperte meu bra|o t~o forte!
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf005' 00 
+TEXT ...Yui!? Por que voc[...!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui030' 00 
+TEXT Por que eu...?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui031' 00 
+TEXT Por que eu... o qu[?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui032' 00 
+TEXT Estou fazendo algo ruim?
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yuf006' 00 
+TEXT ...O sangue n~o para! Onde est$ a ambul}ncia!?
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui033' 00 
+TEXT Ah... ent~o isso % algo ruim.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui034' 00 
+TEXT Mas... essa % a ^nica maneira de escapar da nossa dolorosa realidade.
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui035' 00 
+TEXT @ por isso que...
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui036' 00 
+TEXT Que eu...
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'FG099' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '002_yui037' 00 
+TEXT Yui: "......Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui038' 00 
+TEXT Yui: "......O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_yui039' 00 
+TEXT Yui: "...O que... foi aquilo...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '002_yui040' 00
+TEXT Yui: "...Eu n~o..."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_yui041' 00
+TEXT Yui: "...Eu n~o me lembro de nada..."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_yui042' 00
+TEXT Yui: "...Eu n~o..."
+STOP_SOUND 01
+TEXT .........
+TEXT ......
+TEXT ...
+X_24 00
+BACKGROUND 'BO'
+X_25 06
+X_28 000A
+X_00 0009 000B
+X_00 000E 0002
+GOSUB_SCRIPT 'A_D2'
+IF 16 17 00 15 01 00 02 00 .LABEL4
+GOTO_SCRIPT 'INIT'
+
+:LABEL4
+PLAY_SOUND 00 'mon_cd04' 01
+SPRITE 'CGYS05'
+X_24 01
+X_25 09
+TEXT Youko-san estava sentada no mesmo lugar de ontem, ent~o eu novamente escolho o assento na frente dela.
+TEXT O mesmo cen$rio de ontem.
+TEXT A ^nica diferen|a era o conte^do da bandeja.
+TEXT O menu de hoje era camar~o frito com molho t$rtaro.
+PLAY_SOUND 01 '016_iku000' 00
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you001' 00 
+TEXT Youko: "Sim?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Perguntar sobre a for|a invis&vel' 'Perguntar sobre a FARGO'
+IF 16 03 00 15 01 00 02 00 .LABEL5
+PLAY_SOUND 01 '016_iku001' 00
+TEXT Ikumi: "Quanto tempo leva para conseguir a for|a invis&vel?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you002' 00
+TEXT Youko: "Antes de responder, eu tenho tr[s corre|/es."
+STOP_SOUND 01
+TEXT Eu senti que fazer essa pergunta foi um erro.
+PLAY_SOUND 01 '004_you003' 00
+TEXT Youko: "Primeiro, a for|a invis&vel n~o % algo que voc[ 'consegue'."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you004' 00
+TEXT Youko: "Ela % simplesmente o resultado de toda a sua dedica|~o."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you005' 00
+TEXT Youko: "Segundo, a express~o 'quanto tempo' simplesmente n~o se aplica aos meios pelos quais ela % adquirida."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you006' 00
+TEXT Youko: "O tempo existe apenas para si mesmo, e n~o pode ser usado como um meio de compara|~o."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you007' 00
+TEXT Youko: "E o terceiro..."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Desculpar-se' '......'
+IF 16 03 00 15 01 00 02 00 .LABEL6
+PLAY_SOUND 01 '016_iku002' 00
+TEXT Ikumi: "Desculpe."
+STOP_SOUND 01
+TEXT Eu n~o aguentava mais.
+PLAY_SOUND 01 '016_iku003' 00
+TEXT Ikumi: "Foi uma pergunta est^pida..."
+STOP_SOUND 01
+SPRITE 'CGYS05'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you008' 00
+TEXT Youko: "De maneira geral, isso est$ correto. N~o foi uma pergunta que poderia ser respondida de forma significativa."
+STOP_SOUND 01
+TEXT Isso mesmo.
+TEXT Fazer essa pergunta diretamente apenas me afasta do problema central.
+TEXT Isso s+ serve para Youko-san demonstrar a devo|~o dela a FARGO.
+TEXT Se quiser me dar bem, talvez eu tamb%m tenha que fingir minha pr+pria cren|a.
+TEXT 
+SELECT 0003 'Fingir' 'Desistir'
+IF 16 03 00 15 01 00 02 00 .LABEL7
+TEXT Vou tentar fazer exatamente essa encena|~o.
+PLAY_SOUND 01 '016_iku004' 00
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01
+SPRITE 'CGYS01'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you009' 00
+TEXT Youko: "Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '016_iku005' 00
+TEXT Ikumi: "Eu s+ quero usar o poder de Deus para trazer a salva|~o para todas as pessoas que est~o sofrendo."
+STOP_SOUND 01
+PLAY_SOUND 01 '016_iku006' 00
+TEXT Ikumi: "Se eu falei impulsivamente..."
+STOP_SOUND 01
+SPRITE 'CGYS05'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you010' 00
+TEXT Youko: "Ter piedade por pessoas impotentes % apenas mais uma causa da mis%ria."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_you011' 00
+TEXT Youko: "Foque mais em si mesma."
+STOP_SOUND 01
+PLAY_SOUND 01 '016_iku007' 00
+TEXT Ikumi: "...Sim."
+STOP_SOUND 01
+TEXT Essa jogada foi facilmente derrotada...
+TEXT Esse final serviu apenas para me fazer sentir a dificuldade de reiniciar uma conversa com Youko-san.
+TEXT At% mesmo tentar uma conversa fundada na ideologia da FARGO simplesmente exp{s minha pr+pria ignor}ncia.
+TEXT Nesse caso, talvez fosse melhor me ater a assuntos mais leves.
+TEXT Agora vou focar em ser mais amig$vel.
+PLAY_SOUND 01 '016_iku008' 00
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01
+TEXT Youko: "......"
+STOP_SOUND 01
+PLAY_SOUND 01 '016_iku009' 00
+TEXT Ikumi: "Youko-san."
+STOP_SOUND 01
+TEXT Youko: "......"
+STOP_SOUND 01
+PLAY_SOUND 01 '016_iku010' 00
+TEXT Ikumi: "Yooouko-san."
+STOP_SOUND 01
+SPRITE 'CGYS06'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you012' 00
+TEXT Youko: "...O qu[?"
+STOP_SOUND 01
+TEXT A voz dela veio como uma espada.
+TEXT Por enquanto, vou tentar falar sobre o almo|o de hoje.
+PLAY_SOUND 01 '016_iku011' 00
+TEXT Ikumi: "Youko-san... voc[ gosta de camar~o?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you013' 00 
+TEXT Youko: "...Eu tenho mesmo que responder isso?"
+STOP_SOUND 01
+TEXT Havia um suspiro misturado em sua voz.
+TEXT Senti que ela estava ficando irritada...
+PLAY_SOUND 01 '016_iku012' 00 
+TEXT Ikumi: "Se n~o for pedir muito..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you014' 00 
+TEXT Youko: "Eu adoro camar~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you015' 00 
+TEXT Youko: "...Satisfeita?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku013' 00 
+TEXT Ikumi: "S-Sim..."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 '016_iku014' 00 
+TEXT Ikumi: "...Voc[ gostaria de ficar com a minha parte de camar~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you016' 00 
+TEXT Youko: "N~o, obrigada."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 '016_iku015' 00 
+TEXT Ikumi: "Youko-san, voc[ tamb%m come as caudas de camar~o?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you017' 00 
+TEXT Youko: "...O que a salva|~o das pessoas tem a ver com as caudas de camar~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you018' 00 
+TEXT Youko: "Suas perguntas n~o t[m consist[ncia alguma..."
+STOP_SOUND 01 
+TEXT Pior que ela tem raz~o...
+PLAY_SOUND 01 '004_you019' 00 
+TEXT Youko: "Por favor, s+ fale depois de digerir completamente o conte^do de suas perguntas."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you020' 00 
+TEXT Youko: "Isso % um pr%-requisito para que uma conversa flua de forma suave e econ{mica."
+STOP_SOUND 01 
+TEXT Depois de ouvir isso, n~o tinha como eu dizer mais nada.
+TEXT Comi os ^ltimos camar/es fritos e devolvi minha bandeja vazia ao seu lugar adequado.
+TEXT E, enquanto mantinha um olho em Youko-san, sa& do refeit+rio.
+JMP .LABEL8 
+
+:LABEL7
+TEXT Eu parecia incapaz de manter uma conversa com Youko-san.
+PLAY_SOUND 01 '016_iku016' 00 
+TEXT Ikumi: "Desculpe."
+STOP_SOUND 01 
+TEXT Eu pedi desculpas novamente, s+ por precau|~o.
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you021' 00 
+TEXT Youko: "...Eu n~o entendo muito bem... mas eu compreendo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you022' 00 
+TEXT Youko: "A partir de agora, por favor, evite perguntas sem sentido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku017' 00 
+TEXT Ikumi: "...Sim."
+STOP_SOUND 01 
+TEXT .........
+TEXT Nossa conversa foi cortada ali.
+TEXT Mas eu n~o podia desistir.
+TEXT Para descobrir os segredos desse culto, eu precisava das informa|/es dela.
+PLAY_SOUND 01 '016_iku018' 00 
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you023' 00 
+TEXT Youko: "O que % agora..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku019' 00 
+TEXT Ikumi: "Que tipo de lugar % a FARGO?"
+STOP_SOUND 01 
+TEXT No momento em que ouviu minha pergunta, a express~o de Youko-san mudou para uma de piedade.
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you024' 00 
+TEXT Youko: "Simplesmente inacredit$vel..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku020' 00 
+TEXT Ikumi: "...O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you025' 00 
+TEXT Youko: "A sua exist[ncia."
+STOP_SOUND 01 
+TEXT Ela disse enquanto segurava a cabe|a.
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you026' 00 
+TEXT Youko: "...Perguntar isso... sobre o grupo ao qual voc[ j$ ofereceu seu corpo mortal..."
+STOP_SOUND 01 
+TEXT Uma express~o complexa.
+TEXT Ela parecia estar em conflito.
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you027' 00 
+TEXT Youko: "...N~o, vou parar por aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku021' 00 
+TEXT Ikumi: "Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you028' 00 
+TEXT Youko: "Se eu continuar falando com voc[, vou perder o controle."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you029' 00 
+TEXT Youko: "Fa|a o m$ximo esfor|o para n~o falar comigo."
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+TEXT Ela cortou a conversa sem ouvir minha resposta.
+PLAY_SOUND 01 '016_iku022' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Deve ter sido uma pergunta realmente est^pida...
+TEXT Agora ela n~o falaria nem me olharia mais.
+TEXT ......
+TEXT N~o seria s$bio fazer de Youko-san uma amea|a para mim.
+TEXT Pensando nisso, tentei um assunto mais amig$vel.
+PLAY_SOUND 01 '016_iku008' 00 
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku009' 00
+TEXT Ikumi: "Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku010' 00 
+TEXT Ikumi: "Yooouko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you012' 00 
+TEXT Youko: "...O qu[?"
+STOP_SOUND 01 
+TEXT A voz dela veio como uma espada.
+TEXT Por enquanto, tentarei falar sobre o almo|o de hoje.
+PLAY_SOUND 01 '016_iku011' 00 
+TEXT Ikumi: "Youko-san... voc[ gosta de camar~o?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you013' 00 
+TEXT Youko: "...Eu tenho mesmo que responder isso?"
+STOP_SOUND 01 
+TEXT Havia um suspiro misturado em sua voz.
+TEXT Eu senti que ela estava ficando irritada...
+PLAY_SOUND 01 '016_iku012' 00 
+TEXT Ikumi: "...Se poss&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you014' 00 
+TEXT Youko: "Eu adoro camar~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you015' 00
+TEXT Youko: "...Satisfeita?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku013' 00
+TEXT Ikumi: "S-Sim..."
+STOP_SOUND 01 
+TEXT .........
+TEXT 
+SELECT 0003 'Se retirar' 'Come|ar a conversar novamente' 
+IF 16 03 00 15 01 00 02 00 .LABEL9
+TEXT Eu n~o pude fazer mais nada nesse momento.
+TEXT Enfiei na boca os camar~es fritos restantes e devolvi minha bandeja vazia ao seu devido lugar.
+SPRITE 'CGYS03'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you030' 00
+TEXT Youko: "Voc[ se importaria de melhorar seus modos na mesa...?"
+STOP_SOUND 01
+TEXT Ignorando a provoca|~o de Youko-san atr$s de mim, eu sa& do refeit+rio.
+JMP .LABEL8
+
+:LABEL9
+PLAY_SOUND 01 '016_iku015' 00
+TEXT Ikumi: "Youko-san, voc[ tamb%m come as caudas de camar~o?"
+STOP_SOUND 01
+SPRITE 'CGYS05'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you031' 00
+TEXT Youko: "...Qual % a relev}ncia de uma pergunta dessas?"
+STOP_SOUND 01
+TEXT ...Ela provavelmente estava certa quanto a isso.
+PLAY_SOUND 01 '016_iku023' 00
+TEXT Ikumi: "Hm..."
+STOP_SOUND 01
+SPRITE 'CGYS06'
+X_24 01
+X_25 09
+TEXT Youko: "......"
+STOP_SOUND 01
+TEXT Quando ela me encarou, eu n~o pude mais falar.
+TEXT Comi os camar/es fritos restantes e devolvi a bandeja vazia ao seu devido lugar.
+TEXT E, enquanto mantinha um olho em Youko-san, sa& do refeit+rio.
+
+:LABEL8
+JMP .LABEL11
+
+:LABEL6
+PLAY_SOUND 01 '016_iku024' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you032' 00 
+TEXT Youko: "Terceiro, qu~o tolo voc[ acha que % perder tempo com uma pergunta t~o sem sentido?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you033' 00 
+TEXT Youko: "Eu n~o posso confiar em uma mente que expressa t~o confortavelmente uma bobagem dessas."
+STOP_SOUND 01 
+TEXT Ela n~o precisava dizer isso...
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you034' 00 
+TEXT Youko: "Ent~o, essas seriam minhas tr[s corre|/es..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you035' 00 
+TEXT Youko: "Voc[ ainda quer saber a resposta?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku025' 00 
+TEXT Ikumi: "...N~o."
+STOP_SOUND 01 
+TEXT Eu me arrependi profundamente de ter perguntado.
+PLAY_SOUND 01 '016_iku026' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Deve ter sido uma pergunta realmente est^pida...
+TEXT Agora ela n~o falaria comigo e nem me olharia mais.
+TEXT ......
+TEXT N~o seria s$bio fazer de Youko-san uma amea|a para mim.
+TEXT Pensando nisso, tentei um assunto mais amig$vel.
+PLAY_SOUND 01 '016_iku008' 00 
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku009' 00 
+TEXT Ikumi: "Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku010' 00 
+TEXT Ikumi: "Yooouko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you012' 00 
+TEXT Youko: "...O que foi agora?"
+STOP_SOUND 01 
+TEXT A voz dela veio como uma espada.
+TEXT Por enquanto, tentarei falar sobre o almo|o de hoje.
+PLAY_SOUND 01 '016_iku011' 00 
+TEXT Ikumi: "Youko-san... voc[ gosta de camar~o?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you013' 00 
+TEXT Youko: "...Eu tenho que responder isso?"
+STOP_SOUND 01 
+TEXT Havia um suspiro misturado em sua voz.
+TEXT Eu senti que ela estava ficando irritada...
+PLAY_SOUND 01 '016_iku012' 00 
+TEXT Ikumi: "...Se poss&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you014' 00 
+TEXT Youko: "Eu adoro camar~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you015' 00 
+TEXT Youko: "...Satisfeita?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku013' 00 
+TEXT Ikumi: "S-Sim..."
+STOP_SOUND 01 
+TEXT .........
+TEXT 
+SELECT 0003 'Se retirar' 'Come|ar a conversar novamente' 
+IF 16 03 00 15 01 00 02 00 .LABEL12 
+TEXT Eu n~o pude fazer mais nada nesse momento.
+TEXT Enfiei na boca os camar/es fritos restantes e devolvi minha bandeja vazia ao seu devido lugar.
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you030' 00 
+TEXT Youko: "Voc[ se importaria de melhorar seus modos na mesa...?"
+STOP_SOUND 01 
+TEXT Ignorando a provoca|~o de Youko-san, eu sa& do refeit+rio.
+JMP .LABEL11 
+
+:LABEL12
+PLAY_SOUND 01 '016_iku015' 00 
+TEXT Ikumi: "Youko-san, voc[ tamb%m come as caudas de camar~o?"
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you031' 00 
+TEXT Youko: "...Me explique qual seria a relev}ncia dessa pergunta?"
+STOP_SOUND 01 
+TEXT Ela provavelmente estava certa quanto a isso...
+PLAY_SOUND 01 '016_iku023' 00 
+TEXT Ikumi: "Hmm..."
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Quando ela me encarou, eu n~o pude mais falar.
+TEXT Comi os camar/es fritos restantes e devolvi a bandeja vazia ao seu devido lugar.
+TEXT E, enquanto mantinha um olho em Youko-san, sa& do refeit+rio.
+
+:LABEL11
+JMP .LABEL14
+
+:LABEL5
+PLAY_SOUND 01 '016_iku019' 00 
+TEXT Ikumi: "Que tipo de lugar % a FARGO?"
+STOP_SOUND 01 
+TEXT No momento em que ouviu minha pergunta, a express~o de Youko-san mudou para uma de pena.
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you024' 00 
+TEXT Youko: "Simplesmente inacredit$vel..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku020' 00 
+TEXT Ikumi: "...O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you025' 00 
+TEXT Youko: "A sua exist[ncia."
+STOP_SOUND 01 
+TEXT Ela disse enquanto segurava a cabe|a.
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you026' 00 
+TEXT Youko: "...Perguntar isso... sobre o grupo ao qual voc[ j$ ofereceu seu corpo mortal..."
+STOP_SOUND 01 
+TEXT Uma express~o complexa.
+TEXT Ela parecia estar em conflito.
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you027' 00 
+TEXT Youko: "N~o... eu vou parar por aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku021' 00 
+TEXT Ikumi: "Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you028' 00 
+TEXT Youko: "Se continuar conversando com voc[, vou perder a paci[ncia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you029' 00 
+TEXT Youko: "Fa|a-me o favor de n~o falar mais comigo."
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+TEXT Ela cortou a conversa sem ouvir minha resposta.
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku022' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Deve ter sido uma pergunta realmente est^pida...
+TEXT Agora ela n~o falaria comigo e nem me olharia mais.
+TEXT ......
+TEXT N~o seria s$bio fazer de Youko-san uma amea|a.
+TEXT Pensando nisso, tentei um assunto mais amig$vel.
+PLAY_SOUND 01 '016_iku008' 00 
+TEXT Ikumi: "Ei, Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku009' 00 
+TEXT Ikumi: "Youko-san."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku010' 00 
+TEXT Ikumi: "Yooouko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you012' 00 
+TEXT Youko: "...O qu[?"
+STOP_SOUND 01 
+TEXT A voz dela veio como uma espada.
+TEXT Por enquanto, tentarei falar sobre o almo|o de hoje.
+PLAY_SOUND 01 '016_iku011' 00 
+TEXT Ikumi: "Youko-san... voc[ gosta de camar~o?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you013' 00 
+TEXT Youko: "...Eu tenho que responder isso?"
+STOP_SOUND 01 
+TEXT Havia um suspiro misturado em sua voz.
+TEXT Eu senti que ela estava ficando irritada...
+PLAY_SOUND 01 '016_iku012' 00 
+TEXT Ikumi: "...Se poss&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you014' 00 
+TEXT Youko: "Eu adoro camar~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_you015' 00 
+TEXT Youko: "...Satisfeita?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '016_iku013' 00 
+TEXT Ikumi: "S-Sim..."
+STOP_SOUND 01 
+TEXT .........
+TEXT 
+SELECT 0003 'Se retirar' 'Come|ar a conversar novamente' 
+IF 16 03 00 15 01 00 02 00 .LABEL15 
+TEXT Eu n~o pude fazer mais nada nesse momento.
+TEXT Enfiei na boca os camar/es fritos restantes e devolvi minha bandeja vazia ao seu devido lugar.
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_you030' 00 
+TEXT Youko: "Voc[ se importaria de melhorar seus modos na mesa...?"
+STOP_SOUND 01 
+TEXT Ignorando a provoca|~o dela, eu sa& do refeit+rio.
+JMP .LABEL14 
+
+:LABEL15
+PLAY_SOUND 01 '016_iku015' 00 
+TEXT Ikumi: "Youko-san, voc[ tamb%m come as caudas do camar~o?"
+STOP_SOUND 01
+SPRITE 'CGYS05'
+X_24 01
+X_25 09
+PLAY_SOUND 01 '004_you031' 00
+TEXT Youko: "...Em que sentido uma pergunta como essa % significativa?"
+STOP_SOUND 01
+TEXT Ela provavelmente estava certa quanto a isso...
+PLAY_SOUND 01 '016_iku023' 00
+TEXT Ikumi: "Hmm..."
+STOP_SOUND 01
+SPRITE 'CGYS06'
+X_24 01
+X_25 09
+TEXT Youko: "......"
+STOP_SOUND 01
+TEXT Quando ela me encarou, eu n~o consegui falar mais nada.
+TEXT Comi os camar/es fritos restantes e devolvi a bandeja vazia ao seu devido lugar.
+TEXT E, enquanto mantinha um olho em Youko-san, sa& do refeit+rio.
+
+:LABEL14
+IF 17 24 00 15 01 00 02 00 .LABEL17
+X_00 0009 0009
+JMP .LABEL18
+
+:LABEL17
+X_00 0009 0016
+
+:LABEL18
+X_00 000E 0003
+X_04 0025 0001
+GOSUB_SCRIPT 'A_D2'
+IF 16 17 00 15 01 00 02 00 .LABEL19
+GOTO_SCRIPT 'INIT'
+
+:LABEL19
+BACKGROUND 'BG004'
+X_24 00
+X_25 06
+STOP_SOUND 00
+TEXT Eu entrei no ELPOD.
+TEXT O que me recebeu foi o mesmo padr~o de luz do MINMES.
+PLAY_SOUND 01 'es0_elp000' 00
+TEXT Voz: "A-12, confirmado."
+STOP_SOUND 01
+PLAY_SOUND 01 'e01_elp000' 00
+TEXT Voz: "Agora siga para o centro da sala."
+STOP_SOUND 01
+TEXT Esta ser$ minha primeira sess~o de treinamento no ELPOD...
+TEXT Eu s+ podia rezar para que fosse menos incompreens&vel que o MINMES.
+TEXT Com in^meras d^vidas, fiquei no centro do padr~o de luz.
+PLAY_SOUND 01 'e01_iku000' 00
+TEXT Ikumi: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 'e01_elp001' 00
+TEXT Voz: "N&vel 1...... Iniciar."
+STOP_SOUND 01
+TEXT Novamente, a luz sob meus p%s se dissipou.
+TEXT Ou, mais uma vez, minha consci[ncia estava sendo apagada.
+TEXT E ent~o veio a escurid~o...
+TEXT Mas eu me vi...
+TEXT Na escurid~o, eu podia claramente me ver.
+TEXT Ah...
+TEXT E eu estava sentada em uma cadeira.
+TEXT Era uma cadeira cuidadosamente feita, possivelmente uma antiguidade, de madeira.
+TEXT E ent~o...
+PLAY_SOUND 01 'se28' 01
+TEXT *Tum dum...* *Tum dum...*
+TEXT Um som... de batimento card&aco...
+TEXT *Tum dum...* *Tum dum...*
+TEXT O som do meu cora|~o...
+TEXT N~o... n~o % isso.
+TEXT *Tum dum...* *Tum dum...*
+TEXT Esse som acontecia no mesmo intervalo do meu pr+prio batimento card&aco...
+TEXT Mas n~o era o som do meu cora|~o...
+TEXT Estava ligeiramente fora de sincronia...
+TEXT Quase como se estivesse ecoando meu cora|~o...
+TEXT Estava me seguindo, como um eco...
+TEXT Quem......?
+TEXT Quem...... est$ perseguindo o som do meu cora|~o...?
+TEXT Quem...?
+TEXT Quem......?
+TEXT Quem.........?
+STOP_SOUND 01 
+GOSUB_SCRIPT 'EL1' 
+IF 16 17 00 15 01 00 02 00 .LABEL20 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL20
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'e01_iku142' 00 
+TEXT Ikumi: "Haa...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_elp002' 00 
+TEXT Voz: "N&vel 1 completo. Bom trabalho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e01_iku143' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Eu abaixei a cabe|a e me ajoelhei...
+TEXT Ela pousou no ch~o.
+PLAY_SOUND 01 'e01_iku144' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Exatamente como o MINMES...
+TEXT Eu n~o me lembro de nada.
+IF 17 03 00 15 01 00 02 00 .LABEL21 
+TEXT Havia apenas uma agita|~o no meu peito...
+JMP .LABEL22 
+
+:LABEL21
+TEXT Mas... de novo, algo ruim aconteceu.
+TEXT Eu sabia disso pelo aperto no meu peito.
+
+:LABEL22
+TEXT Ent~o, algo frio escorreu pela parte de tr$s da minha m~o.
+TEXT Eu finalmente percebi.
+TEXT Havia muito suor na minha testa.
+TEXT Que tipo de treinamento era esse...?
+TEXT Finalmente me levantei, cheguei at% a porta com os joelhos tr[mulos e consegui sair da sala.
+X_00 0009 0017 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D2' 
+IF 16 17 00 15 01 00 02 00 .LABEL23 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL23
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+TEXT Quando entrei no refeit+rio, Youko-san j$ estava comendo como de costume.
+TEXT Peguei minha bandeja e me sentei.
+PLAY_SOUND 01 '017_iku000' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Fiz uma pequena rever[ncia.
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Youko-san retribuiu o gesto.
+TEXT O jantar de hoje era espaguete com molho de carne.
+TEXT Comer exigiu um esfor|o inesperado.
+TEXT O sabor n~o era ruim.
+TEXT Youko-san tamb%m parecia estar gostando... huh?
+PLAY_SOUND 01 '017_iku001' 00 
+TEXT Ikumi: "...Ei, Youko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you001' 00 
+TEXT Youko: "Sim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku002' 00 
+TEXT Ikumi: "Por que voc[ est$ usando hashi...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you002' 00 
+TEXT Youko: "Isso % um problema?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku003' 00 
+TEXT Ikumi: "N~o, n~o tem nada de errado com isso..."
+STOP_SOUND 01 
+TEXT S+ pensei que seria mais dif&cil.
+PLAY_SOUND 01 '017_iku004' 00 
+TEXT Ikumi: "Mas por que n~o usar um garfo...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you003' 00 
+TEXT Youko: "Eu preciso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku005' 00 
+TEXT Ikumi: "...Eu n~o quis dizer isso..."
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you004' 00 
+TEXT Youko: "Ent~o, por favor, n~o se preocupe."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku006' 00 
+TEXT Ikumi: "Mas... % estranho."
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Talvez fosse s+ impress~o minha, mas a express~o de Youko-san parecia ter ficado mais r&gida...
+PLAY_SOUND 01 '017_iku007' 00 
+TEXT Ikumi: "...Youko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you005' 00 
+TEXT Youko: "Por favor, n~o se preocupe."
+STOP_SOUND 01 
+TEXT N~o % uma quest~o de preocupa|~o.
+PLAY_SOUND 01 '017_iku008' 00 
+TEXT Ikumi: "Hmm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you006' 00 
+TEXT Youko: "Por favor, n~o me fa|a repetir."
+STOP_SOUND 01 
+TEXT Talvez ela esteja brava...
+TEXT Mas, independentemente do que ela pensasse de mim, eu precisava de suas informa|/es para encontrar uma pista sobre a verdade aqui.
+PLAY_SOUND 01 '017_iku009' 00 
+TEXT Ikumi: "...Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you007' 00 
+TEXT Youko: "Por favor, n~o se preocupe."
+STOP_SOUND 01 
+TEXT Eu realmente n~o estava preocupada.
+TEXT ...N~o h$ escolha.
+PLAY_SOUND 01 '017_iku010' 00 
+TEXT Ikumi: "Youko-san, eu quero mudar.\nDe agora em diante, n~o farei nada que traga vergonha # Classe A."
+STOP_SOUND 01 
+TEXT Tentei acumular mentiras.
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you008' 00 
+TEXT Youko: "...Eu entendo."
+STOP_SOUND 01 
+SPRITE 'CGYS03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you009' 00 
+TEXT Youko: "Voc[ realmente n~o tem modos."
+STOP_SOUND 01 
+TEXT Ela percebeu...
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you010' 00 
+TEXT Youko: "...Ent~o, o que % que voc[ quer perguntar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku011' 00 
+TEXT Ikumi: "...Eh!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you011' 00 
+TEXT Youko: "Voc[ n~o tem uma pergunta?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku012' 00 
+TEXT Ikumi: "Ah... sim."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Perguntar sobre o MINMES' 'Perguntar sobre o ELPOD' 
+IF 16 03 00 15 01 00 02 00 .LABEL24 
+PLAY_SOUND 01 '017_iku013' 00 
+TEXT Ikumi: "Ei, Youko-san, o que % exatamente o MINMES?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you012' 00 
+TEXT Youko: "Algo que visa refor|ar a mente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku014' 00 
+TEXT Ikumi: "Quero dizer, de forma mais concreta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you013' 00 
+TEXT Youko: "Algo que coloca um fardo diretamente sobre sua mente e mede o fortalecimento da sua resist[ncia."
+STOP_SOUND 01 
+TEXT Essa frase eu j$ ouvi antes...
+PLAY_SOUND 01 '017_iku015' 00 
+TEXT Ikumi: "O que voc[ quer dizer com 'fardo'?"
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you014' 00 
+TEXT Youko: "Isso % algo que voc[ descobre por si mesma."
+STOP_SOUND 01 
+TEXT Definitivamente outra frase que eu j$ ouvi...
+TEXT 
+SELECT 0003 'Perguntar sobre o ELPOD' 'Perguntar outra coisa' 
+IF 16 03 00 15 01 00 02 00 .LABEL25 
+PLAY_SOUND 01 '017_iku016' 00 
+TEXT Ikumi: "O que % o ELPOD?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you015' 00 
+TEXT Youko: "Algo que coloca um fardo diretamente sobre sua mente e mede sua resist[ncia."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 '017_iku017' 00 
+TEXT Ikumi: "...O que exatamente % esse 'fardo'...?"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you016' 00 
+TEXT Youko: "Eu n~o sei. Isso s+ existe em um n&vel mental."
+STOP_SOUND 01 
+TEXT Justo a resposta que eu esperava.
+JMP .LABEL25 
+
+:LABEL25
+JMP .LABEL27 
+
+:LABEL24
+PLAY_SOUND 01 '017_iku018' 00 
+TEXT Ikumi: "Ei, Youko-san, o que exatamente % o ELPOD?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you017' 00 
+TEXT Youko: "Refor|o mental usando uma m$quina chamada ELPOD."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku019' 00 
+TEXT Ikumi: "Voc[ poderia explicar isso mais claramente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you018' 00 
+TEXT Youko: Ela coloca uma carga diretamente sobre sua mente e mede sua resist[ncia."
+STOP_SOUND 01 
+TEXT Essa frase eu j$ ouvi antes...
+PLAY_SOUND 01 '017_iku020' 00 
+TEXT Ikumi: "...O que exatamente % essa 'carga'...?"
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you019' 00 
+TEXT Youko: "Isso % algo que voc[ descobre por si mesma."
+STOP_SOUND 01 
+TEXT Definitivamente outra frase que eu j$ ouvi...
+TEXT 
+SELECT 0003 'Perguntar sobre o MINMES' 'Perguntar outra coisa' 
+IF 16 03 00 15 01 00 02 00 .LABEL27 
+PLAY_SOUND 01 '017_iku021' 00 
+TEXT Ikumi: "@ diferente do MINMES?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you020' 00 
+TEXT Youko: "@ fundamentalmente diferente."
+STOP_SOUND 01 
+TEXT .........
+PLAY_SOUND 01 '017_iku022' 00 
+TEXT Ikumi: "Mas, mesmo que a base seja diferente, eles s~o mais ou menos a mesma coisa, certo?"
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you021' 00 
+TEXT Youko: "Isso % algo que voc[ descobre por si mesma."
+STOP_SOUND 01 
+TEXT Justo a resposta que eu esperava.
+JMP .LABEL27 
+
+:LABEL27
+TEXT Vou tentar perguntar algo completamente diferente.
+PLAY_SOUND 01 '017_iku023' 00 
+TEXT Ikumi: "...Ei, Youko-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you022' 00 
+TEXT Youko: "...Sim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku024' 00 
+TEXT Ikumi: "Youko-san, o que voc[ normalmente faz?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you023' 00 
+TEXT Youko: "...Normalmente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku025' 00 
+TEXT Ikumi: "Sim. Quando voc[ n~o est$ nesses aparelhos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you024' 00 
+TEXT Youko: "Medita|~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku026' 00 
+TEXT Ikumi: "Medita|~o?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku027' 00 
+TEXT Ikumi: "Mas isso n~o %... o mesmo que n~o fazer nada?"
+STOP_SOUND 01 
+SPRITE 'CGYS06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you025' 00 
+TEXT Youko: "N~o. @ medita|~o."
+STOP_SOUND 01 
+TEXT Ela imediatamente rebateu.
+PLAY_SOUND 01 '017_iku028' 00 
+TEXT Ikumi: "...N~o % chato?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you026' 00 
+TEXT Youko: "Medita|~o % um excelente refor|o para o cora|~o. N~o tem como ficar entediada fazendo isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku029' 00 
+TEXT Ikumi: "...S%rio?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you027' 00 
+TEXT Youko: "Se voc[ se sente entediada enquanto medita, isso s+ prova que voc[ n~o est$ se concentrando o suficiente."
+STOP_SOUND 01 
+TEXT Refor|o do cora|~o... essa palavra de novo.
+TEXT Ser$ que realmente havia um motivo para isso?
+TEXT Eu n~o sabia.
+TEXT Mas Youko-san continuava com esse "refor|o" sem nenhuma d^vida...
+TEXT ...Acreditando que os ensinamentos da FARGO s~o absolutos.
+PLAY_SOUND 01 '017_iku030' 00 
+TEXT Ikumi: "...Youko-san, voc[ n~o tem nenhum hobby?"
+STOP_SOUND 01 
+SPRITE 'CGYS05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you028' 00 
+TEXT Youko: "N~o tenho necessidade de hobbies."
+STOP_SOUND 01 
+TEXT Essa foi uma resposta bem direta.
+TEXT Eu senti pena de Youko-san...
+PLAY_SOUND 01 '017_iku031' 00 
+TEXT Ikumi: "Youko-san."
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you029' 00 
+TEXT Youko: "...O que foi agora?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku032' 00 
+TEXT Ikumi: "Youko-san, voc[ j$ viu um desses?"
+STOP_SOUND 01 
+TEXT Eu tirei o celular da Yui que eu tinha pego com Haruka e mostrei para Youko-san.
+PLAY_SOUND 01 '006_you030' 00 
+TEXT Youko: "...O que %... isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku033' 00 
+TEXT Ikumi: "Um jogo de celular."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you031' 00 
+TEXT Youko: "Jogo... de celular...?"
+STOP_SOUND 01 
+TEXT Claramente, Youko-san n~o estava acostumada com essas palavras.
+PLAY_SOUND 01 '006_you032' 00 
+TEXT Youko: "...Eu n~o entendo nada disso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku034' 00 
+TEXT Ikumi: "Tente apertar os bot/es."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you033' 00 
+TEXT Youko: "Esses bot/es?"
+STOP_SOUND 01 
+TEXT Youko-san apertou um bot~o com uma express~o misteriosa no rosto.
+PLAY_SOUND 01 'se01' 00 
+TEXT *Pirororo!*
+TEXT O jogo disparou um som eletr{nico repentino.
+SPRITE 'CGYS04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you034' 00 
+TEXT Youko: "O-O qu[?"
+STOP_SOUND 01 
+TEXT Certamente ela tinha pressionado o bot~o de iniciar.
+PLAY_SOUND 01 '006_you035' 00 
+TEXT Youko: "...O que... eu fa|o...?"
+STOP_SOUND 01 
+TEXT Youko-san hesitou diante do som constante dos bips.
+PLAY_SOUND 01 'se01' 01 
+TEXT *Pirororo*...
+TEXT *Piroro!*
+STOP_SOUND 01 
+SPRITE 'CGYS01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_you036' 00 
+TEXT Youko: "......ah."
+STOP_SOUND 01 
+TEXT Eu n~o conseguia ver de onde estava, mas provavelmente a tela LCD mostrava "Game Over".
+PLAY_SOUND 01 '017_iku035' 00 
+TEXT Ikumi: "Pode ficar com isso, Youko-san.\nEu peguei de outra pessoa mesmo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you037' 00 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you038' 00 
+TEXT Youko: "...Isso n~o % necess$rio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku036' 00 
+TEXT Ikumi: "Achei que isso poderia te ajudar a relaxar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you039' 00 
+TEXT Youko: "...Isso % s+... uma divers~o f^til do mundo comum."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku037' 00 
+TEXT Ikumi: "Pode at% ser... mas ainda % divertido, certo?"
+STOP_SOUND 01 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku038' 00 
+TEXT Ikumi: "Enfim, % seu."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you040' 00 
+TEXT Youko: "N~o tenho motivo para ficar com isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku039' 00 
+TEXT Ikumi: "Voc[ precisa de um motivo para tudo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you041' 00 
+TEXT Youko: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '017_iku040' 00 
+TEXT Ikumi: "Se n~o quiser, % s+ jogar fora depois."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_you042' 00 
+TEXT Youko: "......"
+STOP_SOUND 01 
+TEXT Eu passei o jogo para ela sem dar chance de resist[ncia, ent~o deixei uma Youko-san confusa atr$s de mim enquanto sa&a do refeit+rio.
+IF 17 24 00 15 01 00 02 00 .LABEL30 
+X_00 0009 0009 
+JMP .LABEL31 
+
+:LABEL30
+X_00 0009 0016 
+
+:LABEL31
+X_00 000E 0005 
+GOSUB_SCRIPT 'A_D2' 
+IF 16 17 00 15 01 00 02 00 .LABEL32 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL32
+GOTO_SCRIPT 'DAY03B' 
+EOF

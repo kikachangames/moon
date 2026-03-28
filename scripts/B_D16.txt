@@ -1,0 +1,1369 @@
+
+# MOON SCRIPT FILE "B_D16.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0002 
+SETSTATUS ' Day 16Å@Å|Å|Å@Building B'
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay16' 
+X_56 00 005F 0017 
+X_3E 02 62 'tou' 
+X_56 02 00BE 0017 
+X_3E 01 74 'ime6' 
+X_56 01 0096 0017 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+IF 16 09 00 15 08 00 07 00 .LABEL0 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_01 0006 0009 
+
+:LABEL0
+X_00 0007 0002 
+IF 16 09 00 15 02 00 02 00 .LABEL1 
+X_00 0006 0000 
+JMP .LABEL2 
+JMP .LABEL2 
+
+:LABEL1
+IF 16 09 00 15 03 00 02 00 .LABEL4 
+X_00 0006 0000 
+JMP .LABEL5 
+JMP .LABEL2 
+
+:LABEL4
+IF 16 09 00 15 1B 00 02 00 .LABEL7 
+X_00 0006 0000 
+JMP .LABEL8 
+JMP .LABEL2 
+
+:LABEL7
+IF 16 09 00 15 04 00 02 00 .LABEL10 
+X_00 0006 0000 
+JMP .LABEL11 
+JMP .LABEL2 
+
+:LABEL10
+IF 16 09 00 15 31 00 02 00 .LABEL13 
+X_00 0006 0000 
+JMP .LABEL14 
+JMP .LABEL2 
+
+:LABEL13
+IF 16 09 00 15 32 00 02 00 .LABEL16 
+X_00 0006 0000 
+JMP .LABEL17 
+JMP .LABEL2 
+
+:LABEL16
+IF 16 09 00 15 33 00 02 00 .LABEL19 
+X_00 0006 0000 
+JMP .LABEL20 
+JMP .LABEL2 
+
+:LABEL19
+IF 16 09 00 15 34 00 02 00 .LABEL22 
+X_00 0006 0000 
+JMP .LABEL23 
+JMP .LABEL2 
+
+:LABEL22
+IF 16 09 00 15 37 00 02 00 .LABEL25 
+X_00 0006 0000 
+JMP .LABEL26 
+JMP .LABEL2 
+
+:LABEL25
+IF 16 09 00 15 08 00 02 00 .LABEL28 
+X_00 0006 0000 
+JMP .LABEL29 
+JMP .LABEL2 
+
+:LABEL28
+IF 16 09 00 15 30 00 02 00 .LABEL31 
+X_00 0006 0000 
+JMP .LABEL32 
+JMP .LABEL2 
+
+:LABEL31
+IF 16 09 00 15 09 00 02 00 .LABEL34 
+JMP .LABEL35 
+JMP .LABEL2 
+
+:LABEL34
+IF 16 09 00 15 0A 00 02 00 .LABEL37 
+JMP .LABEL38 
+JMP .LABEL2 
+
+:LABEL37
+IF 16 09 00 15 0B 00 02 00 .LABEL40 
+JMP .LABEL41 
+JMP .LABEL2 
+
+:LABEL40
+IF 16 09 00 15 0C 00 02 00 .LABEL43 
+JMP .LABEL44 
+JMP .LABEL2 
+
+:LABEL43
+IF 16 09 00 15 0D 00 02 00 .LABEL46 
+JMP .LABEL47 
+JMP .LABEL2 
+
+:LABEL46
+IF 16 09 00 15 0E 00 02 00 .LABEL49 
+JMP .LABEL50 
+JMP .LABEL2 
+
+:LABEL49
+IF 16 09 00 15 0F 00 02 00 .LABEL52 
+JMP .LABEL53 
+JMP .LABEL2 
+
+:LABEL52
+IF 16 09 00 15 35 00 02 00 .LABEL55 
+JMP .LABEL56 
+JMP .LABEL2 
+
+:LABEL55
+IF 16 09 00 15 11 00 02 00 .LABEL58 
+JMP .LABEL59 
+JMP .LABEL2 
+
+:LABEL58
+IF 16 09 00 15 2C 00 02 00 .LABEL61 
+JMP .LABEL62 
+JMP .LABEL2 
+
+:LABEL61
+IF 16 09 00 15 36 00 02 00 .LABEL64 
+JMP .LABEL65 
+JMP .LABEL2 
+
+:LABEL64
+IF 16 09 00 15 14 00 02 00 .LABEL67 
+JMP .LABEL68 
+JMP .LABEL2 
+
+:LABEL67
+IF 16 09 00 15 2D 00 02 00 .LABEL70 
+JMP .LABEL71 
+JMP .LABEL2 
+
+:LABEL70
+IF 16 09 00 15 17 00 02 00 .LABEL73 
+JMP .LABEL74 
+JMP .LABEL2 
+
+:LABEL73
+IF 16 09 00 15 19 00 02 00 .LABEL76 
+JMP .LABEL77 
+JMP .LABEL2 
+
+:LABEL76
+IF 16 09 00 15 19 00 02 00 .LABEL79 
+JMP .LABEL77 
+JMP .LABEL2 
+
+:LABEL79
+IF 16 09 00 15 2E 00 02 00 .LABEL82 
+JMP .LABEL83 
+JMP .LABEL2 
+
+:LABEL82
+IF 16 09 00 15 1A 00 02 00 .LABEL85 
+JMP .LABEL86 
+JMP .LABEL2 
+
+:LABEL85
+IF 16 09 00 15 2F 00 02 00 .LABEL2 
+JMP .LABEL89 
+
+:LABEL2
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG019' 
+X_24 00 
+X_25 06 
+IF 17 73 00 15 00 00 02 17 39 00 15 00 00 02 0F 00 .LABEL90 
+TEXT Ikumi: "......!?"
+STOP_SOUND 01 
+TEXT The inside of the Minmes was utterly empty...
+TEXT I couldn't hear any voices.
+TEXT Where did Haruka go...
+TEXT I left the Minmes to search for Haruka.
+X_04 0073 0001 
+JMP .LABEL91 
+
+:LABEL90
+IF 17 73 00 15 01 00 02 17 39 00 15 00 00 02 0F 00 .LABEL92 
+TEXT She's still not here...
+TEXT Where did she go...?I need to go find her...
+JMP .LABEL91 
+
+:LABEL92
+IF 17 39 00 15 01 00 02 00 .LABEL94 
+TEXT There's no reason to stay in this room.
+TEXT Haruka's in that room after all...
+JMP .LABEL91 
+
+:LABEL94
+TEXT The Minmes is unmanned at night...
+TEXT I left the room.
+
+:LABEL91
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_00 0009 000D 
+JMP .LABEL47 
+
+:LABEL5
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'Bg019' 
+X_24 00 
+X_25 06 
+TEXT The inside of the Elpod was perfectly dark.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Haruka isn't in here...
+TEXT I left the room.
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_00 0009 001A 
+JMP .LABEL86 
+
+:LABEL8
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'Bg021' 
+X_24 00 
+X_25 06 
+TEXT The Relaxation Room was perfectly dark...
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Haruka isn't in here...
+TEXT I left the room.
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_00 0009 000E 
+JMP .LABEL50 
+
+:LABEL11
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG007' 
+X_24 00 
+X_25 06 
+IF 17 73 00 15 00 00 02 00 .LABEL99 
+TEXT The dining hall was silent at night.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT There's no time to waste here. I left the dining hall.
+JMP .LABEL100 
+
+:LABEL99
+TEXT The dining hall was silent at night.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT There's no way Haruka would be here...I left the dining hall.
+
+:LABEL100
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+IF 17 24 00 15 01 00 02 00 .LABEL101 
+X_00 0009 000F 
+JMP .LABEL53 
+JMP .LABEL14 
+
+:LABEL101
+X_00 0009 002F 
+JMP .LABEL89 
+
+:LABEL14
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL17
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL20
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL23
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL26
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+IF 16 58 00 15 00 00 02 00 .LABEL105 
+TEXT There was no one in the room.
+TEXT Where did Yui go? I'm starting to get worried...
+TEXT I'll go look somewhere else...
+X_00 0058 0001 
+JMP .LABEL106 
+
+:LABEL105
+TEXT Yui's still not here...
+TEXT I'll go look somewhere else...
+
+:LABEL106
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_04 005D 0001 
+X_00 0009 0036 
+JMP .LABEL65 
+
+:LABEL29
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+IF 17 40 00 15 00 00 02 00 .LABEL108 
+TEXT An empty room...
+JMP .LABEL109 
+
+:LABEL108
+TEXT I lifted up the iron plate covering the passage, and crawled out of the narrow space into an empty bedroom.
+X_04 0040 0000 
+
+:LABEL109
+TEXT 
+SELECT 0003 'Examine' 'Enter Underground Passage' 'Leave room' 
+IF 16 03 00 15 01 00 02 00 .LABEL110 
+TEXT There's a ladder to the underground passage hidden under the bed.
+JMP .LABEL111 
+
+:LABEL110
+IF 16 03 00 15 02 00 02 00 .LABEL112 
+TEXT I squeezed under the bed, lifted up the iron cover and disappeared into the darkness.
+X_00 0009 0024 
+GOTO_SCRIPT 'UG_D16' 
+JMP .LABEL111 
+
+:LABEL112
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_00 0009 0017 
+JMP .LABEL74 
+
+:LABEL111
+JMP .LABEL109 
+
+:LABEL32
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+IF 16 3E 00 15 00 00 02 00 .LABEL116 
+TEXT .........
+TEXT The room where Yui was raped...
+TEXT A filthy room...
+TEXT There's no need to stay here.
+X_00 003E 0001 
+JMP .LABEL117 
+
+:LABEL116
+TEXT .........
+TEXT There's no need to stay here.
+
+:LABEL117
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+X_00 0009 002E 
+JMP .LABEL83 
+
+:LABEL35
+X_01 0006 0009 
+
+:LABEL124
+X_52 0059 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[--]---:---' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL119 
+TEXT There's nothing here.
+JMP .LABEL120 
+
+:LABEL119
+IF 16 03 00 15 03 00 02 00 .LABEL120 
+X_00 0009 000A 
+JMP .LABEL38 
+JMP .LABEL120 
+
+:LABEL120
+JMP .LABEL124 
+
+:LABEL38
+X_52 0088 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL125 
+TEXT An empty three-way intersection.
+JMP .LABEL126 
+
+:LABEL125
+IF 16 03 00 15 02 00 02 00 .LABEL127 
+X_00 0009 0009 
+JMP .LABEL35 
+JMP .LABEL126 
+
+:LABEL127
+IF 16 03 00 15 03 00 02 00 .LABEL130 
+X_00 0009 000B 
+JMP .LABEL41 
+JMP .LABEL126 
+
+:LABEL130
+IF 16 03 00 15 04 00 02 00 .LABEL126 
+X_00 0009 0035 
+JMP .LABEL56 
+JMP .LABEL126 
+
+:LABEL126
+JMP .LABEL38 
+
+:LABEL41
+X_52 00B9 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL137 
+TEXT There's nothing here.
+JMP .LABEL138 
+
+:LABEL137
+IF 16 03 00 15 02 00 02 00 .LABEL139 
+X_00 0009 000A 
+JMP .LABEL38 
+JMP .LABEL138 
+
+:LABEL139
+IF 16 03 00 15 03 00 02 00 .LABEL138 
+X_00 0009 000C 
+JMP .LABEL44 
+JMP .LABEL138 
+
+:LABEL138
+JMP .LABEL41 
+
+:LABEL44
+X_01 0006 0009 
+
+:LABEL157
+X_52 00E9 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL146 
+TEXT There's nothing here.
+JMP .LABEL147 
+
+:LABEL146
+IF 16 03 00 15 02 00 02 00 .LABEL148 
+X_00 0009 000B 
+JMP .LABEL41 
+JMP .LABEL147 
+
+:LABEL148
+IF 16 03 00 15 03 00 02 00 .LABEL151 
+X_00 0009 000D 
+JMP .LABEL47 
+JMP .LABEL147 
+
+:LABEL151
+IF 16 03 00 15 04 00 02 00 .LABEL147 
+X_00 0009 0011 
+JMP .LABEL59 
+JMP .LABEL147 
+
+:LABEL147
+JMP .LABEL157 
+
+:LABEL47
+IF 17 73 00 15 00 00 02 16 76 00 15 00 00 02 0F 00 .LABEL158 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+X_00 0076 0001 
+
+:LABEL158
+X_52 0120 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Door to Relaxation Room' '[Å´ ]South: Enter Minmes' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL159 
+TEXT The label on the door read <Minmes>.
+JMP .LABEL160 
+
+:LABEL159
+IF 16 03 00 15 02 00 02 00 .LABEL161 
+X_00 0009 000C 
+JMP .LABEL44 
+JMP .LABEL160 
+
+:LABEL161
+IF 16 03 00 15 03 00 02 00 .LABEL164 
+X_00 0009 000E 
+JMP .LABEL50 
+JMP .LABEL160 
+
+:LABEL164
+IF 16 03 00 15 04 00 02 00 .LABEL160 
+IF 16 0E 00 15 05 00 02 00 .LABEL168 
+X_00 0009 0002 
+JMP .LABEL2 
+JMP .LABEL170 
+
+:LABEL168
+TEXT No, entering rooms in other buildings at this time is dangerous.  I really shouldn't.
+
+:LABEL170
+JMP .LABEL160 
+
+:LABEL160
+JMP .LABEL158 
+
+:LABEL50
+X_52 0167 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Door to Minmes' '[Å® ]East: Door to Dining Hall' '[Å´ ]South: Enter Relaxation Room' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL173 
+TEXT The label on the door read <Relaxation Room>.
+JMP .LABEL174 
+
+:LABEL173
+IF 16 03 00 15 02 00 02 00 .LABEL175 
+X_00 0009 000D 
+JMP .LABEL47 
+JMP .LABEL174 
+
+:LABEL175
+IF 16 03 00 15 03 00 02 00 .LABEL178 
+X_00 0009 000F 
+JMP .LABEL53 
+JMP .LABEL174 
+
+:LABEL178
+IF 16 03 00 15 04 00 02 00 .LABEL174 
+IF 17 73 00 15 01 00 02 00 .LABEL182 
+X_00 0009 001B 
+JMP .LABEL8 
+JMP .LABEL184 
+
+:LABEL182
+TEXT I don't have the time to be searching other rooms.
+
+:LABEL184
+JMP .LABEL174 
+
+:LABEL174
+JMP .LABEL50 
+
+:LABEL53
+X_52 019C 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[--]---:---' '[Å© ]West: Door to Relaxation Room' '[Å® ]East: Enter Dining Hall' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL187 
+TEXT The label on the door read <Dining Hall>.
+JMP .LABEL188 
+
+:LABEL187
+IF 16 03 00 15 02 00 02 00 .LABEL189 
+X_00 0009 000E 
+JMP .LABEL50 
+JMP .LABEL188 
+
+:LABEL189
+IF 16 03 00 15 03 00 02 00 .LABEL192 
+X_04 0024 0001 
+X_00 0009 0004 
+JMP .LABEL11 
+JMP .LABEL188 
+
+:LABEL192
+IF 16 03 00 15 04 00 02 00 .LABEL188 
+X_00 0009 002C 
+JMP .LABEL62 
+JMP .LABEL188 
+
+:LABEL188
+JMP .LABEL53 
+
+:LABEL56
+IF 16 75 00 15 00 00 02 00 .LABEL199 
+TEXT The patrolmen......
+TEXT ...don't seem to be here.
+X_00 0075 0001 
+
+:LABEL199
+X_52 0088 00BF 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Enter room' '[Å® ]East: Enter room' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL200 
+TEXT There are doors to the left and right.
+JMP .LABEL201 
+
+:LABEL200
+IF 16 03 00 15 01 00 02 00 .LABEL202 
+X_00 0009 000A 
+JMP .LABEL38 
+JMP .LABEL201 
+
+:LABEL202
+IF 16 03 00 15 02 00 02 00 .LABEL205 
+IF 16 0E 00 15 05 00 02 00 .LABEL206 
+TEXT I don't have the time to be searching other rooms...
+JMP .LABEL207 
+
+:LABEL206
+TEXT No, I really shouldn't intrude on their living space...
+
+:LABEL207
+JMP .LABEL201 
+
+:LABEL205
+IF 16 03 00 15 03 00 02 00 .LABEL209 
+IF 16 0E 00 15 05 00 02 00 .LABEL210 
+TEXT I don't have the time to be searching other rooms...
+JMP .LABEL211 
+
+:LABEL210
+TEXT No, I really shouldn't intrude on their living space...
+
+:LABEL211
+JMP .LABEL201 
+
+:LABEL209
+IF 16 03 00 15 04 00 02 00 .LABEL201 
+X_00 0009 0036 
+JMP .LABEL65 
+JMP .LABEL201 
+
+:LABEL201
+JMP .LABEL199 
+
+:LABEL59
+X_52 00E9 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL217 
+TEXT There's nothing here.
+JMP .LABEL218 
+
+:LABEL217
+IF 16 03 00 15 01 00 02 00 .LABEL219 
+X_00 0009 000C 
+JMP .LABEL44 
+JMP .LABEL218 
+
+:LABEL219
+IF 16 03 00 15 04 00 02 00 .LABEL218 
+X_00 0009 0014 
+JMP .LABEL68 
+JMP .LABEL218 
+
+:LABEL218
+JMP .LABEL59 
+
+:LABEL62
+X_52 019C 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL226 
+TEXT There's nothing here.
+JMP .LABEL227 
+
+:LABEL226
+IF 16 03 00 15 01 00 02 00 .LABEL228 
+X_00 0009 000F 
+JMP .LABEL53 
+JMP .LABEL227 
+
+:LABEL228
+IF 16 03 00 15 04 00 02 00 .LABEL227 
+X_00 0009 002D 
+JMP .LABEL71 
+JMP .LABEL227 
+
+:LABEL227
+JMP .LABEL62 
+
+:LABEL65
+X_52 0088 00FB 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Enter room' '[Å® ]East: Enter room' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL235 
+TEXT There are doors to the left and right.
+JMP .LABEL236 
+
+:LABEL235
+IF 16 03 00 15 01 00 02 00 .LABEL237 
+IF 17 49 00 15 01 00 02 00 .LABEL238 
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrolman: "Hey!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT There's a patrolman in the direction I'm heading.
+JMP .LABEL239 
+JMP .LABEL240 
+
+:LABEL238
+X_00 0009 0035 
+JMP .LABEL56 
+
+:LABEL240
+JMP .LABEL236 
+
+:LABEL237
+IF 16 03 00 15 02 00 02 00 .LABEL243 
+IF 17 49 00 15 01 00 02 00 .LABEL244 
+TEXT No, I really shouldn't intrude on their living space...
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrolman: "Hey!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT While I was thinking in front of that room, a voice froze me on the spot.
+JMP .LABEL239 
+JMP .LABEL246 
+
+:LABEL244
+TEXT No, I really shouldn't intrude on their living space...
+
+:LABEL246
+JMP .LABEL236 
+
+:LABEL243
+IF 16 03 00 15 03 00 02 00 .LABEL248 
+IF 17 49 00 15 01 00 02 00 .LABEL249 
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrolman: "Hey!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT As I moved to enter the room, a voice froze me on the spot.
+JMP .LABEL239 
+JMP .LABEL251 
+
+:LABEL249
+TEXT No, she shouldn't be in here anymore...
+
+:LABEL251
+JMP .LABEL236 
+
+:LABEL248
+IF 16 03 00 15 04 00 02 00 .LABEL236 
+X_00 0009 0017 
+JMP .LABEL74 
+JMP .LABEL236 
+
+:LABEL236
+JMP .LABEL65 
+
+:LABEL68
+X_52 00E9 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL257 
+TEXT There's nothing here.
+JMP .LABEL258 
+
+:LABEL257
+IF 16 03 00 15 01 00 02 00 .LABEL259 
+X_00 0009 0011 
+JMP .LABEL59 
+JMP .LABEL258 
+
+:LABEL259
+IF 16 03 00 15 04 00 02 00 .LABEL258 
+X_00 0009 0019 
+JMP .LABEL77 
+JMP .LABEL258 
+
+:LABEL258
+JMP .LABEL68 
+
+:LABEL71
+X_52 019C 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL266 
+TEXT There's nothing here.
+JMP .LABEL267 
+
+:LABEL266
+IF 16 03 00 15 01 00 02 00 .LABEL268 
+X_00 0009 002C 
+JMP .LABEL62 
+JMP .LABEL267 
+
+:LABEL268
+IF 16 03 00 15 04 00 02 00 .LABEL267 
+X_00 0009 002F 
+JMP .LABEL89 
+JMP .LABEL267 
+
+:LABEL267
+JMP .LABEL71 
+
+:LABEL74
+X_52 0088 0137 
+X_51 01 
+X_25 01 
+IF 17 48 00 15 00 00 02 00 .LABEL275 
+TEXT Ikumi: "......!"
+STOP_SOUND 01 
+TEXT I just saw a Fargo patrolman cut across the far corridor...
+TEXT I might be able to pass through this area without catching his eye, but that'd be very dangerous.
+TEXT I should head back for now...
+X_04 0048 0001 
+X_04 005E 0001 
+JMP .LABEL276 
+
+:LABEL275
+IF 17 48 00 15 01 00 02 17 5E 00 15 00 00 02 0F 00 .LABEL276 
+TEXT The patrolmen must still be here...
+TEXT I have to avoid taking impulsive action.
+X_04 005E 0001 
+JMP .LABEL276 
+
+:LABEL276
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Enter room' '[Å® ]East: Enter room' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL279 
+TEXT There are doors to the left and right.
+TEXT Behind one of them is the room hiding the ladder to the underground passage.
+JMP .LABEL280 
+
+:LABEL279
+IF 16 03 00 15 01 00 02 00 .LABEL281 
+IF 17 48 00 15 01 00 02 00 .LABEL282 
+TEXT There are patrolmen here...am I really going...?
+TEXT 
+SELECT 0003 'Go' 'Think again' 
+X_51 00 
+IF 16 03 00 15 01 00 02 00 .LABEL283 
+X_04 0049 0001 
+X_00 0009 0036 
+JMP .LABEL65 
+JMP .LABEL285 
+
+:LABEL283
+JMP .LABEL74 
+
+:LABEL285
+JMP .LABEL287 
+
+:LABEL282
+X_00 0009 0036 
+JMP .LABEL65 
+
+:LABEL287
+JMP .LABEL280 
+
+:LABEL281
+IF 16 03 00 15 02 00 02 00 .LABEL290 
+X_00 0009 0008 
+JMP .LABEL29 
+JMP .LABEL280 
+
+:LABEL290
+IF 16 03 00 15 03 00 02 00 .LABEL280 
+TEXT No, I really shouldn't intrude on their living space...
+JMP .LABEL280 
+
+:LABEL280
+JMP .LABEL74 
+
+:LABEL307
+TEXT 
+SELECT 0003 '[Å™ ]North: Enter room' '[Å© ]West: Door to Elpod' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL296 
+TEXT There's an unlabeled door.
+JMP .LABEL297 
+
+:LABEL296
+IF 16 03 00 15 01 00 02 00 .LABEL298 
+X_00 0009 0030 
+JMP .LABEL32 
+JMP .LABEL297 
+
+:LABEL298
+IF 16 03 00 15 02 00 02 00 .LABEL301 
+X_00 0009 0017 
+JMP .LABEL74 
+JMP .LABEL297 
+
+:LABEL301
+IF 16 03 00 15 03 00 02 00 .LABEL297 
+X_00 0009 0019 
+JMP .LABEL77 
+JMP .LABEL297 
+
+:LABEL297
+JMP .LABEL307 
+
+:LABEL77
+X_52 00E9 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL308 
+TEXT This door looks like a service entrance, but it's ID locked.  It'd be dangerous to try and open it.
+JMP .LABEL309 
+
+:LABEL308
+IF 16 03 00 15 01 00 02 00 .LABEL310 
+X_00 0009 0014 
+JMP .LABEL68 
+JMP .LABEL309 
+
+:LABEL310
+IF 16 03 00 15 03 00 02 00 .LABEL309 
+X_00 0009 002E 
+JMP .LABEL83 
+JMP .LABEL309 
+
+:LABEL309
+JMP .LABEL77 
+
+:LABEL83
+X_52 0120 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Enter room' '[Å© ]West: Corridor' '[Å® ]East: Door to Elpod' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL317 
+TEXT There's an unlabeled door.
+JMP .LABEL318 
+
+:LABEL317
+IF 16 03 00 15 01 00 02 00 .LABEL319 
+IF 17 73 00 15 00 00 02 00 .LABEL320 
+TEXT I don't have the time to be searching other rooms.
+JMP .LABEL321 
+
+:LABEL320
+IF 17 73 00 15 01 00 02 17 39 00 15 00 00 02 0F 00 .LABEL322 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG011' 
+X_24 00 
+X_25 06 
+TEXT It's locked from the inside...
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Haruka's in here.
+TEXT And Haruka's onii-san...
+TEXT ...and that man...
+X_04 0039 0001 
+JMP .LABEL321 
+
+:LABEL322
+IF 17 73 00 15 01 00 02 17 39 00 15 01 00 02 0F 00 .LABEL321 
+IF 16 77 00 15 00 00 02 00 .LABEL325 
+TEXT No good...it won't open...
+TEXT There's nothing I can do...
+TEXT .........
+TEXT ...that's right.
+TEXT He might be able to do something...
+TEXT I'd better hurry back to him.
+X_00 0077 0001 
+JMP .LABEL321 
+
+:LABEL325
+TEXT The door won't open...
+TEXT But he'd definitely do something about it...
+
+:LABEL321
+JMP .LABEL318 
+
+:LABEL319
+IF 16 03 00 15 02 00 02 00 .LABEL328 
+X_00 0009 0019 
+JMP .LABEL77 
+JMP .LABEL318 
+
+:LABEL328
+IF 16 03 00 15 03 00 02 00 .LABEL318 
+X_00 0009 001A 
+JMP .LABEL86 
+JMP .LABEL318 
+
+:LABEL318
+JMP .LABEL83 
+
+:LABEL86
+X_52 0167 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Enter Elpod' '[Å© ]West: Corridor' '[Å® ]East: Door to Dining Hall' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL335 
+TEXT The label on the door read <Elpod>.
+JMP .LABEL336 
+
+:LABEL335
+IF 16 03 00 15 01 00 02 00 .LABEL337 
+IF 17 73 00 15 01 00 02 00 .LABEL338 
+X_00 0009 0003 
+JMP .LABEL5 
+JMP .LABEL340 
+
+:LABEL338
+TEXT I don't have the time to be searching other rooms.
+
+:LABEL340
+JMP .LABEL336 
+
+:LABEL337
+IF 16 03 00 15 02 00 02 00 .LABEL342 
+X_00 0009 002E 
+JMP .LABEL83 
+JMP .LABEL336 
+
+:LABEL342
+IF 16 03 00 15 03 00 02 00 .LABEL336 
+X_00 0009 002F 
+JMP .LABEL89 
+JMP .LABEL336 
+
+:LABEL336
+JMP .LABEL86 
+
+:LABEL89
+X_01 0006 0009 
+
+:LABEL360
+X_52 019C 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Passage' '[Å® ]East: Enter Dining Hall' '[--]---:---' 'Examine' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL349 
+TEXT The label on the door read <Dining Hall>.
+JMP .LABEL350 
+
+:LABEL349
+IF 16 03 00 15 01 00 02 00 .LABEL351 
+X_00 0009 002D 
+JMP .LABEL71 
+JMP .LABEL350 
+
+:LABEL351
+IF 16 03 00 15 02 00 02 00 .LABEL354 
+X_00 0009 001A 
+JMP .LABEL86 
+JMP .LABEL350 
+
+:LABEL354
+IF 16 03 00 15 03 00 02 00 .LABEL350 
+X_04 0024 0000 
+X_00 0009 0004 
+JMP .LABEL11 
+JMP .LABEL350 
+
+:LABEL350
+JMP .LABEL360 
+
+:LABEL239
+PLAY_SOUND 01 '014_iku000' 00 
+TEXT Ikumi: "Yes, what is it?"
+STOP_SOUND 01 
+TEXT I tried to appear calm.
+PLAY_SOUND 01 '000_bt2001' 00 
+TEXT Patrolman: "Where're you going?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku001' 00 
+TEXT Ikumi: "Umm...that is...I lost my way..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2002' 00 
+TEXT Patrolman: "Don't lie. Why are you out...hmm...?"
+STOP_SOUND 01 
+TEXT ...he noticed I was hiding my left hand on purpose.
+TEXT He snatched my wrist and twisted it as far as it would go.
+PLAY_SOUND 00 'mon_cd13' 01 
+PLAY_SOUND 01 '006_bt2000' 00 
+TEXT Patrolman: "What the..."
+STOP_SOUND 01 
+TEXT When he looked at the number burned into my hand, the Patrolman immediately changed his attitude.
+PLAY_SOUND 01 '006_bt2001' 00 
+TEXT Patrolman: "You...you're the Lost Body they ordered us to eliminate...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '104_iku001' 00 
+TEXT Ikumi: "Ah...!"
+STOP_SOUND 01 
+TEXT The man quickly brought the barrel of his gun up to my chest.
+PLAY_SOUND 01 '104_iku002' 00 
+TEXT Ikumi: "Wa-...wait...!"
+STOP_SOUND 01 
+TEXT My voice didn't reach him.
+PLAY_SOUND 01 'se20' 00 
+TEXT *pan!*
+TEXT A bullet pierced my lung.
+TEXT gu...
+TEXT My knees hit the floor and I coughed up blood.
+TEXT And then as I knelt there...
+PLAY_SOUND 01 'se20' 01 
+TEXT *pan**pan**pan*...!
+TEXT The bullets continued without pause.
+TEXT *pan**pan**pan*...!
+TEXT He's going to run out eventually...
+TEXT ...*pan**pan**pan*...!
+TEXT That sound echoed on forever.
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+X_30 00 
+X_31 00 
+X_32 00 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'FG226' 
+X_24 00 
+X_25 06 
+X_28 0032 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT 
+SELECT 0003 'Listen to a hint' 'Return to title screen' 
+IF 16 03 00 15 01 00 02 00 .LABEL361 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'CGry01' 
+X_24 00 
+X_25 06 
+IF 17 86 00 15 00 00 02 00 .LABEL362 
+PLAY_SOUND 01 '004_ryo000' 00 
+TEXT Ryousuke: "You can't come this far and die pointlessly like that..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo001' 00 
+TEXT Ryousuke: "You shouldn't have had any reason to go there in the first place..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo002' 00 
+TEXT Ryousuke: "It'd be in Haruka's best interests if I pretended you were never her friend to begin with..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo003' 00 
+TEXT Ryousuke: "You have to redo this..."
+STOP_SOUND 01 
+JMP .LABEL363 
+
+:LABEL362
+PLAY_SOUND 01 '004_ryo004' 00 
+TEXT Ryousuke: "You can't come this far and die pointlessly like that..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo005' 00 
+TEXT Ryousuke: "You shouldn't have had any reason to go there in the first place..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo006' 00 
+TEXT Ryousuke: "You have to redo this..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo007' 00 
+TEXT Ryousuke: "Your friends are waiting for you."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_ryo008' 00 
+TEXT Ryousuke: "Please don't forget that..."
+STOP_SOUND 01 
+
+:LABEL363
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+JMP .LABEL361 
+
+:LABEL361
+X_28 0028 
+X_00 0017 0001 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+EOF 

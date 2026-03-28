@@ -1,0 +1,1606 @@
+
+# MOON SCRIPT FILE "DAY09.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 0009 
+SETSTATUS 'Dia 9 Manh~ Pr%dio A'
+BACKGROUND 'FG208'
+X_24 00 
+X_25 06 
+X_04 0042 0000 
+X_04 0046 0000 
+X_00 000E 0001 
+X_00 0013 0001 
+X_00 0018 0000 
+X_00 0019 0000 
+X_00 001A 0000 
+X_00 001B 0000 
+X_00 001C 0000 
+X_00 001D 0000 
+X_00 001E 0000 
+X_00 001F 0000 
+X_00 0020 0000 
+X_00 0021 0000 
+X_00 0022 0000 
+X_00 0023 0000 
+X_00 0024 0000 
+X_00 0025 0000 
+X_00 0026 0000 
+X_00 0027 0000 
+X_00 0028 0000 
+X_00 0029 0000 
+X_00 002A 0000 
+X_00 002B 0000 
+X_00 002C 0000 
+X_00 002D 0000 
+X_00 002E 0000 
+X_00 002F 0000 
+X_00 0030 0000 
+X_00 0031 0000 
+X_00 0032 0000 
+X_00 0033 0000 
+X_00 0034 0000 
+X_00 0035 0000 
+X_00 0036 0000 
+X_00 0037 0000 
+X_00 0038 0000 
+X_00 0039 0000 
+X_00 003A 0000 
+X_00 003C 0000 
+X_00 003D 0000 
+X_00 003E 0000 
+X_00 003F 0000 
+X_00 0040 0000 
+X_00 0041 0000 
+X_00 0042 0000 
+X_00 0043 0000 
+X_00 0044 0000 
+X_00 0045 0000 
+X_00 0046 0000 
+X_00 0047 0000 
+X_00 0048 0000 
+X_00 0049 0000 
+X_00 004A 0000 
+X_00 004B 0000 
+X_00 004C 0000 
+X_00 004D 0000 
+X_00 004E 0000 
+X_00 004F 0000 
+X_00 0050 0000 
+X_00 0051 0000 
+X_00 0052 0000 
+X_00 0053 0000 
+X_00 0054 0000 
+X_00 0055 0000 
+X_00 0056 0000 
+X_00 0057 0000 
+X_00 0058 0000 
+X_00 0059 0000 
+X_00 005A 0000 
+X_00 005B 0000 
+X_00 005C 0000 
+X_00 005D 0000 
+X_00 005E 0000 
+X_00 005F 0000 
+X_00 0060 0000 
+X_00 0061 0000 
+X_00 0062 0000 
+X_00 0063 0000 
+X_00 0064 0000 
+X_00 0065 0000 
+X_00 0066 0000 
+X_00 0067 0000 
+X_00 0068 0000 
+X_00 0069 0000 
+X_00 006A 0000 
+X_00 006B 0000 
+X_00 006C 0000 
+X_00 006D 0000 
+X_00 006E 0000 
+X_00 006F 0000 
+X_00 0070 0000 
+X_00 0071 0000 
+X_00 0072 0000 
+X_00 0073 0000 
+X_00 0074 0000 
+X_00 0075 0000 
+X_00 0076 0000 
+X_00 0077 0000 
+X_00 0078 0000 
+X_00 0079 0000 
+X_00 007A 0000 
+X_00 007B 0000 
+X_04 0059 0000 
+X_04 0039 0000 
+X_04 0040 0000 
+X_28 0028 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '018_boy000' 00 
+TEXT Garoto: "Bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku000' 00 
+TEXT Ikumi: "......Hum, bom dia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy001' 00 
+TEXT Garoto: "O tempo l$ fora deve estar +timo hoje."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku001' 00 
+TEXT Ikumi: "Verdade. Tamb%m acho."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy002' 00 
+TEXT Garoto: "Seria bom se tivessem janelas aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku002' 00 
+TEXT Ikumi: "Seria."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku003' 00 
+TEXT Ikumi: "...Ei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy003' 00 
+TEXT Garoto: "Sim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku004' 00 
+TEXT Ikumi: "N~o vou mais perguntar sobre o cerne das coisas."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku005' 00 
+TEXT Ikumi: "Mas pelo menos me d[ uma pista, algo que me ajude a chegar perto."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy004' 00 
+TEXT Garoto: "Essa foi uma escolha mais s$bia."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy005' 00 
+TEXT Garoto: "Ent~o, o que quer perguntar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku006' 00 
+TEXT Ikumi: "Estou procurando por algu%m."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku007' 00 
+TEXT Ikumi: "Mima Ryousuke. Voc[ conhece ele?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy006' 00 
+TEXT Garoto: "Boa pergunta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy007' 00 
+TEXT Garoto: "N~o % o cerne, mas com certeza leva at% ele."
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '018_boy008' 00 
+TEXT Garoto: "O resto vai depender de voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku008' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_boy009' 00 
+TEXT Garoto: "Ele % o respons$vel pelo MINMES do Pr%dio B."
+STOP_SOUND 01 
+PLAY_SOUND 01 '065_iku009' 00 
+TEXT Ikumi: "Obrigada."
+STOP_SOUND 01 
+TEXT Eu devia ter feito isso desde o come|o.
+TEXT Enquanto ruminava sobre as palavras do garoto, deixei a sala.
+X_00 0009 0012 
+X_00 000E 0001 
+GOSUB_SCRIPT 'A_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL0 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL0
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'm01_min000' 00 
+TEXT Voz: "Aqui est$ voc[, A-12."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_iku000' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm03_min000' 00 
+TEXT Voz: "Fique no centro da sala."
+STOP_SOUND 01 
+TEXT Fui para o meio do padr~o.
+PLAY_SOUND 01 'm08_min000' 00 
+TEXT Voz: "Agora come|aremos o N&vel 8."
+STOP_SOUND 01 
+TEXT *Vruuuuun...*
+TEXT *Takatakatakata...*
+TEXT A m$quina come|ou a se mover.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT Minha vis~o foi bloqueada.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT ...*Taka*......*Taka*......
+TEXT ...
+TEXT ......
+TEXT .........
+GOSUB_SCRIPT 'MINMES' 
+IF 16 17 00 15 01 00 02 00 .LABEL1 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL1
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'm08_min001' 00 
+TEXT Voz: "N&vel 8 completo."
+STOP_SOUND 01 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sa& do MINMES.
+X_00 0009 000B 
+X_00 000E 0002 
+GOSUB_SCRIPT 'A_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL2 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL2
+STOP_SOUND 00 
+TEXT Youko-san n~o estava no refeit+rio.
+TEXT Peguei minha bandeja e a coloquei na mesa.
+PLAY_SOUND 01 '067_iku000' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Come|ar a comer' 'Esperar um pouco' 
+IF 16 03 00 15 01 00 02 00 .LABEL3 
+TEXT Comecei a comer.
+TEXT *Nhac nhac...*
+TEXT *Nhoc nhoc...*
+TEXT O refeit+rio ecoava com o som da minha mastiga|~o.
+PLAY_SOUND 01 '067_iku001' 00 
+TEXT Ikumi: Aah...
+STOP_SOUND 01 
+TEXT No fim, mesmo depois que terminei de comer, Youko-san n~o apareceu.
+TEXT Guardei minha bandeja e sa& do refeit+rio.
+JMP .LABEL4 
+
+:LABEL3
+TEXT Esperei um pouco, mas n~o houve sinal de Youko-san aparecer.
+PLAY_SOUND 01 '067_iku002' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT N~o tive escolha.
+TEXT Comecei a comer.
+TEXT *Nhac nhac...*
+TEXT *Nhoc nhoc...*
+TEXT O refeit+rio ecoava com o som da minha mastiga|~o.
+PLAY_SOUND 01 '067_iku001' 00 
+TEXT Ikumi: Aah...
+STOP_SOUND 01 
+TEXT No fim, mesmo depois que terminei de comer, Youko-san n~o apareceu.
+TEXT Guardei minha bandeja e sa& do refeit+rio.
+
+:LABEL4
+IF 17 24 00 15 01 00 02 00 .LABEL5 
+X_00 0009 0009 
+JMP .LABEL6 
+
+:LABEL5
+X_00 0009 0016 
+
+:LABEL6
+X_00 000E 0003 
+X_04 0025 0001 
+GOSUB_SCRIPT 'A_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL7 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL7
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT Entrei na sala do ELPOD.
+PLAY_SOUND 01 'es0_elp000' 00 
+TEXT Voz: "A-12, confirmado."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_elp000' 00 
+TEXT Voz: "Agora v$ at% o centro da sala."
+STOP_SOUND 01 
+TEXT Fiquei em sil[ncio no centro do padr~o.
+PLAY_SOUND 01 'e05_elp000' 00 
+TEXT Voz: "N&vel 5... come|ar."
+STOP_SOUND 01 
+TEXT A luz se apagou.
+TEXT Ent~o, no fundo da minha consci[ncia...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd08' 01 
+PLAY_SOUND 01 'se28' 01 
+TEXT *Tak*...*Tak*...
+TEXT ...*Tak*...*Tak*...
+TEXT ......*Tak*...*Tak*...
+STOP_SOUND 01 
+TEXT E l$ estava ela.
+GOSUB_SCRIPT 'EL5' 
+IF 16 17 00 15 01 00 02 00 .LABEL8 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL8
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 'e02_iku110' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e05_elp001' 00 
+TEXT Voz: "N&vel 5 completo. Bom trabalho."
+STOP_SOUND 01 
+PLAY_SOUND 01 'e02_iku111' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sa& da sala sem dizer uma palavra.
+X_00 0009 0017 
+X_00 000E 0004 
+GOSUB_SCRIPT 'A_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL9 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL9
+STOP_SOUND 00 
+TEXT De novo, Youko-san n~o est$ aqui.
+PLAY_SOUND 01 '068_iku000' 00 
+TEXT Ikumi: (O que aconteceu com voc[... Youko-san...?)
+STOP_SOUND 01 
+TEXT Comi sozinha de novo.
+PLAY_SOUND 01 '068_iku001' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Um refeit+rio grande.
+TEXT Grande at% mesmo para duas pessoas.
+TEXT Parecia agora ainda maior...
+TEXT *Nhac...* *Nhoc...*
+TEXT Comi de prop+sito mais devagar, esperando que Youko-san aparecesse... mas ela n~o veio.
+TEXT Mesmo tendo comido at% os rabos dos camar/es.
+TEXT Guardei minha bandeja e sa& do refeit+rio.
+IF 17 24 00 15 01 00 02 00 .LABEL10 
+X_00 0009 0009 
+JMP .LABEL11 
+
+:LABEL10
+X_00 0009 0016 
+
+:LABEL11
+X_00 000E 0005 
+GOSUB_SCRIPT 'A_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL12 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL12
+BACKGROUND 'BG009' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+TEXT Haruka j$ estava no local de encontro de sempre.
+TEXT Ela n~o deu aten|~o # minha chegada, apenas mordeu o l$bio e lan|ou um olhar para a parede oposta.
+PLAY_SOUND 01 '069_iku000' 00 
+TEXT Ikumi: "Haruka..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har001' 00 
+TEXT Haruka: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har002' 00 
+TEXT Haruka: "...Voc[ encontrou alguma pista?"
+STOP_SOUND 01 
+TEXT Sem desviar os olhos, ela foi direto ao ponto.
+PLAY_SOUND 01 '069_iku001' 00 
+TEXT Ikumi: "Sim. Eu sei onde ele est$."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har003' 00 
+TEXT Haruka: "Onde?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '069_iku002' 00 
+TEXT Ikumi: "Nos MINMES do Pr%dio B."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har004' 00 
+TEXT Haruka: "Obrigada."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Sem olhar para o meu rosto uma vez sequer, ela foi andando em dire|~o ao Pr%dio B.
+PLAY_SOUND 01 '069_iku003' 00 
+TEXT Ikumi: "Eu vou tamb%m."
+STOP_SOUND 01 
+TEXT Corri atr$s dela e...
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '013_har005' 00 
+TEXT Haruka: "Fica longe de mim!!"
+STOP_SOUND 01 
+TEXT Com um grito $cido, ela me empurrou para tr$s.
+PLAY_SOUND 01 '013_har006' 00 
+TEXT Haruka: "Se quiser ir, v$. Ningu%m t$ te impedindo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har007' 00 
+TEXT Haruka: "Mas n~o chegue perto de mim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '069_iku004' 00 
+TEXT Ikumi: "Por qu[...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '013_har008' 00 
+TEXT Haruka: "Na verdade... vai na frente. Vai ser melhor assim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '069_iku005' 00 
+TEXT Ikumi: "T$ bom..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Haruka ficou encostada na parede, e eu passei por ela.
+TEXT Foi nesse momento que senti um cheiro esquisito.
+TEXT Esse fedor...
+TEXT ...Ele revelou o motivo do comportamento estranho da Haruka.
+PLAY_SOUND 01 '013_har009' 00 
+TEXT Haruka: "Vai logo. Eu vou atr$s de voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '069_iku006' 00 
+TEXT Ikumi: "...T$ bom."
+STOP_SOUND 01 
+X_04 0045 0001 
+GOSUB_SCRIPT 'UG_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL13 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL13
+BACKGROUND 'BG004' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Entrei na sala e fiquei parada.
+PLAY_SOUND 01 '000_ryo000' 00 
+TEXT Voz: "O que voc[ quer aqui?"
+STOP_SOUND 01 
+TEXT Uma voz.
+TEXT Haruka apareceu atr$s de mim ao ouvir aquela voz.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '014_har028' 00 
+TEXT Haruka: "Queremos falar com voc[."
+STOP_SOUND 01 
+TEXT Voz: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo001' 00 
+TEXT Voz: "Estou ocupado afinando isso. Podem sair, por favor?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har029' 00 
+TEXT Haruka: "Ent~o quando seria um bom momento, Ryousuke onii-san?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo002' 00 
+TEXT Voz: "Parece que voc[s est~o confundindo as coisas."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har030' 00 
+TEXT Haruka: "N~o estamos, Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo003' 00 
+TEXT Voz: "Por 'Ryousuke', voc[ quer dizer eu?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har031' 00 
+TEXT Haruka: "Sim, Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo004' 00 
+TEXT Voz: "Infelizmente, eu n~o sou o Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo005' 00 
+TEXT Voz: "E com certeza n~o sou seu irm~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har032' 00 
+TEXT Haruka: "Voc[ % meu irm~o, Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo006' 00 
+TEXT Voz: "E eu estou dizendo que voc[ est$ errada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har033' 00 
+TEXT Haruka: "E eu estou dizendo que estou certa, Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo007' 00 
+TEXT Voz: "Se estou dizendo que voc[ est$ errada % porque est$ errada!! Quantas vezes vou ter que repetir isso!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har034' 00 
+TEXT Haruka: "Impaciente como sempre, Ryousuke."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo008' 00 
+TEXT Voz: "Uh..."
+STOP_SOUND 01 
+TEXT A pessoa que pens$vamos ser o irm~o da Haruka engoliu as palavras.
+TEXT Haruka o havia desmascarado brilhantemente com a pr+pria personalidade dele. Ele n~o podia mais negar.
+TEXT Mas a voz que respondeu n~o era mais a dele.
+PLAY_SOUND 01 '001_tak000' 00 
+TEXT Voz: "Por que n~o? Vou deixar voc[s encontrarem seu irm~o."
+STOP_SOUND 01 
+TEXT Uma voz aguda, com um toque de desd%m.
+TEXT E essa voz continuou:
+PLAY_SOUND 01 '001_tak001' 00 
+TEXT Voz: "Vamos estar esperando na Sala de Aperfei|oamento."
+STOP_SOUND 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '014_har035' 00 
+TEXT Haruka: "Isso n~o tem nada a ver com voc[!"
+STOP_SOUND 01 
+TEXT Haruka gritou para o alto-falante no teto.
+PLAY_SOUND 01 '014_har036' 00 
+TEXT Haruka: "S+ entreguem o Ryousuke!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_tak002' 00 
+TEXT Voz: "Estou dizendo que vou intermediar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har037' 00 
+TEXT Haruka: "Ent~o apare|am agora!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_tak003' 00 
+TEXT Voz: "Aqui n~o % um lugar apropriado para conversarmos com calma."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har038' 00 
+TEXT Haruka: "E aquela sala % apropriada, % isso que est$ dizendo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_tak004' 00 
+TEXT Voz: "Sim. Podemos conversar l$."
+STOP_SOUND 01 
+TEXT Haruka: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har039' 00 
+TEXT Haruka: "...Entendido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har040' 00 
+TEXT Haruka: "Eu vou at% l$, Ryousuke."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Haruka deixou a sala.
+TEXT Eu fui atr$s dela.
+X_04 0045 0000 
+X_04 006B 0001 
+GOSUB_SCRIPT 'B_D9' 
+IF 16 17 00 15 01 00 02 00 .LABEL14 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL14
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+STOP_SOUND 00 
+PLAY_SOUND 01 '014_har041' 00 
+TEXT Haruka: "Ent~o voc[ veio..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku000' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku001' 00 
+TEXT Ikumi: "Afinal, eu quero descobrir a verdade..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har042' 00 
+TEXT Haruka: "Voc[ sabe que sala % essa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku002' 00 
+TEXT Ikumi: "Eu sei..."
+STOP_SOUND 01 
+TEXT A sala onde a Yui foi estuprada.
+TEXT E hoje, a Haruka tamb%m deve ter sido...
+PLAY_SOUND 01 '014_har043' 00 
+TEXT Haruka: "Sua determina|~o % impressionante."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har044' 00 
+TEXT Haruka: "Mas nenhuma de n+s sabe como isso vai acabar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku003' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Logo depois que paramos de falar...
+PLAY_SOUND 01 'se41' 00 
+TEXT *Kachak*
+TEXT A porta se abriu, e um homem entrou.
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd12' 01 
+TEXT Por baixo do jaleco, ele usava roupas pretas.
+PLAY_SOUND 01 '002_tak000' 00 
+TEXT Homem: "Oh...? Voc[s vieram mesmo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har045' 00 
+TEXT Haruka: "Achou que a gente n~o viria?"
+STOP_SOUND 01 
+TEXT Dever&amos ter percebido naquele momento que isso n~o terminaria em conversa.
+TEXT Mas Haruka n~o se importava.
+TEXT Porque ela finalmente p{de ver quem estava por tr$s dele.
+TEXT Atr$s daquele homem havia mais um funcion$rio da FARGO.
+X_24 00 
+X_25 09 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+TEXT Eu n~o precisava perguntar quem ele era.
+TEXT Assim como a Haruka, aquele homem tinha olhos firmes, fortes e decididos.
+TEXT Era ningu%m menos que o irm~o dela, Mima Ryousuke.
+X_24 00 
+X_25 09 
+SPRITE 'CGHA03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '014_har046' 00 
+TEXT Haruka: "Ryousuke..."
+STOP_SOUND 01 
+TEXT Haruka disse seu nome enquanto se encaravam.
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak001' 00 
+TEXT Homem: "Ei, ela t$ chamando seu nome. Voc[ n~o vai responder?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo009' 00 
+TEXT Ryousuke: "...N~o sou eu."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '014_har047' 00 
+TEXT Haruka: "Ryousuke...... Mima Ryousuke...... Estou impressionada que voc[ possa dizer uma coisa dessas na minha frente!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak002' 00 
+TEXT Homem: "Mesmo sobrenome tamb%m...... tem certeza que n~o % voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo010' 00 
+TEXT Ryousuke: "...Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har048' 00 
+TEXT Haruka: "O que est$ dizendo, Ryousuke...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak003' 00 
+TEXT Homem: "@ mesmo? Ent~o t$."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak004' 00 
+TEXT Homem: "Nesse caso, acho que n~o vai se importar se eu estuprar esse vadia mentirosa."
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak005' 00 
+TEXT Homem: "O que me diz disso...?"
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo011' 00 
+TEXT Ryousuke: "...Eu n~o me importo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har049' 00 
+TEXT Haruka: "Ryousuke!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se30' 00 
+TEXT *Kachan!!*
+TEXT O som da trava fechando.
+PLAY_SOUND 01 '002_tak006' 00 
+TEXT Homem: "Ei, Mima. Segura essa a&!!"
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+TEXT O irm~o da Haruka ficou em posi|~o de me bloquear. Ent~o...
+PLAY_SOUND 01 '000_ryo012' 00 
+TEXT Ryousuke: "Desculpa..."
+STOP_SOUND 01 
+TEXT Ele sussurrou uma palavra antes de prender meus bra|os.
+PLAY_SOUND 01 '014_har050' 00 
+TEXT Haruka: "N~oooo!!"
+STOP_SOUND 01 
+BACKGROUND 'FG046' 
+X_24 00 
+X_25 06 
+TEXT Haruka foi empurrada para o ch~o, e levantou a cabe|a para olhar o homem que segurava suas pernas e come|ava a for|ar o rosto contra sua virilha.
+PLAY_SOUND 01 '014_har051' 00 
+TEXT Haruka: "N~o... para... com isso...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har052' 00 
+TEXT Haruka: "P-Por favor... n~o cheire...!"
+STOP_SOUND 01 
+TEXT Mas n~o havia como impedir o que ele estava fazendo.
+PLAY_SOUND 01 '002_tak007' 00 
+TEXT Homem: "Hm...... entendi... essa garota est$ relutante..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har053' 00 
+TEXT Haruka: "Ha... hau..."
+STOP_SOUND 01 
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak008' 00 
+TEXT Homem: "Ei, Mima! Traga essa outra garota aqui."
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+TEXT Fui puxada em dire|~o # Haruka.
+PLAY_SOUND 01 '014_har054' 00 
+TEXT Haruka: "O que voc[... o que acha que vai ganhar com isso!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak009' 00 
+TEXT Homem: "Haa...? O que eu ganho...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak010' 00 
+TEXT Homem: "Depois de tudo isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak011' 00 
+TEXT Homem: "Espera, ser$ que... ser$ que ela %...?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_ryo013' 00 
+TEXT Ryousuke: "Mm..."
+STOP_SOUND 01 
+TEXT Ryousuke pegou minha m~o com uma cara de d^vida.
+PLAY_SOUND 01 '000_ryo014' 00 
+TEXT Ryousuke: "Ela %...... uma Classe A..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak012' 00 
+TEXT Homem: "O qu[...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo015' 00 
+TEXT Ryousuke: "Isso % ruim, Takatsuki..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak013' 00 
+TEXT Takatsuki: "N~o..."
+STOP_SOUND 01 
+TEXT Takatsuki fez uma pausa para pensar, e depois falou novamente.
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak014' 00 
+TEXT Takatsuki: "Isso s+ torna tudo ainda mais divertido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak015' 00 
+TEXT Takatsuki: "Eu estou realmente curioso sobre o manuseio das crentes da Classe A."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak016' 00 
+TEXT Takatsuki: "Devemos aproveitar esta oportunidade para repreend[-la."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_ryo016' 00 
+TEXT Ryousuke: "Voc[ tem certeza...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo017' 00 
+TEXT Ryousuke: "Para mim, parece que voc[ s+ quer satisfazer sua curiosidade..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak017' 00 
+TEXT Takatsuki: "De qualquer forma, temos um motivo. Voc[ se importa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo018' 00 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak018' 00 
+TEXT Takatsuki: "Traz ela aqui!"
+STOP_SOUND 01 
+TEXT No final, fui levada at% a virilha aberta de Haruka.
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak019' 00 
+TEXT Takatsuki: "Ei, voc[!"
+STOP_SOUND 01 
+TEXT Takatsuki olhou para mim enquanto minha bochecha era esfregada no ch~o.
+PLAY_SOUND 01 '002_tak020' 00 
+TEXT Takatsuki: "Lamba a vagina dessa garota."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har055' 00 
+TEXT Haruka: "Ah...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku004' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT N~o tem como eu fazer isso.
+PLAY_SOUND 01 '002_tak021' 00 
+TEXT Takatsuki: "Isso % um problema pra voc[, senhorita de alta qualidade?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak022' 00 
+TEXT Takatsuki: "Essa garota esteve em um lugar horr&vel chamado Classe C".
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak023' 00 
+TEXT Takatsuki: "Eles n~o t[m banhos ou banheiros l$. Ent~o, agora ela est$ assim."
+STOP_SOUND 01 
+TEXT Takatsuki puxou meu cabelo, empurrando-me para a virilha de Haruka.
+BACKGROUND 'FG046' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '070_iku005' 00 
+TEXT Ikumi: "......!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har056' 00 
+TEXT Haruka: "P-Para...... por favor... Ikumi... n~o cheire a&...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku006' 00 
+TEXT Ikumi: "Ngu......"
+STOP_SOUND 01 
+TEXT Tarde demais.
+TEXT O cheiro daquela parte de Haruka j$ havia enchido meus pulm/es e feito o $cido do meu est{mago subir.
+PLAY_SOUND 01 '002_tak024' 00 
+TEXT Takatsuki: "N~o % lament$vel?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak025' 00 
+TEXT Takatsuki: "@ por isso que vou lhe dar uma permiss~o especial para limp$-la com a sua l&ngua."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku007' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak026' 00 
+TEXT Takatsuki: "O que foi? ......Voc[ n~o consegue fazer isso...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku008' 00 
+TEXT Ikumi: "Eu n~o consigo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak027' 00 
+TEXT Takatsuki: "@ isso mesmo...?"
+STOP_SOUND 01 
+TEXT Takatsuki levantou a m~o.
+PLAY_SOUND 01 '070_iku009' 00 
+TEXT Ikumi: "Ah..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se03' 00 
+TEXT *TUM!*
+TEXT Haruka foi a ^nica a ser espancada por aquele punho.
+TEXT Ent~o aquela m~o agarrou o rosto dela.
+PLAY_SOUND 01 '014_har057' 00 
+TEXT Haruka: "Ughu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak028' 00 
+TEXT Takatsuki: "Vamos tentar de novo: voc[ consegue fazer isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku010' 00 
+TEXT Ikumi: "Por que voc[ bateu na Haruka!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak029' 00 
+TEXT Takatsuki: "Que tipo de resposta % essa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se03' 00 
+TEXT *TUM!*
+TEXT Haruka levou outro soco no rosto.
+TEXT As m~os de Ryousuke, que ainda seguravam meus bra|os, tremeram inesperadamente.
+PLAY_SOUND 01 '002_tak030' 00 
+TEXT Takatsuki: "Mais uma vez: voc[ consegue fazer isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku011' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku012' 00 
+TEXT Ikumi: "...Eu ......Eu consigo..."
+STOP_SOUND 01 
+TEXT Eu n~o tinha outra op|~o.
+PLAY_SOUND 01 '002_tak031' 00 
+TEXT Takatsuki: "S%rio mesmo? Isso que % uma amiga de verdade!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak032' 00 
+TEXT Takatsuki: "E pensar que voc[ vai realmente lamber ela a& embaixo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har058' 00 
+TEXT Haruka: "Ikumi...... o que voc[ est$ dizendo......? Pare com isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak033' 00 
+TEXT Takatsuki: "Agora, limpe ela!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku013' 00 
+TEXT Ikumi: "Me desculpe... Haruka..."
+STOP_SOUND 01 
+TEXT Coloquei minha m~o na calcinha da Haruka que e comecei a tir$-la.
+PLAY_SOUND 01 '014_har059' 00 
+TEXT Haruka: "......! O que voc[ t$ fazendo...?!"
+STOP_SOUND 01 
+TEXT Os +rg~os genitais de Haruka me encararam.
+PLAY_SOUND 01 '014_har060' 00 
+TEXT Haruka: "N~o olhe...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak034' 00 
+TEXT Takatsuki: "Vamos logo, deixe ela bem limpinha!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku014' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Movi minha boca em dire|~o #s partes &ntimas de Haruka e estiquei minha l&ngua.
+PLAY_SOUND 01 '014_har061' 00 
+TEXT Haruka: "Pare...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har062' 00 
+TEXT Haruka: "Se isso significa ser lambida por voc[, prefiro levar uma surra...!"
+STOP_SOUND 01 
+TEXT Um grito urgente.
+TEXT Eu n~o conseguia mais saber.
+TEXT Ser$ que o que estou fazendo vai salvar a Haruka...?
+TEXT Ou ser$ que isso s+ vai inflamar ainda mais a vergonha que ela est$ passando aqui...?
+TEXT Mesmo assim, eu n~o queria ver Haruka ser espancada mais uma vez.
+BACKGROUND 'FG047' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Slip...*
+PLAY_SOUND 01 '014_har063' 00 
+TEXT Haruka: "A-Aau...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Slip... slip...*
+TEXT Passei a l&ngua para cima e para baixo mecanicamente.
+TEXT Quando minha saliva estava prestes a transbordar, voltei a colocar a l&ngua na boca.
+TEXT Isso tamb%m foi para beber a sujeira acumulada naquela parte da Haruka.
+TEXT Ent~o, finalmente conheci o sabor das partes &ntimas da Haruka.
+TEXT Um sabor que combina muitas coisas...
+TEXT Suor da Haruka...... sangue...... fluidos dos homens......
+TEXT Todos eles secaram e agora derretiam na minha saliva, misturando-se aos seus fluidos anteriores e passando pela minha garganta.
+PLAY_SOUND 01 '002_tak035' 00 
+TEXT Takatsuki: "Vamos l$, deixe-a ainda mais limpa. Todos os buracos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har064' 00 
+TEXT Haruka: "N~o...... Pare..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku015' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Estendi minha l&ngua mais uma vez.
+TEXT Dessa vez, a ponta da minha l&ngua penetrou profundamente em sua fenda.
+TEXT Quando cutuquei o orif&cio mais alto, seu trato urin$rio, o corpo de Haruka se contorceu.
+PLAY_SOUND 01 '002_tak036' 00 
+TEXT Takatsuki: "Ei, e o }nus dela?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har065' 00 
+TEXT Haruka: "Pare...... Pare... agora..."
+STOP_SOUND 01 
+TEXT Coloquei minha l&ngua de volta na boca e a lavei com saliva mais uma vez.
+TEXT Em seguida, toquei a l&ngua ^mida no pequeno }nus de Haruka.
+PLAY_SOUND 01 '014_har066' 00 
+TEXT Haruka: "Ikumi... pare..."
+STOP_SOUND 01 
+TEXT *Slip... slip...*
+TEXT Lambi cuidadosamente, retirando toda a sujeira.
+PLAY_SOUND 01 '002_tak037' 00 
+TEXT Takatsuki: "Qual % a sensa|~o de limpar a parte mais suja da sua amiga com a pr+pria l&ngua?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har067' 00 
+TEXT Haruka: "Haa... Ikumi...... j$ chega..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak038' 00 
+TEXT Takatsuki: "Hmph, ainda n~o terminamos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak039' 00 
+TEXT Takatsuki: "Agora limpe todo o buraco dela, manchado pelo s[men dos homens."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har068' 00 
+TEXT Haruka: "Ughu..."
+STOP_SOUND 01 
+TEXT Abri os l$bios da Haruka com meus dedos e estiquei minha l&ngua para dentro.
+TEXT Movi minha l&ngua para dentro dela. Haruka reagiu fortemente a isso.
+PLAY_SOUND 01 '014_har069' 00 
+TEXT Haruka: "Haa...... Aah..."
+STOP_SOUND 01 
+TEXT Enquanto minha saliva se misturava l$ dentro, outros fluidos come|aram a jorrar, e eu continuei a lamber.
+PLAY_SOUND 01 '002_tak040' 00 
+TEXT Takatsuki: "Pronto...... ela deve estar bem limpa agora."
+STOP_SOUND 01 
+TEXT Ele finalmente me deixou parar.
+TEXT Eu me afastei da genit$lia de Haruka.
+TEXT E fechei a mand&bula, pois ela j$ estava aberta h$ tempo suficiente para come|ar a ficar dormente.
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '070_iku016' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Desde a base do meu nariz at% o queixo, eu estava molhada com os fluidos misturados da Haruka.
+TEXT Eu cheirava a Haruka.
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak041' 00 
+TEXT Takatsuki: "Agora estamos finalmente prontos."
+STOP_SOUND 01 
+TEXT Takatsuki soltou as pernas de Haruka, que estava atordoada, e dessa vez se deitou em cima dela.
+PLAY_SOUND 01 '070_iku017' 00 
+TEXT Ikumi: "Espere...... pronto para o qu[...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak042' 00 
+TEXT Takatsuki: "Para estuprar, obviamente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak043' 00 
+TEXT Takatsuki: "Voc[ n~o acabou de limpar ela para que eu pudesse estupr$-la?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku018' 00 
+TEXT Ikumi: "O qu[......"
+STOP_SOUND 01 
+TEXT Eu me arrependi de minhas a|/es.
+TEXT Fiquei chocada.
+TEXT Eu havia preparado a Haruka para ser estuprada por esse homem.
+TEXT Por eu ter limpado essa parte da Haruka, ela seria estuprada.
+PLAY_SOUND 01 '070_iku019' 00 
+TEXT Ikumi: "Ugh..."
+STOP_SOUND 01 
+TEXT Mordi meu l$bio inferior, que ainda tinha gosto de Haruka.
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '014_har070' 00 
+TEXT Haruka: "Pare...!"
+STOP_SOUND 01 
+TEXT Ent~o, aquela cena de estupro aconteceu diante dos meus olhos.
+TEXT A ponta do +rg~o masculino de Takatsuki se esfregou em Haruka.
+TEXT Primeiro, ele esfregou no que restava da minha saliva.
+TEXT Quando ficou entediado com isso, ele empurrou a vagina dela.
+BACKGROUND 'FG048' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '002_tak044' 00 
+TEXT Takatsuki: "Ahahaha, veja. S+ a ponta est$ dentro dela."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har071' 00 
+TEXT Haruka: "Uuh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak045' 00 
+TEXT Takatsuki: "Mas ainda h$ mais por vir."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak046' 00 
+TEXT Takatsuki: "Veja, est$ entrando. Voc[ n~o consegue ver?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak047' 00 
+TEXT Takatsuki: "Est$ entrando dentro de voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak048' 00 
+TEXT Takatsuki: "Veja como ele est$ entrando em voc[."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak049' 00 
+TEXT Takatsuki: "D$ para acreditar? @ o p[nis de um homem que voc[ acabou de conhecer."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak050' 00 
+TEXT Takatsuki: "Est$ tudo bem? Voc[ est$ sendo fodida por um homem que nem conhece."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak051' 00 
+TEXT Takatsuki: "Voc[ est$ sendo penetrada em um lugar muito importante."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak052' 00 
+TEXT Takatsuki: "Uuoo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak053' 00 
+TEXT Takatsuki: "Veja, entrou tudo!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak054' 00 
+TEXT Takatsuki: "Da ponta at% a base!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har072' 00 
+TEXT Haruka: "Nnaaa...!"
+STOP_SOUND 01 
+TEXT Haruka e Takatsuki haviam se combinado perfeitamente.
+PLAY_SOUND 01 '002_tak055' 00 
+TEXT Takatsuki: "Uoo, incr&vel..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak056' 00 
+TEXT Takatsuki: "Veja, sua bunda e meu pau est~o grudados. N~o d$ nem para ver mais meu p[nis."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak057' 00 
+TEXT Takatsuki: "Ele est$ completamente perdido dentro da sua vagina!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak058' 00 
+TEXT Takatsuki: "Eu estava pensando que n~o conseguiria v[-lo, e l$ est$ ele se escondendo de mim!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak059' 00 
+TEXT Takatsuki: "Aquela coisa enorme est$ entrando em voc[ bem ali!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak060' 00 
+TEXT Takatsuki: "Veja, n~o h$ espa|o!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak061' 00 
+TEXT Takatsuki: "Est$ entrando at% o fim!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak062' 00 
+TEXT Takatsuki: "Est$ fudendo sua buceta at% o fim!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak063' 00 
+TEXT Takatsuki: "Guaaa......% incr&vel...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak064' 00 
+TEXT Takatsuki: "Est$ tudo bem para voc[!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak065' 00 
+TEXT Takatsuki: "...Fazendo sexo com um homem que acabou de conhecer!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak066' 00 
+TEXT Takatsuki: "Est$ tudo bem!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak067' 00 
+TEXT Takatsuki: "Essa n~o % uma parte muito importante de seu corpo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak068' 00 
+TEXT Takatsuki: "Est$ tudo bem ter essa parte violada t~o facilmente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak069' 00 
+TEXT Takatsuki: "Ou voc[ gosta de mim!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak070' 00 
+TEXT Takatsuki: "Claro que n~o!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak071' 00 
+TEXT Takatsuki: "Voc[ me odeia por ter batido em voc[, n%?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak072' 00 
+TEXT Takatsuki: "E voc[ est$ sendo fodida por esse homem!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak073' 00 
+TEXT Takatsuki: "Voc[ est$ dando prazer pra esse homem!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak074' 00 
+TEXT Takatsuki: "Prazer inigual$vel!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak075' 00 
+TEXT Takatsuki: "E o seu rosto bonito est$ aumentando isso!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak076' 00 
+TEXT Takatsuki: "O fato de estar fodendo uma garota como voc[ est$ me excitando!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak077' 00 
+TEXT Takatsuki: "Est$ tudo bem!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak078' 00 
+TEXT Takatsuki: "Est$ tudo bem para voc[!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak079' 00 
+TEXT Takatsuki: "O que fez voc[ ficar triste o suficiente para fazer sexo com um lixo como eu!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak080' 00 
+TEXT Takatsuki: "N~o % humilhante!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak081' 00 
+TEXT Takatsuki: "N~o % tr$gico!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak082' 00 
+TEXT Takatsuki: "Guaaa...!"
+STOP_SOUND 01 
+TEXT Takatsuki come|ou a empurrar com for|a.
+PLAY_SOUND 01 '014_har073' 00 
+TEXT Haruka: "Aau......Haau...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har074' 00 
+TEXT Haruka: "Pare...!"
+STOP_SOUND 01 
+TEXT A respira|~o de Haruka come|ou a se alinhar com esse ritmo.
+PLAY_SOUND 01 '002_tak083' 00 
+TEXT Takatsuki: "Uhuaa... incr&vel...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak084' 00 
+TEXT Takatsuki: "@ demais!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak085' 00 
+TEXT Takatsuki: "Eu n~o vou aguentar!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak086' 00 
+TEXT Takatsuki: "Porque voc[ se sente muito bem!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak087' 00 
+TEXT Takatsuki: "Voc[ % gostosa demais!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak088' 00 
+TEXT Takatsuki: "Veja!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak089' 00 
+TEXT Takatsuki: "Enquanto eu meto em voc[, rebole mais!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak090' 00 
+TEXT Takatsuki: "T{ quase gozando, e voc[ me aperta como se n~o quisesse que isso acabasse!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak091' 00 
+TEXT Takatsuki: "O que posso fazer a respeito disso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak092' 00 
+TEXT Takatsuki: "N~o tenho escolha a n~o ser continuar metendo como um c~o selvagem!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se60' 00 
+TEXT *Tchuk!* *Tchuk!* *Tchuk!* *Tchuk!* *Tchuk!* *Tchuk!* 
+TEXT Os ru&dos indecentes me fizeram querer tapar os ouvidos.
+TEXT Era o som da Haruka fazendo sexo com esse lixo.
+TEXT Diante dos meus olhos, Haruka est$ fazendo sexo com ele.
+TEXT Ela est$ sendo completamente abusada por esse homem.
+TEXT Ela est$ sendo desgra|ada.
+TEXT Ela est$ sendo violada.
+TEXT Ela est$ sendo estuprada.
+PLAY_SOUND 01 '002_tak093' 00 
+TEXT Takatsuki: "Guaaahh... estou gozando...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak094' 00 
+TEXT Takatsuki: "Est$ tudo bem!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak095' 00 
+TEXT Takatsuki: "Est$ tudo bem eu gozar dentro de voc[!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har075' 00 
+TEXT Haruka: "N~ooo!!! Pare!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har076' 00 
+TEXT Haruka: "N~o dentro de mim n~o!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak096' 00 
+TEXT Takatsuki: "Imposs&vel!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak097' 00 
+TEXT Takatsuki: "Nada se compara ao prazer de gozar dentro!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak098' 00 
+TEXT Takatsuki: "N~o consigo me controlar!!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_har077' 00 
+TEXT Haruka: "N~o...! Ao menos, n~o fa|a isso!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak099' 00 
+TEXT Takatsuki: "Ent~o me beije!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak100' 00 
+TEXT Takatsuki: "Se me beijar com tes~o, talvez eu deixe voc[ ir!!"
+STOP_SOUND 01 
+TEXT Enquanto continuava a meter, Takatsuki desceu sobre o corpo de Haruka.
+TEXT E Haruka deu um selinho na boca Takatsuki.
+BACKGROUND 'FG049' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '002_tak101' 00 
+TEXT Takatsuki: "Voc[ % idiota!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak102' 00 
+TEXT Takatsuki: "Acha mesmo que vou te soltar s+ com um beijinho desses?!"
+STOP_SOUND 01 
+TEXT Haruka aproximou sua boca aberta da boca de Takatsuki novamente.
+TEXT Em seguida, colocou sua l&ngua pra fora e procurou a de Takatsuki.
+TEXT Ambas as l&nguas se entrela|aram dentro de suas bocas.
+TEXT Eu podia ver isso claramente atrav%s de suas bochechas.
+TEXT De vez em quando, ela sugava a l&ngua de Takatsuki at% o fundo da boca e a pressionava com os l$bios.
+TEXT Mesmo enquanto recebia isso, Takatsuki n~o se esqueceu de mexer os quadris.
+PLAY_SOUND 01 'se59' 00 
+TEXT *Tchuk!* *Tchuk!* *Tchuk!*
+TEXT *Tchuk!* *Tchuk!* *Tchuk!* *Tchuk!* *Tchuk!*
+STOP_SOUND 01 
+TEXT Os dois aderiram perfeitamente um ao outro enquanto o impulso continuava.
+PLAY_SOUND 01 '002_tak103' 00 
+TEXT Takatsuki: "Uhufuu...!"
+STOP_SOUND 01 
+TEXT Como sua boca estava sendo bloqueada pela de Haruka, n~o pude entender o que ele disse.
+TEXT Mas seus olhos estavam abertos, e pude v[-lo olhando para o espa|o vazio com uma express~o de [xtase.
+PLAY_SOUND 01 '002_tak104' 00 
+TEXT Takatsuki: "Haaaaahhh!!!"
+STOP_SOUND 01 
+TEXT Takatsuki empurrou o rosto de Haruka para longe dele.
+PLAY_SOUND 01 '002_tak105' 00 
+TEXT Takatsuki: "L$ se foi isso..."
+STOP_SOUND 01 
+TEXT Ele suspirou enquanto limpava a saliva de Haruka de seu queixo.
+PLAY_SOUND 01 '002_tak106' 00 
+TEXT Takatsuki: "Isso s+ fez com que a sensa|~o fosse ainda melhor, ent~o gozei dentro mesmo assim..."
+STOP_SOUND 01 
+TEXT Takatsuki afastou o corpo de Haruka como se fosse uma ferramenta usada.
+TEXT Um fluido branco lamacento saiu da vagina, agora vazia, de Haruka.
+PLAY_SOUND 01 '014_har078' 00 
+TEXT Haruka: "G-Gu... uuh..."
+STOP_SOUND 01 
+TEXT Sem surpresa, l$grimas ca&ram dos olhos de Haruka.
+TEXT E eu n~o pude fazer nada al%m de ver tudo isso.
+TEXT Enquanto ela estava sendo tratada dessa forma, eu s+ pude assistir.
+TEXT E o irm~o dela...
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+SPRITE 'CGRY01' 
+X_24 01 
+X_25 09 
+TEXT O irm~o da Haruka ainda estava me segurando...
+TEXT Ser$ que ele % mesmo irm~o dela...?
+TEXT Ele n~o fez uma ^nica reclama|~o enquanto sua irm~zinha era estuprada na frente dele...
+TEXT Mas percebi que ele n~o estava calmo.
+TEXT Suas m~os apertavam as minhas com tanta for|a a ponto de meus dedos ficarem dormentes.
+PLAY_SOUND 01 '002_tak107' 00 
+TEXT Takatsuki: "Uhahahaha... Uhahahahaha..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGTA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '002_tak108' 00 
+TEXT Takatsuki: "Mima... voc[ est$ com ci^mes...?"
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak109' 00 
+TEXT Takatsuki: "Voc[ deveria fazer isso tamb%m."
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak110' 00 
+TEXT Takatsuki: "@ a sua vez."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo019' 00 
+TEXT Ryousuke: "...N~o tenho interesse nisso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak111' 00 
+TEXT Takatsuki: "N~o tem... interesse...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak112' 00 
+TEXT Takatsuki: "Voc[ % impotente ou algo assim?"
+STOP_SOUND 01 
+TEXT Ryousuke: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak113' 00 
+TEXT Takatsuki: "Ah, bem..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak114' 00 
+TEXT Takatsuki: "Ent~o fique a& olhando de novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak115' 00 
+TEXT Takatsuki: "Grava bem essa cena... pra quando for bater uma mais tarde."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak116' 00 
+TEXT Takatsuki: "Aha... hahahahahahahahaha!!!"
+STOP_SOUND 01 
+TEXT Com um sorriso perverso, Takatsuki veio em minha dire|~o.
+TEXT Eu s+ conseguia olhar para ele com desprezo e repulsa.
+PLAY_SOUND 01 '002_tak117' 00 
+TEXT Takatsuki: "Uau, que cara % essa...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku020' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak118' 00 
+TEXT Takatsuki: "N~o esque|a que todos as crentes devem ser obedientes!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se13' 00 
+TEXT *TUM!*
+TEXT A ponta do sapato direito de Takatsuki penetrou em meu est{mago.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '070_iku021' 00 
+TEXT Ikumi: "Gyah..."
+STOP_SOUND 01 
+TEXT Me agachei no ch~o.
+TEXT Eu n~o conseguia respirar.
+PLAY_SOUND 01 'se10' 00 
+TEXT Em seguida, houve um grande barulho.
+TEXT Que tipo de abuso poderia vir a seguir...?
+TEXT N~o consigo nem sentir dor...
+PLAY_SOUND 01 '002_tak119' 00 
+TEXT Takatsuki: "O que...... voc[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_boy000' 00 
+TEXT Voz: "N~o h$ necessidade de colocar as m~os nela, n%?"
+STOP_SOUND 01 
+TEXT ......?
+TEXT ...Essa % a voz dele.
+PLAY_SOUND 01 '019_boy001' 00 
+TEXT Garoto: "Essa garota % da Classe A. N~o precisa de aperfei|oamento."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_ryo020' 00 
+TEXT Ryousuke: "...Ele est$ certo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '002_tak120' 00 
+TEXT Takatsuki: "Hm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_boy002' 00 
+TEXT Garoto: "Ent~o eu a levarei de volta comigo."
+STOP_SOUND 01 
+TEXT Meu corpo foi levantado.
+TEXT O garoto me carregava.
+TEXT Ele era mais forte do que parecia.
+TEXT Senti um pouco de al&vio.
+PLAY_SOUND 01 '002_tak121' 00 
+TEXT Takatsuki: "@ bom voc[ se acostumar a fazer isso!!"
+STOP_SOUND 01 
+TEXT Uma ^ltima voz furiosa seguiu as costas do garoto.
+TEXT .........
+TEXT 
+X_04 006B 0000 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+X_00 0013 0001 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '019_boy003' 00 
+TEXT Garoto: "Voc[ deveria tomar um banho."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku022' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+BACKGROUND 'FG054' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT Haruka...
+TEXT Sim, o que aconteceu com a Haruka...?
+TEXT Eu estava focada em mim mesma...
+TEXT Esse garoto me salvou, mas Haruka n~o teve a mesma sorte.
+TEXT E agora eu estava me lavando no chuveiro.
+TEXT Por que eu.........
+TEXT Haruka n~o tinha nem como tomar um banho.
+TEXT Ela ainda estaria daquele jeito quando voltasse para seu quarto...
+TEXT Ela ficaria assim hoje, e passaria o amanh~ do mesmo jeito.
+TEXT O cheiro do corpo da Haruka...
+TEXT Ainda estava preso no meu nariz.
+TEXT N~o era...... um cheiro que algu%m deveria aguentar.
+TEXT Mas Haruka aguentava.
+TEXT Ela % realmente... realmente forte.
+TEXT Enquanto eu sou......
+PLAY_SOUND 01 '070_iku023' 00 
+TEXT Ikumi: "Fraca e injusta..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se12' 00 
+TEXT Dei um soco na parede.
+TEXT At% a Yui...... ela foi forte no fim.
+PLAY_SOUND 01 '070_iku024' 00 
+TEXT Ikumi: "Por que algu%m t~o fraca como eu...... est$ num lugar como esse...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku025' 00 
+TEXT Ikumi: "Vingan|a...... n~o combina nada comigo agora......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku026' 00 
+TEXT Ikumi: "O que me trouxe at% aqui, afinal...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku027' 00 
+TEXT Ikumi: "Um momento de indecis~o...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku028' 00 
+TEXT Ikumi: "Uma emo|~o passageira......?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku029' 00 
+TEXT Ikumi: "Ser$ que eu vim por coisas t~o in^teis assim......?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_boy004' 00 
+TEXT Garoto: "N~o, foi por sua for|a."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku030' 00 
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01 
+BACKGROUND 'FG055' 
+X_24 00 
+X_25 06 
+TEXT Me virei e vi o garoto parado na porta.
+TEXT N~o fiz quest~o de esconder meu corpo, nem desligar o chuveiro, apenas olhei para ele.
+TEXT At% eu entendi.
+TEXT O garoto queria me consolar.
+TEXT Ele queria me ajudar.
+TEXT Essa era a maneira dele de me animar.
+TEXT Eu j$ tinha entendido.
+TEXT Que ele era assim...
+PLAY_SOUND 01 '019_boy005' 00 
+TEXT Garoto: "H~...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_boy006' 00 
+TEXT Garoto: "Voc[ est$ chorando?"
+STOP_SOUND 01 
+TEXT Quem diabos % voc[?
+TEXT Por que est$ sendo t~o gentil comigo?
+TEXT Porque eu sou da Classe A?
+TEXT Porque sou especial?
+TEXT Voc[ tamb%m quer meu cora|~o?
+TEXT N~o importa.
+TEXT Agora eu s+ queria sentir a gentileza de algu%m.
+BACKGROUND 'FG056' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '019_boy007' 00 
+TEXT Garoto: "N~o vou dizer nada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '070_iku031' 00 
+TEXT Ikumi: "Eu nunca pensaria em tentar te obrigar..."
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT Depois, o garoto n~o disse mais uma palavra.
+TEXT N~o era como se ele sentisse algum tipo de culpa.
+TEXT Talvez ele apenas tenha percebido que era isso que eu desejava.
+BACKGROUND 'FG059' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '070_iku032' 00 
+TEXT Ikumi: "Mm...... nnn..."
+STOP_SOUND 01 
+TEXT Contive minha voz quando ele entrou em mim.
+TEXT Penetra|~o sem preliminares.
+TEXT Ele entrou em mim com rigidez.
+TEXT E eu o deixei entrar lentamente.
+TEXT Ele se certificou de que podia mov[-lo, depois come|ou a usar os quadris.
+TEXT Como eu n~o estava acostumada, isso foi bastante estimulante.
+PLAY_SOUND 01 'se59' 00 
+TEXT *Tchuk... tchuk...* Um barulho fraco come|ou a vir de nossos corpos.
+STOP_SOUND 01 
+TEXT Esse era o meu ru&do.
+TEXT Um ru&do pervertido vindo de mim.
+PLAY_SOUND 01 '070_iku033' 00 
+TEXT Ikumi: "Nfu..."
+STOP_SOUND 01 
+TEXT Que vergonha! Acabei deixando escapar um gemido alto.
+TEXT Com esse gatilho, a fric|~o se tornou mais $spera.
+PLAY_SOUND 01 'se59' 00 
+TEXT *Tchuk* *Tchuk* *Tchuk* *Tchuk*
+STOP_SOUND 01 
+TEXT O som feito pela esfrega|~o de nossos corpos.
+TEXT O som dos fluidos dentro de mim escorrendo para fora.
+PLAY_SOUND 01 '070_iku034' 00 
+TEXT Ikumi: "Nn... nnaa..."
+STOP_SOUND 01 
+TEXT A sensa|~o foi boa.
+TEXT Puro e bom.
+TEXT Foi a jun|~o de duas pessoas.
+TEXT Era isso que eu desejava.
+PLAY_SOUND 01 '070_iku035' 00 
+TEXT Ikumi: "Nnn......nnaaa...!"
+STOP_SOUND 01 
+TEXT Fui em frente e joguei fora toda a raz~o.
+TEXT Apesar disso, o garoto n~o disse uma palavra.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY10' 
+EOF 

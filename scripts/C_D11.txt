@@ -1,0 +1,1053 @@
+
+# MOON SCRIPT FILE "C_D11.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0003 
+IF 16 0E 00 15 01 00 02 00 .LABEL0 
+SETSTATUS ' Dia　11 Manh~　Pr%dio Ｃ'
+JMP .LABEL1 
+
+:LABEL0
+IF 16 0E 00 15 02 00 02 00 .LABEL2 
+SETSTATUS ' Dia 11　Meio-dia　Pr%dio C'
+JMP .LABEL1 
+
+:LABEL2
+IF 16 0E 00 15 03 00 02 00 .LABEL4 
+SETSTATUS ' Dia 11　Tarde　Pr%dio Ｃ'
+JMP .LABEL1 
+
+:LABEL4
+IF 16 0E 00 15 04 00 02 00 .LABEL6 
+SETSTATUS ' Dia 11　Noite　Pr%dio Ｃ'
+JMP .LABEL1 
+
+:LABEL6
+IF 16 0E 00 15 05 00 02 00 .LABEL1 
+SETSTATUS ' Dia 11　Noite　Pr%dio Ｃ'
+
+:LABEL1
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay11' 
+X_56 00 005F 0017 
+X_3E 02 63 'tou' 
+X_56 02 00BE 0017 
+IF 16 0E 00 15 01 00 02 00 .LABEL9 
+X_3E 01 74 'ime1' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL9
+IF 16 0E 00 15 02 00 02 00 .LABEL11 
+X_3E 01 74 'ime2' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL11
+IF 16 0E 00 15 03 00 02 00 .LABEL13 
+X_3E 01 74 'ime3' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL13
+IF 16 0E 00 15 04 00 02 00 .LABEL15 
+X_3E 01 74 'ime4' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL15
+IF 16 0E 00 15 05 00 02 00 .LABEL10 
+X_3E 01 74 'ime5' 
+X_56 01 0096 0017 
+
+:LABEL10
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+IF 16 09 00 15 08 00 07 00 .LABEL18 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_01 0006 0009 
+
+:LABEL18
+X_00 0007 0003 
+IF 16 09 00 15 02 00 02 00 .LABEL19 
+JMP .LABEL20 
+JMP .LABEL20 
+
+:LABEL19
+IF 16 09 00 15 03 00 02 00 .LABEL22 
+JMP .LABEL23 
+JMP .LABEL20 
+
+:LABEL22
+IF 16 09 00 15 1B 00 02 00 .LABEL25 
+JMP .LABEL26 
+JMP .LABEL20 
+
+:LABEL25
+IF 16 09 00 15 04 00 02 00 .LABEL28 
+JMP .LABEL29 
+JMP .LABEL20 
+
+:LABEL28
+IF 16 09 00 15 2A 00 02 00 .LABEL31 
+JMP .LABEL32 
+JMP .LABEL20 
+
+:LABEL31
+IF 16 09 00 15 2B 00 02 00 .LABEL34 
+JMP .LABEL35 
+JMP .LABEL20 
+
+:LABEL34
+IF 16 09 00 15 08 00 02 00 .LABEL37 
+JMP .LABEL38 
+JMP .LABEL20 
+
+:LABEL37
+IF 16 09 00 15 09 00 02 00 .LABEL40 
+JMP .LABEL41 
+JMP .LABEL20 
+
+:LABEL40
+IF 16 09 00 15 0A 00 02 00 .LABEL43 
+JMP .LABEL44 
+JMP .LABEL20 
+
+:LABEL43
+IF 16 09 00 15 0B 00 02 00 .LABEL46 
+JMP .LABEL47 
+JMP .LABEL20 
+
+:LABEL46
+IF 16 09 00 15 0C 00 02 00 .LABEL49 
+JMP .LABEL50 
+JMP .LABEL20 
+
+:LABEL49
+IF 16 09 00 15 10 00 02 00 .LABEL52 
+JMP .LABEL53 
+JMP .LABEL20 
+
+:LABEL52
+IF 16 09 00 15 11 00 02 00 .LABEL55 
+JMP .LABEL56 
+JMP .LABEL20 
+
+:LABEL55
+IF 16 09 00 15 2C 00 02 00 .LABEL58 
+JMP .LABEL59 
+JMP .LABEL20 
+
+:LABEL58
+IF 16 09 00 15 13 00 02 00 .LABEL61 
+JMP .LABEL62 
+JMP .LABEL20 
+
+:LABEL61
+IF 16 09 00 15 14 00 02 00 .LABEL64 
+JMP .LABEL65 
+JMP .LABEL20 
+
+:LABEL64
+IF 16 09 00 15 2D 00 02 00 .LABEL67 
+JMP .LABEL68 
+JMP .LABEL20 
+
+:LABEL67
+IF 16 09 00 15 16 00 02 00 .LABEL70 
+JMP .LABEL71 
+JMP .LABEL20 
+
+:LABEL70
+IF 16 09 00 15 17 00 02 00 .LABEL73 
+JMP .LABEL74 
+JMP .LABEL20 
+
+:LABEL73
+IF 16 09 00 15 18 00 02 00 .LABEL76 
+JMP .LABEL77 
+JMP .LABEL20 
+
+:LABEL76
+IF 16 09 00 15 19 00 02 00 .LABEL79 
+JMP .LABEL80 
+JMP .LABEL20 
+
+:LABEL79
+IF 16 09 00 15 2E 00 02 00 .LABEL82 
+JMP .LABEL83 
+JMP .LABEL20 
+
+:LABEL82
+IF 16 09 00 15 1A 00 02 00 .LABEL85 
+JMP .LABEL86 
+JMP .LABEL20 
+
+:LABEL85
+IF 16 09 00 15 2F 00 02 00 .LABEL20 
+JMP .LABEL89 
+
+:LABEL20
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG019' 
+X_24 00 
+X_25 06 
+TEXT O MINMES n~o funciona # noite...
+TEXT Sa& da sala.
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_00 0009 000B 
+JMP .LABEL47 
+
+:LABEL23
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG019' 
+X_24 00 
+X_25 06 
+TEXT O ELPOD vazio estava envolvido em sil[ncio...
+TEXT Como n~o h$ nada para fazer aqui, sa& do local.
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_00 0009 0017 
+JMP .LABEL74 
+
+:LABEL26
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG021' 
+X_24 00 
+X_25 06 
+TEXT Nada se movia na Sala de Relaxamento...
+TEXT N~o tendo motivo para ficar, sa& do local.
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_00 0009 000A 
+JMP .LABEL44 
+
+:LABEL29
+IF 16 0E 00 15 02 00 02 00 .LABEL93 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+
+:LABEL93
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG007' 
+X_24 00 
+X_25 06 
+IF 17 41 00 15 00 00 02 00 .LABEL94 
+TEXT O Refeit+rio aqui era um pouco diferente daquele do Pr%dio A.
+TEXT Naturalmente n~o havia ningu%m aqui neste momento.
+TEXT N~o h$ nada para fazer aqui, ent~o sa& do local.
+X_04 0041 0001 
+JMP .LABEL95 
+
+:LABEL94
+TEXT .........
+TEXT N~o tem ningu%m aqui.
+TEXT Sa& do Refeit+rio.
+
+:LABEL95
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+IF 17 24 00 15 01 00 02 00 .LABEL96 
+X_00 0009 0009 
+JMP .LABEL41 
+JMP .LABEL32 
+
+:LABEL96
+X_00 0009 0016 
+JMP .LABEL71 
+
+:LABEL32
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL35
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL38
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG008' 
+X_24 00 
+X_25 06 
+IF 17 40 00 15 00 00 02 00 .LABEL100 
+TEXT Um dep+sito...
+JMP .LABEL101 
+
+:LABEL100
+TEXT Levantei a placa de ferro e entrei no dep+sito.
+X_04 0040 0000 
+
+:LABEL101
+TEXT 
+SELECT 0003 'Examinar' 'Entrar na Passagem Subterr}nea' 'Sair do local' 
+IF 16 03 00 15 01 00 02 00 .LABEL102 
+TEXT H$ uma escada para a passagem subterr}nea escondida aqui.
+JMP .LABEL103 
+
+:LABEL102
+IF 16 03 00 15 02 00 02 00 .LABEL104 
+TEXT Levantei a placa de ferro no canto da sala e desci na escurid~o.
+X_00 0009 0029 
+GOTO_SCRIPT 'UG_D11' 
+JMP .LABEL103 
+
+:LABEL104
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_00 0009 002C 
+JMP .LABEL59 
+
+:LABEL103
+JMP .LABEL101 
+
+:LABEL259
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+TEXT Apenas um quarto vazio...
+TEXT Tamb%m tem um quarto assim no Pr%dio B...
+TEXT Um ar repulsivo... n~o quero ficar aqui...
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'C' 
+X_24 00 
+X_25 06 
+X_00 0009 0018 
+JMP .LABEL77 
+
+:LABEL41
+X_01 0006 0009 
+
+:LABEL122
+X_52 00D8 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← ) Oeste: Refeit+rio' '(→ )Leste: Sala de Relaxamento' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL109 
+TEXT A placa na porta diz "Refeit+rio".
+JMP .LABEL110 
+
+:LABEL109
+IF 16 03 00 15 02 00 02 00 .LABEL111 
+IF 16 0E 00 15 05 00 02 00 .LABEL112 
+X_04 0024 0001 
+X_00 0009 0004 
+JMP .LABEL29 
+JMP .LABEL114 
+
+:LABEL112
+TEXT N~o, entrar nos quartos de outro Pr%dio neste momento % perigoso. Eu realmente n~o deveria.
+
+:LABEL114
+JMP .LABEL110 
+
+:LABEL111
+IF 16 03 00 15 03 00 02 00 .LABEL116 
+X_00 0009 000A 
+JMP .LABEL44 
+JMP .LABEL110 
+
+:LABEL116
+IF 16 03 00 15 04 00 02 00 .LABEL110 
+X_00 0009 0010 
+JMP .LABEL53 
+JMP .LABEL110 
+
+:LABEL110
+JMP .LABEL122 
+
+:LABEL44
+X_52 010E 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← ) Oeste: Refeit+rio' '(→ )Leste: MINMES' '(↓ ) Sul: Sala de Relaxamento' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL123 
+TEXT A placa na porta diz "Sala de Relaxamento".
+JMP .LABEL124 
+
+:LABEL123
+IF 16 03 00 15 02 00 02 00 .LABEL125 
+X_00 0009 0009 
+JMP .LABEL41 
+JMP .LABEL124 
+
+:LABEL125
+IF 16 03 00 15 03 00 02 00 .LABEL128 
+X_00 0009 000B 
+JMP .LABEL47 
+JMP .LABEL124 
+
+:LABEL128
+IF 16 03 00 15 04 00 02 00 .LABEL124 
+IF 16 0E 00 15 05 00 02 00 .LABEL132 
+X_00 0009 001B 
+JMP .LABEL26 
+JMP .LABEL134 
+
+:LABEL132
+TEXT N~o, h$ o risco de ser vista pelos homens da FARGO. @ melhor eu voltar...
+
+:LABEL134
+JMP .LABEL124 
+
+:LABEL124
+JMP .LABEL44 
+
+:LABEL47
+X_52 0155 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← ) Oeste: Corredor' '(→ )Leste: Corredor' '(↓ ) Sul: MINMES' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL137 
+TEXT A placa na porta diz "MINMES".
+JMP .LABEL138 
+
+:LABEL137
+IF 16 03 00 15 02 00 02 00 .LABEL139 
+X_00 0009 000A 
+JMP .LABEL44 
+JMP .LABEL138 
+
+:LABEL139
+IF 16 03 00 15 03 00 02 00 .LABEL142 
+X_00 0009 000C 
+JMP .LABEL50 
+JMP .LABEL138 
+
+:LABEL142
+IF 16 03 00 15 04 00 02 00 .LABEL138 
+IF 16 0E 00 15 05 00 02 00 .LABEL146 
+X_00 0009 0002 
+JMP .LABEL20 
+JMP .LABEL148 
+
+:LABEL146
+TEXT N~o, h$ o risco de ser vista pelos homens da FARGO. @ melhor eu voltar...
+
+:LABEL148
+JMP .LABEL138 
+
+:LABEL138
+JMP .LABEL47 
+
+:LABEL50
+X_01 0006 0009 
+
+:LABEL161
+X_52 018B 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← ) Oeste: MINMES' '(→ )Leste: Quarto Coletivo' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL151 
+TEXT H$ uma porta.
+JMP .LABEL152 
+
+:LABEL151
+IF 16 03 00 15 02 00 02 00 .LABEL153 
+X_00 0009 000B 
+JMP .LABEL47 
+JMP .LABEL152 
+
+:LABEL153
+IF 16 03 00 15 03 00 02 00 .LABEL156 
+TEXT N~o, seria rude invadir um espa|o privado...
+JMP .LABEL152 
+
+:LABEL156
+IF 16 03 00 15 04 00 02 00 .LABEL152 
+X_00 0009 0011 
+JMP .LABEL56 
+JMP .LABEL152 
+
+:LABEL152
+JMP .LABEL161 
+
+:LABEL53
+X_52 00D8 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Refeit+rio' '(--)---:---' '(--)---:---' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL162 
+TEXT N~o h$ nada aqui.
+JMP .LABEL163 
+
+:LABEL162
+IF 16 03 00 15 01 00 02 00 .LABEL164 
+X_00 0009 0009 
+JMP .LABEL41 
+JMP .LABEL163 
+
+:LABEL164
+IF 16 03 00 15 04 00 02 00 .LABEL163 
+X_00 0009 0013 
+JMP .LABEL62 
+JMP .LABEL163 
+
+:LABEL163
+JMP .LABEL53 
+
+:LABEL56
+X_52 018B 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL171 
+TEXT N~o h$ nada aqui.
+JMP .LABEL172 
+
+:LABEL171
+IF 16 03 00 15 01 00 02 00 .LABEL173 
+X_00 0009 000C 
+JMP .LABEL50 
+JMP .LABEL172 
+
+:LABEL173
+IF 16 03 00 15 04 00 02 00 .LABEL172 
+X_00 0009 0014 
+JMP .LABEL65 
+JMP .LABEL172 
+
+:LABEL172
+JMP .LABEL56 
+
+:LABEL59
+X_52 0224 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Quarto' '(--)---:---' '(--)---:---' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL180 
+TEXT H$ uma porta.
+TEXT Este quarto tem uma escada escondida para a passagem subterr}nea.
+JMP .LABEL181 
+
+:LABEL180
+IF 16 03 00 15 01 00 02 00 .LABEL182 
+X_00 0009 0008 
+JMP .LABEL38 
+JMP .LABEL181 
+
+:LABEL182
+IF 16 03 00 15 04 00 02 00 .LABEL181 
+X_00 0009 002D 
+JMP .LABEL68 
+JMP .LABEL181 
+
+:LABEL181
+JMP .LABEL59 
+
+:LABEL62
+X_52 00D8 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ ) Sul: Refeit+rio' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL189 
+TEXT N~o h$ nada aqui.
+JMP .LABEL190 
+
+:LABEL189
+IF 16 03 00 15 01 00 02 00 .LABEL191 
+X_00 0009 0010 
+JMP .LABEL53 
+JMP .LABEL190 
+
+:LABEL191
+IF 16 03 00 15 04 00 02 00 .LABEL190 
+X_00 0009 0016 
+JMP .LABEL71 
+JMP .LABEL190 
+
+:LABEL190
+JMP .LABEL62 
+
+:LABEL65
+X_52 018B 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL198 
+TEXT N~o h$ nada aqui.
+JMP .LABEL199 
+
+:LABEL198
+IF 16 03 00 15 01 00 02 00 .LABEL200 
+X_00 0009 0011 
+JMP .LABEL56 
+JMP .LABEL199 
+
+:LABEL200
+IF 16 03 00 15 04 00 02 00 .LABEL199 
+X_00 0009 0019 
+JMP .LABEL80 
+JMP .LABEL199 
+
+:LABEL199
+JMP .LABEL65 
+
+:LABEL68
+IF 17 47 00 15 01 00 02 16 3B 00 15 00 00 02 0F 00 .LABEL207 
+TEXT Essa foi por pouco... espero que eles n~o tenham me visto...
+TEXT Como Haruka disse, n~o era hora pra ficar de rolezinho.
+TEXT N~o tenho motivos pra ficar bisbilhotando o Pr%dio C...
+X_00 003B 0001 
+JMP .LABEL208 
+
+:LABEL207
+IF 17 47 00 15 01 00 02 16 3B 00 15 01 00 02 0F 00 .LABEL208 
+TEXT Ainda deve haver patrulheiros por perto... Espiei pela esquina.
+TEXT Tem um l$...
+TEXT N~o posso me mover sem pensar aqui.
+
+:LABEL208
+X_52 0224 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ ) Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL210 
+TEXT N~o h$ nada aqui.
+JMP .LABEL211 
+
+:LABEL210
+IF 16 03 00 15 01 00 02 00 .LABEL212 
+X_00 0009 002C 
+JMP .LABEL59 
+JMP .LABEL211 
+
+:LABEL212
+IF 16 03 00 15 04 00 02 00 .LABEL211 
+IF 16 3B 00 15 01 00 02 00 .LABEL216 
+TEXT ...Espera.
+TEXT Ser$ que vou mesmo, at% com os patrulheiros de plant~o...?
+TEXT 
+SELECT 0003 'Continue' 'Pensar melhor' 
+IF 16 03 00 15 01 00 02 00 .LABEL217 
+X_00 0009 002F 
+JMP .LABEL89 
+JMP .LABEL219 
+
+:LABEL217
+JMP .LABEL208 
+
+:LABEL219
+JMP .LABEL221 
+
+:LABEL216
+X_00 0009 002F 
+JMP .LABEL89 
+
+:LABEL221
+JMP .LABEL211 
+
+:LABEL211
+JMP .LABEL208 
+
+:LABEL71
+X_52 00D8 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(← ) Oeste: Refeit+rio' '(→ )Leste: ELPOD' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL225 
+TEXT A placa na porta diz "Refeit+rio".
+JMP .LABEL226 
+
+:LABEL225
+IF 16 03 00 15 01 00 02 00 .LABEL227 
+X_00 0009 0013 
+JMP .LABEL62 
+JMP .LABEL226 
+
+:LABEL227
+IF 16 03 00 15 02 00 02 00 .LABEL230 
+IF 16 0E 00 15 05 00 02 00 .LABEL231 
+X_04 0024 0000 
+X_00 0009 0004 
+JMP .LABEL29 
+JMP .LABEL233 
+
+:LABEL231
+TEXT N~o, entrar nos quartos de outro Pr%dio neste momento % perigoso. Eu realmente n~o deveria.
+
+:LABEL233
+JMP .LABEL226 
+
+:LABEL230
+IF 16 03 00 15 03 00 02 00 .LABEL226 
+IF 17 5A 00 15 01 00 02 00 .LABEL236 
+TEXT N~o posso perder tempo aqui com o Refeit+rio bem na minha frente.
+JMP .LABEL237 
+
+:LABEL236
+X_00 0009 0017 
+JMP .LABEL74 
+
+:LABEL237
+JMP .LABEL226 
+
+:LABEL226
+JMP .LABEL71 
+
+:LABEL74
+X_52 010E 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: ELPOD' '(← ) Oeste: Refeit+rio' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL241 
+TEXT A placa na porta diz "ELPOD".
+JMP .LABEL242 
+
+:LABEL241
+IF 16 03 00 15 01 00 02 00 .LABEL243 
+IF 16 0E 00 15 05 00 02 00 .LABEL244 
+X_00 0009 0003 
+JMP .LABEL23 
+JMP .LABEL246 
+
+:LABEL244
+TEXT N~o, corro o risco de ser vista pelos homens da FARGO. @ melhor voltar...
+
+:LABEL246
+JMP .LABEL242 
+
+:LABEL243
+IF 16 03 00 15 02 00 02 00 .LABEL248 
+X_00 0009 0016 
+JMP .LABEL71 
+JMP .LABEL242 
+
+:LABEL248
+IF 16 03 00 15 03 00 02 00 .LABEL242 
+X_00 0009 0018 
+JMP .LABEL77 
+JMP .LABEL242 
+
+:LABEL242
+JMP .LABEL74 
+
+:LABEL77
+X_52 0155 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Quarto' '(← ) Oeste: ELPOD' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL255 
+TEXT Eu vi essa porta no Pr%dio B...
+TEXT Foi aqui que Yui...
+TEXT N~o, esquece...
+JMP .LABEL256 
+
+:LABEL255
+IF 16 03 00 15 01 00 02 00 .LABEL257 
+IF 16 0E 00 15 05 00 02 00 .LABEL258 
+X_00 0009 0030 
+JMP .LABEL259 
+JMP .LABEL260 
+
+:LABEL258
+TEXT N~o h$ raz~o para ficar aqui...
+TEXT Este quarto imundo...
+
+:LABEL260
+JMP .LABEL256 
+
+:LABEL257
+IF 16 03 00 15 02 00 02 00 .LABEL262 
+X_00 0009 0017 
+JMP .LABEL74 
+JMP .LABEL256 
+
+:LABEL262
+IF 16 03 00 15 03 00 02 00 .LABEL256 
+X_00 0009 0019 
+JMP .LABEL80 
+JMP .LABEL256 
+
+:LABEL256
+JMP .LABEL77 
+
+:LABEL80
+X_52 018B 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(← ) Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL269 
+TEXT Esta porta parece uma entrada de servi|o, mas est$ trancada por um dispositivo eletr{nico. Seria perigoso tentar abrir.
+JMP .LABEL270 
+
+:LABEL269
+IF 16 03 00 15 01 00 02 00 .LABEL271 
+X_00 0009 0014 
+JMP .LABEL65 
+JMP .LABEL270 
+
+:LABEL271
+IF 16 03 00 15 02 00 02 00 .LABEL274 
+X_00 0009 0018 
+JMP .LABEL77 
+JMP .LABEL270 
+
+:LABEL274
+IF 16 03 00 15 03 00 02 00 .LABEL270 
+X_00 0009 002E 
+JMP .LABEL83 
+JMP .LABEL270 
+
+:LABEL270
+JMP .LABEL80 
+
+:LABEL83
+X_52 01BB 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← ) Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL281 
+TEXT N~o h$ nada aqui.
+JMP .LABEL282 
+
+:LABEL281
+IF 16 03 00 15 02 00 02 00 .LABEL283 
+X_00 0009 0019 
+JMP .LABEL80 
+JMP .LABEL282 
+
+:LABEL283
+IF 16 03 00 15 03 00 02 00 .LABEL282 
+X_00 0009 001A 
+JMP .LABEL86 
+JMP .LABEL282 
+
+:LABEL282
+JMP .LABEL83 
+
+:LABEL86
+IF 17 47 00 15 01 00 02 00 .LABEL290 
+TEXT O patrulheiro veio em minha dire|~o.
+TEXT Ele n~o deve conhecer meu rosto, ent~o vou simplesmente passar por ele...
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrulheiro: "Ei!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT Ele me parou.
+PLAY_SOUND 01 '014_iku000' 00 
+TEXT Ikumi: "Sim, algum problema?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2001' 00 
+TEXT Patrulheiro: "Onde voc[ est$ indo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku001' 00 
+TEXT Ikumi: "Hum... % que... eu me perdi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2002' 00 
+TEXT Patrulheiro: "N~o minta. Por que est$ fora do... hmm...?"
+STOP_SOUND 01 
+TEXT ...Ele percebeu que eu estava escondendo minha m~o esquerda de prop+sito.
+TEXT Ele agarrou meu pulso e torceu-o o m$ximo que p{de.
+PLAY_SOUND 01 '000_bt2003' 00 
+TEXT Patrulheiro: "Ah... ent~o voc[ % da Classe A."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku002' 00 
+TEXT Ikumi: "Ugh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2004' 00 
+TEXT Patrulheiro: "Voc[ disse que tava perdida, mas parece mais que n~o quer que ningu%m te veja..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku003' 00 
+TEXT Ikumi: "Voc[ t$... imaginando coisas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2005' 00 
+TEXT Patrulheiro: "Ser$? De qualquer forma, este n~o % um assunto pra ser resolvido aqui."
+STOP_SOUND 01 
+TEXT Ele me puxou enquanto mantinha meu bra|o esquerdo torcido.
+TEXT Tento resistir, mas ele % muito forte...
+GOSUB_SCRIPT 'DEAD1' 
+RETURN 
+
+:LABEL290
+X_52 01F5 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Quarto Coletivo' '(← ) Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL291 
+TEXT H$ uma porta.
+JMP .LABEL292 
+
+:LABEL291
+IF 16 03 00 15 01 00 02 00 .LABEL293 
+TEXT N~o, eu realmente n~o deveria invadir o espa|o dos outros...
+JMP .LABEL292 
+
+:LABEL293
+IF 16 03 00 15 02 00 02 00 .LABEL295 
+X_00 0009 002E 
+JMP .LABEL83 
+JMP .LABEL292 
+
+:LABEL295
+IF 16 03 00 15 03 00 02 00 .LABEL292 
+X_00 0009 002F 
+JMP .LABEL89 
+JMP .LABEL292 
+
+:LABEL292
+JMP .LABEL290 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+RETURN 
+
+:LABEL89
+IF 16 0E 00 15 03 00 02 17 59 00 15 01 00 02 0F 00 .LABEL302 
+JMP .LABEL303 
+
+:LABEL302
+IF 17 47 00 15 00 00 02 00 .LABEL304 
+TEXT Ah...!
+TEXT Do outro lado do corredor, virando a esquina, vi um patrulheiro da FARGO e rapidamente me escondi.
+X_04 0047 0001 
+X_00 0009 002D 
+JMP .LABEL68 
+
+:LABEL304
+IF 17 47 00 15 01 00 02 00 .LABEL303 
+TEXT Sim, se eu fingir ser da Classe C n~o haver$ problema.
+TEXT Se eu n~o fizer nada suspeito, ele deve me deixar passar.
+TEXT Fingi estar calma e continuei pelo corredor.
+X_00 0009 001A 
+JMP .LABEL86 
+
+:LABEL303
+X_52 0224 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ ) Norte: Corredor' '(← ) Oeste: Corredor' '(--)---:---' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL308 
+TEXT N~o h$ nada aqui.
+JMP .LABEL309 
+
+:LABEL308
+IF 16 03 00 15 01 00 02 00 .LABEL310 
+X_00 0009 002D 
+JMP .LABEL68 
+JMP .LABEL309 
+
+:LABEL310
+IF 16 03 00 15 02 00 02 00 .LABEL309 
+X_00 0009 001A 
+JMP .LABEL86 
+JMP .LABEL309 
+
+:LABEL309
+JMP .LABEL303 
+EOF 

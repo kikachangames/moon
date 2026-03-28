@@ -1,0 +1,1403 @@
+# MOON SCRIPT FILE "DAY01.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 000F 0001 
+SETSTATUS ' Dia 1Å@Å|Å|Å|Å|Å|Å|Å| '
+X_00 0014 0064 
+X_00 0017 0000 
+BACKGROUND 'bo' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+X_4E 'start' 00 
+X_16 
+X_4F 
+BACKGROUND 'bo' 
+X_24 00 
+X_25 06 
+BACKGROUND 'FG200' 
+X_24 00 
+X_25 06 
+X_28 0032 
+X_30 01 
+X_31 01 
+X_32 01 
+PLAY_SOUND 00 'mon_cd02' 01 
+BACKGROUND 'BG001' 
+X_24 00 
+X_25 06 
+TEXT Quando desci do caminh~o j$ est$vamos dentro de um pr%dio.
+TEXT Eles devem gostar de manter as coisas em segredo.
+TEXT Mesmo assim, n~o h$ ningu%m aqui que desconfie disso.
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har001' 00 
+TEXT Haruka: "Esses caras n~o se importariam nem se isso fosse uma esta|~o espacial."
+STOP_SOUND 01 
+TEXT Provavelmente levaria algum tempo para que eles fossem totalmente convertidos.
+TEXT Observamos enquanto os novos crentes eram levados um por um e informados de que fariam um teste de aptid~o.
+TEXT Havia um grupo realizando a recep|~o e todos estavam trajando roupas pretas. Pareciam suspeitos.
+TEXT Eram os homens que doaram seus corpos # organiza|~o FARGO, para ajudar no treinamento dos crentes.
+TEXT Sinceramente, eu n~o tinha ideia de quem ou o que eles realmente eram.
+TEXT De qualquer forma, ainda est$vamos esperando nossa vez de fazer o teste de aptid~o.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har002' 00 
+TEXT Haruka: "Ei, voc[ a&." 
+STOP_SOUND 01 
+TEXT Nesse momento, Haruka chamou a garota que estava falando no celular h$ um momento atr$s.
+X_24 00 
+X_25 09 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui005' 00 
+TEXT Garota: "Hein? Voc[ quer dizer eu?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har003' 00 
+TEXT Haruka: "Sim. Voc[... veio aqui para resgatar um membro da sua fam&lia, certo?" 
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui006' 00 
+TEXT Garota: "Eh... como voc[...! Quem % voc[!?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har004' 00 
+TEXT Haruka: "O que voc[ quer dizer com 'quem sou eu'? Voc[ n~o revelou tudo com seu telefonema?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui007' 00 
+TEXT Garota: "Ah sim, acho que sim." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui008' 00 
+TEXT Garota: "Entendo. Ent~o algu%m ouviu isso..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har005' 00 
+TEXT Haruka: "N~o que eu quisesse." 
+STOP_SOUND 01 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui009' 00 
+TEXT Garota: "E ent~o? Voc[... voc[ vai me dedurar?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui010' 00 
+TEXT Garota: "Por favor, deixe passar. Sen~o eu vou ficar marcada..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku013' 00 
+TEXT Ikumi: "N~o se preocupe. N+s tamb%m n~o somos crentes puros." 
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui011' 00 
+TEXT Garota: "Eh? Voc[s n~o s~o crentes puros?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui012' 00 
+TEXT Garota: "Voc[s fugiram de casa e n~o conseguiram encontrar um lugar para dormir, ent~o vieram para c$...?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har006' 00 
+TEXT Haruka: "Quem faria uma coisa dessas?!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku014' 00 
+TEXT Ikumi: "Ela quer dizer que n+s, assim como voc[, viemos aqui para lutar contra a FARGO." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui013' 00 
+TEXT Garota: "@ mesmo? Que coincid[ncia." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku015' 00 
+TEXT Ikumi: "@ por isso que viemos convid$-la para trabalhar conosco." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har007' 00 
+TEXT Haruka: "Estaremos trabalhando na barriga da besta, ent~o precisamos de todos os amigos que pudermos conseguir. Voc[ n~o concorda?" 
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui014' 00 
+TEXT Garota: "S%rio? Eu estava t~o preocupada em ficar sozinha aqui." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku016' 00 
+TEXT Ikumi: "Ent~o est$ decidido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui015' 00 
+TEXT Garota: "Obrigada!" 
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui016' 00 
+TEXT Garota: "Meu nome % Nakura Yui! Prazer em conhec[-las." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui017' 00 
+TEXT Yui: "Vou tentar fazer o meu melhor, ent~o, por favor, n~o me deixem para tr$s!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har008' 00 
+TEXT Haruka: "........." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har009' 00 
+TEXT Haruka: "...de alguma forma, tenho a sensa|~o de que ela s+ vai nos atrasar..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku017' 00 
+TEXT Ikumi: "Ahaha, eu sou Amasawa Ikumi. Prazer em conhec[-la tamb%m."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har010' 00 
+TEXT Haruka: "Mima Haruka. Mas pode me chamar s+ de Haruka." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui018' 00 
+TEXT Yui: "Ikumi-san e Haruka-san..." 
+STOP_SOUND 01 
+TEXT E foi assim que ganhei duas amigas.
+TEXT Fiquei realmente grata por isso, pois j$ estava me preparando para continuar a luta sozinha.
+TEXT Haruka...parece ser uma pessoa muito mais forte do que eu. Na adversidade, posso confiar nela para me apontar a dire|~o certa.
+TEXT Yui... parece estar naturalmente # vontade em qualquer circunst}ncia. Numa situa|~o dessas, a sua personalidade era algo a se agradecer. 
+TEXT Ambas tinham coisas que eu n~o possu&a.
+TEXT Foi assim que me senti em rela|~o a elas.
+TEXT Amigas... 
+TEXT Eu realmente nunca teria acreditado que isso seria poss&vel aqui. 
+TEXT Eu j$ tinha perdido a esperan|a... e nem tinha me dado conta disso. 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har011' 00 
+TEXT Haruka: "Agora..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har012' 00 
+TEXT Haruka: "Parece que ainda vai demorar um pouco at% chegar a nossa vez." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui019' 00 
+TEXT Yui: "Ent~o vamos conversar mais!" 
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 '"Claro"' '"Deve haver algo mais importante a fazer"' 
+STOP_SOUND 01 
+IF 16 03 00 15 01 00 02 00 .LABEL0 
+PLAY_SOUND 01 '000_iku018' 00 
+TEXT Ikumi: "Claro." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui020' 00 
+TEXT Yui: "Hmm... com quais objetivos voc[s duas vieram aqui?" 
+STOP_SOUND 01 
+JMP .LABEL1 
+
+:LABEL0
+PLAY_SOUND 01 '000_iku019' 00 
+TEXT Ikumi: "Deve haver algo mais importante a fazer." 
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui021' 00 
+TEXT Yui: "Hmm... tem certeza?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har013' 00 
+TEXT Haruka: "Voc[ % t~o tranquila, n%?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har014' 00 
+TEXT Haruka: "Devo lembrar que n~o viemos aqui para passar as f%rias de uma noite nas fontes termais."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui022' 00 
+TEXT Yui: "Eu sei muito bem disso..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har015' 00 
+TEXT Haruka: "Ah? Ok, ent~o."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui023' 00 
+TEXT Yui: "Ent~o, o que voc[ vai fazer?" 
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 '"Eu vou investigar o que aconteceu com a minha m~e."' 'Deixar Haruka responder'
+IF 16 03 00 15 01 00 02 00 .LABEL2 
+PLAY_SOUND 01 '000_iku020' 00 
+TEXT Ikumi: "Eu vou investigar o que aconteceu com a minha m~e." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui024' 00 
+TEXT Yui: "......?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har016' 00 
+TEXT Haruka: "Ikumi, se voc[ n~o se mover com cuidado, poder$ p{r tudo a perder." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har017' 00 
+TEXT Haruka: "Mas entendo sua impaci[ncia." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku021' 00 
+TEXT Ikumi: "Voc[ tem raz~o. Desculpe."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har018' 00 
+TEXT Haruka: "Bem, vamos usar esse tempo para deixar cada um dos nossos objetivos claros." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui025' 00 
+TEXT Yui: "Ent~o vamos conversar afinal?" 
+STOP_SOUND 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har019' 00 
+TEXT Haruka: "Teremos uma reuni~o orientada a objetivos." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui026' 00 
+TEXT Yui: "Era isso que eu queria dizer." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har020' 00 
+TEXT Haruka: "N~o, voc[ s+ queria jogar conversa fora." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har021' 00 
+TEXT Haruka: "Devo lembrar que n~o viemos aqui para um tour de duas noites de massagem nos p%s em Hong Kong." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui027' 00 
+TEXT Yui: "Eu j$ entendi!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har022' 00 
+TEXT Haruka: "Ah. Ok, ent~o." 
+STOP_SOUND 01 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui028' 00 
+TEXT Yui: "Ent~o... hmm... com quais objetivos voc[s duas vieram aqui?" 
+STOP_SOUND 01
+JMP .LABEL1 
+
+:LABEL2
+TEXT Eu n~o disse nada e olhei para Haruka.
+PLAY_SOUND 01 '001_har023' 00 
+TEXT Haruka: "Ah...?  Eu?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku022' 00 
+TEXT Ikumi: *...* 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har024' 00 
+TEXT Haruka: "Hh, hmm... vamos aproveitar para confirmar cada um dos nossos objetivos." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui029' 00 
+TEXT Yui: "Ent~o vamos conversar afinal?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har025' 00 
+TEXT Haruka: "Teremos uma reuni~o orientada a objetivos." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui030' 00 
+TEXT Yui: "Foi isso o que eu quis dizer."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har026' 00 
+TEXT Haruka: "N~o, o que voc[ queria era ficar jogando conversa fora." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har027' 00 
+TEXT Haruka: "Devo lembrar que n~o viemos aqui para um tour de duas noites de massagem nos p%s em Hong Kong." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui031' 00 
+TEXT Yui: "Eu j$ entendi!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har028' 00 
+TEXT Haruka: "Ah.  Ok, ent~o." 
+STOP_SOUND 01 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui032' 00 
+TEXT Yui: "Ent~o... hmm... com quais objetivos voc[s duas vieram aqui?" 
+STOP_SOUND 01 
+
+:LABEL1
+PLAY_SOUND 01 '000_yui033' 00 
+TEXT Yui: "Foi para trazer de volta algum membro da fam&lia?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui034' 00 
+TEXT Yui: "Ou talvez um namorado?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui035' 00 
+TEXT Yui: "Isso seria t~o dram$tico!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui036' 00 
+TEXT Yui: "Depois de sofrer uma lavagem cerebral, ele se esqueceu completamente de voc[... a pr+pria namorada dele!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui037' 00 
+TEXT Yui: "E a& voc[ vai at% ele e fala sobre as velhas lembran|as..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui038' 00 
+TEXT Yui: "Sobre o momento em que se conheceram, ou as vezes que brigaram, ou quando dormiram juntos sob o mesmo cobertor..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui039' 00 
+TEXT Yui: "Mas sua mem+ria n~o retorna." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui040' 00 
+TEXT Yui: "E no final, voc[ d$ para ele uma caixa de m^sica cheia de recorda|/es."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui041' 00 
+TEXT Yui: "E ent~o chegou o dia em que ele teve que retornar ao campo de batalha. Voc[ n~o podia fazer nada al%m de assistir em sil[ncio." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui042' 00 
+TEXT Yui: "Quando a batalha chegou ao cl&max, ele levou um tiro e caiu no ch~o. L$ ele deixou cair a caixa de m^sica, que rolou perto de seu ouvido e come|ou a tocar." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui043' 00 
+TEXT Yui: "E a&, em seu ^ltimo momento, ele finalmente se lembrou de quem voc[ era." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui044' 00 
+TEXT Yui: "Mas n~o havia mais nada que ele pudesse fazer para t[-la de volta." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui045' 00 
+TEXT Yui: "Ser$ que existem verdades que % melhor n~o se lembrar?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku023' 00 
+TEXT Ikumi: "........." 
+STOP_SOUND 01 
+TEXT Haruka: "........." 
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui046' 00 
+TEXT Yui: "Huh...?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku024' 00 
+TEXT Ikumi: "...Voc[ fala bastante, n~o %?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har029' 00 
+TEXT Haruka: "E voc[ fugiu de assunto em algum lugar..." 
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui047' 00 
+TEXT Yui: "Ahaha... Eu meio que tenho o h$bito de dizer tudo que me vem # cabe|a." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har030' 00 
+TEXT Haruka: "Apenas pense um pouco antes de falar." 
+STOP_SOUND 01 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui048' 00 
+TEXT Yui: "S%rio, quais s~o seus objetivos?" 
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Ir direto ao ponto' 'N~o abra o jogo' 
+IF 16 03 00 15 01 00 02 00 .LABEL4 
+PLAY_SOUND 01 '000_iku025' 00 
+TEXT Ikumi: "Minha m~e foi morta." 
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui049' 00 
+TEXT Yui: "Ah... % mesmo..." 
+STOP_SOUND 01 
+TEXT Talvez eu devia ter dito isso de forma menos direta. 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui050' 00 
+TEXT Yui: "Me desculpe... achei que voc[ estava brincando..." 
+STOP_SOUND 01 
+TEXT Ela parecia envergonhada por ter falado de forma t~o leviana.
+PLAY_SOUND 01 '000_iku026' 00 
+TEXT Ikumi: "N~o, n~o, est$ tudo bem. Eu j$ superei." 
+STOP_SOUND 01 
+TEXT Eu disse isso... mesmo sendo s+ fachada.
+PLAY_SOUND 01 '000_iku027' 00 
+TEXT Ikumi: "Eu apenas quero saber a verdade sobre o porqu[ dela ter sido morta. @ isso." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui051' 00 
+TEXT Yui: "Ah... Entendi..." 
+STOP_SOUND 01 
+JMP .LABEL5 
+
+:LABEL4
+PLAY_SOUND 01 '000_iku028' 00 
+TEXT Ikumi: "Eu vim aqui porque este foi o ^ltimo lugar que minha m~e visitou." 
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui052' 00 
+TEXT Yui: "Ah... `ltimo lugar...?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku029' 00 
+TEXT Ikumi: "Sim." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui053' 00 
+TEXT Yui: "Ent~o, onde ela est$ agora?" 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har031' 00 
+TEXT Haruka: "Voc[ realmente % uma crian|a, n%?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har032' 00 
+TEXT Haruka: "Se este foi o '^ltimo lugar' significa que 'agora ela se foi'." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui054' 00 
+TEXT Yui: "O qu[? Isso significa que... ela morreu?" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku030' 00 
+TEXT Ikumi: "Sim." 
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har033' 00 
+TEXT Haruka: "Ela deve ter sido morta pelas pessoas daqui." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku031' 00 
+TEXT Ikumi: "Eu simplesmente quero saber a verdade sobre o porqu[ dela ter sido morta. Esse % o meu objetivo."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 01 
+PLAY_SOUND 01 '000_yui055' 00 
+TEXT Yui: "Ah... Entendi..." 
+STOP_SOUND 01 
+
+:LABEL5
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui056' 00 
+TEXT Yui: "Ikumi-san, vamos fazer o nosso melhor! Saber toda a verdade % a ^nica maneira de compensar essa perda!" 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku032' 00 
+TEXT Ikumi: "Uh, sim..." 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui057' 00 
+TEXT Yui: "Talvez sua m~e tenha sido eliminada depois de descobrir algum segredo desse culto da FARGO!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui058' 00 
+TEXT Yui: "Sim... talvez eles estejam planejando dominar o mundo com essa estranha 'for|a invis&vel'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui059' 00 
+TEXT Yui: "Ela deve ter ouvido por coincid[ncia uma reuni~o de estrat%gia em uma sala escondida no subterr}neo quando voltava do banheiro!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui060' 00 
+TEXT Yui: "Sua m~e teve tanto azar..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har034' 00 
+TEXT Haruka: "Mais uma vez essa garota vai ser levada pela sua pr+pria imagina|~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har035' 00 
+TEXT Haruka: "Al%m disso, por que haveria uma sala subterr}nea secreta abaixo do caminho para o banheiro?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui061' 00 
+TEXT Yui: "E qual % o objetivo de Haruka-san?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har036' 00 
+TEXT Haruka: "Eu n~o deveria dizer. Se eu te contar voc[ vai acabar inventando outra hist+ria idiota."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui062' 00 
+TEXT Yui: "Hein? O que voc[ quer dizer com isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har037' 00 
+TEXT Haruka: "N~o se fa|a de desentendida..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui063' 00 
+TEXT Yui: "Agora que mais ou menos confirmamos nossos objetivos, sobre o que devemos falar a seguir?"
+STOP_SOUND 01 
+X_00 0016 0000 
+TEXT 
+SELECT 0003 'Sobre a for|a invis&vel' 'Sobre os novos crentes'
+IF 16 03 00 15 01 00 02 00 .LABEL6 
+PLAY_SOUND 01 '000_iku033' 00 
+TEXT Ikumi: "O que % exatamente essa 'for|a invis&vel'?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui064' 00 
+TEXT Yui: "Eh?"
+STOP_SOUND 01 
+TEXT A for|a invis&vel...
+TEXT Algum tipo de superpoder que os crentes da FARGO conseguem controlar.
+TEXT Ouvi dizer que s+ pode ser obtido ap+s treinamento intensivo, mas uma vez vi na TV.
+TEXT Vi algu%m us$-lo para quebrar uma parede de tijolos sem toc$-la.
+TEXT Por causa das demonstra|/es de superpoderes e tai chi chuan que ocorreram antes, a maior parte da credibilidade do programa j$ havia desaparecido, mas a performance era diferente.
+TEXT Foi uma apresenta|~o t~o fant$stica que se poderia pensar que era, na realidade, algum tipo de truque com um explosivo de verdade escondido.
+TEXT Independentemente desse poder ser real ou n~o, agora que estamos aqui, n~o poderemos prosseguir sem nos envolvermos.
+TEXT "For|a invis&vel"... eu me pergunto o que %...
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har038' 00 
+TEXT Haruka: "Obviamente % s+ uma isca para atrair seguidores."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui065' 00 
+TEXT Yui: "Quer dizer que % falso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har039' 00 
+TEXT Haruka: "Certamente."
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har040' 00 
+TEXT Haruka: "Espera, voc[ realmente acreditou nisso?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui066' 00 
+TEXT Yui: "Hein? Ahaha, s+ um pouquinho..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har041' 00 
+TEXT Haruka: "Voc[ % t~o ing[nua quanto parece! Claro que isso % uma fraude."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har042' 00 
+TEXT Haruka: "Certo, Ikumi?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Confirmar que % uma fraude' 'Negar que % uma fraude' 
+IF 16 03 00 15 01 00 02 00 .LABEL7 
+PLAY_SOUND 01 '000_iku034' 00 
+TEXT Ikumi: "Sim, eu tamb%m acho que % uma fraude."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har043' 00 
+TEXT Haruka: "Viu? Voc[ % a ^nica aqui que acreditou nisso."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui067' 00 
+TEXT Yui: "Mas n~o % importante poder sonhar de vez em quando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui068' 00 
+TEXT Yui: "Voc[ n~o gostaria de ter para sempre um cora|~o de crian|a?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har044' 00 
+TEXT Haruka: "Um cora|~o de crian|a?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har045' 00 
+TEXT Haruka: "Voc[ acha mesmo que eles s~o do tipo que t[m mentes t~o inocentes?"
+STOP_SOUND 01 
+TEXT Ela se virou ligeiramente em dire|~o # fila de novos crentes.
+PLAY_SOUND 01 '001_har046' 00 
+TEXT Haruka: "Eles s~o apenas um bando de pirralhos que acham que podem se tornar melhores que os outros ao atingir esse poder. N~o h$ esperan|a para crian|as t~o dependentes emocionalmente."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui069' 00 
+TEXT Yui: "Huh... entendo..."
+STOP_SOUND 01 
+TEXT Embora eu tenha dito que era falso, honestamente n~o penso que esse poder seja apenas um truque para reunir seguidores.
+TEXT E eu tinha um palpite de que isso estava relacionado, de algum modo, com a morte da minha m~e.
+X_00 0016 0002 
+JMP .LABEL8 
+
+:LABEL7
+PLAY_SOUND 01 '000_iku035' 00 
+TEXT Ikumi: "N~o, eu n~o acho que % uma fraude."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har047' 00 
+TEXT Haruka: "O qu[! Voc[ tamb%m!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui070' 00 
+TEXT Yui: "@ isso mesmo, a opini~o de Haruka % que % estranha."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har048' 00 
+TEXT Haruka: "Reuni~o cancelada."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Ela se virou e foi embora.
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui071' 00 
+TEXT Yui: "N~o, espere!  Haruka-san!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har049' 00 
+TEXT Haruka: "Bom, brincadeiras # parte..."
+STOP_SOUND 01 
+TEXT Ela voltou imediatamente.
+PLAY_SOUND 01 '001_har050' 00 
+TEXT Haruka: "Voc[s duas parecem acreditar nesse poder, mas esse n~o % o objetivo de voc[s, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har051' 00 
+TEXT Haruka: "Voc[s s~o diferentes daqueles pirralhos irremediavelmente dependentes que tentam se sentir superiores obtendo poder, certo?"
+STOP_SOUND 01 
+TEXT Ela se virou ligeiramente em dire|~o # fila de novos crentes.
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui072' 00 
+TEXT Yui: "Certamente. Temos metas claras em nossas mentes!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui073' 00 
+TEXT Yui: "Vou levar minha nee-san de volta para casa, Ikumi-san vai descobrir sobre a misteriosa morte de sua m~e, e Haruka-san vai procurar seu filho h$ muito perdido!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har052' 00 
+TEXT Haruka: "Ei! Ningu%m est$ procurando por um filho perdido h$ muito tempo! N~o decida de repente que sou uma m~e infeliz!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui074' 00 
+TEXT Yui: "Ahaha... outro h$bito meu..."
+STOP_SOUND 01 
+X_00 0016 0002 
+
+:LABEL8
+PLAY_SOUND 01 '000_iku036' 00 
+TEXT Ikumi: "Pessoas que vivem dependentes de um poder desconhecido..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har053' 00 
+TEXT Haruka: "Exatamente. Eles est~o vivendo como fugitivos, negando a realidade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku037' 00 
+TEXT Ikumi: "Mas por que s~o todas meninas?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har054' 00 
+TEXT Haruka: "Talvez eles queiram formar um har%m?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui075' 00 
+TEXT Yui: "O qu[? Ent~o n+s seremos..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har055' 00 
+TEXT Haruka: "Talvez. Mas voc[ % plana, ent~o n~o precisa se preocupar com isso."
+STOP_SOUND 01 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui076' 00 
+TEXT Yui: "Como isso vai me tranquilizar!?"
+STOP_SOUND 01 
+X_00 0016 0002 
+JMP .LABEL9 
+
+:LABEL6
+PLAY_SOUND 01 '000_iku038' 00 
+TEXT Ikumi: "Por que todos os novos crentes s~o meninas?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har054' 00 
+TEXT Haruka: "Talvez eles queiram formar um har%m?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui075' 00 
+TEXT Yui: "O qu[? Ent~o n+s seremos..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har055' 00 
+TEXT Haruka: "Talvez. Mas voc[ % plana, ent~o n~o precisa se preocupar com isso."
+STOP_SOUND 01 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui076' 00 
+TEXT Yui: "Como isso vai me tranquilizar!?"
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui077' 00 
+TEXT Yui: "Ainda assim, parece que no momento em que come|aram a recrutar seguidores, eles selecionaram apenas mulheres."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku039' 00 
+TEXT Ikumi: "Eu me pergunto se... isso poderia ter alguma rela|~o com a 'for|a invis&vel'?"
+STOP_SOUND 01 
+TEXT A for|a invis&vel..
+TEXT Algum tipo de superpoder que os crentes de FARGO conseguem controlar.
+PLAY_SOUND 01 '000_iku040' 00 
+TEXT Ikumi: "Talvez somente as mulheres sejam capazes de obter esse poder?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har056' 00 
+TEXT Haruka: "Sejam elas capazes ou n~o... voc[ realmente acredita que esse poder existe?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 '"Eu acredito"' '"Eu n~o acredito"' 
+STOP_SOUND 01 
+IF 16 03 00 15 01 00 02 00 .LABEL10 
+PLAY_SOUND 01 '000_iku041' 00 
+TEXT Ikumi: "Eu acredito nisso."
+STOP_SOUND 01 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har057' 00 
+TEXT Haruka: "O qu[? S%rio?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har058' 00 
+TEXT Haruka: "N~o % +bvio que o poder % apenas uma isca para atrair seguidores?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui078' 00 
+TEXT Yui: "Mas % importante ter a capacidade de acreditar. Se voc[ simplesmente negar por isso n~o ser cient&fico, nunca descobrir$ nada novo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har059' 00 
+TEXT Haruka: "V-Voc[ tamb%m..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har060' 00 
+TEXT Haruka: "...Bem, eu realmente n~o me importo se voc[ acredita ou n~o. Pelo menos voc[ tem um objetivo definido..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har061' 00 
+TEXT Haruka: "Mas, sinceramente, % uma pena."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har062' 00 
+TEXT Haruka: "Se n~o fosse esse objetivo, n~o me surpreenderia se voc[ estivesse do lado deles..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku042' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+X_00 0016 0001 
+JMP .LABEL9 
+
+:LABEL10
+PLAY_SOUND 01 '000_iku043' 00 
+TEXT Ikumi: "Eu n~o acredito nisso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har063' 00 
+TEXT Haruka: "Ahaha, claro que n~o."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har064' 00 
+TEXT Haruka: "Isso n~o passa de isca para reunir seguidores. Quando voc[ disse que acreditava, realmente me deixou preocupada."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui079' 00 
+TEXT Yui: "Mas eu acredito..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har065' 00 
+TEXT Haruka: "VocÍ est· fora."
+STOP_SOUND 01 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui080' 00 
+TEXT Yui: "Espera, n~o tem como me incluir na conversa!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har066' 00 
+TEXT Haruka: "N~o. Voc[ % um deles. X{! X{! Vai l$, seu verme!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui081' 00 
+TEXT Yui: "Ahh! Sua opini~o sobre mim mudou tanto assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui082' 00 
+TEXT Yui: "Por favor, diga alguma coisa, Ikumi-san!"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Fique do lado de Yui' 'Concorde com Haruka' 
+IF 16 03 00 15 01 00 02 00 .LABEL12 
+PLAY_SOUND 01 '000_iku044' 00 
+TEXT Ikumi: "Qual %, Haruka!? Mesmo que acredite nesse poder, ela ainda tem um objetivo..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har067' 00 
+TEXT Haruka: "Isso % verdade. Caso contr$rio, ela n~o seria diferente das outras."
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har068' 00 
+TEXT Haruka: "Diferente daquele bando de pirralhos que acham que podem se tornar melhores que todos ao atingir esse poder. N~o h$ esperanÁa para crian|as t~o dependentes emocionalmente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui083' 00 
+TEXT Yui: "Exatamente. Por favor, n~o me coloque no mesmo saco com aquelas pessoas!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har069' 00 
+TEXT Haruka: "Ah, ent~o de vez em quando voc[ consegue dizer algo significativo. Embora ainda seja plana."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui084' 00 
+TEXT Yui: "O que isso tem a ver!?"
+STOP_SOUND 01 
+X_00 0016 0002 
+JMP .LABEL9 
+
+:LABEL12
+PLAY_SOUND 01 '000_iku045' 00 
+TEXT Ikumi: "Vai l$, seu verme."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui085' 00 
+TEXT Yui: "N~o!  Ikumi-san tamb%m n~o!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har070' 00 
+TEXT Haruka: "Ikumi, quando voc[ diz isso ela n~o percebe que % uma piada, ent~o, por favor, pare."
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui086' 00 
+TEXT Yui: "Ah, isso foi uma piada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku046' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+X_04 0022 0001 
+X_00 0016 0002 
+
+:LABEL9
+PLAY_SOUND 01 '000_iku047' 00 
+TEXT Ikumi: "Tirando isso, est$ demorando muito..."
+STOP_SOUND 01 
+TEXT O homem que parecia estar no comando n~o tinha falado conosco nenhuma vez, e eu estava come|ando a ficar impaciente.
+IF 16 16 00 15 01 00 02 00 .LABEL14 
+X_24 00 
+X_25 09 
+
+:LABEL14
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+X_00 0016 0000 
+PLAY_SOUND 01 '000_yui087' 00 
+TEXT Yui: "Eles mencionaram um 'teste de aptid~o', mas o que diabos est~o testando?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har071' 00 
+TEXT Haruka: "Deve ser algo indecente. Provavelmente v~o pedir para voc[ mostrar seus seios."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI11' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui088' 00 
+TEXT Yui: "Eh? Voc[ est$ falando s%rio?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har072' 00 
+TEXT Haruka: "Voc[ % plana, ent~o n~o se preocupe."
+STOP_SOUND 01 
+SPRITE 'CGYI03' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui089' 00 
+TEXT Yui: "Eu j$ disse, como isso poderia me tranquilizar?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har073' 00 
+TEXT Haruka: "Mas eles s~o realmente lentos..."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se01' 01 
+TEXT *Piro piro*...
+TEXT De repente, come|amos a ouvir ru&dos eletr{nicos.
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har074' 00 
+TEXT Haruka: "Hum... que barulho foi esse?"
+STOP_SOUND 01 
+TEXT Haruka deslizou o olhar para o lado.
+TEXT Bem ao lado dela estava Yui se divertindo com um joguinho em seu celular.
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har075' 00 
+TEXT Haruka: "Grr......"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se03' 00 
+TEXT *Bam!*
+X_24 00 
+X_25 09 
+SPRITE 'CGYI01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui090' 00 
+TEXT Yui: "Aiii!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har076' 00 
+TEXT Haruka: "Isso % hora para ficar brincando!?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui091' 00 
+TEXT Yui: "Mas eu estou entediada..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA04' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har077' 00 
+TEXT Haruka: "Nem se estiver entediada!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui092' 00 
+TEXT Yui: "Ugh... n~o precisa ficar t~o brava..."
+STOP_SOUND 01 
+TEXT Yui virou as costas para n+s.
+PLAY_SOUND 01 'se01' 01 
+TEXT *Piro piro*...
+STOP_SOUND 01 
+TEXT Ela pareceu se encolher enquanto silenciosamente reiniciava o jogo.
+TEXT 
+SELECT 0003 'Convencer Haruka a se desculpar' 'Console Yui no lugar de Haruka' 
+IF 16 03 00 15 01 00 02 00 .LABEL15 
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '000_iku048' 00 
+TEXT Ikumi: (Ei, Haruka, acho que voc[ foi longe demais...)
+STOP_SOUND 01 
+TEXT Sussurrei no ouvido de Haruka.
+PLAY_SOUND 01 '001_har078' 00 
+TEXT Haruka: (Se isso % tudo o que % preciso para deix$-la magoada, ent~o ela n~o vai durar muito aqui.)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku049' 00 
+TEXT Ikumi: (Mas se vamos trabalhar em equipe, precisamos nos dar melhor...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har079' 00 
+TEXT Haruka: (Voc[ tem um ponto...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku050' 00 
+TEXT Ikumi: (E se voc[ pedisse desculpas?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har080' 00 
+TEXT Haruka: (Ahhhh...)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku051' 00 
+TEXT Ikumi: (Voc[ conhece essa garota. Ela vai voltar ao normal em breve.)
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har081' 00 
+TEXT Haruka: (Acho que n~o tenho escolha...)
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har082' 00 
+TEXT Haruka: "Mm, mm-hmm..."
+STOP_SOUND 01 
+TEXT Ela se virou para Yui e se preparou para falar.
+PLAY_SOUND 01 '001_har083' 00 
+TEXT Haruka: "Ei, Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se01' 01 
+TEXT *Piro piro*...
+STOP_SOUND 01 
+TEXT Nenhuma resposta.
+PLAY_SOUND 01 '001_har084' 00 
+TEXT Haruka: "Eu estava errada. Sinto muito."
+STOP_SOUND 01 
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se02' 00 
+TEXT *Buuun buuun*
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui093' 00 
+TEXT Yui: "O jogo acabou..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har085' 00 
+TEXT Haruka: "Uh, sim..."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui094' 00 
+TEXT Yui: "Haruka-san..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har086' 00 
+TEXT Haruka: "O-O qu[?"
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui095' 00 
+TEXT Yui: "...Quer tentar? Isso % muito divertido! Aqui, segure. Agora aperte isso... e pronto!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har087' 00 
+TEXT Haruka: "Woah, voc[ j$ mudou de volta!"
+STOP_SOUND 01 
+TEXT Yui a for|ou a brincar com o joguinho do celular.
+PLAY_SOUND 01 '000_yui096' 00 
+TEXT Yui: "N~o, a& n~o! Ahahahaha, Haruka-san, voc[ % muito ruim nisso!"
+STOP_SOUND 01 
+TEXT Parece que, de certa forma, foi assim que Yui se vingou dela.
+PLAY_SOUND 01 '000_yui097' 00 
+TEXT Yui: "N~o h$ esperan|a para voc[, Haruka-san. Pode ficar com isso! Ent~o, por favor, pratique pelo menos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har088' 00 
+TEXT Haruka: "Huh...voc[ est$ me dando isso...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har089' 00 
+TEXT Haruka: "Ah... obrigada, vou praticar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui098' 00 
+TEXT Yui: "Existe uma vers~o para fliperama. Ent~o vamos jogar, uma contra a outra, qualquer dia desses!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har090' 00 
+TEXT Haruka: "Ah, claro..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui099' 00 
+TEXT Yui: "Quem diria que Haruka-san era uma analfabeta em videogames. Ahaha."
+STOP_SOUND 01 
+TEXT Como eu temia, o humor de Yui j$ estava completamente restabelecido.
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '001_har091' 00 
+TEXT Haruka: (Ei, Ikumi...)
+STOP_SOUND 01 
+STOP_SOUND 01 
+TEXT Logo depois, Haruka sussurrou para mim.
+PLAY_SOUND 01 '001_har092' 00 
+TEXT Haruka: (Voc[ pode ficar com isso.)
+STOP_SOUND 01 
+STOP_SOUND 01 
+TEXT Em sua m~o estava o jogo de celular que ela tinha acabado de ganhar de Yui.
+PLAY_SOUND 01 '000_iku052' 00 
+TEXT Ikumi: (Por que voc[ aceitou isso ent~o..?)
+STOP_SOUND 01 
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har093' 00 
+TEXT Haruka: (N~o importa, eu ficaria entediada de qualquer maneira.)
+STOP_SOUND 01 
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku053' 00 
+TEXT Ikumi: (......Huh?)
+STOP_SOUND 01 
+STOP_SOUND 01 
+TEXT Ent~o era isso que ela estava tramando...
+TEXT Tive um bom pressentimento sobre a metodologia de Haruka.
+JMP .LABEL16 
+
+:LABEL15
+X_24 00 
+X_25 09 
+TEXT Afinal, essa % Yui. Ela deveria voltar ao normal com apenas uma palavra reconfortante.
+PLAY_SOUND 01 '000_iku054' 00 
+TEXT Ikumi: "Ei, Yui."
+STOP_SOUND 01 
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se01' 01 
+TEXT *Piro piro*...
+STOP_SOUND 01 
+TEXT Nenhuma resposta.
+PLAY_SOUND 01 '000_iku055' 00 
+TEXT Ikumi: "Ei, Haruka estava s+ brincando. N~o a leve t~o a s%rio."
+STOP_SOUND 01 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '001_har094' 00 
+TEXT Haruka: "Eu n~o estava brincando."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '000_iku056' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 'se01' 01 
+TEXT *Piro piro*...
+STOP_SOUND 01 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui100' 00 
+TEXT Yui: "Ikumi-san..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku057' 00 
+TEXT Ikumi: "O qu[...?"
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui101' 00 
+TEXT Yui: "Voc[ quer tentar...? Isso % muito divertido! Aqui, segure. Agora aperte isso... e pronto!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku058' 00 
+TEXT Ikumi: "Ei, espere um segundo!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui102' 00 
+TEXT Yui: "N~o, a&! Uau, voc[ % boa nisso!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har095' 00 
+TEXT Haruka: "........."
+STOP_SOUND 01 
+TEXT Ela deve estar planejando isolar Haruka me puxando para perto dela.
+PLAY_SOUND 01 '000_yui103' 00 
+TEXT Yui: "Woah! Voc[ % incr&vel, Ikumi-san."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku059' 00 
+TEXT Ikumi: "Sou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui104' 00 
+TEXT Yui: "Sim, voc[ %."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har096' 00 
+TEXT Haruka: "Hmm..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui105' 00 
+TEXT Yui: "Voc[ j$ tinha jogado esse game, n~o %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku060' 00 
+TEXT Ikumi: "Pior que n~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har097' 00 
+TEXT Haruka: "Ei! Deixa eu jogar isso tamb%m!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku061' 00 
+TEXT Ikumi: "Huh...?"
+STOP_SOUND 01 
+SPRITE 'CGYI02' 
+X_24 01 
+X_25 09 
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har098' 00 
+TEXT Haruka: "Tamb%m quero jogar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_iku062' 00 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+TEXT N~o tinha certeza no que Yui estava pensando, mas dei o jogo para Haruka.
+PLAY_SOUND 01 '001_har099' 00 
+TEXT Haruka: "......?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har100' 00 
+TEXT Haruka: "Como isso funciona...?"
+STOP_SOUND 01 
+TEXT Yui: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har101' 00 
+TEXT Haruka: "Ei!"
+STOP_SOUND 01 
+SPRITE 'CGYI06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui106' 00 
+TEXT Yui: "Voc[ nunca jogou isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui107' 00 
+TEXT Yui: "Pressione aqui para iniciar e use isto para controlar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har102' 00 
+TEXT Haruka: "Q-Qu[... Ei...!"
+STOP_SOUND 01 
+SPRITE 'CGYI10' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '000_yui108' 00 
+TEXT Yui: "N~o, a& n~o! Ahahahaha, Haruka-san, voc[ % muito ruim!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har103' 00 
+TEXT Haruka: "Como eu ia saber? Eu nunca joguei isso..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui097' 00 
+TEXT Yui: "Sem esperan|a para voc[, Haruka-san! Pode ficar com isso. Ent~o, por favor, pratique."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har104' 00 
+TEXT Haruka: "Huh... voc[ est$ me dando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui114' 00 
+TEXT Yui: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har105' 00 
+TEXT Haruka: "Obrigada. Eu irei praticar..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui098' 00 
+TEXT Yui: "Tem uma vers~o para fliperama. Ent~o vamos jogar uma contra a outra algum dia!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '001_har106' 00 
+TEXT Haruka: "Ah, combinado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_yui109' 00 
+TEXT Yui: "Quem diria... a Haruka-san % uma analfabeta em videogames. Ahaha."
+STOP_SOUND 01 
+TEXT Yui parecia estar bem agora.
+X_24 00 
+X_25 09 
+PLAY_SOUND 01 '001_har107' 00 
+TEXT Haruka: (Ei, Ikumi...)
+STOP_SOUND 01 
+STOP_SOUND 01 
+TEXT Logo depois, Haruka sussurrou para mim.
+PLAY_SOUND 01 '001_har108' 00 
+TEXT Haruka: (Fique com isso.)
+STOP_SOUND 01 
+STOP_SOUND 01 
+TEXT Em sua m~o estava o jogo de celular que ela tinha acabado de ganhar de Yui.
+PLAY_SOUND 01 '000_iku063' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Ent~o Haruka nunca teve interesse no jogo para come|ar.
+TEXT Descobri que estava gostando da metodologia dela.
+
+:LABEL16
+GOTO_SCRIPT 'DAY01B' 
+EOF 

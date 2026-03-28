@@ -1,0 +1,1794 @@
+# Second part of DAY03.SNX
+# (for the first part, see DAY03A)
+
+BACKGROUND 'BG009' 
+X_24 00 
+X_25 06 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '018_iku000' 00 
+TEXT Ikumi: "Haruka!"
+STOP_SOUND 01 
+TEXT Encontrei Haruka esperando no centro do corredor e a chamei.
+TEXT Haruka: "......"
+TEXT 
+SELECT 0003 '"Voc[ esperou muito?"' '"Voc[ est$ brava comigo"?'
+IF 16 03 00 15 01 00 02 00 .LABEL33 
+PLAY_SOUND 01 '018_iku001' 00 
+TEXT Ikumi: "Hmm... te deixei esperando muito?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har001' 00 
+TEXT Haruka: "Nada demais."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku002' 00 
+TEXT Ikumi: "S%rio...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har002' 00 
+TEXT Haruka: "N~o, eu n~o esperei nada. S+ uns quarenta minutos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku003' 00 
+TEXT Ikumi: "D-Desculpa..."
+STOP_SOUND 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_har003' 00 
+TEXT Haruka: "Era uma piada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku004' 00 
+TEXT Ikumi: "...Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har004' 00 
+TEXT Haruka: "Vamos, vamos continuar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku005' 00 
+TEXT Ikumi: "Ei, Haruka, voc[ est$ brava comigo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har005' 00 
+TEXT Haruka: "Por que... eu estaria brava com voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku006' 00 
+TEXT Ikumi: "...Eu s+ achei que voc[ poderia estar..."
+STOP_SOUND 01 
+TEXT Haruka: "......"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Por que...
+TEXT Por que estou me sentindo culpada em rela|~o # Haruka?
+TEXT Havia um clima desconfort$vel entre n+s.
+PLAY_SOUND 01 '018_iku007' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Eu n~o sabia o motivo...
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_har006' 00 
+TEXT Haruka: "Ei! Mantenha o foco!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku008' 00 
+TEXT Ikumi: "Eh? Ah, desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har007' 00 
+TEXT Haruka: "Agora, vamos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har008' 00 
+TEXT Haruka: "Para o pr%dio B encontrar a Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku009' 00 
+TEXT Ikumi: "S-Sim."
+STOP_SOUND 01 
+JMP .LABEL34 
+
+:LABEL33
+PLAY_SOUND 01 '018_iku010' 00 
+TEXT Ikumi: "Haruka...voc[ est$ brava comigo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har009' 00 
+TEXT Haruka: "Por que... eu estaria brava com voc[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku006' 00 
+TEXT Ikumi: "...Eu achei que voc[ poderia estar..."
+STOP_SOUND 01 
+TEXT Haruka: "......"
+STOP_SOUND 01 
+TEXT Por que...
+TEXT Por que estou me sentindo culpada em rela|~o # Haruka?
+TEXT Havia um clima desconfort$vel entre n+s.
+PLAY_SOUND 01 '018_iku007' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+TEXT Eu n~o sabia o porqu[...
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '004_har010' 00 
+TEXT Haruka: "Ei! Preste aten|~o!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku011' 00 
+TEXT Ikumi: "Eh?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '004_har011' 00 
+TEXT Haruka: "...Se acalme."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku012' 00 
+TEXT Ikumi: "D-Desculpa."
+STOP_SOUND 01 
+TEXT Ela est$ certa, n~o era hora de parar e ficar pensando.
+PLAY_SOUND 01 '004_har012' 00 
+TEXT Haruka: "Agora, vamos para o pr%dio B e achar a Yui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku013' 00 
+TEXT Ikumi: "...Sim."
+STOP_SOUND 01 
+
+:LABEL34
+X_04 0045 0001 
+X_00 0009 0020 
+GOSUB_SCRIPT 'UG_D2' 
+IF 16 17 00 15 01 00 02 00 .LABEL35 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL35
+BACKGROUND 'BG011' 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+STOP_SOUND 00 
+PLAY_SOUND 01 '006_har041' 00 
+TEXT Haruka: "Espere!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku044' 00 
+TEXT Ikumi: "...O qu[?"
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd12' 01 
+PLAY_SOUND 01 '006_har042' 00 
+TEXT Haruka: "Ou|o algo vindo dessa sala..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku045' 00 
+TEXT Ikumi: "...O que voc[ ouve...?"
+STOP_SOUND 01 
+TEXT ......
+TEXT .........
+PLAY_SOUND 01 'se29' 01 
+TEXT ............Trrriiimmmm.
+TEXT Um fraco sinal de bip.
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku046' 00 
+TEXT Ikumi: "Um toque de celular..."
+STOP_SOUND 01 
+TEXT N~o h$ muitas pessoas neste lugar com um celular.
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+TEXT Haruka: "......"
+STOP_SOUND 01 
+TEXT Haruka olhou provocativamente para a porta abafando o toque.
+PLAY_SOUND 01 '018_iku047' 00 
+TEXT Ikumi: "O que % essa sala?"
+STOP_SOUND 01 
+TEXT Uma porta pesada e inorg}nica.
+TEXT Era de algum modo diferente das outras portas.
+PLAY_SOUND 01 '006_har043' 00 
+TEXT Haruka: "Essa % a primeira vez que voc[ olha para essa porta...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku048' 00 
+TEXT Ikumi: "Eh? Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har044' 00 
+TEXT Haruka: "Os homens da FARGO chamam esse local de 'Sala de Aperfei|oamento'."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku049' 00 
+TEXT Ikumi: "...Aperfei|oamento...?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Que tipo de sala % essa?' 'O que isso significa?' 
+IF 16 03 00 15 01 00 02 00 .LABEL36 
+PLAY_SOUND 01 '018_iku050' 00 
+TEXT Ikumi: "Que tipo de sala % essa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har045' 00 
+TEXT Haruka: "Uma sala de refor|o mental."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har046' 00 
+TEXT Haruka: "...Ou pelo menos foi o que disseram os homens da FARGO."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku051' 00 
+TEXT Ikumi: "Refor|o mental...?"
+STOP_SOUND 01 
+TEXT J$ ouvi esse termo v$rias vezes desde que cheguei aqui.
+PLAY_SOUND 01 '006_har047' 00 
+TEXT Haruka: "@ esse tipo de frase que eles usam para enganar a si mesmos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har048' 00 
+TEXT Haruka: "Eles est~o apenas tentando justificar suas a|/es."
+STOP_SOUND 01 
+JMP .LABEL37 
+
+:LABEL36
+PLAY_SOUND 01 '018_iku052' 00 
+TEXT Ikumi: "O que isso significa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har049' 00 
+TEXT Haruka: "...Quem sabe? Eu tamb%m n~o sei."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har050' 00 
+TEXT Haruka: "Mas % assim que os homens da FARGO chamam."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku053' 00 
+TEXT Ikumi: "Que tipo de sala % essa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har045' 00 
+TEXT Haruka: "Uma sala de refor|o mental."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har046' 00 
+TEXT Haruka: "...Ou pelo menos foi o que disseram os homens da FARGO."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku051' 00 
+TEXT Ikumi: "Refor|o mental...?"
+STOP_SOUND 01 
+TEXT J$ ouvi esse termo v$rias vezes desde que cheguei aqui.
+PLAY_SOUND 01 '006_har047' 00 
+TEXT Haruka: "@ esse tipo de frase que eles usam para enganar a si mesmos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har048' 00 
+TEXT Haruka: "Eles est~o apenas tentando justificar suas a|/es."
+STOP_SOUND 01 
+
+:LABEL37
+PLAY_SOUND 01 '018_iku054' 00 
+TEXT Ikumi: "Haruka, voc[ j$ esteve aqui antes?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har051' 00 
+TEXT Haruka: "...Sim..."
+STOP_SOUND 01 
+TEXT O que ser$ que aconteceu nessa sala?
+TEXT Achei melhor n~o perguntar...
+TEXT Depois de ver uma express~o de desespero no rosto de Haruka...
+PLAY_SOUND 01 '006_har052' 00 
+TEXT Haruka: "...Bem..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har053' 00 
+TEXT Haruka: "Isso % cruel, mas vamos ter que esperar at% Yui sair."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku055' 00 
+TEXT Ikumi: "Se ela estiver a&, n~o podemos entrar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har054' 00 
+TEXT Haruka: "N~o podemos!"
+STOP_SOUND 01 
+TEXT Ela disse enquanto olhava fixamente para a porta.
+PLAY_SOUND 01 '006_har055' 00 
+TEXT Haruka: "...Ela n~o est$ sozinha a& dentro."
+STOP_SOUND 01 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+X_28 000A 
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT Alguns minutos antes, dois homens haviam entrado no quarto de Yui e simplesmente ordenado que ela os acompanhasse.
+TEXT Enquanto caminhavam pelos corredores, estavam em sil[ncio.
+TEXT Yui n~o fazia ideia do que estava prestes a acontecer.
+TEXT Mas uma semente de medo foi plantada em sua mente quando ela viu o sorriso vulgar de um dos homens.
+PLAY_SOUND 01 '000_m3a000' 00 
+TEXT Homem A: "Entre."
+STOP_SOUND 01 
+TEXT Eles chegaram ao destino.
+TEXT Yui sentiu os olhos dos homens em suas costas enquanto caminhava pela porta pesada para dentro de uma sala cinza.
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+TEXT Os homens entraram depois dela para impedir sua fuga.
+PLAY_SOUND 01 '003_yui000' 00 
+TEXT Yui: "Hmm..."
+STOP_SOUND 01 
+TEXT Incapaz de suportar o sil[ncio, Yui falou.
+PLAY_SOUND 01 '003_yui001' 00 
+TEXT Yui: "...O que estamos fazendo aqui?"
+STOP_SOUND 01 
+TEXT Nenhuma resposta.
+SPRITE 'CGYI05' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '003_yui002' 00 
+TEXT Yui: "...Ahhh. Digam algo!"
+STOP_SOUND 01 
+TEXT Ela parecia pronta para chorar.
+TEXT Ent~o...
+PLAY_SOUND 01 'se30' 00 
+TEXT *Clackt!*
+TEXT O corpo dela tremeu ao ouvir o barulho agudo e inesperado.
+TEXT Ela rapidamente entendeu o que era.
+TEXT O som de uma trava.
+TEXT A porta dessa sala n~o abriria sem destrancada por uma chave.
+TEXT Agora, eles estavam completamente separados do exterior.
+TEXT Um dos homens levantou a chave da sala em dire|~o a Yui, ent~o a colocou no bolso.
+PLAY_SOUND 01 '003_yui003' 00 
+TEXT Yui: "...Hmm... Uhh... Essa % uma sala estranha..."
+STOP_SOUND 01 
+TEXT Incapaz de se acalmar sem dizer nada, Yui tentou iniciar uma conversa com um sorriso educado.
+TEXT Ela n~o esperava uma resposta.
+TEXT No entanto...
+PLAY_SOUND 01 '000_m3a001' 00 
+TEXT Homem A: "Ser$ uma sala que voc[ vai se lembrar para sempre."
+STOP_SOUND 01 
+TEXT Um dos homens falou inesperadamente.
+TEXT N~o era uma voz profissional.
+TEXT Aquela voz revelou a natureza da pessoa.
+PLAY_SOUND 01 '003_yui004' 00 
+TEXT Yui: "Hmmm... o que isso significa?"
+STOP_SOUND 01 
+TEXT Em resposta # pergunta inocente de Yui, o homem a olhou de cima a baixo.
+TEXT Ele n~o respondeu # pergunta dela.
+PLAY_SOUND 01 '000_m3a002' 00 
+TEXT Homem A: "Qual o seu nome?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui005' 00 
+TEXT Yui: "Eu sou... Yui."
+STOP_SOUND 01 
+TEXT Ela podia sentir os olhares dos homens em seu corpo e se encolheu como se fosse se esconder.
+PLAY_SOUND 01 '000_m3a003' 00 
+TEXT Homem A: "Ent~o, voc[ % virgem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui006' 00 
+TEXT Yui: "Eh...? Virgem...?"
+STOP_SOUND 01 
+TEXT A pergunta foi t~o surpreendente que ela respondeu sem pensar.
+TEXT Vendo essa rea|~o, o homem torceu os cantos dos l$bios.
+PLAY_SOUND 01 '000_m3a004' 00 
+TEXT Homem A: "Voc[ parece ser virgem. Para um corpo t~o infantil, % o esperado."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui007' 00 
+TEXT Yui: "E-Eu n~o tenho um corpo infantil!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui008' 00 
+TEXT Yui: "Quando medi meus seios pela ^ltima vez, h$ meio ano, eles cresceram um pouco!"
+STOP_SOUND 01 
+TEXT Vendo o rosto vermelho de Yui e sua resposta impertinente, o homem riu ainda mais.
+PLAY_SOUND 01 '000_m3a005' 00 
+TEXT Homem A: "Ha, ha, ha! Eu entendo, entendo, isso % bom..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b000' 00 
+TEXT Homem B: "...Ei!"
+STOP_SOUND 01 
+TEXT O outro homem quebrou seu sil[ncio.
+PLAY_SOUND 01 '000_m3b001' 00 
+TEXT Homem B: "Quanto tempo voc[ vai ficar enrolando com essa conversa?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b002' 00 
+TEXT Homem B: "Ainda temos quatro crentes para visitar hoje... vamos acabar logo com isso."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a006' 00 
+TEXT Homem A: "O qu[...? N~o podemos fazer isso com calma?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a007' 00 
+TEXT Homem A: "Al%m disso, finalmente conseguimos uma bonita."
+STOP_SOUND 01 
+TEXT Ignorando as piadas do parceiro, o outro homem se aproximou de Yui.
+TEXT E agarrou seu bra|o.
+PLAY_SOUND 01 '003_yui009' 00 
+TEXT Yui: "Eh! Uh-umm, por favor, pare! O que est$ fazendo?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui010' 00 
+TEXT Yui: "Kyaa!!"
+STOP_SOUND 01 
+BACKGROUND 'FG018' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui011' 00 
+TEXT Yui: "N~o! Por que...por que voc[...!"
+STOP_SOUND 01 
+TEXT Os homens n~o eram especialmente fortes, mas eram mais do que suficientes para selar os movimentos de uma garota delicada.
+TEXT Em grande parte incapaz de resistir, Yui foi despida de suas roupas.
+PLAY_SOUND 01 '000_m3a008' 00 
+TEXT Homem A: "Vamos descobrir se esse corpo seu % t~o jovem quanto parece."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui012' 00 
+TEXT Yui: "Eu n~o me importo se sou pequena ou sem seios ou o que for! S+ me deixe ir!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a009' 00 
+TEXT Homem A: "N~o depende de n+s, esse % nosso trabalho."
+STOP_SOUND 01 
+TEXT O homem olhou para Yui, que agora estava vestindo apenas roupas &ntimas.
+PLAY_SOUND 01 '000_m3a010' 00 
+TEXT Homem A: "E n+s realmente amamos nosso trabalho."
+STOP_SOUND 01 
+TEXT Homem B: "......"
+STOP_SOUND 01 
+TEXT O outro homem n~o lhe respondeu.
+PLAY_SOUND 01 '003_yui013' 00 
+TEXT Yui: "Por favor...algu%m..."
+STOP_SOUND 01 
+TEXT Naquele momento, algo na sala come|ou a apitar.
+PLAY_SOUND 01 'se29' 01 
+TEXT *Trrriiimmmm...!*
+TEXT Todos ali procuraram no ch~o pela fonte do som inadequado.
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a011' 00 
+TEXT Homem A: "Ohhh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a012' 00 
+TEXT Homem A: "Inacredit$vel...voc[ trouxe um celular aqui dentro."
+STOP_SOUND 01 
+TEXT O homem pegou o celular e pressionou o bot~o de atender.
+TEXT Uma voz saiu pelo receptor.
+PLAY_SOUND 01 '000_tel000' 00 
+TEXT Voz do Telefone: (Al{. % voc[, Yui?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel001' 00 
+TEXT Voz do Telefone: (Como voc[ est$?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui014' 00 
+TEXT Yui: "Ah! Kei-chan!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel002' 00 
+TEXT Voz do Telefone: (Yui? Por que voc[ est$ t~o longe do seu telefone?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui015' 00 
+TEXT Yui: "Me salve, Kei-chan!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b003' 00 
+TEXT Homem B: "O que voc[ est$ fazendo!? Desligue isso!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a013' 00 
+TEXT Homem A: "N~o diga isso. Ela j$ fez a liga|~o por n+s."
+STOP_SOUND 01 
+TEXT O homem come|ou a falar ao telefone.
+PLAY_SOUND 01 '000_m3a014' 00 
+TEXT Homem A: "Voc[ % amiga da Yui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel003' 00 
+TEXT Voz do Telefone: (Sim... mas quem % voc[?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel004' 00 
+TEXT Voz do Telefone: (A Yui est$ a&, n%?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a015' 00 
+TEXT Homem A: "Claro."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui016' 00 
+TEXT Yui: (Kei-chan! Kei-chan!)
+STOP_SOUND 01 
+TEXT Um grito desesperado.
+TEXT Mas, com o outro homem segurando sua boca, ela n~o conseguia ser ouvida.
+PLAY_SOUND 01 '000_tel005' 00 
+TEXT Voz do Telefone: (Ei... passe o telefone para a Yui!)
+STOP_SOUND 01 
+TEXT A voz do telefone parecia ter percebido a seriedade da situa|~o.
+PLAY_SOUND 01 '000_m3a016' 00 
+TEXT Homem A: "Voc[ consegue ouvir a voz da Yui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a017' 00 
+TEXT Homem A: "Ok... vou garantir que voc[ ou|a bastante dela."
+STOP_SOUND 01 
+TEXT O homem colocou o telefone, ainda ligado, no ch~o voltado para Yui.
+PLAY_SOUND 01 '000_m3b004' 00 
+TEXT Homem B: "...O que voc[ est$ aprontando?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a018' 00 
+TEXT Homem A: "N~o % +bvio? Vamos deixar ela ouvir exatamente no que a Yui se meteu."
+STOP_SOUND 01 
+BACKGROUND 'FG019' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui017' 00 
+TEXT Yui: "N~o! Me solte!"
+STOP_SOUND 01 
+TEXT Como seus bra|os estavam sendo segurados, Yui come|ou a chutar descontroladamente.
+TEXT Naquele momento, o homem come|ou a olhar mais de perto para sua virilha.
+PLAY_SOUND 01 '000_tel006' 00 
+TEXT Voz do Telefone: (Yui! O que est$ acontecendo!)
+STOP_SOUND 01 
+TEXT A voz agora quase desesperada de sua amiga estava alta e clara.
+PLAY_SOUND 01 '000_m3a019' 00 
+TEXT Homem A: "Bem, isso % que % parecer jovem. Voc[ praticamente n~o tem pelo aqui embaixo."
+STOP_SOUND 01 
+TEXT O homem a insultou em voz alta o suficiente para que sua amiga ouvisse pelo telefone.
+PLAY_SOUND 01 '000_m3a020' 00 
+TEXT Homem A: "E voc[ quase n~o tem peito para falar".
+STOP_SOUND 01 
+TEXT O homem colocou a m~o no peito de Yui.
+TEXT Ent~o, ele come|ou a apert$-lo, como se quisesse confirmar a textura.
+PLAY_SOUND 01 '003_yui018' 00 
+TEXT Yui: "N~ooo! N~o me toque!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel007' 00 
+TEXT Voz do telefone: (...Yu-yui, voc[ est$...)
+STOP_SOUND 01 
+TEXT Sua amiga agora entendia completamente a situa|~o.
+PLAY_SOUND 01 '000_tel008' 00 
+TEXT Voz no telefone: (Este homem est$ estuprando voc[!?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui019' 00 
+TEXT Yui: "Kei-chan! Kei-chan!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel009' 00 
+TEXT Voz no telefone: (Yui! Onde voc[ est$ agora!?)
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui020' 00 
+TEXT Yui: "Agora... eu...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui021' 00 
+TEXT Yui: "...N-N~oooo!!"
+STOP_SOUND 01 
+TEXT A voz de Yui foi soterrada por um grito.
+TEXT A m~o do homem agarrou firmemente seu peito.
+PLAY_SOUND 01 '003_yui022' 00 
+TEXT Yui: "N~o! Isso d+i!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel010' 00 
+TEXT Voz no telefone: (Yui! Yui!)
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui023' 00 
+TEXT Yui: "Ughu...... ughh...!"
+STOP_SOUND 01 
+TEXT Com as l$grimas escorrendo, ela come|ou a solu|ar.
+TEXT Seu peito estava come|ando a inchar por causa dos apert/es.
+TEXT Dolorosos hematomas vermelhos se formaram na carne branca de Yui.
+PLAY_SOUND 01 '000_m3a021' 00 
+TEXT Homem A: "Parece que voc[ est$ gostando, n~o % mesmo? Olhe, seus mamilos est~o durinhos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui024' 00 
+TEXT Yui: "N~ooo! Isso n~o % verdade..."
+STOP_SOUND 01 
+TEXT Ela come|ou a falar, mas se deteve.
+TEXT Sua amiga estava ouvindo tudo isso.
+TEXT Era evidente em que estado vergonhoso ela se encontrava.
+TEXT Essa verdade a atingiu de repente, e ela foi tomada pela vergonha.
+PLAY_SOUND 01 '003_yui025' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a022' 00 
+TEXT Homem A: "Por que ficou quieta de repente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a023' 00 
+TEXT Homem A: "N~o vai deixar sua amiga te ouvir chorar e implorar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_tel011' 00 
+TEXT Voz no telefone: (Yu-yui! Eu... eu... sinto muito!)
+STOP_SOUND 01 
+PLAY_SOUND 01 'se31' 00 
+TEXT *Clackt*
+PLAY_SOUND 01 '003_yui026' 00 
+TEXT Yui: "...Ah..."
+STOP_SOUND 01 
+TEXT Sua amiga tinha desligado.
+PLAY_SOUND 01 '003_yui027' 00 
+TEXT Yui: "...Kei... chan..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a024' 00 
+TEXT Homem A: "Bem, parece que sua amiga te abandonou."
+STOP_SOUND 01 
+TEXT O homem sorriu, como se estivesse se divertindo.
+TEXT Ele desligou o celular e o colocou no bolso mais uma vez.
+PLAY_SOUND 01 '000_m3a025' 00 
+TEXT Homem A: "Agora passamos para o evento principal."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a026' 00 
+TEXT Homem A: "...Ei, eu vou come|ar o trabalho, ent~o segure bem as pernas dela."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b005' 00 
+TEXT Homem B: "...Entendido."
+STOP_SOUND 01 
+BACKGROUND 'FG020' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui028' 00 
+TEXT Yui: "......N~ooo! N~o fa|a isso!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a027' 00 
+TEXT Homem A: "Essa % uma vis~o e tanto."
+STOP_SOUND 01 
+TEXT O homem olhou atentamente para o corpo exposto diante dele.
+PLAY_SOUND 01 '003_yui029' 00 
+TEXT Yui: "N~o olhe... estou te implorando..."
+STOP_SOUND 01 
+TEXT O outro homem for|ou Yui a assumir uma posi|~o n~o muito diferente da que os pais ensinam seus filhos quando aprendem a usar um penico.
+TEXT Nada estava escondido.
+TEXT Seus pelos pubianos, as dobras rosas por baixo, tudo estava sendo for|ado a se abrir diante desse homem que ela nunca tinha visto antes.
+PLAY_SOUND 01 '003_yui030' 00 
+TEXT Yui: "......N-N~o... olhe..."
+STOP_SOUND 01 
+TEXT Enquanto seu rosto corava de vergonha, ela solu|ou com uma voz desesperada.
+PLAY_SOUND 01 '000_m3a028' 00 
+TEXT Homem A: "Ah, eu sei. Afinal, isso tudo n~o foi feito s+ para ficar olhando."
+STOP_SOUND 01 
+TEXT O homem baixou as cal|as e tirou seu p[nis j$ ereto.
+PLAY_SOUND 01 '000_m3a029' 00 
+TEXT Homem A: "Vou colocar isso agora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui031' 00 
+TEXT Yui: "...Ugh!"
+STOP_SOUND 01 
+TEXT A ponta do membro do homem tocou sua virilha exposta.
+PLAY_SOUND 01 '003_yui032' 00 
+TEXT Yui: "...!"
+STOP_SOUND 01 
+TEXT Ela balan|ou a cabe|a e chorou profusamente.
+TEXT Incapaz de falar, seu corpo ficou dominado pelo medo.
+TEXT L$grimas correram pelo seu semblante tenso.
+PLAY_SOUND 01 '000_m3b006' 00 
+TEXT Homem B: "...Voc[ j$ est$ colocando isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a030' 00 
+TEXT Homem A: "Sim. Afinal, ainda temos mais quatro crentes pela frente."
+STOP_SOUND 01 
+TEXT Outro sorriso perturbador.
+TEXT Homem B: "......"
+STOP_SOUND 01 
+TEXT O outro homem relutantemente abaixou o corpo de Yui.
+PLAY_SOUND 01 '003_yui033' 00 
+TEXT Yui: "......!"
+STOP_SOUND 01 
+TEXT O membro duro quase vertical separou a virilha de Yui e afundou nela como uma l}mina afiada.
+PLAY_SOUND 01 '003_yui034' 00 
+TEXT Yui: "Ahh!! Ahhhh!!"
+STOP_SOUND 01 
+TEXT A voz de Yui subiu com a dor de seu abd{men dividido.
+TEXT Agora Yui n~o podia mais sentir vergonha.
+TEXT Houve apenas dor.
+TEXT Para se afastar, ela agitou os bra|os e torceu o corpo.
+TEXT Mas isso s+ piorou a situa|~o.
+TEXT Enquanto ela se debatia, o homem afrouxou seu aperto e a gravidade jogou Yui para baixo at% que o p[nis se infiltrou profundamente em seu corpo.
+PLAY_SOUND 01 '003_yui035' 00 
+TEXT Yui: "A-Ahhhhh... A-Ahhhhhhh...!"
+STOP_SOUND 01 
+TEXT As paredes de sua vagina eram completamente tensas, segurando a progress~o do objeto estranho, o que resultou em uma dor ainda maior ao corpo de Yui.
+PLAY_SOUND 01 '003_yui036' 00 
+TEXT Yui: "N~ooo! Tire isso de mim!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b007' 00 
+TEXT Homem B: "N~o resista... voc[ est$ apenas tornando isso mais dif&cil para voc[ mesma."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui037' 00 
+TEXT Yui: "T-Tire isso! P-Pare! Tire isso de mim! E-Eu imploro!"
+STOP_SOUND 01 
+TEXT No meio dessa dor, Yui n~o poderia ter ouvido o conselho do homem. Em vez disso, ela gritou at% o seu limite.
+PLAY_SOUND 01 '000_m3a031' 00 
+TEXT Homem A: "U-Uh! Que apertada.."
+STOP_SOUND 01 
+TEXT O homem ignorou completamente Yui e continuou movendo os quadris.
+TEXT No come|o, ele mal conseguiu alcan|ar o h&men dela, mas com as secre|/es lubrificantes de seu membro, seus movimentos gradualmente se tornaram mais suaves.
+TEXT Yui continuava completamente perturbada, mas o homem n~o se importava.
+TEXT Quando sentiu que ia ejacular, ele acelerou.
+PLAY_SOUND 01 '000_m3a032' 00 
+TEXT Homem A: "...! Ahhhhh...!"
+STOP_SOUND 01 
+TEXT O membro do homem se dilatou dentro de Yui e depois soltou um l&quido branco espesso em seu ventre.
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui038' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui039' 00 
+TEXT Yui: ".........Ah..."
+STOP_SOUND 01 
+TEXT Yui recuperou a consci[ncia logo depois disso.
+TEXT Ela n~o tinha certeza do que havia acontecido com ela.
+TEXT Mas a press~o em seu abd{men desapareceu, ent~o ela imaginou que o homem havia parado.
+PLAY_SOUND 01 '003_yui040' 00 
+TEXT Yui: "...Ugh... chega... chega..."
+STOP_SOUND 01 
+TEXT Ela olhou para o homem implorando.
+PLAY_SOUND 01 '000_m3a033' 00 
+TEXT Homem A: "Voc[ % louca? Ainda nem come|amos!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui041' 00 
+TEXT Yui: "...Eh!?"
+STOP_SOUND 01 
+TEXT O homem agarrou os cabelos de Yui e puxou o rosto dela para cima.
+BACKGROUND 'FG021' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui042' 00 
+TEXT Yui: "...Ahhh!"
+STOP_SOUND 01 
+TEXT Na frente dos olhos de Yui estava o membro cruel que rompeu seu corpo apenas um momento atr$s.
+TEXT V$rios fluidos corporais estavam misturados, e o cheiro que emitia fez Yui recuar.
+PLAY_SOUND 01 '000_m3a034' 00 
+TEXT Homem A: "Ei, olhe para isso!"
+STOP_SOUND 01 
+TEXT Ele puxou o cabelo dela novamente.
+PLAY_SOUND 01 '000_m3a035' 00 
+TEXT Homem A: "N~o desvie o olhar!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a036' 00 
+TEXT Homem A: "Se voc[ virar o rosto % a& que faremos algo ainda pior com voc[! Entendeu?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui043' 00 
+TEXT Yui: "...S...S-Sim..."
+STOP_SOUND 01 
+TEXT Ela n~o tinha escolha.
+PLAY_SOUND 01 '000_m3a037' 00 
+TEXT Homem A: "J$ que meu amigo aqui ficou sujo por sua causa, nada mais justo que voc[ deixe ele limpinho, certo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui044' 00 
+TEXT Yui: "N-N~ooo!"
+STOP_SOUND 01 
+TEXT Depois de olhar diretamente para aquele membro grotesco, Yui n~o p{de deixar de se afastar.
+PLAY_SOUND 01 '000_m3a038' 00 
+TEXT Homem A: "...Vejo que realmente voc[ quer que eu meta mais..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui045' 00 
+TEXT Yui: "N-N~o, n~o! Desculpe!"
+STOP_SOUND 01 
+TEXT Ela se virou apressadamente, mas j$ era tarde demais.
+PLAY_SOUND 01 '000_m3a039' 00 
+TEXT Homem A: "Ei, % a sua vez agora."
+STOP_SOUND 01 
+TEXT Homem B: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a040' 00 
+TEXT Homem A: "Se voc[ n~o quiser, eu posso ir de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3b008' 00 
+TEXT Homem B: "......Entendido."
+STOP_SOUND 01 
+TEXT O outro homem concordou, colocou as m~os nos quadris de Yui e lentamente empurrou a virilha inchada dela.
+PLAY_SOUND 01 '003_yui046' 00 
+TEXT Yui: "Ahhh!!!"
+STOP_SOUND 01 
+TEXT Outro ataque de dor.
+PLAY_SOUND 01 '003_yui047' 00 
+TEXT Yui: "Por favor! Parem de me machucarrr!!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a041' 00 
+TEXT Homem A: "Voc[ ainda tem que limpar meu p[nis, certo? Vamos parar quando voc[ terminar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui048' 00 
+TEXT Yui: "E-Eu... e-eu n~o posso fazer isso!"
+STOP_SOUND 01 
+TEXT Yui balan|ou a cabe|a enquanto sente a dor de ser penetrada por tr$s.
+PLAY_SOUND 01 '000_m3a042' 00 
+TEXT Homem A: "O que voc[ quer dizer com 'n~o posso', vadia?!"
+STOP_SOUND 01 
+TEXT O homem empurrou seu membro atrav%s dos l$bios de Yui e o for|ou pela garganta dela.
+TEXT A sensa|~o nojenta se espalhou por toda sua boca e contorceu seu rosto.
+TEXT Mas ela n~o p{de vomitar.
+TEXT O homem ainda estava puxando seu cabelo para que ela n~o pudesse recuar.
+PLAY_SOUND 01 '003_yui049' 00 
+TEXT Yui: "Mmmmm...!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_m3a043' 00 
+TEXT Homem A: "Use sua l&ngua! Mexa seus l$bios e mova-se para frente e para tr$s!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui050' 00 
+TEXT Yui: (Por favor, pare com isso! Por favor!)
+STOP_SOUND 01 
+TEXT Como Yui resistiu ao desejo de vomitar, seus olhos se encheram de l$grimas mais uma vez.
+PLAY_SOUND 01 '000_m3a044' 00 
+TEXT Homem A: "Vamos! Se voc[ n~o pode se mover, ent~o eu vou te ajudar!"
+STOP_SOUND 01 
+TEXT O homem agarrou a cabe|a de Yui com as duas m~os e a sacudiu para frente e para tr$s.
+PLAY_SOUND 01 '003_yui051' 00 
+TEXT Yui: "M-Mmmmmmm....!!"
+STOP_SOUND 01 
+TEXT Yui sentiu uma for|a que parecia estar quebrando sua mand&bula... a dor de ter a garganta perfurada pela ponta do membro duro...
+TEXT ...Al%m do sofrimento de sentir seu abd{men sendo rasgado.
+PLAY_SOUND 01 '003_yui052' 00 
+TEXT Yui: (...Onee-chan...)
+STOP_SOUND 01 
+TEXT Quando sua consci[ncia desapareceu novamente, o que passou por sua mente foi a imagem de sua irm~.
+PLAY_SOUND 01 '000_m3a045' 00 
+TEXT Homem A: "Estou gozando! Beba tudo!"
+STOP_SOUND 01 
+TEXT O membro cravado profundamente em sua boca tremia.
+TEXT Logo depois disso...
+TEXT Os fluidos quentes jorraram simultaneamente em sua garganta e em sua vagina.
+BACKGROUND 'FG022' 
+X_24 00 
+X_25 06 
+TEXT O homem olhou para o corpo imundo de Yui e desabou antes de abrir a porta.
+TEXT Ele deu um passo para fora, depois se virou como se tivesse esquecido de alguma coisa.
+PLAY_SOUND 01 '000_m3a046' 00 
+TEXT Homem A: "Ah, sim, quase esqueci. Eu preciso devolver isso a voc[."
+STOP_SOUND 01 
+TEXT O homem pegou o celular de Yui e o jogou no ch~o.
+PLAY_SOUND 01 'se32' 00 
+TEXT *Crash!!!*
+TEXT O telefone estava completamente quebrado, agora n~o era mais que um peda|o de pl$stico.
+TEXT O olhar de Yui ainda vagava sem rumo, n~o parecendo nem se perturbar por esse ato final de crueldade.
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+X_28 000A 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'BG011' 
+X_24 00 
+X_25 06 
+STOP_SOUND 00 
+PLAY_SOUND 01 '006_har056' 00 
+TEXT Haruka: "Esconda-se! Eles est~o vindo!"
+STOP_SOUND 01 
+TEXT Haruka reagiu rapidamente ao som da porta sendo destrancada.
+TEXT 
+SELECT 0003 'Se esconder' 'Observar' 
+IF 16 03 00 15 01 00 02 00 .LABEL38 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har057' 00 
+TEXT Haruka: "Por aqui! R$pido!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Antes que eu pudesse reagir, Haruka me puxou pelo corredor e virou a esquina.
+PLAY_SOUND 01 '006_har058' 00 
+TEXT Haruka: "N~o fa|a nenhum som, entendeu?"
+STOP_SOUND 01 
+TEXT Eu assenti em sil[ncio.
+JMP .LABEL39 
+
+:LABEL38
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har059' 00 
+TEXT Haruka: "Ei, Ikumi! N~o fique a& parada!"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+TEXT Haruka agarrou meu bra|o e me puxou para a esquina mais pr+xima.
+PLAY_SOUND 01 '019_iku000' 00 
+TEXT Ikumi: "D-Desculpe..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har060' 00 
+TEXT Haruka: "Apenas fique quieta."
+STOP_SOUND 01 
+TEXT Eu assenti em sil[ncio.
+
+:LABEL39
+PLAY_SOUND 01 '019_iku001' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 'se33' 00 
+TEXT A porta pesada se abriu, e eu ouvi pessoas saindo.
+TEXT Homem: "............"
+STOP_SOUND 01 
+TEXT Eu podia perceber que eles estavam conversando sobre algo, mas n~o conseguia ouvir o que era.
+PLAY_SOUND 01 'se32' 00 
+TEXT *Paft!*
+TEXT Algo foi jogado no ch~o.
+TEXT Ent~o, v$rios passos passaram por n+s e se afastaram.
+TEXT De onde est$vamos, n~o consegu&amos ver o que estava acontecendo.
+PLAY_SOUND 01 '019_iku002' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har061' 00 
+TEXT Haruka: "Yui ainda est$ l$ dentro."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har062' 00 
+TEXT Haruka: "...Vamos l$."
+STOP_SOUND 01 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'FG022' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd12' 01 
+TEXT Quando entrei naquela sala, a primeira coisa que notei foi o cheiro sufocante.
+TEXT Naquela sala escura, sem janelas, o cheiro j$ tinha se acumulado e estagnado, agora se espalhando pelo corredor.
+TEXT Ela estava no centro da sala.
+TEXT Seu corpo im+vel no ch~o sobrep{s-se, por um instante, ao corpo morto de minha m~e.
+PLAY_SOUND 01 '019_iku003' 00 
+TEXT Ikumi: "...O que... % isso..."
+STOP_SOUND 01 
+TEXT Minha voz soou rouca.
+PLAY_SOUND 01 '019_iku004' 00 
+TEXT Ikumi: "O que % isso...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har063' 00 
+TEXT Haruka: "O que parece ser?"
+STOP_SOUND 01 
+TEXT Haruka pegou as roupas espalhadas e as devolveu a Yui.
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+TEXT Yui n~o fez movimento algum para peg$-las, permanecendo agachada como um pequeno animal assustado.
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har064' 00 
+TEXT Haruka: "Yui... recupere-se!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har065' 00 
+TEXT Haruka: "Voc[ n~o % a ^nica que est$ sofrendo."
+STOP_SOUND 01 
+TEXT Ah...!
+TEXT Foi nesse momento que eu finalmente percebi.
+TEXT Haruka tinha passado pela mesma coisa.
+TEXT Apesar disso... eu...
+TEXT Eu odiei minha falta de sensibilidade.
+PLAY_SOUND 01 '003_yui053' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har066' 00 
+TEXT Haruka: "Vamos voltar para o seu quarto."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui054' 00 
+TEXT Yui: "......Antes......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku005' 00 
+TEXT Ikumi: "...H~?"
+STOP_SOUND 01 
+TEXT Yui finalmente falou.
+PLAY_SOUND 01 '003_yui055' 00 
+TEXT Yui: "......Isso aconteceu......antes......"
+STOP_SOUND 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har067' 00 
+TEXT Haruka: "...O que quer dizer?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui056' 00 
+TEXT Yui: "......"
+STOP_SOUND 01 
+TEXT Suas sobrancelhas se franziram... como se estivesse buscando em suas mem+rias.
+PLAY_SOUND 01 '003_yui057' 00 
+TEXT Yui: "......N~o......n~o consigo me lembrar."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku006' 00 
+TEXT Ikumi: "Yui, voc[ n~o precisa pensar nisso agora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku007' 00 
+TEXT Ikumi: "...Vamos voltar para o seu quarto."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui058' 00 
+TEXT Yui: "...Sim."
+STOP_SOUND 01 
+TEXT Yui segurou suas roupas contra o peito e assentiu.
+X_00 0009 0037 
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd04' 01 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '019_iku008' 00 
+TEXT Ikumi: "Yui, voc[ deve sair desse lugar imediatamente."
+STOP_SOUND 01 
+TEXT O quarto de Yui era do mesmo tamanho que o meu.
+TEXT Ela n~o parecia ter nenhum colega de quarto irritante, ent~o era um lugar perfeito para ela se acalmar.
+PLAY_SOUND 01 '003_yui059' 00 
+TEXT Yui: "...Eu... ainda tenho que traz[-la de volta... trazer a onee-san..."
+STOP_SOUND 01 
+TEXT Levar a irm~ de volta para casa.
+TEXT Ent~o esse era o objetivo de Yui.
+TEXT Mesmo depois daquela experi[ncia, ela ainda se lembrava disso.
+TEXT Me pergunto se eu...
+TEXT ...Tenho tanta for|a como essa garota...
+X_24 00 
+X_25 09 
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har068' 00 
+TEXT Haruka: "Sobre isso... voc[ a encontrou?"
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '003_yui060' 00 
+TEXT Yui: "......N~o."
+STOP_SOUND 01 
+X_24 00 
+X_25 09 
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har069' 00 
+TEXT Haruka: "Se ela n~o est$ no Pr%dio B, ent~o s+ pode estar no A ou no C..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku009' 00 
+TEXT Ikumi: "N~o, nem no A... j$ que n~o somos muitos..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har070' 00 
+TEXT Haruka: "Ah, ent~o % no C."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Procurar a irm~ de Yui' 'Deixar Haruka procurar' 
+IF 16 03 00 15 01 00 02 00 .LABEL40 
+PLAY_SOUND 01 '019_iku010' 00 
+TEXT Ikumi: "Eu vou procurar por ela."
+STOP_SOUND 01 
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har071' 00 
+TEXT Haruka: "Espera. Seria melhor eu procurar, j$ que estou na Classe C."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku011' 00 
+TEXT Ikumi: "...Ent~o, vamos procurar juntas."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har072' 00 
+TEXT Haruka: "N~o. Precisamos manter nosso comportamento o mais discreto poss&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har073' 00 
+TEXT Haruka: "Al%m disso, tem algo que eu gostaria que voc[ fizesse."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku012' 00 
+TEXT Ikumi: "Algo que voc[ quer que eu fa|a?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har074' 00 
+TEXT Haruka: "Eu quero que voc[ encontre uma rota de fuga para o exterior."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har075' 00 
+TEXT Haruka: "De alguma forma, vamos tirar Yui e sua irm~ daqui amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku013' 00 
+TEXT Ikumi: "Ok, eu vou fazer isso."
+STOP_SOUND 01 
+TEXT N~o h$ como deixar Yui aqui assim.
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har076' 00 
+TEXT Haruka: "...Ent~o, voc[ tem alguma pista sobre sua irm~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui061' 00 
+TEXT Yui: "Eu tenho uma foto..."
+STOP_SOUND 01 
+TEXT Yui tirou uma foto da carteira e entregou para Haruka.
+BACKGROUND 'FG023' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui062' 00 
+TEXT Yui: "Embora tenha sido tirada h$ tr[s anos..."
+STOP_SOUND 01 
+TEXT Tanto Yui quanto sua irm~ estavam nessa foto.
+TEXT Esta mulher deve ser a irm~ de Yui.
+TEXT Uma foto das duas irm~s felizes.
+TEXT Mas essa irm~ jogou sua vida fora para se juntar a FARGO.
+TEXT Deixando Yui sozinha...
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har077' 00 
+TEXT Haruka: "Qual % o nome da sua irm~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui063' 00 
+TEXT Yui: "...Yuri."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har078' 00 
+TEXT Haruka: "Yuri-san, entendi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har079' 00 
+TEXT Haruka: "Eu vou tentar encontr$-la amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui064' 00 
+TEXT Yui: "Obrigada... muito obrigada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku014' 00 
+TEXT Ikumi: "E eu vou me certificar de encontrar uma rota de fuga."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui065' 00 
+TEXT Yui: "Obrigada tamb%m, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har080' 00 
+TEXT Haruka: "Ent~o, amanh~, nos reuniremos nesse hor$rio na passagem subterr}nea."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku015' 00 
+TEXT Ikumi: "Ent~o, voc[s ter~o que esperar mais um dia."
+STOP_SOUND 01 
+TEXT Coloquei minha m~o na cabe|a de Yui para tentar anim$-la.
+PLAY_SOUND 01 '003_yui066' 00 
+TEXT Yui: "Sim..."
+STOP_SOUND 01 
+TEXT Ela assentiu levemente.
+PLAY_SOUND 01 '006_har081' 00 
+TEXT Haruka: "Vamos deixar por aqui por hoje. Vamos."
+STOP_SOUND 01 
+TEXT Depois de terminarmos as palavras de consolo para Yui, ambos sa&mos do seu quarto.
+JMP .LABEL41 
+
+:LABEL40
+PLAY_SOUND 01 '019_iku016' 00 
+TEXT Ikumi: "Eu deixo isso com voc[, Haruka."
+STOP_SOUND 01 
+TEXT Como Haruka est$ na mesma classe, ela seria a melhor escolha.
+SPRITE 'CGHA07' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har082' 00 
+TEXT Haruka: "Entendido."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har076' 00 
+TEXT Haruka: "...Ent~o, voc[ tem alguma pista sobre sua irm~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui061' 00 
+TEXT Yui: "Eu tenho uma foto..."
+STOP_SOUND 01 
+TEXT Yui tirou uma foto da carteira e entregou para Haruka.
+BACKGROUND 'FG023' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '003_yui062' 00 
+TEXT Yui: "Embora tenha sido tirada h$ tr[s anos..."
+STOP_SOUND 01 
+TEXT Tanto Yui quanto sua irm~ estavam nessa foto.
+TEXT Esta mulher deve ser a irm~ de Yui.
+TEXT Uma foto das duas irm~s felizes.
+TEXT Mas essa irm~ jogou sua vida fora para se juntar a FARGO.
+TEXT Deixando Yui sozinha...
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGYI09' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har077' 00 
+TEXT Haruka: "Qual % o nome da sua irm~?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui063' 00 
+TEXT Yui: "...Yuri."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har078' 00 
+TEXT Haruka: "Yuri-san, entendi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har079' 00 
+TEXT Haruka: "Vou tentar encontr$-la amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '003_yui064' 00 
+TEXT Yui: "Obrigada... muito obrigada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har083' 00 
+TEXT Haruka: "...Agora, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku017' 00 
+TEXT Ikumi: "O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har084' 00 
+TEXT Haruka: "Garanta uma rota de fuga para fora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har085' 00 
+TEXT Haruka: "Temos que tirar Yui e sua irm~ daqui amanh~."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku018' 00 
+TEXT Ikumi: "Certo... Eu farei isso."
+STOP_SOUND 01 
+TEXT Eu n~o podia permitir que uma garota t~o inocente sofresse ainda mais.
+PLAY_SOUND 01 '003_yui065' 00 
+TEXT Yui: "Obrigada tamb%m, Ikumi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har086' 00 
+TEXT Haruka: "Ent~o amanh~ nos encontraremos nesse hor$rio na passagem subterr}nea."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku015' 00 
+TEXT Ikumi: "Voc[s ter~o que esperar mais um dia."
+STOP_SOUND 01 
+TEXT Coloquei minha m~o na cabe|a de Yui para tentar anim$-la.
+PLAY_SOUND 01 '003_yui066' 00 
+TEXT Yui: "Sim..."
+STOP_SOUND 01 
+TEXT Ela assentiu levemente.
+PLAY_SOUND 01 '006_har087' 00 
+TEXT Haruka: "Vamos deixar assim por hoje. Vamos."
+STOP_SOUND 01 
+TEXT Depois de terminarmos as palavras de consolo para Yui, sa&mos de seu quarto.
+
+:LABEL41
+X_04 0039 0001 
+X_04 004B 0001 
+X_00 0009 0036 
+GOSUB_SCRIPT 'B_D2' 
+IF 16 17 00 15 01 00 02 00 .LABEL42 
+GOTO_SCRIPT 'INIT' 
+
+:LABEL42
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 00 'mon_cd04' 01 
+PLAY_SOUND 01 '005_boy000' 00 
+TEXT Garoto: "Bem-vinda de volta."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku000' 00 
+TEXT Ikumi: "Ei, que hist+ria % essa...?"
+STOP_SOUND 01 
+TEXT Eu imediatamente comecei a perguntar.
+PLAY_SOUND 01 '005_boy001' 00 
+TEXT Garoto: "Hm...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku001' 00 
+TEXT Ikumi: "Voc[ sabe muito bem como elas s~o tratadas nas classes B e C."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy002' 00 
+TEXT Garoto: "N~o falamos sobre isso ontem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku002' 00 
+TEXT Ikumi: "Falamos, mas eu n~o sabia que chegava a esse ponto!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku003' 00 
+TEXT Ikumi: "Uma das minhas amigas... foi estuprada..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy003' 00 
+TEXT Garoto: "Sim, isso % inevit$vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku004' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy004' 00 
+TEXT Garoto: "Todas voc[s est~o tentando obter a for|a invis&vel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy005' 00 
+TEXT Garoto: "Essa for|a % realmente poderosa... voc[ n~o a obt%m sem os m%todos mais extremos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy006' 00 
+TEXT Garoto: "Voc[s n~o vieram aqui preparadas para aceitar isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku005' 00 
+TEXT Ikumi: "Bem... sim......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku006' 00 
+TEXT Ikumi: "Mas n~o consigo ver isso como nada al%m de se aproveitar da situa|~o!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku007' 00 
+TEXT Ikumi: "Realmente h$ algum sentido nisso!?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy007' 00 
+TEXT Garoto: "H$."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku008' 00 
+TEXT Ikumi: "O qu[...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy008' 00 
+TEXT Garoto: "Fortalecimento mental."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku009' 00 
+TEXT Ikumi: "Isso est$ se tornando um clich[..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy009' 00 
+TEXT Garoto: "Voc[ est$ ouvindo isso porque essa % a verdade."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku010' 00 
+TEXT Ikumi: "Essa % outra frase que j$ ouvi algumas vezes..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy010' 00 
+TEXT Garoto: "Voc[ est$ bem $cida hoje."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku011' 00 
+TEXT Ikumi: "Depois de descobrir essa verdade..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy011' 00 
+TEXT Garoto: "Voc[ est$ cansada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku012' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy012' 00 
+TEXT Garoto: "A verdade % sempre uma coisa cruel."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy013' 00 
+TEXT Garoto: "Mas eventualmente voc[ vai entender."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku013' 00 
+TEXT Ikumi: "Isso... % realmente poss&vel...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy014' 00 
+TEXT Garoto: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy015' 00 
+TEXT Garoto: "Se voc[ vivenciar uma realidade cruel, voc[ vai conhecer exist[ncias ainda mais traumatizantes."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy016' 00 
+TEXT Garoto: "E ao ver essa crueldade maior, a verdadeira realidade se normaliza."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy017' 00 
+TEXT Garoto: "@ assim que funciona."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku014' 00 
+TEXT Ikumi: "Eu entendo o que voc[ est$ dizendo, mas simplesmente n~o parece certo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy018' 00 
+TEXT Garoto: "Voc[ est$ cansada."
+STOP_SOUND 01 
+TEXT Ele repetiu essas palavras.
+PLAY_SOUND 01 '020_iku015' 00 
+TEXT Ikumi: "Deixe-me perguntar uma coisa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy019' 00 
+TEXT Garoto: "Claro."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku016' 00 
+TEXT Ikumi: "Voc[ faz as mesmas coisas que os outros homens aqui?"
+STOP_SOUND 01 
+SPRITE 'CGSY04' 
+X_24 01 
+X_25 09 
+TEXT Garoto: "........."
+STOP_SOUND 01 
+TEXT Uma leve pausa.
+PLAY_SOUND 01 '005_boy020' 00 
+TEXT Garoto: "...Eu sou diferente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku017' 00 
+TEXT Ikumi: "...S%rio?"
+STOP_SOUND 01 
+SPRITE 'CGSY01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '005_boy021' 00 
+TEXT Garoto: "Sim."
+STOP_SOUND 01 
+TEXT Eu me senti... um pouco mais tranquila.
+TEXT Eu n~o entendia isso.
+BACKGROUND 'FG010' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd15' 01 
+TEXT ......
+TEXT .........
+TEXT ...Isso mesmo.
+TEXT Uma rota de fuga... esse cara pode saber uma...
+TEXT .........
+TEXT 
+SELECT 0003 'Perguntar' 'N~o Perguntar' 
+IF 16 03 00 15 01 00 02 00 .LABEL43 
+TEXT Ser$ que esse garoto realmente sabe algo t~o importante quanto a localiza|~o de uma rota de fuga?
+TEXT Para ser sincera, eu duvidava disso.
+TEXT Mesmo que ele soubesse, n~o acho que contaria pra mim...
+TEXT Mas talvez...
+PLAY_SOUND 01 '020_iku018' 00 
+TEXT Ikumi: "...Ei, voc[ est$ acordado...?"
+STOP_SOUND 01 
+TEXT Garoto: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy022' 00 
+TEXT Garoto: "Mm...... o qu[?"
+STOP_SOUND 01 
+TEXT Parece que o acordei.
+PLAY_SOUND 01 '020_iku019' 00 
+TEXT Ikumi: "Bem, eu tenho algo para te perguntar de novo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy023' 00 
+TEXT Garoto: "O que %?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku020' 00 
+TEXT Ikumi: "Como algu%m pode chegar at% o lado de fora...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy024' 00 
+TEXT Garoto: "...Voc[ quer fugir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku021' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy025' 00 
+TEXT Garoto: "@ imposs&vel..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku022' 00 
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy026' 00 
+TEXT Garoto: "Nenhuma das portas para o lado de fora vai abrir sem passaportes ou cart/es de identifica|~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku023' 00 
+TEXT Ikumi: "Mas, voc[ n~o tem um?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy027' 00 
+TEXT Garoto: "N~o, eu n~o tenho..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku024' 00 
+TEXT Ikumi: "Por que n~o...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy028' 00 
+TEXT Garoto: "Porque eu sou t~o baixo na hierarquia da organiza|~o. Por favor, n~o jogue isso na minha cara."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku025' 00 
+TEXT Ikumi: "Ah...... desculpa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy029' 00 
+TEXT Garoto: "O que eu estou tentando dizer % que, uma vez que voc[ entra aqui, n~o pode sair enquanto n~o completar seu treinamento."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku026' 00 
+TEXT Ikumi: "S%rio...?"
+STOP_SOUND 01 
+TEXT Garoto: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy030' 00 
+TEXT Garoto: "...O que voc[ est$ tentando fazer?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku027' 00 
+TEXT Ikumi: "Eh......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy031' 00 
+TEXT Garoto: "@ aquela sua amiga?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku028' 00 
+TEXT Ikumi: "...Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy032' 00 
+TEXT Garoto: "Voc[ quer tir$-la daqui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku029' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy033' 00 
+TEXT Garoto: "O que voc[ vai fazer...?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Eu n~o vou fugir' 'Bem, talvez...' 
+IF 16 03 00 15 01 00 02 00 .LABEL44 
+PLAY_SOUND 01 '020_iku030' 00 
+TEXT Ikumi: "Eu n~o vou fugir..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku031' 00 
+TEXT Ikumi: "Ainda n~o fiz nada aqui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy034' 00 
+TEXT Garoto: "Entendi..."
+STOP_SOUND 01 
+JMP .LABEL45 
+
+:LABEL44
+PLAY_SOUND 01 '020_iku032' 00 
+TEXT Ikumi: "Bem, talvez eu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy035' 00 
+TEXT Garoto: "Eh...?"
+STOP_SOUND 01 
+TEXT N~o......isso n~o % um 'talvez'.
+TEXT Eu n~o vou fugir. Al%m disso, ainda n~o fiz nada aqui ainda.
+PLAY_SOUND 01 '020_iku033' 00 
+TEXT Ikumi: "N~o, n~o, eu n~o vou embora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy036' 00 
+TEXT Garoto: "Entendi..."
+STOP_SOUND 01 
+
+:LABEL45
+PLAY_SOUND 01 '020_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy037' 00 
+TEXT Garoto: "Ent~o vou te contar uma coisa."
+STOP_SOUND 01 
+TEXT 'Ent~o'...? Eu n~o sabia o que ele queria dizer, mas deixei pra l$.
+PLAY_SOUND 01 '020_iku035' 00 
+TEXT Ikumi: "O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy038' 00 
+TEXT Garoto: "Sabe o t^nel subterr}neo que falei ontem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku038' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy039' 00 
+TEXT Garoto: "Se voc[ se espremer para dentro de um duto de ventila|~o l$ embaixo, pode chegar at% o dep+sito de carga para os caminh/es."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku037' 00 
+TEXT Ikumi: "Ah, obrigada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy040' 00 
+TEXT Garoto: "Mas % definitivamente inseguro, ent~o tenha cuidado."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku038' 00 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy041' 00 
+TEXT Garoto: "...Isso % tudo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku039' 00 
+TEXT Ikumi: "Sim, desculpa..."
+STOP_SOUND 01 
+TEXT O garoto adormeceu logo depois que respondi.
+TEXT Embora eu sentisse que de algum modo o tinha prejudicado, consegui uma informa|~o crucial.
+TEXT Eu segui o garoto para um sono profundo.
+JMP .LABEL46 
+
+:LABEL43
+TEXT Honestamente, eu duvidava que esse garoto soubesse algo t~o importante quanto a localiza|~o de uma rota de fuga.
+TEXT Mesmo que soubesse, n~o acho que ele me contaria.
+TEXT Vou procurar eu mesma. Vou parecer uma idiota se continuar dependendo desse cara.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Mas ele n~o me falou sobre o t^nel subterr}neo?
+TEXT Eu ainda n~o sabia o motivo de ele ter me contado isso t~o facilmente, mas isso n~o importava.
+TEXT Se eu posso us$-lo, ent~o deveria aproveitar isso ao m$ximo.
+TEXT E mesmo que ele n~o saiba, n~o custa nada perguntar.
+PLAY_SOUND 01 '020_iku040' 00 
+TEXT Ikumi: "Ei..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy042' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+TEXT Droga... ele j$ t$ dormindo...
+TEXT Eu poderia perguntar amanh~, mas eu sempre tenho que sair logo cedo...
+TEXT Ok, eu vou acord$-lo.
+TEXT 
+SELECT 0003 'Acordar com a minha voz' 'Acordar de outra forma' 
+IF 16 03 00 15 01 00 02 00 .LABEL47 
+PLAY_SOUND 01 '020_iku041' 00 
+TEXT Ikumi: "...Ei, acorda."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy043' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku042' 00 
+TEXT Ikumi: "...Preciso te perguntar uma coisa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy044' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku043' 00 
+TEXT Ikumi: "...Acorda..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy045' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku044' 00 
+TEXT Ikumi: "Acorda!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy046' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku045' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy047' 00 
+TEXT Garoto: "......Zzzz..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku046' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Eu segurei meu travesseiro acima da cabe|a e o joguei na cara do garoto.
+PLAY_SOUND 01 'se34' 00 
+TEXT *Bop!*
+PLAY_SOUND 01 '005_boy048' 00 
+TEXT Garoto: "A-Ahhh! O-O que aconteceu!?"
+STOP_SOUND 01 
+TEXT Ele acordou confuso e desorientado.
+PLAY_SOUND 01 '020_iku047' 00 
+TEXT Ikumi: "...Voc[ n~o acabou de cochilar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy049' 00 
+TEXT Garoto: "...Ahhh, pode ser."
+STOP_SOUND 01 
+TEXT Esse cara realmente % t~o simples quanto eu pensava.
+PLAY_SOUND 01 '020_iku048' 00 
+TEXT Ikumi: "...Preciso te perguntar uma coisa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy050' 00 
+TEXT Garoto: "Eh? Direta como sempre, n%."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy051' 00 
+TEXT Garoto: "Pode perguntar. Mas n~o posso garantir que vou responder."
+STOP_SOUND 01 
+JMP .LABEL48 
+
+:LABEL47
+TEXT Se eu n~o for t~o longe, ele provavelmente n~o vai acordar.
+TEXT Eu agarrei meu travesseiro e lentamente o empurrei para o rosto do garoto.
+PLAY_SOUND 01 '005_boy052' 00 
+TEXT Garoto: "...Mm! ...Mmmm!!"
+STOP_SOUND 01 
+TEXT Ele come|ou a se debater.
+PLAY_SOUND 01 '005_boy053' 00 
+TEXT Garoto: "Aaaahhhh!"
+STOP_SOUND 01 
+TEXT Ele se sentou instantaneamente.
+PLAY_SOUND 01 '005_boy054' 00 
+TEXT Garoto: "...Voc[ por acaso fez alguma coisa...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku049' 00 
+TEXT Ikumi: "N~o, de jeito nenhum."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy056' 00 
+TEXT Garoto: "Tem certeza...?"
+STOP_SOUND 01 
+TEXT "........."
+PLAY_SOUND 01 '020_iku050' 00 
+TEXT Ikumi: "Voc[ n~o cochilou?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy057' 00 
+TEXT Garoto: "Eu acho que sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy058' 00 
+TEXT Garoto: "@... eu pensei que seria melhor dormir..."
+STOP_SOUND 01 
+TEXT Ele cruzou os bra|os para pensar.
+PLAY_SOUND 01 '020_iku051' 00 
+TEXT Ikumi: "...N~o precisa inventar desculpa..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy059' 00 
+TEXT Garoto: "Mm?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku052' 00 
+TEXT Ikumi: "Preciso te perguntar uma coisa."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy060' 00 
+TEXT Garoto: "T~o direto assim?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku053' 00 
+TEXT Ikumi: "Sim, t~o direto."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy061' 00 
+TEXT Garoto: "Ent~o pode perguntar."
+STOP_SOUND 01 
+
+:LABEL48
+PLAY_SOUND 01 '020_iku054' 00 
+TEXT Ikumi: "Como algu%m conseguiria sair daqui...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy062' 00 
+TEXT Garoto: "...Voc[ quer fugir?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku055' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy063' 00 
+TEXT Garoto: "@ imposs&vel..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku056' 00 
+TEXT Ikumi: "Eh...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy064' 00 
+TEXT Garoto: "Nenhuma das portas para o exterior abre sem cart/es de acesso ou de identifica|~o..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku057' 00 
+TEXT Ikumi: "Mas, voc[ n~o tem um?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy065' 00 
+TEXT Garoto: "N~o, eu n~o tenho..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku058' 00 
+TEXT Ikumi: "Por que n~o...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy066' 00 
+TEXT Garoto: "Er... Se eu n~o tenho % porque n~o tenho."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku059' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku060' 00 
+TEXT Ikumi: "Voc[ % t~o insignificante assim para n~o ter um...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy067' 00 
+TEXT Garoto: "Voc[ n~o tem nenhuma delicadeza..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku061' 00 
+TEXT Ikumi: "N~o fale assim depois de mexer nas coisas dos outros."
+STOP_SOUND 01 
+TEXT Garoto: "........."
+PLAY_SOUND 01 '005_boy068' 00 
+TEXT Garoto: "...Enfim, nesse lugar, uma vez que voc[ entra, n~o pode sair sem completar seu treinamento."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku062' 00 
+TEXT Ikumi: "S%rio...?"
+STOP_SOUND 01 
+TEXT Garoto: "........."
+PLAY_SOUND 01 '005_boy069' 00 
+TEXT Garoto: "...O que voc[ est$ tentando fazer?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku063' 00 
+TEXT Ikumi: "Eh......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy031' 00 
+TEXT Garoto: "@ aquela sua amiga?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku064' 00 
+TEXT Ikumi: "...Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy032' 00 
+TEXT Garoto: "Voc[ quer tirar ela daqui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku065' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy033' 00 
+TEXT Garoto: "O que voc[ vai fazer...?"
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Eu n~o vou fugir' 'Bem, talvez...' 
+IF 16 03 00 15 01 00 02 00 .LABEL49 
+PLAY_SOUND 01 '020_iku066' 00 
+TEXT Ikumi: "Eu n~o vou fugir..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku067' 00 
+TEXT Ikumi: "Ainda n~o cumpri minha miss~o aqui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy034' 00 
+TEXT Garoto: "Entendi..."
+STOP_SOUND 01 
+JMP .LABEL50 
+
+:LABEL49
+PLAY_SOUND 01 '020_iku068' 00 
+TEXT Ikumi: "Bem, talvez eu..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy035' 00 
+TEXT Garoto: "Eh...?"
+STOP_SOUND 01 
+TEXT N~o...... isso n~o % um "talvez".
+TEXT Eu n~o vou fugir. Al%m disso, ainda n~o consegui nada aqui ainda.
+PLAY_SOUND 01 '020_iku069' 00 
+TEXT Ikumi: "N~o, n~o, eu n~o vou embora."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy036' 00 
+TEXT Garoto: "Entendi..."
+STOP_SOUND 01 
+
+:LABEL50
+PLAY_SOUND 01 '020_iku070' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy037' 00 
+TEXT Garoto: "Ent~o eu vou te contar algo."
+STOP_SOUND 01 
+TEXT 'Ent~o'...? Eu n~o estava certo do que ele queria dizer, mas deixei pra l$.
+PLAY_SOUND 01 '020_iku071' 00 
+TEXT Ikumi: "O qu[?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy038' 00 
+TEXT Garoto: "Sabe o t^nel subterr}neo que eu te falei ontem?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku072' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy039' 00 
+TEXT Garoto: "Se voc[ entrar em um duto de ventila|~o l$ embaixo, pode chegar ao ponto de carregamento para os caminh/es."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku073' 00 
+TEXT Ikumi: "Ah, obrigada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy040' 00 
+TEXT Garoto: "Mas isso % definitivamente arriscado, ent~o tome cuidado."
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku074' 00 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '005_boy041' 00 
+TEXT Garoto: "...Isso % tudo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '020_iku075' 00 
+TEXT Ikumi: "Sim, me desculpe..."
+STOP_SOUND 01 
+TEXT O garoto adormeceu logo depois que eu respondi.
+TEXT Embora eu sentisse que tinha feito algo errado, eu tinha conseguido uma informa|~o crucial.
+TEXT Eu segui o garoto em um sono profundo tamb%m.
+
+:LABEL46
+BACKGROUND 'BO' 
+X_24 00 
+X_25 06 
+TEXT .........
+TEXT ......
+TEXT ...
+TEXT 
+GOTO_SCRIPT 'DAY04' 
+EOF

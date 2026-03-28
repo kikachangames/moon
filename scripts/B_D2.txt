@@ -1,0 +1,1962 @@
+
+# MOON SCRIPT FILE "B_D2.SNX"
+#
+# Comments are lines beginning with a # character
+
+X_00 0013 0002 
+IF 16 0E 00 15 01 00 02 00 .LABEL0 
+SETSTATUS '　Dia 3　Manh~　Pr%dio B'
+JMP .LABEL1 
+
+:LABEL0
+IF 16 0E 00 15 02 00 02 00 .LABEL2 
+SETSTATUS '　Dia 3　Meio-dia　Pr%dio Ｂ'
+JMP .LABEL1 
+
+:LABEL2
+IF 16 0E 00 15 03 00 02 00 .LABEL4 
+SETSTATUS '　Dia 3　Tarde　Pr%dio B'
+JMP .LABEL1 
+
+:LABEL4
+IF 16 0E 00 15 04 00 02 00 .LABEL6 
+SETSTATUS '　Dia 3　Noite　Pr%dio B'
+JMP .LABEL1 
+
+:LABEL6
+IF 16 0E 00 15 05 00 02 00 .LABEL1 
+SETSTATUS '　Dia 3　Noite　Pr%dio B'
+
+:LABEL1
+X_3E 03 74 'imeplate' 
+X_56 03 0028 000A 
+X_3E 00 64 'ay3' 
+X_56 00 005F 0017 
+X_3E 02 62 'tou' 
+X_56 02 00BE 0017 
+IF 16 0E 00 15 01 00 02 00 .LABEL9 
+X_3E 01 74 'ime1' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL9
+IF 16 0E 00 15 02 00 02 00 .LABEL11 
+X_3E 01 74 'ime2' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL11
+IF 16 0E 00 15 03 00 02 00 .LABEL13 
+X_3E 01 74 'ime3' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL13
+IF 16 0E 00 15 04 00 02 00 .LABEL15 
+X_3E 01 74 'ime4' 
+X_56 01 0096 0017 
+JMP .LABEL10 
+
+:LABEL15
+IF 16 0E 00 15 05 00 02 00 .LABEL10 
+X_3E 01 74 'ime5' 
+X_56 01 0096 0017 
+
+:LABEL10
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+IF 16 09 00 15 08 00 02 00 .LABEL18 
+JMP .LABEL19 
+
+:LABEL18
+IF 17 39 00 15 01 00 02 17 45 00 15 01 00 02 0F 00 .LABEL20 
+JMP .LABEL19 
+
+:LABEL20
+IF 17 45 00 15 01 00 02 16 42 00 15 00 00 02 0F 00 .LABEL22 
+JMP .LABEL19 
+
+:LABEL22
+IF 17 45 00 15 01 00 02 17 39 00 15 01 00 02 0F 00 .LABEL24 
+JMP .LABEL19 
+
+:LABEL24
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+X_01 0006 0009 
+
+:LABEL19
+X_00 0007 0002 
+IF 16 09 00 15 02 00 02 00 .LABEL26 
+X_00 0006 0000 
+JMP .LABEL27 
+JMP .LABEL27 
+
+:LABEL26
+IF 16 09 00 15 03 00 02 00 .LABEL29 
+X_00 0006 0000 
+JMP .LABEL30 
+JMP .LABEL27 
+
+:LABEL29
+IF 16 09 00 15 1B 00 02 00 .LABEL32 
+X_00 0006 0000 
+JMP .LABEL33 
+JMP .LABEL27 
+
+:LABEL32
+IF 16 09 00 15 04 00 02 00 .LABEL35 
+X_00 0006 0000 
+JMP .LABEL36 
+JMP .LABEL27 
+
+:LABEL35
+IF 16 09 00 15 31 00 02 00 .LABEL38 
+JMP .LABEL39 
+JMP .LABEL27 
+
+:LABEL38
+IF 16 09 00 15 32 00 02 00 .LABEL41 
+JMP .LABEL42 
+JMP .LABEL27 
+
+:LABEL41
+IF 16 09 00 15 33 00 02 00 .LABEL44 
+JMP .LABEL45 
+JMP .LABEL27 
+
+:LABEL44
+IF 16 09 00 15 34 00 02 00 .LABEL47 
+JMP .LABEL48 
+JMP .LABEL27 
+
+:LABEL47
+IF 16 09 00 15 08 00 02 00 .LABEL50 
+X_00 0006 0000 
+JMP .LABEL51 
+JMP .LABEL27 
+
+:LABEL50
+IF 16 09 00 15 30 00 02 00 .LABEL53 
+X_00 0006 0000 
+JMP .LABEL54 
+JMP .LABEL27 
+
+:LABEL53
+IF 16 09 00 15 09 00 02 00 .LABEL56 
+JMP .LABEL57 
+JMP .LABEL27 
+
+:LABEL56
+IF 16 09 00 15 0A 00 02 00 .LABEL59 
+JMP .LABEL60 
+JMP .LABEL27 
+
+:LABEL59
+IF 16 09 00 15 0B 00 02 00 .LABEL62 
+JMP .LABEL63 
+JMP .LABEL27 
+
+:LABEL62
+IF 16 09 00 15 0C 00 02 00 .LABEL65 
+JMP .LABEL66 
+JMP .LABEL27 
+
+:LABEL65
+IF 16 09 00 15 0D 00 02 00 .LABEL68 
+JMP .LABEL69 
+JMP .LABEL27 
+
+:LABEL68
+IF 16 09 00 15 0E 00 02 00 .LABEL71 
+JMP .LABEL72 
+JMP .LABEL27 
+
+:LABEL71
+IF 16 09 00 15 0F 00 02 00 .LABEL74 
+JMP .LABEL75 
+JMP .LABEL27 
+
+:LABEL74
+IF 16 09 00 15 35 00 02 00 .LABEL77 
+JMP .LABEL78 
+JMP .LABEL27 
+
+:LABEL77
+IF 16 09 00 15 11 00 02 00 .LABEL80 
+JMP .LABEL81 
+JMP .LABEL27 
+
+:LABEL80
+IF 16 09 00 15 2C 00 02 00 .LABEL83 
+JMP .LABEL84 
+JMP .LABEL27 
+
+:LABEL83
+IF 16 09 00 15 36 00 02 00 .LABEL86 
+JMP .LABEL87 
+JMP .LABEL27 
+
+:LABEL86
+IF 16 09 00 15 14 00 02 00 .LABEL89 
+JMP .LABEL90 
+JMP .LABEL27 
+
+:LABEL89
+IF 16 09 00 15 2D 00 02 00 .LABEL92 
+JMP .LABEL93 
+JMP .LABEL27 
+
+:LABEL92
+IF 16 09 00 15 17 00 02 00 .LABEL95 
+JMP .LABEL96 
+JMP .LABEL27 
+
+:LABEL95
+IF 16 09 00 15 19 00 02 00 .LABEL98 
+JMP .LABEL99 
+JMP .LABEL27 
+
+:LABEL98
+IF 16 09 00 15 19 00 02 00 .LABEL101 
+JMP .LABEL99 
+JMP .LABEL27 
+
+:LABEL101
+IF 16 09 00 15 2E 00 02 00 .LABEL104 
+JMP .LABEL105 
+JMP .LABEL27 
+
+:LABEL104
+IF 16 09 00 15 1A 00 02 00 .LABEL107 
+JMP .LABEL108 
+JMP .LABEL27 
+
+:LABEL107
+IF 16 09 00 15 2F 00 02 00 .LABEL27 
+JMP .LABEL111 
+
+:LABEL27
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'Bg019' 
+X_24 00 
+X_25 06 
+IF 17 45 00 15 01 00 02 16 40 00 15 00 00 02 0F 00 .LABEL112 
+TEXT O quarto estava escuro.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har025' 00 
+TEXT Haruka: "N~o tem ningu%m aqui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT Haruka e eu deixamos o quarto.
+X_00 0040 0001 
+JMP .LABEL113 
+
+:LABEL112
+IF 17 45 00 15 01 00 02 16 40 00 15 01 00 02 0F 00 .LABEL114 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har026' 00 
+TEXT Haruka: "Ainda n~o tem ningu%m aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT Haruka e eu sa&mos do quarto.
+JMP .LABEL113 
+
+:LABEL114
+TEXT As MINMES n~o funcionam # noite...
+TEXT Eu sa& do local.
+
+:LABEL113
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+X_00 0009 000D 
+JMP .LABEL69 
+
+:LABEL30
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'Bg019' 
+X_24 00 
+X_25 06 
+IF 17 45 00 15 01 00 02 16 3F 00 15 00 00 02 0F 00 .LABEL117 
+TEXT O quarto estava escuro.
+TEXT N~o % de surpreender que n~o haja ningu%m aqui no momento.
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har033' 00 
+TEXT Haruka: "Sim... n~o tem como ela estar aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT Haruka e eu deixamos o quarto.
+X_00 003F 0001 
+JMP .LABEL118 
+
+:LABEL117
+IF 17 45 00 15 01 00 02 16 3F 00 15 01 00 02 0F 00 .LABEL119 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har035' 00 
+TEXT Haruka: "Ningu%m por aqui ainda..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT Haruka e eu sa&mos do quarto.
+JMP .LABEL118 
+
+:LABEL119
+TEXT O ELPOD vazio estava envolto em sil[ncio...
+TEXT Como n~o h$ nada para fazer aqui, sa& da sala.
+
+:LABEL118
+X_00 0009 001A 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL108 
+
+:LABEL33
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'Bg021' 
+X_24 00 
+X_25 06 
+IF 17 45 00 15 01 00 02 16 3C 00 15 00 00 02 0F 00 .LABEL122 
+TEXT Uma cama estava no centro do quarto escuro.
+TEXT Naturalmente, n~o havia ningu%m aqui no momento.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har030' 00 
+TEXT Haruka: "Nada por aqui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku041' 00 
+TEXT Ikumi: "@ o que parece..."
+STOP_SOUND 01 
+TEXT Haruka e eu deixamos o quarto.
+X_00 003C 0001 
+JMP .LABEL123 
+
+:LABEL122
+IF 17 45 00 15 01 00 02 16 3C 00 15 01 00 02 0F 00 .LABEL124 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har032' 00 
+TEXT Haruka: "N~o tem ningu%m aqui..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku017' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT Haruka e eu deixamos o quarto.
+JMP .LABEL123 
+
+:LABEL124
+TEXT Nenhum movimento na Sala de Relaxamento...
+TEXT N~o tendo motivos para ficar, sa& da sala.
+
+:LABEL123
+X_00 0009 000E 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL72 
+
+:LABEL36
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG007' 
+X_24 00 
+X_25 06 
+IF 17 45 00 15 01 00 02 16 3D 00 15 00 00 02 0F 00 .LABEL127 
+TEXT Infelizmente, n~o havia ningu%m no refeit+rio.
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har038' 00 
+TEXT Haruka: "...@ uma pena que ela n~o esteja por aqui."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku043' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+TEXT N+s sa&mos do refeit+rio.
+X_00 003D 0001 
+JMP .LABEL128 
+
+:LABEL127
+IF 17 45 00 15 01 00 02 16 0E 00 15 05 00 02 0F 00 .LABEL129 
+TEXT Como esper$vamos, o refeit+rio estava vazio.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har040' 00 
+TEXT Haruka: "Vamos..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+TEXT Sa&mos do refeit+rio.
+JMP .LABEL128 
+
+:LABEL129
+TEXT O refeit+rio estava silencioso # noite.
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Sem nenhum motivo para ficar, sa& do local.
+
+:LABEL128
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+IF 17 24 00 15 01 00 02 00 .LABEL131 
+X_00 0009 000F 
+JMP .LABEL75 
+JMP .LABEL39 
+
+:LABEL131
+X_00 0009 002F 
+JMP .LABEL111 
+
+:LABEL39
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL42
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL45
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL48
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+
+:LABEL51
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG002' 
+X_24 00 
+X_25 06 
+IF 17 40 00 15 00 00 02 00 .LABEL135 
+TEXT Um quarto vazio...
+JMP .LABEL136 
+
+:LABEL135
+TEXT Um quarto vazio...
+X_04 0040 0000 
+
+:LABEL136
+X_04 0049 0000 
+IF 17 45 00 15 01 00 02 00 .LABEL137 
+IF 17 3F 00 15 00 00 02 16 45 00 15 00 00 02 0F 00 .LABEL138 
+TEXT A entrada aqui tamb%m estava embaixo de uma cama, ent~o eu mal conseguia sair.
+TEXT Quando sa&, estava em um c{modo igual aos aposentos do Pr%dio A.
+SPRITE 'CGHA01' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har001' 00 
+TEXT Haruka: "O qu[...? Isso % um quarto particular?"
+STOP_SOUND 01 
+TEXT Haruka me seguiu para fora da passagem.
+PLAY_SOUND 01 '018_iku024' 00 
+TEXT Ikumi: "...I guess so."
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har002' 00 
+TEXT Haruka: "A Yui deve estar vivendo bem..."
+STOP_SOUND 01 
+X_00 0045 0001 
+JMP .LABEL139 
+
+:LABEL138
+IF 17 3F 00 15 01 00 02 16 45 00 15 00 00 02 0F 00 .LABEL139 
+TEXT Levantei a placa de ferro que cobria a passagem e rastejei para fora do espa|o estreito.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har003' 00 
+TEXT Haruka: "Voc[ tem bastante pr$tica nisso."
+STOP_SOUND 01 
+TEXT Haruka me seguiu para fora da passagem.
+PLAY_SOUND 01 '018_iku025' 00 
+TEXT Ikumi: "Sim, j$ passei por isso antes."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har004' 00 
+TEXT Haruka: "O qu[? Voc[ sabe onde est$ a Yui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku026' 00 
+TEXT Ikumi: "N~o, n~o cheguei t~o longe..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har005' 00 
+TEXT Haruka: "Entendi."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har006' 00 
+TEXT Haruka: "Ent~o, dever&amos come|ar a procurar."
+STOP_SOUND 01 
+X_00 0045 0001 
+
+:LABEL139
+TEXT 
+SELECT 0003 'Examinar' 'Entrar na passagem subterr}nea' 'Sair do quarto' 
+IF 16 03 00 15 01 00 02 00 .LABEL141 
+TEXT Tem uma escada para a passagem subterr}nea escondida embaixo da cama.
+JMP .LABEL142 
+
+:LABEL141
+IF 16 03 00 15 02 00 02 00 .LABEL143 
+IF 16 43 00 15 00 00 02 00 .LABEL144 
+PLAY_SOUND 01 '006_har007' 00 
+TEXT Haruka: "Ei, n~o acabamos de subir essa escada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku027' 00 
+TEXT Ikumi: "Ah, sim..."
+STOP_SOUND 01 
+X_00 0043 0001 
+JMP .LABEL145 
+
+:LABEL144
+PLAY_SOUND 01 '006_har008' 00 
+TEXT Haruka: "Voc[ precisa ir ao banheiro?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku028' 00 
+TEXT Ikumi: "N~o... t$ tudo bem..."
+STOP_SOUND 01 
+
+:LABEL145
+JMP .LABEL142 
+
+:LABEL143
+IF 16 03 00 15 03 00 02 00 .LABEL142 
+X_00 0009 0017 
+IF 17 45 00 15 01 00 02 16 42 00 15 00 00 02 0F 00 .LABEL148 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL96 
+
+:LABEL148
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL96 
+
+:LABEL142
+JMP .LABEL136 
+
+:LABEL137
+TEXT 
+SELECT 0003 'Examinar' 'Entrar na passagem subterr}nea' 'Sair do quarto' 
+IF 16 03 00 15 01 00 02 00 .LABEL152 
+TEXT Tem uma escada para a passagem subterr}nea escondida embaixo da cama.
+JMP .LABEL153 
+
+:LABEL152
+IF 16 03 00 15 02 00 02 00 .LABEL154 
+TEXT Me espremi embaixo da cama, levantei a cobertura de ferro e desapareci na escurid~o.
+X_00 0009 0024 
+GOTO_SCRIPT 'UG_D2' 
+JMP .LABEL153 
+
+:LABEL154
+X_00 0009 0017 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL96 
+
+:LABEL153
+JMP .LABEL136 
+
+:LABEL54
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG006' 
+X_24 00 
+X_25 06 
+IF 16 3E 00 15 00 00 02 00 .LABEL158 
+TEXT .........
+TEXT O quarto onde Yui foi estuprada...
+TEXT Um quarto imundo...
+TEXT N~o quero ficar nem mais um segundo aqui.
+X_00 003E 0001 
+JMP .LABEL159 
+
+:LABEL158
+TEXT .........
+TEXT N~o h$ necessidade de ficar aqui.
+
+:LABEL159
+X_00 0009 002E 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+JMP .LABEL105 
+
+:LABEL57
+X_01 0006 0009 
+
+:LABEL166
+X_52 0059 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(--)---:---' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL161 
+TEXT N~o tem nada aqui.
+JMP .LABEL162 
+
+:LABEL161
+IF 16 03 00 15 03 00 02 00 .LABEL162 
+X_00 0009 000A 
+JMP .LABEL60 
+JMP .LABEL162 
+
+:LABEL162
+JMP .LABEL166 
+
+:LABEL60
+X_01 0006 0009 
+
+:LABEL178
+X_52 0088 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL167 
+TEXT Um cruzamento de tr]s vias vazio.
+JMP .LABEL168 
+
+:LABEL167
+IF 16 03 00 15 02 00 02 00 .LABEL169 
+X_00 0009 0009 
+JMP .LABEL57 
+JMP .LABEL168 
+
+:LABEL169
+IF 16 03 00 15 03 00 02 00 .LABEL172 
+X_00 0009 000B 
+JMP .LABEL63 
+JMP .LABEL168 
+
+:LABEL172
+IF 16 03 00 15 04 00 02 00 .LABEL168 
+X_00 0009 0035 
+JMP .LABEL78 
+JMP .LABEL168 
+
+:LABEL168
+JMP .LABEL178 
+
+:LABEL63
+X_01 0006 0009 
+
+:LABEL187
+X_52 00B9 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL179 
+TEXT N~o tem nada aqui.
+JMP .LABEL180 
+
+:LABEL179
+IF 16 03 00 15 02 00 02 00 .LABEL181 
+X_00 0009 000A 
+JMP .LABEL60 
+JMP .LABEL180 
+
+:LABEL181
+IF 16 03 00 15 03 00 02 00 .LABEL180 
+X_00 0009 000C 
+JMP .LABEL66 
+JMP .LABEL180 
+
+:LABEL180
+JMP .LABEL187 
+
+:LABEL66
+X_01 0006 0009 
+
+:LABEL199
+X_52 00E9 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL188 
+TEXT N~o tem nada aqui.
+JMP .LABEL189 
+
+:LABEL188
+IF 16 03 00 15 02 00 02 00 .LABEL190 
+X_00 0009 000B 
+JMP .LABEL63 
+JMP .LABEL189 
+
+:LABEL190
+IF 16 03 00 15 03 00 02 00 .LABEL193 
+X_00 0009 000D 
+JMP .LABEL69 
+JMP .LABEL189 
+
+:LABEL193
+IF 16 03 00 15 04 00 02 00 .LABEL189 
+X_00 0009 0011 
+JMP .LABEL81 
+JMP .LABEL189 
+
+:LABEL189
+JMP .LABEL199 
+
+:LABEL69
+X_01 0006 0009 
+
+:LABEL219
+X_52 0120 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Corredor' '(→ )Leste: Sala de Relaxamento' '(↓ )Sul: MINMES' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL200 
+TEXT Na placa da porta est$ escrito "MINMES".
+JMP .LABEL201 
+
+:LABEL200
+IF 16 03 00 15 02 00 02 00 .LABEL202 
+X_00 0009 000C 
+JMP .LABEL66 
+JMP .LABEL201 
+
+:LABEL202
+IF 16 03 00 15 03 00 02 00 .LABEL205 
+X_00 0009 000E 
+JMP .LABEL72 
+JMP .LABEL201 
+
+:LABEL205
+IF 16 03 00 15 04 00 02 00 .LABEL201 
+IF 17 45 00 15 01 00 02 16 40 00 15 00 00 02 0F 00 .LABEL209 
+PLAY_SOUND 01 '006_har027' 00 
+TEXT Haruka: "N~o deve ter nenhum homem da FARGO por perto nesse momento... voc[ quer dar uma olhada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 0002 
+JMP .LABEL27 
+JMP .LABEL211 
+
+:LABEL209
+IF 17 45 00 15 01 00 02 16 40 00 15 01 00 02 0F 00 .LABEL212 
+PLAY_SOUND 01 '006_har029' 00 
+TEXT Haruka: "Voc[ quer examinar esse local novamente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 0002 
+JMP .LABEL27 
+JMP .LABEL211 
+
+:LABEL212
+IF 16 0E 00 15 05 00 02 17 39 00 15 01 00 02 0F 00 .LABEL215 
+X_00 0009 0002 
+JMP .LABEL27 
+JMP .LABEL211 
+
+:LABEL215
+TEXT N~o, entrar nos quartos de outros pr%dios neste momento % perigoso. Realmente n~o % uma boa ideia.
+
+:LABEL211
+JMP .LABEL201 
+
+:LABEL201
+JMP .LABEL219 
+
+:LABEL72
+X_01 0006 0009 
+
+:LABEL239
+X_52 0167 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: MINMES' '(→ )Leste: Refeit+rio' '(↓ )Sul: Sala de Relaxamento' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL220 
+TEXT Na placa da porta est$ escrito "Sala de Relaxamento".
+JMP .LABEL221 
+
+:LABEL220
+IF 16 03 00 15 02 00 02 00 .LABEL222 
+X_00 0009 000D 
+JMP .LABEL69 
+JMP .LABEL221 
+
+:LABEL222
+IF 16 03 00 15 03 00 02 00 .LABEL225 
+X_00 0009 000F 
+JMP .LABEL75 
+JMP .LABEL221 
+
+:LABEL225
+IF 16 03 00 15 04 00 02 00 .LABEL221 
+IF 17 45 00 15 01 00 02 16 3C 00 15 00 00 02 0F 00 .LABEL229 
+PLAY_SOUND 01 '006_har027' 00 
+TEXT Haruka: "N~o deve ter nenhum homem da FARGO por perto nesse momento... voc[ quer dar uma olhada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 001B 
+JMP .LABEL33 
+JMP .LABEL231 
+
+:LABEL229
+IF 17 45 00 15 01 00 02 16 3C 00 15 01 00 02 0F 00 .LABEL232 
+PLAY_SOUND 01 '006_har029' 00 
+TEXT Haruka: "Quer dar mais uma olhada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 001B 
+JMP .LABEL33 
+JMP .LABEL231 
+
+:LABEL232
+IF 16 0E 00 15 05 00 02 17 39 00 15 01 00 02 0F 00 .LABEL235 
+X_00 0009 001B 
+JMP .LABEL33 
+JMP .LABEL231 
+
+:LABEL235
+TEXT N~o, entrar nos quartos de outros pr%dios neste momento % perigoso. Realmente n~o % uma boa ideia.
+
+:LABEL231
+JMP .LABEL221 
+
+:LABEL221
+JMP .LABEL239 
+
+:LABEL75
+X_01 0006 0009 
+
+:LABEL259
+X_52 019C 008E 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(--)---:---' '(← )Oeste: Sala de Relaxamento' '(→ )Leste: Refeit+rio' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL240 
+TEXT Na placa da porta est$ escrito "Refeit+rio".
+JMP .LABEL241 
+
+:LABEL240
+IF 16 03 00 15 02 00 02 00 .LABEL242 
+X_00 0009 000E 
+JMP .LABEL72 
+JMP .LABEL241 
+
+:LABEL242
+IF 16 03 00 15 03 00 02 00 .LABEL245 
+IF 17 45 00 15 01 00 02 16 3D 00 15 00 00 02 0F 00 .LABEL246 
+PLAY_SOUND 01 '006_har036' 00 
+TEXT Haruka: "Ela ainda pode estar comendo... no refeit+rio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku042' 00 
+TEXT Ikumi: "Mas pode haver outras pessoas do Pr%dio B com ela.
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har037' 00 
+TEXT Haruka: "Duvido que eles se importem conosco."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_04 0024 0001 
+X_00 0009 0004 
+JMP .LABEL36 
+JMP .LABEL248 
+
+:LABEL246
+IF 17 45 00 15 01 00 02 16 3D 00 15 01 00 02 0F 00 .LABEL249 
+PLAY_SOUND 01 '006_har039' 00 
+TEXT Haruka: "Vai entrar de novo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_04 0024 0001 
+X_00 0009 0004 
+JMP .LABEL36 
+JMP .LABEL248 
+
+:LABEL249
+IF 17 45 00 15 00 00 02 17 39 00 15 00 00 02 0F 00 .LABEL252 
+TEXT N~o, entrar nos quartos de outros pr%dios neste momento % perigoso. Realmente n~o % uma boa ideia.
+JMP .LABEL248 
+
+:LABEL252
+X_04 0024 0001 
+X_00 0009 0004 
+JMP .LABEL36 
+
+:LABEL248
+JMP .LABEL241 
+
+:LABEL245
+IF 16 03 00 15 04 00 02 00 .LABEL241 
+X_00 0009 002C 
+JMP .LABEL84 
+JMP .LABEL241 
+
+:LABEL241
+JMP .LABEL259 
+
+:LABEL78
+X_01 0006 0009 
+
+:LABEL284
+X_52 0088 00BF 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(← )Oeste: Quarto' '(→ )Leste: Quarto' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL260 
+TEXT Existem portas # esquerda e # direita.
+JMP .LABEL261 
+
+:LABEL260
+IF 16 03 00 15 01 00 02 00 .LABEL262 
+X_00 0009 000A 
+JMP .LABEL60 
+JMP .LABEL261 
+
+:LABEL262
+IF 16 03 00 15 02 00 02 00 .LABEL265 
+IF 17 45 00 15 01 00 02 16 41 00 15 00 00 02 0F 00 .LABEL266 
+PLAY_SOUND 01 '006_har023' 00 
+TEXT Haruka: "Espere! Se algu%m deste pr%dio nos pegar bisbilhotando um quarto particular..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har024' 00 
+TEXT Haruka: "Vamos deixar esses quartos para depois de procurarmos em todos os outros lugares."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Certo..."
+STOP_SOUND 01 
+X_00 0041 0001 
+JMP .LABEL267 
+
+:LABEL266
+IF 17 45 00 15 01 00 02 16 41 00 15 01 00 02 0F 00 .LABEL268 
+TEXT @ muito arriscado examinar esse quarto; o propriet$rio pode voltar a qualquer momento.
+JMP .LABEL267 
+
+:LABEL268
+IF 17 39 00 15 01 00 02 00 .LABEL270 
+TEXT Agora que j$ sei onde fica o quarto da Yui, n~o faz sentido examinar outros c{modos particulares.
+JMP .LABEL267 
+
+:LABEL270
+TEXT N~o, eu realmente n~o deveria me intrometer em seu espa|o privado...
+
+:LABEL267
+JMP .LABEL261 
+
+:LABEL265
+IF 16 03 00 15 03 00 02 00 .LABEL273 
+IF 17 45 00 15 01 00 02 16 41 00 15 00 00 02 0F 00 .LABEL274 
+PLAY_SOUND 01 '006_har023' 00 
+TEXT Haruka: "Espere. Se algu%m deste pr%dio nos pegar examinando um quarto privado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har024' 00 
+TEXT Haruka: "Vamos deixar esses quartos para depois de procurarmos em todos os outros lugares."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Ok..."
+STOP_SOUND 01 
+X_00 0041 0001 
+JMP .LABEL275 
+
+:LABEL274
+IF 17 45 00 15 01 00 02 16 41 00 15 01 00 02 0F 00 .LABEL276 
+TEXT @ muito arriscado examinar esse quarto; o propriet$rio pode voltar a qualquer momento.
+JMP .LABEL275 
+
+:LABEL276
+IF 17 39 00 15 01 00 02 00 .LABEL278 
+TEXT Agora que j$ sei onde fica o quarto da Yui, n~o faz sentido examinar outros c{modos.
+JMP .LABEL275 
+
+:LABEL278
+TEXT N~o, eu realmente n~o deveria me intrometer em seu espa|o privado...
+
+:LABEL275
+JMP .LABEL261 
+
+:LABEL273
+IF 16 03 00 15 04 00 02 00 .LABEL261 
+X_00 0009 0036 
+JMP .LABEL87 
+JMP .LABEL261 
+
+:LABEL261
+JMP .LABEL284 
+
+:LABEL81
+X_01 0006 0009 
+
+:LABEL293
+X_52 00E9 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL285 
+TEXT N~o tem nada aqui.
+JMP .LABEL286 
+
+:LABEL285
+IF 16 03 00 15 01 00 02 00 .LABEL287 
+X_00 0009 000C 
+JMP .LABEL66 
+JMP .LABEL286 
+
+:LABEL287
+IF 16 03 00 15 04 00 02 00 .LABEL286 
+X_00 0009 0014 
+JMP .LABEL90 
+JMP .LABEL286 
+
+:LABEL286
+JMP .LABEL293 
+
+:LABEL84
+X_01 0006 0009 
+
+:LABEL302
+X_52 019C 00C4 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL294 
+TEXT N~o tem nada aqui.
+JMP .LABEL295 
+
+:LABEL294
+IF 16 03 00 15 01 00 02 00 .LABEL296 
+X_00 0009 000F 
+JMP .LABEL75 
+JMP .LABEL295 
+
+:LABEL296
+IF 16 03 00 15 04 00 02 00 .LABEL295 
+X_00 0009 002D 
+JMP .LABEL93 
+JMP .LABEL295 
+
+:LABEL295
+JMP .LABEL302 
+
+:LABEL87
+IF 17 39 00 15 01 00 02 17 45 00 15 01 00 02 0F 00 .LABEL303 
+JMP .LABEL304 
+
+:LABEL303
+X_01 0006 0009 
+
+:LABEL304
+IF 17 45 00 15 01 00 02 17 39 00 15 01 00 02 0F 00 .LABEL305 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '019_iku019' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Fiquei parada do lado de fora do quarto.
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har088' 00 
+TEXT Haruka: "O qu[? Voc[ n~o vai voltar?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku020' 00 
+TEXT Ikumi: "Eu vou, mas... voc[ vai primeiro."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har089' 00 
+TEXT Haruka: "Mais alguma coisa para investigar? Bem, cuidado para n~o ser capturada."
+STOP_SOUND 01 
+PLAY_SOUND 01 '019_iku021' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har090' 00 
+TEXT Haruka: "Tchau."
+STOP_SOUND 01 
+X_24 00 
+X_25 06 
+TEXT Haruka acenou com a m~o e come|ou a refazer seus passos pelo corredor.
+TEXT ...Eu tinha mentido.
+TEXT Eu n~o tinha mais nada para fazer aqui.
+TEXT Eu s+ fiquei com vergonha de mim mesma depois de perceber o que a Haruka estava passando.
+TEXT Depois de saber disso... eu n~o tinha mais ideia do que fazer perto dela.
+TEXT Eu queria evitar ficar sozinha com ela, a ponto de come|ar a mentir.
+PLAY_SOUND 01 '019_iku022' 00 
+TEXT Ikumi: "........."
+STOP_SOUND 01 
+TEXT Quando levantei a cabe|a mais uma vez, Haruka j$ havia desaparecido.
+X_04 0045 0000 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 01 
+PLAY_SOUND 00 'mon_cd09' 01 
+X_01 0006 0009 
+
+:LABEL305
+X_52 0088 00FB 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(← )Oeste: Quarto' '(→ )Leste: Quarto' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL306 
+TEXT Existem portas # esquerda e # direita.
+JMP .LABEL307 
+
+:LABEL306
+IF 16 03 00 15 01 00 02 00 .LABEL308 
+IF 17 49 00 15 01 00 02 00 .LABEL309 
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrulheiro: "Ei!"
+STOP_SOUND 01 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT H$ um patrulheiro na dire|~o em que estou indo.
+JMP .LABEL310 
+
+:LABEL309
+X_00 0009 0035 
+JMP .LABEL78 
+JMP .LABEL307 
+
+:LABEL308
+IF 16 03 00 15 02 00 02 00 .LABEL313 
+IF 17 49 00 15 01 00 02 00 .LABEL314 
+TEXT N~o, eu realmente n~o deveria me intrometer em seu espa|o privado...
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrulheiro: "Ei!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT Enquanto eu estava pensando em frente #quela porta, uma voz me fez congelar.
+JMP .LABEL310 
+
+:LABEL314
+IF 17 45 00 15 01 00 02 16 41 00 15 00 00 02 0F 00 .LABEL316 
+PLAY_SOUND 01 '006_har023' 00 
+TEXT Haruka: "Espere! Se algu%m deste pr%dio nos pegar examinando um quarto..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har024' 00 
+TEXT Haruka: "Vamos deixar esses quartos para depois de procurarmos em todos os outros lugares."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Certo..."
+STOP_SOUND 01 
+X_00 0041 0001 
+JMP .LABEL317 
+
+:LABEL316
+IF 17 45 00 15 01 00 02 16 41 00 15 01 00 02 0F 00 .LABEL318 
+TEXT @ muito arriscado examinar esse quarto; o propriet$rio pode voltar a qualquer momento.
+JMP .LABEL317 
+
+:LABEL318
+IF 17 39 00 15 01 00 02 00 .LABEL320 
+TEXT Agora que j$ sei onde fica o quarto da Yui, n~o faz sentido examinar os outros.
+JMP .LABEL317 
+
+:LABEL320
+TEXT N~o, eu realmente n~o deveria invadir seu espa|o privado...
+
+:LABEL317
+JMP .LABEL307 
+
+:LABEL313
+IF 16 03 00 15 03 00 02 00 .LABEL323 
+IF 17 49 00 15 01 00 02 00 .LABEL324 
+PLAY_SOUND 01 '000_bt2000' 00 
+TEXT Patrulheiro: "Ei!"
+STOP_SOUND 01 
+X_00 0006 0000 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG012' 
+X_24 00 
+X_25 06 
+SPRITE 'CGFA01' 
+X_24 01 
+X_25 09 
+TEXT Quando me movi para entrar no quarto, uma voz me congelou no local.
+JMP .LABEL310 
+
+:LABEL324
+IF 17 45 00 15 01 00 02 16 41 00 15 00 00 02 0F 00 .LABEL326 
+PLAY_SOUND 01 '006_har023' 00 
+TEXT Haruka: "Espere! Se algu%m deste pr%dio nos pegar examinando um quarto privado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har024' 00 
+TEXT Haruka: "Vamos deixar esses quartos para depois de procurarmos em todos os outros lugares."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Yeah..."
+STOP_SOUND 01 
+X_00 0041 0001 
+JMP .LABEL327 
+
+:LABEL326
+IF 17 45 00 15 01 00 02 16 41 00 15 01 00 02 0F 00 .LABEL328 
+TEXT @ muito arriscado examinar esse quarto, o propriet$rio pode voltar a qualquer momento.
+JMP .LABEL327 
+
+:LABEL328
+IF 17 39 00 15 01 00 02 00 .LABEL330 
+TEXT N~o, eu realmente n~o deveria.
+TEXT Preciso ir tomar um banho... para tentar lavar esse pesadelo...
+JMP .LABEL327 
+
+:LABEL330
+TEXT N~o, eu realmente n~o deveria invadir seu espa|o privado...
+
+:LABEL327
+JMP .LABEL307 
+
+:LABEL323
+IF 16 03 00 15 04 00 02 00 .LABEL307 
+X_00 0009 0017 
+JMP .LABEL96 
+JMP .LABEL307 
+
+:LABEL307
+JMP .LABEL304 
+
+:LABEL90
+X_01 0006 0009 
+
+:LABEL345
+X_52 00E9 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL337 
+TEXT N~o tem nada aqui.
+JMP .LABEL338 
+
+:LABEL337
+IF 16 03 00 15 01 00 02 00 .LABEL339 
+X_00 0009 0011 
+JMP .LABEL81 
+JMP .LABEL338 
+
+:LABEL339
+IF 16 03 00 15 04 00 02 00 .LABEL338 
+X_00 0009 0019 
+JMP .LABEL99 
+JMP .LABEL338 
+
+:LABEL338
+JMP .LABEL345 
+
+:LABEL93
+X_01 0006 0009 
+
+:LABEL354
+X_52 019C 010B 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL346 
+TEXT N~o tem nada aqui.
+JMP .LABEL347 
+
+:LABEL346
+IF 16 03 00 15 01 00 02 00 .LABEL348 
+X_00 0009 002C 
+JMP .LABEL84 
+JMP .LABEL347 
+
+:LABEL348
+IF 16 03 00 15 04 00 02 00 .LABEL347 
+X_00 0009 002F 
+JMP .LABEL111 
+JMP .LABEL347 
+
+:LABEL347
+JMP .LABEL354 
+
+:LABEL96
+IF 17 45 00 15 01 00 02 16 42 00 15 00 00 02 0F 00 .LABEL355 
+JMP .LABEL356 
+
+:LABEL355
+X_01 0006 0009 
+IF 17 45 00 15 00 00 02 16 0E 00 15 05 00 07 0F 17 48 00 15 00 00 02 0F 17 4B 00 15 00 00 02 0F 00 .LABEL357 
+TEXT Ikumi: "......!"
+STOP_SOUND 01 
+TEXT Acabei de ver um patrulheiro da FARGO atravessar o corredor mais distante...
+TEXT Talvez eu consiga passar por essa $rea sem chamar a aten|~o dele, mas isso seria muito arriscado.
+TEXT @ melhor eu voltar...
+X_04 0048 0001 
+JMP .LABEL356 
+
+:LABEL357
+IF 17 45 00 15 00 00 02 16 0E 00 15 05 00 07 0F 17 48 00 15 01 00 02 0F 17 4B 00 15 00 00 02 0F 17 5E 00 15 00 00 02 0F 00 .LABEL359 
+TEXT Os patrulheiros ainda devem estar aqui...
+TEXT Tenho que evitar tomar atitudes impulsivas.
+X_04 005E 0001 
+JMP .LABEL356 
+
+:LABEL359
+IF 17 45 00 15 00 00 02 17 4B 00 15 01 00 02 0F 00 .LABEL356 
+TEXT N~o % bom ficar muito tempo nos outros pr%dios...
+X_04 004B 0000 
+JMP .LABEL356 
+
+:LABEL356
+IF 17 45 00 15 01 00 02 16 42 00 15 00 00 02 0F 00 .LABEL363 
+X_00 0006 0000 
+X_04 0037 0001 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+BACKGROUND 'BG027' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 01 '018_iku029' 00 
+TEXT Ikumi: "Esse % o Pr%dio B...?"
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har009' 00 
+TEXT Haruka: "Se n~o % o Pr%dio A nem o Pr%dio C, ent~o provavelmente %."
+STOP_SOUND 01 
+TEXT As portas estavam alinhadas em ambos os lados do corredor escuro e sem janelas.
+TEXT Esta instala|~o est$ mais parecida com o Pr%dio A do que com o C.
+PLAY_SOUND 01 '006_har010' 00 
+TEXT Haruka: "N~o se esque|a de esconder sua m~o casualmente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku030' 00 
+TEXT Ikumi: "Certo."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har011' 00 
+TEXT Haruka: "N~o queremos saber o que acontece se descobrirem algu%m no pr%dio errado."
+STOP_SOUND 01 
+TEXT 
+SELECT 0003 'Eu entendo!' 'O que vai acontecer?' 
+X_51 00 
+IF 16 03 00 15 01 00 02 00 .LABEL364 
+PLAY_SOUND 01 '018_iku031' 00 
+TEXT Ikumi: "Sim, eu entendo."
+STOP_SOUND 01 
+TEXT N~o havia como saber o que eles poderiam fazer conosco.
+TEXT Al%m disso, provavelmente aquele garoto voltaria para me assombrar por ter me contado sobre a passagem subterr}nea...
+TEXT ......
+TEXT Eu... o que estou pensando...?
+TEXT Estou me preocupando com ele...
+TEXT Mesmo ele sendo um inimigo...
+TEXT Mesmo ele...
+TEXT ......
+SPRITE 'CGHA06' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har012' 00 
+TEXT Haruka: "Ikumi!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku032' 00 
+TEXT Ikumi: "...Eh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har013' 00 
+TEXT Haruka: "Por que voc[ estava olhando pro nada?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku033' 00 
+TEXT Ikumi: "...Desculpe... acho que me perdi nos meus pensamentos..."
+STOP_SOUND 01 
+SPRITE 'CGHA02' 
+X_24 01 
+X_25 09 
+PLAY_SOUND 01 '006_har014' 00 
+TEXT Haruka: "Ikumi, controle-se."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "...Sim."
+STOP_SOUND 01 
+TEXT Sim, n~o era hora de ficar pensando nele...
+TEXT Eu tenho um objetivo...
+TEXT Preciso manter o foco.
+JMP .LABEL365 
+
+:LABEL364
+PLAY_SOUND 01 '018_iku035' 00 
+TEXT Ikumi: "O que ser$ que vai acontecer...?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har015' 00 
+TEXT Haruka: "......"
+STOP_SOUND 01 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har016' 00 
+TEXT Haruka: "...Voc[ est$ mesmo perguntando isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku036' 00 
+TEXT Ikumi: "S-Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har017' 00 
+TEXT Haruka: "Deve ter um parafuso a menos na sua cabe|a."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku037' 00 
+TEXT Ikumi: "Eh! Voc[ acha?!"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har018' 00 
+TEXT Haruka: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku038' 00 
+TEXT Ikumi: "......"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har019' 00 
+TEXT Haruka: "...@ s%rio que voc[ t$ perguntando isso?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku039' 00 
+TEXT Ikumi: "Sim."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har020' 00 
+TEXT Haruka: "T{ vendo..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har021' 00 
+TEXT Haruka: "Bem, dane-se..."
+STOP_SOUND 01 
+TEXT Por um momento, achei que ela havia suspirado.
+
+:LABEL365
+PLAY_SOUND 01 '018_iku040' 00 
+TEXT Ikumi: "...Ent~o, como vamos procurar a Yui?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har022' 00 
+TEXT Haruka: "Por enquanto, vamos para qualquer lugar que pudermos."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Certo..."
+STOP_SOUND 01 
+TEXT Haruka tem raz~o.
+TEXT Teremos que passar um pente fino no pr%dio...
+X_00 0042 0001 
+X_3F 00 01 
+X_3F 01 01 
+X_3F 02 01 
+X_3F 03 01 
+BACKGROUND 'B' 
+X_24 00 
+X_25 06 
+PLAY_SOUND 00 'mon_cd09' 01 
+X_01 0006 0009 
+
+:LABEL363
+X_52 0088 0137 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(← )Oeste: Quarto' '(→ )Leste: Quarto' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL366 
+TEXT H$ portas # esquerda e # direita.
+TEXT Atr$s de uma delas est$ a sala que esconde a escada para a passagem subterr}nea.
+JMP .LABEL367 
+
+:LABEL366
+IF 16 03 00 15 01 00 02 00 .LABEL368 
+IF 17 48 00 15 01 00 02 17 45 00 15 00 00 02 0F 00 .LABEL369 
+TEXT H$ patrulheiros aqui... ser$ que % uma boa ideia realmente ir...?
+TEXT 
+SELECT 0003 'Seguir em frente' 'Pensar mais um pouco' 
+X_51 00 
+IF 16 03 00 15 01 00 02 00 .LABEL370 
+X_04 0049 0001 
+X_00 0009 0036 
+JMP .LABEL87 
+JMP .LABEL369 
+
+:LABEL370
+JMP .LABEL356 
+
+:LABEL369
+X_00 0009 0036 
+JMP .LABEL87 
+JMP .LABEL367 
+
+:LABEL368
+IF 16 03 00 15 02 00 02 00 .LABEL376 
+X_00 0009 0008 
+JMP .LABEL51 
+JMP .LABEL367 
+
+:LABEL376
+IF 16 03 00 15 03 00 02 00 .LABEL367 
+IF 17 45 00 15 01 00 02 16 41 00 15 00 00 02 0F 00 .LABEL380 
+PLAY_SOUND 01 '006_har023' 00 
+TEXT Haruka: "Espere! Se algu%m deste pr%dio nos pegar examinando um quarto privado..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har024' 00 
+TEXT Haruka: "Vamos deixar esses quartos para depois de procurarmos em todos os outros lugares."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku014' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0041 0001 
+JMP .LABEL381 
+
+:LABEL380
+IF 17 45 00 15 01 00 02 16 41 00 15 01 00 02 0F 00 .LABEL382 
+TEXT @ muito arriscado examinar esse quarto, o propriet$rio pode voltar a qualquer momento.
+JMP .LABEL381 
+
+:LABEL382
+IF 17 39 00 15 01 00 02 00 .LABEL384 
+TEXT Agora que j$ sei onde fica o quarto da Yui, n~o faz sentido examinar os outros.
+JMP .LABEL381 
+
+:LABEL384
+TEXT N~o, eu realmente n~o deveria invadir seu espa|o privado...
+
+:LABEL381
+JMP .LABEL367 
+
+:LABEL367
+JMP .LABEL356 
+X_01 0006 0009 
+
+:LABEL399
+TEXT 
+SELECT 0003 '(↑ )Norte: Quarto' '(← )Oeste: ELPOD' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL388 
+TEXT H$ uma porta sem identifica|~o.
+JMP .LABEL389 
+
+:LABEL388
+IF 16 03 00 15 01 00 02 00 .LABEL390 
+X_00 0009 0030 
+JMP .LABEL54 
+JMP .LABEL389 
+
+:LABEL390
+IF 16 03 00 15 02 00 02 00 .LABEL393 
+X_00 0009 0017 
+JMP .LABEL96 
+JMP .LABEL389 
+
+:LABEL393
+IF 16 03 00 15 03 00 02 00 .LABEL389 
+X_00 0009 0019 
+JMP .LABEL99 
+JMP .LABEL389 
+
+:LABEL389
+JMP .LABEL399 
+
+:LABEL99
+X_01 0006 0009 
+
+:LABEL408
+X_52 00E9 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL400 
+TEXT Esta porta parece ser uma entrada de servi|o, mas est$ trancada por um dispositivo de identifica|~o. Seria perigoso tentar abri-la.
+JMP .LABEL401 
+
+:LABEL400
+IF 16 03 00 15 01 00 02 00 .LABEL402 
+X_00 0009 0014 
+JMP .LABEL90 
+JMP .LABEL401 
+
+:LABEL402
+IF 16 03 00 15 03 00 02 00 .LABEL401 
+X_00 0009 002E 
+JMP .LABEL105 
+JMP .LABEL401 
+
+:LABEL401
+JMP .LABEL408 
+
+:LABEL105
+X_01 0006 0009 
+
+:LABEL423
+X_52 0120 0141 
+X_51 01 
+X_25 01 
+IF 17 45 00 15 01 00 02 17 39 00 15 00 00 02 0F 00 .LABEL409 
+X_3F 00 00 
+X_3F 01 00 
+X_3F 02 00 
+X_3F 03 00 
+X_51 00 
+RETURN 
+
+:LABEL409
+TEXT 
+SELECT 0003 '(↑ )Norte: Quarto' '(← )Oeste: Corredor' '(→ )Leste: ELPOD' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL410 
+TEXT Uma porta sem identifica|~o.
+JMP .LABEL411 
+
+:LABEL410
+IF 16 03 00 15 01 00 02 00 .LABEL412 
+IF 16 0E 00 15 05 00 02 17 39 00 15 01 00 02 0F 00 .LABEL413 
+X_00 0009 0030 
+JMP .LABEL54 
+JMP .LABEL415 
+
+:LABEL413
+TEXT N~o, entrar nos quartos de outros edif&cios neste momento % perigoso. Eu realmente n~o deveria me arriscar.
+
+:LABEL415
+JMP .LABEL411 
+
+:LABEL412
+IF 16 03 00 15 02 00 02 00 .LABEL417 
+X_00 0009 0019 
+JMP .LABEL99 
+JMP .LABEL411 
+
+:LABEL417
+IF 16 03 00 15 03 00 02 00 .LABEL411 
+X_00 0009 001A 
+JMP .LABEL108 
+JMP .LABEL411 
+
+:LABEL411
+JMP .LABEL423 
+
+:LABEL108
+X_01 0006 0009 
+
+:LABEL443
+X_52 0167 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: ELPOD' '(← )Oeste: Corredor' '(→ )Leste: Refeit+rio' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL424 
+TEXT Na placa da porta est$ escrito "ELPOD".
+JMP .LABEL425 
+
+:LABEL424
+IF 16 03 00 15 01 00 02 00 .LABEL426 
+IF 17 45 00 15 01 00 02 16 3F 00 15 00 00 02 0F 00 .LABEL427 
+PLAY_SOUND 01 '006_har027' 00 
+TEXT Haruka: "N~o deve haver nenhum capanga da FARGO por a& nesse momento... voc[ quer examinar esse local?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 0003 
+JMP .LABEL30 
+JMP .LABEL429 
+
+:LABEL427
+IF 17 45 00 15 01 00 02 16 3F 00 15 01 00 02 0F 00 .LABEL430 
+PLAY_SOUND 01 '006_har029' 00 
+TEXT Haruka: "Quer examinar novamente?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_00 0009 0003 
+JMP .LABEL30 
+JMP .LABEL429 
+
+:LABEL430
+IF 16 0E 00 15 05 00 02 17 39 00 15 01 00 02 0F 00 .LABEL433 
+X_00 0009 0003 
+JMP .LABEL30 
+JMP .LABEL429 
+
+:LABEL433
+TEXT N~o, entrar nos quartos de outros pr%dios nesse momento % perigoso. Eu realmente n~o deveria me arriscar.
+
+:LABEL429
+JMP .LABEL425 
+
+:LABEL426
+IF 16 03 00 15 02 00 02 00 .LABEL437 
+X_00 0009 002E 
+JMP .LABEL105 
+JMP .LABEL425 
+
+:LABEL437
+IF 16 03 00 15 03 00 02 00 .LABEL425 
+X_00 0009 002F 
+JMP .LABEL111 
+JMP .LABEL425 
+
+:LABEL425
+JMP .LABEL443 
+
+:LABEL111
+X_01 0006 0009 
+
+:LABEL463
+X_52 019C 0141 
+X_51 01 
+X_25 01 
+TEXT 
+SELECT 0003 '(↑ )Norte: Corredor' '(← )Oeste: Passagem' '(→ )Leste: Refeit+rio' '(--)---:---' 'Examinar' 
+X_51 00 
+IF 16 03 00 15 05 00 02 00 .LABEL444 
+TEXT Na placa da porta est$ escrito "Refeit+rio".
+JMP .LABEL445 
+
+:LABEL444
+IF 16 03 00 15 01 00 02 00 .LABEL446 
+X_00 0009 002D 
+JMP .LABEL93 
+JMP .LABEL445 
+
+:LABEL446
+IF 16 03 00 15 02 00 02 00 .LABEL449 
+X_00 0009 001A 
+JMP .LABEL108 
+JMP .LABEL445 
+
+:LABEL449
+IF 16 03 00 15 03 00 02 00 .LABEL445 
+IF 17 45 00 15 01 00 02 16 3D 00 15 00 00 02 0F 00 .LABEL453 
+PLAY_SOUND 01 '006_har036' 00 
+TEXT Haruka: "Ela ainda pode estar comendo... no refeit+rio."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku042' 00 
+TEXT Ikumi: "Mas pode haver outras pessoas do Pr%dio B com ela."
+STOP_SOUND 01 
+PLAY_SOUND 01 '006_har037' 00 
+TEXT Haruka: "Duvido que eles v~o se importar com a gente."
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_04 0024 0000 
+X_00 0009 0004 
+JMP .LABEL36 
+JMP .LABEL455 
+
+:LABEL453
+IF 17 45 00 15 01 00 02 16 3D 00 15 01 00 02 0F 00 .LABEL456 
+PLAY_SOUND 01 '006_har039' 00 
+TEXT Haruka: "Vai entrar de novo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '018_iku034' 00 
+TEXT Ikumi: "Sim..."
+STOP_SOUND 01 
+X_04 0024 0000 
+X_00 0009 0004 
+JMP .LABEL36 
+JMP .LABEL455 
+
+:LABEL456
+IF 17 45 00 15 00 00 02 17 39 00 15 00 00 02 0F 00 .LABEL459 
+TEXT N~o, entrar nos c{modos de outros pr%dios neste momento % perigoso. Eu realmente n~o deveria.
+JMP .LABEL455 
+
+:LABEL459
+X_04 0024 0000 
+X_00 0009 0004 
+JMP .LABEL36 
+
+:LABEL455
+JMP .LABEL445 
+
+:LABEL445
+JMP .LABEL463 
+
+:LABEL310
+PLAY_SOUND 01 '014_iku000' 00 
+TEXT Ikumi: "Sim, o que foi?"
+STOP_SOUND 01 
+TEXT Tentei parecer calma.
+PLAY_SOUND 01 '000_bt2001' 00 
+TEXT Patrulheiro: "Onde voc[ est$ indo?"
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku001' 00 
+TEXT Ikumi: "Hmm... % que... eu me perdi..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2002' 00 
+TEXT Patrulheiro: "N~o minta. Por que voc[ est$ fora do seu quarto... hmm...?"
+STOP_SOUND 01 
+TEXT ...Ele percebeu que eu estava escondendo minha m~o esquerda de prop+sito.
+TEXT Ele agarrou meu pulso e o torceu o m$ximo que p{de.
+PLAY_SOUND 01 '000_bt2003' 00 
+TEXT Patrulheiro: "Ah... ent~o voc[ % da classe A."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku002' 00 
+TEXT Ikumi: "Ugh..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2004' 00 
+TEXT Patrulheiro: "Voc[ diz que est$ perdida, mas parece mais que voc[ n~o quer que ningu%m a veja..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '014_iku003' 00 
+TEXT Ikumi: "Voc[ est$... imaginando coisas..."
+STOP_SOUND 01 
+PLAY_SOUND 01 '000_bt2005' 00 
+TEXT Patrulheiro: "O que voc[ est$ fazendo nesse pr%dio? De qualquer forma, essa n~o % uma quest~o a ser resolvida aqui."
+STOP_SOUND 01 
+TEXT Ele me puxou enquanto mantinha meu bra|o esquerdo torcido.
+TEXT Mesmo se eu resistir, ele % forte demais...
+GOSUB_SCRIPT 'DEAD1' 
+RETURN 
+EOF 
