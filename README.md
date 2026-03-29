@@ -15,7 +15,7 @@
 <br/>
 
 <h3>Progresso da tradução</h3>
-📝<p>75%</p>
+<p>📝 75%</p>
 <br/>
   
 <h3>Lançamento</h3>
