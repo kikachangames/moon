@@ -53,14 +53,13 @@
 </div>
 <br/>
 
-<div style="overflow:hidden; margin-bottom:25px;">
-  <img src="https://kikachangames.github.io/projetos/img/crynvalen.png"
-       width="160" height="160"
-       style="float:left; margin-right:15px; border-radius:12px; object-fit:cover; border:none;">
-  <h4 style="margin:0;">Crynvalen</h4>
-  <p style="margin-top:6px;">Edição de imagens.</p>
+<div style="display:inline-block;vertical-align:top;">
+<img src="https://kikachangames.github.io/projetos/img/crynvalen.png" width="160" height="160">
 </div>
-<br/>
+<div style="display:inline-block;">
+  <h3>Crynvalen</h3>
+    <p>Edição de imagens</p>
+</div>
 
 <div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/ceuipsolon.png" width="160" height="160">
