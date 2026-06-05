@@ -15,7 +15,7 @@
 <br/>
 
 <h3>Progresso da tradução</h3>
-<p>📝 75%</p>
+<p>📝 81,45%</p>
 <br/>
   
 <h3>Lançamento</h3>
@@ -36,7 +36,7 @@
 <div>
   
 <div style="display:inline-block;vertical-align:top;">
-<img src="https://kikachangames.github.io/air/manolo.png">
+<img src="https://kikachangames.github.io/air/manolo.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
 <h3>Manolo-chan</h3>
@@ -45,7 +45,7 @@
   <br/>
   
 <div style="display:inline-block;vertical-align:top;">
-<img src="https://kikachangames.github.io/moon/kazuki.png">
+<img src="https://kikachangames.github.io/moon/kazuki.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
   <h3>Kazuki Minoru</h3>
@@ -53,8 +53,17 @@
 </div>
 <br/>
 
+<div style="overflow:hidden; margin-bottom:25px;">
+  <img src="https://kikachangames.github.io/projetos/img/crynvalen.png"
+       width="160" height="160"
+       style="float:left; margin-right:15px; border-radius:12px; object-fit:cover; border:none;">
+  <h4 style="margin:0;">Crynvalen</h4>
+  <p style="margin-top:6px;">Edição de imagens.</p>
+</div>
+<br/>
+
 <div style="display:inline-block;vertical-align:top;">
-<img src="https://kikachangames.github.io/air/ceuipsolon.png">
+<img src="https://kikachangames.github.io/air/ceuipsolon.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
   <h3>Ceuipsolon</h3>
@@ -74,5 +83,5 @@
 <br/>
 
 <hr>
-<p><small>Última atualização: 29/03/2026.</small></p>
+<p><small>Última atualização: 05/06/2026.</small></p>
 <p><small>Kikachan Games (Desde 2024) <a href="https://kikachangames.github.io/projetos/">Projetos</a> - <a href="https://twitter.com/kikachangames/" target="_blank">X</a> - <a href="https://discord.gg/jsm8yKtu2E" target="_blank">Discord</a> - <a href="https://kikachan-games.itch.io/" target="_blank">Itch</a></small></p>
