@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 000F 
-SETSTATUS '１５日目　午前　Ａ棟' 
+SETSTATUS '?@Dia 15 Manh~ Pr%dio ?`'  
 BACKGROUND 'FG214' 
 X_24 00 
 X_25 06 
@@ -168,7 +168,7 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 '040_boy000' 00 
-TEXT 少年「朝だよ、郁未」
+TEXT Garoto: "J$ % de manh~, Ikumi."
 STOP_SOUND 01 
 BACKGROUND 'BG002' 
 X_24 00 
@@ -177,59 +177,59 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '101_iku000' 00 
-TEXT 郁未「……あ」
+TEXT Ikumi: "......Hm."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy001' 00 
-TEXT 少年「おはよう」
+TEXT Garoto: "Bom dia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '101_iku001' 00 
-TEXT 郁未「……おはよう」
+TEXT Ikumi: "......Bom dia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy002' 00 
-TEXT 少年「どうしたの？」
+TEXT Garoto: "O que aconteceu?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '101_iku002' 00 
-TEXT 郁未「起きられなかった、結局」
+TEXT Ikumi: "No fim, eu n~o conseguia acordar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy003' 00 
-TEXT 少年「どうして？　もっと早く起きたかったの？」
+TEXT Garoto: "Por qu[? Voc[ queria acordar mais cedo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '101_iku003' 00 
-TEXT 郁未「ううん、いいのよ。なんでもない」
+TEXT Ikumi: "N~o, est$ tudo bem. N~o % nada"
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy004' 00 
-TEXT 少年「そう」
+TEXT Garoto: "T$ bom."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy005' 00 
-TEXT 少年「それで今日はどうするんだい」
+TEXT Garoto: "Ent~o, o que voc[ vai fazer hoje?"
 STOP_SOUND 01 
-TEXT 今日……
-TEXT 今日は……
+TEXT Hoje......
+TEXT Hoje eu......
 PLAY_SOUND 01 '101_iku004' 00 
-TEXT 郁未「晴香を探しにでる…」
+TEXT Ikumi: "Vou procurar Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy006' 00 
-TEXT 少年「そう…」
+TEXT Garoto: "Entendi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy007' 00 
-TEXT 少年「止めはしないよ、もう」
+TEXT Garoto: "Eu n~o vou te impedir, n~o mais."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy008' 00 
-TEXT 少年「でも気をつけるんだよ」
+TEXT Garoto: "Mas tome cuidado."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy009' 00 
-TEXT 少年「もうキミの居場所なんてどこにもないんだ」
+TEXT Garoto: "N~o h$ mais sa&da para voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '101_iku005' 00 
-TEXT 郁未「わかってる」
+TEXT Ikumi: "Eu sei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '101_iku006' 00 
-TEXT 郁未「じゃあ…」
+TEXT Ikumi: "Bem, ent~o..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy010' 00 
-TEXT 少年「いってらっしゃい」
+TEXT Garoto: "Tome cuidado."
 STOP_SOUND 01 
-TEXT 私は少年の声を背に、部屋をでる。
+TEXT Saio do quarto com a voz de garoto atr$s de mim.
 GOSUB_SCRIPT 'A_D15' 
 IF 16 17 00 15 01 00 02 00 .LABEL0 
 GOTO_SCRIPT 'INIT' 
@@ -243,414 +243,414 @@ X_24 01
 X_25 09 
 STOP_SOUND 00 
 PLAY_SOUND 01 '040_boy011' 00 
-TEXT 少年「あれ、どうしたの」
+TEXT Garoto: "O que aconteceu?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '103_iku000' 00 
-TEXT 郁未「考えが変わったの」
+TEXT Ikumi: "Eu mudei de ideia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '103_iku001' 00 
-TEXT 郁未「今日はね、ずっとここにいることにした」
+TEXT Ikumi: "Hoje decidi ficar aqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy012' 00 
-TEXT 少年「そう」
+TEXT Garoto: "Entendi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '040_boy013' 00 
-TEXT 少年「いいんじゃない」
+TEXT Garoto: "Isso vai ser bom."
 STOP_SOUND 01 
 PLAY_SOUND 01 '103_iku002' 00 
-TEXT 郁未「うん、いいよね」
+TEXT Ikumi: "Sim, vai ser."
 STOP_SOUND 01 
-TEXT 最後の家族ごっこの始まりだ。
+TEXT Vai ser a ^ltima vez que fingimos que somos uma fam&lia.
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd07' 01 
-TEXT ただ、のんびりとした時間。
-TEXT ただ、部屋でごろごろして、他愛のない話をして、
-TEXT 少し笑って、少し不満を言って、
-TEXT 少し弱音を吐いて、少し退屈して、
-TEXT そしてこんな時間をまた大切に思って、
-TEXT 少し元気になって、少し困らせるようなことを言って、
-TEXT 少しすべてを悟ったような気がして、
-TEXT 少しすべてを失う覚悟ができて、
-TEXT そしてこの時間だけをまた失いたくなくなって、
-TEXT 少し黙り込んでしまって、少し悲しくなってしまって、
-TEXT 少し反省して、そして顔を上げて、
+TEXT Ficamos apenas matando o tempo.
+TEXT Andando pelo quarto, conversando sobre coisas triviais...
+TEXT Ri um pouco, reclamei um pouco...
+TEXT Chorei um pouco, fiquei um pouco entediada...
+TEXT E percebi o quanto esse momento era especial.
+TEXT Fiquei um pouco mais alegre, disse coisas que o irritaram um pouco...
+TEXT Tive uma leve sensa|~o que tinha lhe contado tudo...
+TEXT Me preparando aos poucos para perder tudo.
+TEXT Eu queria muito que esse tempo n~o passasse.
+TEXT Fiquei em sil[ncio por um momento e me senti um pouco triste.
+TEXT Refletindo sobre tudo isso, levantei a cabe|a.
 PLAY_SOUND 01 '099_iku007' 00 
-TEXT 郁未「ありがとう」
+TEXT Ikumi: "Obrigada."
 STOP_SOUND 01 
-TEXT と言って、
+TEXT Eu disse.
 PLAY_SOUND 01 '038_boy011' 00 
-TEXT 少年「なにが？」
+TEXT Garoto: "Pelo qu[?"
 STOP_SOUND 01 
-TEXT と彼が聞いて、
+TEXT Ele perguntou.
 PLAY_SOUND 01 '099_iku008' 00 
-TEXT 郁未「あなたのおかげで私はここまでやってこれ　　たから…」
+TEXT Ikumi: "Gra|as a voc[ cheguei at% aqui..."
 STOP_SOUND 01 
-TEXT と答えて、
+TEXT Eu respondi.
 PLAY_SOUND 01 '038_boy012' 00 
-TEXT 少年「そう」
+TEXT Garoto: "Entendi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy013' 00 
-TEXT 少年「そう言ってくれると、嬉しいけど…」
+TEXT Garoto: "Fico feliz em ouvir isso, mas..."
 STOP_SOUND 01 
-TEXT と彼が申し訳なさそうに言って、
+TEXT Ele disse melancolicamente.
 PLAY_SOUND 01 'se27' 00 
-TEXT ガチャン！
-TEXT と扉が開いて、
-TEXT 三人の銃を持った人たちが現れて、
+TEXT *Tum!*
+TEXT A porta se abriu.
+TEXT E tr[s homens armados apareceram.
 PLAY_SOUND 01 '005_bt2000' 00 
-TEXT 男「……連れてゆくぞ。いいな」
+TEXT Homem: "......Venha conosco. N~o resista."
 STOP_SOUND 01 
-TEXT と告げて、
-TEXT それに対して少年は無言で頷いて、
-TEXT ほんとうの別れと知って、
+TEXT Ele avisou.
+TEXT O garoto assentiu silenciosamente.
+TEXT Entendi que aquilo era realmente um adeus...
 X_24 00 
 BACKGROUND 'WO' 
 X_25 06 
 X_24 00 
 BACKGROUND 'BO' 
 X_25 06 
-TEXT 私は泣いた。
+TEXT E chorei.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT …
-TEXT ……
-TEXT ………
-TEXT …………
-TEXT ……………
-TEXT ………
-TEXT …
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT ............
+TEXT ...............
+TEXT .........
+TEXT ...
 BACKGROUND 'FG073' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'se71' 01 
-TEXT カチャーン…
-TEXT ………
-TEXT 足音…。
-TEXT 久しぶりに聞く音…。
-TEXT カチャーン…
-TEXT ………
-TEXT 近づいてくる。
-TEXT ………
-TEXT カチャーン…
-TEXT 近づいてくる。
-TEXT ………
-TEXT カチャーン。
+TEXT *Tap tap...*
+TEXT .........
+TEXT Passos...
+TEXT Um som que n~o ou|o h$ algum tempo...
+TEXT *Tap tap...*
+TEXT .........
+TEXT Chegando mais perto.
+TEXT .........
+TEXT *Tap tap...*
+TEXT Cada vez mais perto.
+TEXT .........
+TEXT *Tap tap*
 STOP_SOUND 01 
-TEXT ………。
-TEXT 止まる。
+TEXT .........
+TEXT Pararam.
 PLAY_SOUND 01 '004_tak000' 00 
-TEXT 声「死ぬ準備はできたかい」
+TEXT Voz: "Preparada para morrer?"
 STOP_SOUND 01 
 BACKGROUND 'FG074' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd12' 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak001' 00 
-TEXT 高槻「まだのようだなぁ」
+TEXT Takatsuki: "Pelo visto n~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak002' 00 
-TEXT 高槻「…怖いか？」
+TEXT Takatsuki: "...Est$ com medo?"
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak003' 00 
-TEXT 高槻「命乞いしないのか、この俺に」
+TEXT Takatsuki: "Voc[ n~o vai implorar por sua vida?"
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak004' 00 
-TEXT 高槻「命乞いすればいい。助かるかもしれんぞ」
+TEXT Takatsuki: "Se implorar posso at% te salvar, sabe..."
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak005' 00 
-TEXT 高槻「どうした、命乞いしないか」
+TEXT Takatsuki: "O que h? de errado, voc? n?o implora por sua vida?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak006' 00 
-TEXT 高槻「チ○ポれろれろ舐めますので助けてくださ　　いとなぁ」
+TEXT Takatsuki: "Lambendo meu pau enquanto diz: 'Por favor, me ajude'."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak007' 00 
-TEXT 高槻「騎乗位で一生懸命腰を動かしますので助け　　てくださいとなぁ」
+TEXT Takatsuki: "Talvez cavalgando com for|a enquanto diz: 'Por favor, me salve'."
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak008' 00 
-TEXT 高槻「ぁあ？」
+TEXT Takatsuki: "Aah?"
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak009' 00 
-TEXT 高槻「………」
+TEXT Takatsuki: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak010' 00 
-TEXT 高槻「…かっ、いい度胸だ」
+TEXT Takatsuki: "...Tsk, voc[ % corajosa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak011' 00 
-TEXT 高槻「それとも何したって無駄だって気づいてた　　か？」
+TEXT Takatsuki: "Ou j$ percebeu que n~o adianta tentar mais nada?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak012' 00 
-TEXT 高槻「まあ、そういうことだ」
+TEXT Takatsuki: "Bem, isso % inevit$vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak013' 00 
-TEXT 高槻「次、おまえの自我がロストしたとき、それ　　が最後だ」
+TEXT Takatsuki: "Da pr+xima vez que voc[ perder a cabe|a ser$ seu fim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak014' 00 
-TEXT 高槻「周期から言っても朝までもたん。せいぜい　　残りわずかの時間を有意義に過ごすんだな」
+TEXT Takatsuki: "Considerando seu ciclo, voc[ n~o dura at% de manh~. @ melhor aproveitar bem o pouco tempo que te resta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak015' 00 
-TEXT 高槻「それともアイツを恨んで過ごすか？」
+TEXT Takatsuki: "Ou prefere gastar isso odiando ele?"
 STOP_SOUND 01 
-TEXT 郁未「………」
+TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak016' 00 
-TEXT 高槻「知ってるんだろう、アイツの正体」
+TEXT Takatsuki: "Voc[ provavelmente j$ sabe o que ele %, certo?"
 STOP_SOUND 01 
-TEXT アイツ……？
-TEXT 少年のこと…？
+TEXT Ele......?
+TEXT O garoto...?
 PLAY_SOUND 01 '004_tak017' 00 
-TEXT 高槻「アイツがすべての元凶だってこと」
+TEXT Takatsuki: "Que ele % o culpado por tr$s de tudo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku000' 00 
-TEXT 郁未「え…」
+TEXT Ikumi: "Qu[...?"
 STOP_SOUND 01 
-TEXT 思わず眼を高槻の方に向けてしまう。
+TEXT Olhei para Takatsuki sem pensar duas vezes.
 PLAY_SOUND 01 '004_tak018' 00 
-TEXT 高槻「傑作だな。知らないのか」
+TEXT Takatsuki: "Olha s+, tivemos uma rea|~o. Ent~o na verdade voc[ n~o sabe."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak019' 00 
-TEXT 高槻「そうか、知らずにそうなってしまったのか」
+TEXT Takatsuki: "E voc[ ficou assim sem nem saber."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak020' 00 
-TEXT 高槻「そうか、そうだな。それがアイツのやり方　　だったな」
+TEXT Takatsuki: "Entendo, faz sentido. Esse % o estilo dele."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak021' 00 
-TEXT 高槻「なら最後にアイツを呪いながら死ぬべきだ　　な」
+TEXT Takatsuki: "Ent~o aproveite e amaldi|oe ele enquanto d$ o seu ^ltimo suspiro."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak022' 00 
-TEXT 高槻「おまえの体の中にアレを植え付けていった　　アイツをな」
+TEXT Takatsuki: "Ele plantou aquela coisa dentro do seu corpo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku001' 00 
-TEXT 郁未「アレって…」
+TEXT Ikumi: "Qu[...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak023' 00 
-TEXT 高槻「おまえの自我をロストさせる別意識、アイ　　ツの分身のことだ」
+TEXT Takatsuki: "Estou falando do alter ego dele, a outra consci[ncia que faz voc[ perder a identidade."
 STOP_SOUND 01 
-TEXT 別意識…
-TEXT 分身…
-TEXT なんのこと…
-TEXT どういうこと…
+TEXT Outra consci[ncia...
+TEXT Alter ego...
+TEXT O qu[...?
+TEXT O que voc[ quer dizer...
 PLAY_SOUND 01 '004_tak024' 00 
-TEXT 高槻「理解できないか？」
+TEXT Takatsuki: "Voc[ n~o entendeu ainda?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak025' 00 
-TEXT 高槻「おまえ、アイツとヤッたんだろうが」
+TEXT Takatsuki: "Voc[ trepou com ele."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak026' 00 
-TEXT 高槻「そんとき植え付けられたんだよ。アイツの　　分身をな」
+TEXT Takatsuki: "Foi a& que o alter ego dele foi plantado em voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak027' 00 
-TEXT 高槻「力づくで襲ってやればいいのに、アイツは　　情に訴えかけて回りくどいやり方をするん　　だよ」
+TEXT Takatsuki: "Ele poderia ter feito # for|a, mas esse cara gostou de brincar com seu cora|~o bancando o bonzinho."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak028' 00 
-TEXT 高槻「そういうのを楽しんでるんだな、アイツは。　　人間でもないくせに」
+TEXT Takatsuki: "Ele deve se divertir fazendo isso... Sendo que nem humano %."
 STOP_SOUND 01 
-TEXT 人間でもないくせに…？
-TEXT 誰が…？
-TEXT あの少年が…！？
+TEXT Nem humano %...?
+TEXT Quem n~o %...?
+TEXT Aquele garoto...!?
 PLAY_SOUND 01 '004_tak029' 00 
-TEXT 高槻「あはははっ！　アイツは人間じゃないんだ　　よっ！」
+TEXT Takatsuki: "Ahahaha!! Aquele miser$vel nem humano %!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak030' 00 
-TEXT 高槻「気づかなかったかっ！？　ありゃ人の皮を　　被ってるだけなんだぜっ！？」
+TEXT Takatsuki: "Voc[ n~o percebeu!? Que aquele cara s+ t$ usando uma carca|a humana!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak031' 00 
-TEXT 高槻「その下は人間じゃない別の生物だっ！」
+TEXT Takatsuki: "Por baixo daquilo % uma criatura completamente diferente!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak032' 00 
-TEXT 高槻「見たいかっ！？　見たいだろうっ！？」
+TEXT Takatsuki: "Voc[ quer ver!? Aposto que quer ver!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak033' 00 
-TEXT 高槻「やめとけぇっ！　あんなもの見るもんじゃ　　ないっ！」
+TEXT Takatsuki: "Bem, desista!! Aquilo n~o % algo para ser visto!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak034' 00 
-TEXT 高槻「吐くほどおぞましい姿をした生き物なんだ　　からなっ！」
+TEXT Takatsuki: "@ uma coisa t~o horr&vel que vai te fazer vomitar!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak035' 00 
-TEXT 高槻「何人もの研究員がアレを見て吐いてるっ！」
+TEXT Takatsuki: "V$rios pesquisadores fizeram exatamente isso!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak036' 00 
-TEXT 高槻「そんなシロモノだぁっ！」
+TEXT Takatsuki: "@ desse n&vel de abomina|~o que estamos falando!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak037' 00 
-TEXT 高槻「げぇっ、思い出しただけで吐き気がもよお　　してきたぜぇっ！」
+TEXT Takatsuki: "Nossa, s+ de lembrar isso me d$ n$useas!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak038' 00 
-TEXT 高槻「あはははっ！　そんな化け物と、てめぇは　　ずっと過ごしてきたんだぁっ！」
+TEXT Takatsuki: "Ahahaha!! E voc[ passou todo esse tempo com aquele monstro!!"
 STOP_SOUND 01 
-TEXT まさか…
-TEXT そんな…
+TEXT Sem chance...
+TEXT N~o pode ser...
 PLAY_SOUND 01 '100_iku002' 00 
-TEXT 郁未「うそだ…」
+TEXT Ikumi: "@ mentira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak039' 00 
-TEXT 高槻「バカかっ、死んでゆくおまえに嘘なんかつ　　いてどうするっ！」
+TEXT Takatsuki: "T$ doida!? Por que eu ia mentir pra algu%m que t$ com o p% na cova!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku003' 00 
-TEXT 郁未「あいつはそんな化け物なんかじゃないもの　　…」
+TEXT Ikumi: "Ele n~o % esse tipo de monstro..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku004' 00 
-TEXT 郁未「人間だもの…」
+TEXT Ikumi: "Ele % humano..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku005' 00 
-TEXT 郁未「沢山いる人間なんかより、よっぽどいい人　　間だものっ！」
+TEXT Ikumi: "Muito mais humano que a maioria de voc[s!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak040' 00 
-TEXT 高槻「こりゃまた傑作だっ！」
+TEXT Takatsuki: "Essa foi de foder!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak041' 00 
-TEXT 高槻「おまえがアイツを弁護するほど、俺はアイ　　ツの女を口説く才能にひれ伏してしまうよ　　っ！」
+TEXT Takatsuki: "Se voc[ t$ indo t~o longe pra defender ele, n~o tenho escolha a n~o ser me curvar diante do talento daquele mulherengo!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku006' 00 
-TEXT 郁未「うそだぁっ…」
+TEXT Ikumi: "Isso % mentira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak042' 00 
-TEXT 高槻「あははははっ！　決定だなっ！」
+TEXT Takatsuki: "Ahahahaha!! Aceita que d+i menos!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak043' 00 
-TEXT 高槻「最後の時間はあの悪魔を呪って過ごすんだ　　なぁっ！」
+TEXT Takatsuki: "Fa|a um bom proveito dos seus ^ltimos momentos amaldi|oando aquele dem{nio!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak044' 00 
-TEXT 高槻「あははははははっ！」
+TEXT Takatsuki: "Ahahahahahaha!!"
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT ………
-TEXT ……
-TEXT …
+TEXT .........
+TEXT ......
+TEXT ...
 BACKGROUND 'FG073' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd04' 01 
-TEXT ………。
-TEXT そういう……そういうことだったんだ…。
-TEXT 人間たちが欲してやまないあの不可視の力とは、人間ではない者の力だったんだ。
-TEXT そしてここで行われてることとは、人間ではない者の異能力を人間に植えつけることだったんだ。
-TEXT 一体なんのために。
-TEXT ただより進化した人間を造ろうとしているだけか。
-TEXT べつの目的があるのか。
-TEXT そんなことは問題ではない。
-TEXT これは私個人の戦いなんだから。
-TEXT そう。重要な事実は、あの少年が人間ではない者、そして不可視の力の源だってこと。
-TEXT 真実は近くにある。
-TEXT それは彼自身のことだったんだ。
-TEXT 真実はすでにキミの中にある。
-TEXT それは私の中に植え付けられた、彼自身の分身のことだったんだ。
-TEXT なんてことはない。
-TEXT 私のカタキは彼だったのだ。
-TEXT お母さんの体を食い破ってしまったのも、彼を象徴とする人間ではない者の分身だったのだ。
+TEXT .........。
+TEXT Ent~o... Ent~o era isso...
+TEXT Aquela for|a invis&vel que os humanos tanto desejavam era, na verdade, o poder de algo que n~o % humano.
+TEXT E o que est~o fazendo aqui... % implantar a habilidade especial de algo n~o humano em seres humanos.
+TEXT Com que prop+sito?
+TEXT Eles est~o apenas tentando criar humanos mais evolu&dos?
+TEXT Ou existe algum outro objetivo?
+TEXT Isso n~o importa.
+TEXT Porque essa % a minha luta pessoal.
+TEXT Sim, a verdade % que aquele garoto n~o % humano... e % a pr+pria fonte da for|a invis&vel.
+TEXT Eu estava pr+xima da verdade.
+TEXT Ele estava falando sobre si mesmo.
+TEXT A verdade j$ est$ dentro de voc[.
+TEXT Ele estava falando sobre a parte dele que foi implantada dentro de mim.
+TEXT No fim das contas, era isso.
+TEXT Ele era o verdadeiro alvo da minha vingan|a.
+TEXT Foi seu alter ego desumano que destruiu e matou minha m~e.
 IF 17 86 00 15 00 00 02 00 .LABEL1 
-TEXT そして晴香を殺したのも……私の中の彼だったんだ…。
+TEXT E quem matou a Haruka... foi a parte dele dentro de mim...
 
 :LABEL1
-TEXT アイツはそんなものを植え付けるために、私に情に訴えかけて、迫って…
-TEXT 私はまんまと騙されて……あいつに気を許して…
-TEXT 家族の真似事みたいなことして、喜んで…
-TEXT ひとりではしゃいで…
-TEXT なんて…なんてバカだったの…
-TEXT 結局実験体としていいように扱われただけ…
-TEXT 悔しい…
-TEXT ………
-TEXT ……
-TEXT …
+TEXT Ele manipulou minhas emo|/es para implantar isso dentro de mim...
+TEXT Ele me enganou direitinho... e eu ca& como uma tonta...
+TEXT Fiquei toda boba brincando de fam&lia com ele...
+TEXT Me empolguei sozinha...
+TEXT Como... pude ser t~o idiota...!?
+TEXT No fim das contas, eu fui s+ uma cobaia...
+TEXT Que +dio...
+TEXT .........
+TEXT ......
+TEXT ...
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT ………。
-TEXT 眠ってたのか…。
-TEXT 何時間経っただろう…。
-TEXT あの戦慄は…アイツの分身はまだ現れていないのか…。
-TEXT 早く現れればいい。
-TEXT もう考えるのも疲れた。
-TEXT 私は負け犬でいい。
-TEXT お母さんの復讐を果たすべく乗り込んで…
-TEXT 結局お母さんと同じ末路を辿ろうとしている。
-TEXT 悔しいけど、もういい。
-TEXT 悔しいと思うのももうイヤだ。
-TEXT だから現れればいい。
-TEXT 現れて、私の心を奪ってくれればいい。
+TEXT .........。
+TEXT Eu dormi...?
+TEXT Quantas horas se passaram...?
+TEXT Aquele arrepio... aquela coisa ainda n~o voltou...
+TEXT Que apare|a logo de uma vez.
+TEXT Cansei de pensar.
+TEXT Eu n~o me importo de ser uma perdedora.
+TEXT Vim aqui pra vingar a minha m~e...
+TEXT E no fim t{ prestes a ter o mesmo destino que ela.
+TEXT @ vergonhoso, mas que se dane.
+TEXT Cansei de me sentir assim.
+TEXT Ent~o que apare|a logo.
+TEXT Que apare|a e leve a minha sanidade embora.
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 'se17' 00 
-TEXT グゴゥゥゥンッ！
-TEXT 遠くで音。
-TEXT もう関係ない。
+TEXT *Ghugouuum!!*
+TEXT Um som distante.
+TEXT Isso n~o importa mais.
 PLAY_SOUND 01 'se22' 00 
-TEXT ズキューーンッ！
+TEXT *Bang!!*
 PLAY_SOUND 01 'se68' 00 
-TEXT ドゥグドゥグッ！
-TEXT また誰かを消去しているの。
+TEXT *Plluuurrghh!!*
+TEXT Est~o eliminando mais algu%m.
 PLAY_SOUND 01 'se22' 00 
-TEXT ズキューーンッ！
+TEXT *Bang!!*
 PLAY_SOUND 01 'se70' 00 
-TEXT ギシャァアァッッ！
-TEXT 違う。
-TEXT そう、私か。
-TEXT 私が消去されてるんだ。
-TEXT 銃弾が私の身体をいくつも貫き、そして死んだ後なんだ。
-TEXT だからこんな冷静なんだ。
-TEXT ああ、痛かった。
-TEXT でも一瞬でよかった。
+TEXT *Grrrshhhhh!!!*
+TEXT N~o...
+TEXT Ah... sou eu.
+TEXT Estou sendo eliminada.
+TEXT V$rias balas atravessaram o meu corpo, e agora estou morta.
+TEXT Por isso estou t~o calma assim.
+TEXT Aahh, doeu bastante.
+TEXT Mas que bom que foi s+ por um momento.
 PLAY_SOUND 01 '004_tak045' 00 
-TEXT 高槻「おまえ…Ｂ‐５８をどうしたっ！？　Ｂ‐　　５８をっ！！」
+TEXT Takatsuki: "Seu... O que voc[ fez com a B-58!? Com a B-58!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy000' 00 
-TEXT 声「のびてるさ、そこで」
+TEXT Voz: "Ela est$ desmaiada bem ali."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak046' 00 
-TEXT 高槻「のびてるって……どうして足枷のある貴様　　に、コントロール体がっ…！！」
+TEXT Takatsuki: "Desmaiada...? Como voc[, preso nessas correntes, conseguiu fazer isso com o corpo de controle...!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy001' 00 
-TEXT 声「おかげでこの通りだよ」
+TEXT Voz: "Foi o pre|o... acabei ficando assim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak047' 00 
-TEXT 高槻「腕を失っただけで、済んだというのかっ！　　！」
+TEXT Takatsuki: "Voc[ t$ me dizendo que perdeu um bra|o e tudo bem!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy002' 00 
-TEXT 声「まあ、やってみれば、できるもんなんだな」
+TEXT Voz: "Bom, quando a gente tenta, descobre que d$ pra fazer."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak048' 00 
-TEXT 高槻「と…とんでもないことをしているぞ、おま　　えっ！」
+TEXT Takatsuki: "Voc[... Voc[ tem no|~o do absurdo que fez!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak049' 00 
-TEXT 高槻「わかっているのかっ！　止まれ、そこでッ　　！！」
+TEXT Takatsuki: "Voc[ t$ entendendo!? Pare com isso!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy003' 00 
-TEXT 声「止まればいいのか、ここで」
+TEXT Voz: "Ah, % pra eu parar? Aqui?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak050' 00 
-TEXT 高槻「そうっ、そうだ…」
+TEXT Takatsuki: "Isso, exatamente..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak051' 00 
-TEXT 高槻「…いやっ、違う！　力を使うなァッッッツ　　！！」
+TEXT Takatsuki: "...N~o, espera! N~o use o seu podeeerrrr!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'se68' 00 
-TEXT ズビュシュゥゥゥゥゥゥゥゥゥゥゥゥゥゥゥゥッッッ！！
+TEXT *Zubyushuuuuuuuuuuuuuuuuu!!!!!*
 PLAY_SOUND 01 '039_boy004' 00 
-TEXT 声「遅いよ、言うのが」
+TEXT Voz: "Tarde demais."
 STOP_SOUND 01 
-TEXT 私の記憶があったのはそこまでだ。
-TEXT 死んでいるはずなのに、私は再びあの戦慄に襲われることになったからだ。
-TEXT ………
-TEXT ……
-TEXT …
+TEXT Minhas mem+rias v~o s+ at% a&.
+TEXT Porque, embora eu devesse estar morta, fui consumida por aquele horror mais uma vez.
+TEXT .........
+TEXT ......
+TEXT ...
 TEXT 
 GOTO_SCRIPT 'DAY16' 
 EOF 

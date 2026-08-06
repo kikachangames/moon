@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 000D 
-SETSTATUS '　Day 13 Morning Building A' 
+SETSTATUS '　Dia 13 Manh~ Pr%dio Ａ'
 BACKGROUND 'FG212' 
 X_24 00 
 X_25 06 
@@ -151,27 +151,27 @@ X_24 01
 X_25 09 
 PLAY_SOUND 00 'mon_cd04' 01 
 PLAY_SOUND 01 '031_boy000' 00 
-TEXT Boy: "Good morning."
+TEXT Garoto: "Bom dia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '086_iku000' 00 
-TEXT Ikumi: "Yeah......"
+TEXT Ikumi: "Oi......"
 STOP_SOUND 01 
-TEXT After waking up, I remained lying down on the bed for a while.
-TEXT It wasn't that I was tired physically.
-TEXT It was more like my mind was being stretched so thin that one night's rest wasn't enough for it to recover...
+TEXT Depois de acordar, fiquei deitada na cama por um tempo.
+TEXT N~o que eu estivesse cansada fisicamente.
+TEXT Era mais como se minha mente estivesse t~o exausta que uma noite de descanso n~o foi suficiente para ela se recuperar...
 PLAY_SOUND 01 '031_boy001' 00 
-TEXT Boy: "It is time, so...what'll you do?"
+TEXT Garoto: "Est$ na hora, ent~o... o que voc[ vai fazer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '086_iku001' 00 
-TEXT Ikumi: "I'll go."
+TEXT Ikumi: "J$ t{ indo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '031_boy002' 00 
-TEXT Boy: "Good luck."
+TEXT Garoto: "Boa sorte."
 STOP_SOUND 01 
 PLAY_SOUND 01 '086_iku002' 00 
-TEXT Ikumi: "Yeah..."
+TEXT Ikumi: "T$..."
 STOP_SOUND 01 
-TEXT I worked my way down from the bed, and managed to leave the room using my legs.
+TEXT Desci da cama e consegui sair do quarto arrastando as pernas.
 X_00 0009 0012 
 X_00 000E 0001 
 GOSUB_SCRIPT 'A_D13' 
@@ -184,25 +184,25 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 'm01_min000' 00 
-TEXT Voice: "There you are, A-12"
+TEXT Voz: "A& est$ voc[, A-12."
 STOP_SOUND 01 
 PLAY_SOUND 01 '005_iku000' 00 
-TEXT Ikumi: "Yes."
+TEXT Ikumi: "Sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm03_min000' 00 
-TEXT Voice: "Stand in the center of the room."
+TEXT Voz: "V$ para o centro da sala."
 STOP_SOUND 01 
-TEXT I stood in the pattern's center.
+TEXT Eu fiquei no centro do padr~o.
 PLAY_SOUND 01 'm12_min000' 00 
-TEXT Voice: "Now we'll begin Level 12."
+TEXT Voz: "Agora vamos come|ar o n&vel 12."
 STOP_SOUND 01 
-TEXT *guuuuun...*
-TEXT *katakatakata...*
-TEXT The machine began to move.
-TEXT *gakon*...*gakon*...*gakon*...
-TEXT My vision was closed off.
-TEXT *gakon*...*gakon*...*gakon*...
-TEXT ...*gakon*......*gakon*......
+TEXT *Vruuuuun...*
+TEXT *Takatakatakata...*
+TEXT A m$quina come|ou a se mover.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT Minha vis~o foi escurecendo.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT ...*Taka*......*Taka*......
 TEXT ...
 TEXT ......
 TEXT .........
@@ -225,12 +225,12 @@ PLAY_SOUND 01 '035_iku062' 00
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm12_min001' 00 
-TEXT Voice: "Level 12 complete."
+TEXT Voz: "N&vel 12 conclu&do."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_iku063' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I left the Minmes.
+TEXT Sa& do MINMES.
 X_00 0009 000B 
 X_00 000E 0002 
 GOSUB_SCRIPT 'A_D13' 
@@ -245,24 +245,24 @@ BACKGROUND 'FG041A'
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd04' 01 
-TEXT When I came to, I was lying on a bed.
+TEXT Quando acordei, percebi que estava deitada em uma cama.
 PLAY_SOUND 01 '088_iku001' 00 
-TEXT Ikumi: "Hey......what...happened to me...?"
+TEXT Ikumi: "Ei......o que...aconteceu comigo...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy000' 00 
-TEXT Boy: "You collapsed in the corridor."
+TEXT Garoto: "Voc[ desmaiou no corredor."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku002' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku003' 00 
-TEXT Ikumi: "...what'll happen to me...from now on...?"
+TEXT Ikumi: "...O que vai acontecer comigo...\nde agora em diante...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy001' 00 
-TEXT Boy: "Nothing's going to happen."
+TEXT Garoto: "N~o vai acontecer nada."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku004' 00 
-TEXT Ikumi: "Liar..."
+TEXT Ikumi: "Mentiroso..."
 STOP_SOUND 01 
 BACKGROUND 'BG002' 
 X_24 00 
@@ -271,87 +271,87 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '088_iku005' 00 
-TEXT Ikumi: "I was so scared..."
+TEXT Ikumi: "Eu estava com tanto medo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku006' 00 
-TEXT Ikumi: "I thought I was going to be killed..."
+TEXT Ikumi: "Pensei que ia morrer..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku007' 00 
-TEXT Ikumi: "Something was trying to kill me..."
+TEXT Ikumi: "Alguma coisa estava tentando me matar..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku008' 00 
-TEXT Ikumi: "I'm sure to be killed eventually...!"
+TEXT Ikumi: "Tenho certeza que serei morta eventualmente...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy002' 00 
-TEXT Boy: "It's okay. If you can sense that, then you can resist it."
+TEXT Garoto: "Est$ tudo bem. Se voc[ consegue sentir isso, ent~o voc[ pode resistir."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy003' 00 
-TEXT Boy: "After all, you didn't even notice it until today. Right?"
+TEXT Garoto: "Afinal, voc[ nem tinha percebido at% hoje. Certo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku009' 00 
-TEXT Ikumi: "I don't care!! It would've been better not to notice...!　There was nothing like this before...!"
+TEXT Ikumi: "T{ nem a&!! Teria sido melhor nem ter percebido...! Nunca senti algo assim antes...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku010' 00 
-TEXT Ikumi: "What the hell is it!!?"
+TEXT Ikumi: "Que diabos % isso!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku011' 00 
-TEXT Ikumi: "What's going on!?"
+TEXT Ikumi: "O que est$ acontecendo!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku012' 00 
-TEXT Ikumi: "What's trying to kill me!?"
+TEXT Ikumi: "O que est$ tentando me matar!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku013' 00 
-TEXT Ikumi: "Save me!!　Do something!!!"
+TEXT Ikumi: "Me salve!! Fa|a alguma coisa!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku014' 00 
-TEXT Ikumi: "I......can't stand it...something that scary...!"
+TEXT Ikumi: "Eu...... n~o vou aguentar... % t~o assustador...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy004' 00 
-TEXT Boy: "Calm down."
+TEXT Garoto: "Calma."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy005' 00 
-TEXT Boy: "You're strong. Stronger than you think you are."
+TEXT Garoto: "Voc[ % forte. Mais forte do que pensa que %."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy006' 00 
-TEXT Boy: "Have confidence in yourself."
+TEXT Garoto: "Tenha confian|a em si mesma."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku015' 00 
-TEXT Ikumi: "Confidence......yeah right..."
+TEXT Ikumi: "Confian|a... sim, certo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku016' 00 
-TEXT Ikumi: "It's impossible to resist a fear like that...　　　Next time it'll kill me for sure..."
+TEXT Ikumi: "@ imposs&vel resistir a um medo desses... Da pr+xima vez isso vai me matar, com certeza..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy007' 00 
-TEXT Boy: "Don't do that. If you act that weak who knows what'll happen?"
+TEXT Garoto: "N~o diga isso. Se continuar agindo assim, quem sabe o que pode acontecer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy008' 00 
-TEXT Boy: "You're already holding a strong enough will to resist it."
+TEXT Garoto: "Voc[ j$ possui uma vontade forte o suficiente para resistir."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku017' 00 
-TEXT Ikumi: "I can't...resist that..."
+TEXT Ikumi: "Eu n~o posso... resistir a isso..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy009' 00 
-TEXT Boy: "Give it your all."
+TEXT Garoto: "D[ tudo de si."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku018' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '032_boy010' 00 
-TEXT Boy: "Now, it's probably cold, but eat up."
+TEXT Garoto: "Agora, provavelmente est$ fria, mas coma."
 STOP_SOUND 01 
-TEXT He'd brought my food for me and left it on the floor.
+TEXT Ele trouxe minha comida e a deixou no ch~o.
 PLAY_SOUND 01 '088_iku019' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I had no appetite whatsoever.
+TEXT Eu n~o tinha apetite nenhum.
 PLAY_SOUND 01 '032_boy011' 00 
-TEXT Boy: "Once you've eaten go to your afternoon training."
+TEXT Garoto: "Depois de comer, v$ para o treino da tarde."
 STOP_SOUND 01 
 PLAY_SOUND 01 '088_iku020' 00 
-TEXT Ikumi: "Yeah..."
+TEXT Ikumi: "T$..."
 STOP_SOUND 01 
-TEXT I just barely answered him, and slowly crawled out of bed.
-TEXT Then left the room without touching my food.
+TEXT Eu mal respondi a ele e lentamente me arrastei para fora da cama.
+TEXT Ent~o sa& do quarto sem tocar na comida.
 X_00 0009 0012 
 X_00 000E 0003 
 GOSUB_SCRIPT 'A_D13' 
@@ -363,30 +363,30 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT I entered the Elpod.
+TEXT Entrei no ELPOD.
 PLAY_SOUND 01 'es0_elp000' 00 
-TEXT Voice: "A-12, confirmed."
+TEXT Voz: "A-12, confirmada."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e02_elp000' 00 
-TEXT Voice: "Now make your way to the center of the room."
+TEXT Voz: "Agora v$ para o centro da sala."
 STOP_SOUND 01 
-TEXT I stood silent in the pattern's center.
+TEXT Fiquei em sil[ncio no centro do padr~o.
 PLAY_SOUND 01 'e08_elp000' 00 
-TEXT Voice: "Level 8...begin."
+TEXT Voz: "N&vel 8... comece."
 STOP_SOUND 01 
-TEXT This machine...
-TEXT This machine has planted something horrible within me.
-TEXT Playing with people's memories, and doing such a thing behind their backs...
+TEXT Esta m$quina...
+TEXT Esta m$quina plantou algo horr&vel dentro de mim.
+TEXT Brincar com as mem+rias das pessoas e fazer uma coisa dessas sem ningu%m perceber...
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd08' 01 
 PLAY_SOUND 01 'se28' 01 
-TEXT *doku*...*doku*...
-TEXT ...*doku*...*doku*...
-TEXT ......*doku*...*doku*...
+TEXT *Tak*...*Tak*...
+TEXT ...*Tak*...*Tak*...
+TEXT ......*Tak*...*Tak*...
 STOP_SOUND 01 
-TEXT She was there as usual.
+TEXT Ela estava l$ como sempre.
 GOSUB_SCRIPT 'EL8' 
 IF 16 17 00 15 01 00 02 00 .LABEL4 
 GOTO_SCRIPT 'INIT' 
@@ -406,12 +406,12 @@ PLAY_SOUND 01 'e02_iku110' 00
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_elp001' 00 
-TEXT Voice: "Level 8 complete. Good work."
+TEXT Voz: "N&vel 8 conclu&do. Bom trabalho."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e02_iku111' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I left the room without saying a word.
+TEXT Sa& da sala sem dizer uma palavra.
 X_00 0009 0017 
 X_00 000E 0004 
 GOSUB_SCRIPT 'A_D13' 
@@ -420,121 +420,121 @@ GOTO_SCRIPT 'INIT'
 
 :LABEL5
 STOP_SOUND 00 
-TEXT I had no appetite...
-TEXT I was about to take out my tray, but I didn't bother.
+TEXT N~o tenho apetite...
+TEXT Eu estava prestes a pegar minha bandeja, mas acabei desistindo.
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 00 'mon_cd04' 01 
-TEXT The truth is already within you.
-TEXT The boy said that.
-TEXT In that case, I should be able to make that truth show itself.
-TEXT I'll try it...
-TEXT First, what is the truth I'm chasing?
-TEXT The reason for my mother's death...
-TEXT And that was something I'd learn through studying what went on in this facility.
-TEXT Everything this facility was hiding from the public.
-TEXT I had one major lead on that truth.
+TEXT A verdade j$ existe dentro de voc[...
+TEXT O garoto disse isso.
+TEXT Nesse caso, eu deveria ser capaz de fazer com que essa verdade se mostrasse.
+TEXT Vou tentar...
+TEXT Primeiro, qual % a verdade que estou perseguindo?
+TEXT O motivo da morte da minha m~e...
+TEXT E isso % algo que posso descobrir investigando o que acontece nesta instala|~o.
+TEXT Tudo o que esta instala|~o est$ escondendo do p^blico.
+TEXT Eu tinha uma pista importante sobre essa verdade.
 IF 17 64 00 15 00 00 02 00 .LABEL6 
-TEXT Yui's sister's death.
-TEXT Yui's sister must have been eliminated for the same reason as my mother.
-TEXT They were in the same environment.
-TEXT So if I want to learn the reason for my mother's death, I simply have to look for the reason behind Yui's sister's elimination.
-TEXT Question:
-TEXT Why was Yui's sister eliminated?
-TEXT Answer:
-TEXT To Fargo, she'd become a source of fear.
-TEXT Question:
-TEXT What changed her into fear?
-TEXT Answer:
-TEXT Unknown.
+TEXT A morte da irm~ da Yui.
+TEXT A irm~ da Yui deve ter sido eliminada pelo mesmo motivo que minha m~e.
+TEXT Elas estavam no mesmo ambiente.
+TEXT Ent~o, se eu quiser saber o motivo da morte da minha m~e, simplesmente preciso procurar o motivo da elimina|~o da irm~ da Yui.
+TEXT Pergunta:
+TEXT Por que a irm~ da Yui foi eliminada?
+TEXT Resposta:
+TEXT Porque para a FARGO, ela se tornou uma amea|a.
+TEXT Pergunta:
+TEXT Por que eles tinham medo dela?
+TEXT Resposta:
+TEXT Desconhecida.
 JMP .LABEL7 
 
 :LABEL6
-TEXT Yui's sister's death.
-TEXT Yui's sister must have died for the same reason as my mother.
-TEXT They were in the same environment.
-TEXT So if I want to learn the reason for my mother's death, I simply have to look for the reason behind Yui's sister's death.
-TEXT Question:
-TEXT Why did Yui's sister choose death?
-TEXT Answer:
-TEXT Because she understood what made her fear.
-TEXT Question:
-TEXT What changed her into fear?
-TEXT Answer:
-TEXT Unknown.
+TEXT A morte da irm~ da Yui.
+TEXT A irm~ da Yui deve ter morrido pelo mesmo motivo que minha m~e.
+TEXT Elas estavam no mesmo ambiente.
+TEXT Ent~o, se eu quiser saber o motivo da morte da minha m~e, simplesmente preciso procurar o motivo da morte da irm~ da Yui.
+TEXT Pergunta:
+TEXT Por que a irm~ da Yui escolheu a morte?
+TEXT Resposta:
+TEXT Porque ela entendeu que era uma amea|a.
+TEXT Pergunta:
+TEXT O que a transformou em uma amea|a?
+TEXT Resposta:
+TEXT Desconhecida.
 
 :LABEL7
-TEXT I was at a standstill.
-TEXT But the truth is already within me.
-TEXT If I plug that in I can keep going.
-TEXT The truth = the reason my mother died.
-TEXT The reason my mother died = that of Yui's sister's death.
-TEXT The truth is the reason behind both their deaths.
-TEXT That truth is within me.
+TEXT Eu estava paralisada.
+TEXT Mas a verdade j$ existe dentro de mim.
+TEXT Se eu conectar isso, posso avan|ar.
+TEXT A verdade % igual a raz~o pela qual minha m~e morreu.
+TEXT A raz~o pela qual minha m~e morreu % igual a morte da irm~ de Yui.
+TEXT A verdade % a raz~o por tr$s da morte das duas.
+TEXT Essa verdade est$ dentro de mim.
 IF 17 64 00 15 00 00 02 00 .LABEL8 
-TEXT The reason they were eliminated already exists within me.
+TEXT A raz~o pela qual elas foram eliminadas j$ existe dentro de mim.
 JMP .LABEL9 
 
 :LABEL8
-TEXT The reason they both died already exists within me.
+TEXT A raz~o pela qual as duas morreram j$ existe dentro de mim.
 
 :LABEL9
-TEXT Which means,
+TEXT Isso significa que...
 IF 17 64 00 15 00 00 02 00 .LABEL10 
-TEXT I'm already in a position to be eliminated just like them.
+TEXT J$ estou em condi|/es de ser eliminada, assim como elas.
 JMP .LABEL11 
 
 :LABEL10
-TEXT I'm already in a position to be eliminated just like them.
+TEXT J$ estou em condi|/es de ser eliminada, assim como elas.
 
 :LABEL11
-TEXT That has to be right.
+TEXT Isso tem que estar certo.
 PLAY_SOUND 01 '033_boy000' 00 
-TEXT 　"It's not something welcomed around here."
+TEXT 　"N~o % algo bem-vindo por aqui."
 STOP_SOUND 01 
-TEXT The boy's words suggested that.
-TEXT So I'd already gone that far...
-TEXT No, grieving comes later...I'm moving forward.
-TEXT Elimination should be a countermeasure reserved for unforseen situations.
-TEXT In other words a countermeasure reserved for humans who tried and failed to gain the invisible strength.
-TEXT It was still unclear what happens to a person after failing to gain the invisible strength.
-TEXT But from what I say of Yui's sister's case, I can guess.
-TEXT They lose their mind and become violent.
-TEXT And then there's the fact of that state of alert.
-TEXT Technically, she hadn't failed to gain the invisible strength.
-TEXT She certainly had obtained the invisible strength.
-TEXT And by holding that strength she ran out of control.
-TEXT Otherwise there'd be no need to put the facility on high alert to eliminate her.
-TEXT The truth is already within me.
-TEXT So I must already have the invisible strength.
-TEXT That other will trying to kill me...that's the true form of the invisible strength.
-TEXT The invisible strength was a separate life form residing within me.
-TEXT But that separate life form had targeted Yui's sister, and my mother, and now me.
-TEXT It's eating at me from the inside, and trying to take possession of my body.
-TEXT There's no other explanation for that terror.
-TEXT This is the truth...
-TEXT The truth I'd been seeking for so long.
-TEXT I finally reached it.
-TEXT Okaa-san ran away from here in the same state I'm in now, and came back to me.
-TEXT Then she used her limited time for atonement by staying with me.
+TEXT As palavras do garoto sugeriam isso.
+TEXT Ent~o eu j$ tinha ido t~o longe...
+TEXT N~o, o luto vem depois... tenho que seguir em frente.
+TEXT A elimina|~o deve ser uma contramedida reservada para situa|/es imprevistas.
+TEXT Em outras palavras, uma contramedida reservada aos humanos que tentaram e n~o conseguiram obter a for|a invis&vel.
+TEXT Ainda n~o estava claro o que acontece com uma pessoa depois de n~o conseguir obter a for|a invis&vel.
+TEXT Mas pelo que vi, a partir do caso da irm~ de Yui, posso adivinhar.
+TEXT Elas perdem seus corpos e se tornam violentas.
+TEXT E assim acionam um estado de alerta.
+TEXT Tecnicamente, ela n~o deixou de conseguir a for|a invis&vel.
+TEXT Ela certamente obteve a for|a invis&vel.
+TEXT Mas ao adquirir essa for|a ela ficou fora de controle.
+TEXT Caso contr$rio, n~o haveria necessidade de colocar a instala|~o em alerta m$ximo para elimin$-la.
+TEXT A verdade j$ est$ dentro de mim.
+TEXT Ent~o j$ devo ter a for|a invis&vel.
+TEXT Aquilo tentando me matar... essa % a verdadeira forma da for|a invis&vel.
+TEXT A for|a invis&vel % uma forma de vida separada que reside dentro de mim.
+TEXT Essa forma de vida separada tinha como alvo a irm~ da Yui, a minha m~e, e agora eu.
+TEXT Est$ me corroendo por dentro e tentando tomar posse do meu corpo.
+TEXT N~o existe outra explica|~o para esse terror.
+TEXT Essa % a verdade...
+TEXT A verdade que procurei por tanto tempo.
+TEXT Eu finalmente a encontrei.
+TEXT Minha m~e fugiu daqui no mesmo estado em que estou agora e voltou para mim.
+TEXT Ent~o ela usou o tempo que lhe restava para a expia|~o, ficando comigo.
 PLAY_SOUND 01 '088_iku120' 00 
-TEXT 　"My objective is to learn the truth."
+TEXT "Meu objetivo % conhecer a verdade."
 STOP_SOUND 01 
-TEXT I finally have it.
+TEXT Finalmente consegui.
 PLAY_SOUND 01 '088_iku121' 00 
-TEXT 　"I'll think about it when I know the truth. Until I know, I won't do any such thing."
+TEXT "Pensarei nisso quando souber a verdade. At% que eu saiba, n~o farei tal coisa."
 STOP_SOUND 01 
-TEXT Now I'll think.
-TEXT About what's right.
-TEXT And who's to blame.
+TEXT Agora vou pensar.
+TEXT Sobre o que % certo.
+TEXT E quem % o culpado.
 PLAY_SOUND 01 '012_har035' 00 
-TEXT 　"Just make sure that's not too late."
+TEXT "Apenas certifique-se de que n~o seja tarde demais."
 STOP_SOUND 01 
-TEXT Yes.
-TEXT There's not much time left for me.
-TEXT It's all over if this body is eaten.
+TEXT Sim.
+TEXT N~o me resta muito tempo.
+TEXT Est$ tudo acabado se este corpo for perdido.
 TEXT .........
-TEXT I should go back...
+TEXT Eu deveria voltar...
 IF 17 24 00 15 01 00 02 00 .LABEL12 
 X_00 0009 0009 
 JMP .LABEL13 
@@ -557,169 +557,169 @@ X_24 01
 X_25 09 
 PLAY_SOUND 00 'mon_cd04' 01 
 PLAY_SOUND 01 '033_boy001' 00 
-TEXT Boy: "Welcome back."
+TEXT Garoto: "Bem-vinda de volta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku000' 00 
-TEXT Ikumi: "...I'm back."
+TEXT Ikumi: "...Voltei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy002' 00 
-TEXT Boy: "You haven't eaten again."
+TEXT Garoto: "Voc[ n~o comeu de novo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku001' 00 
-TEXT Ikumi: "I figured out a lot of things."
+TEXT Ikumi: "Descobri muitas coisas."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy003' 00 
-TEXT Boy: "I see. But you really should eat something."
+TEXT Garoto: "Entendi. Mas voc[ realmente deveria comer alguma coisa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku002' 00 
-TEXT Ikumi: "I don't have that much time left."
+TEXT Ikumi: "N~o me resta muito tempo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy004' 00 
-TEXT Boy: "That is true."
+TEXT Garoto: "Isso % verdade."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku003' 00 
-TEXT Ikumi: "I have to take my revenge."
+TEXT Ikumi: "Tenho que me vingar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku004' 00 
-TEXT Ikumi: "But I don't plan to take it out on just one lowlife."
+TEXT Ikumi: "Mas n~o pretendo descontar tudo em apenas um canalha."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku005' 00 
-TEXT Ikumi: "I won't go after the specific people who laid hands on my okaa-san."
+TEXT Ikumi: "N~o irei atr$s das pessoas espec&ficas que acabaram com a minha m~e."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku006' 00 
-TEXT Ikumi: "I'd prefer someone who symbolizes them all."
+TEXT Ikumi: "Prefiro algu%m que simbolize todos eles."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy005' 00 
-TEXT Boy: "Yeah."
+TEXT Garoto: "Sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku007' 00 
-TEXT Ikumi: "You wouldn't be a bad choice."
+TEXT Ikumi: "Voc[ n~o seria uma m$ escolha..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy006' 00 
-TEXT Boy: "That is true."
+TEXT Garoto: "Eu n~o tiro a sua raz~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku008' 00 
-TEXT Ikumi: "Tell me. Who is a fitting target of my revenge?"
+TEXT Ikumi: "Diga-me. Quem % um alvo adequado para minha vingan|a?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy007' 00 
-TEXT Boy: "I see."
+TEXT Garoto: "Olha."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy008' 00 
-TEXT Boy: "You're threatening me."
+TEXT Garoto: "Voc[ est$ me amea|ando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku009' 00 
-TEXT Ikumi: "If you've noticed that, then tell me."
+TEXT Ikumi: "Se n~o gostou, responda minha pergunta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy009' 00 
-TEXT Boy: "I'll tell you, but your threat doesn't really count."
+TEXT Garoto: "Eu vou responder, n~o precisa me amea|ar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy010' 00 
-TEXT Boy: "You can't control the invisible strength."
+TEXT Garoto: "Voc[ n~o pode controlar a for|a invis&vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku010' 00 
-TEXT Ikumi: "Yes, that's right."
+TEXT Ikumi: "Sim, foi o que imaginei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku011' 00 
-TEXT Ikumi: "All I can do is run ragged until my body is eaten up by it, and if I'm lucky kill a few patrolmen in my final moments."
+TEXT Ikumi: "Tudo o que posso fazer % correr at% que meu corpo seja devorado e, se tiver sorte, levar alguns patrulheiros comigo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy011' 00 
-TEXT Boy: "Like C-188."
+TEXT Garoto: "Como a C-188."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku012' 00 
-TEXT Ikumi: "Yes."
+TEXT Ikumi: "Sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku013' 00 
-TEXT Ikumi: "But until then there's no proof I'm a failed product. As long as you don't warn them."
+TEXT Ikumi: "Mas at% agora n~o h$ provas de que eu seja um experimento fracassado. Contanto que voc[ n~o os avise."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku014' 00 
-TEXT Ikumi: "It's all over if they shoot me."
+TEXT Ikumi: "Estar$ tudo acabado se eles atirarem em mim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy012' 00 
-TEXT Boy: "I won't tell them."
+TEXT Garoto: "Eu nunca contaria a eles."
 STOP_SOUND 01 
-TEXT I know that.
-TEXT I just wanted to emphasize how little time I have.
+TEXT Eu sei disso.
+TEXT S+ queria que soubesse que meu tempo % curto...
 PLAY_SOUND 01 '089_iku015' 00 
-TEXT Ikumi: "Answer me, please..."
+TEXT Ikumi: "Responda, por favor..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy013' 00 
-TEXT Boy: "But isn't that the core? I can't say that."
+TEXT Garoto: "Mas isso j$ faz parte do segredo. Eu n~o posso falar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku016' 00 
-TEXT Ikumi: "I know...but..."
+TEXT Ikumi: "Eu sei... mas..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy014' 00 
-TEXT Boy: "There's a little time left."
+TEXT Garoto: "Resta pouco tempo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy015' 00 
-TEXT Boy: "If you wait a little longer, the path will open."
+TEXT Garoto: "Se aguentar s+ mais um pouco,\no caminho se abre."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku017' 00 
-TEXT Ikumi: "What does that mean...?"
+TEXT Ikumi: "Do que voc[ t$ falando...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku018' 00 
-TEXT Ikumi: "If a little more time passes I won't be me anymore..."
+TEXT Ikumi: "Se demorar muito, n~o vou ser mais eu mesma..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku019' 00 
-TEXT Ikumi: "My mind will be eaten by that monster!!! Are you telling me to wait for that!!?"
+TEXT Ikumi: "Minha mente vai ser devorada!!!\nE voc[ t$ dizendo pra eu esperar por isso!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku020' 00 
-TEXT Ikumi: "What kind of path will open from that!?"
+TEXT Ikumi: "Que tipo de caminho pode se abrir depois disso!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy016' 00 
-TEXT Boy: "Is it okay?"
+TEXT Garoto: "Me escute."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy017' 00 
-TEXT Boy: "Are you okay with wasting your mental strength like that?"
+TEXT Garoto: "Voc[ n~o deve ficar desgastando o seu psicol+gico desse jeito."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku021' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy018' 00 
-TEXT Boy: "Eat your meals, and get plenty of rest."
+TEXT Garoto: "Alimente-se bem e descanse bastante."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy019' 00 
-TEXT Boy: "Don't think about the bad possibilities. Act with a strong will."
+TEXT Garoto: "N~o pense nas piores possibilidades. Fa|a valer a sua for|a de vontade."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku022' 00 
-TEXT Ikumi: "That means......several before me were able to escape this situation..."
+TEXT Ikumi: "Isso significa... que outras pessoas antes de mim conseguiram escapar dessa situa|~o..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy020' 00 
-TEXT Boy: "...it's unprecedented, but..."
+TEXT Garoto: "...Isso seria algo in%dito, mas..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku023' 00 
-TEXT Ikumi: "That's what a roommate's supposed to say..."
+TEXT Ikumi: "Isso % coisa que um colega de quarto deveria dizer...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy021' 00 
-TEXT Boy: "Well, yes."
+TEXT Garoto: "Bem, sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '033_boy022' 00 
-TEXT Boy: "But it will at least buy you time. You would prefer to have a little more time, right?"
+TEXT Garoto: "Mas ao menos isso vai lhe dar algum tempo. Voc[ gostaria de ter um pouco mais de tempo, n~o %?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku024' 00 
-TEXT Ikumi: "Yeah..."
+TEXT Ikumi: "@..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '089_iku025' 00 
-TEXT Ikumi: "I'll try..."
+TEXT Ikumi: "Vou tentar..."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd15' 01 
 TEXT .........
-TEXT The entrance to sleep.
+TEXT O sono chegando.
 TEXT .........
-TEXT The sensation of my hair being caressed.
-TEXT A long time ago...I felt like I'd returned to my youth...
+TEXT A sensa|~o de algu%m acariciando meu cabelo.
+TEXT H$ muito tempo... senti como se tivesse voltado # minha inf}ncia...
 PLAY_SOUND 01 '033_boy023' 00 
-TEXT ......"...I'm sorry."
+TEXT ......"...Me desculpa."
 STOP_SOUND 01 
-TEXT A voice of atonement.
-TEXT A male voice.
-TEXT The boy's voice.
-TEXT What's there to be sorry about?
-TEXT What responsibility is there,
-TEXT for you to bear...?
+TEXT Uma voz pedindo perd~o.
+TEXT Uma voz de homem.
+TEXT Uma voz de garoto.
+TEXT Desculpa pelo qu[, afinal?
+TEXT Que tipo de fardo voc[ carrega?
+TEXT Quem % voc[...?
 TEXT 
 GOTO_SCRIPT 'DAY14' 
 EOF 

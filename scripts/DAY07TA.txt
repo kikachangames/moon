@@ -707,7 +707,7 @@ PLAY_SOUND 00 'mon_cd04' 01
 TEXT Naquele dia, seu hor$rio de treinamento chegou como sempre.
 TEXT Da mesma forma, na mesma hora, no mesmo lugar.
 TEXT Ela sabia para onde ir.
-TEXT A sala onde todo tipo de coisa era constantemente for|ada.
+TEXT A sala onde ela era for|ada a fazer todo tipo de coisa.
 TEXT A Sala de Aperfei|oamento.
 TEXT Mas...
 SPRITE 'CGFA01' 
@@ -746,7 +746,7 @@ BACKGROUND 'BO'
 X_24 00 
 X_25 06 
 TEXT Ela n~o se lembrava de muitos detalhes depois disso.
-TEXT Mas tinha certeza de que havia caminhado tanto pelo labirinto da instala|~o at% que seus p%s come|aram a doer.
+TEXT Mas tinha certeza de que havia caminhado tanto pelo labirinto da instala|~o que seus p%s at% come|aram a doer.
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 06 
@@ -758,7 +758,7 @@ TEXT Havia uma cama preparada no canto, e uma porta de chuveiro podia ser vista 
 PLAY_SOUND 01 '006_yri002' 00 
 TEXT Yuri: "......"
 STOP_SOUND 01 
-TEXT Sem demonstrar preocupa|~o vis&vel, Yuri come|ou a retirar suas roupas externas.
+TEXT Sem demonstrar nenhuma preocupa|~o, Yuri come|ou a tirar a roupa.
 TEXT Mesmo que o lugar fosse diferente, n~o haveria grande mudan|a no treinamento...
 TEXT Refor|o mental com um par de homens da FARGO.
 TEXT Algo que continuava todos os dias desde que ela entrou nesta instala|~o.
@@ -798,7 +798,7 @@ TEXT Esse homem exalava uma atmosfera diferente dos que o precederam.
 TEXT N~o era nenhuma parte espec&fica dele.
 TEXT Pode ser apenas um preconceito de que a mudan|a de local significava algo.
 TEXT Sua idade parecia menor do que a dos outros homens da FARGO.
-TEXT Isso pode ser apenas uma incerteza causada pelo fato de ele estar sozinho, j$ que os homens sempre vieram em duplas antes.
+TEXT Isso pode ser apenas uma incerteza causada pelo fato dele estar sozinho, j$ que os homens sempre vieram em duplas antes.
 TEXT De qualquer forma, n~o houve grande diferen|a no treinamento.
 PLAY_SOUND 01 '015_boy000' 00 
 TEXT Homem: "Recebi ordens para fazer sexo com voc[."

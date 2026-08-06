@@ -363,7 +363,7 @@ TEXT Ainda n~o sabia se eram coisas boas ou ruins...
 PLAY_SOUND 01 '039_iku035' 00 
 TEXT Ikumi: (......)
 STOP_SOUND 01 
-TEXT Eu devo voltar para o Pr%dio A... Posso pensar nisso depois com mais calma.
+TEXT @ melhor voltar para o Pr%dio A... Posso pensar nisso com mais calma depois.
 X_00 00AA 0000 
 JMP .LABEL122 
 

@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 000E 
-SETSTATUS '　Day 14 Morning Building Ａ' 
+SETSTATUS '　Dia 14 Manh~ Pr%dio Ａ' 
 BACKGROUND 'FG213' 
 X_24 00 
 X_25 06 
@@ -168,69 +168,69 @@ BACKGROUND 'BG002'
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd04' 01 
-TEXT When I woke up that morning, the boy wasn't there.
-TEXT I was always woken up by that boy.
-TEXT So when I wasn't woken up, and I noticed I hadn't been woken up, that shock woke me up.
-TEXT Very mysterious.
+TEXT Quando acordei pela manh~, o garoto n~o estava aqui.
+TEXT Era sempre ele que me acordava.
+TEXT Ent~o, quando ele n~o me acordou, e eu percebi que ainda estava dormindo, o choque disso me fez despertar.
+TEXT Muito misterioso.
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I just stared at the ceiling, rolling over in bed.
-TEXT Vacant.
-TEXT Somehow sad.
-TEXT But I didn't want to find out,
-TEXT Why that was sad.
-TEXT I could pick any number of reasons.
-TEXT But I didn't need to enumerate them all up for it to be clear which was right.
-TEXT Even if I lined up all those lies, they would be nothing but lies.
-TEXT Vacant.
+TEXT Eu apenas olhei para o teto, rolando na cama.
+TEXT Vago.
+TEXT De alguma forma triste.
+TEXT Mas eu n~o queria descobrir...
+TEXT Por que isso foi triste.
+TEXT Eu poderia escolher v$rios motivos.
+TEXT Mas n~o precisei enumer$-los para ficar claro qual era o certo.
+TEXT Mesmo se eu alinhasse todas essas mentiras, elas ainda n~o passariam de mentiras.
+TEXT Vago.
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se41' 00 
-TEXT *gacha*
-TEXT The door opened. Then,
+TEXT *Tudum*
+TEXT A porta se abriu. E ent~o...
 PLAY_SOUND 01 '034_boy000' 00 
-TEXT Voice: "Good morning."
+TEXT Voz: "Bom dia."
 STOP_SOUND 01 
-TEXT A morning greeting.
+TEXT Uma sauda|~o matinal.
 PLAY_SOUND 01 '090_iku000' 00 
-TEXT Ikumi: "Good morning."
+TEXT Ikumi: "Bom dia."
 STOP_SOUND 01 
-TEXT I greeted him back.
+TEXT Eu o cumprimentei de volta.
 SPRITE 'CGSY01' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '034_boy001' 00 
-TEXT Boy: "Impressive, you woke up on your own."
+TEXT Garoto: "Impressionante, voc[ acordou sozinha."
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku001' 00 
-TEXT Ikumi: "I thought you weren't coming back."
+TEXT Ikumi: "Achei que voc[ n~o voltaria."
 STOP_SOUND 01 
 PLAY_SOUND 01 '034_boy002' 00 
-TEXT Boy: "Why?"
+TEXT Garoto: "Por qu[?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku002' 00 
-TEXT Ikumi: "No idea..."
+TEXT Ikumi: "N~o sei..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku003' 00 
-TEXT Ikumi: "I just thought that."
+TEXT Ikumi: "S+ pensei nisso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '034_boy003' 00 
-TEXT Boy: "I do go outside of this room."
+TEXT Garoto: "Eu tamb%m saio deste quarto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku004' 00 
-TEXT Ikumi: "Yeah..."
+TEXT Ikumi: "Sim..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '034_boy004' 00 
-TEXT Boy: "Now, get going."
+TEXT Garoto: "Agora, v$ em frente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku005' 00 
-TEXT Ikumi: "What's the point?"
+TEXT Ikumi: "Com qual motivo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '034_boy005' 00 
-TEXT Boy: "You'll be suspected. It's best to continue your normal lifestyle for the time being."
+TEXT Garoto: "Vai levantar suspeitas se n~o for. @ melhor continuar com sua rotina normal por enquanto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '090_iku006' 00 
-TEXT Ikumi: "I understand."
+TEXT Ikumi: "Entendi."
 STOP_SOUND 01 
 X_00 0009 0012 
 X_00 000E 0001 
@@ -244,25 +244,25 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 'm01_min000' 00 
-TEXT Voice: "There you are, A-12"
+TEXT Voz: "A& est$ voc[, A-12."
 STOP_SOUND 01 
 PLAY_SOUND 01 '005_iku000' 00 
-TEXT Ikumi: "Yes."
+TEXT Ikumi: "Sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm03_min000' 00 
-TEXT Voice: "Stand in the center of the room."
+TEXT Voz: "Fique no centro da sala."
 STOP_SOUND 01 
-TEXT I stood in the pattern's center.
+TEXT Fui para o centro do padr~o.
 PLAY_SOUND 01 'm13_min000' 00 
-TEXT Voice: "Now we'll begin Level 13."
+TEXT Voz: "Agora come|aremos o N&vel 13."
 STOP_SOUND 01 
-TEXT *guuuuun...*
-TEXT *katakatakata...*
-TEXT The machine began to move.
-TEXT *gakon*...*gakon*...*gakon*...
-TEXT My vision was closed off.
-TEXT *gakon*...*gakon*...*gakon*...
-TEXT ...*gakon*......*gakon*......
+TEXT *Vruuuuun...*
+TEXT *Takatakatakata...*
+TEXT A m$quina come|ou a se mover.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT Minha vis~o foi escurecendo.
+TEXT *Taka*...*Taka*...*Taka*...
+TEXT ...*Taka*......*Taka*......
 TEXT ...
 TEXT ......
 TEXT .........
@@ -285,12 +285,12 @@ PLAY_SOUND 01 '035_iku062' 00
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm13_min001' 00 
-TEXT Voice: "Level 13 complete."
+TEXT Voz: "N&vel 13 conclu&do."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_iku063' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I left the Minmes.
+TEXT Sa& do MINMES.
 X_00 0009 000B 
 X_00 000E 0002 
 GOSUB_SCRIPT 'A_D14' 
@@ -299,9 +299,9 @@ GOTO_SCRIPT 'INIT'
 
 :LABEL2
 PLAY_SOUND 01 'se64' 00 
-TEXT *gachan*
-TEXT I took my tray and carried it to the door.
-TEXT Then I opened it with my back and entered the corridor.
+TEXT *Tum*
+TEXT Peguei minha bandeja e fui at% a porta.
+TEXT Ent~o abri com as costas e entrei no corredor.
 X_04 0071 0001 
 IF 17 24 00 15 01 00 02 00 .LABEL3 
 X_00 0009 0009 
@@ -325,35 +325,35 @@ X_24 01
 X_25 09 
 PLAY_SOUND 00 'mon_cd04' 01 
 PLAY_SOUND 01 '035_boy000' 00 
-TEXT Boy: "So you feel like eating now?"
+TEXT Garoto: "Pelo visto o seu apetite voltou agora."
 STOP_SOUND 01 
 PLAY_SOUND 01 '092_iku000' 00 
-TEXT Ikumi: "Yeah...something like that."
+TEXT Ikumi: "Isso... algo assim."
 STOP_SOUND 01 
-TEXT For the first time in a while, I took my tray and sat down opposite the boy.
+TEXT Pela primeira vez em muito tempo, peguei minha bandeja e sentei na frente do garoto.
 PLAY_SOUND 01 '092_iku001' 00 
-TEXT Ikumi: "Itadakimasu."
+TEXT Ikumi: "Bom apetite."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy001' 00 
-TEXT Boy: "Itadakimasu."
+TEXT Garoto: "Bom apetite."
 STOP_SOUND 01 
-TEXT That wasn't true.
-TEXT It wasn't that I'd finally noticed the importance of eating.
-TEXT That wasn't the real problem.
-TEXT I'd just started thinking of this time as irreplaceable.
-TEXT That's all.
-TEXT The little time left.
-TEXT What should I do with it?
-TEXT I wanted to make the most of it.
-TEXT That's what I noticed this morning.
-TEXT For the first time I noticed the sadness that would come when our perfectly ordinary time in this room came to an end.
-TEXT I chewed my food slowly.
-TEXT When I finished eating, lunchtime was nearly over.
-TEXT Rather insignificant, perfectly ordinary time...
+TEXT Isso n~o era verdade.
+TEXT N~o que eu finalmente tivesse percebido a import}ncia de comer.
+TEXT Esse n~o era o verdadeiro problema.
+TEXT Eu s+ tinha percebido que cada momento % insubstitu&vel.
+TEXT Isso % tudo.
+TEXT O pouco tempo que resta.
+TEXT O que devo fazer com isso?
+TEXT Eu queria aproveitar ao m$ximo.
+TEXT Foi isso que percebi esta manh~.
+TEXT Pela primeira vez notei a tristeza que surgiria quando nossa rotina perfeitamente normal neste quarto chegasse ao fim.
+TEXT Mastiguei minha comida lentamente.
+TEXT Quando terminei de comer, a hora do almo|o estava quase acabando.
+TEXT Um tempo bastante insignificante, perfeitamente comum...
 PLAY_SOUND 01 '035_boy002' 00 
-TEXT Boy: "See you later."
+TEXT Garoto: "At% mais."
 STOP_SOUND 01 
-TEXT The boy watched me go as I once again left the room.
+TEXT O garoto me observou enquanto eu mais uma vez sa&a do quarto.
 X_04 0071 0000 
 X_00 0009 0012 
 X_00 000E 0003 
@@ -366,19 +366,19 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT I entered the Elpod.
+TEXT Entrei no ELPOD.
 PLAY_SOUND 01 'es0_elp000' 00 
-TEXT Voice: "A-12, confirmed."
+TEXT Voz: "A-12, confirmada."
 STOP_SOUND 01 
-TEXT The speaker voice.
+TEXT A voz do alto-falante.
 PLAY_SOUND 01 'es2_elp000' 00 
-TEXT Voice: "Now then, please go to the Relaxation Room."
+TEXT Voz: "Agora, por favor, v$ para a Sala de Relaxamento."
 STOP_SOUND 01 
-TEXT Today's a rest day...
+TEXT Hoje % dia de descanso...
 PLAY_SOUND 01 'es2_elp001' 00 
-TEXT Voice: "When you've finished, if you return to this room I'll give you some advice for the future."
+TEXT Voz: "Quando terminar, se retornar a esta sala, darei alguns conselhos para o futuro."
 STOP_SOUND 01 
-TEXT I left the room.
+TEXT Sa& da sala.
 X_04 005B 0001 
 X_00 0009 0017 
 GOSUB_SCRIPT 'A_D14' 
@@ -390,29 +390,29 @@ BACKGROUND 'BG005'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT The Relaxation Room...
-TEXT The bed shone upon by that white light...
-TEXT I laid down on that bed and faced the pattern carved in the ceiling.
-TEXT *vuuun*...
-TEXT Even the inside of my head went white, and I fell into a deep sleep.
+TEXT A Sala de Relaxamento...
+TEXT A cama iluminada por aquela luz branca...
+TEXT Deitei-me naquela cama e encarei o padr~o esculpido no teto.
+TEXT *Vruuuuun...*
+TEXT At% o interior da minha cabe|a ficou branco e ca& num sono profundo.
 TEXT .........
 TEXT ......
 TEXT ...
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT *buu*...*buu*...
+TEXT *Bip*... *Bip*...
 BACKGROUND 'BG005' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'es1_iku005' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I woke up.
-TEXT I must have slept well.
-TEXT *buu*...*buu*...
-TEXT The buzzer announcing completion continued reverberating in that empty room.
-TEXT I got out of the bed, smoothed out the sheets and left the room.
+TEXT Acordei.
+TEXT Devo ter apagado.
+TEXT *Bip*... *Bip*...
+TEXT O alarme anunciando a conclus~o continuou reverberando naquela sala vazia.
+TEXT Levantei da cama, alisei os len|+is e sa& do local.
 X_04 005B 0000 
 X_00 0009 000A 
 X_00 000E 0004 
@@ -422,9 +422,9 @@ GOTO_SCRIPT 'INIT'
 
 :LABEL8
 PLAY_SOUND 01 'se64' 00 
-TEXT *gachan*
-TEXT I took my tray and carried it to the door.
-TEXT Then I opened it with my back and entered the corridor.
+TEXT *Tum*
+TEXT Peguei minha bandeja e fui at% a porta.
+TEXT Ent~o abri com as costas e entrei no corredor.
 X_04 0071 0001 
 IF 17 24 00 15 01 00 02 00 .LABEL9 
 X_00 0009 0009 
@@ -448,55 +448,55 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 00 'mon_cd14' 01 
-TEXT As if that was our daily routine, the boy and I ate another meal together.
+TEXT Seguindo a nossa rotina di$ria, o garoto e eu fizemos outra refei|~o juntos.
 PLAY_SOUND 01 '035_boy003' 00 
-TEXT Boy: "Gochisou-sama."
+TEXT Garoto: "Bom apetite."
 STOP_SOUND 01 
 PLAY_SOUND 01 '093_iku000' 00 
-TEXT Ikumi: "...gochisou-sama."
+TEXT Ikumi: "...Bom apetite."
 STOP_SOUND 01 
-TEXT In such a cruel place, this was the only place my heart felt at ease.
-TEXT A place where we could talk about and fight over stupid things.
+TEXT Num ambiente t~o cruel, este era o ^nico lugar onde meu cora|~o se sentia tranquilo.
+TEXT Um lugar onde poder&amos conversar e brigar por coisas est^pidas.
 PLAY_SOUND 01 '035_boy004' 00 
-TEXT Boy: "You won't go out again today?"
+TEXT Garoto: "Voc[ n~o vai sair de novo hoje?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '093_iku001' 00 
-TEXT Ikumi: "No..."
+TEXT Ikumi: "N~o..."
 STOP_SOUND 01 
-TEXT There's nothing to do, and I want to stay here.
-TEXT I want to return to a time when we did something stupid.
-TEXT I want to pass this time lazily.
+TEXT N~o h$ nada para fazer e quero ficar aqui.
+TEXT Quero voltar a uma %poca em que faz&amos alguma coisa boba.
+TEXT Quero passar esse tempo pregui|osamente.
 IF 17 56 00 15 01 00 02 00 .LABEL12 
-TEXT It might be nice to hear the rest of that fairy tale.
+TEXT Poderia ser uma boa ouvir o resto daquele conto de fadas.
 JMP .LABEL13 
 
 :LABEL12
-TEXT It might be nice to hear that story he'd wanted to tell me in place of a lullaby.
+TEXT Talvez fosse uma boa ouvir aquela hist+ria que ele queria me contar em vez de uma can|~o de ninar.
 
 :LABEL13
-TEXT We could spend this time any way we wanted.
-TEXT The most useless activity would, to me, be the most fulfilling use of this time.
-TEXT I'm going to spend my time with yawn-inducing boredom.
-TEXT And he'll do it with me.
+TEXT Poder&amos passar esse tempo do jeito que quis%ssemos.
+TEXT A atividade mais in^til seria, para mim, o uso mais gratificante deste tempo.
+TEXT Quero passar meu tempo com um t%dio indutor de bocejos.
+TEXT E ele far$ isso comigo.
 PLAY_SOUND 01 '035_boy005' 00 
-TEXT Boy: "Nn...?"
+TEXT Garoto: "Hm...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '093_iku002' 00 
-TEXT Ikumi: "No, it's nothing..."
+TEXT Ikumi: "N~o, n~o % nada..."
 STOP_SOUND 01 
-TEXT I would've been nice...if I'd met this guy somewhere else.
-TEXT Yeah...like at school, if he was a transfer student or something.
+TEXT Teria sido legal... se tivesse conhecido esse cara em outro lugar.
+TEXT Sim... como na escola, se ele fosse um aluno transferido ou algo assim.
 PLAY_SOUND 01 '035_boy006' 00 
-TEXT Boy: "What are you thinking?"
+TEXT Garoto: "O que voc[ est$ pensando?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '093_iku003' 00 
-TEXT Ikumi: "Can I tell you a story?"
+TEXT Ikumi: "Posso te contar uma hist+ria?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy007' 00 
-TEXT Boy: "What kind?"
+TEXT Garoto: "Que tipo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '093_iku004' 00 
-TEXT Ikumi: "A normal story, about school life."
+TEXT Ikumi: "Uma hist+ria normal, sobre a vida escolar."
 STOP_SOUND 01 
 X_24 00 
 BACKGROUND 'WO' 
@@ -509,341 +509,341 @@ TEXT ...
 TEXT ......
 TEXT .........
 PLAY_SOUND 00 'mon_cd15' 01 
-TEXT I was heading for the art room.
-TEXT At this time the sun's rays were entering the corridor at a sharp angle.
-TEXT I'd forgotten something.
-TEXT A drawing.
-TEXT It had been due today.
-TEXT I'm always doing stupid things like that...
-TEXT I opened the art room door.
-TEXT In there was a boy with hair tinged orange by the western sun.
-TEXT With a serious look, and while holding a pallet and brush, he faced the desk.
-TEXT I hadn't seen him before.
+TEXT Eu estava indo para a sala de arte.
+TEXT Naquela hora, os raios de sol entravam inclinados no corredor.
+TEXT Eu tinha esquecido algo.
+TEXT Um desenho.
+TEXT O prazo era para hoje.
+TEXT Estou sempre fazendo coisas est^pidas como essa...
+TEXT Abri a porta da sala de arte.
+TEXT L$ dentro estava um garoto com cabelos tingidos de laranja pelo sol poente.
+TEXT Com um olhar s%rio, ele encarava a mesa enquanto segurava a paleta e o pincel.
+TEXT Eu nunca o tinha visto antes.
 PLAY_SOUND 01 '094_iku000' 00 
-TEXT Ikumi: "Excuse me..."
+TEXT Ikumi: "Com licen|a..."
 STOP_SOUND 01 
-TEXT I started out with a low, cautious voice.
+TEXT Chamei ele com uma voz baixa e cautelosa.
 PLAY_SOUND 01 '035_boy008' 00 
-TEXT Boy: "Hmm? What is it?"
+TEXT Garoto: "Hum? O que foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku001' 00 
-TEXT Ikumi: "Umm......my drawing...you wouldn't know which one it is...but I think I forgot it."
+TEXT Ikumi: "Hmm... meu desenho... voc[ n~o saberia qual %... mas acho que esqueci aqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy009' 00 
-TEXT Boy: "What kind of drawing?"
+TEXT Garoto: "Que tipo de desenho?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku002' 00 
-TEXT Ikumi: "Umm......not a very good one..."
+TEXT Ikumi: "Hum... n~o % muito bom..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy010' 00 
-TEXT Boy: "What's it of?"
+TEXT Garoto: "O que tem nele?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku003' 00 
-TEXT Ikumi: "A blood donation poster. A lot of children are smiling and receiving blood transfusions."
+TEXT Ikumi: "@ um cartaz de doa|~o de sangue. Muitas crian|as sorrindo, recebendo transfus/es de sangue."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy011' 00 
-TEXT Boy: "Hmm, haven't seen it."
+TEXT Garoto: "Hum, n~o vi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku004' 00 
-TEXT Ikumi: "I see..."
+TEXT Ikumi: "T$ bom..."
 STOP_SOUND 01 
-TEXT When I looked around the art room, I couldn't see anything like it.
+TEXT Quando olhei ao redor da sala de arte, n~o consegui ver nada parecido.
 PLAY_SOUND 01 '094_iku005' 00 
-TEXT Ikumi: "Hmmm...where could it have gotten to?"
+TEXT Ikumi: "Hmmm... onde isso foi parar?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy012' 00 
-TEXT Boy: "Maybe you forgot it somewhere else?"
+TEXT Garoto: "Talvez voc[ tenha esquecido em outro lugar?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku006' 00 
-TEXT Ikumi: "Maybe..."
+TEXT Ikumi: "Talvez..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy013' 00 
-TEXT Boy: "That must be it."
+TEXT Garoto: "Deve ser isso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku007' 00 
-TEXT Ikumi: "By the way, what are you drawing?"
+TEXT Ikumi: "A prop+sito, o que voc[ est$ desenhando?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy014' 00 
-TEXT Boy: "Oh, no, I just found this poster calling for a ban on stimulant drug usage, and decided to fix it up."
+TEXT Garoto: "Ah, n~o. Acabei de encontrar este p{ster da campanha contra o uso de drogas, e decidi consertar."
 STOP_SOUND 01 
-TEXT I peeked over his shoulder.
-TEXT But what I saw there was...
+TEXT Espiei por cima do ombro dele.
+TEXT Mas o que eu vi ali era...
 PLAY_SOUND 01 '094_iku008' 00 
-TEXT Ikumi: "Kyaaaaaaa!!!　My drawing!!!!"
+TEXT Ikumi: "Kyaaaaaaa!!!　Meu desenho!!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku009' 00 
-TEXT Ikumi: "You're ruining it!!!　Why do these kids look like they're drooling!!!!?"
+TEXT Ikumi: "Voc[ est$ estragando tudo!!!\nPor que essas crian|as parecem estar doidas!!!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy015' 00 
-TEXT Boy: "Hmmm......I thought this needle was for stimulants...so I made them all look more like..."
+TEXT Garoto: "Hmmm...... achei que essa seringa fosse para se drogar... ent~o fiz com que todas parecessem mais..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku010' 00 
-TEXT Ikumi: "How did you get a blood donation poster mixed up with a stimulant usage ban poster...?"
+TEXT Ikumi: "Como voc[ confundiu um cartaz de doa|~o de sangue com um p{ster de proibi|~o do uso de drogas...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy016' 00 
-TEXT Boy: "So, good acts and evil acts are two sides of the same coin..."
+TEXT Garoto: "Bem, boas a|/es e m$s a|/es s~o duas faces da mesma moeda..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku011' 00 
-TEXT Ikumi: "Don't gloss over your actions with cheap philosophical tricks!!!!"
+TEXT Ikumi: "N~o tente disfar|ar as suas a|/es com truques filos+ficos baratos!!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy017' 00 
-TEXT Boy: "You seem lively..."
+TEXT Garoto: "Voc[ parece bem agitada..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku012' 00 
-TEXT Ikumi: "I am the captain of the track team..."
+TEXT Ikumi: "Deve ser porque sou a capit~ da equipe de atletismo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy018' 00 
-TEXT Boy: "Oh, that's impressive."
+TEXT Garoto: "Ah, isso % impressionante."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku013' 00 
-TEXT Ikumi: "ku..."
+TEXT Ikumi: "Aff..."
 STOP_SOUND 01 
-TEXT Everything I say just bounces off him...
+TEXT Tudo o que eu digo rebate nele...
 PLAY_SOUND 01 '035_boy019' 00 
-TEXT Boy: "It looks like you're receiving quite a shock..."
+TEXT Garoto: "Agora parece que voc[ est$ recebendo um grande choque..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku014' 00 
-TEXT Ikumi: "Of course I am!! You just turned a bunch of angelic kids into drug addicts!!"
+TEXT Ikumi: "Claro que estou!! Voc[ acabou de transformar crian|as angelicais em um bando de viciados!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku015' 00 
-TEXT Ikumi: "Now give it back!!"
+TEXT Ikumi: "Agora, devolve!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy020' 00 
-TEXT Boy: "Hmmm, after all this it'll be pretty hard to fix. Are you sure you still want it?"
+TEXT Garoto: "Hmmm, depois disso ser$ bem dif&cil de consertar. Tem certeza que ainda quer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku016' 00 
-TEXT Ikumi: "That's fine, just give it!!"
+TEXT Ikumi: "Tudo bem, apenas devolva!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy021' 00 
-TEXT Boy: "Okay, here you go."
+TEXT Garoto: "T$ bom, aqui est$."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku017' 00 
-TEXT Ikumi: "For crying out loud..."
+TEXT Ikumi: "Pelo amor de Deus..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku018' 00 
-TEXT Ikumi: "...hang on, I'm late!! I have to get back!!"
+TEXT Ikumi: "...R$pido, estou atrasada!!\nTenho que voltar!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'se19' 00 
-TEXT *dota**dota**dota*!!
+TEXT *Tap tap tap...*
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy022' 00 
-TEXT Boy: *sigh*..."She seems like a troublesome classmate..."
+TEXT Garoto: "Ahh... que colega de classe mais problem$tica..."
 STOP_SOUND 01 
 TEXT .........
 TEXT ......
 TEXT ...
 PLAY_SOUND 01 'se65' 00 
-TEXT *kiiin**kooon**kaaan**kooon*...
+TEXT *Diiim dooom daaam dooom...*
 PLAY_SOUND 01 '017_har001' 00 
-TEXT Haruka: "Hey, about that kid who's transferring into class today..."
+TEXT Haruka: "Ei, sobre aquele garoto que est$ se transferindo para a nossa sala hoje..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku019' 00 
-TEXT Ikumi: "What!!?"
+TEXT Ikumi: "O qu[!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har002' 00 
-TEXT Haruka: "Woah, what's wrong? Did something happen between you and him?"
+TEXT Haruka: "Uau, o que foi? Aconteceu alguma coisa entre voc[ e ele?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku020' 00 
-TEXT Ikumi: "Nothing happened..."
+TEXT Ikumi: "N~o aconteceu nada..."
 STOP_SOUND 01 
-TEXT I can't believe I didn't know...he was a transfer student in my class...
+TEXT N~o acredito que n~o sabia... ele % um aluno transferido da minha turma...
 PLAY_SOUND 01 '017_har003' 00 
-TEXT Haruka: "It'd change the atmosphere in here to have someone new, don't you think that'd be nice?"
+TEXT Haruka: "Ter algu%m novo mudaria a atmosfera por aqui. Voc[ n~o acha que seria legal?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku021' 00 
-TEXT Ikumi: "No I don't!!"
+TEXT Ikumi: "N~o, eu n~o acho!!"
 STOP_SOUND 01 
-TEXT I violently opened my bentou box and began eating.
+TEXT Abri meu bent{ com for|a e comecei a comer.
 PLAY_SOUND 01 '094_iku022' 00 
-TEXT Ikumi: "Besides, aren't you always like that Haruka?"
+TEXT Ikumi: "Afinal, por que voc[ % sempre assim, Haruka?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har004' 00 
-TEXT Haruka: "What do you mean?"
+TEXT Haruka: "O que quer dizer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku023' 00 
-TEXT Ikumi: "'Something should change' or 'that guy's good' or 'that girl's good' and the like."
+TEXT Ikumi: "'Algo deveria mudar' ou 'esse cara % legal' ou 'aquele garoto % interessante' e coisas do g[nero."
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har005' 00 
-TEXT Haruka: "But aren't boys normally interesting?"
+TEXT Haruka: "Mas os garotos normalmente n~o s~o interessantes?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku024' 00 
-TEXT Ikumi: "Boys don't have to be interesting."
+TEXT Ikumi: "Mas desde quando garotos precisam ser interessantes!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har006' 00 
-TEXT Haruka: "Ikumi, your reasoning is definitely stranger than mine."
+TEXT Haruka: "Ikumi, seu racioc&nio % definitivamente mais estranho que o meu."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku025' 00 
-TEXT Ikumi: "Same to you, Haruka."
+TEXT Ikumi: "O mesmo acontece com voc[, Haruka."
 STOP_SOUND 01 
-TEXT As we argued while eating our bentous...
+TEXT Enquanto bat&amos boca comendo nossos bent{s...
 PLAY_SOUND 01 '035_boy023' 00 
-TEXT "Hey."
+TEXT Voz: "Ei."
 STOP_SOUND 01 
-TEXT A voice from the side.
+TEXT Uma voz ao lado.
 PLAY_SOUND 01 '094_iku026' 00 
-TEXT Ikumi: "He's here; the strangest one of all."
+TEXT Ikumi: "Ele est$ aqui, o mais estranho de todos."
 STOP_SOUND 01 
-TEXT I didn't need to see his face to know that.
+TEXT Eu n~o precisava ver o rosto dele pra saber quem era.
 PLAY_SOUND 01 '017_har007' 00 
-TEXT Haruka: "Wa! Aren't you the transfer student!? What do you want!!?"
+TEXT Haruka: "Uau! Voc[ n~o % o estudante transferido!? O que voc[ quer!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy024' 00 
-TEXT Boy: "Uh, I don't really want anything, but I wondered if it'd be okay to eat together."
+TEXT Garoto: "Ah, eu realmente n~o quero nada, mas me perguntei se poderia comer junto com voc[s."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku027' 00 
-TEXT Ikumi: "How could it-..."
+TEXT Ikumi: "Como pode-..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har008' 00 
-TEXT Haruka: "Go ahead, go ahead!!　Ah, use this chair."
+TEXT Haruka: "Claro! Chega a&!! Ah, pode pegar esta cadeira."
 STOP_SOUND 01 
-TEXT For crying out loud, Haruka...
+TEXT Pelo amor de Deus, Haruka...
 PLAY_SOUND 01 '035_boy025' 00 
-TEXT Boy: "Thanks, I haven't quite made any friends here yet."
+TEXT Garoto: "Obrigado, ainda n~o fiz nenhum amigo aqui."
 STOP_SOUND 01 
-TEXT Would you normally look for girls first?
+TEXT Voc[ normalmente procura as garotas primeiro?
 PLAY_SOUND 01 '035_boy026' 00 
-TEXT Boy: "By the way, what were you saying was strange?"
+TEXT Garoto: "A prop+sito, o que voc[ estava dizendo que era estranho?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku028' 00 
-TEXT Ikumi: "Your hea-..."
+TEXT Ikumi: "Sua cabe-..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '017_har009' 00 
-TEXT Haruka: "Last night's episode, ahaha!!"
+TEXT Haruka: "O epis+dio de ontem # noite! Ahaha!!"
 STOP_SOUND 01 
 IF 16 14 00 15 64 00 05 00 .LABEL14 
 TEXT .........
 TEXT ......
 TEXT ...
 PLAY_SOUND 01 'se65' 00 
-TEXT *kiiin**kooon**kaaan**kooon*...
+TEXT *Diiim dooom daaam dooom...*
 PLAY_SOUND 01 '094_iku029' 00 
-TEXT Ikumi: (Wa! I forgot something again...）
+TEXT Ikumi: (Eita! Esqueci algo de novo...)
 STOP_SOUND 01 
-TEXT After school, I was returning to the classroom.
-TEXT How did I forget my gym clothes on a day my club meets...?
-TEXT Then I entered the classroom...
+TEXT Depois da aula, eu estava voltando para a sala.
+TEXT Como fui esquecer a minha roupa de atletismo logo no dia do clube...?
+TEXT Ent~o entrei na sala...
 PLAY_SOUND 01 '035_boy027' 00 
-TEXT Boy: "Hey, what's up?"
+TEXT Garoto: "E a&, como vai?"
 STOP_SOUND 01 
-TEXT This guy again...
-TEXT He was sitting on the windowsill of a vacant classroom, staring at the field outside.
+TEXT Esse cara de novo...
+TEXT Ele estava sentado no parapeito da janela da sala vazia, olhando para o p$tio l$ fora.
 PLAY_SOUND 01 '094_iku030' 00 
-TEXT Ikumi: "You didn't change my gym clothes into a fire fighter uniform, did you...?"
+TEXT Ikumi: "Voc[ n~o transformou minha roupa de atletismo em um uniforme de bombeiro, n%...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy028' 00 
-TEXT Boy: "What are you talking about?"
+TEXT Garoto: "Do que voc[ est$ falando?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy029' 00 
-TEXT Boy: "Oh right, the gym clothes here were a bit torn, so I went ahead and fixed them."
+TEXT Garoto: "Ah, certo, essas roupas aqui estavam um pouco rasgadas, ent~o aproveitei para costur$-las."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku031' 00 
 TEXT Ikumi: "Kyaaaaaaaaaa!!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy030' 00 
-TEXT Boy: "I lied."
+TEXT Garoto: "T{ brincando."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se10' 00 
-TEXT *gashaaaaan!!!*
-TEXT I punched the nearest desk.
+TEXT *Baaaaam!!!*
+TEXT Dei um soco na mesa mais pr+xima.
 PLAY_SOUND 01 '094_iku032' 00 
-TEXT Ikumi: "Please don't tell such brilliant lies..."
+TEXT Ikumi: "Por favor, me poupe de suas brincadeiras brilhantes..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy031' 00 
-TEXT Boy: "Woah, that looked painful..."
+TEXT Garoto: "Uau, isso deve ter do&do..."
 STOP_SOUND 01 
-TEXT This guy really...
+TEXT Esse cara realmente...
 PLAY_SOUND 01 '094_iku033' 00 
-TEXT Ikumi: "Hey, what are you doing here?"
+TEXT Ikumi: "Ei, o que voc[ t$ fazendo aqui?"
 STOP_SOUND 01 
-TEXT I held my unharmed gym clothes to my chest as I asked him.
+TEXT Segurei minhas roupas de atletismo ilesas contra o peito enquanto perguntava a ele.
 PLAY_SOUND 01 '035_boy032' 00 
-TEXT Boy: "I'm watching the revolving seasons."
+TEXT Garoto: "Estou observando a mudan|a das esta|/es."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku034' 00 
-TEXT Ikumi: "What the...?"
+TEXT Ikumi: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy033' 00 
-TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+TEXT Garoto: "Observar a mudan|a das esta|/es % a melhor maneira de sentir a passagem do tempo."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy034' 00 
-TEXT Boy: "After all, clocks are just measuring devices humans invented."
+TEXT Garoto: "Afinal, os rel+gios s~o apenas dispositivos de medi|~o inventados pelos humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy035' 00 
-TEXT Boy: "Watching the seasons like this is the best,"
+TEXT Garoto: "Observar as passagens assim % bem melhor..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy036' 00 
-TEXT Boy: "For feeling all of the time we share with nature."
+TEXT Garoto: "D$ para sentir todo o tempo que compartilhamos com a natureza."
 STOP_SOUND 01 
-TEXT It almost sounded like he was trying to impress me...
-TEXT But somehow that didn't feel like his intent...
+TEXT Parecia at% que ele estava tentando me impressionar...
+TEXT Mas de alguma forma senti que n~o era essa a sua inten|~o...
 PLAY_SOUND 01 '035_boy037' 00 
-TEXT Boy: "In other words that's the feeling of..."
+TEXT Garoto: "Em outras palavras, esse % o sentimento de..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku035' 00 
-TEXT Nooooooooooooooooooooooooooo!!!!
+TEXT N~oooooooooooooooooooooooooo!!!!
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 '035_boy038' 00 
-TEXT Boy: "Ikumi!!?"
+TEXT Garoto: "Ikumi!!?"
 STOP_SOUND 01 
-TEXT That shiver...!!
-TEXT Its arrival was incomparably impatient to last time.
-TEXT Fangs that shone at their tips were now aiming for my heart.
-TEXT This was the fear of seeing death before your very eyes.
-TEXT ...I'm going to be killed!!
-TEXT Even if it doesn't kill me I'll go insane from this fear!!
+TEXT Aquele arrepio...!!
+TEXT Sua chegada foi incomparavelmente mais impaciente do que da ^ltima vez.
+TEXT Presas reluzentes agora apontavam para o meu cora|~o.
+TEXT Este era o medo de ver a morte diante de seus pr+prios olhos.
+TEXT ...Eu vou morrer!!
+TEXT Mesmo que isso n~o me mate, vou perder o ju&zo de tanto pavor!!
 PLAY_SOUND 01 '094_iku036' 00 
 TEXT Ikumi: "Aaaaa...!!!!"
 STOP_SOUND 01 
-TEXT I ran my nails through my hair.
-TEXT But what kind of resistance is that!!?
+TEXT Passei as unhas pelo cabelo.
+TEXT Mas que tipo de resist[ncia % essa!!?
 PLAY_SOUND 01 '035_boy039' 00 
-TEXT Boy: "Ikumi..."
+TEXT Garoto: "Ikumi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku037' 00 
-TEXT Ikumi: "Hey, kill me right now!!!"
+TEXT Ikumi: "Ei, me mate agora mesmo!!!"
 STOP_SOUND 01 
-TEXT Those words came out so easily.
+TEXT Essas palavras sa&ram t~o facilmente.
 PLAY_SOUND 01 '094_iku038' 00 
-TEXT Ikumi: "I'm going to go mad if this fear continues one second longer!!!"
+TEXT Ikumi: "Vou enlouquecer se esse medo continuar mais um segundo!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy040' 00 
-TEXT Boy: "You can endure it, Ikumi."
+TEXT Garoto: "Voc[ consegue aguentar, Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku039' 00 
-TEXT Ikumi: "I can't......kill me......"
+TEXT Ikumi: "Eu n~o consigo... me mate......"
 STOP_SOUND 01 
-TEXT I no longer had any strength left to think.
+TEXT Eu n~o tinha mais for|as para pensar.
 PLAY_SOUND 01 '035_boy041' 00 
-TEXT Boy: "Hey, can you hear me?"
+TEXT Garoto: "Ei, voc[ pode me ouvir?"
 STOP_SOUND 01 
 TEXT ...Gaaaaaaaaaa......
 PLAY_SOUND 01 '035_boy042' 00 
-TEXT Boy: "There's something I have to tell you..."
+TEXT Garoto: "Tem uma coisa que preciso te contar..."
 STOP_SOUND 01 
 TEXT ...Uguaaaaaaaaaaa...
 PLAY_SOUND 01 '035_boy043' 00 
-TEXT Boy: "Can you hear me, Ikumi...?"
+TEXT Garoto: "Voc[ pode me ouvir, Ikumi...?"
 STOP_SOUND 01 
 TEXT ...Gugugagagagaaaaaaaaa...
 PLAY_SOUND 01 '035_boy044' 00 
-TEXT Boy: "Hey, Ikumi..."
+TEXT Garoto: "Ei, Ikumi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se67' 00 
 TEXT *barii!!*
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se66' 00 
 TEXT ......*jagyugyugyugyu*...
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se66' 00 
 TEXT ......*gugu*...*gujuju*...
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
@@ -857,44 +857,44 @@ X_3C 05 01
 PLAY_SOUND 00 'mon_cd15' 01 
 X_28 0032 
 PLAY_SOUND 01 '094_iku040' 00 
-TEXT Ikumi: "Hey, what are you doing here?"
+TEXT Ikumi: "Ei, o que voc[ est$ fazendo aqui?"
 STOP_SOUND 01 
-TEXT I held my unharmed gym clothes to my chest as I asked him.
+TEXT Segurei minhas roupas de atletismo ilesas contra o peito enquanto perguntava a ele.
 BACKGROUND 'FG079' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '035_boy045' 00 
-TEXT Boy: "I'm watching the revolving seasons."
+TEXT Garoto: "Estou observando a mudan|a das esta|/es."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku041' 00 
-TEXT Ikumi: "What the...?"
+TEXT Ikumi: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy046' 00 
-TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+TEXT Garoto: "Observar a mudan|a das esta|/es % a melhor maneira de sentir a passagem do tempo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku042' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy047' 00 
-TEXT Boy: "After all, clocks are just measuring devices humans invented."
+TEXT Garoto: "Afinal, os rel+gios s~o apenas dispositivos de medi|~o inventados pelos humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy048' 00 
-TEXT Boy: "Watching the seasons like this is the best,"
+TEXT Garoto: "Observar a mudan|a das esta|/es % bem melhor..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy049' 00 
-TEXT Boy: "For feeling all of the time we share with nature."
+TEXT Garoto: "Para sentir todo o tempo que compartilhamos com a natureza."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku043' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy050' 00 
-TEXT Boy: "In other words that's the feeling of having spent time together with you."
+TEXT Garoto: "Em outras palavras, % a sensa|~o de ter passado um tempo junto com voc[."
 STOP_SOUND 01 
 BACKGROUND 'FG082' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '035_boy051' 00 
-TEXT  "In a room without any windows..."
+TEXT  "Em um quarto sem janelas..."
 X_30 00 
 X_31 00 
 X_32 00 
@@ -909,48 +909,48 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 TEXT 
-SELECT 0003 'Listen to a hint' 'Return to title screen' 
+SELECT 0003 'Ouvir uma dica' 'Voltar # a tela inicial' 
 IF 16 03 00 15 01 00 02 00 .LABEL15 
 BACKGROUND 'CGYS02' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '019_you001' 00 
-TEXT Youko: "...it's been a while."
+TEXT Youko: "...j$ faz um tempo."
 STOP_SOUND 01 
 TEXT Youko: "......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you002' 00 
-TEXT Youko: "What happened? Why aren't you talking?"
+TEXT Youko: "O que aconteceu? Por que voc[ n~o est$ falando?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you003' 00 
-TEXT Youko: "...it seems you have some kind of suspicion about me."
+TEXT Youko: "...parece que voc[ tem algum tipo de suspeita sobre mim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you004' 00 
-TEXT Youko: "Or is it because I'm your friend?"
+TEXT Youko: "Ou % porque sou sua amiga?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you005' 00 
-TEXT Youko: "Either way, this is a result brought on by your heart's weakness."
+TEXT Youko: "De qualquer forma, este % um resultado causado pela fraqueza do seu cora|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you006' 00 
-TEXT Youko: "However, it's not something to be pessimistic about."
-STOP_SOUND 01 
-PLAY_SOUND 01 '019_you007' 00 
-TEXT Youko: "You were only a little lacking in your will to live..."
+TEXT Youko: "Contudo, n~o % motivo para pessimismo."
+STOP_SOUND 01
+PLAY_SOUND 01 '019_you007' 00
+TEXT Youko: "S+ lhe faltou um pouco mais de vontade de viver..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you008' 00 
-TEXT Youko: "That is all..."
+TEXT Youko: "Isso % tudo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you009' 00 
-TEXT Youko: "Since this is a perfect opportunity, why don't you calmly look back on all you've done?"
+TEXT Youko: "J$ que esta % uma oportunidade perfeita, por que voc[ n~o relembra com calma tudo o que fez?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you010' 00 
-TEXT Youko: "I think it's important to try facing your other self."
+TEXT Youko: "Acho que % importante tentar enfrentar o seu outro eu."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you011' 00 
-TEXT Youko: "Now, goodbye..."
+TEXT Youko: "Agora, adeus..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '019_you012' 00 
-TEXT Youko: "Until the next time we meet in the dining hall..."
+TEXT Youko: "At% a pr+xima vez que nos encontrarmos no refeit+rio..."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
@@ -966,71 +966,71 @@ TEXT .........
 TEXT ......
 TEXT ...
 PLAY_SOUND 01 'se65' 00 
-TEXT *kiiin**kooon**kaaan**kooon*...
+TEXT *Diiin* *Dooon* *Daaan* *Dooon*...
 PLAY_SOUND 01 '094_iku029' 00 
-TEXT Ikumi: (Wa! I forgot something again...）
+TEXT Ikumi: (Eita! Esqueci algo de novo...）
 STOP_SOUND 01 
-TEXT After school, I was returning to the classroom.
-TEXT How did I forget my gym clothes on a day my club meets...?
-TEXT Then I entered the classroom...
+TEXT Depois da aula, eu estava voltando para a sala.
+TEXT Como eu fui esquecer a minha roupa de atletismo logo no dia do clube...?
+TEXT Ent~o entrei na sala...
 PLAY_SOUND 01 '035_boy027' 00 
-TEXT Boy: "Hey, what's up?"
+TEXT Garoto: "E a&, como vai?"
 STOP_SOUND 01 
-TEXT This guy again...
-TEXT He was sitting on the windowsill of a vacant classroom, staring at the field outside.
+TEXT Esse cara de novo...
+TEXT Ele estava sentado no parapeito da janela da sala de aula vazia, olhando para o campo l$ fora.
 PLAY_SOUND 01 '094_iku030' 00 
-TEXT Ikumi: "You didn't change my gym clothes into a fire fighter uniform, did you...?"
+TEXT Ikumi: "Voc[ n~o transformou minha roupa de atletismo em um uniforme de bombeiro, n%...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy028' 00 
-TEXT Boy: "What are you talking about?"
+TEXT Garoto: "Do que voc[ est$ falando?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy029' 00 
-TEXT Boy: "Oh right, the gym clothes here were a bit torn, so I went ahead and fixed them."
+TEXT Garoto: "Ah, sim! Essas roupas aqui estavam um pouco rasgadas, ent~o fui em frente e as arrumei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku031' 00 
 TEXT Ikumi: "Kyaaaaaaaaaa!!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy030' 00 
-TEXT Boy: "I lied."
+TEXT Garoto: "T{ brincando."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se10' 00 
-TEXT *gashaaaaan!!!*
-TEXT I punched the nearest desk.
+TEXT *Baaaaaam!!!*
+TEXT Dei um soco na mesa mais pr+xima.
 PLAY_SOUND 01 '094_iku032' 00 
-TEXT Ikumi: "Please don't tell such brilliant lies..."
+TEXT Ikumi: "Por favor, me poupe de suas brincadeiras brilhantes..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy031' 00 
-TEXT Boy: "Woah, that looked painful..."
+TEXT Garoto: "Uau, isso deve ter do&do..."
 STOP_SOUND 01 
-TEXT This guy really...
+TEXT Esse cara realmente...
 PLAY_SOUND 01 '094_iku033' 00 
-TEXT Ikumi: "Hey, what are you doing here?"
+TEXT Ikumi: "Ei, o que voc[ est$ fazendo aqui?"
 STOP_SOUND 01 
-TEXT I held my unharmed gym clothes to my chest as I asked him.
+TEXT Segurei minhas roupas de atletismo ilesas contra o peito enquanto perguntava a ele.
 PLAY_SOUND 01 '035_boy032' 00 
-TEXT Boy: "I'm watching the revolving seasons."
+TEXT Garoto: "Estou observando a mudan|a das esta|/es."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku034' 00 
-TEXT Ikumi: "What the...?"
+TEXT Ikumi: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy033' 00 
-TEXT Boy: "Watching the seasons pass by is the best way to feel the passage of time."
+TEXT Garoto: "Observar a mudan|a das esta|/es % a melhor maneira de sentir a passagem do tempo."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy034' 00 
-TEXT Boy: "After all, clocks are just measuring devices humans invented."
+TEXT Garoto: "Afinal, os rel+gios s~o apenas dispositivos de medi|~o inventados pelos humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy035' 00 
-TEXT Boy: "Watching the seasons like this is the best."
+TEXT Garoto: "Observar a mudan|a das esta|/es % bem melhor."
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_boy036' 00 
-TEXT Boy: "For feeling all of the time we share with nature."
+TEXT Garoto: "D$ para sentir todo o tempo que compartilhamos com a natureza."
 STOP_SOUND 01 
-TEXT It almost sounded like he was trying to impress me...
-TEXT But somehow that didn't feel like his intent...
+TEXT Parecia at% que ele estava tentando me impressionar...
+TEXT Mas de alguma forma senti que essa n~o era a sua inten|~o...
 PLAY_SOUND 01 '035_boy037' 00 
-TEXT Boy: "In other words that's the feeling of..."
+TEXT Garoto: "Em outras palavras, esse % o sentimento de..."
 STOP_SOUND 01 
 BACKGROUND 'FG010' 
 X_24 00 
@@ -1038,17 +1038,17 @@ X_25 06
 STOP_SOUND 00 
 X_00 000E 0005 
 PLAY_SOUND 01 '035_boy052' 00 
-TEXT Boy: "kuu..."
+TEXT Garoto: "Zzz..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku044' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT The boy fell asleep on me...
+TEXT O garoto adormeceu ao meu lado...
 PLAY_SOUND 01 '094_iku045' 00 
-TEXT Ikumi: (I thought it was a pretty good story...）
+TEXT Ikumi: (E eu achando que a hist+ria tava muito boa...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '094_iku046' 00 
-TEXT Ikumi: (Guess I'll go to sleep too...）
+TEXT Ikumi: (Acho que vou dormir tamb%m...)
 STOP_SOUND 01 
 TEXT ...
 TEXT ......
@@ -1060,10 +1060,10 @@ PLAY_SOUND 00 'mon_cd13' 01
 TEXT ..."........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_bt2000' 00 
-TEXT ..."There is one they say has Lost her mind."
+TEXT ..."Dizem que h$ uma que perdeu a cabe|a."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_bt2001' 00 
-TEXT ..."They have orders to eliminate her."
+TEXT ..."Eles t[m ordens para elimin$-la."
 STOP_SOUND 01 
 BACKGROUND 'BG010' 
 X_24 00 
@@ -1072,46 +1072,46 @@ SPRITE 'CGFA01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '000_m14000' 00 
-TEXT Patrol: "Hey, this is no time to be walking around outside."
+TEXT Patrulheiro: "Ei, isso n~o % hora de ficar andando por a&!"
 STOP_SOUND 01 
 TEXT ..."........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_m14001' 00 
-TEXT Patrol: "Return to your room!!"
+TEXT Patrulheiro: "Volte para o seu quarto!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_har001' 00 
-TEXT ..."Do not interfere."
+TEXT ..."N~o enche."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_m14002' 00 
-TEXT Patrol: "Listen to me. Or else..."
+TEXT Patrulheiro: "Escute-me, sen~o..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_har002' 00 
-TEXT ..."Do not interfereeeeeee!!!!"
+TEXT ..."N~o encheeeeeee!!!!"
 STOP_SOUND 01 
-TEXT The patrolman's body flew.
+TEXT O corpo do patrulheiro voou.
 X_24 00 
 X_25 09 
 PLAY_SOUND 01 'se68' 00 
-TEXT *beshiiiiiiii!!!!*
-TEXT His body was smothered against the wall ahead like a piece of fruit.
+TEXT *Splashhh!!!!*
+TEXT Seu corpo foi espatifado na parede como um peda|o de fruta.
 PLAY_SOUND 01 '018_har003' 00 
-TEXT ..."Powerless human..."
+TEXT ..."Humano impotente..."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
 TEXT .........
-TEXT *wii*...*wii*...
-TEXT An annoying noise.
-TEXT *wiii*...*wiii*...!
+TEXT *Bii*...*Bii*...
+TEXT Um barulho irritante.
+TEXT *Biii*...*Biii*...!
 TEXT Nn...
-TEXT *viiii*...*viiii*...!
+TEXT *Biiiii*...*Biiiii*...!
 PLAY_SOUND 01 '095_iku000' 00 
-TEXT Ikumi: "...eh...!?"
+TEXT Ikumi: "...Eh...!?"
 STOP_SOUND 01 
-TEXT *viii!!*　*viii!!*
-TEXT The klaxon...!
+TEXT *Biii!!*　*Biii!!*
+TEXT O alarme...!
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 06 
@@ -1120,55 +1120,55 @@ SPRITE 'CGSY04'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '035_boy053' 00 
-TEXT Boy: "You okay, Ikumi?"
+TEXT Garoto: "Voc[ est$ bem, Ikumi?"
 STOP_SOUND 01 
-TEXT The boy was already standing by the door.
+TEXT O garoto j$ estava parado na porta.
 PLAY_SOUND 01 '035_boy054' 00 
-TEXT Boy: "I'll be back soon, so don't go outside."
+TEXT Garoto: "Estarei de volta em breve, ent~o n~o saia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '095_iku001' 00 
-TEXT Ikumi: "Y-yeah..."
+TEXT Ikumi: "S-Sim..."
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
-TEXT After I answered, the boy quickly disappeared to the other side of that door.
+TEXT Depois que respondi, o garoto desapareceu rapidamente para o outro lado daquela porta.
 PLAY_SOUND 01 '095_iku002' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT The klaxon continued.
-TEXT Had someone become a victim of the invisible strength again, forcing the patrolmen to bring guns against them...?
-TEXT What did he go out there to do?
-TEXT To bury the victims?
-TEXT It didn't matter,
-TEXT Who he buried.
-TEXT That was his job.
-TEXT I just need to stay here.
-TEXT Everything will be handled without me.
-TEXT It's fine.
-TEXT But at that moment, it came back.
+TEXT O alarme continua.
+TEXT Ser$ que algu%m se tornou v&tima da for|a invis&vel, for|ando os patrulheiros a correr por a& com suas armas novamente...?
+TEXT O que ele foi fazer l$?
+TEXT Enterrar as v&timas?
+TEXT N~o importa...
+TEXT Quem ele enterrou.
+TEXT Esse era o trabalho dele.
+TEXT Eu s+ preciso ficar aqui.
+TEXT Tudo ser$ resolvido sem mim.
+TEXT Est$ tudo bem.
+TEXT Mas, de repente, aquilo voltou.
 PLAY_SOUND 00 'mon_cd13' 01 
-TEXT ...that shiver!
-TEXT My body cowered as if all its blood had been sucked out at once.
-TEXT Why...now...
-TEXT The other consciousness within me was awakening.
-TEXT Then it directed its fangs against my utterly defenseless heart.
-TEXT That's what was happening inside me.
-TEXT I had no means of resisting.
-TEXT I could only endure the terror splitting my mind apart.
-TEXT It was the fear of death.
-TEXT The fear of having cold, dull blades touching your internal organs.
-TEXT Each one holding its own will, and able to slice through me on a single whim.
-TEXT I'm going to die...
-TEXT The fear of seeing death before your eyes without any means of evading it.
+TEXT ...Aquele arrepio!
+TEXT Meu corpo fraquejou, como se todo o meu sangue tivesse sido drenado imediatamente.
+TEXT Por que... agora...
+TEXT Aquela outra consci[ncia em meu interior estava acordando.
+TEXT E logo direcionou suas presas contra o meu cora|~o completamente desprotegido.
+TEXT Era exatamente isso que se passava comigo.
+TEXT N~o havia como lutar contra aquilo.
+TEXT S+ me restava suportar o terror que estra|alhava a minha mente.
+TEXT Era o medo da morte.
+TEXT O medo de sentir l}minas geladas e foscas encostando nas minhas entranhas.
+TEXT Cada uma com vontade pr+pria, prontas para me despeda|ar ao menor deslize.
+TEXT Eu vou morrer...
+TEXT O medo de encarar a morte de frente sem ter como fugir.
 PLAY_SOUND 01 'se69' 00 
-TEXT *hyuuuuuuuu*...
-TEXT The sound of the wind.
+TEXT *Fuuuuuuuu...*
+TEXT O som do vento.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'se70' 00 
-TEXT ...*kushaaaaaaaaaaaaaa!!!!*
-TEXT Those fangs dug into my heart.
+TEXT *...Kssshhhhhhhhhhhhhhh!!!!*
+TEXT Essas presas cravaram em meu cora|~o.
 STOP_SOUND 01 
 X_00 0009 000E 
 X_04 007E 0001 
@@ -1179,19 +1179,19 @@ GOTO_SCRIPT 'INIT'
 :LABEL17
 STOP_SOUND 00 
 PLAY_SOUND 01 '018_har004' 00 
-TEXT ..."...I finally found you."
+TEXT ..."...Finalmente encontrei voc[."
 STOP_SOUND 01 
-TEXT A voice.
+TEXT Uma voz.
 IF 17 87 00 15 00 00 02 00 .LABEL18 
-TEXT Right behind me.
-TEXT I was afraid of turning around.
-TEXT I was afraid of seeing it when I did turn around.
+TEXT Bem atr$s de mim.
+TEXT Eu estava com medo de me virar.
+TEXT Tive medo de olhar para tr$s e ver o que estava ali.
 JMP .LABEL19 
 
 :LABEL18
-TEXT Right in front of me.
-TEXT I was afraid of looking up.
-TEXT I was afraid of seeing it when I did look up.
+TEXT Bem na minha frente.
+TEXT Eu estava com medo de olhar para cima.
+TEXT Tive medo de ver o que estava ali.
 
 :LABEL19
 BACKGROUND 'FG068' 
@@ -1200,114 +1200,114 @@ X_25 06
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 '097_iku000' 00 
 TEXT Ikumi: "Ha......Haruka..."
-STOP_SOUND 01 
-TEXT I knew that face without question.
-TEXT Those eyes stared hard at me.
-TEXT ...at her target, me.
-PLAY_SOUND 01 '018_har005' 00 
-TEXT Haruka: "A life form continuing to live for no reason as a Lost Body..."
-STOP_SOUND 01 
-TEXT I didn't understand.
-TEXT Why on earth was this monster assuming Haruka's form...?
-PLAY_SOUND 01 '097_iku001' 00 
-TEXT Ikumi: "Who are you...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku002' 00 
-TEXT Ikumi: "That's my friend's appearance..."
-STOP_SOUND 01 
-TEXT But that was a flawless Haruka.
-TEXT ...it really was Haruka.
-PLAY_SOUND 01 '018_har006' 00 
-TEXT Haruka: "I shall eliminate you as ordered."
-STOP_SOUND 01 
-TEXT A moment's pause, then pressure...!
-TEXT My body flew backwards.
-TEXT My brain and all my blood were flung to the front of my body.
-TEXT The next moment,
-PLAY_SOUND 01 'se14' 00 
-TEXT *dagun!!!!*
-TEXT Impact.
-TEXT I lost consciousness.
-TEXT But only for a moment.
-TEXT I saw Haruka approaching me once again with killing intent.
-PLAY_SOUND 01 '097_iku003' 00 
-TEXT Ikumi: "Haruka, it's me......"
+STOP_SOUND 01
+TEXT Eu reconheci aquele rosto sem a menor sombra de d^vida.
+TEXT Aqueles olhos me encaravam fixamente.
+TEXT ...Encaravam o seu alvo: eu.
+PLAY_SOUND 01 '018_har005' 00
+TEXT Haruka: "Uma forma de vida que continua vivendo sem motivo algum como um Corpo Perdido..."
+STOP_SOUND 01
+TEXT Eu n~o conseguia entender.
+TEXT Por que diabos esse monstro estava assumindo a forma da Haruka...?
+PLAY_SOUND 01 '097_iku001' 00
+TEXT Ikumi: "Quem % voc[...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku002' 00
+TEXT Ikumi: "Essa % a apar[ncia da minha amiga..."
+STOP_SOUND 01
+TEXT Mas aquela era a Haruka perfeita, sem falhas.
+TEXT ...Era mesmo a Haruka?
+PLAY_SOUND 01 '018_har006' 00
+TEXT Haruka: "Irei eliminar voc[ conforme as ordens."
+STOP_SOUND 01
+TEXT Uma fra|~o de segundo de pausa, e ent~o uma press~o absurda...!
+TEXT Meu corpo voou para tr$s.
+TEXT Meu c%rebro e todo o meu sangue foram arremessados para a frente do meu corpo.
+TEXT No instante seguinte...
+PLAY_SOUND 01 'se14' 00
+TEXT *Tuuumm!!!!*
+TEXT O impacto.
+TEXT Apaguei.
+TEXT Mas foi s+ por um momento.
+TEXT Vi a Haruka se aproximando de mim mais uma vez, emanando sede de sangue.
+PLAY_SOUND 01 '097_iku003' 00
+TEXT Ikumi: "Haruka, sou eu......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '097_iku004' 00 
-TEXT Ikumi: "Why are you doing this...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har007' 00 
-TEXT Haruka: "Same reason I'd do this to a bug."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har008' 00 
-TEXT Haruka: "Your existence is a nuisance, so I'll destroy you."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har009' 00 
-TEXT Haruka: "I'll destroy you who lack any reason to exist."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har010' 00 
-TEXT Haruka: "I'll break you into pieces like squashing a fly."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har011' 00 
-TEXT Haruka: "I'll rip you apart like pulling the legs off a centipede."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har012' 00 
-TEXT Haruka: "I'll make you explode like sticking a firecracker up a cicada's butt."
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku005' 00 
-TEXT Ikumi: "Stop!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku006' 00 
-TEXT Ikumi: "I have a will!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku007' 00 
-TEXT Ikumi: "Everything with a will has a reason to live!"
-PLAY_SOUND 01 '097_iku008' 00 
-TEXT Ikumi: "Because they can accomplish things!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har013' 00 
-TEXT Haruka: "You can accomplish nothing."
+TEXT Ikumi: "Por que est$ fazendo isso...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har007' 00
+TEXT Haruka: "Pelo mesmo motivo que eu faria isso com um inseto."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har008' 00
+TEXT Haruka: "A sua exist[ncia % um inc{modo, por isso vou destruir voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har009' 00
+TEXT Haruka: "Vou destruir voc[, que n~o tem nenhuma raz~o para existir."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har010' 00
+TEXT Haruka: "Vou quebrar voc[ em peda|os, como quem esmaga uma mosca."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har011' 00
+TEXT Haruka: "Vou despeda|ar voc[, como quem arranca as pernas de uma centopeia."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har012' 00
+TEXT Haruka: "Vou fazer voc[ explodir, como quem enfia uma bombinha no rabo de uma cigarra."
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku005' 00
+TEXT Ikumi: "Para!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku006' 00
+TEXT Ikumi: "Eu tenho uma vontade pr+pria!"
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku007' 00
+TEXT Ikumi: "Tudo o que tem vontade pr+pria tem um motivo para viver!"
+PLAY_SOUND 01 '097_iku008' 00
+TEXT Ikumi: "Porque % capaz de realizar coisas!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har013' 00
+TEXT Haruka: "Voc[ n~o % capaz de realizar nada."
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_har014' 00 
-TEXT Haruka: "You're a failed product."
+TEXT Haruka: "Voc[ % um experimento fracassado."
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_har015' 00 
-TEXT Haruka: "You can't complete a puzzle without all the pieces."
+TEXT Haruka: "Voc[ n~o pode completar um quebra-cabe|a sem todas as pe|as."
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_har016' 00 
-TEXT Haruka: "A mammoth whose tusks have frozen off is no mammoth."
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku009' 00 
-TEXT Ikumi: "No!!　Your way of thinking is wrong!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har017' 00 
-TEXT Haruka: "There is no need to listen to a failed product such as yourself."
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har018' 00 
-TEXT Haruka: "It is meaningless at this point."
-STOP_SOUND 01 
-PLAY_SOUND 01 '097_iku010' 00 
-TEXT Ikumi: "You're wrong!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '018_har019' 00 
-TEXT Haruka: "Explode. Splatter your brains."
-STOP_SOUND 01 
-PLAY_SOUND 01 'se54' 00 
+TEXT Haruka: "Um mamute cujas presas congelaram e ca&ram n~o % mais um mamute."
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku009' 00
+TEXT Ikumi: "N~o!! A sua linha de racioc&nio est$ errada!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har017' 00
+TEXT Haruka: "N~o h$ necessidade de dar ouvidos a um experimento defeituoso como voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har018' 00
+TEXT Haruka: "A esta altura, isso n~o tem significado algum."
+STOP_SOUND 01
+PLAY_SOUND 01 '097_iku010' 00
+TEXT Ikumi: "Voc[ est$ errada!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '018_har019' 00
+TEXT Haruka: "Exploda. Espalhe os seus miolos."
+STOP_SOUND 01
+PLAY_SOUND 01 'se54' 00
 TEXT *mishi!!*
-PLAY_SOUND 01 '097_iku011' 00 
-TEXT Ikumi: "Hau...!"
-STOP_SOUND 01 
-TEXT Warm blood poured out of my nose.
-PLAY_SOUND 01 'se54' 00 
+PLAY_SOUND 01 '097_iku011' 00
+TEXT Ikumi: "Aii...!"
+STOP_SOUND 01
+TEXT Sangue quente escorreu pelo meu nariz.
+PLAY_SOUND 01 'se54' 00
 TEXT *mishi!!!*
-TEXT My senses failed me.
-TEXT I no longer knew anything.
-PLAY_SOUND 01 'se54' 00 
+TEXT Meus sentidos me faltaram.
+TEXT Eu j$ n~o sabia de mais nada.
+PLAY_SOUND 01 'se54' 00
 TEXT *mishi!!!!*
 TEXT Ah...
-TEXT But I understood one thing.
-TEXT The oncoming shiver.
-PLAY_SOUND 01 'se70' 00 
+TEXT Mas eu entendia uma coisa.
+TEXT O calafrio que se aproximava.
+PLAY_SOUND 01 'se70' 00
 TEXT *kishuuuuu!*...
 BACKGROUND 'BO' 
 X_24 00 
@@ -1338,134 +1338,134 @@ PLAY_SOUND 01 '098_iku000' 00
 TEXT Ikumi: "Ah......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '036_boy000' 00 
-TEXT Boy: "It'll be a while until morning."
+TEXT Garoto: "Ainda vai demorar um tempo at% amanhecer."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy001' 00
+TEXT Garoto: "Voc[ deveria voltar a dormir."
+STOP_SOUND 01
+TEXT Isso j$ tinha acontecido antes.
+TEXT Sim, quando a irm~ da Yui enlouqueceu.
+TEXT Mas, desta vez, foi diferente.
+TEXT Como foi que terminou...?
+TEXT Eu me lembro...
+TEXT Eu... me lembro...
+PLAY_SOUND 01 '098_iku001' 00
+TEXT Ikumi: "Eu matei... a Haruka..."
+STOP_SOUND 01
+TEXT Garoto: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku002' 00
+TEXT Ikumi: "N~o foi?"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku003' 00
+TEXT Ikumi: "Eu n~o matei a Haruka?"
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy002' 00
+TEXT Garoto: "N~o, n~o foi voc[."
+STOP_SOUND 01
+TEXT Olhos.
+TEXT Os olhos do garoto.
+TEXT Olhos mentirosos.
+PLAY_SOUND 01 '098_iku004' 00
+TEXT Ikumi: "Mentiroso..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku005' 00
+TEXT Ikumi: "Voc[ est$ mentindo..."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy003' 00
+TEXT Garoto: "N~o estou n~o."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku006' 00
+TEXT Ikumi: "N~o adianta, eu sei...!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku007' 00
+TEXT Ikumi: "Eu matei ela!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku008' 00
+TEXT Ikumi: "Eu matei a Haruka com a minha for|a invis&vel descontrolada!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku009' 00
+TEXT Ikumi: "Eu me lembro disso!! O corpo da Haruka se rasgando!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku010' 00
+TEXT Ikumi: "Ela foi despeda|ada!!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku011' 00
+TEXT Ikumi: "Partida completamente ao meio!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku012' 00
+TEXT Ikumi: "Eu parti ela completamente ao meio!"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku013' 00
+TEXT Ikumi: "Espirrou tanto sangue, foi parar at% no teto..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku014' 00
+TEXT Ikumi: "A Haruka foi rasgada ao meio..."
 STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy001' 00 
-TEXT Boy: "You should go back to sleep."
-STOP_SOUND 01 
-TEXT This happened before.
-TEXT Yes, when Yui's sister went berserk.
-TEXT But, this time was different.
-TEXT How did it end...?
-TEXT I remember...
-TEXT I...remember...
-PLAY_SOUND 01 '098_iku001' 00 
-TEXT Ikumi: "I killed...Haruka..."
-STOP_SOUND 01 
-TEXT Boy: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku002' 00 
-TEXT Ikumi: "Didn't I?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku003' 00 
-TEXT Ikumi: "Didn't I kill Haruka?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy002' 00 
-TEXT Boy: "No, it wasn't you."
-STOP_SOUND 01 
-TEXT Eyes.
-TEXT The boy's eyes.
-TEXT Lying eyes.
-PLAY_SOUND 01 '098_iku004' 00 
-TEXT Ikumi: "Liar..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku005' 00 
-TEXT Ikumi: "You're lying..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy003' 00 
-TEXT Boy: "No I'm not."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku006' 00 
-TEXT Ikumi: "Don't bother, I know...!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku007' 00 
-TEXT Ikumi: "I killed her!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku008' 00 
-TEXT Ikumi: "I killed Haruka with my uncontrolled invisible strength!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku009' 00 
-TEXT Ikumi: "I remember it!!　Haruka's body tearing!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku010' 00 
-TEXT Ikumi: "She was torn apart!!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku011' 00 
-TEXT Ikumi: "Torn completely in two!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku012' 00 
-TEXT Ikumi: "I tore her completely in two!"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku013' 00 
-TEXT Ikumi: "So much blood came out, all the way to the ceiling..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku014' 00 
-TEXT Ikumi: "Haruka was torn in half..."
-STOP_SOUND 01 
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '098_iku015' 00 
-TEXT Ikumi: "Hey, say something..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku016' 00 
-TEXT Ikumi: "Hey, tell me I'm horrible..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku017' 00 
-TEXT Ikumi: "Hey, call me a murderer..."
-STOP_SOUND 01 
-TEXT Boy: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku018' 00 
-TEXT Ikumi: "Say something..."
-STOP_SOUND 01 
-TEXT Boy: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy004' 00 
-TEXT Boy: "...is there something you would like?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku019' 00 
-TEXT Ikumi: "...what is that......supposed to mean...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy005' 00 
-TEXT Boy: "You should wish for something you desire."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy006' 00 
-TEXT Boy: "I'll make an effort to grant it."
-STOP_SOUND 01 
-TEXT His final kindness.
-TEXT The boy was trying to grant me one final kindness.
-PLAY_SOUND 01 '098_iku020' 00 
-TEXT Ikumi: "It's too late...for me..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy007' 00 
-TEXT Boy: "It's been noticed that you're Lost. There's nothing I can do about it now."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku021' 00 
+TEXT Ikumi: "Ei, fale alguma coisa..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku016' 00
+TEXT Ikumi: "Ei, fale que eu sou horr&vel..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku017' 00
+TEXT Ikumi: "Ei, me chame de assassina..."
+STOP_SOUND 01
+TEXT Garoto: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku018' 00
+TEXT Ikumi: "Diga alguma coisa..."
+STOP_SOUND 01
+TEXT Garoto: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy004' 00
+TEXT Garoto: "...Tem alguma coisa que voc[ gostaria?"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku019' 00
+TEXT Ikumi: "...O que voc[... quer dizer com isso...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy005' 00
+TEXT Garoto: "Voc[ deveria desejar algo que queira muito."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy006' 00
+TEXT Garoto: "Vou me esfor|ar para realizar."
+STOP_SOUND 01
+TEXT Sua ^ltima gentileza.
+TEXT O garoto estava tentando me conceder um ^ltimo ato de gentileza.
+PLAY_SOUND 01 '098_iku020' 00
+TEXT Ikumi: "@ tarde demais... para mim..."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy007' 00
+TEXT Garoto: "Todos j$ sabem que voc[ % um Corpo Perdido. N~o h$ mais nada que eu possa fazer a respeito."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku021' 00
 TEXT Ikumi: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy008' 00 
-TEXT Boy: "You did your best."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy009' 00 
-TEXT Boy: "I think it's alright."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku022' 00 
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy008' 00
+TEXT Garoto: "Voc[ fez o seu melhor."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy009' 00
+TEXT Garoto: "Acho que est$ tudo bem."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku022' 00
 TEXT Ikumi: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy010' 00 
-TEXT Boy: "What would you like?"
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy010' 00
+TEXT Garoto: "O que voc[ gostaria?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '098_iku023' 00 
-TEXT Ikumi: "...a peaceful sleep until morning."
-STOP_SOUND 01 
-PLAY_SOUND 01 '036_boy011' 00 
-TEXT Boy: "Okay, I understand."
-STOP_SOUND 01 
-TEXT I'll sleep peacefully until morning.
-TEXT Thinking about Haruka.
-TEXT That was the little bit of time I could still give her.
-TEXT Then, when I wake up, I won't look back anymore.
-TEXT I'll make the most of my final hours.
+TEXT Ikumi: "...Um sono tranquilo at% o amanhecer."
+STOP_SOUND 01
+PLAY_SOUND 01 '036_boy011' 00
+TEXT Garoto: "Est$ bem, eu entendo."
+STOP_SOUND 01
+TEXT Eu vou dormir tranquilamente at% o amanhecer.
+TEXT Pensando na Haruka.
+TEXT Aquele era o pouquinho de tempo que eu ainda podia dedicar a ela.
+TEXT Depois, quando acordar, n~o vou mais olhar para tr$s.
+TEXT Vou aproveitar ao m$ximo as minhas ^ltimas horas.
 TEXT ...
 TEXT ......
 TEXT .........
@@ -1475,15 +1475,15 @@ X_24 00
 X_25 06 
 PLAY_SOUND 00 'mon_cd06' 01 
 X_3C 19 01 
-TEXT Hey, Haruka.
-TEXT It would've been nice to meet you somewhere else.
-TEXT I really liked your straightforward personality.
-TEXT Even if you were always fighting on the outside, we could really trust each other.
-TEXT If we'd met somewhere else, we might've been lifelong friends.
-TEXT Let's meet again in some classroom under a setting sun.
-TEXT Because then we could finally be happy friends.
-TEXT Hey, Haruka.
-TEXT Until that day, good night.
+TEXT Ei, Haruka.
+TEXT Teria sido bom se tiv%ssemos nos conhecido em outro lugar.
+TEXT Eu gostava muito do seu jeito sincero e direto.
+TEXT Mesmo que voc[ estivesse sempre brigando por fora, a gente podia confiar de verdade uma na outra.
+TEXT Se tiv%ssemos nos conhecido em outro lugar, talvez f{ssemos amigas para sempre.
+TEXT Vamos nos encontrar de novo em alguma sala de aula sob o p{r do sol.
+TEXT Porque a& n+s poder&amos, finalmente, ser felizes.
+TEXT Ei, Haruka.
+TEXT At% esse dia chegar, boa noite.
 TEXT .........
 X_24 00 
 BACKGROUND 'WO' 
@@ -1500,99 +1500,99 @@ PLAY_SOUND 01 '098_iku024' 00
 TEXT Ikumi: "Ah......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '037_boy000' 00 
-TEXT Boy: "It'll be a while until morning."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy001' 00 
-TEXT Boy: "You should go back to sleep."
-STOP_SOUND 01 
-TEXT This happened before.
-TEXT Yes, when Yui's sister went berserk.
-TEXT But, this time was different.
-TEXT Back then, my shiver awakened...
-TEXT Two fears collided...
-TEXT And the result...
-PLAY_SOUND 01 '098_iku025' 00 
-TEXT Ikumi: "What happened...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku026' 00 
-TEXT Ikumi: "What happened to Haruka...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy002' 00 
-TEXT Boy: "It was a really close call."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy003' 00 
-TEXT Boy: "You almost sent her to her grave."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy004' 00 
-TEXT Boy: "But we avoided the worst-case scenario..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku027' 00 
-TEXT Ikumi: "So what happened to Haruka...?"
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy005' 00 
-TEXT Boy: "I had my hands full keeping you under control."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku028' 00 
+TEXT Garoto: "Ainda vai demorar um tempo at% amanhecer."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy001' 00
+TEXT Garoto: "Voc[ deveria voltar a dormir."
+STOP_SOUND 01
+TEXT Isso j$ tinha acontecido antes.
+TEXT Sim, quando a irm~ da Yui enlouqueceu.
+TEXT Mas, desta vez, foi diferente.
+TEXT Naquela %poca, o meu calafrio despertou...
+TEXT Dois medos colidiram...
+TEXT E o resultado...
+PLAY_SOUND 01 '098_iku025' 00
+TEXT Ikumi: "O que aconteceu...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku026' 00
+TEXT Ikumi: "O que aconteceu com a Haruka...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy002' 00
+TEXT Garoto: "Foi por muito pouco."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy003' 00
+TEXT Garoto: "Voc[ quase mandou ela direto para o t^mulo."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy004' 00
+TEXT Garoto: "Mas n+s evitamos o pior cen$rio poss&vel..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku027' 00
+TEXT Ikumi: "Ent~o, o que aconteceu com a Haruka...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy005' 00
+TEXT Garoto: "Eu j$ estava bem ocupado tentando manter voc[ sob controle."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku028' 00
 TEXT Ikumi: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy006' 00
+TEXT Garoto: "Ela foi ca|ada pelos homens da FARGO..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku029' 00
+TEXT Ikumi: "Ei..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku030' 00
+TEXT Ikumi: "Eu estou perguntando qual foi o desfecho de tudo isso!!!"
 STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy006' 00 
-TEXT Boy: "She was chased down by the Fargo men..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku029' 00 
-TEXT Ikumi: "Hey..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku030' 00 
-TEXT Ikumi: "I'm asking about the result of all that!!!"
-STOP_SOUND 01 
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '037_boy007' 00 
-TEXT Boy: "The invisible strength takes a large portion of its user's physical strength."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy008' 00 
-TEXT Boy: "For her especially, it was a tight constraint."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy009' 00 
-TEXT Boy: "She didn't know how to control it."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy010' 00 
-TEXT Boy: "After slaughtering a few patrolmen, she lost that power temporarily."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy011' 00 
-TEXT Boy: "In that state she was a perfectly ordinary human."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy012' 00 
-TEXT Boy: "A one-sided hunt began."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy013' 00 
-TEXT Boy: "Within a hailstorm of bullets..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku031' 00 
-TEXT Ikumi: "Enough..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy014' 00 
-TEXT Boy: "Okay..."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku032' 00 
+TEXT Garoto: "A for|a invis&vel consome uma grande parte da for|a f&sica do usu$rio."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy008' 00
+TEXT Garoto: "Para ela, especialmente, isso era uma limita|~o severa."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy009' 00
+TEXT Garoto: "Ela n~o sabia como control$-la."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy010' 00
+TEXT Garoto: "Ap+s massacrar alguns patrulheiros, ela perdeu esse poder temporariamente."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy011' 00
+TEXT Garoto: "Naquele estado, ela era uma humana perfeitamente comum."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy012' 00
+TEXT Garoto: "Uma ca|ada unilateral come|ou."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy013' 00
+TEXT Garoto: "Sob uma tempestade de balas..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku031' 00
+TEXT Ikumi: "Chega..."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy014' 00
+TEXT Garoto: "Est$ bem..."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku032' 00
 TEXT Ikumi: "........."
-STOP_SOUND 01 
-TEXT Boy: "........."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy015' 00 
-TEXT Boy: "But there is a chance she made it out of there."
-STOP_SOUND 01 
-PLAY_SOUND 01 '037_boy016' 00 
-TEXT Boy: "Don't throw away your hope."
-STOP_SOUND 01 
-PLAY_SOUND 01 '098_iku033' 00 
+STOP_SOUND 01
+TEXT Garoto: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy015' 00
+TEXT Garoto: "Mas h$ uma chance dela ter escapado."
+STOP_SOUND 01
+PLAY_SOUND 01 '037_boy016' 00
+TEXT Garoto: "N~o jogue fora a sua esperan|a."
+STOP_SOUND 01
+PLAY_SOUND 01 '098_iku033' 00
 TEXT Ikumi: "........."
-STOP_SOUND 01 
-BACKGROUND 'BO' 
-X_24 00 
-X_25 06 
+STOP_SOUND 01
+BACKGROUND 'BO'
+X_24 00
+X_25 06
 TEXT Haruka...
-TEXT Tomorrow, I'll go look for you...
-TEXT But for now...let me rest...
+TEXT Amanh~, eu vou te procurar...
+TEXT Mas por enquanto... me deixe descansar...
 TEXT Sorry...
 TEXT ...
 TEXT ......

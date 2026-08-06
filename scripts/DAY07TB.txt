@@ -266,7 +266,7 @@ TEXT Sem pensar duas vezes, o homem apertou o gatilho.
 PLAY_SOUND 01 '008_yri023' 00 
 TEXT Yuri: "...Eh!?"
 STOP_SOUND 01 
-TEXT A morte para a qual ela j$ estava preparada surgiu diante de seus olhos, e Yuri gritou.
+TEXT A morte para a qual ela j$ estava preparada surgiu diante de seus olhos,\ne Yuri gritou.
 TEXT Esse sentimento n~o era outro sen~o o... medo.
 PLAY_SOUND 01 '008_yri024' 00 
 TEXT Yuri: "N~o! Me salve!!"
@@ -281,7 +281,7 @@ TEXT *BANG*
 TEXT Ao fechar os olhos, um tiro alcan|ou seus ouvidos.
 TEXT E mesmo em seu estado de consci[ncia, ela entendeu o que era.
 TEXT Mas n~o doeu.
-TEXT Talvez todos os seus nervos capazes de sentir dor tivessem ficado dormentes... ou talvez n~o.
+TEXT Talvez todos os seus nervos capazes de sentir dor tivessem ficado dormentes...\nOu talvez n~o.
 TEXT A bala ro|ou a orelha de Yuri e se cravou na parede atr$s dela.
 PLAY_SOUND 00 'mon_cd04' 01 
 PLAY_SOUND 01 '003_bt2003' 00 
@@ -350,7 +350,7 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 'se33' 00 
-TEXT *Bam*
+TEXT *Tumdum*
 TEXT A porta pesada de ferro reverberou ao se fechar.
 SPRITE 'CGYI02' 
 X_24 01 

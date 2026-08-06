@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 000C 
-SETSTATUS 'Å@Dia 12 Manh~ Pr%dio Ç`' 
+SETSTATUS 'Å@Dia 12 Manh~ Pr%dio Ç`'
 BACKGROUND 'FG211' 
 X_24 00 
 X_25 06 
@@ -131,23 +131,23 @@ PLAY_SOUND 01 '026_boy001' 00
 TEXT Garoto: "Voc[ est$ com olheiras."
 STOP_SOUND 01 
 PLAY_SOUND 01 '082_iku001' 00 
-TEXT Ikumi: "Eu n~o consegui dormir..."
+TEXT Ikumi: "N~o consegui dormir..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '026_boy002' 00 
 TEXT Garoto: "Voc[ est$ bem?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '082_iku002' 00 
-TEXT Ikumi: "Sim...... eu vou ficar bem..."
+TEXT Ikumi: "Sim...... vou ficar bem..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '026_boy003' 00 
 TEXT Garoto: "Certo, boa sorte."
 STOP_SOUND 01 
 TEXT Com o qu[...?
 TEXT Com a busca da verdade...?
-TEXT Encontrarei algum tipo de trag%dia ao encontrar outra pista.
+TEXT Encontrarei algum tipo de trag%dia ao descobrir outra pista.
 TEXT Como se quanto mais eu tentasse, mais as pessoas ao meu redor sofressem.
 TEXT Ent~o, talvez seja melhor desistir...
-TEXT Na verdade eu tive esse pensamento...
+TEXT Penso seriamente sobre isso...
 TEXT Minha mente... paralisada...
 X_00 0009 0012 
 X_00 000E 0001 
@@ -241,16 +241,16 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 00 'mon_cd04' 01 
-TEXT Em vez de uma mesa, me sentei na cama. Coloquei a bandeja sobre os joelhos e me preparei para comer.
+TEXT Em vez de ir para a mesa, me sentei na cama. Coloquei a bandeja sobre os joelhos e me preparei para comer.
 TEXT Mas eu estava sem fome.
 PLAY_SOUND 01 '028_boy000' 00 
 TEXT Garoto: "Bom apetite."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT Enquanto isso, o garoto comia com facilidade.
-TEXT Peguei tudo que parecia f$cil de passar pela minha garganta.
-TEXT Ent~o terminei minha refei|~o em tempo recorde e sa& do quarto.
+TEXT Enquanto isso, o garoto comia tranquilamente.
+TEXT Peguei o que parecia f$cil de passar pela minha garganta.
+TEXT Terminei minha refei|~o em tempo recorde e sa& do quarto.
 X_04 0071 0000 
 X_00 0009 0012 
 X_00 000E 0003 
@@ -526,7 +526,7 @@ PLAY_SOUND 01 '085_iku011' 00
 TEXT Ikumi: "Como assim?Å@O que isso significa?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '030_boy005' 00 
-TEXT Garoto: "Isso significa que a verdade j$ est$ dentro de voc[."
+TEXT Garoto: "Isso significa que a verdade j$ existe dentro de voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '085_iku012' 00 
 TEXT Ikumi: "Qu[......?"
@@ -536,7 +536,7 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '030_boy006' 00 
-TEXT Garoto: "Voc[ deveria voltar a dormir agora. @ melhor gastar o m$ximo de tempo poss&vel fazendo isso."
+TEXT Garoto: "Voc[ deveria voltar a dormir agora. @ melhor aproveitar o m$ximo de tempo poss&vel fazendo isso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '085_iku013' 00 
 TEXT Ikumi: "Ah, sim..."
@@ -545,8 +545,8 @@ BACKGROUND 'BO'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT A verdade j$ est$ dentro de voc[...
-TEXT O que isso significa...?
+TEXT A verdade j$ existe dentro de voc[...
+TEXT O que significa isso...?
 TEXT Eu n~o entendo...
 TEXT Que diabos est$ acontecendo dentro de mim...?
 TEXT ...

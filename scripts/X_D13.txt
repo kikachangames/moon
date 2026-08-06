@@ -5,27 +5,27 @@
 
 X_00 0013 0005 
 IF 16 0E 00 15 01 00 02 00 .LABEL0 
-SETSTATUS ' Day 13　Morning　Facility Interior'
+SETSTATUS ' Dia 13　Manh~　Interior da Instala|~o'
 JMP .LABEL1 
 
 :LABEL0
 IF 16 0E 00 15 02 00 02 00 .LABEL2 
-SETSTATUS ' Day 13　Midday　Facility Interior'
+SETSTATUS ' Dia 13　Meio-dia　Interior da Instala|~o'
 JMP .LABEL1 
 
 :LABEL2
 IF 16 0E 00 15 03 00 02 00 .LABEL4 
-SETSTATUS ' Day 13　Afternoon　Facility Interior'
+SETSTATUS ' Dia 13　Tarde　Interior da Instala|~o'
 JMP .LABEL1 
 
 :LABEL4
 IF 16 0E 00 15 04 00 02 00 .LABEL6 
-SETSTATUS ' Day 13　Evening　Facility Interior'
+SETSTATUS ' Dia 13　Noite　Interior da Instala|~o'
 JMP .LABEL1 
 
 :LABEL6
 IF 16 0E 00 15 05 00 02 00 .LABEL1 
-SETSTATUS ' Day 13　Night　Facility Interior'
+SETSTATUS ' Dia 13　Noite　Interior da Instala|~o'
 
 :LABEL1
 X_3E 03 74 'imeplate' 
@@ -146,16 +146,16 @@ X_24 00
 X_25 06 
 IF 16 7A 00 15 00 00 02 00 .LABEL56 
 TEXT .........
-TEXT A desolate room...
-TEXT There's nothing in this room.
-TEXT I left the room.
+TEXT Um quarto desolado...
+TEXT N~o h$ nada aqui.
+TEXT Sa& do local.
 X_00 007A 0001 
 JMP .LABEL57 
 
 :LABEL56
 TEXT .........
-TEXT There's nothing in this room.
-TEXT I left the room.
+TEXT N~o h$ nada aqui.
+TEXT Sa& do local.
 
 :LABEL57
 X_3F 00 01 
@@ -179,16 +179,16 @@ X_24 00
 X_25 06 
 IF 16 79 00 15 00 00 02 00 .LABEL59 
 TEXT .........
-TEXT A desolate room...
-TEXT There's nothing in this room.
-TEXT I left the room.
+TEXT Um quarto desolado...
+TEXT N~o h$ nada aqui.
+TEXT Sa& do local.
 X_00 0079 0001 
 JMP .LABEL60 
 
 :LABEL59
 TEXT .........
-TEXT There's nothing in this room.
-TEXT I left the room.
+TEXT N~o h$ nada aqui.
+TEXT Sa& do local.
 
 :LABEL60
 X_3F 00 01 
@@ -211,31 +211,31 @@ BACKGROUND 'BG006'
 X_24 00 
 X_25 06 
 IF 17 7C 00 15 00 00 02 00 .LABEL62 
-TEXT I held my breath and entered the room.
-TEXT But...
+TEXT Prendi a respira|~o e entrei no local.
+TEXT Mas...
 PLAY_SOUND 01 '086_iku003' 00 
-TEXT Ikumi: (Huh...?）
+TEXT Ikumi: (H~...?)
 STOP_SOUND 01 
-TEXT The rotting corpse had simply vanished.
-TEXT I tried breathing through my nose.
-TEXT The air had no traces of it.
+TEXT O cad$ver em decomposi|~o simplesmente havia desaparecido.
+TEXT Tentei respirar pelo nariz.
+TEXT O ar n~o trazia nenhum vest&gio.
 PLAY_SOUND 01 '086_iku004' 00 
-TEXT Ikumi: (Did I get the wrong room...?）
+TEXT Ikumi: (Ser$ que entrei no quarto errado...?)
 STOP_SOUND 01 
-TEXT No, that can't be.
-TEXT It was the farthest room back. No mistaking it.
-TEXT So the corpse had been disposed of, as if it'd never been there.
+TEXT N~o, n~o pode ser.
+TEXT Era o quarto mais distante. N~o h$ d^vidas.
+TEXT Ent~o o cad$ver foi eliminado, como se nunca tivesse estado aqui.
 PLAY_SOUND 01 '086_iku005' 00 
-TEXT Ikumi: (If I'd known this would happen then I would've forced myself to examine it yesterday...）
+TEXT Ikumi: (Se eu soubesse que isso aconteceria, teria examinado ontem...)
 STOP_SOUND 01 
-TEXT No point in regretting it now.
+TEXT N~o adianta me arrepender agora.
 X_04 007C 0001 
 JMP .LABEL63 
 
 :LABEL62
 TEXT .........
-TEXT The corpse isn't there anymore...
-TEXT I left the room.
+TEXT O cad$ver n~o est$ mais aqui...
+TEXT Sa& do local.
 
 :LABEL63
 X_3F 00 01 
@@ -256,15 +256,15 @@ X_52 0105 009C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]Door: Go back' '[--]---:---' '[--]---:---' '[↓ ]South: Corridor' 'Examine' 
+SELECT 0003 '(↑ )Norte: Porta' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL65 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL66 
 
 :LABEL65
 IF 16 03 00 15 01 00 02 00 .LABEL67 
-TEXT I quietly opened the door, confirmed the absence of any patrolmen and slipped through unnoticed.
+TEXT Abri a porta silenciosamente, confirmei a aus[ncia de qualquer patrulheiro e passei despercebida.
 X_00 0009 0019 
 GOTO_SCRIPT 'A_D13' 
 JMP .LABEL66 
@@ -286,10 +286,10 @@ X_52 0105 00C2
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Corridor' '[--]---:---' '[--]---:---' '[↓ ]South: Corridor' 'Examine' 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL73 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL74 
 
 :LABEL73
@@ -315,10 +315,10 @@ X_52 0105 00E8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Corridor' '[--]---:---' '[→ ]East: Corridor' '[↓ ]South: Corridor' 'Examine' 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(→ )Leste: Corredor' '(↓ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL82 
-TEXT An empty three-way intersection.
+TEXT Uma encruzilhada vazia de tr[s vias.
 JMP .LABEL83 
 
 :LABEL82
@@ -350,10 +350,10 @@ X_52 012B 00E8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[← ]West: Corridor' '[→ ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL94 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL95 
 
 :LABEL94
@@ -379,10 +379,10 @@ X_52 0151 00E8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Enter room' '[← ]West: Corridor' '[→ ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(↑ )Norte: Quarto' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL103 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL104 
 
 :LABEL103
@@ -414,10 +414,10 @@ X_52 0176 00E8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Enter room' '[← ]West: Corridor' '[→ ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(↑ )Norte: Quarto' '(← )Oeste: Corredor' '(→ )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL115 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL116 
 
 :LABEL115
@@ -449,10 +449,10 @@ X_52 019C 00E8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Enter room' '[← ]West: Corridor' '[--]---:---' '[--]---:---' 'Examine' 
+SELECT 0003 '(↑ )Norte: Quarto' '(← )Oeste: Corredor' '(--)---:---' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL127 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL128 
 
 :LABEL127
@@ -478,10 +478,10 @@ X_52 0105 010E
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[↑ ]North: Corridor' '[--]---:---' '[--]---:---' '[↓ ]South: Corridor' 'Examine' 
+SELECT 0003 '(↑ )Norte: Corredor' '(--)---:---' '(--)---:---' '(↓ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL136 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL137 
 
 :LABEL136
@@ -496,14 +496,14 @@ IF 17 77 00 15 00 00 02 00 .LABEL142
 PLAY_SOUND 01 '084_iku009' 00 
 TEXT Ikumi: "Ah..."
 STOP_SOUND 01 
-TEXT No good......there's a patrolman standing right around the next corner...
-TEXT If I get found here there'll be no room for excuses. I should give up on searching there...
+TEXT Sem chance... tem um patrulheiro parado na pr+xima esquina...
+TEXT Se eu for encontrada aqui n~o haver$ desculpa. Melhor desistir de procurar l$...
 X_04 0077 0001 
 JMP .LABEL143 
 
 :LABEL142
-TEXT No good......the patrolman's still there...
-TEXT I should give up on searching there...
+TEXT N~o adianta... o patrulheiro ainda t$ ali...
+TEXT Melhor desistir de procurar l$...
 
 :LABEL143
 JMP .LABEL137 

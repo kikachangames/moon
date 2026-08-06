@@ -8,85 +8,85 @@ X_24 00
 X_25 06 
 IF 17 05 00 15 01 00 02 00 .LABEL0 
 PLAY_SOUND 01 'e08_dop000' 00 
-TEXT "...good afternoon, foolish Ikumi whose accursed perversion killed someone."
+TEXT "...boa tarde, est^pida Ikumi, cuja maldita pervers~o matou algu%m."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku000' 00 
-TEXT ku...
+TEXT hehe...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop001' 00 
-TEXT "...but what you killed was an illusion you created."
+TEXT "...mas o que voc[ matou foi uma ilus~o que voc[ criou."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop002' 00 
-TEXT "...good thing it wasn't reality."
+TEXT "...ainda bem que n~o era real."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku001' 00 
 TEXT .........
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop003' 00 
-TEXT "...but it has happened in reality."
+TEXT "...mas isso aconteceu na realidade."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku002' 00 
 TEXT .........
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop004' 00 
-TEXT "...do you understand?"
+TEXT "...voc[ entende?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku003' 00 
 TEXT I do...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop005' 00 
-TEXT "...what's wrong?"
+TEXT "...o que foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku004' 00 
-TEXT My perverted nature...
+TEXT Minha natureza pervertida...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop006' 00 
-TEXT "...who's at fault?"
+TEXT "...quem % a culpada?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku005' 00 
-TEXT My endlessly perverted self...
+TEXT Meu eu infinitamente pervertido...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop007' 00 
-TEXT "...now you understand?"
+TEXT "... agora voc[ entende?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku006' 00 
-TEXT I understand...
+TEXT Eu entendo...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop008' 00 
-TEXT "...the numerous pains born from that perversion."
+TEXT "...as in^meras dores nascidas dessa pervers~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop009' 00 
-TEXT "...and we who've borne them."
+TEXT "...e que n+s precisamos carregar."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku007' 00 
-TEXT Pitiful...
+TEXT Lament$vel...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop010' 00 
-TEXT "...you really do understand."
+TEXT "...voc[ realmente entende."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku008' 00 
-TEXT I really do understand.
+TEXT Eu realmente entendo.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop011' 00 
-TEXT "...then, we'll give you a blessing for your progress."
+TEXT "...ent~o, n+s lhe daremos uma b[n|~o por esse progresso."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku009' 00 
-TEXT Blessing...?
+TEXT B[n|~o...?
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop012' 00 
-TEXT "...yes. A blessing."
+TEXT "...sim, uma b[n|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop013' 00 
-TEXT "...you were reborn at the end of your repentance."
+TEXT "...voc[ renasceu no final do seu arrependimento."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop014' 00 
-TEXT "...thus, a blessing."
+TEXT "...portanto, uma b[n|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop015' 00 
-TEXT "...good luck in the future."
+TEXT "...boa sorte no futuro."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop016' 00 
-TEXT "...for us, the many selves within you."
+TEXT "...para n+s, os muitos eus dentro de voc[."
 STOP_SOUND 01 
 TEXT .........
 TEXT ......
@@ -95,70 +95,70 @@ JMP .LABEL1
 
 :LABEL0
 PLAY_SOUND 01 'e08_dop017' 00 
-TEXT "...good afternoon, Ikumi."
+TEXT "...boa tarde, Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku010' 00 
 TEXT .........
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku011' 00 
-TEXT What will you tell me to do today...?
+TEXT O que voc[ vai me dizer para fazer hoje...?
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop018' 00 
-TEXT "...what do you want me to tell you?"
+TEXT "...o que voc[ quer que eu diga?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku012' 00 
-TEXT I don't care what you do.
+TEXT Eu n~o me importo com o que voc[ faz.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku013' 00 
-TEXT I won't make any more mistakes.
+TEXT N~o cometerei mais erros.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku014' 00 
-TEXT I won't lose to my perverted self anymore.
+TEXT N~o vou mais perder para o meu eu pervertido.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop019' 00 
-TEXT "...now you understand?"
+TEXT "... agora voc[ entende?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku015' 00 
-TEXT Yes. I understand.
+TEXT Sim. Eu entendo.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku016' 00 
-TEXT Everything is my fault for being perverted.
+TEXT Tudo % minha culpa por ser pervertida.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku017' 00 
-TEXT For being endlessly perverted.
+TEXT Por ser infinitamente pervertida.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku018' 00 
-TEXT And pain continued to come out of that.
+TEXT E a dor continua a surgir disso.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku019' 00 
-TEXT And you were all born to bear that pain.
+TEXT E todas voc[s nasceram para suportar essa dor.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop020' 00 
-TEXT "...you really do understand."
+TEXT "... voc[ realmente entende."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku020' 00 
-TEXT I really do understand.
+TEXT Eu realmente entendo.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop021' 00 
-TEXT "...then, we'll give you a blessing for your progress."
+TEXT "...ent~o, n+s lhe daremos uma b[n|~o pelo seu progresso."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku021' 00 
-TEXT Blessing...?
+TEXT B[n|~o...?
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop022' 00 
-TEXT "...yes. A blessing."
+TEXT "...sim, uma b[n|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop023' 00 
-TEXT "...you were reborn at the end of your repentance."
+TEXT "...voc[ renasceu no final do seu arrependimento."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop024' 00 
-TEXT "...thus, a blessing."
+TEXT "...portanto, uma b[n|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop025' 00 
-TEXT "...good luck in the future."
+TEXT "...boa sorte no futuro."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop026' 00 
-TEXT "...for us, the many selves within you."
+TEXT "...para n+s, os muitos eus dentro de voc[."
 STOP_SOUND 01 
 TEXT .........
 TEXT ......
@@ -186,155 +186,155 @@ PLAY_SOUND 01 '016_har003' 00
 TEXT ..."...Ikumi!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku022' 00 
-TEXT Ikumi: "Eh...?"
+TEXT Ikumi: "H~...?"
 STOP_SOUND 01 
 SPRITE 'CGHA07' 
 X_24 01 
 X_25 09 
-TEXT I opened my eyes, and there was Haruka.
+TEXT Abri os olhos e l$ estava Haruka.
 PLAY_SOUND 01 'e08_iku023' 00 
-TEXT Ikumi: "Ha, Haruka..."
+TEXT Ikumi: "Ah, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har004' 00 
-TEXT Haruka: "Thank god...you're okay..."
+TEXT Haruka: "Gra|as a Deus... voc[ est$ bem..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku024' 00 
-TEXT Ikumi: "Wait..."
+TEXT Ikumi: "Espere..."
 STOP_SOUND 01 
-TEXT I couldn't grasp the situation at all...
+TEXT Eu n~o conseguia entender a situa|~o...
 PLAY_SOUND 01 'e08_iku025' 00 
-TEXT Ikumi: "What happened to me...?"
+TEXT Ikumi: "O que aconteceu comigo...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har005' 00 
-TEXT Haruka: "You were entered by a weird machine."
+TEXT Haruka: "Voc[ foi invadida por uma m$quina estranha."
 STOP_SOUND 01 
-TEXT Machine...?
-TEXT What's that...?
+TEXT M$quina...?
+TEXT O que % isso...?
 SPRITE 'CGHA06' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '016_har006' 00 
-TEXT Haruka: "It was a close call. That machine was the source of everything here."
+TEXT Haruka: "Foi por pouco. Essa m$quina % a fonte de tudo aqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku026' 00 
-TEXT Ikumi: "What do you mean...?"
+TEXT Ikumi: "O que voc[ quer dizer...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har007' 00 
-TEXT Haruka: "I found out everything."
+TEXT Haruka: "Eu descobri tudo."
 STOP_SOUND 01 
-TEXT Everything...?
+TEXT Tudo...?
 PLAY_SOUND 01 '016_har008' 00 
-TEXT Haruka: "What Fargo is trying to do, and what this facility is."
+TEXT Haruka: "O que a FARGO est$ tentando fazer e o que % essa instala|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku027' 00 
-TEXT Ikumi: "Really?"
+TEXT Ikumi: "S%rio?"
 STOP_SOUND 01 
 SPRITE 'CGHA01' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '016_har009' 00 
-TEXT Haruka: "Really. This is a very frightening place."
+TEXT Haruka: "S%rio. Este lugar % muito assustador."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har010' 00 
-TEXT Haruka: "That machine brainwashes followers, then takes off a certain <hoop> inside one's mind."
+TEXT Haruka: "Essa m$quina serve para lobotomizar os crentes e desatar os <n+s> que existem no c%rebro deles."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku028' 00 
-TEXT Ikumi: "A hoop...?"
+TEXT Ikumi: "N+s...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har011' 00 
-TEXT Haruka: "A hoop."
+TEXT Haruka: "Um n+."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har012' 00 
-TEXT Haruka: "A <hoop> which controls a human's power."
+TEXT Haruka: "Um <n+> que reprime o poder de um ser humano."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har013' 00 
-TEXT Haruka: "In other words it makes the invisible strength attainable."
+TEXT Haruka: "Em outras palavras, % o que torna a for|a invis&vel alcan|$vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har014' 00 
-TEXT Haruka: "That's a power that all humans possess dormantly."
+TEXT Haruka: "Originalmente era uma habilidade que todo ser humano possu&a de forma latente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har015' 00 
-TEXT Haruka: "So if that <hoop> is taken away, anyone can use that power."
+TEXT Haruka: "Ent~o, se esse <n+> for desatado, qualquer um poder$ recuperar esse poder."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku029' 00 
-TEXT Ikumi: "Oh...I see..."
+TEXT Ikumi: "Ah... Entendi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har016' 00 
-TEXT Haruka: "The public corporate religion of Fargo made that their goal, and by brainwashing its followers at the same time as removing that <hoop>, they're creating a large number of simple-minded superpeople."
+TEXT Haruka: "Essa % a miss~o da seita conhecida como FARGO: fazer lavagem cerebral e desatar os <n+s> de seus seguidores, criando um grande n^mero de crentes com habilidades paranormais."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har017' 00 
-TEXT Haruka: "In other words they're mass producing heartless <weapons>."
+TEXT Haruka: "Em outras palavras, eles est~o produzindo <armas> sem alma em massa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har018' 00 
-TEXT Haruka: "And this facility is a production plant for those weapons."
+TEXT Haruka: "E esta instala|~o % uma f$brica de produ|~o dessas armas."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har019' 00 
-TEXT Haruka: "Understand?　How frightening this place is?"
+TEXT Haruka: "Entendeu?　Qu~o assustador\n% esse lugar?"
 STOP_SOUND 01 
-TEXT It was too sudden to be believed...
-TEXT But that was the truth.
+TEXT Foi tudo muito repentino para acreditar...
+TEXT Mas essa era a verdade.
 PLAY_SOUND 01 '016_har020' 00 
-TEXT Haruka: "Ikumi's okaa-san must have learned that truth before undergoing her brainwashing."
+TEXT Haruka: "A m~e de Ikumi deve ter descoberto essa verdade antes de passar pela lavagem cerebral."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har021' 00 
-TEXT Haruka: "So she escaped this facility and returned to Ikumi."
+TEXT Haruka: "Ent~o ela fugiu da instala|~o e voltou para Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har022' 00 
-TEXT Haruka: "But the Fargo people can't allow someone outside to know the truth."
+TEXT Haruka: "Mas o pessoal da FARGO n~o pode permitir que algu%m de fora saiba a verdade."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har023' 00 
-TEXT Haruka: "So..."
+TEXT Haruka: "E por isso..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku030' 00 
-TEXT Ikumi: "She was eliminated......"
+TEXT Ikumi: "Ela foi eliminada......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har024' 00 
-TEXT Haruka: "Yes..."
+TEXT Haruka: "Sim..."
 STOP_SOUND 01 
-TEXT This is everything.
-TEXT This is the truth...
-TEXT The truth I wanted to know...
+TEXT Isso % tudo.
+TEXT Esta % a verdade...
+TEXT A verdade que eu queria saber...
 PLAY_SOUND 01 'e08_iku031' 00 
-TEXT Ikumi: "Thank you, Haruka."
+TEXT Ikumi: "Obrigada, Haruka."
 STOP_SOUND 01 
 SPRITE 'CGHA07' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '016_har025' 00 
-TEXT Haruka: "Don't mention it."
+TEXT Haruka: "N~o mencione isso."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku032' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har026' 00 
-TEXT Haruka: "Are you sad?"
+TEXT Haruka: "Voc[ est$ triste?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku033' 00 
-TEXT Ikumi: "No..."
+TEXT Ikumi: "N~o..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har027' 00 
-TEXT Haruka: "Ikumi's mother died, and you ran here like mad to find out the reason..."
+TEXT Haruka: "A m~e de Ikumi morreu, e voc[ correu at% aqui como uma louca para descobrir o motivo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har028' 00 
-TEXT Haruka: "Not even giving yourself a chance to cry..."
+TEXT Haruka: "Nem mesmo se dando a chance de chorar..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har029' 00 
-TEXT Haruka: "Don't you want to cry...?"
+TEXT Haruka: "Voc[ n~o quer chorar...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku034' 00 
-TEXT Ikumi: "That's...not true..."
+TEXT Ikumi: "Isso... n~o % verdade..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har030' 00 
-TEXT Haruka: "It's okay to cry."
+TEXT Haruka: "N~o h$ problema em chorar."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku035' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har031' 00 
-TEXT Haruka: "Don't worry, I'll comfort you."
+TEXT Haruka: "N~o se preocupe, eu vou cuidar de voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku036' 00 
-TEXT Ikumi: "Eh...?"
+TEXT Ikumi: "Qu[...?"
 STOP_SOUND 01 
 BACKGROUND 'FG113' 
 X_24 00 
@@ -343,175 +343,175 @@ PLAY_SOUND 01 'e08_iku037' 00
 TEXT Ikumi: "Haruka...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har032' 00 
-TEXT Haruka: "This calms you down, right?"
+TEXT Haruka: "Isso te acalma, certo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku038' 00 
-TEXT Ikumi: "Yes...but......wait..."
+TEXT Ikumi: "Sim... mas... espere..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har033' 00 
-TEXT Haruka: "It's okay, we can do this forever."
+TEXT Haruka: "Est$ tudo bem, podemos ficar assim para sempre."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku039' 00 
-TEXT Ikumi: "Haruka...this is strange..."
+TEXT Ikumi: "Haruka... isso % estranho..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har034' 00 
-TEXT Haruka: "Are you sure...?"
+TEXT Haruka: "Tem certeza...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku040' 00 
-TEXT Ikumi: "Yes, it is..."
+TEXT Ikumi: "Sim..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har035' 00 
-TEXT Haruka: "I'm just being honest. I wanted to do this for Ikumi."
+TEXT Haruka: "S+ estou sendo sincera. Eu queria fazer isso por Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku041' 00 
 TEXT Ikumi: "......?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har036' 00 
-TEXT Haruka: "I wanted to hold Ikumi like this."
+TEXT Haruka: "Eu queria abra|ar Ikumi assim."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku042' 00 
-TEXT Ikumi: "That's..."
+TEXT Ikumi: "Isso %..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har037' 00 
-TEXT Haruka: "Because I love you."
+TEXT Haruka: "Porque eu te amo."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku043' 00 
 TEXT Ikumi: "Ehh...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har038' 00 
-TEXT Haruka: "I always loved you."
+TEXT Haruka: "Eu sempre amei voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har039' 00 
-TEXT Haruka: "That's why I came this far..."
+TEXT Haruka: "Foi por isso que cheguei at% aqui..."
 STOP_SOUND 01 
-TEXT Haruka stared straight at me, so close to my face our noses almost touched.
+TEXT Haruka olhou diretamente para mim, t~o perto do meu rosto que nossos narizes quase se tocaram.
 PLAY_SOUND 01 '016_har040' 00 
-TEXT Haruka: "My objective was to rescue you."
+TEXT Haruka: "Meu objetivo era resgatar voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har041' 00 
-TEXT Haruka: "I was lying when I said I came here to bring back my brother."
+TEXT Haruka: "Eu estava mentindo quando disse que vim aqui para trazer meu irm~o de volta."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku044' 00 
-TEXT Ikumi: "You must be joking..."
+TEXT Ikumi: "Voc[ s+ pode estar brincando..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku045' 00 
-TEXT Ikumi: "Wasn't he you brother...?"
+TEXT Ikumi: "Ele n~o era seu irm~o...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har042' 00 
-TEXT Haruka: "That was a lie too..."
+TEXT Haruka: "Isso tamb%m era mentira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har043' 00 
-TEXT Haruka: "I happened to know his name already, so I faked the whole story about him being my brother."
+TEXT Haruka: "Acontece que eu j$ sabia o nome dele, ent~o fingi toda a hist+ria sobre ele ser meu irm~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har044' 00 
-TEXT Haruka: "It was all in order to get close to you."
+TEXT Haruka: "Foi tudo para chegar perto de voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku046' 00 
-TEXT Ikumi: "It can't be..."
+TEXT Ikumi: "N~o pode ser..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har045' 00 
-TEXT Haruka: "It wasn't a coincidence we were loaded onto the same transport truck."
+TEXT Haruka: "N~o foi coincid[ncia que fomos trazidas para c$ no mesmo caminh~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har046' 00 
-TEXT Haruka: "I followed you to that truck."
+TEXT Haruka: "Eu segui voc[ at% aquele caminh~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har047' 00 
-TEXT Haruka: "Because I always loved you."
+TEXT Haruka: "Porque eu sempre amei voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har048' 00 
-TEXT Haruka: "Because I wanted to save you."
+TEXT Haruka: "Porque eu queria te salvar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har049' 00 
-TEXT Haruka: "It was all for Ikumi."
+TEXT Haruka: "Foi tudo por Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har050' 00 
-TEXT Haruka: "That's why I was able to endure these horrible living conditions."
+TEXT Haruka: "@ por isso que consegui suportar essas condi|/es de vida horr&veis."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har051' 00 
-TEXT Haruka: "That's why I could endure the raping."
+TEXT Haruka: "@ por isso que pude suportar o estupro."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har052' 00 
-TEXT Haruka: "It was all for Ikumi."
+TEXT Haruka: "Foi tudo por Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har053' 00 
-TEXT Haruka: "That's why I worked hard to uncover the truth here."
+TEXT Haruka: "@ por isso que trabalhei duro para descobrir a verdade aqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har054' 00 
-TEXT Haruka: "It was all for Ikumi."
+TEXT Haruka: "Foi tudo por Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku047' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har055' 00 
-TEXT Haruka: "I worked hard for Ikumi's sake."
+TEXT Haruka: "Trabalhei duro pelo bem de Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har056' 00 
-TEXT Haruka: "Which is why..."
+TEXT Haruka: "@ por isso que..."
 STOP_SOUND 01 
-TEXT Haruka's mouth came closer, and I felt her hot breath.
+TEXT A boca de Haruka se aproximou e senti seu h$lito quente.
 PLAY_SOUND 01 '016_har057' 00 
-TEXT Haruka: "Please..."
+TEXT Haruka: "Por favor..."
 STOP_SOUND 01 
-TEXT Haruka closed my mouth with hers.
-TEXT Then she sucked on my lips as if to eat them.
+TEXT Haruka fechou minha boca com a dela.
+TEXT Ent~o ela chupou meus l$bios como se fosse com[-los.
 PLAY_SOUND 01 'se60' 00 
-TEXT *buchu*...*buchu*...
-TEXT After that, she infiltrated my mouth with her tongue.
+TEXT *Chu*...*Chu*...
+TEXT Depois disso, ela se infiltrou na minha boca com a l&ngua.
 PLAY_SOUND 01 'se60' 00 
-TEXT *kuchu*...*nuchu*...
-TEXT Haruka licked my tongue.
+TEXT *Tchu*...*Tchu*...
+TEXT Haruka lambeu minha l&ngua.
 PLAY_SOUND 01 '016_har058' 00 
 TEXT Haruka: "Nn...nnn..."
 STOP_SOUND 01 
-TEXT We breathed through our noses as our tongues twisted around each other.
-TEXT A kiss so long it felt eternal...
-TEXT Why was I receiving it without any resistance...?
-TEXT Why...?
+TEXT Respiramos pelo nariz enquanto nossas l&nguas se torciam.
+TEXT Um beijo t~o longo que parecia eterno...
+TEXT Por que eu estava recebendo isso sem qualquer resist[ncia...?
+TEXT Por que...?
 TEXT 
-SELECT 0003 'Because Haruka tried so hard to help me...' 'Because I love Haruka too...' 
+SELECT 0003 'Porque Haruka se esfor|ou para me ajudar' 'Porque eu tamb%m amo Haruka...' 
 IF 16 03 00 15 01 00 02 00 .LABEL2 
-TEXT Yes, Haruka gave her all for my sake...
-TEXT If she really did enter this facility only to save me, then just how much of her suffering was for me...?
-TEXT It really...hurt to think about...
-TEXT Just for me...
-TEXT That's why I was accepting it. Just for now.
+TEXT Sim, Haruka deu tudo dela por minha causa...
+TEXT Se ela realmente entrou nesta instala|~o apenas para me salvar, ent~o quanto do sofrimento dela foi para mim...?
+TEXT Realmente... do&a pensar nisso...
+TEXT S+ para mim...
+TEXT @ por isso que eu estava aceitando. S+ por enquanto.
 PLAY_SOUND 01 'e08_iku048' 00 
 TEXT Ikumi: "Nn..."
 STOP_SOUND 01 
-TEXT I put my tongue inside her mouth as well.
+TEXT Coloquei minha l&ngua dentro de sua boca tamb%m.
 PLAY_SOUND 01 '016_har059' 00 
 TEXT Haruka: "Nn...nn..."
 STOP_SOUND 01 
-TEXT And Haruka immediately began sucking on it.
-TEXT All the saliva built up on it was sucked away down her throat.
-TEXT Haruka desperately wanted me.
-TEXT She loved me so much.
-TEXT *chuba*...
-TEXT Haruka finally released my mouth.
-TEXT When I started breathing again, I could smell Haruka's saliva under my nose.
-TEXT But that wasn't an unpleasant smell.
+TEXT E Haruka imediatamente come|ou a chup$-la.
+TEXT Toda a saliva acumulada foi sugada pela garganta dela.
+TEXT Haruka me queria desesperadamente.
+TEXT Ela me amava muito.
+TEXT *Sluurp*...
+TEXT Haruka finalmente soltou minha boca.
+TEXT Quando comecei a respirar novamente, pude sentir o cheiro da saliva de Haruka embaixo do meu nariz.
+TEXT Mas n~o era um cheiro desagrad$vel.
 PLAY_SOUND 01 '016_har060' 00 
 TEXT Haruka: "Ikumi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku049' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
-TEXT Then we looked at each other for a while.
-TEXT Haruka's flushed cheeks looked somehow cute.
+TEXT Ent~o nos entreolhamos por um tempo.
+TEXT As bochechas coradas de Haruka pareciam fofas.
 PLAY_SOUND 01 'e08_iku050' 00 
-TEXT Ikumi: "Will you...lick my breasts?"
+TEXT Ikumi: "Voc[ quer... lamber meus seios?"
 STOP_SOUND 01 
-TEXT The words came out naturally.
+TEXT As palavras sa&ram naturalmente.
 PLAY_SOUND 01 '016_har061' 00 
-TEXT Haruka: "Yes..."
+TEXT Haruka: "Sim..."
 STOP_SOUND 01 
-TEXT Haruka nodded.
+TEXT Haruka assentiu.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT I opened up my shirt, exposing both breasts.
+TEXT Abri minha camisa, expondo ambos os seios.
 PLAY_SOUND 01 'e08_iku051' 00 
-TEXT Ikumi: "Go ahead."
+TEXT Ikumi: "V$ em frente."
 STOP_SOUND 01 
 BACKGROUND 'FG114' 
 X_24 00 
@@ -519,58 +519,58 @@ X_25 06
 PLAY_SOUND 01 '016_har062' 00 
 TEXT Haruka: "Nn..."
 STOP_SOUND 01 
-TEXT She began to enjoy the flavor of my chest.
-TEXT Then she moved her lips to the tip of one of my breasts and squeezed on it.
+TEXT Ela come|ou a apreciar o sabor do meu peito.
+TEXT Ent~o ela moveu os l$bios at% a ponta de um dos meus seios e apertou.
 PLAY_SOUND 01 'e08_iku052' 00 
 TEXT Ikumi: "Nnn..."
 STOP_SOUND 01 
-TEXT I groaned without thinking.
-TEXT And that tip was now covered in a layer of warm moisture.
-TEXT Haruka had started to cover me with saliva.
-TEXT Just the tip was now buried in warmth.
-TEXT Then Haruka sucked that saliva off of my nipple and drank it back down.
-TEXT She was trying to give her saliva the flavor of my nipple so she could taste it.
-TEXT After that, as if her hoop had come off, she began to lick all over my chest.
+TEXT Eu gemi sem pensar.
+TEXT E essa ponta agora estava coberta por uma camada de umidade quente.
+TEXT Haruka come|ou a me cobrir com saliva.
+TEXT Apenas a ponta estava agora enterrada no calor.
+TEXT Ent~o Haruka sugou a saliva do meu mamilo e bebeu de volta.
+TEXT Ela estava tentando dar # sua saliva o sabor do meu mamilo para que ela pudesse prov$-lo.
+TEXT Depois disso, como se toda a conten|~o tivesse sido removida, ela come|ou a lamber todo o meu peito.
 PLAY_SOUND 01 '016_har063' 00 
-TEXT Haruka: "Nn...Ikumi......Ikumi's breasts are delicious..."
+TEXT Haruka: "Nn...Ikumi......Os seios da Ikumi s~o deliciosos..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku053' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
-TEXT She sucked on my nipple like a piece of hard candy, taking it in and out of her mouth.
-TEXT That tip was fully engorged with blood, and wouldn't get any harder.
-TEXT Now that it was wet with Haruka's saliva, it had a truly perverted texture.
-TEXT *rero*
-TEXT Haruka continued licking it, and it moved around in response.
+TEXT Ela chupou meu mamilo como um peda|o de doce duro, colocando-o e tirando-o da boca.
+TEXT Essa ponta estava totalmente cheia de sangue e n~o ficaria mais dura.
+TEXT Agora que estava molhada com a saliva de Haruka, tinha uma textura verdadeiramente pervertida.
+TEXT *Chu*
+TEXT Haruka continuou lambendo e o mamilo se moveu em resposta.
 PLAY_SOUND 01 'e08_iku054' 00 
 TEXT Ikumi: "Haau..."
 STOP_SOUND 01 
-TEXT I was especially sensitive there.
+TEXT Eu era especialmente sens&vel al&.
 PLAY_SOUND 01 'e08_iku055' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har064' 00 
-TEXT Haruka: "What...?"
+TEXT Haruka: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku056' 00 
-TEXT Ikumi: "Pi-...pinch...my nipple..."
+TEXT Ikumi: "B-... Belisque... meu mamilo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har065' 00 
-TEXT Haruka: "Like this...?"
+TEXT Haruka: "Assim...?"
 STOP_SOUND 01 
-TEXT Haruka grabbed the tip of my wet and shining breast with her thumb and index finger.
+TEXT Haruka agarrou a ponta do meu seio molhado e brilhante com o polegar e o indicador.
 PLAY_SOUND 01 'e08_iku057' 00 
 TEXT Ikumi: "Ah...haaa...!"
 STOP_SOUND 01 
-TEXT My body quivered.
+TEXT Meu corpo estremeceu.
 PLAY_SOUND 01 'e08_iku058' 00 
-TEXT Ikumi: "More...harder......as if crushing it..."
+TEXT Ikumi: "Mais... mais forte... como se estivesse esmagando..."
 STOP_SOUND 01 
-TEXT It was grabbed even harder.
+TEXT O mamilo foi agarrado com ainda mais for|a.
 PLAY_SOUND 01 'e08_iku059' 00 
 TEXT Ikumi: "Ahau...!"
 STOP_SOUND 01 
-TEXT As Haruka did that, she also moved to my other breast and began tasting it.
+TEXT Enquanto Haruka fazia isso, ela tamb%m passou para o meu outro seio e come|ou a prov$-lo.
 PLAY_SOUND 01 '016_har066' 00 
 TEXT Haruka: "Nn...nnn..."
 STOP_SOUND 01 
@@ -578,373 +578,373 @@ PLAY_SOUND 01 'e08_iku060' 00
 TEXT Ikumi: "Ahh...Haruka..."
 STOP_SOUND 01 
 TEXT Haruka...Haruka...
-TEXT Brave Haruka...
-TEXT Haruka, who gave everything for my sake...
-TEXT Haruka, who loved me...
-TEXT If this was how she wanted to be requited, I started wanting to let her to everything...
+TEXT Pobre Haruka...
+TEXT Haruka, que deu tudo por mim...
+TEXT Haruka, que me amava...
+TEXT Se era assim que ela queria ser correspondida, comecei a querer deix$-la fazer tudo...
 TEXT 
-SELECT 0003 'Let her lick down there too' 'Make her stop after this' 
+SELECT 0003 'Deixar ela lamber l$ embaixo tamb%m' 'Fazer ela parar depois disso' 
 IF 16 03 00 15 01 00 02 00 .LABEL3 
 PLAY_SOUND 01 'e08_iku061' 00 
-TEXT Ikumi: "Hey, Haruka..."
+TEXT Ikumi: "Ei, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har067' 00 
-TEXT Haruka: "What...?"
+TEXT Haruka: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku062' 00 
-TEXT Ikumi: "You can lick me...down there too."
+TEXT Ikumi: "Voc[ quer me lamber... aqui embaixo tamb%m."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har068' 00 
-TEXT Haruka: "Really...?"
+TEXT Haruka: "S%rio...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku063' 00 
-TEXT Ikumi: "Yeah......don't you want to?"
+TEXT Ikumi: "Sim... voc[ n~o quer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har069' 00 
-TEXT Haruka: "Yes, I want to."
+TEXT Haruka: "Sim, eu quero."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku064' 00 
-TEXT Ikumi: "Then..."
+TEXT Ikumi: "Ent~o..."
 STOP_SOUND 01 
-TEXT I put one hand inside my skirt and lowered my underwear.
+TEXT Coloquei uma m~o dentro da saia e baixei a calcinha.
 PLAY_SOUND 01 'e08_iku065' 00 
-TEXT Ikumi: "...here you go."
+TEXT Ikumi: "...Vem aqui."
 STOP_SOUND 01 
-TEXT Then I held up my skirt.
+TEXT Ent~o levantei minha saia.
 BACKGROUND 'FG115' 
 X_24 00 
 X_25 06 
 X_3C 0A 01 
-TEXT Haruka buried her face in my private parts.
-TEXT I heard an odd noise for a moment.
-TEXT Then I realized she was sniffing.
+TEXT Haruka enterrou o rosto nas minhas partes &ntimas.
+TEXT Ouvi um barulho estranho por um momento.
+TEXT Ent~o percebi que ela estava me cheirando.
 PLAY_SOUND 01 'e08_iku066' 00 
-TEXT Ikumi: "That's embarassing, Haruka..."
+TEXT Ikumi: "Isso % constrangedor, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har070' 00 
-TEXT Haruka: "It's fine, this smells good, really good."
+TEXT Haruka: "Est$ tudo bem, isso cheira bem, muito bom."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku067' 00 
-TEXT Ikumi: "Really...?"
+TEXT Ikumi: "S%rio...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har071' 00 
-TEXT Haruka: "Really. It smells great. Now I really want to lick it."
+TEXT Haruka: "S%rio. Cheira muito bem. Agora eu realmente quero te lamber."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku068' 00 
-TEXT Ikumi: "Yes...lick it..."
+TEXT Ikumi: "Sim... pode vir..."
 STOP_SOUND 01 
 TEXT *nuru*
 PLAY_SOUND 01 'e08_iku069' 00 
 TEXT Ikumi: "Nn..."
 STOP_SOUND 01 
-TEXT Haruka's tongue crawled over my sensitive parts.
+TEXT A l&ngua de Haruka rastejou pelas minhas partes sens&veis.
 PLAY_SOUND 01 '016_har072' 00 
-TEXT Haruka: "Ikumi...you're delicious..."
+TEXT Haruka: "Ikumi... voc[ % uma del&cia..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku070' 00 
-TEXT Ikumi: "I am...?"
+TEXT Ikumi: "Sou...?"
 STOP_SOUND 01 
-TEXT I was happy to hear that.
-TEXT I crouched further down to make it easier for Haruka to lick me.
-TEXT Haruka's mouth was now deep inside my crotch.
-TEXT It was so bold even I was surprised.
+TEXT Fiquei feliz em ouvir isso.
+TEXT Agachei-me ainda mais para tornar mais f$cil para Haruka me lamber.
+TEXT A boca de Haruka estava agora profundamente dentro da minha virilha.
+TEXT Foi t~o ousado que at% fiquei surpreso.
 PLAY_SOUND 01 '016_har073' 00 
 TEXT Haruka: "Nn...nn..."
 STOP_SOUND 01 
-TEXT Haruka moved her tongue inside, licking all of my private parts.
+TEXT Haruka moveu a l&ngua para dentro, lambendo todas as minhas partes &ntimas.
 PLAY_SOUND 01 'e08_iku071' 00 
 TEXT Ikumi: "Nnaaa..."
 STOP_SOUND 01 
-TEXT Amazing...
-TEXT My insides were being heated up and moved around...
+TEXT Incr&vel...
+TEXT Minhas entranhas estavam sendo aquecidas e movimentadas...
 PLAY_SOUND 01 'e08_iku072' 00 
-TEXT Ikumi: "It...it feels good...Haruka..."
+TEXT Ikumi: "%... % bom... Haruka..."
 STOP_SOUND 01 
-TEXT I could feel my obscene fluid flowing out with no end.
+TEXT Eu podia sentir meu fluido obsceno jorrando sem fim.
 PLAY_SOUND 01 '016_har074' 00 
 TEXT Haruka: "Ngu...ngu..."
 STOP_SOUND 01 
-TEXT Haruka continued to drink it, as it mixed with her own saliva.
+TEXT Haruka continuou a beber, misturando-se com sua pr+pria saliva.
 PLAY_SOUND 01 'e08_iku073' 00 
 TEXT Ikumi: "Nna...!"
 STOP_SOUND 01 
-TEXT Then Haruka's tongue found my most sensitive protrusion.
-TEXT I was vulnerable there.
-TEXT Haruka moved it around with her tongue as if it were her own.
+TEXT Ent~o a l&ngua de Haruka encontrou minha protuber}ncia mais sens&vel.
+TEXT Eu estava vulner$vel l$.
+TEXT Haruka manipula essa protuber}ncia com a l&ngua # vontade.
 PLAY_SOUND 01 'e08_iku074' 00 
 TEXT Ikumi: "Haau......!"
 STOP_SOUND 01 
-TEXT I couldn't go on without moaning.
+TEXT Eu n~o poderia continuar sem gemer.
 PLAY_SOUND 01 'e08_iku075' 00 
-TEXT Ikumi: "Move it around......in little circles..."
+TEXT Ikumi: "Mova em volta... em pequenos c&rculos..."
 STOP_SOUND 01 
-TEXT Haruka licked it around in circles.
+TEXT Haruka lambeu em c&rculos.
 PLAY_SOUND 01 'e08_iku076' 00 
-TEXT Ikumi: "Haa...yes...!"
+TEXT Ikumi: "Haa... isso...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku077' 00 
-TEXT Ikumi: "Now lick it up from the base, pushing it all the way in..."
+TEXT Ikumi: "Agora lamba desde a base, empurrando tudo pra dentro..."
 STOP_SOUND 01 
-TEXT Haruka licked it up from the base, as if to push it down inside me.
+TEXT Haruka lambeu desde a base, como se quisesse empurrar sua l&ngua pra dentro de mim.
 PLAY_SOUND 01 'e08_iku078' 00 
 TEXT Ikumi: "Nnaa..."
 STOP_SOUND 01 
-TEXT It felt so good my legs began to quiver underneath my body weight.
-TEXT If this went on any longer I might fall onto Haruka.
-TEXT But Haruka's tongue knew no rest.
+TEXT Foi t~o bom que minhas pernas come|aram a tremer sob o peso do meu corpo.
+TEXT Se isso continuasse, eu poderia cair em cima de Haruka.
+TEXT Mas a l&ngua de Haruka n~o conhecia descanso.
 PLAY_SOUND 01 'e08_iku079' 00 
-TEXT Ikumi: "Aaa...wait!　Haruka!!!"
+TEXT Ikumi: "Aaa...espere!　Haruka!!!"
 STOP_SOUND 01 
-TEXT As I called out for her to stop, I began to move my hips, rubbing my crotch against Haruka's face.
+TEXT Enquanto gritava pra ela parar, comecei a mover meus quadris, esfregando minha virilha no rosto de Haruka.
 PLAY_SOUND 01 'e08_iku080' 00 
 TEXT Ikumi: "Fuaaaaa...!!!"
 STOP_SOUND 01 
-TEXT I broke through something.
-TEXT I'd reached a climax.
-TEXT My head went white.
-TEXT And I fell over.
+TEXT Eu quebrei alguma coisa.
+TEXT Eu alcancei um cl&max.
+TEXT Minha cabe|a ficou branca.
+TEXT E eu ca&.
 BACKGROUND 'CGDP01' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd08' 01 
 PLAY_SOUND 01 'e08_dop027' 00 
-TEXT "...did that feel good?"
+TEXT "...foi bom pra voc[?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku081' 00 
-TEXT Eh...?
+TEXT H~...?
 STOP_SOUND 01 
-TEXT I lost all strength while crouching down indecently on a chair.
-TEXT I couldn't grasp the situation at all...
+TEXT Perdi todas as for|as enquanto me agachava indecentemente em uma cadeira.
+TEXT Eu n~o conseguia entender a situa|~o...
 PLAY_SOUND 01 'e08_dop028' 00 
-TEXT "...I don't know what kind of delusion you were having, but haven't you been doing it with that chair this entire time?"
+TEXT "...N~o sei que tipo de ilus~o estava tendo, mas voc[ n~o fez isso com aquela cadeira esse tempo todo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku082' 00 
-TEXT No...
+TEXT N~o...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop029' 00 
-TEXT "...you've been gasping like mad and rubbing your crotch against that chair."
+TEXT "...voc[ estava ofegante como uma louca e esfregando a virilha naquela cadeira."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku083' 00 
-TEXT That...that's...
+TEXT Isso... isso %...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku084' 00 
-TEXT That's...could I have been......doing something so shameful while being watched......?
+TEXT Isso... eu poderia estar... fazendo algo t~o vergonhoso enquanto era observada...?
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop030' 00 
-TEXT "...I've lost hope in you."
+TEXT "...Perdi a esperan|a em voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku085' 00 
 TEXT ku......
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop031' 00 
-TEXT "...I'll despise you from the bottom of your heart."
+TEXT "...Eu vou te desprezar do fundo do seu cora|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku086' 00 
 TEXT Uu...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop032' 00 
-TEXT "...hurry up and vanish."
+TEXT "... se apresse e desapare|a."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop033' 00 
-TEXT "...you're an eyesore."
+TEXT "... voc[ % uma aberra|~o."
 STOP_SOUND 01 
 X_0C 0014 0001 
 RETURN 
 JMP .LABEL4 
 
 :LABEL3
-TEXT But...
-TEXT Doing this is wrong...
-TEXT However much Haruka may love me......and however hard she may have worked for me...
-TEXT I couldn't let her go any farther.
+TEXT Mas...
+TEXT Fazer isso % errado...
+TEXT Por mais que Haruka me ame... e por mais que ela tenha trabalhado por mim...
+TEXT Eu n~o poderia deix$-la ir mais longe.
 PLAY_SOUND 01 'e08_iku087' 00 
-TEXT Ikumi: "Thank you, Haruka..."
+TEXT Ikumi: "Obrigada, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku088' 00 
-TEXT Ikumi: "Let's stop before-..."
+TEXT Ikumi: "Vamos parar antes-..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har075' 00 
-TEXT Haruka: "Why...?"
+TEXT Haruka: "Por que...?"
 STOP_SOUND 01 
-TEXT Haruka asked sadly.
+TEXT Haruka perguntou tristemente.
 PLAY_SOUND 01 '016_har076' 00 
-TEXT Haruka: "Even though I love Ikumi so much..."
+TEXT Haruka: "Mesmo que eu ame tanto Ikumi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har077' 00 
-TEXT Haruka: "Don't you love me, Ikumi...?"
+TEXT Haruka: "Voc[ n~o me ama, Ikumi...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har078' 00 
-TEXT Haruka: "Didn't you like me?"
+TEXT Haruka: "Voc[ n~o gosta de mim?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku089' 00 
-TEXT Ikumi: "I liked you......but not in that way..."
+TEXT Ikumi: "Eu gosto de voc[... mas n~o desse jeito..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har079' 00 
-TEXT Haruka: "There's no other way!"
+TEXT Haruka: "N~o existe outro jeito!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har080' 00 
-TEXT Haruka: "If you like me, you like me, that's it!"
+TEXT Haruka: "Se voc[ gosta de mim, voc[ gosta de mim, % isso!"
 STOP_SOUND 01 
-TEXT Haruka once more put my breasts into her mouth.
+TEXT Haruka mais uma vez colocou meus seios em sua boca.
 PLAY_SOUND 01 'e08_iku090' 00 
-TEXT Ikumi: "Aaa......hey, Haruka, let's stop this already..."
+TEXT Ikumi: "Aaa...... ei, Haruka, vamos parar com isso j$..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har081' 00 
-TEXT Haruka: "Ngu, *chuba*......no, I'll keep on doing this."
+TEXT Haruka: "Ngu, *chu*...... n~o, vou continuar fazendo isso."
 STOP_SOUND 01 
-TEXT She began to fondle my other breast with her free hand.
-TEXT Covered in Haruka's own saliva, it changed the shape of my breast pleasingly.
+TEXT Ela come|ou a acariciar meu outro seio com a m~o livre.
+TEXT Coberto com a pr+pria saliva de Haruka, ela mudou agradavelmente o formato do meu seio.
 PLAY_SOUND 01 'e08_iku091' 00 
-TEXT Ikumi: (That feels good...）
+TEXT Ikumi: (Isso % bom...）
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku092' 00 
-TEXT Ikumi: (But...I never liked her to the point where I wanted to do this...）
+TEXT Ikumi: (Mas... eu nunca gostei dela a ponto de querer fazer isso...)
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku093' 00 
-TEXT Ikumi: "Haruka. Come on, please stop licking me. You can suck hard one last time if you want."
+TEXT Ikumi: "Haruka. Vamos, por favor, pare de me lamber. Voc[ pode chupar forte uma ^ltima vez, se quiser."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har082' 00 
-TEXT Haruka: "I don't want to..."
+TEXT Haruka: "Eu n~o quero..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku094' 00 
-TEXT Ikumi: "But, even if you say that..."
+TEXT Ikumi: "Mas, mesmo que voc[ diga isso..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har083' 00 
-TEXT Haruka: "Ikumi must really hate me."
+TEXT Haruka: "Ikumi deve realmente me odiar."
 STOP_SOUND 01 
-TEXT Haruka looked up at me accusingly.
+TEXT Haruka olhou para mim acusadoramente.
 PLAY_SOUND 01 '016_har084' 00 
-TEXT Haruka: "You're thinking I'm abnormal."
+TEXT Haruka: "Voc[ est$ pensando que sou anormal."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har085' 00 
-TEXT Haruka: "You were fed up with me...and you've been despising me."
+TEXT Haruka: "Voc[ estava farta de mim...\nE estava me desprezando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har086' 00 
-TEXT Haruka: "Isn't that true!!?"
+TEXT Haruka: "N~o % verdade!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku095' 00 
-TEXT Ikumi: "No......that's not-..."
+TEXT Ikumi: "N~o... isso n~o %..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku096' 00 
-TEXT Ikumi: "I like you...Haruka..."
+TEXT Ikumi: "Eu gosto de voc[...Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har087' 00 
-TEXT Haruka: "Liar!!　You hate me!!"
+TEXT Haruka: "Mentirosa!!　Voc[ me odeia!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har088' 00 
-TEXT Haruka: "You always hated me!!!"
+TEXT Haruka: "Voc[ sempre me odiou!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku097' 00 
-TEXT Ikumi: "That's not it, Haruka!!"
+TEXT Ikumi: "N~o % isso, Haruka!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har089' 00 
-TEXT Haruka: "I don't want to hear it!!　You always hated me!!!"
+TEXT Haruka: "Eu n~o quero ouvir isso!!\nVoc[ sempre me odiou!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku098' 00 
-TEXT Ikumi: "No, listen to me!!"
+TEXT Ikumi: "N~o, me escute!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku099' 00 
-TEXT Ikumi: "The one I always hated..."
+TEXT Ikumi: "Aquela que sempre odiei..."
 STOP_SOUND 01 
 BACKGROUND 'CGDP01' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 'e08_iku100' 00 
-TEXT Was myself...
+TEXT Foi eu mesma...
 STOP_SOUND 01 
 PLAY_SOUND 00 'mon_cd08' 01 
 PLAY_SOUND 01 'e08_dop034' 00 
-TEXT "...meaning me."
+TEXT "...referindo-se a mim."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku101' 00 
-TEXT Yes.
+TEXT Sim.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku102' 00 
-TEXT You.
+TEXT Voc[.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku103' 00 
-TEXT Meaning us.
+TEXT Significa n+s.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku104' 00 
-TEXT I had that feeling the first time we met.
+TEXT Tive essa sensa|~o na primeira vez que nos conhecemos.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku105' 00 
-TEXT That you're me.
+TEXT Que voc[ sou eu.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku106' 00 
-TEXT I hate you.
+TEXT Te odeio.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku107' 00 
-TEXT And I hate me.
+TEXT E eu me odeio.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop035' 00 
-TEXT "...even though you were in love with yourself...?"
+TEXT "...mesmo que voc[ estivesse apaixonada por si mesma...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop036' 00 
-TEXT "...even though you loved yourself to death...?"
+TEXT "...mesmo que voc[ se amasse at% a morte...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku108' 00 
-TEXT Yes. I hate me.
+TEXT Sim. Eu me odeio.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku109' 00 
-TEXT But those are all my past selves.
+TEXT Mas esses s~o todos os meus eus passados.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku110' 00 
-TEXT In other words, us, including me.
+TEXT Em outras palavras, n+s, inclusive eu.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku111' 00 
-TEXT But from now on......from now on I'll...
+TEXT Mas de agora em diante... de agora em diante eu vou...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku112' 00 
-TEXT I want to live on so that I can love myself.
+TEXT Quero viver para poder me amar.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop037' 00 
-TEXT "...yes."
+TEXT "...sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop038' 00 
-TEXT "...but with words you can say anything."
+TEXT "...mas com palavras voc[ pode dizer qualquer coisa."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku113' 00 
-TEXT I understand.
+TEXT Eu entendo.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku114' 00 
-TEXT I have to do it myself...
+TEXT Eu tenho que fazer isso sozinha...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop039' 00 
-TEXT "...yes. Or else we'll be eternally unrequited."
+TEXT "...sim. Ou ent~o seremos eternamente n~o correspondidas."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop040' 00 
-TEXT "...if you've accepted it, this is the beginning."
+TEXT "...se voc[ aceitou, este % o come|o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop041' 00 
-TEXT "...the beginning of a long, endless journey."
+TEXT "...o in&cio de uma longa e intermin$vel jornada."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop042' 00 
-TEXT "...you can do it."
+TEXT "...voc[ consegue."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku115' 00 
-TEXT I feel like I can.
+TEXT Eu sinto que posso.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop043' 00 
-TEXT "...why don't we test that will with these hands?"
+TEXT "...por que n~o testamos essa vontade com essas m~os?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku116' 00 
-TEXT Yes.
+TEXT Sim.
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop044' 00 
-TEXT "...but the time for that is near."
+TEXT "...mas o momento para isso est$ pr+ximo."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop045' 00 
-TEXT "...since things seem quite panicky on the outside."
+TEXT "...j$ que as coisas parecem bastante apavorantes do lado de fora."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku117' 00 
 TEXT .........
 PLAY_SOUND 01 'e08_dop046' 00 
-TEXT "...see you next time."
+TEXT "... at% a pr+xima."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop047' 00 
-TEXT "...now, farewell."
+TEXT "...agora, adeus."
 STOP_SOUND 01 
 TEXT .........
 X_04 007D 0001 
@@ -955,45 +955,45 @@ RETURN
 JMP .LABEL5 
 
 :LABEL2
-TEXT Yes...because I loved Haruka too.
-TEXT I felt that the moment we met.
-TEXT That it'd be nice for us to be like this.
-TEXT And now that's becoming reality.
+TEXT Sim... porque eu tamb%m amava Haruka.
+TEXT Eu senti isso no momento em que nos conhecemos.
+TEXT Que seria bom para n+s sermos assim.
+TEXT E agora isso est$ se tornando realidade.
 TEXT Haruka...
-TEXT I put my tongue inside her mouth as well.
+TEXT Coloquei minha l&ngua dentro de sua boca tamb%m.
 PLAY_SOUND 01 '016_har059' 00 
 TEXT Haruka: "Nn...nn..."
 STOP_SOUND 01 
-TEXT And Haruka immediately began sucking on it.
-TEXT All the saliva built up on it was sucked away down her throat.
-TEXT Haruka desperately wanted me.
-TEXT She loved me so much.
-TEXT *chuba*...
-TEXT Haruka finally released my mouth.
-TEXT When I started breathing again, I could smell Haruka's saliva under my nose.
-TEXT But that wasn't an unpleasant smell.
+TEXT E Haruka imediatamente come|ou a chup$-la.
+TEXT Toda a saliva acumulada foi sugada pela garganta dela.
+TEXT Haruka me queria desesperadamente.
+TEXT Ela me amava muito.
+TEXT *Chu*...
+TEXT Haruka finalmente soltou minha boca.
+TEXT Quando comecei a respirar novamente, pude sentir o cheiro da saliva de Haruka embaixo do meu nariz.
+TEXT Mas n~o era um cheiro desagrad$vel.
 PLAY_SOUND 01 '016_har060' 00 
 TEXT Haruka: "Ikumi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku049' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
-TEXT Then we looked at each other for a while.
-TEXT Haruka's flushed cheeks looked somehow cute.
+TEXT Ent~o nos entreolhamos por um tempo.
+TEXT As bochechas coradas de Haruka pareciam fofas.
 PLAY_SOUND 01 'e08_iku050' 00 
-TEXT Ikumi: "Will you...lick my breasts?"
+TEXT Ikumi: "Voc[ quer... lamber meus seios?"
 STOP_SOUND 01 
-TEXT The words came out naturally.
+TEXT As palavras sa&ram naturalmente.
 PLAY_SOUND 01 '016_har061' 00 
-TEXT Haruka: "Yes..."
+TEXT Haruka: "Sim..."
 STOP_SOUND 01 
-TEXT Haruka nodded.
+TEXT Haruka assentiu.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT I opened up my shirt, exposing both breasts.
+TEXT Abri minha camisa, expondo ambos os seios.
 PLAY_SOUND 01 'e08_iku051' 00 
-TEXT Ikumi: "Go ahead."
+TEXT Ikumi: "V$ em frente."
 STOP_SOUND 01 
 BACKGROUND 'FG114' 
 X_24 00 
@@ -1001,58 +1001,58 @@ X_25 06
 PLAY_SOUND 01 '016_har062' 00 
 TEXT Haruka: "Nn..."
 STOP_SOUND 01 
-TEXT She began to enjoy the flavor of my chest.
-TEXT Then she moved her lips to the tip of one of my breasts and squeezed on it.
+TEXT Ela come|ou a apreciar o sabor do meu peito.
+TEXT Ent~o ela moveu os l$bios at% a ponta de um dos meus seios e apertou.
 PLAY_SOUND 01 'e08_iku052' 00 
 TEXT Ikumi: "Nnn..."
 STOP_SOUND 01 
-TEXT I groaned without thinking.
-TEXT And that tip was now covered in a layer of warm moisture.
-TEXT Haruka had started to cover me with saliva.
-TEXT Just the tip was now buried in warmth.
-TEXT Then Haruka sucked that saliva off of my nipple and drank it back down.
-TEXT She was trying to give her saliva the flavor of my nipple so she could taste it.
-TEXT After that, as if her hoop had come off, she began to lick all over my chest.
+TEXT Eu gemi sem pensar.
+TEXT E essa ponta agora estava coberta por uma camada de umidade quente.
+TEXT Haruka come|ou a me cobrir com saliva.
+TEXT Apenas a ponta estava agora enterrada no calor.
+TEXT Ent~o Haruka sugou a saliva do meu mamilo e bebeu de volta.
+TEXT Ela estava tentando dar # sua saliva o sabor do meu mamilo para que ela pudesse prov$-lo.
+TEXT Depois disso, como se toda a conten|~o tivesse sido removida, ela come|ou a lamber todo o meu peito.
 PLAY_SOUND 01 '016_har063' 00 
-TEXT Haruka: "Nn...Ikumi......Ikumi's breasts are delicious..."
+TEXT Haruka: "Nn...Ikumi......Os seios da Ikumi s~o deliciosos..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku053' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
-TEXT She sucked on my nipple like a piece of hard candy, taking it in and out of her mouth.
-TEXT That tip was fully engorged with blood, and wouldn't get any harder.
-TEXT Now that it was wet with Haruka's saliva, it had a truly perverted texture.
-TEXT *rero*
-TEXT Haruka continued licking it, and it moved around in response.
+TEXT Ela chupou meu mamilo como um peda|o de doce duro, colocando-o e tirando-o da boca.
+TEXT Essa ponta estava totalmente cheia de sangue e n~o ficaria mais dura.
+TEXT Agora que estava molhado com a saliva de Haruka, tinha uma textura verdadeiramente pervertida.
+TEXT *Chu*
+TEXT Haruka continuou lambendo e ele se moveu em resposta.
 PLAY_SOUND 01 'e08_iku054' 00 
 TEXT Ikumi: "Haau..."
 STOP_SOUND 01 
-TEXT I was especially sensitive there.
+TEXT Eu era especialmente sens&vel l$.
 PLAY_SOUND 01 'e08_iku055' 00 
 TEXT Ikumi: "Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har064' 00 
-TEXT Haruka: "What...?"
+TEXT Haruka: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku056' 00 
-TEXT Ikumi: "Pi-...pinch...my nipple..."
+TEXT Ikumi: "B-... Belisque... meu mamilo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har065' 00 
-TEXT Haruka: "Like this...?"
+TEXT Haruka: "Assim...?"
 STOP_SOUND 01 
-TEXT Haruka grabbed the tip of my wet and shining breast with her thumb and index finger.
+TEXT Haruka agarrou a ponta do meu seio molhado e brilhante com o polegar e o indicador.
 PLAY_SOUND 01 'e08_iku057' 00 
 TEXT Ikumi: "Ah...haaa...!"
 STOP_SOUND 01 
-TEXT My body quivered.
+TEXT Meu corpo estremeceu.
 PLAY_SOUND 01 'e08_iku058' 00 
-TEXT Ikumi: "More...harder......as if crushing it..."
+TEXT Ikumi: "Mais... mais forte... como se estivesse esmagando..."
 STOP_SOUND 01 
-TEXT It was grabbed even harder.
+TEXT Foi agarrado com ainda mais for|a.
 PLAY_SOUND 01 'e08_iku059' 00 
 TEXT Ikumi: "Ahau...!"
 STOP_SOUND 01 
-TEXT As Haruka did that, she also moved to my other breast and began tasting it.
+TEXT Enquanto Haruka fazia isso, ela tamb%m passou para o meu outro seio e come|ou a prov$-lo.
 PLAY_SOUND 01 '016_har066' 00 
 TEXT Haruka: "Nn...nnn..."
 STOP_SOUND 01 
@@ -1060,128 +1060,128 @@ PLAY_SOUND 01 'e08_iku060' 00
 TEXT Ikumi: "Ahh...Haruka..."
 STOP_SOUND 01 
 TEXT Haruka...Haruka...
-TEXT Brave Haruka...
-TEXT Haruka, who loves me...
-TEXT Haruka, whom I love...
-TEXT We were in love with each other.
-TEXT So I would let her do anything.
+TEXT Haruka dedicada...
+TEXT Haruka, que me ama...
+TEXT Haruka, a quem eu amo...
+TEXT Est$vamos apaixonados uma pela outra.
+TEXT Ent~o eu a deixaria fazer qualquer coisa.
 PLAY_SOUND 01 'e08_iku061' 00 
-TEXT Ikumi: "Hey, Haruka..."
+TEXT Ikumi: "Ei, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har067' 00 
-TEXT Haruka: "What...?"
+TEXT Haruka: "O que...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku062' 00 
-TEXT Ikumi: "You can lick me...down there too."
+TEXT Ikumi: "Voc[ quer me lamber... aqui embaixo tamb%m."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har068' 00 
-TEXT Haruka: "Really...?"
+TEXT Haruka: "S%rio...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku063' 00 
-TEXT Ikumi: "Yeah......don't you want to?"
+TEXT Ikumi: "Sim...... voc[ n~o quer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har069' 00 
-TEXT Haruka: "Yes, I want to."
+TEXT Haruka: "Sim, eu quero."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku064' 00 
-TEXT Ikumi: "Then..."
+TEXT Ikumi: "Ent~o..."
 STOP_SOUND 01 
-TEXT I put one hand inside my skirt and lowered my underwear.
+TEXT Coloquei uma m~o dentro da saia e baixei a calcinha.
 PLAY_SOUND 01 'e08_iku065' 00 
-TEXT Ikumi: "...here you go."
+TEXT Ikumi: "...Vem aqui."
 STOP_SOUND 01 
-TEXT Then I held up my skirt.
+TEXT Ent~o levantei minha saia.
 BACKGROUND 'FG115' 
 X_24 00 
 X_25 06 
 X_3C 0A 01 
-TEXT Haruka buried her face in my private parts.
-TEXT I heard an odd noise for a moment.
-TEXT Then I realized she was sniffing.
+TEXT Haruka enterrou o rosto nas minhas partes &ntimas.
+TEXT Ouvi um barulho estranho por um momento.
+TEXT Ent~o percebi que ela estava me cheirando.
 PLAY_SOUND 01 'e08_iku066' 00 
-TEXT Ikumi: "That's embarassing, Haruka..."
+TEXT Ikumi: "Isso % constrangedor, Haruka..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har070' 00 
-TEXT Haruka: "It's fine, this smells good, really good."
+TEXT Haruka: "Est$ tudo bem, voc[ % muito cheirosa, demais."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku067' 00 
-TEXT Ikumi: "Really...?"
+TEXT Ikumi: "S%rio...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '016_har071' 00 
-TEXT Haruka: "Really. It smells great. Now I really want to lick it."
+TEXT Haruka: "S%rio. Cheira muito bem. Agora eu realmente quero te lamber."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku068' 00 
-TEXT Ikumi: "Yes...lick it..."
+TEXT Ikumi: "Sim... pode lamber..."
 STOP_SOUND 01 
 TEXT *nuru*
 PLAY_SOUND 01 'e08_iku069' 00 
 TEXT Ikumi: "Nn..."
 STOP_SOUND 01 
-TEXT Haruka's tongue crawled over my sensitive parts.
+TEXT A l&ngua de Haruka rastejou pelas minhas partes sens&veis.
 PLAY_SOUND 01 '016_har072' 00 
-TEXT Haruka: "Ikumi...you're delicious..."
+TEXT Haruka: "Ikumi... voc[ % uma del&cia..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku070' 00 
-TEXT Ikumi: "I am...?"
+TEXT Ikumi: "Sou...?"
 STOP_SOUND 01 
-TEXT I was happy to hear that.
-TEXT I crouched further down to make it easier for Haruka to lick me.
-TEXT Haruka's mouth was now deep inside my crotch.
-TEXT It was so bold even I was surprised.
+TEXT Fiquei feliz em ouvir isso.
+TEXT Agachei-me ainda mais para tornar mais f$cil para Haruka me lamber.
+TEXT A boca de Haruka estava agora profundamente dentro da minha virilha.
+TEXT Foi t~o ousado que at% fiquei surpreso.
 PLAY_SOUND 01 '016_har073' 00 
 TEXT Haruka: "Nn...nn..."
 STOP_SOUND 01 
-TEXT Haruka moved her tongue inside, licking all of my private parts.
+TEXT Haruka moveu a l&ngua para dentro, lambendo todas as minhas partes &ntimas.
 PLAY_SOUND 01 'e08_iku071' 00 
 TEXT Ikumi: "Nnaaa..."
 STOP_SOUND 01 
-TEXT Amazing...
-TEXT My insides were being heated up and moved around...
+TEXT Incr&vel...
+TEXT Minhas entranhas estavam sendo aquecidas e movimentadas...
 PLAY_SOUND 01 'e08_iku072' 00 
-TEXT Ikumi: "It...it feels good...Haruka..."
+TEXT Ikumi: "%... % bom... Haruka..."
 STOP_SOUND 01 
-TEXT I could feel my obscene fluid flowing out with no end.
+TEXT Eu podia sentir meu fluido obsceno jorrando sem fim.
 PLAY_SOUND 01 '016_har074' 00 
 TEXT Haruka: "Ngu...ngu..."
 STOP_SOUND 01 
-TEXT Haruka continued to drink it, as it mixed with her own saliva.
+TEXT Haruka continuou a beber, misturando-se com sua pr+pria saliva.
 PLAY_SOUND 01 'e08_iku073' 00 
 TEXT Ikumi: "Nna...!"
 STOP_SOUND 01 
-TEXT Then Haruka's tongue found my most sensitive protrusion.
-TEXT I was vulnerable there.
-TEXT Haruka moved it around with her tongue as if it were her own.
+TEXT Ent~o a l&ngua de Haruka encontrou minha protuber}ncia mais sens&vel.
+TEXT Eu estava vulner$vel l$.
+TEXT Haruka colocou a l&ngua l$ e mexeu livremente.
 PLAY_SOUND 01 'e08_iku074' 00 
 TEXT Ikumi: "Haau......!"
 STOP_SOUND 01 
-TEXT I couldn't go on without moaning.
+TEXT Eu n~o poderia continuar sem gemer.
 PLAY_SOUND 01 'e08_iku075' 00 
-TEXT Ikumi: "Move it around......in little circles..."
+TEXT Ikumi: "Mova em volta... em pequenos c&rculos..."
 STOP_SOUND 01 
-TEXT Haruka licked it around in circles.
+TEXT Haruka lambeu em c&rculos.
 PLAY_SOUND 01 'e08_iku076' 00 
-TEXT Ikumi: "Haa...yes...!"
+TEXT Ikumi: "Haa...isso...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku077' 00 
-TEXT Ikumi: "Now lick it up from the base, pushing it all the way in..."
+TEXT Ikumi: "Agora lamba desde a base, empurrando tudo pra dentro..."
 STOP_SOUND 01 
-TEXT Haruka licked it up from the base, as if to push it down inside me.
+TEXT Haruka lambeu desde a base, como se quisesse empurrar tudo pra dentro de mim.
 PLAY_SOUND 01 'e08_iku078' 00 
 TEXT Ikumi: "Nnaa..."
 STOP_SOUND 01 
-TEXT It felt so good my legs began to quiver underneath my body weight.
-TEXT If this went on any longer I might fall onto Haruka.
-TEXT But Haruka's tongue knew no rest.
+TEXT Foi t~o bom que minhas pernas come|aram a tremer sob o peso do meu corpo.
+TEXT Se isso continuasse, eu poderia cair em cima de Haruka.
+TEXT Mas a l&ngua de Haruka n~o conhecia descanso.
 PLAY_SOUND 01 'e08_iku079' 00 
-TEXT Ikumi: "Aaa...wait!　Haruka!!!"
+TEXT Ikumi: "Aaa... espere!　Haruka!!!"
 STOP_SOUND 01 
-TEXT As I called out for her to stop, I began to move my hips, rubbing my crotch against Haruka's face.
+TEXT Enquanto gritava pra ela parar, comecei a mover meus quadris, esfregando minha virilha no rosto de Haruka.
 PLAY_SOUND 01 'e08_iku118' 00 
 TEXT Ikumi: "Aaaa...!!!"
 STOP_SOUND 01 
-TEXT I didn't stop.
-TEXT *guchu*...*guchuu*...!
-TEXT I rubbed my hips against Haruka's face so hard it made a sound.
+TEXT Eu n~o parei.
+TEXT *Tchu*...*Tchuu*...!
+TEXT Esfreguei meus quadris no rosto de Haruka com tanta for|a que fiz um som.
 PLAY_SOUND 01 'e08_iku119' 00 
 TEXT Ikumi: "Haruka! Haruka! Harukaaaa!!!"
 STOP_SOUND 01 
@@ -1190,46 +1190,46 @@ X_24 00
 X_25 06 
 PLAY_SOUND 00 'mon_cd08' 01 
 PLAY_SOUND 01 'e08_dop048' 00 
-TEXT "...why are you thrusting your hips there?"
+TEXT "...por que voc[ est$ empurrando seus quadris a&?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku081' 00 
-TEXT Eh...?
+TEXT H~...?
 STOP_SOUND 01 
-TEXT The world darkened.
-TEXT And there I was, thrusting my hips indecently against a chair.
-TEXT I couldn't grasp the situation at all...
+TEXT O mundo escureceu.
+TEXT E l$ estava eu, empurrando meus quadris indecentemente contra uma cadeira.
+TEXT Eu n~o conseguia entender a situa|~o...
 PLAY_SOUND 01 'e08_dop028' 00 
-TEXT "...I don't know what kind of delusion you were having, but haven't you been doing it with that chair this entire time?"
+TEXT "...N~o sei que tipo de ilus~o estava tendo, mas voc[ n~o fez isso com aquela cadeira esse tempo todo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku082' 00 
-TEXT No...
+TEXT N~o...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop029' 00 
-TEXT "...you've been gasping like mad and rubbing your crotch against that chair."
+TEXT "... voc[ est$ ofegante como uma louca e esfregando a virilha naquela cadeira."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku083' 00 
-TEXT That...that's...
+TEXT Isso... isso %...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku084' 00 
-TEXT That's...could I have been......doing something so shameful while being watched......?
+TEXT Isso... eu poderia estar... fazendo algo t~o vergonhoso enquanto era observada...?
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop030' 00 
-TEXT "...I've lost hope in you."
+TEXT "...Perdi a esperan|a em voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku085' 00 
 TEXT ku......
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop031' 00 
-TEXT "...I'll despise you from the bottom of your heart."
+TEXT "...Eu vou te desprezar do fundo do seu cora|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_iku086' 00 
 TEXT Uu...
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop032' 00 
-TEXT "...hurry up and vanish."
+TEXT "... se apresse e desapare|a."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e08_dop033' 00 
-TEXT "...you're an eyesore."
+TEXT "... voc[ % uma aberra|~o."
 STOP_SOUND 01 
 X_0C 0014 0001 
 RETURN 

@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 000F 
-SETSTATUS 'Å@Day 15 Morning Building Ç`' 
+SETSTATUS 'Å@Dia 15 Manh~ Pr%dio Ç`'  
 BACKGROUND 'FG214' 
 X_24 00 
 X_25 06 
@@ -168,7 +168,7 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 '038_boy000' 00 
-TEXT Boy: "Ikumi, it's morning."
+TEXT Garoto: "J$ % de manh~, Ikumi."
 STOP_SOUND 01 
 BACKGROUND 'BG002' 
 X_24 00 
@@ -177,102 +177,102 @@ SPRITE 'CGSY01'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '099_iku000' 00 
-TEXT Ikumi: "......ah."
+TEXT Ikumi: "......Ah."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy001' 00 
-TEXT Boy: "Good morning."
+TEXT Garoto: "Bom dia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku001' 00 
-TEXT Ikumi: "......good morning."
+TEXT Ikumi: "......Bom dia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy002' 00 
-TEXT Boy: "What's wrong?"
+TEXT Garoto: "O que foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku002' 00 
-TEXT Ikumi: "I wasn't able to wake up in time."
+TEXT Ikumi: "N~o consegui acordar a tempo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy003' 00 
-TEXT Boy: "Did you want to wake up earlier for some reason?"
+TEXT Garoto: "Voc[ queria acordar mais cedo por algum motivo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku003' 00 
-TEXT Ikumi: "Not that. I wanted to wake up before you, because I wanted to wake you up for once."
+TEXT Ikumi: "N~o % isso. Eu queria acordar antes de voc[, porque queria te acordar pelo menos uma vez."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy004' 00 
-TEXT Boy: "...what?"
+TEXT Garoto: "...Qu[?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku004' 00 
-TEXT Ikumi: "It doesn't matter."
+TEXT Ikumi: "Deixa pra l$."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy005' 00 
-TEXT Boy: "I see."
+TEXT Garoto: "T$ bom."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy006' 00 
-TEXT Boy: "So what will you do today?"
+TEXT Garoto: "Ent~o, o que vai fazer hoje?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku005' 00 
-TEXT Ikumi: "I'll stay here."
+TEXT Ikumi: "Eu vou ficar aqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy005' 00 
-TEXT Boy: "I see."
+TEXT Garoto: "Entendi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy010' 00 
-TEXT Boy: "That sounds good."
+TEXT Garoto: "Isso vai ser bom."
 STOP_SOUND 01 
 PLAY_SOUND 01 '099_iku006' 00 
-TEXT Ikumi: "Yes, it is good."
+TEXT Ikumi: "Sim, vai ser."
 STOP_SOUND 01 
-TEXT This was the last time we'd get to pretend we were a family.
+TEXT Vai ser a ^ltima vez que fingimos que somos uma fam&lia.
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd07' 01 
-TEXT Simply carefree time.
-TEXT Rolling around the room, talking about ourselves,
-TEXT Laughing a little, being a little unsatisfied,
-TEXT Complaining a little, being bored a little,
-TEXT Then I thought of this time as special,
-TEXT Became slightly more cheerful, said things to annoy him slightly,
-TEXT Had a slight feeling I'd told everything,
-TEXT Becoming slightly prepared to lose everything,
-TEXT Then I badly wanted to hang onto this time,
-TEXT Being quiet for a bit, becoming a bit sad,
-TEXT Reflecting a bit, then I raised my head,
+TEXT Ficamos apenas matando o tempo.
+TEXT Andando pelo quarto, conversando sobre coisas triviais...
+TEXT Ri um pouco, reclamei um pouco...
+TEXT Chorei um pouco, fiquei um pouco entediada...
+TEXT E percebi o quanto esse momento era especial.
+TEXT Fiquei um pouco mais alegre, disse coisas que o irritaram um pouco...
+TEXT Tive uma leve sensa|~o que tinha lhe contado tudo...
+TEXT Me preparando aos poucos para perder tudo.
+TEXT Eu queria muito que esse tempo n~o passasse.
+TEXT Fiquei em sil[ncio por um momento e me senti um pouco triste.
+TEXT Refletindo sobre tudo isso, levantei a cabe|a.
 PLAY_SOUND 01 '099_iku007' 00 
-TEXT Ikumi: "Thank you."
+TEXT Ikumi: "Obrigada."
 STOP_SOUND 01 
-TEXT I said,
+TEXT Eu disse.
 PLAY_SOUND 01 '038_boy011' 00 
-TEXT Boy: "For what?"
+TEXT Garoto: "Pelo qu[?"
 STOP_SOUND 01 
-TEXT He asked,
+TEXT Ele perguntou.
 PLAY_SOUND 01 '099_iku008' 00 
-TEXT Ikumi: "I was able to come this far because of you..."
+TEXT Ikumi: "S+ consegui chegar at% aqui por sua causa..."
 STOP_SOUND 01 
-TEXT I answered,
+TEXT Eu respondi.
 PLAY_SOUND 01 '038_boy012' 00 
-TEXT Boy: "I see."
+TEXT Garoto: "Entendi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_boy013' 00 
-TEXT Boy: "I'm happy to hear that..."
+TEXT Garoto: "Fico feliz em ouvir isso, mas..."
 STOP_SOUND 01 
-TEXT He said sorrowfully,
+TEXT Ele disse melancolicamente.
 PLAY_SOUND 01 'se27' 00 
-TEXT *gachan!*
-TEXT The door opened,
-TEXT Three gun-wielding men appeared,
+TEXT *Tum!*
+TEXT A porta se abriu.
+TEXT E tr[s homens armados apareceram.
 PLAY_SOUND 01 '005_bt2000' 00 
-TEXT Man: "......come with us. Don't resist."
+TEXT Homem: "......Venha conosco. N~o resista."
 STOP_SOUND 01 
-TEXT He warned,
-TEXT The boy silently nodded,
-TEXT I realized we were truly being separated,
+TEXT Ele avisou.
+TEXT O garoto assentiu silenciosamente.
+TEXT Entendi que aquilo era realmente um adeus...
 X_24 00 
 BACKGROUND 'WO' 
 X_25 06 
 X_24 00 
 BACKGROUND 'BO' 
 X_25 06 
-TEXT and I cried.
+TEXT E chorei.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
@@ -289,23 +289,23 @@ BACKGROUND 'FG073'
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'se71' 01 
-TEXT *kachaan*...
+TEXT *Tap tap...*
 TEXT .........
-TEXT Footsteps...
-TEXT The first sound I'd heard in a while...
-TEXT *kachaan*...
+TEXT Passos...
+TEXT Um som que n~o ou|o h$ algum tempo...
+TEXT *Tum*...
 TEXT .........
-TEXT They're getting closer.
+TEXT Chegando mais perto.
 TEXT .........
-TEXT *kachaan*...
-TEXT They're getting closer.
+TEXT *Tum*...
+TEXT Cada vez mais perto.
 TEXT .........
-TEXT *kachaan*
+TEXT *Tum*
 STOP_SOUND 01 
 TEXT .........
-TEXT They stopped.
+TEXT Pararam.
 PLAY_SOUND 01 '004_tak000' 00 
-TEXT Voice: "Are you prepared to die?"
+TEXT Voz: "Preparada para morrer?"
 STOP_SOUND 01 
 BACKGROUND 'FG074' 
 X_24 00 
@@ -314,31 +314,31 @@ PLAY_SOUND 00 'mon_cd12' 01
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak001' 00 
-TEXT Takatsuki: "I guess not."
+TEXT Takatsuki: "Pelo visto n~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak002' 00 
-TEXT Takatsuki: "...are you afraid?"
+TEXT Takatsuki: "...Est$ com medo?"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak003' 00 
-TEXT Takatsuki: "Won't you beg me for your life?"
+TEXT Takatsuki: "Voc[ n~o vai implorar por sua vida?"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak004' 00 
-TEXT Takatsuki: "You can beg. I might save you, you know."
+TEXT Takatsuki: "Se implorar posso at% te salvar, sabe..."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak005' 00 
-TEXT Takatsuki: "What's wrong, won't you beg for your life?"
+TEXT Takatsuki: "Qual %? Voc[ n~o vai implorar mesmo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak006' 00 
-TEXT Takatsuki: "By licking my cock while saying 'please save me' or something?"
+TEXT Takatsuki: "Lambendo meu pau enquanto diz: 'Por favor, me ajude'."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak007' 00 
-TEXT Takatsuki: "Maybe by moving your hips frantically in the cowgirl position while saying 'please save me'?"
+TEXT Takatsuki: "Talvez cavalgando com for|a enquanto diz: 'Por favor, me salve'."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
@@ -351,141 +351,141 @@ PLAY_SOUND 01 '004_tak009' 00
 TEXT Takatsuki: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak010' 00 
-TEXT Takatsuki: "...ka, you've got some nerve."
+TEXT Takatsuki: "...Tsk, voc[ % corajosa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak011' 00 
-TEXT Takatsuki: "Or perhaps you finally noticed it's useless to try anything?"
+TEXT Takatsuki: "Ou j$ percebeu que n~o adianta tentar mais nada?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak012' 00 
-TEXT Takatsuki: "Well, it was inevitable."
+TEXT Takatsuki: "Bem, isso % inevit$vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak013' 00 
-TEXT Takatsuki: "The next time your mind is Lost, that'll be your end."
+TEXT Takatsuki: "Da pr+xima vez que voc[ perder a cabe|a ser$ seu fim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak014' 00 
-TEXT Takatsuki: "Judging by your cycles so far you won't be here next morning. Be sure to spend your last hours on earth well."
+TEXT Takatsuki: "Considerando seu ciclo, voc[ n~o dura at% de manh~. @ melhor aproveitar bem o pouco tempo que te resta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak015' 00 
-TEXT Takatsuki: "Or will you spend them hating him?"
+TEXT Takatsuki: "Ou prefere gastar isso odiando ele?"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak016' 00 
-TEXT Takatsuki: "You do know what he is, right?"
+TEXT Takatsuki: "Voc[ provavelmente j$ sabe o que ele %, certo?"
 STOP_SOUND 01 
-TEXT He......?
-TEXT The boy...?
+TEXT Ele......?
+TEXT O garoto...?
 PLAY_SOUND 01 '004_tak017' 00 
-TEXT Takatsuki: "That he's the root of everything here?"
+TEXT Takatsuki: "Que ele % o culpado por tr$s de tudo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku000' 00 
-TEXT Ikumi: "Eh...?"
+TEXT Ikumi: "Qu[...?"
 STOP_SOUND 01 
-TEXT I looked up to Takatsuki without thinking.
+TEXT Olhei para Takatsuki sem pensar duas vezes.
 PLAY_SOUND 01 '004_tak018' 00 
-TEXT Takatsuki: "Now isn't this something? You actually don't know."
+TEXT Takatsuki: "Olha s+, tivemos uma rea|~o. Ent~o na verdade voc[ n~o sabe."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak019' 00 
-TEXT Takatsuki: "So you became like that without ever knowing."
+TEXT Takatsuki: "E voc[ ficou assim sem nem saber."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak020' 00 
-TEXT Takatsuki: "I see, that makes sense. That's just his style."
+TEXT Takatsuki: "Entendo, faz sentido. Esse % o estilo dele."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak021' 00 
-TEXT Takatsuki: "Then you ought to breathe your last while cursing him."
+TEXT Takatsuki: "Ent~o aproveite e amaldi|oe ele enquanto d$ o seu ^ltimo suspiro."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak022' 00 
-TEXT Takatsuki: "He who planted that within your body."
+TEXT Takatsuki: "Ele plantou aquela coisa dentro do seu corpo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku001' 00 
-TEXT Ikumi: "'That'..."
+TEXT Ikumi: "Qu[...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak023' 00 
-TEXT Takatsuki: "The other consciousness that's making you Lose your mind is his alter ego."
+TEXT Takatsuki: "Estou falando do alter ego dele, a outra consci[ncia que faz voc[ perder a identidade."
 STOP_SOUND 01 
-TEXT Other consciousness...
+TEXT Outra consci[ncia...
 TEXT Alter ego...
-TEXT What...?
-TEXT What does that mean...?
+TEXT O qu[...?
+TEXT O que voc[ quer dizer...
 PLAY_SOUND 01 '004_tak024' 00 
-TEXT Takatsuki: "You can't understand?"
+TEXT Takatsuki: "Voc[ n~o entendeu ainda?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak025' 00 
-TEXT Takatsuki: "You did it with him,"
+TEXT Takatsuki: "Voc[ trepou com ele."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak026' 00 
-TEXT Takatsuki: "And that was when his alter ego was planted in you."
+TEXT Takatsuki: "Foi a& que o alter ego dele foi plantado em voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak027' 00 
-TEXT Takatsuki: "Though he could just do it by force, that guy likes to get at your heart by playing nice for some reason."
+TEXT Takatsuki: "Ele poderia ter feito # for|a, mas esse cara gostou de brincar com seu cora|~o bancando o bonzinho."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak028' 00 
-TEXT Takatsuki: "He must enjoy doing that, but he's not even human."
+TEXT Takatsuki: "Ele deve se divertir fazendo isso... Sendo que nem humano %."
 STOP_SOUND 01 
-TEXT He's not even human...?
-TEXT Who isn't...?
-TEXT That boy...!?
+TEXT Nem humano %...?
+TEXT Quem n~o %...?
+TEXT Aquele garoto...!?
 PLAY_SOUND 01 '004_tak029' 00 
-TEXT Takatsuki: "Ahahaha!! That guy's no human at all!!"
+TEXT Takatsuki: "Ahahaha!! Aquele miser$vel nem humano %!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak030' 00 
-TEXT Takatsuki: "You never noticed!!? That he's just been putting on human skin this whole time!!?"
+TEXT Takatsuki: "Voc[ n~o percebeu!? Que aquele cara s+ t$ usando uma carca|a humana!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak031' 00 
-TEXT Takatsuki: "Below that is no human but a completely different creature!!"
+TEXT Takatsuki: "Por baixo daquilo % uma criatura completamente diferente!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak032' 00 
-TEXT Takatsuki: "Do you want to see it!!? You do, don't you!!?"
+TEXT Takatsuki: "Voc[ quer ver!? Aposto que quer ver!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak033' 00 
-TEXT Takatsuki: "Well give it up!! That's not something to be looked at!!"
+TEXT Takatsuki: "Bem, desista!! Aquilo n~o % algo para ser visto!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak034' 00 
-TEXT Takatsuki: "It's a beast so horrifying you'd want to vomit!!"
+TEXT Takatsuki: "@ uma coisa t~o horr&vel que vai te fazer vomitar!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak035' 00 
-TEXT Takatsuki: "Several researchers have done just that!!"
+TEXT Takatsuki: "V$rios pesquisadores fizeram exatamente isso!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak036' 00 
-TEXT Takatsuki: "It's that ghastly!!"
+TEXT Takatsuki: "@ desse n&vel de abomina|~o que estamos falando!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak037' 00 
-TEXT Takatsuki: "Just remembering it makes me feel like vomiting!!"
+TEXT Takatsuki: "Nossa, s+ de lembrar isso me d$ n$useas!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak038' 00 
-TEXT Takatsuki: "Ahahaha!! You've been spending all this time with that monster!!"
+TEXT Takatsuki: "Ahahaha!! E voc[ passou todo esse tempo com aquele monstro!!"
 STOP_SOUND 01 
-TEXT No way...
-TEXT It couldn't...
+TEXT Sem chance...
+TEXT N~o pode ser...
 PLAY_SOUND 01 '100_iku002' 00 
-TEXT Ikumi: "Lies..."
+TEXT Ikumi: "@ mentira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak039' 00 
-TEXT Takatsuki: "Are you stupid? Why would I bother lying to someone who's about to die!?"
+TEXT Takatsuki: "T$ doida!? Por que eu ia mentir pra algu%m que t$ com o p% na cova!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku003' 00 
-TEXT Ikumi: "He's no monster..."
+TEXT Ikumi: "Ele n~o % esse tipo de monstro..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku004' 00 
-TEXT Ikumi: "He's human..."
+TEXT Ikumi: "Ele % humano..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku005' 00 
-TEXT Ikumi: "A much better human than most!!"
+TEXT Ikumi: "Muito mais humano que a maioria de voc[s!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak040' 00 
-TEXT Takatsuki: "Now this is just perfect!!"
+TEXT Takatsuki: "Essa foi de foder!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak041' 00 
-TEXT Takatsuki: "If you're going that far to defend him then I have no choice but to bow down to his womanizing talents!!"
+TEXT Takatsuki: "Se voc[ t$ indo t~o longe pra defender ele, n~o tenho escolha a n~o ser me curvar diante do talento daquele mulherengo!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '100_iku006' 00 
-TEXT Ikumi: "That's a lie..."
+TEXT Ikumi: "Isso % mentira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak042' 00 
-TEXT Takatsuki: "Ahahahaha!! Aren't you a decisive one!?"
+TEXT Takatsuki: "Ahahahaha!! Aceita que d+i menos!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak043' 00 
-TEXT Takatsuki: "Why don't you spend your final hour cursing that demon!?"
+TEXT Takatsuki: "Fa|a um bom proveito dos seus ^ltimos momentos amaldi|oando aquele dem{nio!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak044' 00 
 TEXT Takatsuki: "Ahahahahahaha!!"
@@ -502,29 +502,29 @@ X_24 00
 X_25 06 
 PLAY_SOUND 00 'mon_cd04' 01 
 TEXT .........
-TEXT So that's......that's what it was...
-TEXT That invisible strength so many humans wanted, wasn't a human power to begin with.
-TEXT And what went on here was the implanting of an inhuman superpower into humans.
-TEXT But why?
-TEXT Just to make better than ordinary humans?
-TEXT Is there some other objective?
-TEXT That wasn't really a problem.
-TEXT Because this is my personal battle.
-TEXT Yes, the important truths are that the boy isn't human, and that he's the source of the invisible strength.
-TEXT The truth is nearby.
-TEXT He was talking about himself.
-TEXT The truth is already within you.
-TEXT He was talking about his own alter ego planted within me.
-TEXT He was the most fitting target for my revenge.
-TEXT It was his inhuman alter ego which devoured and killed okaa-san.
-TEXT And then what killed Haruka......was him inside me...
-TEXT In order to plant that within me, he manipulated my emotions...
-TEXT He deceived me flawlessly......and I let him...
-TEXT I enjoyed pretending to be a family with him...
-TEXT Having fun all on my own...
-TEXT How...how stupid could I have been...
-TEXT In the end I was just used for another experiment...
-TEXT How vexing...
+TEXT Ent~o... Ent~o era isso...
+TEXT Aquela for|a invis&vel que os humanos tanto desejavam era, na verdade, o poder de algo que n~o % humano.
+TEXT E o que est~o fazendo aqui... % implantar a habilidade especial de algo n~o humano em seres humanos.
+TEXT Com que prop+sito?
+TEXT Eles est~o apenas tentando criar humanos mais evolu&dos?
+TEXT Ou existe algum outro objetivo?
+TEXT Isso n~o importa.
+TEXT Porque essa % a minha luta pessoal.
+TEXT Sim, a verdade % que aquele garoto n~o % humano... e % a pr+pria fonte da for|a invis&vel.
+TEXT Eu estava pr+xima da verdade.
+TEXT Ele estava falando sobre si mesmo.
+TEXT A verdade j$ est$ dentro de voc[.
+TEXT Ele estava falando sobre a parte dele que foi implantada dentro de mim.
+TEXT Ele era o verdadeiro alvo da minha vingan|a.
+TEXT Foi seu alter ego desumano que destruiu e matou minha m~e.
+TEXT E quem matou a Haruka... foi a parte dele dentro de mim...
+TEXT Ele manipulou minhas emo|/es para implantar isso dentro de mim...
+TEXT Ele me enganou direitinho... e eu ca& como uma tonta...
+TEXT Fiquei toda boba brincando de fam&lia com ele...
+TEXT Me empolguei sozinha...
+TEXT Como... pude ser t~o idiota...!?
+TEXT No fim das contas, eu fui s+ uma cobaia...
+TEXT Que +dio...
 TEXT .........
 TEXT ......
 TEXT ...
@@ -533,79 +533,79 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 TEXT .........
-TEXT Did I fall asleep...?
-TEXT How long has it been...?
-TEXT That shiver...his alter ego still hasn't come back...
-TEXT It really should hurry up.
-TEXT I'm tired of thinking.
-TEXT I'm fine with losing.
-TEXT I came here to exact revenge for my okaa-san...
-TEXT But I ended up simply meeting the same end.
-TEXT It's vexing, but that's okay.
-TEXT I'm sick of thinking it's vexing.
-TEXT Just show up already.
-TEXT You should just steal my heart and be done with it.
+TEXT Eu dormi...?
+TEXT Quantas horas se passaram...?
+TEXT Aquele arrepio... aquela coisa ainda n~o voltou...
+TEXT Que apare|a logo de uma vez.
+TEXT Cansei de pensar.
+TEXT Eu n~o me importo de ser uma perdedora.
+TEXT Vim aqui pra vingar a minha m~e...
+TEXT E no fim t{ prestes a ter o mesmo destino que ela.
+TEXT @ vergonhoso, mas que se dane.
+TEXT Cansei de me sentir assim.
+TEXT Ent~o que apare|a logo.
+TEXT Que apare|a e leve a minha sanidade embora.
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 'se17' 00 
-TEXT *gugouuun!!*
-TEXT A distant sound.
-TEXT It doesn't matter anymore.
+TEXT *Ghugouuum!!*
+TEXT Um som distante.
+TEXT Isso n~o importa mais.
 PLAY_SOUND 01 'se22' 00 
-TEXT *zukyuuun!!*
+TEXT *Bang!!*
 PLAY_SOUND 01 'se68' 00 
-TEXT *dugu**dugu*!!
-TEXT Someone's being eliminated again.
+TEXT *Plluuurrghh!!*
+TEXT Est~o eliminando mais algu%m.
 PLAY_SOUND 01 'se22' 00 
-TEXT *zukyuuun!!*
+TEXT *Bang!!*
 PLAY_SOUND 01 'se70' 00 
-TEXT *gishaaaa!!!*
-TEXT No...
-TEXT Ah, that's me.
-TEXT I'm being eliminated.
-TEXT Several bullets pierced my body, and I'm dead now.
-TEXT That's why I'm so calm.
-TEXT Aahh, it hurts.
-TEXT But it was only for a moment.
+TEXT *Grrrshhhhh!!!*
+TEXT N~o...
+TEXT Ah... sou eu.
+TEXT Estou sendo eliminada.
+TEXT V$rias balas atravessaram o meu corpo, e agora estou morta.
+TEXT Por isso estou t~o calma assim.
+TEXT Aahh, doeu bastante.
+TEXT Mas que bom que foi s+ por um momento.
 PLAY_SOUND 01 '004_tak045' 00 
-TEXT Takatsuki: "You...what happened to B-58!!? What happened!!?"
+TEXT Takatsuki: "Seu... O que voc[ fez com a B-58!? Com a B-58!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy000' 00 
-TEXT Voice: "He's stretching, out there."
+TEXT Voz: "Ela est$ desmaiada bem ali."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak046' 00 
-TEXT Takatsuki: "He's stretching?......how come a shackled one like you has a Control Body...!!?"
+TEXT Takatsuki: "Desmaiada...? Como voc[, preso nessas correntes, conseguiu fazer isso com o corpo de controle...!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy001' 00 
-TEXT Voice: "Well, it did cost me a little."
+TEXT Voz: "Foi o pre|o... acabei ficando assim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak047' 00 
-TEXT Takatsuki: "But you only lost your arms!!?"
+TEXT Takatsuki: "Voc[ t$ me dizendo que perdeu um bra|o e tudo bem!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy002' 00 
-TEXT Voice: "Once I tried, that's how it turned out."
+TEXT Voz: "Bom, quando a gente tenta, descobre que d$ pra fazer."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak048' 00 
-TEXT Takatsuki: "You...what you're doing is crazy!!"
+TEXT Takatsuki: "Voc[... Voc[ tem no|~o do absurdo que fez!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak049' 00 
-TEXT Takatsuki: "Do you understand that!? Stop right there!!!"
+TEXT Takatsuki: "Voc[ t$ entendendo!? Pare com isso!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_boy003' 00 
-TEXT Voice: "I wonder if I should stop here."
+TEXT Voz: "Ah, % pra eu parar? Aqui?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak050' 00 
-TEXT Takatsuki: "Yes, that's right..."
+TEXT Takatsuki: "Isso, exatamente..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak051' 00 
-TEXT Takatsuki: "...no, wait! Don't use your power!!!!!!"
+TEXT Takatsuki: "...N~o, espera! N~o use o seu podeeerrrr!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'se68' 00 
-TEXT *zubyushuuuuuuuuuuuuuuuuu!!!!!*
+TEXT *Zubyushuuuuuuuuuuuuuuuuu!!!!!*
 PLAY_SOUND 01 '039_boy004' 00 
-TEXT Voice: "You should've said so sooner."
+TEXT Voz: "Tarde demais."
 STOP_SOUND 01 
-TEXT My memory ended there.
-TEXT Though I should have been dead, I was attacked once again by that shiver.
+TEXT Minhas mem+rias v~o s+ at% a&.
+TEXT Porque, embora eu devesse estar morta, fui consumida por aquele horror mais uma vez.
 TEXT .........
 TEXT ......
 TEXT ...

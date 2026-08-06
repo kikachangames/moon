@@ -69,7 +69,7 @@ PLAY_SOUND 01 'e07_dop013' 00
 TEXT "...Certo."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e07_dop014' 00 
-TEXT "...Eu vou dar ele para voc[."
+TEXT "...Eu vou dar ela para voc[."
 STOP_SOUND 01 
 TEXT Enrolei os cantos dos meus l$bios e ri.
 BACKGROUND 'BO' 
@@ -80,7 +80,7 @@ TEXT Ent~o a forma de outra pessoa come|ou a surgir nas sombras.
 TEXT Essa n~o era a minha forma.
 TEXT Eu me lembro dessas roupas.
 TEXT Eu me lembro desse penteado.
-TEXT Eu me lembro dessas linhas corporais.
+TEXT Eu me lembro dessa silhueta.
 BACKGROUND 'CGYS01' 
 X_24 00 
 X_25 06 

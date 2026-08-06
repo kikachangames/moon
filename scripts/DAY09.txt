@@ -186,7 +186,7 @@ PLAY_SOUND 01 '065_iku009' 00
 TEXT Ikumi: "Obrigada."
 STOP_SOUND 01 
 TEXT Eu devia ter feito isso desde o come|o.
-TEXT Enquanto ruminava sobre as palavras do garoto, deixei a sala.
+TEXT Enquanto pensava sobre as palavras do garoto, deixei a sala.
 X_00 0009 0012 
 X_00 000E 0001 
 GOSUB_SCRIPT 'A_D9' 

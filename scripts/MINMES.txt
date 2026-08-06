@@ -941,8 +941,7 @@ PLAY_SOUND 01 '035_iku049' 00
 TEXT Mas eu estava errada.
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_iku050' 00 
-TEXT Percebi isso no momento em que olhei para o assento mais distante no fundo.
-TEXT L$, na plateia, estava minha m~e.
+TEXT Percebi no momento em que olhei para o assento mais distante no fundo. L$, na plateia, estava minha m~e.
 STOP_SOUND 01 
 PLAY_SOUND 01 '035_iku051' 00 
 TEXT Eu queria dar o meu melhor.
@@ -1814,7 +1813,7 @@ PLAY_SOUND 01 '083_iku012' 00
 TEXT L$ aconteceram tantas coisas tristes...
 STOP_SOUND 01 
 PLAY_SOUND 01 '083_iku013' 00 
-TEXT Meus amigos tiveram finais horr&veis... e eu n~o pude fazer nada por eles...
+TEXT Meus amigos tiveram finais horr&veis...\nE eu n~o pude fazer nada por eles...
 STOP_SOUND 01 
 PLAY_SOUND 01 '006_ikm006' 00 
 TEXT "Entendo... voc[ teve um pesadelo."
@@ -1844,7 +1843,7 @@ PLAY_SOUND 01 '083_iku021' 00
 TEXT Para um passado distante em que me sentia bem...
 STOP_SOUND 01 
 PLAY_SOUND 01 '083_iku022' 00 
-TEXT Mas na realidade, estou presa na instala|~o isolada da FARGO, vivendo com aquele garoto...
+TEXT Mas na realidade, estou presa na instala|~o isolada da FARGO, vivendo\ncom aquele garoto...
 STOP_SOUND 01 
 PLAY_SOUND 01 '083_iku023' 00 
 TEXT Al%m disso, a minha m~e j$......
@@ -1972,12 +1971,12 @@ X_24 00
 BACKGROUND 'BO' 
 X_25 06 
 STOP_SOUND 00 
-TEXT *viii*...!*viii*...!
+TEXT *Bzzz*...!*Bzzz*...!
 PLAY_SOUND 01 'm11_min001' 00 
 TEXT "Droga...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'es3_elp004' 00 
-TEXT "...formou-se uma cratera no inv+lucro mental dela! Ela est$ afundando nos valores negativos!"
+TEXT "...Formou-se uma cratera no inv+lucro mental dela! Ela est$ afundando nos valores negativos!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'm11_min002' 00 
 TEXT "Arranjem um jeito de parar isso! Pelo menos ganhem tempo!"
@@ -1995,14 +1994,14 @@ PLAY_SOUND 01 'm11_min004' 00
 TEXT "Sempre tem uma primeira vez!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 'es3_elp007' 00 
-TEXT "% verdade... mas n~o temos meios de fazer isso acontecer..."
+TEXT "@ verdade... mas n~o temos meios de fazer isso acontecer..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm11_min005' 00 
 TEXT "Droga...!"
 STOP_SOUND 01 
-TEXT *viii*...!*viii*...!
-TEXT ......*viii*......*viii*...!...
-TEXT ..................*ii*............*ii*
+TEXT *Bzzz*...!*Bzzz*...!
+TEXT ......*Bzzz*......*Bzzz*...!...
+TEXT ..................*zz*............*zz*
 X_24 00 
 BACKGROUND 'WO' 
 X_25 06 
@@ -2068,7 +2067,7 @@ PLAY_SOUND 01 '006_ikm026' 00
 TEXT "Heheh, % porque ouviu o motivo, n%?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '083_iku056' 00 
-TEXT %.
+TEXT @.
 STOP_SOUND 01 
 PLAY_SOUND 01 '083_iku057' 00 
 TEXT Mas...
@@ -2168,7 +2167,7 @@ PLAY_SOUND 01 '027_boy002' 00
 TEXT Garoto: "Seria bom prestar aten|~o no que dizem sobre isso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '027_boy003' 00 
-TEXT Garoto: "Principalmente nos relat+rios do Elpod depois que voc[ for para a Sala de Relaxamento."
+TEXT Garoto: "Principalmente nos relat+rios do ELPOD depois que voc[ for para a Sala de Relaxamento."
 STOP_SOUND 01 
 PLAY_SOUND 01 '027_boy004' 00 
 TEXT Garoto: "Escute, reflita bem... tenho certeza de que vai ser ^til."
@@ -2367,7 +2366,7 @@ PLAY_SOUND 01 '007_ikm002' 00
 TEXT "Entendo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku002' 00 
-TEXT %...
+TEXT @...
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku003' 00 
 TEXT Aprendi muitas coisas...
@@ -2376,16 +2375,16 @@ PLAY_SOUND 01 '091_iku004' 00
 TEXT E acho que terminei...
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku005' 00 
-TEXT Tem algo dentro de mim...
+TEXT Tem alguma coisa dentro de mim...
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku006' 00 
 TEXT Tenho certeza que mam~e tamb%m j$ sentiu isso...
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm003' 00 
-TEXT "Isso % uma d^vida."
+TEXT "Isso % preocupa|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm004' 00 
-TEXT "Porque voc[ est$ cansada, est$ pensando que as coisas est~o piores do que realmente est~o."
+TEXT "Como voc[ est$ cansada, acha que as coisas est~o piores do que realmente s~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm005' 00 
 TEXT "Ent~o, descanse."
@@ -2403,43 +2402,43 @@ PLAY_SOUND 01 '007_ikm007' 00
 TEXT "Voc[ pode dormir agora."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku009' 00 
-TEXT Mas se eu dormir agora, n~o vou conseguir...
+TEXT Mas se eu dormir, n~o vou mais conseguir ver a mam~e...
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm008' 00 
 TEXT "Voc[ est$ falando coisas estranhas de novo..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm009' 00 
-TEXT "Tudo bem, vou ficar do seu lado enquanto voc[ dorme."
+TEXT "Tudo bem, vou ficar do seu lado enquanto dorme."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku010' 00 
 TEXT S%rio...?
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm010' 00 
-TEXT "Vou ficar olhando seu rosto enquanto dorme o tempo todo."
+TEXT "Vou ficar olhando Ikumi dormir o tempo todo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm011' 00 
-TEXT "N~o h$ nada com que voc[ precise se preocupar."
+TEXT "N~o h$ motivo nenhum para ter medo, viu?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm012' 00 
 TEXT "Ent~o, boa noite."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku011' 00 
-TEXT Mas, da pr+xima vez que eu acordar...
+TEXT Mas quando eu acordar...
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm013' 00 
 TEXT "At% amanh~."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku012' 00 
-TEXT Estarei numa realidade dolorosa...
+TEXT Vou voltar para...
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm014' 00 
 TEXT "Boa noite, Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku013' 00 
-TEXT Volte...
+TEXT Uma cruel realidade...
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ikm015' 00 
-TEXT "Boa noite."
+TEXT "Durma bem."
 STOP_SOUND 01 
 PLAY_SOUND 01 '091_iku014' 00 
 TEXT .........
