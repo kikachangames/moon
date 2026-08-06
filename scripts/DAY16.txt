@@ -4,7 +4,8 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 0010 
-SETSTATUS ' Day 16 -- Facility Interior' 
+SETSTATUS ' Dia 16 ? Interior da Instala|~o'
+#SETSTATUS ' Day 16 -- Facility Interior' 
 BACKGROUND 'FG215' 
 X_24 00 
 X_25 06 
@@ -168,22 +169,22 @@ X_24 00
 X_25 06 
 PLAY_SOUND 00 'mon_cd04' 01 
 TEXT .........
-TEXT I woke up.
-TEXT Dark, cold...
-TEXT I'm alive.
-TEXT I'm not dead.
-TEXT I couldn't tell what was a dream and what was reality.
-TEXT But I was alive.
-TEXT That was reality.
-TEXT I shook my head as if to wipe away the dreams.
-TEXT Sewage was flowing on one side of me.
-TEXT I pulled up one hand which had been soaking in it, and wiped it with the sleeve of my uniform.
-TEXT The unpleasant smell of sewage was now on my hand.
-TEXT Then I finally sat up, and looked around me.
-TEXT I couldn't see far in the darkness, but one direction was clearly a dead end.
-TEXT If I was going to go in that direction, I'd have to dive into the sewage.
-TEXT So I would have to go the other way.
-TEXT For now, I should just try walking...
+TEXT Eu acordei.
+TEXT Escuro, frio...
+TEXT Estou viva.
+TEXT Eu n~o morri.
+TEXT Eu j$ n~o sabia mais o que era sonho e o que era realidade.
+TEXT Mas eu estava viva.
+TEXT Essa era a realidade.
+TEXT Balancei a cabe|a como se quisesse espantar os sonhos.
+TEXT O esgoto corria ao meu lado.
+TEXT Levantei uma das m~os, que estava submersa, e a limpei na manga do meu uniforme.
+TEXT O cheiro desagrad$vel de esgoto agora impregnava a minha m~o.
+TEXT Foi ent~o que finalmente me sentei e olhei ao meu redor.
+TEXT N~o dava para enxergar longe na escurid~o, mas em uma das dire|/es era claramente um beco sem sa&da.
+TEXT Se eu quisesse ir por ali, teria que mergulhar no esgoto.
+TEXT Ent~o o jeito era ir pelo outro lado.
+TEXT Por enquanto, eu s+ devia tentar andar...
 STOP_SOUND 00 
 X_00 0009 0042 
 GOSUB_SCRIPT 'WC_D16' 
@@ -202,32 +203,32 @@ X_3E 04 53 'G001'
 X_56 04 0028 004E 
 X_3F 04 01 
 X_25 09 
-TEXT I hadn't noticed before, but there was a stuffed animal on the ground where I'd been sleeping.
-TEXT It was that herniated rabbit...
-TEXT ...that guy.
-TEXT He'd carried me all the way here.
-TEXT Why would he do that...?
-TEXT Does he need me for something...?
-TEXT What value could a failed product like me possibly have...?
-TEXT No...
-TEXT That's not it...
-TEXT He just saved the him within me.
-TEXT That's probably it.
-TEXT Takatsuki said the other consciousness within me was an alter ego of him.
-TEXT In other words it's a part of his body.
-TEXT He saved me because he's afraid of losing that.
-TEXT Then the least I can do is die.
-TEXT That's the only revenge I can take.
-TEXT But, that's okay.
-TEXT I'll make him regret it.
-TEXT I'll make him regret saving me.
-TEXT I'm no longer afraid of anything.
-TEXT I threw away that stuffed animal into the sewage along with all the days I spent with him.
+TEXT Eu n~o tinha reparado antes, mas tinha um bichinho de pel^cia no ch~o onde eu estava dormindo.
+TEXT Era aquele coelho deformado...
+TEXT ...Aquele garoto.
+TEXT Ele me carregou at% aqui.
+TEXT Por que ele faria isso...?
+TEXT Ele precisa de mim pra alguma coisa...?
+TEXT Que valor um produto defeituoso como eu poderia ter...?
+TEXT N~o...
+TEXT N~o % isso...
+TEXT Ele s+ salvou a parte dele que t$ dentro de mim.
+TEXT Deve ser isso.
+TEXT O Takatsuki disse que a outra consci[ncia dentro de mim era um fragmento dele.
+TEXT Em outras palavras, % parte do corpo dele.
+TEXT Ele me salvou porque tem medo de perder isso.
+TEXT Ent~o o m&nimo que posso fazer % morrer.
+TEXT @ a ^nica vingan|a que me resta.
+TEXT Mas tudo bem.
+TEXT Eu vou fazer ele se arrepender.
+TEXT Vou fazer ele se arrepender de ter me salvado.
+TEXT Eu n~o tenho mais medo de nada.
+TEXT Joguei aquele bicho de pel^cia no esgoto, junto com todos os dias que passei ao lado dele.
 X_3F 04 00 
 X_25 09 
-TEXT Then I clenched my fist tightly.
-TEXT I'll go exact my final revenge.
-TEXT On him.
+TEXT Em seguida, fechei meu punho com for|a.
+TEXT Chegou a hora da minha vingan|a final.
+TEXT Contra ele.
 STOP_SOUND 00 
 X_04 0089 0001 
 X_00 0009 0042 
@@ -243,18 +244,18 @@ PLAY_SOUND 00 'mon_cd07' 01
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy000' 00 
-TEXT Boy: "Nn...?"
+TEXT Garoto: "Nn...?"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy001' 00 
-TEXT Boy: "Hey."
+TEXT Garoto: "Hey."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku000' 00 
 TEXT Ikumi: "...I've been looking for you."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy002' 00 
-TEXT Boy: "Oh? You have some unfinished business with me?"
+TEXT Garoto: "Oh? You have some unfinished business with me?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku001' 00 
 TEXT Ikumi: "You know I do..."
@@ -263,7 +264,7 @@ PLAY_SOUND 01 '105_iku002' 00
 TEXT Ikumi: "You're the one I should be taking revenge on."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy003' 00 
-TEXT Boy: "Yes, that's right."
+TEXT Garoto: "Yes, that's right."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku003' 00 
 TEXT Ikumi: "I've been searching for you."
@@ -275,218 +276,218 @@ PLAY_SOUND 01 '105_iku005' 00
 TEXT Ikumi: "Why this place...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy004' 00 
-TEXT Boy: "Isn't it convenient?"
+TEXT Garoto: "Isn't it convenient?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy005' 00 
-TEXT Boy: "As you can see, I can neither run nor hide. This is the perfect chance to take your revenge."
+TEXT Garoto: "As you can see, I can neither run nor hide. This is the perfect chance to take your revenge."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku006' 00 
 TEXT Ikumi: "Why..."
 STOP_SOUND 01 
-TEXT Boy: "......"
+TEXT Garoto: "......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku007' 00 
 TEXT Ikumi: "Why...did you save me, and then get captured yourself...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy006' 00 
-TEXT Boy: "I did something that made them want to capture me."
+TEXT Garoto: "I did something that made them want to capture me."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku008' 00 
 TEXT Ikumi: "But then there's no point in saving me...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy007' 00 
-TEXT Boy: "Why?"
+TEXT Garoto: "Why?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku009' 00 
 TEXT Ikumi: "Didn't you save me for your own sake!!?　Because you were afraid to lose a part of your body!!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy008' 00 
-TEXT Boy: "No."
+TEXT Garoto: "No."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku010' 00 
 TEXT Ikumi: "Liar...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy009' 00 
-TEXT Boy: "It's true."
+TEXT Garoto: "It's true."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku011' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy010' 00 
-TEXT Boy: "Somehow, you seem to be receiving another shock."
+TEXT Garoto: "Somehow, you seem to be receiving another shock."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku012' 00 
 TEXT Ikumi: "Then why did you save me!!? Why...why were you willing to lose both your arms...!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy011' 00 
-TEXT Boy: "Atonement."
+TEXT Garoto: "Atonement."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku013' 00 
 TEXT Ikumi: "Atonement...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy012' 00 
-TEXT Boy: "Yes, atonement."
+TEXT Garoto: "Yes, atonement."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy013' 00 
-TEXT Boy: "That's all I was able to do."
+TEXT Garoto: "That's all I was able to do."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku014' 00 
 TEXT Ikumi: "You don't have to do anything like this just to make up!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy014' 00 
-TEXT Boy: "That's not true; this problem isn't just about us."
+TEXT Garoto: "That's not true; this problem isn't just about us."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy015' 00 
-TEXT Boy: "It's about all of you and all of us. That's why I had to involve you all."
+TEXT Garoto: "It's about all of you and all of us. That's why I had to involve you all."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku015' 00 
 TEXT Ikumi: "What do you mean...'all of you,' 'all of us'...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy016' 00 
-TEXT Boy: "All of us, means everyone of the same species as me. All of you, means everyone of your species."
+TEXT Garoto: "All of us, means everyone of the same species as me. All of you, means everyone of your species."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku016' 00 
 TEXT Ikumi: "Tell me everything."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy017' 00 
-TEXT Boy: "Good point."
+TEXT Garoto: "Good point."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy018' 00 
-TEXT Boy: "I no longer have a duty to hide it. I'll tell you everything."
+TEXT Garoto: "I no longer have a duty to hide it. I'll tell you everything."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy019' 00 
-TEXT Boy: "Thirty years ago."
+TEXT Garoto: "Thirty years ago."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy020' 00 
-TEXT Boy: "One of my race was captured by you humans, and everything started there."
+TEXT Garoto: "One of my race was captured by you humans, and everything started there."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy021' 00 
-TEXT Boy: "I don't know why, but you humans called us demons."
+TEXT Garoto: "I don't know why, but you humans called us demons."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy022' 00 
-TEXT Boy: "Probably because we had rather strange appearances, you all labeled us with that frightening word."
+TEXT Garoto: "Probably because we had rather strange appearances, you all labeled us with that frightening word."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy023' 00 
-TEXT Boy: "But what made you fear us even more was what you called our unique powers."
+TEXT Garoto: "But what made you fear us even more was what you called our unique powers."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy024' 00 
-TEXT Boy: "At first he was made to do a lot of things using that power."
+TEXT Garoto: "At first he was made to do a lot of things using that power."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy025' 00 
-TEXT Boy: "He was treated horribly, and many of his friends died."
+TEXT Garoto: "He was treated horribly, and many of his friends died."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy026' 00 
-TEXT Boy: "But our powers seemed to be of great interest to the humans."
+TEXT Garoto: "But our powers seemed to be of great interest to the humans."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy027' 00 
-TEXT Boy: "Then someone came up with the idea of implanting that power in humans."
+TEXT Garoto: "Then someone came up with the idea of implanting that power in humans."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy028' 00 
-TEXT Boy: "They researched our unique traits, and succeded in implanting a piece of our will--which they called an 'alter ego'--inside a human body."
+TEXT Garoto: "They researched our unique traits, and succeded in implanting a piece of our will--which they called an 'alter ego'--inside a human body."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy029' 00 
-TEXT Boy: "But that alter ego had no intelligence. We happen to be an existence unified from several smaller ones."
+TEXT Garoto: "But that alter ego had no intelligence. We happen to be an existence unified from several smaller ones."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy030' 00 
-TEXT Boy: "That's why humans need a strong mind in order to control it."
+TEXT Garoto: "That's why humans need a strong mind in order to control it."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy031' 00 
-TEXT Boy: "It used to be horrible."
+TEXT Garoto: "It used to be horrible."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy032' 00 
-TEXT Boy: "Most of the experimental subjects were eaten from the inside by our alter egos."
+TEXT Garoto: "Most of the experimental subjects were eaten from the inside by our alter egos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy033' 00 
-TEXT Boy: "But humans then obtained means of heightening their mental strength."
+TEXT Garoto: "But humans then obtained means of heightening their mental strength."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy034' 00 
-TEXT Boy: "That's the mental training they have now."
+TEXT Garoto: "That's the mental training they have now."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy035' 00 
-TEXT Boy: "Should I talk about that?"
+TEXT Garoto: "Should I talk about that?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku017' 00 
 TEXT Ikumi: "Yes...tell me."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy036' 00 
-TEXT Boy: "First, the subjects are divided up into three ranks based on how many cruel experiences they've had in life."
+TEXT Garoto: "First, the subjects are divided up into three ranks based on how many cruel experiences they've had in life."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy037' 00 
-TEXT Boy: "You must have borne some truly painful feelings when you came here. It takes a lot to get assigned to Class A."
+TEXT Garoto: "You must have borne some truly painful feelings when you came here. It takes a lot to get assigned to Class A."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy038' 00 
-TEXT Boy: "Then, the Minmes fixates on a specific part of that past pain, in order to measure your mental strengthening."
+TEXT Garoto: "Then, the Minmes fixates on a specific part of that past pain, in order to measure your mental strengthening."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy039' 00 
-TEXT Boy: "The Elpod makes you face your other self, and by reminiscing on past disgraces makes the same kind of measurement."
+TEXT Garoto: "The Elpod makes you face your other self, and by reminiscing on past disgraces makes the same kind of measurement."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy040' 00 
-TEXT Boy: "Although, the memories they show you are made to be excessively dramatized."
+TEXT Garoto: "Although, the memories they show you are made to be excessively dramatized."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy041' 00 
-TEXT Boy: "Then, once it's been determined that you've received enough training to cultivate a strong mind, one of our wills is injected."
+TEXT Garoto: "Then, once it's been determined that you've received enough training to cultivate a strong mind, one of our wills is injected."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy042' 00 
-TEXT Boy: "And that would be......well, you know."
+TEXT Garoto: "And that would be......well, you know."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy043' 00 
-TEXT Boy: "Theoretically, it would be possible to control our wills at that point. Or so they hypothesized."
+TEXT Garoto: "Theoretically, it would be possible to control our wills at that point. Or so they hypothesized."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy044' 00 
-TEXT Boy: "But as you know, the probability of achieving a finished product is still low."
+TEXT Garoto: "But as you know, the probability of achieving a finished product is still low."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy045' 00 
-TEXT Boy: "Their research has a long way to go."
+TEXT Garoto: "Their research has a long way to go."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy046' 00 
-TEXT Boy: "But, I do understand..."
+TEXT Garoto: "But, I do understand..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy047' 00 
-TEXT Boy: "That to all of you, none of us are good."
+TEXT Garoto: "That to all of you, none of us are good."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy048' 00 
-TEXT Boy: "That's why I bet on you."
+TEXT Garoto: "That's why I bet on you."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy049' 00 
-TEXT Boy: "I thought I could end everything with you as the final sacrifice."
+TEXT Garoto: "I thought I could end everything with you as the final sacrifice."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy050' 00 
-TEXT Boy: "By being in this facility, we are naturally shackled."
+TEXT Garoto: "By being in this facility, we are naturally shackled."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy051' 00 
-TEXT Boy: "But if you become a finished product, you'd have the same power, without those shackles."
+TEXT Garoto: "But if you become a finished product, you'd have the same power, without those shackles."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy052' 00 
-TEXT Boy: "If you took your revenge using that power, everything would end."
+TEXT Garoto: "If you took your revenge using that power, everything would end."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy053' 00 
-TEXT Boy: "But it didn't work out that way."
+TEXT Garoto: "But it didn't work out that way."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy054' 00 
-TEXT Boy: "You can't control your other consciousness, my alter ego, and now they've decided your mind is Lost."
+TEXT Garoto: "You can't control your other consciousness, my alter ego, and now they've decided your mind is Lost."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy055' 00 
-TEXT Boy: "The only result left behind by all this, is the fact that I used you."
+TEXT Garoto: "The only result left behind by all this, is the fact that I used you."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy056' 00 
-TEXT Boy: "That's why I gave you a little freedom at the end, as atonement."
+TEXT Garoto: "That's why I gave you a little freedom at the end, as atonement."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku019' 00 
 TEXT Ikumi: "You were a victim too..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy057' 00 
-TEXT Boy: "I dislike such pretty words."
+TEXT Garoto: "I dislike such pretty words."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy058' 00 
-TEXT Boy: "I used you in a scheme to free my species."
+TEXT Garoto: "I used you in a scheme to free my species."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy059' 00 
-TEXT Boy: "And failed."
+TEXT Garoto: "And failed."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy060' 00 
-TEXT Boy: "That's the only truth."
+TEXT Garoto: "That's the only truth."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku020' 00 
 TEXT Ikumi: "No..."
@@ -494,40 +495,40 @@ STOP_SOUND 01
 PLAY_SOUND 01 '105_iku021' 00 
 TEXT Ikumi: "You could have done it over..."
 STOP_SOUND 01 
-TEXT Boy: "........."
+TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku022' 00 
 TEXT Ikumi: "If you hadn't saved me...you could have tried over and over to free yourselves..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy061' 00 
-TEXT Boy: "Like I have until now...?"
+TEXT Garoto: "Like I have until now...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku023' 00 
 TEXT Ikumi: "Yes, like you have until now."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy062' 00 
-TEXT Boy: "I used to hate humans."
+TEXT Garoto: "I used to hate humans."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku024' 00 
 TEXT Ikumi: "Yeah..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy063' 00 
-TEXT Boy: "Hey..."
+TEXT Garoto: "Hey..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku025' 00 
 TEXT Ikumi: "Yes...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy064' 00 
-TEXT Boy: "My face itches."
+TEXT Garoto: "My face itches."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku026' 00 
 TEXT Ikumi: "Oh..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy065' 00 
-TEXT Boy: "Obviously, I can't scratch it."
+TEXT Garoto: "Obviously, I can't scratch it."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy066' 00 
-TEXT Boy: "Would you mind...?"
+TEXT Garoto: "Would you mind...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku027' 00 
 TEXT Ikumi: "Sure..."
@@ -536,19 +537,19 @@ PLAY_SOUND 01 '105_iku028' 00
 TEXT Ikumi: "Bring your face over here."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy067' 00 
-TEXT Boy: "Okay."
+TEXT Garoto: "Okay."
 STOP_SOUND 01 
 BACKGROUND 'FG078' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '041_boy068' 00 
-TEXT Boy: "This is my final selfish act."
+TEXT Garoto: "This is my final selfish act."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku029' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy069' 00 
-TEXT Boy: "Farewell, Ikumi."
+TEXT Garoto: "Farewell, Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku030' 00 
 TEXT Ikumi: "........."
@@ -810,7 +811,7 @@ PLAY_SOUND 01 'm99_min007' 00
 TEXT Voice: "Don't do anything stupid. You'll just suffer more."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy000' 00 
-TEXT Boy: "What can I do with this body?"
+TEXT Garoto: "What can I do with this body?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min008' 00 
 TEXT Voice: "Hmph...true enough."
@@ -819,25 +820,25 @@ PLAY_SOUND 01 'm99_min009' 00
 TEXT Voice: "Now get moving."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy001' 00 
-TEXT Boy: "As you wish. These arms hurt so much I might lose it."
+TEXT Garoto: "As you wish. These arms hurt so much I might lose it."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min010' 00 
 TEXT Voice: "...aren't you a strange one. Are you all like that...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy002' 00 
-TEXT Boy: "Even I'm surprised."
+TEXT Garoto: "Even I'm surprised."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy003' 00 
-TEXT Boy: (...that I had this kind of emotion.）
+TEXT Garoto: (...that I had this kind of emotion.）
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '043_boy004' 00 
-TEXT Boy: (...the reality we wait for is always cruel......）
+TEXT Garoto: (...the reality we wait for is always cruel......）
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy005' 00 
-TEXT Boy: (...never forget yourself, Ikumi.）
+TEXT Garoto: (...never forget yourself, Ikumi.）
 STOP_SOUND 01 
 BACKGROUND 'BG025' 
 X_24 00 

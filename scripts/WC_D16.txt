@@ -4,7 +4,8 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0005 
-SETSTATUS ' Day 16Å@Å|Å|Å@Facility Interior'
+SETSTATUS ' Dia 16Å@Å|Å|Å@Interior da Instala|~o'
+#SETSTATUS ' Day 16Å@Å|Å|Å@Facility Interior'
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay16' 
@@ -74,13 +75,13 @@ X_3E 04 53 'G006'
 X_56 04 0028 004E 
 X_3F 04 01 
 X_25 01 
-TEXT There was a ladder, and just past it was, of course, a dead end.
-TEXT A ladder going up.
-TEXT My only route.
-TEXT It must lead back to that facility.
-TEXT Why am I here in the first place?
-TEXT Did I walk all this way by the will of that shuddering?
-TEXT Or did someone carry me all this way...?
+TEXT Tinha uma escada e, logo depois dela, claro, um beco sem sa&da.
+TEXT Uma escada subindo.
+TEXT Meu ^nico caminho.
+TEXT Ela deve levar de volta #quele pr%dio.
+TEXT Por que eu t{ aqui, pra come|o de conversa...?
+TEXT Ser$ que andei tudo isso guiada pela vontade daquele pavor...?
+TEXT Ou algu%m me carregou at% aqui...?
 X_3F 04 00 
 X_25 01 
 X_00 007F 0001 
@@ -98,10 +99,10 @@ X_52 0173 00C0
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 'Up: Go up the ladder' '[--]---:---' '[--]---:---' '[Å´ ]South: Sewer' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Escada' '(--)---:---' '(--)---:---' '(Å´ )Sul: Esgoto' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL24 
-TEXT There's a ladder going up.
+TEXT Tem uma escada aqui.
 JMP .LABEL25 
 
 :LABEL24
@@ -120,13 +121,13 @@ JMP .LABEL25
 :LABEL26
 IF 16 03 00 15 01 00 02 00 .LABEL25 
 IF 17 89 00 15 00 00 02 00 .LABEL30 
-TEXT I shouldn't leave here without an objective.
-TEXT I'll take action after thinking long and hard...
+TEXT N~o devo sair daqui sem um objetivo.
+TEXT Vou agir depois de pensar muito bem...
 JMP .LABEL31 
 
 :LABEL30
 IF 16 80 00 15 00 00 02 00 .LABEL32 
-TEXT I climbed up the rusty ladder.
+TEXT Subi a escada enferrujada.
 X_00 0080 0001 
 
 :LABEL32
@@ -147,10 +148,10 @@ X_52 0173 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Sewer' '[--]---:---' '[--]---:---' '[Å´ ]South: Sewer' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Esgoto' '(--)---:---' '(--)---:---' '(Å´ )Sul: Esgoto' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL35 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL36 
 
 :LABEL35
@@ -182,10 +183,10 @@ X_52 00DE 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[--]---:---' '[Å® ]East: Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(--)---:---' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL45 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL46 
 
 :LABEL45
@@ -205,10 +206,10 @@ X_52 0103 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Sewer' '[Å® ]East: Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Esgoto' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL51 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL52 
 
 :LABEL51
@@ -234,10 +235,10 @@ X_52 0129 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Sewer' '[Å® ]East: Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Esgoto' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL60 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL61 
 
 :LABEL60
@@ -263,10 +264,10 @@ X_52 014E 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Sewer' '[Å® ]East: Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Esgoto' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL69 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL70 
 
 :LABEL69
@@ -292,10 +293,10 @@ X_52 0173 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Sewer' '[Å© ]West: Sewer' '[Å® ]East: Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Esgoto' '(Å© )Oeste: Esgoto' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL78 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL79 
 
 :LABEL78
@@ -327,10 +328,10 @@ X_52 0199 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Sewer' '[--]---:---' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Esgoto' '(--)---:---' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL90 
-TEXT There's nothing here.
+TEXT N~o h$ nada aqui.
 JMP .LABEL91 
 
 :LABEL90

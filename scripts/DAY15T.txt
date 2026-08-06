@@ -485,10 +485,10 @@ PLAY_SOUND 01 '004_tak035' 00
 TEXT Takatsuki: "V$rios pesquisadores fizeram exatamente isso!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak036' 00 
-TEXT Takatsuki: "@ desse n&vel de abomina|~o que estamos falando!"
+TEXT Takatsuki: "@ desse n&vel de aberra|~o que estamos falando!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak037' 00 
-TEXT Takatsuki: "Nossa, s+ de lembrar isso me d$ n$useas!"
+TEXT Takatsuki: "Urgh! Nossa, s+ de lembrar isso me d$ n$useas!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '004_tak038' 00 
 TEXT Takatsuki: "Ahahaha!! E voc[ passou todo esse tempo com aquele monstro!!"
