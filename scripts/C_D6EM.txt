@@ -392,7 +392,7 @@ PLAY_SOUND 01 '038_iku025' 00
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 TEXT 
-SELECT 0003 '"Sim! @ melhor voc[ ficar aqui."' '"N~o! Voc[ deve voltar logo para o Pr%dio B."' 
+SELECT 0003 '"Sim! @ melhor voc[ ficar aqui."' '"N~o! Volte logo para o Pr%dio B."' 
 IF 16 03 00 15 01 00 02 00 .LABEL92 
 PLAY_SOUND 01 '038_iku026' 00 
 TEXT Ikumi: "Acho que % melhor ficar aqui at% que essa confus~o passe."
@@ -432,7 +432,7 @@ JMP .LABEL93
 
 :LABEL92
 PLAY_SOUND 01 '038_iku031' 00 
-TEXT Ikumi: "Ficar aqui % perigoso, voc[ deve voltar r$pido para o Pr%dio B."
+TEXT Ikumi: "Ficar aqui % perigoso, voc[ deve voltar logo para o Pr%dio B."
 STOP_SOUND 01 
 PLAY_SOUND 01 '012_yui019' 00 
 TEXT Yui: "...Voc[ tem raz~o. Vou fazer isso."
@@ -1011,7 +1011,7 @@ IF 16 03 00 15 03 00 02 00 .LABEL180
 IF 16 74 00 15 00 00 02 00 .LABEL181 
 TEXT Eu abri a porta suavemente e olhei para dentro.
 TEXT .........
-TEXT N~o h$ ningu%m aqui.
+TEXT N~o tem ningu%m aqui.
 IF 16 64 00 15 00 00 02 00 .LABEL182 
 TEXT Os crentes da Classe C devem estar trancados no refeit+rio...
 
@@ -1020,7 +1020,7 @@ X_00 0074 0001
 JMP .LABEL183 
 
 :LABEL181
-TEXT N~o h$ nada nesta sala...
+TEXT N~o tem ningu%m aqui....
 
 :LABEL183
 JMP .LABEL176 
@@ -1151,9 +1151,9 @@ BACKGROUND 'BG031'
 X_24 00 
 X_25 06 
 TEXT Ah......
-TEXT Eu imediatamente me arrependi de ver aquilo...
-TEXT Algu%m encostado na parede, morto...
-TEXT O cad$ver de um patrulheiro cruel...
+TEXT Eu imediatamente me arrependi de ter visto aquilo...
+TEXT Algo ca&do, encostado na parede...
+TEXT O cad$ver horripilante de um patrulheiro...
 TEXT Olhos brancos revirados... e sangue saindo de todos os buracos do seu rosto...
 TEXT Era horr&vel o suficiente para me fazer sentir vontade de vomitar...
 TEXT Que diabos % isso...?
@@ -1369,7 +1369,7 @@ STOP_SOUND 01
 PLAY_SOUND 01 '001_bt2001' 00 
 TEXT Patrulheiro: "Se esconda logo!"
 STOP_SOUND 01 
-TEXT O patrulheiro gritou enquanto me apontava a sua arma.
+TEXT O patrulheiro gritou enquanto apontava a sua arma para mim.
 IF 16 68 00 15 00 00 02 00 .LABEL242 
 TEXT Parece que estou me aproximando do centro dessa calamidade.
 
@@ -1426,7 +1426,7 @@ TEXT *BANG!*
 TEXT Outro tiro.
 TEXT E logo ap+s isso...
 PLAY_SOUND 01 'se54' 00 
-TEXT Grrrrrr....!
+TEXT Krrrr....!
 TEXT Um som sinistro.
 TEXT Eu n~o sabia o que era.
 TEXT Mas est$ # frente.
@@ -1871,7 +1871,7 @@ JMP .LABEL308
 IF 16 66 00 15 00 00 02 00 .LABEL326 
 TEXT .........
 TEXT ...Ainda n~o...
-TEXT ...Eu ainda n~o consigo entender o que est$ acontecendo...
+TEXT ...Ainda n~o consigo entender o que est$ acontecendo aqui...
 X_00 0066 0001 
 
 :LABEL326
@@ -1971,13 +1971,13 @@ TEXT Ikumi: "........."
 STOP_SOUND 01 
 TEXT Eu deveria estar... mas agora que ela perguntou...
 PLAY_SOUND 01 '010_har008' 00 
-TEXT Haruka: "Eu acho que voc[ deve voltar."
+TEXT Haruka: "Acho melhor voc[ voltar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_iku006' 00 
 TEXT Ikumi: "O qu[...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '010_har009' 00 
-TEXT Haruka: "O que est$ # nossa frente % perigoso demais para voc[."
+TEXT Haruka: "O que estamos prestes a descobrir % perigoso demais para voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '038_iku007' 00 
 TEXT Ikumi: "I-Isso n~o % verdade..."

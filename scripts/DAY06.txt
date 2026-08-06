@@ -927,7 +927,7 @@ STOP_SOUND 01
 TEXT Yuri: "......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '039_iku011' 00 
-TEXT Ikumi: "@ voc[, Yuri-san?"
+TEXT Ikumi: "Yuri-san, % voc[?"
 STOP_SOUND 01 
 TEXT Yuri: "......"
 STOP_SOUND 01 
@@ -1011,7 +1011,7 @@ TEXT Yui: "O-Ok."
 STOP_SOUND 01 
 TEXT N+s pegamos o corpo de Yuri-san juntas e fomos em dire|~o ao corredor subterr}neo.
 TEXT O alarme ainda soava alto acima de nossas cabe|as.
-TEXT Eu pensava nisso enquanto olhava para as luzes de alerta vermelhas e preocupantes.
+TEXT Eu pensava nisso enquanto olhava preocupada para as luzes de emerg[ncia vermelho-sangue.
 PLAY_SOUND 01 '039_iku019' 00 
 TEXT Ikumi: (Agora que eu penso sobre isso...)
 STOP_SOUND 01 
@@ -1059,7 +1059,7 @@ IF 16 03 00 15 01 00 02 00 .LABEL19
 PLAY_SOUND 01 '039_iku022' 00 
 TEXT Ikumi: "......"
 STOP_SOUND 01 
-TEXT Eu sabia.
+TEXT Agora eu sabia.
 TEXT O que os homens da FARGO estavam ca|ando...
 TEXT O que eles estavam tentando destruir...
 TEXT <C-188>

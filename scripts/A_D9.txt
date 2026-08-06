@@ -229,7 +229,7 @@ PLAY_SOUND 01 '021_iku008' 00
 TEXT Ikumi: "N~o esqueceria uma coisa t~o b$sica."
 STOP_SOUND 01 
 PLAY_SOUND 01 '006_boy008' 00 
-TEXT Garoto: "Ent~o anda logo. Voc( n~o quer se atrasar." 
+TEXT Garoto: "Ent~o anda logo. Voc[ n~o quer se atrasar." 
 STOP_SOUND 01 
 PLAY_SOUND 01 '021_iku009' 00 
 TEXT Ikumi: "@..."
@@ -359,7 +359,7 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 IF 17 3E 00 15 00 00 02 00 .LABEL96 
-TEXT Mais uma vez, entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm01_min023' 00 
 TEXT Voz: "Qual % o problema? Voc[ devia estar almo|ando no refeit+rio."
 STOP_SOUND 01 
@@ -383,9 +383,9 @@ X_00 0028 0001
 JMP .LABEL97 
 
 :LABEL96
-TEXT Mais uma vez, entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm03_min010' 00 
-TEXT Voz: "Voc( de novo..." 
+TEXT Voz: "Voc[ de novo..." 
 STOP_SOUND 01 
 PLAY_SOUND 01 'm03_min011' 00 
 TEXT Voz: "Eu n~o disse que nenhuma comida viria para c$?" 
@@ -574,7 +574,7 @@ PLAY_SOUND 01 'e02_iku112' 00
 TEXT Ikumi: "N~o... n~o % nada..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'e02_elp004' 00 
-TEXT Voz: "Estou prestes a sair, ent~o % melhor voc( se retirar tamb%m."
+TEXT Voz: "Estou prestes a sair, ent~o % melhor voc[ se retirar tamb%m."
 STOP_SOUND 01 
 TEXT N~o havia nada que eu pudesse fazer. Sa& do ELPOD sem dizer uma palavra. 
 X_00 002F 0001 
@@ -662,14 +662,14 @@ RETURN
 :LABEL126
 IF 16 0E 00 15 01 00 02 00 .LABEL127
 TEXT Vazio...
-TEXT A palavra "sil(ncio" combinava perfeitamente com esse local.  
+TEXT A palavra "sil[ncio" combinava perfeitamente com esse local.  
 TEXT N~o havia nada pra fazer aqui, ent~o sa& do refeit+rio.  
 JMP .LABEL128
 
 :LABEL127
 IF 16 0E 00 15 03 00 02 16 31 00 15 00 00 02 0F 00 .LABEL129
 TEXT O refeit+rio continuava vazio como um t^mulo.  
-TEXT Youko-san, o que aconteceu com voc(...?  
+TEXT Youko-san, o que aconteceu com voc[...?  
 TEXT N~o posso esperar aqui para sempre. Sa& do refeit+rio.  
 X_00 0031 0001  
 JMP .LABEL128
@@ -747,7 +747,7 @@ TEXT Nem mesmo o cheiro da Youko-san restou...
 JMP .LABEL148 
 
 :LABEL147
-TEXT Um espa|o de moradia individual, id(ntico aos demais.
+TEXT Um espa|o de moradia individual, id[ntico aos demais.
 
 :LABEL148
 JMP .LABEL149 
@@ -781,7 +781,7 @@ TEXT Um quarto vazio...
 TEXT 
 SELECT 0003 'Examinar' 'Sair do quarto' 
 IF 16 03 00 15 01 00 02 00 .LABEL152 
-TEXT Um espa|o de moradia individual, id(ntico aos demais.
+TEXT Um espa|o de moradia individual, id[ntico aos demais.
 JMP .LABEL153 
 
 :LABEL152
@@ -813,7 +813,7 @@ TEXT Um quarto vazio...
 TEXT 
 SELECT 0003 'Examinar' 'Sair do quarto' 
 IF 16 03 00 15 01 00 02 00 .LABEL156 
-TEXT Um espa|o de moradia individual, id(ntico aos demais.
+TEXT Um espa|o de moradia individual, id[ntico aos demais.
 JMP .LABEL157 
 
 :LABEL156
@@ -845,7 +845,7 @@ TEXT Um quarto vazio...
 TEXT 
 SELECT 0003 'Examinar' 'Sair do quarto' 
 IF 16 03 00 15 01 00 02 00 .LABEL160 
-TEXT Um espa|o de moradia individual, id(ntico aos demais.
+TEXT Um espa|o de moradia individual, id[ntico aos demais.
 JMP .LABEL161 
 
 :LABEL160

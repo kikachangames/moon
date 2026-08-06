@@ -223,10 +223,10 @@ PLAY_SOUND 01 '006_boy006' 00
 TEXT Garoto: "H~? O que foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '006_boy007' 00 
-TEXT Garoto: "Voc[ esqueceu onde fica o MINMES?"
+TEXT Garoto: "Esqueceu onde fica o MINMES?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '021_iku008' 00 
-TEXT Ikumi: "Eu posso lembrar de uma coisa t~o b$sica!"
+TEXT Ikumi: "Eu posso muito bem me lembrar de uma coisa dessas!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '006_boy008' 00 
 TEXT Garoto: "Ent~o se apresse. N~o vai ser legal voc[ se atrasar." 
@@ -366,7 +366,7 @@ X_3F 03 00
 BACKGROUND 'BG004' 
 X_24 00 
 X_25 06 
-TEXT Once again I entered the MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm10_min004' 00 
 TEXT Voz: "De novo! Por que voc[ trouxe isso aqui?"
 STOP_SOUND 01 
@@ -386,7 +386,7 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 IF 17 3E 00 15 00 00 02 00 .LABEL97 
-TEXT Mais uma vez eu entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm01_min023' 00 
 TEXT Voz: "Qual % o problema? Voc[ deveria estar no refeit+rio."
 STOP_SOUND 01 
@@ -410,7 +410,7 @@ X_00 0028 0001
 JMP .LABEL98 
 
 :LABEL97
-TEXT Mais uma vez eu entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm03_min010' 00 
 TEXT Voz: "Voc[, de novo..." 
 STOP_SOUND 01 

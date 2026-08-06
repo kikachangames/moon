@@ -358,7 +358,7 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 IF 17 3E 00 15 00 00 02 00 .LABEL96 
-TEXT Mais uma vez eu entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 PLAY_SOUND 01 'm01_min023' 00 
 TEXT Voz: "Qual % o problema? Voc[ deveria estar almo|ando no refeit+rio."
 STOP_SOUND 01 
@@ -382,7 +382,7 @@ X_00 0028 0001
 JMP .LABEL97 
 
 :LABEL96
-TEXT Mais uma vez eu entrei no MINMES. 
+TEXT Mais uma vez entrei no MINMES. 
 STOP_SOUND 01 
 PLAY_SOUND 01 'm03_min010' 00 
 TEXT Voz: "Voc[, de novo..." 

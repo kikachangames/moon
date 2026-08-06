@@ -10,7 +10,7 @@ JMP .LABEL1
 
 :LABEL0
 IF 16 0E 00 15 02 00 02 00 .LABEL2 
-SETSTATUS ' Dia 12Å@Meio-diaÅ@Pr%dio A'
+SETSTATUS ' Dia 12 Meio-dia Pr%dio A'
 JMP .LABEL1 
 
 :LABEL2
@@ -860,7 +860,7 @@ X_04 0040 0000
 
 :LABEL160
 TEXT 
-SELECT 0003 'Examinar' 'Entre na passagem subterr}nea' 'Sair do quarto' 
+SELECT 0003 'Examinar' 'Entrar na passagem subterr}nea' 'Sair do quarto' 
 IF 16 03 00 15 01 00 02 00 .LABEL161 
 TEXT H$ uma escada para a passagem subterr}nea escondida debaixo da cama.
 JMP .LABEL162 
@@ -1261,7 +1261,7 @@ X_00 0073 0001
 
 :LABEL275
 IF 16 0E 00 15 05 00 02 16 1D 00 15 00 00 02 0F 00 .LABEL276 
-TEXT Tomando emprestadas as palavras de Haruka, agora que a situa|~o dela est$ resolvida, n~o preciso mais me envolver nisso.
+TEXT Tomando emprestada as palavras de Haruka, agora que a situa|~o dela est$ resolvida, n~o preciso mais me envolver nisso.
 TEXT Agora % a minha vez.
 TEXT Sim, % o que isso significa?
 TEXT Agora preciso me mover por conta pr+pria.

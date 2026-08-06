@@ -342,7 +342,7 @@ BACKGROUND 'BG004'
 X_24 00 
 X_25 06 
 IF 17 3E 00 15 00 00 02 00 .LABEL94 
-TEXT Mais uma vez, entrei no MINMES.
+TEXT Mais uma vez entrei no MINMES.
 PLAY_SOUND 01 'm01_min023' 00
 TEXT Voz: "Qual o problema? Voc[ deveria estar almo|ando no refeit+rio."
 STOP_SOUND 01
@@ -366,7 +366,7 @@ X_00 0028 0001
 JMP .LABEL95 
 
 :LABEL94
-TEXT Mais uma vez, entrei no Minmes.
+TEXT Mais uma vez entrei no MINMES.
 PLAY_SOUND 01 'm02_min004' 00
 TEXT Voz: "Voc[, de novo..."
 STOP_SOUND 01
@@ -410,7 +410,7 @@ STOP_SOUND 01
 PLAY_SOUND 01 '015_iku041' 00
 TEXT Ikumi: "Sim..."
 STOP_SOUND 01
-TEXT Sa& do Minmes.
+TEXT Sa& do MINMES.
 
 :LABEL97
 X_00 0028 0001 
@@ -1340,7 +1340,7 @@ JMP .LABEL281
 :LABEL280
 IF 16 0E 00 15 05 00 02 17 39 00 15 00 00 02 0F 00 .LABEL282
 TEXT Espera...
-TEXT Eu n~o posso voltar enquanto ainda n~o encontrei Haruka no corredor subterr}neo...
+TEXT Eu n~o posso voltar ainda. Preciso encontrar a Haruka no corredor subterr}neo...
 JMP .LABEL281
 
 :LABEL282

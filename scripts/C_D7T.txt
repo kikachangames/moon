@@ -716,9 +716,9 @@ JMP .LABEL211
 IF 16 03 00 15 04 00 02 00 .LABEL211 
 IF 16 3B 00 15 01 00 02 00 .LABEL216 
 TEXT ...Espera.
-TEXT Eu vou mesmo assim, mesmo com os patrulheiros de plant~o...?
+TEXT Eu vou continuar, mesmo com os patrulheiros de plant~o...?
 TEXT 
-SELECT 0003 'Ir' 'Pensar de novo'
+SELECT 0003 'Continuar' 'Pensar de novo'
 X_51 00 
 IF 16 03 00 15 01 00 02 00 .LABEL217 
 X_00 0009 002F 
