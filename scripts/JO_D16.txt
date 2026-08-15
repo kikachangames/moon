@@ -186,7 +186,7 @@ X_25 01
 :LABEL14
 X_01 0006 0009 
 IF 17 8D 00 15 00 00 02 00 .LABEL55 
-TEXT H$ uma porta com um leitor de cart~ao instalado de um lado.
+TEXT H$ uma porta com um leitor de cart~o instalado de um lado.
 X_04 008D 0001 
 
 :LABEL55
@@ -197,8 +197,8 @@ TEXT
 SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Porta' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL56 
-TEXT H$ uma porta com um leitor de cart~ao instalado de um lado.
-TEXT Deve abrir se eu usar este cart~o de acesso.
+TEXT H$ uma porta com um leitor de cart~o instalado de um lado.
+TEXT Deve abrir se eu usar o cart~o de acesso.
 JMP .LABEL57 
 
 :LABEL56
@@ -211,7 +211,7 @@ JMP .LABEL57
 IF 16 03 00 15 04 00 02 00 .LABEL57 
 IF 17 91 00 15 00 00 02 00 .LABEL62 
 TEXT Passei o cart~o de acesso na ranhura e destravei a fechadura.
-TEXT Ent~o a porta se abriu, confirmei a aus[ncia de patrulheiros do outro lado e entrei discretamente.
+TEXT A porta se abriu. Confirmei a aus[ncia de patrulheiros do outro lado e entrei discretamente.
 JMP .LABEL63
 
 :LABEL62
@@ -246,7 +246,7 @@ TEXT Mas esta sala tamb%m se conecta ao subterr}neo...
 JMP .LABEL68
 
 :LABEL69
-TEXT Sa& do corredor subterr}aneo e ca& em uma sala vazia.
+TEXT Sa& do corredor subterr}neo e ca& em uma sala vazia.
 X_04 0040 0000 
 
 :LABEL68
@@ -284,7 +284,7 @@ TEXT
 SELECT 0003 'Examinar' 'Entrar na Passagem Subterr}nea' 'Sair do local' 
 X_51 00 
 IF 16 03 00 15 01 00 02 00 .LABEL76 
-TEXT Tem uma escada para o corredor subterr}aneo escondida nesta sala.
+TEXT Tem uma escada para o corredor subterr}neo escondida nesta sala.
 JMP .LABEL75 
 
 :LABEL76

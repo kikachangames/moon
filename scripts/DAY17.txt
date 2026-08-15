@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 0011 
-SETSTATUS ' Day 17 -- Facility Interior'
+SETSTATUS ' Dia 17 -- Interior da Instala|~o'
 BACKGROUND 'FG216' 
 X_24 00 
 X_25 06 
@@ -165,26 +165,26 @@ BACKGROUND 'BG014'
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd07' 01 
-TEXT It's over...
-TEXT There's nothing left for me.
-TEXT I'm an empty shell.
-TEXT Just an existence waiting to lose its mind.
-TEXT An existence living without meaning.
+TEXT Acabou...
+TEXT N~o sobrou nada para mim.
+TEXT Sou s+ uma casca vazia.
+TEXT Uma exist[ncia apenas esperando para enlouquecer.
+TEXT Uma exist[ncia vivendo sem sentido nenhum.
 TEXT .........
-TEXT I raised my eyes, and saw a small tail floating in the dirty water.
-TEXT It's the herniated rabbit I threw away yesterday.
+TEXT Levantei os olhos e vi um rabo pequeno flutuando na $gua suja.
+TEXT @ o coelhinho de pel^cia rasgado que joguei fora ontem.
 PLAY_SOUND 01 'se73' 00 
-TEXT I jumped into the water without hesitation, seeking that stuffed animal.
-TEXT While drinking that water, I grabbed it.
+TEXT Pulei na $gua sem pensar duas vezes, buscando aquele bicho de pel^cia.
+TEXT Enquanto engolia aquela $gua, eu o agarrei.
 X_3E 04 53 'G001' 
 X_56 04 0028 004E 
 X_3F 04 01 
 X_25 09 
-TEXT Then I held it.
-TEXT Knowing it's the only memento I have left of him.
-TEXT Just like back then.
-TEXT I lose the person who was watching me...
-TEXT Then, I lose sight of the meaning in trying...
+TEXT Ent~o o abracei forte.
+TEXT Sabendo que era a ^nica lembran|a que me sobrou dele.
+TEXT De novo, como naquela %poca.
+TEXT Perdi a pessoa que gostava de mim...
+TEXT E, mais uma vez, perdi o sentido de continuar vivendo...
 TEXT .........
 TEXT ......
 TEXT ...

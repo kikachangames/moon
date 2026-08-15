@@ -249,307 +249,307 @@ STOP_SOUND 01
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy001' 00 
-TEXT Garoto: "Hey."
+TEXT Garoto: "Ei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku000' 00 
-TEXT Ikumi: "...I've been looking for you."
+TEXT Ikumi: "...Estava te procurando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy002' 00 
-TEXT Garoto: "Oh? You have some unfinished business with me?"
+TEXT Garoto: "@? Voc[ tem algum assunto para resolver comigo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku001' 00 
-TEXT Ikumi: "You know I do..."
+TEXT Ikumi: "Voc[ sabe que tenho..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku002' 00 
-TEXT Ikumi: "You're the one I should be taking revenge on."
+TEXT Ikumi: "Voc[ % aquele de quem devo me vingar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy003' 00 
-TEXT Garoto: "Yes, that's right."
+TEXT Garoto: "Sim, justo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku003' 00 
-TEXT Ikumi: "I've been searching for you."
+TEXT Ikumi: "Estava te procurando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku004' 00 
-TEXT Ikumi: "But you were here, in this place."
+TEXT Ikumi: "Mas voc[ estava aqui, neste lugar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku005' 00 
-TEXT Ikumi: "Why this place...?"
+TEXT Ikumi: "Por que logo aqui...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy004' 00 
-TEXT Garoto: "Isn't it convenient?"
+TEXT Garoto: "N~o % conveniente?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy005' 00 
-TEXT Garoto: "As you can see, I can neither run nor hide. This is the perfect chance to take your revenge."
+TEXT Garoto: "Como pode ver, n~o posso correr nem me esconder. Esta % a oportunidade perfeita para se vingar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku006' 00 
-TEXT Ikumi: "Why..."
+TEXT Ikumi: "Por qu[..."
 STOP_SOUND 01 
 TEXT Garoto: "......"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku007' 00 
-TEXT Ikumi: "Why...did you save me, and then get captured yourself...?"
+TEXT Ikumi: "Por que... voc[ me salvou e depois foi capturado...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy006' 00 
-TEXT Garoto: "I did something that made them want to capture me."
+TEXT Garoto: "Fiz algo que n~o deixou outra escolha para eles."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku008' 00 
-TEXT Ikumi: "But then there's no point in saving me...!"
+TEXT Ikumi: "Mas ent~o n~o adiantou nada me salvar...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy007' 00 
-TEXT Garoto: "Why?"
+TEXT Garoto: "Por qu[?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku009' 00 
-TEXT Ikumi: "Didn't you save me for your own sake!!?　Because you were afraid to lose a part of your body!!!"
+TEXT Ikumi: "Voc[ n~o me salvou para seu pr+prio bem!? Porque teve medo de perder uma parte do seu corpo!!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy008' 00 
-TEXT Garoto: "No."
+TEXT Garoto: "N~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku010' 00 
-TEXT Ikumi: "Liar...!"
+TEXT Ikumi: "Mentiroso...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy009' 00 
-TEXT Garoto: "It's true."
+TEXT Garoto: "Estou falando s%rio."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku011' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy010' 00 
-TEXT Garoto: "Somehow, you seem to be receiving another shock."
+TEXT Garoto: "De algum modo, parece que voc[ ficou surpresa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku012' 00 
-TEXT Ikumi: "Then why did you save me!!? Why...why were you willing to lose both your arms...!?"
+TEXT Ikumi: "Ent~o por que voc[ me salvou!!? Por que... fez isso, mesmo perdendo os dois bra|os...!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy011' 00 
-TEXT Garoto: "Atonement."
+TEXT Garoto: "Expia|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku013' 00 
-TEXT Ikumi: "Atonement...?"
+TEXT Ikumi: "Expia|~o...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy012' 00 
-TEXT Garoto: "Yes, atonement."
+TEXT Garoto: "Sim, expia|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy013' 00 
-TEXT Garoto: "That's all I was able to do."
+TEXT Garoto: "Isso foi tudo que pude fazer."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku014' 00 
-TEXT Ikumi: "You don't have to do anything like this just to make up!!"
+TEXT Ikumi: "Voc[ n~o precisa fazer nada assim s+ pra se desculpar!!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy014' 00 
-TEXT Garoto: "That's not true; this problem isn't just about us."
+TEXT Garoto: "Isso n~o % verdade. Esse problema n~o diz respeito apenas a eu e voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy015' 00 
-TEXT Garoto: "It's about all of you and all of us. That's why I had to involve you all."
+TEXT Garoto: "@ sobre todos voc[s e todos n+s. @ por isso que tive que envolver todos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku015' 00 
-TEXT Ikumi: "What do you mean...'all of you,' 'all of us'...?"
+TEXT Ikumi: "O que voc[ quer dizer com... 'todos voc[s', 'todos n+s'...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy016' 00 
-TEXT Garoto: "All of us, means everyone of the same species as me. All of you, means everyone of your species."
+TEXT Garoto: "Todos n+s, significa todos da minha esp%cie. Todos voc[s, significa todos da sua esp%cie."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku016' 00 
-TEXT Ikumi: "Tell me everything."
+TEXT Ikumi: "Desembucha logo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy017' 00 
-TEXT Garoto: "Good point."
+TEXT Garoto: "Bom ponto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy018' 00 
-TEXT Garoto: "I no longer have a duty to hide it. I'll tell you everything."
+TEXT Garoto: "N~o tenho mais o dever de esconder isso. Vou contar tudo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy019' 00 
-TEXT Garoto: "Thirty years ago."
+TEXT Garoto: "Foi h$ 30 anos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy020' 00 
-TEXT Garoto: "One of my race was captured by you humans, and everything started there."
+TEXT Garoto: "Tudo come|ou a partir do momento em que um da nossa esp%cie foi capturado..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy021' 00 
-TEXT Garoto: "I don't know why, but you humans called us demons."
+TEXT Garoto: "N~o sei bem o porqu[, mas voc[s, humanos, nos chamavam de dem{nios."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy022' 00 
-TEXT Garoto: "Probably because we had rather strange appearances, you all labeled us with that frightening word."
+TEXT Garoto: "Provavelmente nos chamavam assim por medo, por termos uma apar[ncia estranha e diferente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy023' 00 
-TEXT Garoto: "But what made you fear us even more was what you called our unique powers."
+TEXT Garoto: "Mas o que causava ainda mais medo era o que voc[s chamam de for|a invis&vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy024' 00 
-TEXT Garoto: "At first he was made to do a lot of things using that power."
+TEXT Garoto: "No come|o, nos obrigavam a fazer todo tipo de coisa usando essas habilidades."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy025' 00 
-TEXT Garoto: "He was treated horribly, and many of his friends died."
+TEXT Garoto: "Fomos tratados de forma terr&vel, e muitos dos nossos acabaram morrendo por causa disso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy026' 00 
-TEXT Garoto: "But our powers seemed to be of great interest to the humans."
+TEXT Garoto: "No entanto, parece que nossas habilidades eram extremamente fascinantes aos olhos dos humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy027' 00 
-TEXT Garoto: "Then someone came up with the idea of implanting that power in humans."
+TEXT Garoto: "Ent~o algu%m teve a ideia de implantar esse poder nos humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy028' 00 
-TEXT Garoto: "They researched our unique traits, and succeded in implanting a piece of our will--which they called an 'alter ego'--inside a human body."
+TEXT Garoto: "Eles pesquisaram nossas caracter&sticas e conseguiram implantar no corpo humano um fragmento da nossa consci[ncia, que chamaram de 'alter ego'."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy029' 00 
-TEXT Garoto: "But that alter ego had no intelligence. We happen to be an existence unified from several smaller ones."
+TEXT Garoto: "S+ que esses alter egos n~o tinham intelecto. Era algo que originalmente deveria ser controlado por n+s."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy030' 00 
-TEXT Garoto: "That's why humans need a strong mind in order to control it."
+TEXT Garoto: "Por isso, os humanos tamb%m precisavam de for|a mental suficiente para conseguir cont[-los."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy031' 00 
-TEXT Garoto: "It used to be horrible."
+TEXT Garoto: "No come|o, foi um desastre."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy032' 00 
-TEXT Garoto: "Most of the experimental subjects were eaten from the inside by our alter egos."
+TEXT Garoto: "A maioria dos humanos usados como cobaias acabou sendo devorada pelos alter egos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy033' 00 
-TEXT Garoto: "But humans then obtained means of heightening their mental strength."
+TEXT Garoto: "At% que os humanos encontraram um meio de aumentar a resist[ncia da mente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy034' 00 
-TEXT Garoto: "That's the mental training they have now."
+TEXT Garoto: "@ o atual treinamento de fortalecimento mental."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy035' 00 
-TEXT Garoto: "Should I talk about that?"
+TEXT Garoto: "Quer que eu fale sobre isso tamb%m?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku017' 00 
-TEXT Ikumi: "Yes...tell me."
+TEXT Ikumi: "Sim... me conte."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy036' 00 
-TEXT Garoto: "First, the subjects are divided up into three ranks based on how many cruel experiences they've had in life."
+TEXT Garoto: "Primeiro, os sujeitos s~o divididos em tr[s classes, de acordo com o n&vel de sofrimento que enfrentaram em suas vidas at% o momento."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy037' 00 
-TEXT Garoto: "You must have borne some truly painful feelings when you came here. It takes a lot to get assigned to Class A."
+TEXT Garoto: "Quando voc[ veio para c$, certamente carregava um fardo bem pesado. Ningu%m % designado para a Classe A a menos que tenha passado por algo extremo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy038' 00 
-TEXT Garoto: "Then, the Minmes fixates on a specific part of that past pain, in order to measure your mental strengthening."
+TEXT Garoto: "O MINMES pega essa dor do passado, fixa ela em uma parte do seu inconsciente e tenta fortalecer a sua mente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy039' 00 
-TEXT Garoto: "The Elpod makes you face your other self, and by reminiscing on past disgraces makes the same kind of measurement."
+TEXT Garoto: "O ELPOD faz voc[ confrontar o seu outro eu e relembrar os traumas do passado para, do mesmo modo, tentar refor|ar a mente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy040' 00 
-TEXT Garoto: "Although, the memories they show you are made to be excessively dramatized."
+TEXT Garoto: "Bom, mas as mem+rias manipuladas ali s~o exageradas e alteradas dramaticamente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy041' 00 
-TEXT Garoto: "Then, once it's been determined that you've received enough training to cultivate a strong mind, one of our wills is injected."
+TEXT Garoto: "Quando percebem que a mente ficou forte o bastante ap+s esses treinos, % feito o implante da nossa consci[ncia."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy042' 00 
-TEXT Garoto: "And that would be......well, you know."
+TEXT Garoto: "E depois disso... bem, voc[ sabe..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy043' 00 
-TEXT Garoto: "Theoretically, it would be possible to control our wills at that point. Or so they hypothesized."
+TEXT Garoto: "Teoricamente, seria poss&vel controlar nossa consci[ncia a partir desse ponto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy044' 00 
-TEXT Garoto: "But as you know, the probability of achieving a finished product is still low."
+TEXT Garoto: "Mas como voc[ sabe, a probabilidade de conseguir um esp%cime perfeito ainda % baixa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy045' 00 
-TEXT Garoto: "Their research has a long way to go."
+TEXT Garoto: "A pesquisa deles ainda tem um longo caminho a percorrer."
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy046' 00 
-TEXT Garoto: "But, I do understand..."
+TEXT Garoto: "Mas a ^nica certeza que tenho..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy047' 00 
-TEXT Garoto: "That to all of you, none of us are good."
+TEXT Garoto: "...@ que o que est~o fazendo n~o faz bem nem para n+s, nem para voc[s."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy048' 00 
-TEXT Garoto: "That's why I bet on you."
+TEXT Garoto: "E foi por isso que eu apostei em voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy049' 00 
-TEXT Garoto: "I thought I could end everything with you as the final sacrifice."
+TEXT Garoto: "Achei que poderia terminar tudo com voc[ como sacrif&cio final."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy050' 00 
-TEXT Garoto: "By being in this facility, we are naturally shackled."
+TEXT Garoto: "Por estarmos nesta instala|~o, ficamos naturalmente acorrentados."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy051' 00 
-TEXT Garoto: "But if you become a finished product, you'd have the same power, without those shackles."
+TEXT Garoto: "Mas se voc[ se tornar um produto acabado, ter$ o mesmo poder, sem essas algemas."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy052' 00 
-TEXT Garoto: "If you took your revenge using that power, everything would end."
+TEXT Garoto: "Se voc[ se vingasse usando esse poder, tudo acabaria."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy053' 00 
-TEXT Garoto: "But it didn't work out that way."
+TEXT Garoto: "Mas n~o foi assim que funcionou."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy054' 00 
-TEXT Garoto: "You can't control your other consciousness, my alter ego, and now they've decided your mind is Lost."
+TEXT Garoto: "Voc[ n~o pode controlar sua outra consci[ncia, meu alter ego, e agora eles decidiram que sua mente est$ perdida."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy055' 00 
-TEXT Garoto: "The only result left behind by all this, is the fact that I used you."
+TEXT Garoto: "O ^nico resultado que ficou disso tudo foi o fato de eu ter usado voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy056' 00 
-TEXT Garoto: "That's why I gave you a little freedom at the end, as atonement."
+TEXT Garoto: "Por isso te libertei, como expia|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku019' 00 
-TEXT Ikumi: "You were a victim too..."
+TEXT Ikumi: "Voc[ % uma v&tima tamb%m..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy057' 00 
-TEXT Garoto: "I dislike such pretty words."
+TEXT Garoto: "N~o mere|o palavras t~o bonitas."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy058' 00 
-TEXT Garoto: "I used you in a scheme to free my species."
+TEXT Garoto: "Eu usei voc[ num esquema para libertar minha esp%cie."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy059' 00 
-TEXT Garoto: "And failed."
+TEXT Garoto: "E falhei."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy060' 00 
-TEXT Garoto: "That's the only truth."
+TEXT Garoto: "Essa % a ^nica verdade."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku020' 00 
-TEXT Ikumi: "No..."
+TEXT Ikumi: "N~o..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku021' 00 
-TEXT Ikumi: "You could have done it over..."
+TEXT Ikumi: "Voc[ poderia ter recome|ado..."
 STOP_SOUND 01 
 TEXT Garoto: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku022' 00 
-TEXT Ikumi: "If you hadn't saved me...you could have tried over and over to free yourselves..."
+TEXT Ikumi: "Se voc[ n~o tivesse me salvado... poderia ter tentado quantas vezes fosse necess$rio para libertar voc[s..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy061' 00 
-TEXT Garoto: "Like I have until now...?"
+TEXT Garoto: "Assim como eu vinha fazendo at% agora...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku023' 00 
-TEXT Ikumi: "Yes, like you have until now."
+TEXT Ikumi: "Isso, assim como voc[ vinha fazendo at% agora."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy062' 00 
-TEXT Garoto: "I used to hate humans."
+TEXT Garoto: "Eu costumava odiar os humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku024' 00 
-TEXT Ikumi: "Yeah..."
+TEXT Ikumi: "@..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy063' 00 
-TEXT Garoto: "Hey..."
+TEXT Garoto: "Ei..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku025' 00 
-TEXT Ikumi: "Yes...?"
+TEXT Ikumi: "Sim...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy064' 00 
-TEXT Garoto: "My face itches."
+TEXT Garoto: "Meu rosto est$ co|ando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku026' 00 
-TEXT Ikumi: "Oh..."
+TEXT Ikumi: "Ah..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy065' 00 
-TEXT Garoto: "Obviously, I can't scratch it."
+TEXT Garoto: "Obviamente, eu n~o consigo co|ar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy066' 00 
-TEXT Garoto: "Would you mind...?"
+TEXT Garoto: "Ser$ que voc[ poderia...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku027' 00 
-TEXT Ikumi: "Sure..."
+TEXT Ikumi: "Tudo bem..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku028' 00 
-TEXT Ikumi: "Bring your face over here."
+TEXT Ikumi: "Aproxime o seu rosto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy067' 00 
-TEXT Garoto: "Okay."
+TEXT Garoto: "Certo."
 STOP_SOUND 01 
 BACKGROUND 'FG078' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '041_boy068' 00 
-TEXT Garoto: "This is my final selfish act."
+TEXT Garoto: "Este % meu ^ltimo pedido ego&sta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku029' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 '041_boy069' 00 
-TEXT Garoto: "Farewell, Ikumi."
+TEXT Garoto: "Adeus, Ikumi."
 STOP_SOUND 01 
 PLAY_SOUND 01 '105_iku030' 00 
 TEXT Ikumi: "........."
@@ -565,51 +565,51 @@ BACKGROUND 'BG014'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT What can I do...?
-TEXT What should I do...?
-TEXT What should my objective be...?
+TEXT O que posso fazer...?
+TEXT O que devo fazer...?
+TEXT Qual deve ser meu objetivo...?
 PLAY_SOUND 01 '042_boy000' 00 
-TEXT "If you're going to take action on our behalf, I have two things to tell you."
+TEXT "Se pretende agir em nosso nome, tenho duas coisas a lhe dizer."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy001' 00 
-TEXT "Our common enemy is the founder of Fargo, known only as <The Voice's Owner>."
+TEXT "Nosso inimigo comum % o fundador da FARGO, conhecido apenas como <O Dono da Voz>."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy002' 00 
-TEXT "Even we don't know where he is."
+TEXT "Nem n+s sabemos onde ele se esconde."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy003' 00 
-TEXT "If you're going to try and find out, you'll have only your instincts."
+TEXT "Se voc[ tentar encontrar ele, contar$ apenas com a sua intui|~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy004' 00 
-TEXT "And one other thing."
+TEXT "E outra coisa."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy005' 00 
-TEXT "That which shackles all of us is in the deepest reaches of the underground levels."
+TEXT "Aquilo que nos acorrenta est$ nas profundezas dos andares subterr}neos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy006' 00 
-TEXT "But don't move based on a fleeting emotion."
+TEXT "Mas n~o aja por impulso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy007' 00 
-TEXT "The underground is endlessly deep, and the form of those shackles is unclear."
+TEXT "O subsolo % infinitamente profundo, e a forma dessas correntes % incerta."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy008' 00 
-TEXT "You won't break it in time for my elimination tomorrow morning."
+TEXT "Voc[ n~o conseguir$ destru&-las antes da minha elimina|~o amanh~ de manh~."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy009' 00 
-TEXT "Think about yourself, and act with a goal in mind."
+TEXT "Pense em si mesma e aja com um objetivo em mente."
 STOP_SOUND 01 
 PLAY_SOUND 01 '042_boy010' 00 
-TEXT "You might be able to accomplish one of those things with the time you have left."
+TEXT "Pode ser que voc[ ainda consiga fazer algo com o tempo que lhe resta."
 STOP_SOUND 01 
-TEXT I ruminated on the boy's words.
-TEXT Two choices.
-TEXT Aim to kill our common enemy, <The Voice's Owner>...
-TEXT Or, aim to remove their shackles.
-TEXT If I made it in time, I may even save his life...
-TEXT If I had time, I could perform both, but I had no time.
-TEXT However, after hearing his side of the story, I already had my answer.
-TEXT ...I'll go.
-TEXT To the underground shackles.
+TEXT Remo& as palavras do garoto.
+TEXT Duas op|/es.
+TEXT Tentar matar o nosso inimigo em comum...\n<O Dono da Voz>...
+TEXT Ou tentar destruir suas correntes.
+TEXT Se eu chegasse a tempo, talvez pudesse at% salvar sua vida...
+TEXT Se houvesse tempo, faria as duas coisas, mas eu n~o tinha tempo.
+TEXT No entanto, depois de ouvir a vers~o dele, eu j$ tinha a minha resposta.
+TEXT ...Eu vou.
+TEXT At% as correntes no subsolo.
 PLAY_SOUND 00 'mon_cd09' 01 
 X_04 008F 0001 
 X_00 0009 0042 
@@ -622,178 +622,178 @@ BACKGROUND 'BG025'
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd13' 01 
-TEXT A door...
-TEXT Beyond this is the device acting as their shackles...
-TEXT I made it in time...
+TEXT Uma porta...
+TEXT Do outro lado est$ o aparelho que aprisiona...
+TEXT Consegui chegar a tempo...
 PLAY_SOUND 01 '107_iku000' 00 
-TEXT Ikumi: (Dawn should still be a long ways off...）
+TEXT Ikumi: (O amanhecer ainda vai demorar para chegar...)
 STOP_SOUND 01 
-TEXT I extended my hand to open that door.
-TEXT But there was no knob.
+TEXT Estiquei a m~o para tentar abrir a porta.
+TEXT Mas n~o tinha ma|aneta.
 PLAY_SOUND 01 '107_iku001' 00 
-TEXT Ikumi: (Eh......?）
+TEXT Ikumi: (U%......?)
 STOP_SOUND 01 
-TEXT I could see no protrusions of any kind on that flat, inorganic surface.
-TEXT There was no kind of door opening mechanism on either side.
+TEXT N~o havia o menor relevo naquela superf&cie plana e inorg}nica.
+TEXT Nenhum mecanismo de abertura podia ser visto em nenhum dos lados.
 PLAY_SOUND 01 '107_iku002' 00 
-TEXT Ikumi: (How do I open this...?）
+TEXT Ikumi: (Como % que abre isso...?)
 STOP_SOUND 01 
-TEXT Ikumi: (.........）
+TEXT Ikumi: (.........)
 STOP_SOUND 01 
-TEXT ......no, I can't give up here.
-TEXT I have to open this door somehow...
+TEXT ......N~o, n~o posso fraquejar agora.
+TEXT Preciso abrir esta porta de qualquer maneira...
 TEXT 
-SELECT 0003 'Pry it open with my bare hands' 'Think' 
+SELECT 0003 'For|ar com as pr+prias m~os' 'Pensar' 
 IF 16 03 00 15 01 00 02 00 .LABEL3 
-TEXT I stuck my fingers into the narrow slit between the doors and tried prying it open.
+TEXT Enfiei os dedos na fresta estreita entre as portas e tentei abrir.
 PLAY_SOUND 01 '107_iku004' 00 
-TEXT Ikumi: "Uu..."
+TEXT Ikumi: "Uhmm..."
 STOP_SOUND 01 
-TEXT No matter how much strength I use, there's no sign of motion...
+TEXT Por mais for|a que eu fa|a, n~o h$ sinal algum de movimento...
 PLAY_SOUND 01 '107_iku005' 00 
-TEXT Ikumi: "This stupid..."
+TEXT Ikumi: "Droga de..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se14' 00 
-TEXT *gari*...!
-TEXT When I yanked on it with all my strength, the door simply tore my nails.
+TEXT *Krrr...!*
+TEXT Quando puxei com toda a for|a, a porta simplesmente acabou com minhas unhas.
 PLAY_SOUND 01 '107_iku006' 00 
-TEXT Ikumi: "Owww..."
+TEXT Ikumi: "Aiii..."
 STOP_SOUND 01 
-TEXT I saw my nails had broken off, and blood was oozing out around the corners.
+TEXT Vi que minhas unhas tinham quebrado e o sangue escorria pelos cantos.
 PLAY_SOUND 01 '107_iku007' 00 
 TEXT Ikumi: "Uaa..."
 STOP_SOUND 01 
-TEXT Seems there's no chance of opening it with my hands...
+TEXT Pelo visto, sem chance de abrir isso com as m~os...
 JMP .LABEL4 
 
 :LABEL3
-TEXT What could I do to open it...?
-TEXT No keyhole. No card reader. No keypad lock...
-TEXT Would it open if I wasted all my strength on it...?
+TEXT O que eu poderia fazer para abrir...?
+TEXT Nenhum buraco de chave. Nenhum leitor de cart~o. Nenhum painel num%rico...
+TEXT Ser$ que abriria se eu gastasse toda a minha for?a nisso...?
 
 :LABEL7
 TEXT 
-SELECT 0003 'Pry it open with my bare hands' 'Think' 
+SELECT 0003 'For|ar com as pr+prias m~os' 'Pensar' 
 IF 16 03 00 15 01 00 02 00 .LABEL5 
-TEXT I stuck my fingers into the narrow slit between the doors and tried prying it open.
+TEXT Enfiei os dedos na fresta estreita entre as portas e tentei for|ar.
 PLAY_SOUND 01 '107_iku004' 00 
-TEXT Ikumi: "Uu..."
+TEXT Ikumi: "Uhmm..."
 STOP_SOUND 01 
-TEXT No matter how much strength I use, there's no sign of motion...
+TEXT Por mais for|a que eu fa|a, n~o h$ sinal algum de movimento...
 PLAY_SOUND 01 '107_iku005' 00 
-TEXT Ikumi: "This stupid..."
+TEXT Ikumi: "Droga de..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se14' 00 
-TEXT *gari*...!
-TEXT When I yanked on it with all my strength, the door simply tore my nails.
+TEXT *Krrr...!*
+TEXT Quando puxei com toda a for|a, a porta simplesmente acabou com minhas unhas.
 PLAY_SOUND 01 '107_iku006' 00 
-TEXT Ikumi: "Owww..."
+TEXT Ikumi: "Aiii..."
 STOP_SOUND 01 
-TEXT I saw my nails had broken off, and blood was oozing out around the corners.
+TEXT Vi que minhas unhas tinham quebrado e o sangue escorria pelos cantos.
 PLAY_SOUND 01 '107_iku007' 00 
 TEXT Ikumi: "Uaa..."
 STOP_SOUND 01 
-TEXT Seems there's no chance of opening it with my hands...
+TEXT Pelo visto, sem chance de abrir isso com as m~os...
 JMP .LABEL4 
 
 :LABEL5
-TEXT For now I'll try opening it with just my hands...
+TEXT Por enquanto vou tentar abrir isso com as m~os...
 JMP .LABEL7 
 
 :LABEL4
 TEXT 
-SELECT 0003 'Run into it' 'Think' 
+SELECT 0003 'Jogar o corpo' 'Pensar' 
 IF 16 03 00 15 01 00 02 00 .LABEL8 
-TEXT The door was so tough it almost seemed to be adhered to a solid wall...
-TEXT But, I have to try everything...
-TEXT I took a few steps back.
+TEXT A porta era t~o r&gida que parecia colada na parede s+lida...
+TEXT Mas preciso tentar de tudo...
+TEXT Dei alguns passos para tr$s.
 PLAY_SOUND 01 '107_iku008' 00 
-TEXT Ikumi: (*gulp*...）
+TEXT Ikumi: (*Gulp...*)
 STOP_SOUND 01 
-TEXT Then I sprinted.
-TEXT And hit the door with my shoulder.
+TEXT Ent~o me lancei # frente.
+TEXT E me choquei contra a porta com o ombro.
 PLAY_SOUND 01 'se14' 00 
-TEXT *zun!!*
+TEXT *Bum!!*
 PLAY_SOUND 01 '107_iku009' 00 
-TEXT Ikumi: "gu..."
+TEXT Ikumi: "Ugh..."
 STOP_SOUND 01 
-TEXT Then I fell to the ground.
-TEXT It didn't even budge. This was hopeless...
+TEXT Ca& no ch~o em seguida.
+TEXT A porta nem se mexeu. Era in^til...
 PLAY_SOUND 01 '107_iku010' 00 
 TEXT Ikumi: "Uuu..."
 STOP_SOUND 01 
-TEXT My shoulder hurt too much. I couldn't move for a while...
+TEXT Meu ombro do&a demais. N~o consegui me mover por um tempo...
 JMP .LABEL9 
 
 :LABEL8
-TEXT The door was so tought it almost seemed to be adhered to a solid wall...
-TEXT But, I have to try everything...
+TEXT A porta era t?o r&gida que parecia colada na parede s+lida...
+TEXT Mas preciso tentar de tudo...
 
 :LABEL12
 TEXT 
-SELECT 0003 'Run into it' 'Think' 
+SELECT 0003 'Jogar o corpo' 'Pensar' 
 IF 16 03 00 15 01 00 02 00 .LABEL10 
-TEXT I took a few steps back.
+TEXT Dei alguns passos para tr$s.
 PLAY_SOUND 01 '107_iku008' 00 
-TEXT Ikumi: (*gulp*...）
+TEXT Ikumi: (*Gulp...*)
 STOP_SOUND 01 
-TEXT Then I sprinted.
-TEXT And hit the door with my shoulder.
+TEXT Ent~o me lancei # frente.
+TEXT E me choquei contra a porta com o ombro.
 PLAY_SOUND 01 'se14' 00 
-TEXT *zun!!*
+TEXT *Bum!!*
 PLAY_SOUND 01 '107_iku009' 00 
-TEXT Ikumi: "gu..."
+TEXT Ikumi: "Ugh..."
 STOP_SOUND 01 
-TEXT Then I fell to the ground.
-TEXT It didn't even budge. This was hopeless...
+TEXT Ca& no ch~o em seguida.
+TEXT A porta nem se mexeu. Era in^til...
 PLAY_SOUND 01 '107_iku010' 00 
 TEXT Ikumi: "Uuu..."
 STOP_SOUND 01 
-TEXT My shoulder hurt too much. I couldn't move for a while...
+TEXT Meu ombro do&a demais. N~o consegui me mover por um tempo...
 JMP .LABEL9 
 
 :LABEL10
-TEXT I'll have to try it. I'd just regret not doing it later...
+TEXT Tenho que tentar. S+ vou me arrepender depois se n~o fizer nada...
 JMP .LABEL12 
 
 :LABEL9
 PLAY_SOUND 01 '107_iku011' 00 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
-TEXT I leaned against the wall and breathed deeply for a while.
+TEXT Encostei na parede e respirei fundo por um tempo.
 PLAY_SOUND 01 '107_iku012' 00 
-TEXT Ikumi: (......everything I do is wasted...）
+TEXT Ikumi: (......Tudo que eu fa|o % in^til...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku013' 00 
-TEXT Ikumi: (...there can't be that much time left...）
+TEXT Ikumi: (...N~o deve ter sobrado quase nada de tempo...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku014' 00 
-TEXT Ikumi: (...he'll be eliminated tomorrow morning......）
+TEXT Ikumi: (...Ele vai ser eliminado amanh~ de manh~......)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku015' 00 
-TEXT Ikumi: (...and then...I'll regret everything...）
+TEXT Ikumi: (...E depois... vou me arrepender de tudo...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku016' 00 
-TEXT Ikumi: (...I don't want that...to happen...）
+TEXT Ikumi: (...N~o quero... que isso aconte|a...)
 STOP_SOUND 01 
-TEXT I slowly stood up, and faced the door once again.
+TEXT Me levantei devagar e encarei a porta mais uma vez.
 PLAY_SOUND 01 'se04' 00 
-TEXT Then I clenched my fist and punched it.
-TEXT No movement.
+TEXT Fechei o punho e esmurrei a porta.
+TEXT Nenhum movimento.
 PLAY_SOUND 01 'se04' 00 
-TEXT But, again I clenched my fist and punched it.
-TEXT No movement.
-TEXT But I repeated that.
-TEXT Clenching my fist and punching it.
-TEXT Repeating that.
+TEXT Ainda assim, fechei o punho e esmurrei de novo.
+TEXT Nenhum movimento.
+TEXT Mas continuei repetindo isso.
+TEXT Fechando o punho e esmurrando.
+TEXT Repetindo isso.
 PLAY_SOUND 01 'se04' 00 
-TEXT *dan!*
+TEXT *Bam!*
 TEXT .........
 PLAY_SOUND 01 'se04' 00 
-TEXT *dan!*
+TEXT *Bam!*
 TEXT ......
 PLAY_SOUND 01 'se04' 00 
-TEXT *dan!*
+TEXT *Bam!*
 TEXT ......
 BACKGROUND 'BO' 
 X_24 00 
@@ -803,180 +803,180 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 'se30' 00 
-TEXT *gacha*...*gacha*...!
+TEXT *Tum*...*Dum*...!
 PLAY_SOUND 01 'm99_min006' 00 
-TEXT Voice: "Hey, we're leaving. I'll be taking you to your death."
+TEXT Voz: "Ei, vamos indo. Vou te levar pra morte."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min007' 00 
-TEXT Voice: "Don't do anything stupid. You'll just suffer more."
+TEXT Voz: "N~o tente nenhuma gracinha. S+ vai ser pior."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy000' 00 
-TEXT Garoto: "What can I do with this body?"
+TEXT Garoto: "O que eu poderia fazer com esse corpo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min008' 00 
-TEXT Voice: "Hmph...true enough."
+TEXT Voz: "Hmph... verdade."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min009' 00 
-TEXT Voice: "Now get moving."
+TEXT Voz: "Agora ande."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy001' 00 
-TEXT Garoto: "As you wish. These arms hurt so much I might lose it."
+TEXT Garoto: "Como quiser. Esses bra|os doem tanto que estou quase enlouquecendo."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min010' 00 
-TEXT Voice: "...aren't you a strange one. Are you all like that...?"
+TEXT Voz: "...Voc[ % bem esquisito. Todos voc[s s~o assim...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy002' 00 
-TEXT Garoto: "Even I'm surprised."
+TEXT Garoto: "At% eu fico surpreso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy003' 00 
-TEXT Garoto: (...that I had this kind of emotion.）
+TEXT Garoto: (......Por sentir esse tipo de emo|~o.)
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '043_boy004' 00 
-TEXT Garoto: (...the reality we wait for is always cruel......）
+TEXT Garoto: (...A realidade que nos aguarda % cruel......)
 STOP_SOUND 01 
 PLAY_SOUND 01 '043_boy005' 00 
-TEXT Garoto: (...never forget yourself, Ikumi.）
+TEXT Garoto: (...Seja sempre voc[ mesma, Ikumi.)
 STOP_SOUND 01 
 BACKGROUND 'BG025' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 'se04' 00 
-TEXT *dan!*
+TEXT *Bam!*
 TEXT ......
 PLAY_SOUND 01 'se04' 00 
-TEXT ...*dan!*
+TEXT ...*Bam!*
 TEXT .........
 PLAY_SOUND 01 'se04' 00 
-TEXT ......*dan!*...
+TEXT ......*Bam!*...
 PLAY_SOUND 01 '107_iku017' 00 
-TEXT Ikumi: "guu..."
+TEXT Ikumi: "Ughh..."
 STOP_SOUND 01 
-TEXT My fists were already broken.
-TEXT There was no longer any meaning to this other than the fact that I was trying.
-TEXT And I didn't want to tell myself that was useless...
-TEXT A long time had passed.
-TEXT His elimination is probably...
+TEXT Meus punhos j$ estavam destru&dos.
+TEXT Eles n~o tinha mais utilidade mas eu continuava tentando.
+TEXT Eu n~o queria reconhecer que isso era in^til...
+TEXT Muito tempo se passou.
+TEXT A elimina|~o dele provavelmente...
 PLAY_SOUND 01 '107_iku034' 00 
-TEXT Ikumi: (No...）
+TEXT Ikumi: (N~o...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku019' 00 
-TEXT Ikumi: (I want to do something...）
+TEXT Ikumi: (Eu quero fazer alguma coisa...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku020' 00 
-TEXT Ikumi: (Tell me...）
+TEXT Ikumi: (Me diga...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku021' 00 
-TEXT Ikumi: (You're inside me, aren't you...?）
+TEXT Ikumi: (Voc[ est$ dentro de mim, n~o est$...?)
 STOP_SOUND 01 
-TEXT I embraced my body.
-TEXT My battered body.
-TEXT The body his alter ego resides in...
+TEXT Abracei meu pr+prio corpo.
+TEXT Meu corpo massacrado.
+TEXT O corpo que o alter ego dele habita...
 PLAY_SOUND 01 '107_iku022' 00 
-TEXT Ikumi: (Ah...）
+TEXT Ikumi: (Ah...)
 STOP_SOUND 01 
-TEXT A strange feeling...
-TEXT I should've been holding myself...
+TEXT Uma sensa|~o estranha...
+TEXT Eu devia estar abra|ando a mim mesma...
 PLAY_SOUND 01 '107_iku023' 00 
-TEXT Ikumi: (This is......you...?）
+TEXT Ikumi: (@...... voc[...?)
 STOP_SOUND 01 
-TEXT I felt it for the first time.
-TEXT The other heartbeat existing inside me...I was now embracing.
+TEXT Senti isso pela primeira vez.
+TEXT Outro batimento card&aco existente dentro de mim... eu agora estava abra|ando.
 PLAY_SOUND 01 '107_iku024' 00 
-TEXT Ikumi: (I didn't know...）
+TEXT Ikumi: (Eu n~o sabia...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku025' 00 
-TEXT Ikumi: (It really was you...）
+TEXT Ikumi: (Era voc[ mesmo...)
 STOP_SOUND 01 
 TEXT .........
 PLAY_SOUND 01 'se16' 00 
-TEXT *gachan!*
+TEXT *Tumdum!*
 PLAY_SOUND 01 '107_iku026' 00 
-TEXT Ikumi: (......?）
+TEXT Ikumi: (......?)
 STOP_SOUND 01 
-TEXT What's that sound...?　It couldn't be...
+TEXT Que som % esse...? N~o pode ser...
 PLAY_SOUND 01 'se72' 01 
-TEXT *viiii*...
-TEXT It could. The door was opening.
+TEXT *Vruuumm...*
+TEXT Podia sim. A porta estava se abrindo.
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku027' 00 
-TEXT Ikumi: (But why...?）
+TEXT Ikumi: (Mas por qu[...?)
 STOP_SOUND 01 
-TEXT That didn't matter.
-TEXT The final door had opened.
-TEXT The door to the shackles.
+TEXT Isso n~o importa.
+TEXT A porta finalmente tinha se aberto.
+TEXT A porta para as correntes.
 PLAY_SOUND 01 '107_iku028' 00 
-TEXT Ikumi: (Yes...now I can save him...!）
+TEXT Ikumi: (Sim... agora posso salv$-lo...!)
 STOP_SOUND 01 
-TEXT I impatiently pushed into the opening between the doors.
+TEXT Impaciente, me forcei atrav%s do espa|o entre as portas.
 BACKGROUND 'BG018' 
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
 PLAY_SOUND 01 '107_iku029' 00 
-TEXT Ikumi: "Eh......?"
+TEXT Ikumi: "Ahn......?"
 STOP_SOUND 01 
-TEXT I was shocked.
-TEXT Because what I saw there was a field of flowers.
-TEXT The floor of this massive space was completely covered in flowers.
-TEXT I couldn't see the far end.
-TEXT If I hadn't brought an objective, that was a magnificent enough sight I would have forgotten time gazing at it.
-TEXT Instead, that's where I learned despair.
-TEXT What the hell am I supposed to do in this field of flowers?
-TEXT What in here could be their shackles?
-TEXT Am I supposed to pick all these flowers one at a time?
-TEXT Are these deeply rooted flowers restraining each and every one of them?
-TEXT Impossible.
-TEXT If this was the true form of their shackles, it would be impossible to remove them.
-TEXT I can't pick each and every one of them.
-TEXT ...impossible.
+TEXT Fiquei chocada.
+TEXT Porque o que vi ali foi um campo de flores.
+TEXT O ch~o deste espa|o imenso estava completamente coberto de flores.
+TEXT Eu n~o conseguia ver o outro extremo.
+TEXT Se eu n~o tivesse um objetivo, seria uma vis~o grandiosa o bastante para me fazer esquecer o tempo apenas olhando.
+TEXT Em vez disso, foi ali que conheci o desespero.
+TEXT O que diabos eu deveria fazer neste campo de flores?
+TEXT O que aqui dentro poderiam ser as correntes deles?
+TEXT Eu deveria arrancar todas estas flores uma a uma?
+TEXT Seriam estas flores profundamente enraizadas o que aprisionava cada um deles?
+TEXT Imposs&vel.
+TEXT Se esta era a verdadeira forma das correntes, seria imposs&vel remov[-las.
+TEXT N~o tenho como arrancar cada uma delas.
+TEXT ...Imposs&vel.
 PLAY_SOUND 01 '107_iku030' 00 
-TEXT Ikumi: (But, if I don't do something...）
+TEXT Ikumi: (Mas, se eu n~o fizer algo...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku031' 00 
-TEXT Ikumi: (I came this far...）
+TEXT Ikumi: (Eu cheguei at% aqui...)
 STOP_SOUND 01 
 PLAY_SOUND 01 '107_iku032' 00 
-TEXT Ikumi: (And there's no time...）
+TEXT Ikumi: (E n~o h$ mais tempo...)
 STOP_SOUND 01 
 BACKGROUND 'FG081' 
 X_24 00 
 X_25 06 
-TEXT I simply pulled up the flowers.
-TEXT Even then I couldn't pull out all the roots.
-TEXT I could only break them at the stalk.
-TEXT Impossible.
-TEXT But there was no other way to save him.
-TEXT I simply continued to tear the flowers.
-TEXT *buchi**buchi**buchi*...
-TEXT My hands began to hurt, then got cut, and red began to mix in with the green...
-TEXT Even so I continued tearing.
-TEXT *buchi**buchi**buchi*...
-TEXT Nothing but continuing to tear.
-TEXT *buchi**buchi**buchi*...
-TEXT Continuing to tear.
-TEXT *buchi**buchi**buchi*...
-TEXT Continuing.
-TEXT *buchi**buchi**buchi*...
-TEXT Continuing...
-TEXT *buchi**buchi**buchi*...
-TEXT Continuing...
-TEXT *buchi**buchi**buchi*...
+TEXT Simplesmente comecei a arrancar as flores.
+TEXT Mesmo assim, n~o conseguia extrair as ra&zes inteiras.
+TEXT Eu s+ conseguia parti-las pelo caule.
+TEXT Imposs&vel.
+TEXT Mas n~o havia outra maneira de salv$-lo.
+TEXT Continuei apenas despeda|ando as flores.
+TEXT *Tic... tic... tic...*
+TEXT Minhas m~os come|aram a doer, depois se cortaram, e o vermelho come|ou a se misturar ao verde...
+TEXT Mesmo assim, continuei rasgando.
+TEXT *Tic... tic... tic...*
+TEXT Nada al%m de continuar rasgando.
+TEXT *Tic... tic... tic...*
+TEXT Continuando a rasgar.
+TEXT *Tic... tic... tic...*
+TEXT Continuando.
+TEXT *Tic... tic... tic...*
+TEXT Continuando...
+TEXT *Tic... tic... tic...*
+TEXT Continuando...
+TEXT *Tic... tic... tic...*
 PLAY_SOUND 01 '107_iku033' 00 
 TEXT Ikumi: "Ah..."
 STOP_SOUND 01 
-TEXT I looked up into empty space.
-TEXT The remains of those flowers fell from my hand.
-TEXT Even separated, I knew.
-TEXT The boy's death.
-TEXT The sense of half your body vanishing.
-TEXT The half remaining inside me responded.
-TEXT I didn't make it.
-TEXT And I...
-TEXT Despaired.
+TEXT Olhei para o vazio.
+TEXT Os restos daquelas flores ca&ram da minha m~o.
+TEXT Mesmo distante, eu soube.
+TEXT A morte do garoto.
+TEXT A sensa|~o de ter metade do pr+prio corpo desaparecendo.
+TEXT A metade que restava dentro de mim respondeu.
+TEXT Eu n~o cheguei a tempo.
+TEXT E eu...
+TEXT Desesperei.
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
