@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0003 
-SETSTATUS 'Day 16Å@Å|Å|Å@Building C'
+SETSTATUS 'Dia 16Å@Å|Å|Å@Pr%dio C'
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay16' 
@@ -155,8 +155,8 @@ X_3F 03 00
 BACKGROUND 'BG019' 
 X_24 00 
 X_25 06 
-TEXT The Minmes is unmanned at night...
-TEXT I left the room.
+TEXT O MINMES n~o funciona # noite...
+TEXT Eu sa& do local.
 X_3F 00 01 
 X_3F 01 01 
 X_3F 02 01 
@@ -175,8 +175,8 @@ X_3F 03 00
 BACKGROUND 'BG019' 
 X_24 00 
 X_25 06 
-TEXT The empty Elpod was enveloped in silence...
-TEXT As there's nothing to do here, I left the room.
+TEXT O ELPOD vazio foi envolvido pelo sil(ncio...
+TEXT Como n~o havia nada para fazer aqui, sa& do local.
 X_3F 00 01 
 X_3F 01 01 
 X_3F 02 01 
@@ -195,8 +195,8 @@ X_3F 03 00
 BACKGROUND 'BG021' 
 X_24 00 
 X_25 06 
-TEXT Not one thing was moving in the Relaxation Room...
-TEXT Having no reason to stay, I left the room.
+TEXT Nem um movimento Sala de Relaxamento...
+TEXT N~o tendo motivo para ficar, sa& do local.
 X_3F 00 01 
 X_3F 01 01 
 X_3F 02 01 
@@ -224,16 +224,16 @@ BACKGROUND 'BG007'
 X_24 00 
 X_25 06 
 IF 17 41 00 15 00 00 02 00 .LABEL76 
-TEXT The dining hall was little different from the one in Building A.
-TEXT Naturally there was no one here at this time.
-TEXT There's nothing to do here, so I left the dining hall.
+TEXT O refeit+rio era um pouco diferente daquele do Pr%dio A.
+TEXT Obviamente n~o tinha ningu%m aqui nesta hora.
+TEXT Como n~o havia nada para fazer aqui, sa& do local.
 X_04 0041 0001 
 JMP .LABEL77 
 
 :LABEL76
 TEXT .........
-TEXT There's no one here.
-TEXT I left the dining hall.
+TEXT N~o tem ningu%m aqui.
+TEXT Sa& do refeit+rio.
 
 :LABEL77
 X_3F 00 01 
@@ -279,23 +279,23 @@ BACKGROUND 'BG008'
 X_24 00 
 X_25 06 
 IF 17 40 00 15 00 00 02 00 .LABEL82 
-TEXT A storeroom...
+TEXT Um dep+sito...
 JMP .LABEL83 
 
 :LABEL82
-TEXT I lifted up the iron plate and entered the storeroom.
+TEXT Levantei a placa de ferro e entrei no dep+sito.
 X_04 0040 0000 
 
 :LABEL83
 TEXT 
-SELECT 0003 'Examine' 'Enter Underground Passage' 'Leave room' 
+SELECT 0003 'Examinar' 'Entrar na passagem subterr}nea' 'Sair' 
 IF 16 03 00 15 01 00 02 00 .LABEL84 
-TEXT There's a ladder to the underground passage hidden in this room.
+TEXT H$ uma escada para a passagem subterr}nea escondida nesta sala.
 JMP .LABEL85 
 
 :LABEL84
 IF 16 03 00 15 02 00 02 00 .LABEL86 
-TEXT I lifted the iron plate in the room's corner and descended into the darkness.
+TEXT Levantei a placa de ferro no canto da sala e desci na escurid~o.
 X_00 0009 0029 
 GOTO_SCRIPT 'UG_D16' 
 JMP .LABEL85 
@@ -322,9 +322,9 @@ X_3F 03 00
 BACKGROUND 'BG006' 
 X_24 00 
 X_25 06 
-TEXT Just an empty room...
-TEXT But this room was in Building B too...
-TEXT A repulsive air...  I don't want to stay here...
+TEXT Apenas um quarto vazio...
+TEXT Tem um quarto assim tamb%m no Pr%dio B...
+TEXT Um ar repulsivo... n~o quero ficar aqui...
 X_3F 00 01 
 X_3F 01 01 
 X_3F 02 01 
@@ -343,10 +343,10 @@ X_52 00D8 008E
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Enter Dining Hall' '[Å® ]East: Door to Relaxation Room' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Refeit+rio' '(Å® )Leste: Sala de Relaxamento' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL91 
-TEXT The label on the door read <Dining Hall>.
+TEXT A placa na porta dizia <Refeit+rio>.
 JMP .LABEL92 
 
 :LABEL91
@@ -358,7 +358,7 @@ JMP .LABEL11
 JMP .LABEL96 
 
 :LABEL94
-TEXT No, entering rooms in other buildings at this time is dangerous.  I really shouldn't.
+TEXT N~o, entrar nos quartos de outros pr%dios neste momento % perigoso. Eu realmente n~o deveria me arriscar.
 
 :LABEL96
 JMP .LABEL92 
@@ -383,10 +383,10 @@ X_52 010E 008E
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Door to Dining Hall' '[Å® ]East: Door to Minmes' '[Å´ ]South: Enter Relaxation Room' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Refeit+rio' '(Å® )Leste: MINMES' '(Å´ )Sul: Sala de Relaxamento' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL105 
-TEXT The label on the door read <Relaxation Room>.
+TEXT A placa na porta dizia <Sala de Relaxamento>.
 JMP .LABEL106 
 
 :LABEL105
@@ -409,7 +409,7 @@ JMP .LABEL8
 JMP .LABEL116 
 
 :LABEL114
-TEXT No, there's too much risk of being spotted by Fargo men. I'd better go back...
+TEXT N~o, h$ o risco de ser vista pelos homens da FARGO. @ melhor eu voltar...
 
 :LABEL116
 JMP .LABEL106 
@@ -422,10 +422,10 @@ X_52 0155 008E
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[Å´ ]South: Enter Minmes' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(Å´ )Sul: MINMES' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL119 
-TEXT The label on the door read <Minmes>.
+TEXT A placa na porta dizia <MINMES>.
 JMP .LABEL120 
 
 :LABEL119
@@ -448,7 +448,7 @@ JMP .LABEL2
 JMP .LABEL130 
 
 :LABEL128
-TEXT No, there's too much risk of being spotted by Fargo men. I'd better go back...
+TEXT N~o, h$ o risco de ser vista pelos homens da FARGO. @ melhor eu voltar...
 
 :LABEL130
 JMP .LABEL120 
@@ -464,10 +464,10 @@ X_52 018B 008E
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Door to Minmes' '[Å® ]East: Enter shared room' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: MINMES' '(Å® )Leste: Quarto Coletivo' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL133 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL134 
 
 :LABEL133
@@ -478,7 +478,7 @@ JMP .LABEL134
 
 :LABEL135
 IF 16 03 00 15 03 00 02 00 .LABEL138 
-TEXT No, it'd be rude to intrude on their private living space...
+TEXT N~o, seria rude invadir o espa|o dos outros...
 JMP .LABEL134 
 
 :LABEL138
@@ -495,10 +495,10 @@ X_52 00D8 00C4
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Door to Dining Hall' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Refeit+rio' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL144 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL145 
 
 :LABEL144
@@ -521,10 +521,10 @@ X_52 018B 00C4
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL153 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL154 
 
 :LABEL153
@@ -547,11 +547,11 @@ X_52 0224 00C4
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Enter room' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Quarto' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL162 
-TEXT There's a door.
-TEXT This room has a hidden ladder to the underground passage.
+TEXT H$ uma porta.
+TEXT Aqui tem uma escada escondida para a passagem subterr}nea.
 JMP .LABEL163 
 
 :LABEL162
@@ -574,10 +574,10 @@ X_52 00D8 010B
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Door to Dining Hall' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Refeit+rio' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL171 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL172 
 
 :LABEL171
@@ -600,10 +600,10 @@ X_52 018B 010B
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL180 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL181 
 
 :LABEL180
@@ -623,27 +623,27 @@ JMP .LABEL47
 
 :LABEL50
 IF 17 47 00 15 01 00 02 16 3B 00 15 00 00 02 0F 00 .LABEL189 
-TEXT That was close......I hope they didn't see me...
-TEXT Like Haruka said, this was no time to wander aimlessly.
-TEXT I have no reason to search through Building C...
+TEXT Essa foi por pouco... espero que eles n~o tenham me visto...
+TEXT Como Haruka disse, n~o era hora de ficar zanzando por a&.
+TEXT N~o tenho motivos para ficar explorando o Pr%dio C...
 X_00 003B 0001 
 JMP .LABEL190 
 
 :LABEL189
 IF 17 47 00 15 01 00 02 16 3B 00 15 01 00 02 0F 00 .LABEL190 
-TEXT There must still be patrolmen here...  I peeked around the corner.
-TEXT There's one...
-TEXT I can't move thoughtlessly here.
+TEXT Ainda deve ter patrulheiros por aqui... Espiei pela esquina.
+TEXT L$ tem um...
+TEXT N~o posso me mover por impulso aqui.
 
 :LABEL190
 X_52 0224 010B 
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[--]---:---' '[--]---:---' '[Å´ ]South: Corridor' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL192 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL193 
 
 :LABEL192
@@ -655,10 +655,10 @@ JMP .LABEL193
 :LABEL194
 IF 16 03 00 15 04 00 02 00 .LABEL193 
 IF 16 3B 00 15 01 00 02 00 .LABEL198 
-TEXT ...wait.
-TEXT Am I really going, even with the patrolmen on duty...?
+TEXT ...Espere.
+TEXT Eu vou continuar, mesmo com os patrulheiros de plant~o...?
 TEXT 
-SELECT 0003 'Go' 'Think again' 
+SELECT 0003 'Continuar' 'Pensar melhor' 
 IF 16 03 00 15 01 00 02 00 .LABEL199 
 X_00 0009 002F 
 JMP .LABEL71 
@@ -685,10 +685,10 @@ X_52 00D8 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Enter Dining Hall' '[Å® ]East: Door to Elpod' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Refeit+rio' '(Å® )Leste: ELPOD' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL207 
-TEXT The label on the door read <Dining Hall>.
+TEXT A placa na porta dizia <Refeit+rio>.
 JMP .LABEL208 
 
 :LABEL207
@@ -706,7 +706,7 @@ JMP .LABEL11
 JMP .LABEL215 
 
 :LABEL213
-TEXT No, entering rooms in other buildings at this time is dangerous.  I really shouldn't.
+TEXT N~o, entrar nos quartos de outros pr%dios neste momento % perigoso. Eu realmente n~o deveria me arriscar.
 
 :LABEL215
 JMP .LABEL208 
@@ -714,7 +714,7 @@ JMP .LABEL208
 :LABEL212
 IF 16 03 00 15 03 00 02 00 .LABEL208 
 IF 17 5A 00 15 01 00 02 00 .LABEL218 
-TEXT The dining hall's in my sights, I don't have time to loiter around here.
+TEXT O refeit+rio est$ logo ali, n~o posso ficar enrolando por aqui.
 JMP .LABEL219 
 
 :LABEL218
@@ -732,10 +732,10 @@ X_52 010E 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Enter Elpod' '[Å© ]West: Door to Dining Hall' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: ELPOD' '(Å© )Oeste: Refeit+rio' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL223 
-TEXT The label on the door read <Elpod>.
+TEXT A placa na porta dizia <ELPOD>.
 JMP .LABEL224 
 
 :LABEL223
@@ -746,7 +746,7 @@ JMP .LABEL5
 JMP .LABEL228 
 
 :LABEL226
-TEXT No, there's too much risk of being spotted by Fargo men. I'd better go back...
+TEXT N~o, h$ o risco de ser vista pelos homens da FARGO. @ melhor eu voltar...
 
 :LABEL228
 JMP .LABEL224 
@@ -771,12 +771,12 @@ X_52 0155 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Enter room' '[Å© ]West: Door to Elpod' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Quarto' '(Å© )Oeste: ELPOD' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL237 
-TEXT I've seen this door in Building B...
-TEXT That was where Yui...
-TEXT No, never mind.
+TEXT Eu vi uma porta assim no Pr%dio B...
+TEXT Foi onde a Yui...
+TEXT N~o, esquece.
 JMP .LABEL238 
 
 :LABEL237
@@ -787,8 +787,8 @@ JMP .LABEL241
 JMP .LABEL242 
 
 :LABEL240
-TEXT I have no reason to be in this room...
-TEXT This filthy room...
+TEXT N~o tenho motivos para ficar aqui...
+TEXT Neste quarto imundo...
 
 :LABEL242
 JMP .LABEL238 
@@ -813,10 +813,10 @@ X_52 018B 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL251 
-TEXT This door looks like a service entrance, but it's ID locked.  It'd be dangerous to try and open it.
+TEXT Esta porta parece uma entrada de servi|o, mas est$ trancada por um dispositivo eletr{nico. Seria perigoso tentar abrir.
 JMP .LABEL252 
 
 :LABEL251
@@ -845,10 +845,10 @@ X_52 01BB 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL263 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL264 
 
 :LABEL263
@@ -868,10 +868,10 @@ JMP .LABEL65
 
 :LABEL68
 IF 17 47 00 15 01 00 02 00 .LABEL272 
-TEXT The patrolman moved towards me.
-TEXT He shouldn't know my face, so I tried to just walk past him.  But...
+TEXT O patrulheiro veio em minha dire|~o.
+TEXT Ele n~o deve me conhecer, ent~o tentei passar por ele. Mas...
 PLAY_SOUND 01 '000_bt2000' 00 
-TEXT Patrolman: "Hey!"
+TEXT Patrulheiro: "Ei!"
 STOP_SOUND 01 
 X_00 0006 0000 
 X_3F 00 00 
@@ -884,51 +884,51 @@ X_25 06
 SPRITE 'CGFA01' 
 X_24 01 
 X_25 09 
-TEXT He stopped me.
+TEXT Ele me parou.
 PLAY_SOUND 01 '014_iku000' 00 
-TEXT Ikumi: "Yes, what is it?"
+TEXT Ikumi: "Sim, o que foi?"
 STOP_SOUND 01 
-TEXT I tried to appear calm.
+TEXT Tentei parecer calma.
 PLAY_SOUND 01 '000_bt2001' 00 
-TEXT Patrolman: "Where're you going?"
+TEXT Patrulheiro: "Onde pensa que vai?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '014_iku001' 00 
-TEXT Ikumi: "Umm...that is...I lost my way..."
+TEXT Ikumi: "Hum... % que... acho que me perdi..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_bt2002' 00 
-TEXT Patrolman: "Don't lie. Why are you out...hmm...?"
+TEXT Patrulheiro: "N~o minta pra mim. Por que voc[ est$ fora... hmm...?"
 STOP_SOUND 01 
-TEXT ...he noticed I was hiding my left hand on purpose.
-TEXT He snatched my wrist and twisted it as far as it would go.
+TEXT ...Ele percebeu que eu estava escondendo minha m~o esquerda de prop+sito.
+TEXT Ele agarrou meu pulso e torceu o m$ximo que p{de.
 PLAY_SOUND 00 'mon_cd13' 01 
 PLAY_SOUND 01 '006_bt2000' 00 
-TEXT Patrolman: "What the..."
+TEXT Patrulheiro: "Qu[..."
 STOP_SOUND 01 
-TEXT When he looked at the number burned into my hand, the Patrolman immediately changed his attitude.
+TEXT Ao ver o n^mero gravado na minha m~o, o patrulheiro imediatamente mudou de atitude.
 PLAY_SOUND 01 '006_bt2001' 00 
-TEXT Patrolman: "You...you're the Lost Body they ordered us to eliminate...!"
+TEXT Patrulheiro: "Voc[... voc[ % o Corpo Perdido que eles mandaram eliminar...!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '104_iku001' 00 
 TEXT Ikumi: "Ah...!"
 STOP_SOUND 01 
-TEXT The man quickly brought the barrel of his gun up to my chest.
+TEXT O homem rapidamente apontou o cano da arma no meu peito.
 PLAY_SOUND 01 '104_iku002' 00 
-TEXT Ikumi: "Wa-...wait...!"
+TEXT Ikumi: "E-...Espera...!"
 STOP_SOUND 01 
-TEXT My voice didn't reach him.
+TEXT Minha voz n~o chegou nele.
 PLAY_SOUND 01 'se20' 00 
-TEXT *pan!*
-TEXT A bullet pierced my lung.
-TEXT gu...
-TEXT My knees hit the floor and I coughed up blood.
-TEXT And then as I knelt there...
+TEXT *Bang!*
+TEXT Uma bala perfurou meu pulm~o.
+TEXT Ugh...
+TEXT Meus joelhos bateram no ch~o e eu tossi sangue.
+TEXT E ent~o, quando ca& ali...
 PLAY_SOUND 01 'se20' 01 
-TEXT *pan**pan**pan*...!
-TEXT The bullets continued without pause.
-TEXT *pan**pan**pan*...!
-TEXT He's going to run out eventually...
-TEXT ...*pan**pan**pan*...!
-TEXT That sound echoed on forever.
+TEXT *Bang* *Bang* *Bang...!*
+TEXT As balas continuaram sem pausa.
+TEXT *Bang* *Bang* *Bang...!*
+TEXT A muni|~o vai acabar uma hora...
+TEXT ...*Bang* *Bang* *Bang...!*
+TEXT Mas aquele som ecoou para sempre.
 STOP_SOUND 01 
 TEXT 
 X_30 00 
@@ -951,7 +951,7 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 TEXT 
-SELECT 0003 'Listen to a hint' 'Return to title screen' 
+SELECT 0003 'Ouvir uma dica' 'Voltar para o Menu Inicial' 
 IF 16 03 00 15 01 00 02 00 .LABEL273 
 X_3F 00 00 
 X_3F 01 00 
@@ -962,61 +962,61 @@ X_24 00
 X_25 06 
 IF 17 64 00 15 00 00 02 00 .LABEL274 
 PLAY_SOUND 01 '011_yri000' 00 
-TEXT Yuri: "You can't come this far and die pointlessly like that..."
+TEXT Yuri: "N~o acredito que voc[ veio at% aqui para morrer desse jeito..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri001' 00 
-TEXT Yuri: "You had no need to go there anyway..."
+TEXT Yuri: "Voc[ nem precisava vir aqui de qualquer maneira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri002' 00 
-TEXT Yuri: "Redo it."
+TEXT Yuri: "Tente outra vez."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri003' 00 
-TEXT Yuri: "Or maybe there's a little time..."
+TEXT Yuri: "Talvez ainda haja um tempinho..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri004' 00 
-TEXT Yuri: "If there is then she..."
+TEXT Yuri: "Se houver, ent~o ela..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri005' 00 
-TEXT Yuri: "No......it's nothing."
+TEXT Yuri: "N~o... esquece."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri006' 00 
-TEXT Yuri: "Now, get out of here."
+TEXT Yuri: "Agora, cai fora daqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri007' 00 
-TEXT Yuri: "And never come back."
+TEXT Yuri: "E nunca mais volte."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri008' 00 
-TEXT Yuri: "So...farewell."
+TEXT Yuri: "@ isso... adeus."
 STOP_SOUND 01 
 JMP .LABEL275 
 
 :LABEL274
 PLAY_SOUND 01 '011_yri000' 00 
-TEXT Yuri: "You can't come this far and die pointlessly like that..."
+TEXT Yuri: "N~o acredito que voc[ veio at% aqui para morrer desse jeito..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri001' 00 
-TEXT Yuri: "You had no need to go there anyway..."
+TEXT Yuri: "Voc[ nem precisava vir aqui de qualquer maneira..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri002' 00 
-TEXT Yuri: "Redo it."
+TEXT Yuri: "Tente outra vez."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri009' 00 
-TEXT Yuri: "There's a cute girl waiting for you."
+TEXT Yuri: "Uma linda garota est$ esperando por voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri010' 00 
-TEXT Yuri: "Don't you forget that."
+TEXT Yuri: "N~o se esque|a disso."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri011' 00 
-TEXT Yuri: "And, if you remember what happened here..."
+TEXT Yuri: "E, se voc[ lembrar do que aconteceu aqui..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri012' 00 
-TEXT Yuri: "...no, that's not possible."
+TEXT Yuri: "...N~o, isso seria imposs&vel."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri013' 00 
-TEXT Yuri: "Now, get out of here."
+TEXT Yuri: "Agora, cai fora daqui."
 STOP_SOUND 01 
 PLAY_SOUND 01 '011_yri014' 00 
-TEXT Yuri: "And...farewell."
+TEXT Yuri: "E... adeus."
 STOP_SOUND 01 
 
 :LABEL275
@@ -1043,15 +1043,15 @@ X_52 01F5 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Enter shared room' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Quarto Coletivo' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL277 
-TEXT There's a door.
+TEXT H$ uma porta.
 JMP .LABEL278 
 
 :LABEL277
 IF 16 03 00 15 01 00 02 00 .LABEL279 
-TEXT No, I really shouldn't intrude on their living space...
+TEXT N~o, eu realmente n~o devia me intrometer no espa|o dos outros...
 JMP .LABEL278 
 
 :LABEL279
@@ -1081,16 +1081,16 @@ JMP .LABEL289
 :LABEL288
 IF 17 47 00 15 00 00 02 00 .LABEL290 
 TEXT Ah...!
-TEXT At the other end of the corridor around the corner, I saw a Fargo employee on patrol, and quickly hid myself.
+TEXT Do outro lado do corredor, virando a esquina, vi um patrulheiro da FARGO e rapidamente me escondi.
 X_04 0047 0001 
 X_00 0009 002D 
 JMP .LABEL50 
 
 :LABEL290
 IF 17 47 00 15 01 00 02 00 .LABEL289 
-TEXT Yes, if I pretend to be from Class C there should be no problem.
-TEXT If I don't do anything suspicious he should just let me pass.
-TEXT I pretended to be calm and continued down the corridor.
+TEXT Sim, se eu fingir ser da Classe C n~o vai ter problema.
+TEXT Se eu n~o agir de forma suspeita, vai dar certo.
+TEXT Fingi estar calma e continuei pelo corredor.
 X_00 0009 001A 
 JMP .LABEL68 
 
@@ -1099,10 +1099,10 @@ X_52 0224 0141
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Corridor' '[Å© ]West: Corridor' '[--]---:---' '[--]---:---' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Corredor' '(--)---:---' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL294 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL295 
 
 :LABEL294
