@@ -234,7 +234,7 @@ X_52 0177 00D2
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' 'Sul: Escada' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Escada' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL78 
 TEXT Tem uma escada aqui.
@@ -432,11 +432,11 @@ PLAY_SOUND 01 '106_iku001' 00
 TEXT Ikumi: (Ai...)
 STOP_SOUND 01 
 TEXT Meu quadril bateu com for|a no ch~o...
-TEXT O impacto fez meus joelhos fraquejarem, e do&a demais para me levantar...
+TEXT O impacto fez meus joelhos fraquejarem,\ne do&a demais para me levantar...
 PLAY_SOUND 01 '106_iku002' 00 
-TEXT Ikumi: (.........)
+TEXT Ikumi: (...Ugh...)
 STOP_SOUND 01 
-TEXT Mas se eu n~o me me apressar...
+TEXT Mas se eu n~o me apressar...
 TEXT Ignorei a dor e me levantei.
 X_00 0093 0001 
 

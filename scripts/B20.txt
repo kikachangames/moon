@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0005 
-SETSTATUS 'Day 16Å@Å|Å|Å@Facility Interior'
+SETSTATUS 'Dia 16Å@Å|Å|Å@Interior da Instala|~o'
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay16' 
@@ -70,10 +70,10 @@ X_52 013C 0076
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]Door: Enter' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Porta' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL21 
-TEXT There's a door.
+TEXT Uma porta.
 JMP .LABEL22 
 
 :LABEL21
@@ -99,10 +99,10 @@ X_52 013C 009C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL30 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL31 
 
 :LABEL30
@@ -128,10 +128,10 @@ X_52 013C 00C1
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL39 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL40 
 
 :LABEL39
@@ -157,10 +157,10 @@ X_52 013C 00E7
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL48 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL49 
 
 :LABEL48
@@ -186,10 +186,10 @@ X_52 013C 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL57 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL58 
 
 :LABEL57
@@ -215,10 +215,10 @@ X_52 013C 0132
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL66 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL67 
 
 :LABEL66
@@ -242,8 +242,8 @@ IF 16 95 00 15 00 00 02 00 .LABEL75
 PLAY_SOUND 01 '106_iku003' 00 
 TEXT Ikumi: "Ah..."
 STOP_SOUND 01 
-TEXT Finally, a straight passage to break the monotony.
-TEXT I felt sure I'd reached the bottom floor.
+TEXT Finalmente, um corredor reto para quebrar a monotonia.
+TEXT Eu tinha certeza de que havia chegado ao ^ltimo andar.
 X_00 0095 0001 
 
 :LABEL75
@@ -251,10 +251,10 @@ X_52 013C 0159
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' 'Up: Go up the ladder' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Escada' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL76 
-TEXT There's a ladder here.
+TEXT Tem uma escada aqui.
 JMP .LABEL77 
 
 :LABEL76

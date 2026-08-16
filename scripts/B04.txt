@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0005 
-SETSTATUS 'Dia 16Å@Interior da instala|~o'
+SETSTATUS 'Dia 16Å@Å|Å|Å@Interior da Instala|~o'
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay16' 
@@ -83,7 +83,7 @@ X_52 0105 00AC
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(--)---:---' '(Å® )Leste: Passagem' '(Å´ )Sul: Passagem' 'Examinar' 
+SELECT 0003 '(--)---:---' '(--)---:---' '(Å® )Leste: Corredor' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL32 
 TEXT N~o tem nada aqui.
@@ -112,7 +112,7 @@ X_52 012B 00AC
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL41 
 TEXT N~o tem nada aqui.
@@ -141,7 +141,7 @@ X_52 0151 00AC
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL50 
 TEXT N~o tem nada aqui.
@@ -170,7 +170,7 @@ X_52 0177 00AC
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL59 
 TEXT N~o tem nada aqui.
@@ -199,7 +199,7 @@ X_52 0105 00D2
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Descer a escada' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Escada' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL68 
 TEXT Tem uma escada aqui.
@@ -239,7 +239,7 @@ X_52 0177 00D2
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL77 
 TEXT N~o tem nada aqui.
@@ -259,7 +259,7 @@ JMP .LABEL78
 
 :LABEL78
 JMP .LABEL85 
-SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 
 :LABEL19
 X_01 0006 0009 
@@ -269,7 +269,7 @@ X_52 0177 00F8
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(Å™ )Norte: Passagem' '(--)---:---' '(--)---:---' '(Å´ )Sul: Passagem' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL86 
 TEXT N~o tem nada aqui.
@@ -310,7 +310,7 @@ IF 16 90 00 15 00 00 02 00 .LABEL99
 X_52 0105 011D 
 X_51 01 
 X_25 01 
-TEXT Pensando bem... as algemas que cont[m seu poder...
+TEXT Pensando bem... essas algemas que cont[m seu poder...
 TEXT Ser$ que % uma m$quina enorme projetando uma barreira sobre toda a instala|~o...?
 X_00 0090 0001 
 
@@ -326,7 +326,7 @@ X_52 0105 011D
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Subir a escada' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Escada' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL102 
 TEXT Tem uma escada aqui.
@@ -356,7 +356,7 @@ X_52 012B 011D
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL110 
 TEXT N~o tem nada aqui.
@@ -385,7 +385,7 @@ X_52 0151 011D
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(--)---:---' '(Å© )Oeste: Passagem' '(Å® )Leste: Passagem' '(--)---:---' 'Examinar' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL119 
 TEXT N~o tem nada aqui.
@@ -414,7 +414,7 @@ X_52 0177 011D
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '(Å™ )Norte: Passagem' '(Å© )Oeste: Passagem' '(--)---:---' '(--)---:---' 'Examinar' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Corredor' '(--)---:---' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL128 
 TEXT N~o tem nada aqui.

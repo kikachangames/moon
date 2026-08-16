@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0005 
-SETSTATUS 'Day 20Å@Å|Å|Å@Facility Interior'
+SETSTATUS 'Dia 20Å@Å|Å|Å@Interior da Instala|~o'
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay20' 
@@ -63,10 +63,10 @@ X_52 00C8 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Return to Building A' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Pr%dio A' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL20 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL21 
 
 :LABEL20
@@ -92,10 +92,10 @@ X_52 00EF 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL28 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL29 
 
 :LABEL28
@@ -121,10 +121,10 @@ X_52 0114 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL37 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL38 
 
 :LABEL37
@@ -150,10 +150,10 @@ X_52 0139 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL46 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL47 
 
 :LABEL46
@@ -179,10 +179,10 @@ X_52 015E 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL55 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL56 
 
 :LABEL55
@@ -208,10 +208,10 @@ X_52 0183 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Corridor' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL64 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL65 
 
 :LABEL64
@@ -242,10 +242,10 @@ X_52 01A8 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Corridor' '[Å® ]East: Enter' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Porta' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL73 
-TEXT There's a double door here.
+TEXT H$ uma porta dupla aqui.
 JMP .LABEL74 
 
 :LABEL73
