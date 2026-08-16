@@ -4,8 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 0010 
-SETSTATUS ' Dia 16 ? Interior da Instala|~o'
-#SETSTATUS ' Day 16 -- Facility Interior' 
+SETSTATUS ' Dia 16 - Interior da Instala|~o'
 BACKGROUND 'FG215' 
 X_24 00 
 X_25 06 
@@ -618,7 +617,7 @@ IF 16 17 00 15 01 00 02 00 .LABEL2
 GOTO_SCRIPT 'INIT' 
 
 :LABEL2
-BACKGROUND 'BG025' 
+BACKGROUND 'BG025'
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd13' 01 
@@ -669,9 +668,10 @@ JMP .LABEL4
 :LABEL3
 TEXT O que eu poderia fazer para abrir...?
 TEXT Nenhum buraco de chave. Nenhum leitor de cart~o. Nenhum painel num%rico...
-TEXT Ser$ que abriria se eu gastasse toda a minha for?a nisso...?
+TEXT Ser$ que abriria se eu usasse toda a minha for|a nisso...?
 
 :LABEL7
+BACKGROUND 'BG025'
 TEXT 
 SELECT 0003 'For|ar com as pr+prias m~os' 'Pensar' 
 IF 16 03 00 15 01 00 02 00 .LABEL5 
@@ -726,7 +726,7 @@ TEXT Meu ombro do&a demais. N~o consegui me mover por um tempo...
 JMP .LABEL9 
 
 :LABEL8
-TEXT A porta era t?o r&gida que parecia colada na parede s+lida...
+TEXT A porta era t~o r&gida que parecia colada na parede s+lida...
 TEXT Mas preciso tentar de tudo...
 
 :LABEL12
@@ -753,7 +753,7 @@ TEXT Meu ombro do&a demais. N~o consegui me mover por um tempo...
 JMP .LABEL9 
 
 :LABEL10
-TEXT Tenho que tentar. S+ vou me arrepender depois se n~o fizer nada...
+TEXT Tenho que tentar alguma coisa. Vou me arrepender depois se ficar s+ pensando e n~o fizer nada...
 JMP .LABEL12 
 
 :LABEL9
@@ -953,13 +953,13 @@ TEXT Mas n~o havia outra maneira de salv$-lo.
 TEXT Continuei apenas despeda|ando as flores.
 TEXT *Tic... tic... tic...*
 TEXT Minhas m~os come|aram a doer, depois se cortaram, e o vermelho come|ou a se misturar ao verde...
-TEXT Mesmo assim, continuei rasgando.
+TEXT Mesmo assim, continuei arrancando.
 TEXT *Tic... tic... tic...*
-TEXT Nada al%m de continuar rasgando.
+TEXT Nada al%m de arrancar.
 TEXT *Tic... tic... tic...*
-TEXT Continuando a rasgar.
+TEXT Continuando a despeda|ar.
 TEXT *Tic... tic... tic...*
-TEXT Continuando.
+TEXT Continuando...
 TEXT *Tic... tic... tic...*
 TEXT Continuando...
 TEXT *Tic... tic... tic...*

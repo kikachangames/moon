@@ -4,7 +4,8 @@
 # Comments are lines beginning with a # character
 
 X_00 0013 0004 
-SETSTATUS ' Day 20Å@Å|Å|Å@Underground Passage' 
+SETSTATUS ' Dia 20Å@Å|Å|Å@Passagem Subterr}nea'
+#SETSTATUS ' Day 20Å@Å|Å|Å@Underground Corredor' 
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay20' 
@@ -99,10 +100,10 @@ X_52 00CC 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' 'Up: To Building A' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Pr%dio A' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL38 
-TEXT There's a ladder leading to Building A.
+TEXT Uma escada para o Pr%dio A.
 JMP .LABEL39 
 
 :LABEL38
@@ -128,10 +129,10 @@ X_52 00F1 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL46 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL47 
 
 :LABEL46
@@ -157,10 +158,10 @@ X_52 0117 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL55 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL56 
 
 :LABEL55
@@ -183,11 +184,11 @@ X_52 013C 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[Å© ]West: Passage' '[Å® ]East: Passage' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL64 
-TEXT No one here.
-TEXT Of course...
+TEXT N~o tem ningu%m aqui.
+TEXT N~o mais...
 JMP .LABEL65 
 
 :LABEL64
@@ -225,10 +226,10 @@ X_52 0162 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL79 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL80 
 
 :LABEL79
@@ -254,10 +255,10 @@ X_52 0188 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Passage' '[Å® ]East: Passage' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL88 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL89 
 
 :LABEL88
@@ -283,10 +284,10 @@ X_52 01AE 00E6
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[--]---:---' '[Å© ]West: Passage' 'Down: Enter the Sewer' '[--]---:---' 'Examine' 
+SELECT 0003 '(--)---:---' '(Å© )Oeste: Corredor' '(Å® )Leste: Esgoto' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL97 
-TEXT There's a manhole.
+TEXT Aqui tem um bueiro.
 JMP .LABEL98 
 
 :LABEL97
@@ -312,20 +313,20 @@ X_52 013C 0076
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 'Up: To Building B' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Pr%dio B' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL105 
-TEXT There's a ladder leading to Building B.
+TEXT Uma escada para o Pr%dio B.
 JMP .LABEL106 
 
 :LABEL105
 IF 16 03 00 15 01 00 02 00 .LABEL107 
 IF 17 94 00 15 00 00 02 00 .LABEL108 
-TEXT I no longer have any reason to go to the other buildings...
+TEXT N~o tenho mais motivos para ir aos outros pr%dios...
 JMP .LABEL109 
 
 :LABEL108
-TEXT I should probably examine Building A a bit more before looking elsewhere...
+TEXT @ melhor eu examinar o Pr%dio A um pouco mais antes de ir para outro lugar...
 
 :LABEL109
 JMP .LABEL106 
@@ -347,10 +348,10 @@ X_52 013C 009B
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL115 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL116 
 
 :LABEL115
@@ -376,10 +377,10 @@ X_52 013C 00C1
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL124 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL125 
 
 :LABEL124
@@ -405,10 +406,10 @@ X_52 013C 010C
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL133 
-TEXT There's nothing here.
+TEXT N~o tem nada aqui.
 JMP .LABEL134 
 
 :LABEL133
@@ -434,11 +435,11 @@ X_52 013C 0132
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' '[Å´ ]South: Passage' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Corredor' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL142 
-TEXT I left the chair underneat the ventilation duct.
-TEXT There was no need to crawl into it now.
+TEXT Deixei a cadeira embaixo do duto de ventila|~o.
+TEXT N~o havia necessidade de rastejar para dentro dele agora.
 JMP .LABEL143 
 
 :LABEL142
@@ -464,20 +465,20 @@ X_52 013C 0159
 X_51 01 
 X_25 01 
 TEXT 
-SELECT 0003 '[Å™ ]North: Passage' '[--]---:---' '[--]---:---' 'Up: To Building C' 'Examine' 
+SELECT 0003 '(Å™ )Norte: Corredor' '(--)---:---' '(--)---:---' '(Å´ )Sul: Pr%dio C' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL151 
-TEXT There's a ladder leading to Building C.
+TEXT Uma escada para o Pr%dio C.
 JMP .LABEL152 
 
 :LABEL151
 IF 16 03 00 15 04 00 02 00 .LABEL153 
 IF 17 94 00 15 00 00 02 00 .LABEL154 
-TEXT I no longer have any reason to go to the other buildings...
+TEXT N~o tenho mais motivos para ir aos outros pr%dios...
 JMP .LABEL155 
 
 :LABEL154
-TEXT I should probably examine Building A a bit more before looking elsewhere...
+TEXT @ melhor eu examinar o Pr%dio A antes de ir para outro lugar...
 
 :LABEL155
 JMP .LABEL152 

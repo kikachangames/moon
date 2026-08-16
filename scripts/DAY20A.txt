@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 0014 
-SETSTATUS '２０日目　－－　施設内' 
+SETSTATUS ' Dia 20 - Interior da Instala|~o' 
 BACKGROUND 'FG219' 
 X_24 00 
 X_25 06 
@@ -165,39 +165,39 @@ BACKGROUND 'FG080'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT 眠っていたのか…
-TEXT 一体どれだけ時間が経ったんだろう…
-TEXT また今日も…幸せだった頃のことを考えて過ごそう…。
+TEXT Estava dormindo...?
+TEXT Quanto tempo ter$ se passado...?
+TEXT Hoje, mais uma vez... vou passar o dia pensando na %poca em que era feliz...
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT おかあさん…。
-TEXT ………。
-TEXT 優しかったおかあさん…。
-TEXT 私のことをいつでも見ていてくれたおかあさん…。
-TEXT おかあさん…。
-TEXT …おかあさん…。
-TEXT ………おかあさん…。
-TEXT おかあさん………。
-TEXT ………………おかあさん…。
-TEXT …………
-TEXT ……あ。
-TEXT …そうだ。
-TEXT 私の過去の痛み…
-TEXT それを見せてくれるという機械があったじゃないか…。
-TEXT …ＭＩＮＭＥＳ。
-TEXT あの機械なら会えるのかも知れない。
-TEXT 私の心の痛み、その中心に居るひと…
-TEXT おかあさんに。
-TEXT そうだ。きっとそうなんだ…。
-TEXT もっと早くに気づいていればよかった。
-TEXT そうしたらもっと有意義に残りわずかの時間を使えたのに…。
-TEXT 私は項垂れたまま立ち上がると、壁に手を添えながら歩き始める。
+TEXT Mam~e...
+TEXT .........
+TEXT Minha m~e, que era t~o bondosa...
+TEXT Minha m~e, que sempre cuidava de mim...
+TEXT Mam~e...
+TEXT ...Mam~e...
+TEXT .........Mam~e...
+TEXT Mam~e.........
+TEXT ..................Mam~e...
+TEXT ............
+TEXT ...Ah.
+TEXT ...@ verdade.
+TEXT As minhas dores do passado...
+TEXT Tinha aquela m$quina que podia me mostrar elas...
+TEXT ...MINMES.
+TEXT Talvez possamos nos encontrar usando aquela m$quina.
+TEXT A pessoa que est$ bem no centro da dor do meu cora|~o...
+TEXT Mam~e.
+TEXT @ isso. S+ pode ser isso...
+TEXT Eu devia ter percebido isso antes.
+TEXT Se tivesse percebido, poderia ter aproveitado o tempo que me resta de forma muito mais ^til...
+TEXT Me levantei ainda de cabe|a baixa e comecei a caminhar, me apoiando na parede.
 PLAY_SOUND 01 '001_ik2000' 00 
-TEXT 郁未（今から会いにゆくからね）
+TEXT Ikumi: (Vou te encontrar agora.)
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_ik2001' 00 
-TEXT 郁未（おかあさん）
+TEXT Ikumi: (Mam~e.)
 STOP_SOUND 01 
 X_00 0009 0042 
 GOSUB_SCRIPT 'WC_D20' 
@@ -209,257 +209,257 @@ BACKGROUND 'BG019'
 X_24 00 
 X_25 06 
 STOP_SOUND 00 
-TEXT 部屋の中は暗かった。
-TEXT ＭＩＮＭＥＳの動いている時間ではないようだ。
-PLAY_SOUND 01 '002_ik2000' 00 
-TEXT 郁未「ねえ……誰もいないの…？」
-STOP_SOUND 01 
-TEXT 返ってくる声はなかった。
-TEXT どうにか動かないんだろうか…。
-TEXT どうにか…。
-TEXT ………。
+TEXT A sala estava escura.
+TEXT Parece que o MINMES n~o est$ no seu hor$rio de funcionamento.
+PLAY_SOUND 01 '002_ik2000' 00
+TEXT Ikumi: "Ei... Tem algu%m a&...?"
+STOP_SOUND 01
+TEXT N~o houve resposta.
+TEXT Ser$ que n~o tem como fazer isso funcionar de algum jeito...?
+TEXT De algum jeito...
+TEXT .........
 BACKGROUND 'BG004' 
 X_24 00 
 X_25 06 
-TEXT あ…。
-TEXT 私の意志が通じたかのように、文様が一斉に縦に光を放った。
-TEXT 誰かいるの…？
-TEXT べつにそんなことはどうでもいい。
-TEXT 私は光の中心に歩いてゆく。
-TEXT 会いに行くんだ。
-TEXT もっとも会いたい人に。
-TEXT …
-TEXT ……
-TEXT ………
+TEXT Ah...
+TEXT Como se a minha vontade tivesse sido ouvida, os padr/es emitiram uma luz vertical, todos de uma vez.
+TEXT Tem algu%m a&...?
+TEXT N~o que isso importe.
+TEXT Caminho em dire|~o ao centro da luz.
+TEXT E vou ao encontro.
+TEXT Da pessoa que eu mais quero ver.
+TEXT ...
+TEXT ......
+TEXT .........
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 00 'mon_cd15' 01 
 PLAY_SOUND 01 'se74' 00 
-TEXT ざざぁ…
-TEXT ざざ…
-TEXT 音。
-TEXT 波の音。
-STOP_SOUND 01 
-BACKGROUND 'FG083' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 '002_ik2001' 00 
-TEXT あ…。
-PLAY_SOUND 01 '044_boy000' 00 
-TEXT 「やあ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2002' 00 
-TEXT うん…。
-TEXT 「………」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy001' 00 
-TEXT 「…どうしたの、今日は」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2003' 00 
-TEXT べつに…。
-PLAY_SOUND 01 '044_boy002' 00 
-TEXT 「泳ぎにきたのかい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy003' 00 
-TEXT 「だったら遅すぎたねぇ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy004' 00 
-TEXT 「もうこんな季節だ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy005' 00 
-TEXT 「海は冷たすぎるよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2004' 00 
-TEXT そうね…。
-PLAY_SOUND 01 '044_boy006' 00 
-TEXT 「ただ眺めているだけというのもいいけどね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2005' 00 
-TEXT うん…。
-PLAY_SOUND 01 '002_ik2006' 00 
-TEXT 私ね…。
-PLAY_SOUND 01 '044_boy007' 00 
-TEXT 「なんだい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2007' 00 
-TEXT おかあさんに会いにきたんだ。
-PLAY_SOUND 01 '002_ik2008' 00 
-TEXT でもあなただった。
-PLAY_SOUND 01 '002_ik2009' 00 
-TEXT ここに居たのは、あなただったのよ。
-PLAY_SOUND 01 '044_boy008' 00 
-TEXT 「邪魔だったかい…？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2010' 00 
-TEXT ううん…。
-PLAY_SOUND 01 '002_ik2011' 00 
-TEXT そうじゃない。
-PLAY_SOUND 01 '002_ik2012' 00 
-TEXT 気づいてたのよ…。
-PLAY_SOUND 01 '002_ik2013' 00 
-TEXT あなたをおかあさんと重ねて見ていた自分に。
-PLAY_SOUND 01 '002_ik2014' 00 
-TEXT 私が会いたかったのは、確かにあなただったのよ。
+TEXT Shhh...
+TEXT Shhh...
+TEXT Som.
+TEXT O som das ondas.
+STOP_SOUND 01
+BACKGROUND 'FG083'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '002_ik2001' 00
+TEXT Ah...
+PLAY_SOUND 01 '044_boy000' 00
+TEXT "E a&."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2002' 00
+TEXT @...
+TEXT "..."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy001' 00
+TEXT "...O que foi? Hoje..."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2003' 00
+TEXT Nada...
+PLAY_SOUND 01 '044_boy002' 00
+TEXT "Veio nadar?"
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy003' 00
+TEXT "Se for isso, chegou tarde demais, hein."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy004' 00
+TEXT "J$ estamos nesta %poca do ano."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy005' 00
+TEXT "O mar est$ frio demais."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2004' 00
+TEXT Verdade...
+PLAY_SOUND 01 '044_boy006' 00
+TEXT "Mas ficar s+ olhando tamb%m % bom."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2005' 00
+TEXT @...
+PLAY_SOUND 01 '002_ik2006' 00
+TEXT Sabe...
+PLAY_SOUND 01 '044_boy007' 00
+TEXT "O que foi?"
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2007' 00
+TEXT Eu vim aqui para me encontrar com a minha m~e.
+PLAY_SOUND 01 '002_ik2008' 00
+TEXT Mas era voc[.
+PLAY_SOUND 01 '002_ik2009' 00
+TEXT Quem estava aqui... era voc[.
+PLAY_SOUND 01 '044_boy008' 00
+TEXT "Eu atrapalhei...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2010' 00
+TEXT N~o...
+PLAY_SOUND 01 '002_ik2011' 00
+TEXT N~o % isso.
+PLAY_SOUND 01 '002_ik2012' 00
+TEXT Eu j$ tinha percebido...
+PLAY_SOUND 01 '002_ik2013' 00
+TEXT Que estava projetando minha m~e em voc[.
+PLAY_SOUND 01 '002_ik2014' 00
+TEXT Quem eu queria ver... era voc[ mesmo.
 PLAY_SOUND 01 '044_boy009' 00 
-TEXT 「そう。そりゃ光栄だね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2015' 00 
-TEXT 私はあなたが居てくれたから頑張れたのよ。
-PLAY_SOUND 01 '002_ik2016' 00 
-TEXT あなたが見ていてくれたから、頑張れた。
-PLAY_SOUND 01 '002_ik2017' 00 
-TEXT だけど…今はもう……
-PLAY_SOUND 01 '044_boy010' 00 
-TEXT 「こうしてここで出会っているように、僕の存在は心の痛みでしかなくなったんだね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2018' 00 
-TEXT そう…。
-PLAY_SOUND 01 '002_ik2019' 00 
-TEXT 心の痛みでしかなくなったの…。
-PLAY_SOUND 01 '002_ik2020' 00 
-TEXT 同じことの繰り返し。
-PLAY_SOUND 01 '002_ik2021' 00 
-TEXT 悲しみを吹っ切ろうとして、強くなろうとして…
-PLAY_SOUND 01 '002_ik2022' 00 
-TEXT なのにまた私は自分の心の中に同じ深い澱みを作ってしまった。
-PLAY_SOUND 01 '002_ik2023' 00 
-TEXT また私はどこにも辿り着けなかった…。
-PLAY_SOUND 01 '044_boy011' 00 
-TEXT 「辿り着こうとしなかったんだね…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2024' 00 
-TEXT え…？
-PLAY_SOUND 01 '044_boy012' 00 
-TEXT 「ここで僕と出会っているということは、すでに道は開けているんだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2025' 00 
-TEXT どういうこと…？
-PLAY_SOUND 01 '044_boy013' 00 
-TEXT 「自分の体を抱きしめてみて」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2026' 00 
-TEXT ………。
-PLAY_SOUND 01 '002_ik2027' 00 
-TEXT あ…。
-PLAY_SOUND 01 '002_ik2028' 00 
-TEXT 温かい…。
-PLAY_SOUND 01 '002_ik2029' 00 
-TEXT 体の奥が…温かい。
-PLAY_SOUND 01 '002_ik2030' 00 
-TEXT どうしてだろう…。
-PLAY_SOUND 01 '002_ik2031' 00 
-TEXT なんでだろう…。
-PLAY_SOUND 01 '044_boy014' 00 
-TEXT 「ありがとう。僕を受け入れてくれて」
+TEXT "Entendo. @ uma honra, ent~o."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2015' 00
+TEXT Eu s+ consegui aguentar firme porque voc[ estava comigo.
+PLAY_SOUND 01 '002_ik2016' 00
+TEXT Porque voc[ estava olhando por mim...\nFoi por isso que continuei tentando.
+PLAY_SOUND 01 '002_ik2017' 00
+TEXT Mas... agora...
+PLAY_SOUND 01 '044_boy010' 00
+TEXT "O fato de estarmos nos encontrando aqui significa que a minha exist[ncia n~o passa de dor no seu cora|~o, n~o %?"
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2018' 00
+TEXT @...
+PLAY_SOUND 01 '002_ik2019' 00
+TEXT N~o passa de uma dor no meu cora|~o...
+PLAY_SOUND 01 '002_ik2020' 00
+TEXT Sempre a mesma hist+ria se repetindo.
+PLAY_SOUND 01 '002_ik2021' 00
+TEXT Tentando me livrar da tristeza, tentando ficar mais forte...
+PLAY_SOUND 01 '002_ik2022' 00
+TEXT Mas, no fim, acabo criando de novo a mesma ferida profunda no meu pr+prio cora|~o.
+PLAY_SOUND 01 '002_ik2023' 00
+TEXT De novo, eu n~o consegui chegar a lugar nenhum...
+PLAY_SOUND 01 '044_boy011' 00
+TEXT "Voc[ % quem n~o tentou chegar..."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2024' 00
+TEXT H~...?
+PLAY_SOUND 01 '044_boy012' 00
+TEXT "Se voc[ est$ se encontrando comigo aqui, significa que o caminho j$ se abriu."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2025' 00
+TEXT Como assim...?
+PLAY_SOUND 01 '044_boy013' 00
+TEXT "Tente abra|ar o seu pr+prio corpo."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2026' 00
+TEXT .........
+PLAY_SOUND 01 '002_ik2027' 00
+TEXT Ah...
+PLAY_SOUND 01 '002_ik2028' 00
+TEXT Est$ quente...
+PLAY_SOUND 01 '002_ik2029' 00
+TEXT No fundo do meu corpo... est$ t~o quente.
+PLAY_SOUND 01 '002_ik2030' 00
+TEXT Por que ser$...?
+PLAY_SOUND 01 '002_ik2031' 00
+TEXT Por que % assim...?
+PLAY_SOUND 01 '044_boy014' 00
+TEXT "Obrigado. Por me aceitar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_ik2032' 00 
-TEXT そう…。
-PLAY_SOUND 01 '002_ik2033' 00 
-TEXT そういう意味だったの…。
-PLAY_SOUND 01 '044_boy015' 00 
-TEXT 「そう。そういう意味だよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2034' 00 
-TEXT ねぇ、私は……どうすればいいの？
-PLAY_SOUND 01 '044_boy016' 00 
-TEXT 「進めばいいんだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2035' 00 
-TEXT どこへ…？
-PLAY_SOUND 01 '044_boy017' 00 
-TEXT 「キミの目的へ向かって」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2036' 00 
-TEXT そうだね…。
-PLAY_SOUND 01 '002_ik2037' 00 
-TEXT おかしなこと、聞いたかな。
-PLAY_SOUND 01 '044_boy018' 00 
-TEXT 「そうでもないよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2038' 00 
-TEXT ………。
-PLAY_SOUND 01 '002_ik2039' 00 
-TEXT ……ねぇ。
-PLAY_SOUND 01 '044_boy019' 00 
-TEXT 「なんだい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2040' 00 
-TEXT また…会えるかな…。
-PLAY_SOUND 01 '044_boy020' 00 
-TEXT 「季節というのはね、巡ってゆくんだ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy021' 00 
-TEXT 「僕はいつまでもここにいる」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy022' 00 
-TEXT 「でもキミは巡る季節の中に生きてゆくんだ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy023' 00 
-TEXT 「ずっと先ゆく季節を生きてゆくんだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy024' 00 
-TEXT 「こんなところで立ち止まってちゃいけないよ」
+TEXT Entendi...
+PLAY_SOUND 01 '002_ik2033' 00
+TEXT Era isso o que significava...
+PLAY_SOUND 01 '044_boy015' 00
+TEXT "Sim. @ isso o que significa."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2034' 00
+TEXT Ei, o que... o que eu devo fazer?
+PLAY_SOUND 01 '044_boy016' 00
+TEXT "Voc[ s+ precisa seguir em frente."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2035' 00
+TEXT Para onde...?
+PLAY_SOUND 01 '044_boy017' 00
+TEXT "Em dire|~o ao seu objetivo."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2036' 00
+TEXT Verdade...
+PLAY_SOUND 01 '002_ik2037' 00
+TEXT Perguntei uma bobagem, n%?
+PLAY_SOUND 01 '044_boy018' 00
+TEXT "Nem tanto."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2038' 00
+TEXT .........
+PLAY_SOUND 01 '002_ik2039' 00
+TEXT ...Ei.
+PLAY_SOUND 01 '044_boy019' 00
+TEXT "O que foi?"
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2040' 00
+TEXT Ser$ que... a gente vai se ver de novo...?
+PLAY_SOUND 01 '044_boy020' 00
+TEXT "As esta|/es... elas continuam passando."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy021' 00
+TEXT "Eu vou continuar aqui para sempre."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy022' 00
+TEXT "Mas voc[ tem que viver com o passar das esta|/es."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy023' 00
+TEXT "Voc[ tem que viver nas esta|/es que ainda v~o vir, muito # frente."
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy024' 00
+TEXT "N~o pode ficar parada num lugar como este."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_ik2041' 00 
-TEXT そう…
-PLAY_SOUND 01 '002_ik2042' 00 
-TEXT そうだね…。
-PLAY_SOUND 01 '044_boy025' 00 
-TEXT 「ずっと、遠くまでいくんだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '044_boy026' 00 
-TEXT 「この夏の終わりの季節が霞んで見えなくなる場所までね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2043' 00 
-TEXT わかった。
-PLAY_SOUND 01 '002_ik2044' 00 
-TEXT そうする。
-PLAY_SOUND 01 '044_boy027' 00 
-TEXT 「じゃあ、さようなら」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2045' 00 
-TEXT さようなら。
-BACKGROUND 'BO' 
-X_24 00 
-X_25 06 
-TEXT ………
-TEXT ……
-TEXT …
-BACKGROUND 'BG004' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 '002_ik2046' 00 
-TEXT 郁未「………」
-STOP_SOUND 01 
-TEXT なんだ…
-TEXT どうしてだろう…
-TEXT あんなに絶望していたのに……今は違う…。
-TEXT 空虚だった心が満たされている…。
-TEXT なにかを遂げようと憤っている…。
-TEXT 手のひらに力が籠もって、汗ばんでいる。
-TEXT 力…。
-TEXT そう、これは力だ。
-TEXT …あいつが残していってくれた。
-TEXT それを私は制御している。
-TEXT 自分の力としている。
-TEXT そうか…。
-TEXT あいつと話せたんだ、私…。
-TEXT きっとこの中で。
-TEXT おかあさんに会いに来たはずなのに…
-TEXT それでも私はあいつを探していたんだ…。
-TEXT 自分の中に。
-TEXT そして受け取ったものは、希望だった。
-TEXT 私はありがとうを言ったんだろうか…。
-TEXT 言っておこう。
+TEXT @...
+PLAY_SOUND 01 '002_ik2042' 00
+TEXT @ verdade...
+PLAY_SOUND 01 '044_boy025' 00
+TEXT "V$ bem longe, t$?"
+STOP_SOUND 01
+PLAY_SOUND 01 '044_boy026' 00
+TEXT "At% um lugar onde esse final de ver~o fique distante, quase invis&vel."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2043' 00
+TEXT Entendi.
+PLAY_SOUND 01 '002_ik2044' 00
+TEXT Vou fazer isso.
+PLAY_SOUND 01 '044_boy027' 00
+TEXT "Ent~o, adeus."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2045' 00
+TEXT Adeus.
+BACKGROUND 'BO'
+X_24 00
+X_25 06
+TEXT .........
+TEXT ......
+TEXT ...
+BACKGROUND 'BG004'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '002_ik2046' 00
+TEXT Ikumi: "..."
+STOP_SOUND 01
+TEXT O que % isso...?
+TEXT Por que ser$...?
+TEXT Eu estava com tanto desespero... mas agora % diferente...
+TEXT Meu cora|~o, antes t~o vazio, agora se sente preenchido...
+TEXT Uma determina|~o fervendo dentro de mim para levar isso at% o fim...
+TEXT Minhas m~os se fecham com for|a, suando.
+TEXT Poder...
+TEXT Sim, isso % poder.
+TEXT ...Ele deixou isso para mim.
+TEXT E agora eu estou no controle.
+TEXT Tornando isso minha pr+pria for|a.
+TEXT Entendi...
+TEXT Consegui conversar com ele...
+TEXT Tenho certeza de que foi aqui dentro.
+TEXT Eu devia ter vindo ao encontro da minha m~e...
+TEXT Mas, mesmo assim, era ele quem eu estava procurando...
+TEXT Dentro de mim.
+TEXT E o que recebi... foi esperan|a.
+TEXT Ser$ que eu cheguei a agradecer...?
+TEXT Vou deixar isso registrado.
 PLAY_SOUND 01 '002_ik2047' 00 
-TEXT 郁未「ありがとう」
-STOP_SOUND 01 
-PLAY_SOUND 01 '002_ik2048' 00 
-TEXT 郁未「名も知らぬ、少年」
-STOP_SOUND 01 
-TEXT 私はドアを開く。
-TEXT いこう。私が目的とする、復讐を果たしに。
+TEXT Ikumi: "Obrigada."
+STOP_SOUND 01
+PLAY_SOUND 01 '002_ik2048' 00
+TEXT Ikumi: "Garoto sem nome."
+STOP_SOUND 01
+TEXT Eu abro a porta.
+TEXT Vamos l$. @ hora de cumprir a minha vingan|a.
 X_04 0094 0001 
 X_00 0009 000B 
 GOSUB_SCRIPT 'A_D20' 
@@ -470,696 +470,696 @@ GOTO_SCRIPT 'INIT'
 BACKGROUND 'BG024' 
 X_24 00 
 X_25 06 
-TEXT ここには一度来たことがある…。
-TEXT この施設にやって来た初日…
-TEXT 適性検査という名目でクラス分けをされたとき…
-TEXT …その査定が行われた部屋だ。
-TEXT あの時の姿なき声……それこそが復讐すべき相手、『声の主』だったのだ…。
-TEXT しかしなぜかこの場所を忘れてしまっていたような気がする…。
-TEXT これが誰もこの場所を知らない所以か。
-TEXT でも今思い出した。
-TEXT そしてこの扉が意志の力で開くことも知っている。
-TEXT あの地下深くの、足枷を閉じ込めていた扉と同じ。
-TEXT 力を制御している完成体の意志によって開くことができる。
-TEXT 私は意志に力を込めた。
-PLAY_SOUND 01 'se72' 01 
-TEXT ヴィー……
-STOP_SOUND 01 
-TEXT ゆっくりと開いてゆく。
-TEXT 最後の戦いの場へと続く扉が。
-BACKGROUND 'A01' 
-X_24 00 
-X_25 06 
-STOP_SOUND 00 
-TEXT 再び私は立つ。
-TEXT ここに初めて来た日がずいぶんと昔に感じられる。
-TEXT そのシンとした狭い空間に、低くくぐもった声が響きわたる。
-PLAY_SOUND 01 '001_koe000' 00 
-TEXT …二十日ほど前に、ひとりの少女と出会った。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe001' 00 
-TEXT …少女は自分まで容易く傷つけてしまいそうなほど幼かった。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe002' 00 
-TEXT …そして再びその少女と出会ったとき、彼女は大きく成長を遂げていた。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe003' 00 
-TEXT …強い精神と、力を手に入れていた。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe004' 00 
-TEXT …キミのことだよ。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe005' 00 
-TEXT …おかえり。新たなる途を見出した者よ。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2000' 00 
-TEXT 郁未「ただいま」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe006' 00 
-TEXT …だが、どうしてだろうな。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe007' 00 
-TEXT …その者は聖者などではなかった。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2001' 00 
-TEXT 郁未「背教者の帰還」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe008' 00 
-TEXT …そのとおり。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe009' 00 
-TEXT …実に稀な事例となってしまったのだよ。
+TEXT Eu j$ estive aqui uma vez...
+TEXT No meu primeiro dia nesta instala|~o...
+TEXT Quando nos dividiram em turmas sob o pretexto de um teste de aptid~o...
+TEXT ...Essa foi a sala onde o exame aconteceu.
+TEXT Aquela voz sem rosto daquele dia...\nEra exatamente ela o meu alvo de vingan|a, o "Dono da Voz"...
+TEXT Mas, por algum motivo, sinto como se tivesse me esquecido deste lugar...
+TEXT Ser$ por isso que ningu%m conhece este local?
+TEXT Mas agora eu me lembrei.
+TEXT E tamb%m sei que esta porta se abre com a for|a da vontade.
+TEXT Igual #quela porta nas profundezas do subsolo, que mantinha os grilh/es trancados.
+TEXT Ela pode ser aberta pela vontade de uma forma perfeita, algu%m que controla o pr+prio poder.
+TEXT Eu concentrei o meu poder na minha vontade.
+PLAY_SOUND 01 'se72' 01
+TEXT *Vruumm...*
+STOP_SOUND 01
+TEXT Ela vai se abrindo devagar.
+TEXT A porta que leva ao palco da batalha final.
+BACKGROUND 'A01'
+X_24 00
+X_25 06
+STOP_SOUND 00
+TEXT Eu me coloco de p% novamente.
+TEXT O dia em que pisei aqui pela primeira vez parece um passado distante.
+TEXT Naquele espa|o estreito e silencioso, uma voz grave e abafada ecoa.
+PLAY_SOUND 01 '001_koe000' 00
+TEXT "...Cerca de vinte dias atr$s, conheci uma garota."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe001' 00
+TEXT "...Ela era t~o imatura que parecia prestes a se ferir com facilidade."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe002' 00
+TEXT "...E quando a encontrei de novo, ela havia crescido imensamente."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe003' 00
+TEXT "...Tinha adquirido um esp&rito forte e um poder grandioso."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe004' 00
+TEXT "...Estou falando de voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe005' 00
+TEXT "...Seja bem-vinda de volta.\nVoc[ encontrou um novo caminho."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2000' 00
+TEXT Ikumi: "Cheguei."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe006' 00
+TEXT "...Mas por que ser$?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe007' 00
+TEXT "...Essa pessoa n~o era, de forma alguma, uma santa."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2001' 00
+TEXT Ikumi: "O retorno da herege."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe008' 00
+TEXT "...Exatamente."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe009' 00
+TEXT "...Acabou se tornando um caso verdadeiramente raro."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_koe010' 00 
-TEXT …そこまで君を駆り立てるものが何であったか。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe011' 00 
-TEXT …まったく不可解だ。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe012' 00 
-TEXT …なんだったんだろうね。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2002' 00 
-TEXT 郁未「私を見ていてくれる……私を見ていてくれ　　た人たちの存在」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe013' 00 
-TEXT …やはりまだ我々は浅はかなのかな。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2003' 00 
-TEXT 郁未「永遠に無駄なのよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe014' 00 
-TEXT …だが築いてゆくしかないのだよ。いつ壊れようとも知れぬ砂の城でもな。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2004' 00 
-TEXT 郁未「潮はね、思ったよりも満ちているはずよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe015' 00 
-TEXT …それは理解しよう。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2005' 00 
-TEXT 郁未「なら覚悟はできている、ということね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe016' 00 
-TEXT …覚悟……そういう言葉ですら我々は理解に苦しむのだが…
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe017' 00 
-TEXT …対等に話し合いができるようにはするべきかな。
-STOP_SOUND 01 
-BACKGROUND 'BO' 
-X_24 00 
-X_25 06 
-TEXT 視界が暗転したかと思うとそこには…
-BACKGROUND 'FG092' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 00 'mon_cd13' 01 
-TEXT 月が浮かんでいた。
-TEXT すぐ頭上。
-PLAY_SOUND 01 '001_koe018' 00 
-TEXT …なんだ。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe019' 00 
-TEXT …なにに見える私が。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2006' 00 
-TEXT 郁未「月」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2007' 00 
-TEXT 郁未「天空に浮かぶ月よ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe020' 00 
-TEXT …なるほど、月か。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe021' 00 
-TEXT …月。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe022' 00 
-TEXT …いつなんどきも、人間たちの悲しく、哀れな姿を見てきた。
+TEXT "...O que quer que tenha sido que a impulsionou at% aqui..."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe011' 00
+TEXT "...@ algo completamente incompreens&vel."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe012' 00
+TEXT "...O que teria sido, afinal?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2002' 00
+TEXT Ikumi: "A exist[ncia daqueles que olham por mim... das pessoas que cuidavam de mim."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe013' 00
+TEXT "...No fim das contas, talvez ainda sejamos ignorantes."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2003' 00
+TEXT Ikumi: "@ in^til. Sempre vai ser."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe014' 00
+TEXT "...Ainda assim, n~o temos escolha a n~o ser continuar construindo. Mesmo que seja um castelo de areia que pode ruir a qualquer momento."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2004' 00
+TEXT Ikumi: "A mar% j$ subiu muito mais do que voc[ imagina."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe015' 00
+TEXT "...Consigo compreender isso."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2005' 00
+TEXT Ikumi: "Ent~o quer dizer que voc[ est$ preparado."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe016' 00
+TEXT "...Preparado... At% mesmo uma palavra como essa % dif&cil para n+s compreendermos..."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe017' 00
+TEXT "...Mas creio que podemos ao menos nos colocar em p% de igualdade para conversar."
+STOP_SOUND 01
+BACKGROUND 'BO'
+X_24 00
+X_25 06
+TEXT Quando pensei que minha vis~o havia escurecido, de repente l$ estava...
+BACKGROUND 'FG092'
+X_24 00
+X_25 06
+PLAY_SOUND 00 'mon_cd13' 01
+TEXT Uma lua pairando no c%u.
+TEXT Bem acima da minha cabe|a.
+PLAY_SOUND 01 '001_koe018' 00
+TEXT "...Como %?"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe019' 00
+TEXT "...O que eu pare|o para voc[?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2006' 00
+TEXT Ikumi: "A lua."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2007' 00
+TEXT Ikumi: "A lua pairando no c%u."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe020' 00
+TEXT "...Entendo. A lua."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe021' 00
+TEXT "...A lua."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe022' 00
+TEXT "...Que observa, a todo momento, a figura triste e miser$vel dos seres humanos."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_koe023' 00 
-TEXT …いわば悲劇の傍観者。
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe024' 00 
-TEXT …私はそのものであるのだよ。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2008' 00 
-TEXT 郁未「能書きはいいのよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2009' 00 
-TEXT 郁未「それがあなたの本当の姿というのなら、私　　はそれを倒すまで」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe025' 00 
-TEXT …できるかな。
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2010' 00 
-TEXT 郁未「できる、って信じることが大切なのよ」
-STOP_SOUND 01 
-TEXT 私は意志の力を集める。
-TEXT 全身の隅々から。
-TEXT 指先の爪から、髪の毛の先まで、ありとあらやる自分を構成する細胞から。
-TEXT それを一点に集中させる。
-TEXT こめかみのその先の宙が膨張を始める。
-PLAY_SOUND 01 'se75' 00 
-TEXT バシッと赤い光が放電する。
-PLAY_SOUND 01 '001_koe026_1' 00 
-TEXT 　……親……した…は………な…だよ…
-STOP_SOUND 01 
-TEXT さらに力を集める。
-TEXT すべての余力をこの一撃に。
-TEXT 溢れ出る力の粒子が髪をたなびかせる。
-PLAY_SOUND 01 '001_koe026_2' 00 
-TEXT 　…母……殺……の…、キ…なの…よ…
-STOP_SOUND 01 
-TEXT 目に見えぬ、まさしく不可視の力が今や眼前に巨大な球となって浮かんでいた。
-TEXT それは圧倒的な力。
-TEXT なにをも微塵と変える力。
-TEXT それを今私は自分の意志でコントロールしている。
-TEXT ぐわっ。
-TEXT 私は頭上の標的を睨みあげた。
-PLAY_SOUND 01 'se76' 00 
-TEXT バシュゥゥッ！
-TEXT それが私の袂を離れた。
-TEXT 空気を抜かれた風船のように、激しく微動しながらに急上昇してゆく。
-TEXT それが、頭上の惑星と衝突しようとしたとき、
-PLAY_SOUND 01 '001_koe026_3' 00 
-TEXT 　…母……殺し…のは……ミ……な……よ…
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_koe026_4' 00 
-TEXT 　……親を…したの…、キミ自…なのだ……
+TEXT ...Por assim dizer, o espectador da trag%dia.
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe024' 00
+TEXT ...Eu sou essa pr+pria exist[ncia.
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2008' 00
+TEXT Ikumi: "Chega de discurso."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2009' 00
+TEXT Ikumi: "Se essa % a sua verdadeira forma, ent~o s+ me resta destru&-la."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe025' 00
+TEXT ...Ser$ que consegue?
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2010' 00
+TEXT Ikumi: "Acreditar que consigo... % o que importa."
+STOP_SOUND 01
+TEXT Eu reuni a for|a da minha vontade.
+TEXT De cada canto do meu corpo.
+TEXT Das unhas dos dedos, das pontas dos cabelos, de cada c%lula que me comp/e.
+TEXT Concentrei tudo em um ^nico ponto.
+TEXT O espa|o logo # frente da minha fonte come|ou a se expandir.
+PLAY_SOUND 01 'se75' 00
+TEXT Uma luz vermelha descarregou com um estalo.
+PLAY_SOUND 01 '001_koe026_1' 00
+TEXT ......ma... ua... ma... foi...... vo... e...
+STOP_SOUND 01
+TEXT Concentrei ainda mais poder.
+TEXT Todas as minhas reservas neste ^nico golpe.
+TEXT Part&culas de poder transbordante faziam meus cabelos ondularem.
+PLAY_SOUND 01 '001_koe026_2' 00
+TEXT ...quem... mat... sua... m~e... foi... vo... c[...
+STOP_SOUND 01
+TEXT Uma for|a invis&vel, verdadeiramente impercept&vel, agora pairava diante dos meus olhos como uma esfera gigantesca.
+TEXT Era um poder avassalador.
+TEXT A for|a capaz de reduzir qualquer coisa a poeira.
+TEXT E agora eu a controlava com a minha pr+pria vontade.
+TEXT Nnnngh!
+TEXT Encarei o alvo acima de mim.
+PLAY_SOUND 01 'se76' 00
+TEXT *Faaaaaah!*
+TEXT Ela se desprendeu de mim.
+TEXT Subindo vertiginosamente, tremendo como um bal~o perdendo o ar.
+TEXT E no instante em que estava prestes a colidir com o planeta acima de mim...
+PLAY_SOUND 01 '001_koe026_3' 00
+TEXT ...quem... mato... sua... m~e... foi... vo... c[...
+STOP_SOUND 01
+PLAY_SOUND 01 '001_koe026_4' 00
+TEXT ......quem matou... sua m~e... foi voc[ me......
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_koe026_5' 00 
-TEXT 　…母親を殺したのは、キミ自身なのだよ…
-STOP_SOUND 01 
-TEXT ……え？
-TEXT 私はそれを聞いてしまった。
-TEXT 介入する言葉。
-TEXT それを理解したとき、力は霧散していた。
-PLAY_SOUND 01 '001_koe026_6' 00 
-TEXT 　…母親を殺したのは、キミ自身なのだよ…　…母親を殺したのは、キミ自身なのだよ…　…母親を殺したのは、キミ自身なのだよ…
-STOP_SOUND 01 
-TEXT 私の中にあふれ出てくる言葉。
-TEXT 振り払うにも振り払えない。
-TEXT あまりに衝撃の大きい言葉だった。
-BACKGROUND 'FG620' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 00 'mon_cd08' 01 
-PLAY_SOUND 01 'tok_tok000' 00 
-TEXT 「…すべてを語ろうか」
-STOP_SOUND 01 
-TEXT 揺り椅子に腰掛けた老人が、嗄れた声を発した。
-TEXT 私はその人物が時の証人だということを理解させられた。
-PLAY_SOUND 01 'tok_tok001' 00 
-TEXT 「おまえの母、未夜子はおまえを身ごもったとき、すでに不可視の力を有していたのだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok002' 00 
-TEXT 「その力は子であるおまえにも受け継がれた」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok003' 00 
-TEXT 「つまり、おまえはすでに不可視の力を持っていたのだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok004' 00 
-TEXT 「この世に生まれでた、そのときからな」
+TEXT ...quem matou sua m~e... foi voc[ mesma...
+STOP_SOUND 01
+TEXT ......O qu[?
+TEXT Eu acabei ouvindo aquilo.
+TEXT Palavras que se intrometeram.
+TEXT Quando processei o significado, minha for|a j$ tinha se dissipado em n%voa.
+PLAY_SOUND 01 '001_koe026_6' 00
+TEXT ...quem matou sua m~e... foi voc[ mesma... ...quem matou sua m~e... foi voc[ mesma... ...quem matou sua m~e... foi voc[ mesma...
+STOP_SOUND 01
+TEXT Palavras que transbordam dentro de mim.
+TEXT Por mais que eu tente afast$-las, n~o consigo.
+TEXT Aquela declara|~o me atingiu com um impacto forte demais.
+BACKGROUND 'FG620'
+X_24 00
+X_25 06
+PLAY_SOUND 00 'mon_cd08' 01
+PLAY_SOUND 01 'tok_tok000' 00
+TEXT "...Deseja que eu lhe conte tudo?"
+STOP_SOUND 01
+TEXT Sentado em uma cadeira de balan|o, um velho pronunciou-se com a voz rouca.
+TEXT Fui tomada pela certeza de que aquele homem era uma testemunha do tempo.
+PLAY_SOUND 01 'tok_tok001' 00
+TEXT "Sua m~e, Miyako, j$ possu&a a for|a invis&vel quando engravidou de voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok002' 00
+TEXT "Essa for|a tamb%m foi herdada por voc[,\na filha dela."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok003' 00
+TEXT "Ou seja, voc[ j$ carregava a for|a invis&vel dentro de si."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok004' 00
+TEXT "Desde o exato momento em que veio a este mundo." 
 STOP_SOUND 01 
 TEXT 
-SELECT 0003 '嘘だ…' '………' 
-IF 16 03 00 15 01 00 02 00 .LABEL2 
-PLAY_SOUND 01 '004_ik2011' 00 
-TEXT 嘘だ……信じない…。
-TEXT だが私の言葉はあまりに弱々しい。
-TEXT それは私の発言など、この場においては無力であると悟っていたからだ。
-PLAY_SOUND 01 'tok_tok005' 00 
-TEXT 「ではおまえは不可視の力の何を知っているのだと云う」
-STOP_SOUND 01 
-TEXT 老人が問うた。
-PLAY_SOUND 01 '004_ik2012' 00 
-TEXT 知ってる……いろんなことがわかってきたの…
-PLAY_SOUND 01 'tok_tok006' 00 
-TEXT 「それは推測。あるいは吹聴によって象られた固定観念」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2013' 00 
-TEXT 私の中の真実……
-PLAY_SOUND 01 '004_ik2014' 00 
-TEXT それは推測……確かに。
-PLAY_SOUND 01 '004_ik2015' 00 
-TEXT それは吹聴によって象られた固定観念……確かに。
-PLAY_SOUND 01 '004_ik2016' 00 
-TEXT 私は不可視の力について何も知らないに等しい。
-PLAY_SOUND 01 '004_ik2017' 00 
-TEXT 限りなく等しい。
-PLAY_SOUND 01 'tok_tok007' 00 
-TEXT 「ならば語ろう」
+SELECT 0003 '@ mentira...' '.........'
+IF 16 03 00 15 01 00 02 00 .LABEL2
+PLAY_SOUND 01 '004_ik2011' 00
+TEXT @ mentira...... Eu n~o acredito nisso...
+TEXT Mas a minha voz soa fraca demais.
+TEXT Porque no fundo eu j$ percebia que qualquer palavra minha, neste lugar,\nseria in^til.
+PLAY_SOUND 01 'tok_tok005' 00
+TEXT "Sendo assim, diga-me: o que voc[ realmente sabe sobre a for|a invis&vel?"
+STOP_SOUND 01
+TEXT O velho questionou.
+PLAY_SOUND 01 '004_ik2012' 00
+TEXT Eu sei...... Eu comecei a entender tantas coisas...
+PLAY_SOUND 01 'tok_tok006' 00
+TEXT "Apenas suposi|/es. Ou preconceitos moldados por conversas e boatos."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2013' 00
+TEXT A verdade dentro de mim......
+PLAY_SOUND 01 '004_ik2014' 00
+TEXT Eram apenas suposi|/es...... % verdade.
+PLAY_SOUND 01 '004_ik2015' 00
+TEXT Conceitos moldados por boatos alheios...... % verdade.
+PLAY_SOUND 01 '004_ik2016' 00
+TEXT O meu conhecimento sobre a for|a invis&vel % praticamente nulo.
+PLAY_SOUND 01 '004_ik2017' 00
+TEXT Quase absolutamente nada.
+PLAY_SOUND 01 'tok_tok007' 00
+TEXT "Sendo assim, permita-me contar."
 STOP_SOUND 01 
 JMP .LABEL3 
 
 :LABEL2
-TEXT ………。
-TEXT この場における私の発言など、なんの意味ももたない。
-TEXT 老人は続ける。
+TEXT .........
+TEXT Minhas palavras neste lugar n~o t[m significado algum.
+TEXT O velho prossegue.
 
 :LABEL3
 PLAY_SOUND 01 'tok_tok008' 00 
-TEXT 「不可視の力とは、邪な力」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok009' 00 
-TEXT 「自分の正の意志とは相対する意志を持った力」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok010' 00 
-TEXT 「自分の願いに反し、作動する力」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok011' 00 
-TEXT 「陽は陰を造り、正は邪を造る」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok012' 00 
-TEXT 「そして互いはせめぎ合う」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok013' 00 
-TEXT 「すなわち法則だよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok014' 00 
-TEXT 「そしておまえはこの歳になるまで、その力の目覚めを知らず生きてきた」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok015' 00 
-TEXT 「だがその力をも目覚めさせる正の力がおまえの中で働いたのだな」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok016' 00 
-TEXT 「母と暮らす穏やかな日々に、おまえはこう願った」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok017' 00 
-TEXT 「この生活を失いたくない」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok018' 00 
-TEXT 「違うか」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok019' 00 
-TEXT 「それが不可視の力が放たれる引き金となった」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok020' 00 
-TEXT 「穏やかな日々を大切に思う正の心」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok021' 00 
-TEXT 「それに反す、おまえの中に潜む邪の意志がその穏やかな日々を壊したのだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok022' 00 
-TEXT 「自分では気づいてはいないだろうが…」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok023' 00 
-TEXT 「確かにおまえの力が、母親を無惨にもこの世から葬り去った」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok024' 00 
-TEXT 「いたましい…」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok025' 00 
-TEXT 「つまり、おまえが母親、未夜子を殺したのだよ」
+TEXT "A for|a invis&vel % um poder maligno."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok009' 00
+TEXT "Um poder movido por uma vontade contr$ria # sua pr+pria vontade positiva."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok010' 00
+TEXT "Um poder que age em oposi|~o aos seus pr+prios desejos."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok011' 00
+TEXT "A luz gera a sombra, e o bem gera o mal."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok012' 00
+TEXT "E ambos lutam constantemente entre si."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok013' 00
+TEXT "Trata-se de uma lei natural."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok014' 00
+TEXT "E voc[ viveu at% esta idade sem ter consci[ncia do despertar desse poder."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok015' 00
+TEXT "No entanto, uma for|a positiva agiu dentro de voc[, capaz de despertar at% mesmo esse poder."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok016' 00
+TEXT "Nos dias tranquilos em que vivia com sua m~e, voc[ fez um desejo."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok017' 00
+TEXT "N~o quero perder esta vida."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok018' 00
+TEXT "Estou errado?"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok019' 00
+TEXT "Foi exatamente isso que serviu de gatilho para libertar a for|a invis&vel."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok020' 00
+TEXT "A mente pura que valorizava aqueles dias serenos..."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok021' 00
+TEXT "...E a vontade maligna oculta em seu interior, oposta a essa mente, destruiu essa mesma paz."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok022' 00
+TEXT "Voc[ mesma pode n~o ter percebido, mas..."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok023' 00
+TEXT "...Foi indiscutivelmente o seu poder que arrancou sua m~e deste mundo de forma atroz."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok024' 00
+TEXT "Lament$vel..."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok025' 00
+TEXT "Em outras palavras, foi voc[ quem matou sua m~e, Miyako." 
 STOP_SOUND 01 
 TEXT 
-SELECT 0003 'うそだ…' '………' 
-IF 16 03 00 15 01 00 02 00 .LABEL4 
-PLAY_SOUND 01 '004_ik2018' 00 
-TEXT うそだ…
-PLAY_SOUND 01 '004_ik2019' 00 
-TEXT うそだ…うそだ…うそだ…
-PLAY_SOUND 01 '004_ik2022' 00 
-TEXT おかあさんを殺した…？
-PLAY_SOUND 01 'se46' 00 
-TEXT ミシミシィィッ！！
-PLAY_SOUND 01 '004_ik2023' 00 
-TEXT 目の前で…？
-PLAY_SOUND 01 'se54' 00 
-TEXT ガッ……ガガギッ！！
-PLAY_SOUND 01 '004_ik2024' 00 
-TEXT 私のこの手で…！？
-PLAY_SOUND 01 'se70' 00 
-TEXT ぶちぃっ…！
-PLAY_SOUND 01 '004_ik2025' 00 
-TEXT うそだぁっ！！
-PLAY_SOUND 01 '004_ik2026' 00 
-TEXT 郁未「あんたのような老いぼれになにがわかるっ　　て言うのよっ！」
-STOP_SOUND 01 
-TEXT 私はヤケになった。
-PLAY_SOUND 01 'se07' 00 
-TEXT ガッ！
-TEXT 老人を椅子から蹴落とした。
-PLAY_SOUND 01 'tok_kri000' 00 
-TEXT 「きゃああぁぁぁぁーーっ！」
-STOP_SOUND 01 
-TEXT だが蹴落とせたのは、中学生のときに私のことを妬んでいた桐島さんだけだった。
-TEXT 彼女はほんとう、しつこかった。
-TEXT でも蹴落とせてよかった。
-TEXT もうこれで私には付きまとわないだろう…。
-TEXT 違う…。
-TEXT 私が彼女を蹴落としたのは昔の話だ。
-TEXT 未だ老人はギッコギッコと揺り椅子を揺らしていた。
-TEXT 私の足は別の場所、遠い過去に届いてしまったようだった。
-TEXT 時の証人の発言は絶対である。
-TEXT そんな話を聞いたことがある。
-TEXT そしてその証言により裁かれた者は、体がひっくり返ってしまうという。
+SELECT 0003 '@ mentira...' '.........'
+IF 16 03 00 15 01 00 02 00 .LABEL4
+PLAY_SOUND 01 '004_ik2018' 00
+TEXT @ mentira...
+PLAY_SOUND 01 '004_ik2019' 00
+TEXT @ mentira... % mentira... % mentira...
+PLAY_SOUND 01 '004_ik2022' 00
+TEXT Eu... matei a minha m~e...?
+PLAY_SOUND 01 'se46' 00
+TEXT *Craaac... craaaack!!*
+PLAY_SOUND 01 '004_ik2023' 00
+TEXT Diante dos meus olhos...?
+PLAY_SOUND 01 'se54' 00
+TEXT *TRAC... TRAC-CRAC!!*
+PLAY_SOUND 01 '004_ik2024' 00
+TEXT Com as minhas pr+prias m~os...!?
+PLAY_SOUND 01 'se70' 00
+TEXT *Shhhrrrr...!*
+PLAY_SOUND 01 '004_ik2025' 00
+TEXT @ MENTIRA!!
+PLAY_SOUND 01 '004_ik2026' 00
+TEXT Ikumi: "O que um velho caduco como voc[ sabe sobre mim?!"
+STOP_SOUND 01
+TEXT Agi por puro desespero.
+PLAY_SOUND 01 'se07' 00
+TEXT *POW!*
+TEXT Chutei o velho para fora da cadeira.
+PLAY_SOUND 01 'tok_kri000' 00
+TEXT "KYAAAAAHHHHHH--!"
+STOP_SOUND 01
+TEXT Mas a pessoa que derrubei foi apenas a Kirishima-san, que morria de inveja de mim no ensino fundamental.
+TEXT Ela era, de fato, muito insistente.
+TEXT Mas ainda bem que consegui derrub$-la.
+TEXT Acho que agora ela n~o vai mais me perseguir...
+TEXT N~o...
+TEXT Eu realmente chutei ela para fora da cadeira h$ muito tempo.
+TEXT O velho continuava a balan|ar a cadeira de balan|o, num rangido constante.
+TEXT Parecia que o meu chute tinha atingido outro lugar, um passado distante.
+TEXT Os depoimentos das testemunhas do tempo s~o absolutos.
+TEXT Eu j$ tinha ouvido uma hist+ria assim.
+TEXT Dizem que aqueles julgados por tal testemunho t[m seus corpos virados do avesso.
 JMP .LABEL5 
 
 :LABEL4
-TEXT そうか…。
-TEXT そうだったんだ…。
-TEXT 私がおかあさんを殺したんだ…。
-PLAY_SOUND 01 'se46' 00 
-TEXT ミシミシィィッ！！
-TEXT 目の前で…。
-PLAY_SOUND 01 'se54' 00 
-TEXT ガッ……ガガギッ！！
-TEXT 私のこの手で…。
-PLAY_SOUND 01 'se70' 00 
-TEXT ぶちぃっ…！
-PLAY_SOUND 01 '004_ik2027' 00 
-TEXT 殺しました。
-PLAY_SOUND 01 '004_ik2028' 00 
-TEXT 私がおかあさんを殺しました。
-PLAY_SOUND 01 'tok_tok026' 00 
-TEXT 「ならば、どのような裁きが待っていようか、知っておるな」
-STOP_SOUND 01 
-TEXT 時の証人の発言により裁かれた者は、体がひっくり返ってしまう。
-TEXT そんな話を聞いたことがある。
-TEXT しかし…
+TEXT Entendo...
+TEXT Ent~o foi isso...
+TEXT Eu matei a minha m~e...
+PLAY_SOUND 01 'se46' 00
+TEXT *Craaac...* *craaaack!!*
+TEXT Bem diante dos meus olhos...
+PLAY_SOUND 01 'se54' 00
+TEXT *TRAC...* *TRAC-CRAC!!*
+TEXT Com as minhas pr+prias m~os...
+PLAY_SOUND 01 'se70' 00
+TEXT *Shhhrrrr...!*
+PLAY_SOUND 01 '004_ik2027' 00
+TEXT Fui eu que matei ela.
+PLAY_SOUND 01 '004_ik2028' 00
+TEXT Fui eu que matei a minha m~e.
+PLAY_SOUND 01 'tok_tok026' 00
+TEXT "Sendo assim, voc[ sabe muito bem qual puni|~o a aguarda, n~o sabe?"
+STOP_SOUND 01
+TEXT Dizem que aqueles julgados pelo testemunho do guardi~o do tempo tinham seus corpos virados do avesso.
+TEXT Eu j$ tinha ouvido essa hist+ria antes.
+TEXT Mas...
 
 :LABEL5
-TEXT なんだ、それ…。
-PLAY_SOUND 01 'tok_tok027' 00 
-TEXT 「ひっくり返る」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok028' 00 
-TEXT 「それは、今表面となっている肌の部分が体の内側に回り、逆に内蔵の部分が表面に回ることをいうのだよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_tok029' 00 
-TEXT 「それはもう醜い姿だ」
-STOP_SOUND 01 
-BACKGROUND 'FG607' 
-X_24 00 
-X_25 06 
-TEXT 小さい子供が私を見上げている。
-PLAY_SOUND 01 'tok_cld000' 00 
-TEXT 「お姉ちゃん、どうしてそんな姿になってしまったの」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2029' 00 
-TEXT 「それは時の証人に裁かれたから」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld001' 00 
-TEXT 「変色したレバーが可哀想。砂のついた歯茎が可哀想」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2030' 00 
-TEXT 「いいのよ。気にしなくても」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2031' 00 
-TEXT 「だってほら、手術が楽でしょ？」
-STOP_SOUND 01 
-TEXT 待って。
-TEXT いつ認めてしまったの、私は。
-TEXT 私は認めてない。
-TEXT まだひっくり返されていないはずだ。
-TEXT 手術が楽になろうが、勝手にひっくり返されるなんてごめんだ。
+TEXT O que % isso...?
+PLAY_SOUND 01 'tok_tok027' 00
+TEXT "Virados do avesso."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok028' 00
+TEXT "Significa que a pele da sua superf&cie vai para o interior do corpo, e os seus +rg~os internos ficam expostos para fora."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_tok029' 00
+TEXT "@ uma vis~o verdadeiramente grotesca."
+STOP_SOUND 01
+BACKGROUND 'FG607'
+X_24 00
+X_25 06
+TEXT Uma crian|a pequena olha para mim.
+PLAY_SOUND 01 'tok_cld000' 00
+TEXT "Mo|a, por que voc[ ficou desse jeito?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2029' 00
+TEXT "Porque fui julgada pelo guardi~o do tempo."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld001' 00
+TEXT "Que d+ desse f&gado todo escuro. Que d+ dessas gengivas cheias de terra."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2030' 00
+TEXT "Tudo bem. N~o precisa se preocupar."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2031' 00
+TEXT "Afinal, deve... ficar bem mais f$cil de operar, n~o acha?"
+STOP_SOUND 01
+TEXT Espera.
+TEXT Quando foi que eu aceitei uma coisa dessas?
+TEXT Eu n~o admiti nada.
+TEXT Eu ainda n~o fui virada do avesso.
+TEXT Pouco me importa se fica mais f$cil para uma cirurgia, eu n~o vou deixar me virarem do avesso sem mais nem menos.
 
 :LABEL51
 PLAY_SOUND 01 'tok_cld002' 00 
-TEXT 「ねぇ、お姉ちゃん」
-STOP_SOUND 01 
-IF 16 12 00 15 00 00 02 00 .LABEL6 
-PLAY_SOUND 01 'tok_cld003' 00 
-TEXT 「さっき誰かがお姉ちゃんの脳みそを、牛の脳みそとすり替えていったよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2032' 00 
-TEXT 「…え？」
-STOP_SOUND 01 
-TEXT 言わんこっちゃない。
-TEXT こういう事態が予想できたからイヤだったんだ。
-PLAY_SOUND 01 '004_ik2033' 00 
-TEXT 「誰よ、そんなことするのはっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld006' 00 
-TEXT 「ケンちゃんだよ」
-STOP_SOUND 01 
-TEXT くそっ、あいつは…。
-TEXT いつまで根に持っているんだ。
-TEXT きっとあの仕返しだ。
-TEXT 竹槍を張り巡らした落とし穴に落として、串刺しにしてやったときの仕返し。
-TEXT 子供のいたずらだ。
+TEXT "Ei, mo|a."
+STOP_SOUND 01
+IF 16 12 00 15 00 00 02 00 .LABEL6
+PLAY_SOUND 01 'tok_cld003' 00
+TEXT "Agorinha mesmo algu%m trocou o seu c%rebro pelo c%rebro de uma vaca."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2032' 00
+TEXT "...O qu[?"
+STOP_SOUND 01
+TEXT N~o falei?
+TEXT Era exatamente esse tipo de coisa absurdamente bizarra que eu temia.
+PLAY_SOUND 01 '004_ik2033' 00
+TEXT "Quem foi o desgra|ado que fez isso?!"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld006' 00
+TEXT "Foi o Ken-chan."
+STOP_SOUND 01
+TEXT Droga, aquele desgra|ado...
+TEXT At% quando ele vai guardar esse rancor?
+TEXT Com certeza % vingan|a.
+TEXT Vingan|a por aquela vez em que fiz ele cair numa armadilha cheia de estacas de bambu e empalei ele.
+TEXT Coisa de crian|a.
 JMP .LABEL7 
 
 :LABEL6
 IF 16 12 00 15 01 00 02 00 .LABEL8 
 PLAY_SOUND 01 'tok_cld004' 00 
-TEXT 「さっき誰かがお姉ちゃんの脳みそを、豚の脳みそとすり替えていったよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2032' 00 
-TEXT 「…え？」
-STOP_SOUND 01 
-TEXT 言わんこっちゃない。
-TEXT こういう事態が予想できたからイヤだったんだ。
-PLAY_SOUND 01 '004_ik2033' 00 
-TEXT 「誰よ、そんなことするのはっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld006' 00 
-TEXT 「ケンちゃんだよ」
-STOP_SOUND 01 
-TEXT くそっ、またあいつは…。
-TEXT いつまで根に持っているんだ。
+TEXT "Agorinha mesmo algu%m trocou o seu c%rebro pelo c%rebro de um porco."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2032' 00
+TEXT "...O qu[?"
+STOP_SOUND 01
+TEXT N~o falei?
+TEXT Era exatamente esse tipo de coisa absurdamente bizarra que eu temia.
+PLAY_SOUND 01 '004_ik2033' 00
+TEXT "Quem foi o desgra|ado que fez isso?!"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld006' 00
+TEXT "Foi o Ken-chan."
+STOP_SOUND 01
+TEXT Droga, de novo aquele desgra|ado...
+TEXT At% quando ele vai guardar esse rancor?
 JMP .LABEL7 
 
 :LABEL8
 IF 16 12 00 15 02 00 02 00 .LABEL10 
 PLAY_SOUND 01 'tok_cld005' 00 
-TEXT 「さっき誰かがお姉ちゃんの脳みそを、元の脳みそとすり替えていったよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2032' 00 
-TEXT 「…え？」
-STOP_SOUND 01 
-TEXT 言わんこっちゃない。
-TEXT こういう事態が予想できたからイヤだったんだ。
-PLAY_SOUND 01 '004_ik2033' 00 
-TEXT 「誰よ、そんなことするのはっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld006' 00 
-TEXT 「ケンちゃんだよ」
-STOP_SOUND 01 
-TEXT くそっ、またあいつは…。
-TEXT いつまで根に持っているんだ。
+TEXT "Agorinha mesmo algu%m trocou o seu c%rebro pelo seu c%rebro de verdade."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2032' 00
+TEXT "...Qu[?"
+STOP_SOUND 01
+TEXT N~o falei?
+TEXT Era exatamente esse tipo de coisa absurdamente bizarra que eu temia.
+PLAY_SOUND 01 '004_ik2033' 00
+TEXT "Quem foi o desgra|ado que fez isso?!"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld006' 00
+TEXT "Foi o Ken-chan."
+STOP_SOUND 01
+TEXT Droga, de novo aquele desgra|ado...
+TEXT At% quando ele vai guardar rancor?
 JMP .LABEL7 
 
 :LABEL10
 IF 16 12 00 15 03 00 02 00 .LABEL7 
 PLAY_SOUND 01 'tok_cld003' 00 
-TEXT 「さっき誰かがお姉ちゃんの脳みそを、牛の脳みそとすり替えていったよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2032' 00 
-TEXT 「…え？」
-STOP_SOUND 01 
-TEXT 言わんこっちゃない。
-TEXT こういう事態が予想できたからイヤだったんだ。
-PLAY_SOUND 01 '004_ik2033' 00 
-TEXT 「誰よ、そんなことするのはっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld006' 00 
-TEXT 「ケンちゃんだよ」
-STOP_SOUND 01 
-TEXT くそっ、またあいつは…。
-TEXT いつまで根に持っているんだ。
+TEXT "Agorinha mesmo algu%m trocou o seu c%rebro pelo c%rebro de uma vaca."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2032' 00
+TEXT "...O qu[?"
+STOP_SOUND 01
+TEXT N~o falei?
+TEXT Era exatamente esse tipo de coisa absurdamente bizarra que eu temia.
+PLAY_SOUND 01 '004_ik2033' 00
+TEXT "Quem foi o desgra|ado que fez isso?!"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld006' 00
+TEXT "Foi o Ken-chan."
+STOP_SOUND 01
+TEXT Droga, de novo aquele desgra|ado...
+TEXT At% quando ele vai guardar esse rancor?
 
 :LABEL7
 PLAY_SOUND 01 'tok_cld007' 00 
-TEXT 「早くしないと、ケンちゃん、脳みそを細かく千切っていろんな場所に隠しちゃうよ」
-STOP_SOUND 01 
-TEXT 困った。
-TEXT それは困った。
-TEXT どうすればいいんだろう…。
-PLAY_SOUND 01 'tok_cld008' 00 
-TEXT 「細かく千切った脳は、ハジの大好物なんだ」
-STOP_SOUND 01 
-TEXT そうか。しまった。
-TEXT それは痛い。
-TEXT 最近ハジが大発生していて、社会問題になっていたところではないか。
-TEXT あのハジの醜い顔を思い出しただけでも腹立たしいというのに…
+TEXT "Se voc[ n~o se apressar, o Ken-chan vai picar o seu c%rebro em pedacinhos e esconder em v$rios lugares."
+STOP_SOUND 01
+TEXT Que problema.
+TEXT Isso % um grande problema.
+TEXT O que eu deveria fazer...?
+PLAY_SOUND 01 'tok_cld008' 00
+TEXT "O Haji adora comer c%rebro picadinho."
+STOP_SOUND 01
+TEXT Entendi. Droga.
+TEXT Essa doeu.
+TEXT Ultimamente a infesta|~o de Haji virou um problema social grav&ssimo, n~o foi?
+TEXT S+ de lembrar daquela cara nojenta do Haji j$ me d$ raiva, e agora isso...
 IF 16 12 00 15 00 00 02 00 .LABEL13 
-TEXT さらに私の脳を食われてしまっては…。
+TEXT Al%m do mais, se meu c%rebro for devorado...
 
 :LABEL13
 TEXT 
-SELECT 0003 'ケンちゃんを狩りに出掛ける' 'あきらめてこの脳で過ごすことにする' 
+SELECT 0003 'Sair para ca|ar o Ken-chan' 'Desistir e aceitar viver com este c%rebro' 
 IF 16 03 00 15 01 00 02 00 .LABEL14 
-TEXT あのバカが…。
-TEXT 私を怒らせてしまったことを後悔するがいい。
-TEXT 狩ってやる……殺してやる……ズタズタに引き裂いてやる…
-TEXT そしてお返しにアイツの脳を頂いて……そう、私の踵の皮の分厚い辺りに移植してやる。
-TEXT そうすれば毎日足げにできる。
-TEXT おまえは私の足ぐらいで十分なくらいの知能しかないのよ。
-TEXT 毎日私の靴底のことでも考えてなさい。
-TEXT 今日は踵が高いな、とか…よくすり減ってますよ、換え時ですよ、とか…
-TEXT そんなクソくだらないことを毎日考えてなさい。
-TEXT あははっ………あひはははははははははっ…！
+TEXT Aquele idiota...
+TEXT Ele vai se arrepender amargamente por ter me deixado furiosa.
+TEXT Vou ca|ar ele... vou matar ele...\nVou esquartejar ele todinho...
+TEXT E, pra retribuir, vou pegar o c%rebro dele... Isso, vou transplantar bem ali na sola do meu calcanhar.
+TEXT Assim posso pisotear ele todos os dias.
+TEXT O seu intelecto n~o passa da altura do meu p% mesmo.
+TEXT Fique l$ pensando no solado do meu sapato o dia inteiro.
+TEXT Tipo "Nossa, como o salto t$ alto hoje", ou "T$ bem gasto, t$ na hora de trocar", n%...
+TEXT Fique a& ruminando essa merda insignificante o dia todo!
+TEXT Ahaha... Ahahahahahahahahaha...!
 PLAY_SOUND 01 'tok_cld009' 00 
-TEXT 「ねぇ、おねえちゃん、まだこんなところにいたの」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2034' 00 
-TEXT まだって…今からいくわよ、すぐ追いついてやる。
-PLAY_SOUND 01 'tok_cld010' 00 
-TEXT 「無理だよ。もう一週間もたってるのに」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2035' 00 
-TEXT え…！？
-PLAY_SOUND 01 'tok_cld011' 00 
-TEXT 「おねえちゃんの脳みそなんか、みんなハジが食べちゃったよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld012' 00 
-TEXT 「ほら…」
-STOP_SOUND 01 
-TEXT 目の前をハジがのっそりのっそりと歩行してゆく。
-TEXT そしてその禍々しい牙には粘土色した不気味な塊がくわえられていた。
-TEXT 見覚えがある、詰まり癖のある情報伝達パイプ……すぐ切れてしまう感情抑制ゴム…
-TEXT 私の脳だ…！
-PLAY_SOUND 01 '004_ik2036' 00 
-TEXT 返せこのぉっ…！
-PLAY_SOUND 01 'tok_cld013' 00 
-TEXT 「危ないよ、おねえちゃんっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld014' 00 
-TEXT 「ほら、たてがみが金粉かけたみたいにぴかぴか光ってる……」
-STOP_SOUND 01 
-TEXT そうか……たてがみが金粉かけたみたいにぴかぴか光ってしまったらお終いなんだ…。
-TEXT 諦めよう…。
+TEXT "Ei, mo|a, voc[ ainda t$ aqui?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2034' 00
+TEXT Como assim "ainda"... Eu t{ indo agora!\nJ$ j$ eu pego ele.
+PLAY_SOUND 01 'tok_cld010' 00
+TEXT "N~o d$. J$ faz uma semana."
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2035' 00
+TEXT H~...?!
+PLAY_SOUND 01 'tok_cld011' 00
+TEXT "Os Haji j$ comeram o seu c%rebro todinho."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld012' 00
+TEXT "Olha s+..."
+STOP_SOUND 01
+TEXT Um Haji passa caminhando bem devagar na minha frente.
+TEXT E entre aquelas presas nefastas, ele carregava uma massa bizarra, cor de argila.
+TEXT Eu reconhe|o aquilo... Os tubos de transmiss~o de informa|~o que vivem entupindo... O el$stico de supress~o emocional que arrebenta # toa...
+TEXT @ o meu c%rebro...!
+PLAY_SOUND 01 '004_ik2036' 00
+TEXT Me devolve isso, desgra|ado...!
+PLAY_SOUND 01 'tok_cld013' 00
+TEXT "Cuidado, mo|a!"
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld014' 00
+TEXT "Olha s+, a juba dele t$ brilhando igual poeira de ouro..."
+STOP_SOUND 01
+TEXT @ mesmo... Se a juba j$ t$ brilhando parecendo poeira de ouro, % o fim...
+TEXT Melhor desistir...
 JMP .LABEL15 
 
 :LABEL14
-TEXT だめだ……もう一週間も経っている…。
-TEXT 今追いかけたところで手遅れだろう…。
+TEXT N~o d$... J$ se passou uma semana...
+TEXT Mesmo que eu v$ atr$s agora, j$ deve ser tarde demais...
 
 :LABEL15
 BACKGROUND 'FG616' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'tok_kda000' 00 
-TEXT 「昨日の帰りＣ組のゆかりちゃんが、ハジに耳から脳味噌をちゅうちゅうと吸い尽くされちゃったらしいよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_kdb000' 00 
-TEXT 「きゃー、こわーいっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_kdc001' 00 
-TEXT 「僕たちも気をつけなきゃね」
-STOP_SOUND 01 
-TEXT 密談する小学生たち…。
+TEXT "Dizem que ontem, voltando pra casa, a Yukari-chan da turma C teve o c%rebro sugado at% o fim pelo ouvido por um Haji."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_kdb000' 00
+TEXT "Aaah, que medo!"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_kdc001' 00
+TEXT "A gente tem que tomar cuidado tamb%m, n%?"
+STOP_SOUND 01
+TEXT Crian|as do prim$rio cochichando...
 TEXT 
-SELECT 0003 'ムカツクので蹴落とす' '無視してゆく' 
-IF 16 03 00 15 01 00 02 00 .LABEL16 
-TEXT おまえら、ムカツクのよっ。
-PLAY_SOUND 01 'se77' 00 
-TEXT げしっ、げしっ、げしっ！
-BACKGROUND 'BO' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 'tok_kda001' 00 
-TEXT 「うわああああぁぁぁぁぁぁぁぁぁーっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_kdb001' 00 
-TEXT 「いやああああああああぁぁぁぁぁぁぁーっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_kdc003' 00 
-TEXT 「でもこういうのもスリルあっていいよねっ」
-STOP_SOUND 01 
-TEXT バンジージャンプじゃないってのよ…。
-TEXT でもとりあえずこれで小学生はいなくなった。世界の表舞台から。
-TEXT でもその裏側には無数の小学生たちがウジのように蠢いているのだ。
-TEXT 気をつけなくては。
-BACKGROUND 'FG610' 
-X_24 00 
-X_25 06 
-TEXT 子供たちのいなくなった街は、とても老人臭かった。
-TEXT さて、時間もあるし、なにをしよう。
+SELECT 0003 'Chutar elas porque s~o irritantes' 'Ignorar e ir embora'
+IF 16 03 00 15 01 00 02 00 .LABEL16
+TEXT Voc[s me irritam demais, seus pirralhos!
+PLAY_SOUND 01 'se77' 00
+TEXT *P$!* *P$!* *P$!*
+BACKGROUND 'BO'
+X_24 00
+X_25 06
+PLAY_SOUND 01 'tok_kda001' 00
+TEXT "Uwaaaaaaah!"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_kdb001' 00
+TEXT "Kyaaaaaaaah!"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_kdc003' 00
+TEXT "Mas at% que d$ um barato legal esse tipo de coisa, n%?"
+STOP_SOUND 01
+TEXT Isso aqui n~o % pula-pula, caramba...
+TEXT Mas, de qualquer forma, agora n~o tem mais nenhum pirralho. No palco principal do mundo ao menos.
+TEXT S+ que, nos bastidores, milhares de pivetes continuam se contorcendo que nem larvas.
+TEXT Preciso tomar cuidado.
+BACKGROUND 'FG610'
+X_24 00
+X_25 06
+TEXT Sem as crian|as, a cidade ficou com um cheiro insuport$vel de velho.
+TEXT Bom, j$ que estou com tempo, o que eu fa|o?
 TEXT 
-SELECT 0003 'ヨーヨーをする' 'べっこう飴の早舐め競争に参加する' 'もう家に帰る' 
-IF 16 03 00 15 01 00 02 00 .LABEL17 
-TEXT 私は老人だらけの通りで颯爽とヨーヨーを取り出すと、シャーシャーとそれに興じた。
-TEXT 老人たちはどこまでも冷めていて、私のヨーヨーテクニックを目の当たりにしても、驚嘆の声ひとつあげなかった。
-TEXT いきなり子供たちのいない寂しさを実感してしまう。
-TEXT またムカツいたので、ヨーヨーで老人たちを攻撃しながらに家路についた。
+SELECT 0003 'Brincar de io-i{' 'Participar da competi|~o de quem lambe   bala de cevada mais r$pido' 'Ir direto pra casa'
+IF 16 03 00 15 01 00 02 00 .LABEL17
+TEXT No meio daquela rua cheia de velhos, puxei meu io-i{ com ar de superioridade e comecei a fazer manobras.
+TEXT Mas os velhos nem se abalaram; mesmo vendo minhas manobras sensacionais de io-i{, nenhum deu um ^nico pio de espanto.
+TEXT De repente, senti o baque da solid~o sem as crian|as por perto.
+TEXT Fiquei irritada de novo, ent~o fui voltando pra casa enquanto metia o io-i{ na cara dos velhos.
 JMP .LABEL18 
 
 :LABEL17
 IF 16 03 00 15 02 00 02 00 .LABEL19 
-TEXT 私はべっこう飴の早舐め競争にエントリーした。
-TEXT しかしそんなものはどこでも行われていなかった。
-TEXT ならエントリー用紙など用意しておくな、とムカツいた。
-TEXT 仕方がないので、私が開催することにした。
-TEXT たくさんの老人が集まった。
-TEXT 優勝商品が品のいい棺桶だからだ。
-TEXT よーい、どん！
-TEXT 町中の老人たちが一斉にべっこう飴を舐め始めた。
-TEXT 町中がとてもべっこう飴臭くなった。
-TEXT とても臭くて耐えきれなくなったので、大会の途中で私は抜けだし、家路についた。
+TEXT Eu me inscrevi no campeonato de quem lambe bala de cevada mais r$pido.
+TEXT S+ que o evento n~o estava acontecendo em lugar nenhum.
+TEXT "Ent~o pra que diabos colocaram uma ficha de inscri|~o aqui?", pensei indignada.
+TEXT Como n~o tinha outro jeito, eu mesma decidi organizar o neg+cio.
+TEXT Um monte de velhos apareceu.
+TEXT @ claro, o pr[mio do vencedor era um caix~o bem chique.
+TEXT Preparar... J$!
+TEXT Os velhos da cidade inteira come|aram a lambuzar as balas de cevada ao mesmo tempo.
+TEXT A cidade inteira ficou com um cheiro insuport$vel de bala de cevada.
+TEXT Ficou um fedor t~o medonho que eu n~o aguentei, ca& fora no meio do campeonato e fui embora pra casa.
 JMP .LABEL18 
 
 :LABEL19
-TEXT 私は帰ることにした。
+TEXT Eu decidi ir pra casa.
 
 :LABEL18
 BACKGROUND 'FG629' 
 X_24 00 
 X_25 06 
-TEXT 家に帰ってきた私は暇だったので、テレビをつけた。
-TEXT とても大笑いできて、少しセンチな物語が放送されていた。
+TEXT Cheguei em casa, como n~o tinha nada pra fazer, liguei a TV.
+TEXT Tava passando uma hist+ria super engra|ada, mas com um toque meio melanc+lico.
 JMP .LABEL21 
 JMP .LABEL22 
 
 :LABEL16
 PLAY_SOUND 01 'tok_kda002' 00 
-TEXT 「ハジには『すのこ』がよく効くらしいよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_kda003' 00 
-TEXT 「あの不気味な角をすのこの隙間にかっぽりとはめてやれば、もうそれで身動きできなくなるらしいんだ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_kdc004' 00 
-TEXT 「じゃあ僕たちもすのこを持ち歩かないとね」
-STOP_SOUND 01 
-BACKGROUND 'BO' 
-X_24 00 
-X_25 06 
-TEXT すれ違うときに、そんな話が聞けた。
-TEXT すのこ…
-TEXT 私も買っておこう。
-IF 16 12 00 15 00 00 02 16 12 00 15 03 00 02 0F 00 .LABEL23 
-TEXT この牛の脳だって、今じゃ私の大切な脳だ。
+TEXT "Dizem que 'estrado de madeira' funciona super bem contra os Haji."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_kda003' 00
+TEXT "Se voc[ prender aquele chifre nojento bem no v~o do estrado, dizem que eles n~o conseguem mais nem se mexer."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_kdc004' 00
+TEXT "Caramba, ent~o a gente precisa come|ar a andar com um estrado por a& tamb%m."
+STOP_SOUND 01
+BACKGROUND 'BO'
+X_24 00
+X_25 06
+TEXT Consegui escutar essa conversa enquanto cruzava com eles na rua.
+TEXT Um estrado de madeira, %...?
+TEXT Acho melhor eu comprar um pra mim tamb%m.
+IF 16 12 00 15 00 00 02 16 12 00 15 03 00 02 0F 00 .LABEL23
+TEXT Afinal, mesmo sendo um c%rebro de vaca, agora ele % o meu precioso c%rebro.
 JMP .LABEL24 
 
 :LABEL23
 IF 16 12 00 15 01 00 02 00 .LABEL25 
-TEXT この豚の脳だって、今じゃ私の大切な脳だ。
+TEXT Afinal, mesmo sendo um c%rebro de porco, agora ele % o meu precioso c%rebro.
 JMP .LABEL24 
 
 :LABEL25
-TEXT この私の脳だって、今じゃ私の大切な脳だ。
+TEXT Afinal, mesmo sendo um c%rebro, agora ele % o meu precioso c%rebro.
 
 :LABEL24
-TEXT でももしかしたら、家にあったかな、すのこ。
-TEXT べつにこの際、ふたつあってもいいだろうけど。
+TEXT Mas ser$ que eu j$ n~o tinha um estrado de madeira em casa...?
+TEXT Quer dizer, n~o que fosse um problema ter dois, mas mesmo assim...
 TEXT 
-SELECT 0003 '買いにゆく' '家に戻って探す' 
-IF 16 03 00 15 02 00 02 00 .LABEL27 
-TEXT あんなものがふたつあったら邪魔だしな。
-TEXT 私は家に戻って探すことにした。
+SELECT 0003 'Ir comprar um' 'Voltar pra casa e procurar'
+IF 16 03 00 15 02 00 02 00 .LABEL27
+TEXT Ter duas tralhas daquelas s+ ia ocupar espa|o.
+TEXT Decidi voltar pra casa e dar uma procurada.
 IF 16 12 00 15 00 00 02 16 12 00 15 03 00 02 0F 00 .LABEL28 
-TEXT そして帰ってきた牛舎はいつも通りの佇まいだった。
-TEXT 間違えた。
-TEXT どうして人間の私が牛舎なんかに帰ってこなくちゃいけないのよ。
-TEXT もう。
-TEXT 今度はちゃんと自分の家に帰ってくる。
+TEXT E o curral onde cheguei continuava com a mesma cara de sempre.
+TEXT N~o, espera, errei.
+TEXT Por que % que eu, uma humana, teria que voltar para um curral?
+TEXT Francamente.
+TEXT Agora sim, vou voltar direito pra minha casa.
 BACKGROUND 'FG629' 
 X_24 00 
 X_25 06 
-TEXT 暇だったので、テレビをつけた。
+TEXT Como n~o tinha nada para fazer, liguei a TV.
 JMP .LABEL29 
 
 :LABEL28
 IF 16 12 00 15 01 00 02 00 .LABEL30 
-TEXT そして帰ってきた豚小屋はいつも通りの佇まいだった。
-TEXT 間違えた。
-TEXT どうして人間の私が豚小屋なんかに帰ってこなくちゃいけないのよ。
-TEXT ぶー。
-TEXT 今度はちゃんと自分の家に帰ってくる。
-TEXT 暇だったので、テレビをつけた。
+TEXT E o chiqueiro onde cheguei continuava com a mesma cara de sempre.
+TEXT N~o, espera, errei.
+TEXT Por que % que eu, uma humana, teria que voltar para a droga de um chiqueiro?
+TEXT *Oinc*
+TEXT Agora sim, vou voltar direito pra casa.
+TEXT Como n~o tinha nada para fazer, liguei a TV.
 BACKGROUND 'FG629' 
 X_24 00 
 X_25 06 
@@ -1169,103 +1169,103 @@ JMP .LABEL29
 BACKGROUND 'FG629' 
 X_24 00 
 X_25 06 
-TEXT 家に帰ってきた私は暇だったので、テレビをつけた。
+TEXT Como n~o tinha nada para fazer, liguei a TV.
 
 :LABEL29
-TEXT ちなみに、すのこなんて家にはなかった。
-TEXT テレビはとても大笑いできて、少しセンチな物語を放送していた。
+TEXT Ali$s, n~o tinha estrado de madeira nenhum em casa.
+TEXT A TV estava passando uma hist+ria super divertida, mas com um toque meio melanc+lico.
 
 :LABEL21
-TEXT 私は大笑いして、少しセンチになった。
-TEXT 彼氏に会いたくなった。
-TEXT そう。私には彼氏がいるのだ。
+TEXT Dei bastante risada e fiquei um pouco emotiva.
+TEXT Fiquei com vontade de ver o meu namorado.
+TEXT @ isso mesmo. Eu tenho um namorado.
 IF 16 12 00 15 00 00 02 00 .LABEL32 
-TEXT とても素敵な彼氏だ。
-TEXT 夜中でも朝方でもないおかしな時間だったけど、私のためなら彼だって会ってくれる。
+TEXT Ele % um namorado incr&vel.
+TEXT Era um hor$rio esquisito, nem tarde da noite nem de madrugada, mas ele com certeza viria se eu pedisse.
 JMP .LABEL33 
 
 :LABEL32
 IF 17 97 00 15 01 00 02 00 .LABEL34 
-TEXT 昨日、殺した気もするけど、とても素敵な彼氏がいるのだ。
-TEXT 夜中でも朝方でもないおかしな時間だったけど、私のためなら彼だって会ってくれる。
+TEXT Acho que matei ele ontem, mas % um namorado incr&vel.
+TEXT Era um hor$rio esquisito, nem tarde da noite nem de madrugada, mas ele com certeza viria se eu pedisse.
 JMP .LABEL33 
 
 :LABEL34
 IF 17 98 00 15 01 00 02 00 .LABEL33 
-TEXT 昨日、蹴落とした気もするけど、とても素敵な彼氏がいるのだ。
-TEXT 夜中でも朝方でもないおかしな時間だったけど、私のためなら彼だって会ってくれる。
+TEXT Acho que chutei ele ontem, mas % um namorado incr&vel.
+TEXT Era um hor$rio esquisito, nem tarde da noite nem de madrugada, mas ele com certeza viria se eu pedisse.
 
 :LABEL33
-TEXT だから私は会いにでかけた。
-BACKGROUND 'FG603' 
-X_24 00 
-X_25 06 
-TEXT 彼氏はやはりいつもの交差点にいた。
-TEXT 信号が、赤と黄色の間の、どちらとも言えない微妙なところに点っていた。
-TEXT こんな時間ともなると信号だって職務を忘れて、妄想に耽ってしまうのだ。
-PLAY_SOUND 01 'tok_kre000' 00 
-TEXT 「キミのすべてが好きだよ」
-STOP_SOUND 01 
-TEXT 彼が私に熱く語った。
-TEXT やっぱり素敵な彼氏だ。いつでも私のことを好きでいてくれる。
-PLAY_SOUND 01 '004_ik2037' 00 
-TEXT こんな私でも…？
-PLAY_SOUND 01 'tok_kre000' 00 
-TEXT 「キミのすべてが好きだよ」
-STOP_SOUND 01 
-TEXT ほら、素敵。
-PLAY_SOUND 01 '004_ik2038' 00 
-TEXT 私のどこが好き？
-PLAY_SOUND 01 'tok_kre000' 00 
-TEXT 「キミのすべてが好きだよ」
-STOP_SOUND 01 
-TEXT 唯一の欠点は、そのセリフしか言えないことだ。
-PLAY_SOUND 01 '004_ik2039' 00 
-TEXT ねぇ、今度家族の方に会わせてよ…。
-PLAY_SOUND 01 'tok_kre000' 00 
-TEXT 「キミのすべてが好きだよ」
-STOP_SOUND 01 
-TEXT カチン。今のはムカツいた。
-IF 17 97 00 15 01 00 02 00 .LABEL37 
-TEXT とてもムカツいたので、もう一回殺すことにした。
+TEXT Por isso, sa& para me encontrar com ele.
+BACKGROUND 'FG603'
+X_24 00
+X_25 06
+TEXT Como era de se esperar, meu namorado estava no cruzamento de sempre.
+TEXT O sinal brilhava em um ponto vago e indefinido, bem entre o vermelho e o amarelo.
+TEXT A essa hora, at% os sem$foros esquecem do pr+prio trabalho e ficam viajando na maionese.
+PLAY_SOUND 01 'tok_kre000' 00
+TEXT "Eu amo tudo em voc[."
+STOP_SOUND 01
+TEXT Ele me disse, cheio de paix~o.
+TEXT Viu s+? Um namorado incr&vel. Ele gosta de mim a qualquer momento.
+PLAY_SOUND 01 '004_ik2037' 00
+TEXT At% de algu%m como eu...?
+PLAY_SOUND 01 'tok_kre000' 00
+TEXT "Eu amo tudo em voc[."
+STOP_SOUND 01
+TEXT Viu? Uma gra|a.
+PLAY_SOUND 01 '004_ik2038' 00
+TEXT O que voc[ gosta em mim?
+PLAY_SOUND 01 'tok_kre000' 00
+TEXT "Eu amo tudo em voc[."
+STOP_SOUND 01
+TEXT O ^nico defeito dele % s+ saber falar essa frase.
+PLAY_SOUND 01 '004_ik2039' 00
+TEXT Ei, me apresenta pra sua fam&lia um dia desses...
+PLAY_SOUND 01 'tok_kre000' 00
+TEXT "Eu amo tudo em voc[."
+STOP_SOUND 01
+TEXT Aff... Essa agora me irritou.
+IF 17 97 00 15 01 00 02 00 .LABEL37
+TEXT Fiquei t~o irritada que decidi matar ele de novo.
 JMP .LABEL38 
 
 :LABEL37
 IF 17 98 00 15 01 00 02 00 .LABEL39 
-TEXT とてもムカツいたので、今度こそ殺すことにした。
+TEXT Fiquei t~o irritada que decidi matar ele.
 JMP .LABEL38 
 
 :LABEL39
-TEXT とてもムカツいたので、殺すことにした。
+TEXT Fiquei t~o irritada que decidi matar ele.
 
 :LABEL38
 TEXT 
-SELECT 0003 '殺す' '蹴落とす' 
+SELECT 0003 'Matar' 'Empurrar l$ de cima' 
 IF 16 03 00 15 02 00 02 00 .LABEL41 
-TEXT 殺すのはさすがに可哀相だ。
+TEXT @ realmente pat%tico matar algu%m.
 IF 17 98 00 15 01 00 02 00 .LABEL42 
-TEXT もう一度、蹴落とすことにした。
+TEXT Resolvi chutar de novo.
 PLAY_SOUND 01 'se04' 00 
-TEXT げしっ。
+TEXT *Bam!*
 JMP .LABEL43 
 
 :LABEL42
 PLAY_SOUND 01 'se04' 00 
-TEXT げしっ。
-TEXT 蹴落とすだけにしておいた。
+TEXT *Bam!*
+TEXT Resolvi s+ dar um chute e pronto.
 
 :LABEL43
 PLAY_SOUND 01 'tok_kre001' 00 
-TEXT 「うわあああぁっ！　気持ちいいなぁっ！」
-STOP_SOUND 01 
-TEXT しかし不思議なことに、彼は宙に昇っていってしまった。
-TEXT ま、そんなこともあるのだろう。
+TEXT "Uwaaaaah! Que sensa|~o gostosaaa!"
+STOP_SOUND 01
+TEXT Mas, por incr&vel que pare|a, ele acabou subindo aos c%us.
+TEXT Bem, coisas assim acontecem.
 X_04 0098 0001 
 X_04 0097 0000 
 JMP .LABEL44 
 
 :LABEL41
-TEXT 私は彼氏を殺した。
+TEXT Eu matei meu namorado.
 X_04 0097 0001 
 X_04 0098 0000 
 
@@ -1273,34 +1273,34 @@ X_04 0098 0000
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT そして私は帰りにコンビニでカップラーメンをひとつ買って、家に帰った。
-TEXT 朝起きたら食べよう。
-TEXT そして私は寝た。
+TEXT No caminho de volta, comprei um miojo no mercado e fui pra casa.
+TEXT Vou comer quando acordar.
+TEXT E a& eu dormi.
 IF 17 7D 00 15 00 00 02 16 12 00 15 01 00 02 0F 00 .LABEL45 
 BACKGROUND 'FG607' 
 X_24 00 
 X_25 06 
-TEXT 朝、起きると、またあの少女が私を見上げていた。
-TEXT 世界はすでに回ることすらやめているのだ。
-TEXT それならそれでいい。
-TEXT 時間は永遠。
+TEXT Quando acordei de manh~, aquela menina estava l$ me encarando de novo.
+TEXT O mundo j$ at% parou de girar.
+TEXT Por mim, tudo bem.
+TEXT O tempo % eterno.
 IF 17 98 00 15 00 00 02 00 .LABEL46 
-TEXT 私は今日も脳を盗まれ、彼氏を殺すのだ。
+TEXT Terei meu c%rebro roubado novamente hoje e matarei meu namorado.
 JMP .LABEL47 
 
 :LABEL46
-TEXT 私は今日も脳を盗まれ、少年たちは密談をするのだ。
+TEXT Hoje de novo roubam meu c%rebro, enquanto os garotos cochicham pelos cantos.
 
 :LABEL47
-TEXT そして食べられないカップラーメンだけが山のように増えてゆく。
-PLAY_SOUND 01 'tok_cld015' 00 
-TEXT 「ねぇ、お姉ちゃん」
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_cld016' 00 
-TEXT 「さっき誰かがお姉ちゃんの脳みそを、すり替えていったよ」
-STOP_SOUND 01 
-TEXT さ、終わることない追いかけっこの続きをしよう。
-TEXT 今日から今日へと。
+TEXT E a pilha de miojos intoc$veis continua crescendo.
+PLAY_SOUND 01 'tok_cld015' 00
+TEXT "Ei, mo|a..."
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_cld016' 00
+TEXT "Um cara acabou de trocar o seu c%rebro por outro."
+STOP_SOUND 01
+TEXT Pronto, hora de continuar esse pega-pega sem fim.
+TEXT De um hoje voltando para outro hoje.
 TEXT 
 X_30 00 
 X_31 00 
@@ -1314,40 +1314,40 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 TEXT 
-SELECT 0003 'ヒントを聞く' 'タイトルに戻る' 
+TEXT SELECT 0003 'Ouvir uma dica' 'Voltar ao Menu Inicial' 
 IF 16 03 00 15 01 00 02 00 .LABEL48 
 BACKGROUND 'CGdp01' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'tok_dop000' 00 
-TEXT …自業自得というやつよ。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop001' 00 
-TEXT …最後に私はあなたにチャンスを与えたつもりだった。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop002' 00 
-TEXT …なのにね。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop003' 00 
-TEXT …あなたは親友とも呼べる子でさえも、自分の性欲のはけ口として利用してしまった。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop004' 00 
-TEXT …ちょうどいいのよ、あなたには。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop005' 00 
-TEXT …自分の世界の中で、永遠追いかけっこしていたらいいのよ。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop006' 00 
-TEXT …もう可哀相な私たちは生み出されない。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop007' 00 
-TEXT …こんな終わり方が一番、私たちにとっていいのよ。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop008' 00 
-TEXT …コングラチュレーション。
-STOP_SOUND 01 
-PLAY_SOUND 01 'tok_dop009' 00 
-TEXT …すべてを終えたあなたにね。
+TEXT ...Voc[ colheu o que plantou.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop001' 00
+TEXT ...Eu realmente achei que voc[ merecia uma ^ltima chance.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop002' 00
+TEXT ...E mesmo assim.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop003' 00
+TEXT ...Voc[ usou at% a pessoa que podia chamar de melhor amiga como v$lvula de escape para o seu tes~o.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop004' 00
+TEXT ...Isso % perfeito para voc[.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop005' 00
+TEXT ...Espero que aproveite esse pega-pega eterno no seu pr+prio mundinho.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop006' 00
+TEXT ...Nenhuma outra vers~o coitada de n+s vai precisar nascer.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop007' 00
+TEXT ...Um fim assim % o melhor que poderia acontecer para a gente.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop008' 00
+TEXT ...Meus parab%ns.
+STOP_SOUND 01
+PLAY_SOUND 01 'tok_dop009' 00
+TEXT ...Para voc[, que destruiu tudo.
 STOP_SOUND 01 
 TEXT 
 BACKGROUND 'BO' 
@@ -1363,8 +1363,8 @@ GOTO_SCRIPT 'INIT'
 BACKGROUND 'FG607' 
 X_24 00 
 X_25 06 
-TEXT 朝、起きると、またあの少女が私を見上げていた。
-TEXT 世界はすでに回ることすらやめているのだ。
+TEXT Quando acordei de manh~, aquela menina estava l$ me encarando de novo.
+TEXT O mundo j$ at% parou de girar.
 X_08 0012 0001 
 IF 16 12 00 15 04 00 02 00 .LABEL50 
 X_00 0012 0001 
@@ -1374,40 +1374,40 @@ JMP .LABEL51
 JMP .LABEL22 
 
 :LABEL27
-TEXT 買いにいこう、すのこ。
-TEXT でもどこに売ってるんだろう。
+TEXT Vamos comprar um estrado de madeira.
+TEXT Mas onde % que vende isso?
 TEXT 
-SELECT 0003 '文具店' '風呂屋' 'ペットショップ' 
-IF 16 03 00 15 01 00 02 00 .LABEL53 
-BACKGROUND 'FG628' 
-X_24 00 
-X_25 06 
-TEXT 文具店は、ものさしフェアの期間中で、ものさしだらけだった。
-TEXT おかげでシャーペンやノートや定規など、ひとつとして見あたらなかった
-PLAY_SOUND 01 '004_ik2040' 00 
-TEXT 「すのこをください。ひとつ」
-STOP_SOUND 01 
-TEXT 私は店員に言った。
-PLAY_SOUND 01 'tok_bng000' 00 
-TEXT 「はい、どうぞ」
-STOP_SOUND 01 
-TEXT 私は切れ味の良さそうな、すのこを手に入れた。
-PLAY_SOUND 01 '004_ik2041' 00 
-TEXT 「ありがとう」
-STOP_SOUND 01 
-TEXT これでハジが現れても安心だ。
-TEXT 私はこのすのこでズッタズタに切り裂いてやれるのだ。
-TEXT 用を済ませた私は家に帰ることにした。
-BACKGROUND 'FG629' 
-X_24 00 
-X_25 06 
-TEXT 家に帰ってきた私は暇だったので、テレビをつけた。
-TEXT 偶然にもすのこのコマーシャルをしていて、類似品に注意とのことだった。
-TEXT 映像と、私の持つすのこをよく見比べてみると、別物であることがわかった。
-TEXT じゃあこれはなんなのだ。
-PLAY_SOUND 01 'se05' 00 
-TEXT 私は腹が立ったので、それをへし折った。
-TEXT そしてその後、とても大笑いできて、少しセンチな物語の放送が始まった。
+SELECT 0003 'Papelaria' 'Loja de banho' 'Pet shop'
+IF 16 03 00 15 01 00 02 00 .LABEL53
+BACKGROUND 'FG628'
+X_24 00
+X_25 06
+TEXT A papelaria estava na Feira da R%gua, ent~o era s+ isso que tinha.
+TEXT N~o dava pra achar um l$pis, um caderno e nem uma r%gua sequer.
+PLAY_SOUND 01 '004_ik2040' 00
+TEXT "Me v[ um estrado de madeira. S+ um."
+STOP_SOUND 01
+TEXT Falei para o atendente.
+PLAY_SOUND 01 'tok_bng000' 00
+TEXT "Aqui est$, pode pegar."
+STOP_SOUND 01
+TEXT Consegui um estrado que parecia bem afiado.
+PLAY_SOUND 01 '004_ik2041' 00
+TEXT "Obrigada."
+STOP_SOUND 01
+TEXT Agora posso ficar tranquila se um Haji aparecer.
+TEXT Posso retalhar ele todinho com esse estrado.
+TEXT Com a miss~o cumprida, decidi voltar pra casa.
+BACKGROUND 'FG629'
+X_24 00
+X_25 06
+TEXT Como estava sem nada pra fazer ao chegar em casa, liguei a TV.
+TEXT Por coincid[ncia, estava passando um comercial de estrados de madeira, avisando sobre imita|/es.
+TEXT Comparando bem a imagem com o meu estrado, percebi que eram coisas totalmente diferentes.
+TEXT Mas o que diabos % isso aqui, ent~o?
+PLAY_SOUND 01 'se05' 00
+TEXT Fiquei revoltada e quebrei o neg+cio no meio.
+TEXT Logo depois, come|ou passar uma hist+ria bem engra|ada mas um pouco sentimental.
 JMP .LABEL21 
 JMP .LABEL22 
 
@@ -1416,32 +1416,32 @@ IF 16 03 00 15 03 00 02 00 .LABEL56
 BACKGROUND 'FG608' 
 X_24 00 
 X_25 06 
-TEXT ペットショップは、ウニフェアを開催中で、ウニだらけだった。
-TEXT ところ狭しとウニが、うにうにとしていた。
-PLAY_SOUND 01 '004_ik2040' 00 
-TEXT 「すのこをください。ひとつ」
-STOP_SOUND 01 
-TEXT 私は店員に言った。
-PLAY_SOUND 01 'tok_pet000' 00 
-TEXT 「はい、どうぞ」
-STOP_SOUND 01 
-TEXT 私は病弱そうな、すのこを手に入れた。
-TEXT でも温かい。大切に育てようと思う。
-PLAY_SOUND 01 '004_ik2041' 00 
-TEXT 「ありがとう」
-STOP_SOUND 01 
-TEXT これでハジが現れても安心だ。
-TEXT 私はこの病弱なすのこを放って返り討ちにしてやれるのだ。
-TEXT 用を済ませた私は家に帰ることにした。
-BACKGROUND 'FG629' 
-X_24 00 
-X_25 06 
-TEXT 家に帰ってきた私は暇だったので、テレビをつけた。
-TEXT 偶然にもすのこのコマーシャルをしていて、類似品に注意とのことだった。
-TEXT 映像と、丸まって眠るすのこをよく見比べてみると、別物であることがわかった。
-TEXT じゃあこれはなんなのだ。
-TEXT 私は腹が立ったので、それを流しの三角コーナーに捨てた。
-TEXT そしてその後、とても大笑いできて、少しセンチな物語の放送が始まった。
+TEXT O pet shop estava na Feira do Ouri|o-do-Mar, ent~o era s+ o que tinha.
+TEXT Tinha ouri|o-do-mar pra tudo que % lado, se contorcendo e rastejando sem parar.
+PLAY_SOUND 01 '004_ik2040' 00
+TEXT "Me v[ um estrado de madeira. S+ um."
+STOP_SOUND 01
+TEXT Falei para o atendente.
+PLAY_SOUND 01 'tok_pet000' 00
+TEXT "Aqui est$, pode pegar."
+STOP_SOUND 01
+TEXT Consegui um estrado que parecia bem franzino e doentio.
+TEXT Mas era quentinho. Acho que vou cuidar dele com carinho.
+PLAY_SOUND 01 '004_ik2041' 00
+TEXT "Obrigada."
+STOP_SOUND 01
+TEXT Agora posso ficar tranquila se um Haji aparecer.
+TEXT Posso s+ jogar esse estrado doentio nele e deixar que se vire.
+TEXT Com a miss~o cumprida, decidi voltar pra casa.
+BACKGROUND 'FG629'
+X_24 00
+X_25 06
+TEXT Como estava sem nada pra fazer ao chegar em casa, liguei a TV.
+TEXT Por coincid[ncia, estava passando um comercial de estrados de madeira, avisando sobre imita|/es.
+TEXT Comparando bem a imagem com o estrado dormindo encolhidinho, percebi que eram coisas totalmente diferentes.
+TEXT Mas o que diabos % isso aqui, ent~o?
+TEXT Fiquei revoltada e joguei o neg+cio no ralo da pia.
+TEXT Logo depois, come|ou a passar uma hist+ria bem engra|ada mas um pouco sentimental.
 JMP .LABEL21 
 JMP .LABEL22 
 
@@ -1449,48 +1449,48 @@ JMP .LABEL22
 BACKGROUND 'FG623' 
 X_24 00 
 X_25 06 
-TEXT 風呂屋は、すのこフェアを開催中で、すのこだらけだった。
-PLAY_SOUND 01 '004_ik2040' 00 
-TEXT 「すのこをください。ひとつ」
-STOP_SOUND 01 
-TEXT 私はレジに並んで、そう申しつける。
-IF 17 7D 00 15 00 00 02 00 .LABEL59 
-PLAY_SOUND 01 '000_oba001' 00 
-TEXT 「…なにをしてるの、あなたはこんなところで」
-STOP_SOUND 01 
-TEXT 私の後ろに並んでいた誰かが声をかけてくる。
-PLAY_SOUND 01 '004_ik2042' 00 
-TEXT 「すのこを買ってるのよ。すのこ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_oba002' 00 
-TEXT 「どうしてそんなものがいるのよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2043' 00 
-TEXT 「だってハジに襲われたら、大変じゃない」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_oba003' 00 
-TEXT 「すのこがあったら、どうなるって言うの」
-STOP_SOUND 01 
-TEXT そのおばさんは真顔で聞いてくる。
-TEXT このひとは知らないのだ。少しだけ優越感。
-PLAY_SOUND 01 '004_ik2044' 00 
-TEXT 「身動きさせられなくできるのよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_oba004' 00 
-TEXT 「それ、ほんとう？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '004_ik2045' 00 
-TEXT 「ほんとうよ」
-STOP_SOUND 01 
-TEXT 私がそう言うと、そのおばさんは急いですのこを漁りにいった。
-TEXT それを余所に私は丈夫そうなすのこを手に入れた。
-TEXT これでハジが現れても安心だ。
-TEXT 用を済ませた私は家に帰ることにした。
-BACKGROUND 'FG629' 
-X_24 00 
-X_25 06 
-TEXT 家に帰ってきた私は暇だったので、テレビをつけた。
-TEXT テレビはとても大笑いできて、少しセンチな物語を放送していた。
+TEXT A casa de banho estava na Feira do Estrado de Madeira, ent~o era s+ o que tinha.
+PLAY_SOUND 01 '004_ik2040' 00
+TEXT "Me v[ um estrado de madeira. S+ um."
+STOP_SOUND 01
+TEXT Fiz o pedido e entrei na fila do caixa.
+IF 17 7D 00 15 00 00 02 00 .LABEL59
+PLAY_SOUND 01 '000_oba001' 00
+TEXT "...O que voc[ est$ fazendo num lugar destes?"
+STOP_SOUND 01
+TEXT Algu%m que estava atr$s de mim na fila me chamou.
+PLAY_SOUND 01 '004_ik2042' 00
+TEXT "Comprando um estrado de madeira. Um estrado."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_oba002' 00
+TEXT "Para que voc[ precisa de uma coisa dessas?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2043' 00
+TEXT "U%, se um Haji me atacar, a coisa vai ficar feia, n~o vai?"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_oba003' 00
+TEXT "E o que % que muda se voc[ tiver um estrado?"
+STOP_SOUND 01
+TEXT A senhora perguntou sem mudar de express~o.
+TEXT Ela n~o sabe de nada. Senti uma leve onda de superioridade.
+PLAY_SOUND 01 '004_ik2044' 00
+TEXT "D$ para deixar ele sem conseguir se mexer."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_oba004' 00
+TEXT "S%rio mesmo?"
+STOP_SOUND 01
+PLAY_SOUND 01 '004_ik2045' 00
+TEXT "S%rio."
+STOP_SOUND 01
+TEXT Quando respondi isso, a senhora correu apavorada para garimpar um estrado.
+TEXT Deixando ela para l$, consegui um estrado que parecia bem resistente.
+TEXT Agora posso ficar tranquila se um Haji aparecer.
+TEXT Com a miss~o cumprida, decidi voltar pra casa.
+BACKGROUND 'FG629'
+X_24 00
+X_25 06
+TEXT Como estava sem nada pra fazer ao chegar em casa, liguei a TV.
+TEXT Estava passando uma hist+ria bem engra?ada mas um pouco sentimental.
 JMP .LABEL21 
 JMP .LABEL22 
 

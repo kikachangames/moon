@@ -4,7 +4,7 @@
 # Comments are lines beginning with a # character
 
 X_00 000F 0011 
-SETSTATUS ' Dia 17 -- Interior da Instala|~o'
+SETSTATUS ' Dia 17 - Interior da Instala|~o'
 BACKGROUND 'FG216' 
 X_24 00 
 X_25 06 

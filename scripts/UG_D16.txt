@@ -5,7 +5,6 @@
 
 X_00 0013 0004 
 SETSTATUS ' Dia 16Å@Å|Å|Å@Passagemm Subterr}nea'
-#SETSTATUS ' Day 16Å@Å|Å|Å@Underground Passagem' 
 X_3E 03 74 'imeplate' 
 X_56 03 0028 000A 
 X_3E 00 64 'ay16' 
