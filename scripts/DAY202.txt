@@ -6,187 +6,187 @@
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT …
-TEXT ……
-TEXT ………
-TEXT あれだけの喧噪に包まれていた施設内も、すっかり静まり返っていた。
-TEXT 残ったのは私だけ。
-TEXT そして、私も一歩を踏み出す。
-TEXT あの場所へ。
-TEXT 心の痛みと邂逅を果たす場所へ。
-TEXT ……
-TEXT ………
-X_30 00 
-X_31 00 
-X_32 00 
-BACKGROUND 'BG004' 
-X_24 00 
-X_25 06 
-TEXT ぐううぅぅぅん…
-TEXT かたかたかた…
-TEXT がこん…がこん…がこん…
-TEXT がこん…がこん…がこん…
-TEXT …がこん……がこん……
-TEXT …
-TEXT ……
-TEXT ………
-X_24 00 
-BACKGROUND 'WO' 
-X_25 06 
-PLAY_SOUND 01 'se84' 00 
-TEXT ミーンミン…
-TEXT ミーンミン…
-TEXT セミの声。
-TEXT 夏の日…。
-X_24 00 
-BACKGROUND 'BO' 
-X_25 06 
-BACKGROUND 'FG093' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 00 'mon_cd07' 01 
-PLAY_SOUND 01 '009_ikm001' 00 
-TEXT 「いくみ…」
-STOP_SOUND 01 
-TEXT おかあさんの声…。
-PLAY_SOUND 01 '009_ikm002' 00 
-TEXT 「ほら、この辺りは緑が多いから空気がきれいでしょ…」
-STOP_SOUND 01 
-TEXT おかあさん…。
-PLAY_SOUND 01 '009_ikm003' 00 
-TEXT 「おかあさんの大好きな場所なのよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 'se84' 00 
-TEXT ミーンミン…
-TEXT ………
-STOP_SOUND 01 
-TEXT …違う。
-TEXT 私は私なんだ。
-TEXT お母さんに抱かれている私は過去の私。
-TEXT 今の私はここにいる。
-TEXT いつまでも昔の無邪気な日々に生きていちゃだめなんだ。
-TEXT 私は私。
-TEXT 私はここにいるんだ。
-TEXT いろんな日々に生きて、そしてここにいるんだ。
-X_24 00 
-BACKGROUND 'WO' 
-X_25 06 
-PLAY_SOUND 01 '007_ik2037' 00 
-TEXT 郁未「おかあさん」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm004' 00 
-TEXT 母「はい？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm005' 00 
-TEXT 母「えっと…どなたでしたっけ…？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2038' 00 
-TEXT 郁未「…いえ…べつに面識はないんですけど、そ　　の…隣、いいですか？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm006' 00 
-TEXT 母「ええ、どうぞ」
-STOP_SOUND 01 
-X_24 00 
-BACKGROUND 'BO' 
-X_25 06 
-BACKGROUND 'FG094' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 '007_ik2039' 00 
-TEXT 郁未「ふぅ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm007' 00 
-TEXT 母「今日は暑いですねぇ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2040' 00 
-TEXT 郁未「ええ…」
+TEXT ...
+TEXT ......
+TEXT .........
+TEXT O interior das instala|~o, que antes transbordava tanto barulho, agora estava mergulhado em um sil[ncio absoluto.
+TEXT Fiquei s+.
+TEXT E ent~o, dei meu primeiro passo.
+TEXT Em dire|~o #quele lugar.
+TEXT O lugar onde vou me reencontrar com a dor no meu cora|~o.
+TEXT ......
+TEXT .........
+X_30 00
+X_31 00
+X_32 00
+BACKGROUND 'BG004'
+X_24 00
+X_25 06
+TEXT *Vruuuuum...*
+TEXT *Clack-clack-clack...*
+TEXT *Clanc... clanc... clanc...*
+TEXT *Clanc... clanc... clanc...*
+TEXT *...Clanc...... clanc......*
+TEXT ...
+TEXT ......
+TEXT .........
+X_24 00
+BACKGROUND 'WO'
+X_25 06
+PLAY_SOUND 01 'se84' 00
+TEXT *...Cri-cri-cri*
+TEXT *Cri-cri-cri...*
+TEXT O canto das cigarras.
+TEXT Um dia de ver~o...
+X_24 00
+BACKGROUND 'BO'
+X_25 06
+BACKGROUND 'FG093'
+X_24 00
+X_25 06
+PLAY_SOUND 00 'mon_cd07' 01
+PLAY_SOUND 01 '009_ikm001' 00
+TEXT M~e da Ikumi: "Ikumi..."
+STOP_SOUND 01
+TEXT A voz da minha m~e...
+PLAY_SOUND 01 '009_ikm002' 00
+TEXT M~e da Ikumi: "Olha, tem tanta $rea verde por aqui que o ar % at% puro..."
+STOP_SOUND 01
+TEXT Minha m~e...
+PLAY_SOUND 01 '009_ikm003' 00
+TEXT M~e da Ikumi: "@ o meu lugar preferido no mundo."
+STOP_SOUND 01
+PLAY_SOUND 01 'se84' 00
+TEXT *Cri-cri-cri...*
+TEXT .........
+STOP_SOUND 01
+TEXT ...N~o.
+TEXT Eu sou eu mesma.
+TEXT A garota nos bra|os da minha m~e sou eu no passado.
+TEXT Quem eu sou agora est$ bem aqui.
+TEXT N~o posso passar a vida inteira presa #queles dias inocentes de antigamente.
+TEXT Eu sou eu.
+TEXT Eu estou bem aqui.
+TEXT Vivendo entre tantos dias diferentes, at% chegar aqui.
+X_24 00
+BACKGROUND 'WO'
+X_25 06
+PLAY_SOUND 01 '007_ik2037' 00
+TEXT Ikumi: "M~e."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm004' 00
+TEXT M~e: "Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm005' 00
+TEXT M~e: "Ahm... Quem seria voc[...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2038' 00
+TEXT Ikumi: "...N~o... a gente n~o se conhece, mas... er... posso me sentar do seu lado?"
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm006' 00
+TEXT M~e: "Sim, claro."
+STOP_SOUND 01
+X_24 00
+BACKGROUND 'BO'
+X_25 06
+BACKGROUND 'FG094'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '007_ik2039' 00
+TEXT Ikumi: "Uf..."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm007' 00
+TEXT M~e: "Hoje est$ quente, n%?"
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2040' 00
+TEXT Ikumi: "@..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '007_ik2041' 00 
-TEXT 郁未「………」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2042' 00 
-TEXT 郁未「あの…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm008' 00 
-TEXT 母「はい？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2043' 00 
-TEXT 郁未「可愛い、その…赤ちゃんですね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm009' 00 
-TEXT 母「ええ。女の子なんですよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2044' 00 
-TEXT 郁未「あの…名前は…？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm010' 00 
-TEXT 母「いくみ、って言います」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2045' 00 
-TEXT 郁未「そう、いくみ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2046' 00 
-TEXT 郁未「とてもいい…名前ですね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm011' 00 
-TEXT 母「そう思ってくれます？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2047' 00 
-TEXT 郁未「はい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2048' 00 
-TEXT 郁未「たぶん、このいくみちゃんも大きくなった　　ら、その名前、すごく気に入ると思います」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm012' 00 
-TEXT 母「そうだといいんだけど」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2049' 00 
-TEXT 郁未「大丈夫ですよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm013' 00 
-TEXT 母「ええ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2050' 00 
-TEXT 郁未「………」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm014' 00 
-TEXT 母「この子はね…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2051' 00 
-TEXT 郁未「…はい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm015' 00 
-TEXT 母「大切に育てようと思うんです」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2052' 00 
-TEXT 郁未「…ええ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm016' 00 
-TEXT 母「私が愛情に恵まれなかった分、この子には母　親としての愛情を十分に与えてやりたい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2053' 00 
-TEXT 郁未「………」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm017' 00 
-TEXT 母「でもね、いつまでも甘えてばかりじゃだめ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '009_ikm018' 00 
-TEXT 母「大きくなったら、ひとりで生きてゆけるよう　な強さを持ってほしい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2054' 00 
-TEXT 郁未「………」
-STOP_SOUND 01 
-TEXT そうか…。
-TEXT そうだったんだ…。
-TEXT そんな願いが……そんなおかあさんの願いが私には込められてたんだ…。
-PLAY_SOUND 01 '009_ikm019' 00 
-TEXT 母「でも…できるかしらね、この子に」
-STOP_SOUND 01 
-PLAY_SOUND 01 '007_ik2055' 00 
-TEXT 郁未「きっと、できますよ」
-STOP_SOUND 01 
-TEXT だって私は今日からそこへ向かって生きてゆくのだから。
-TEXT さようなら、おかあさん。^
+TEXT Ikumi: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2042' 00
+TEXT Ikumi: "Com licen|a..."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm008' 00
+TEXT M~e: "Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2043' 00
+TEXT Ikumi: "Que gracinha de... beb[."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm009' 00
+TEXT M~e: "Sim. @ uma menininha."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2044' 00
+TEXT Ikumi: "Er... qual % o nome dela?"
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm010' 00
+TEXT M~e: "O nome dela % Ikumi."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2045' 00
+TEXT Ikumi: "Entendi... Ikumi..."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2046' 00
+TEXT Ikumi: "@ um nome... lindo."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm011' 00
+TEXT M~e: "Voc[ acha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2047' 00
+TEXT Ikumi: "Acho."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2048' 00
+TEXT Ikumi: "Tenho certeza que, quando essa menininha crescer, ela vai amar o pr+prio nome."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm012' 00
+TEXT M~e: "Espero que sim."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2049' 00
+TEXT Ikumi: "Vai dar tudo certo."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm013' 00
+TEXT M~e: "@..."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2050' 00
+TEXT Ikumi: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm014' 00
+TEXT M~e: "Essa menina..."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2051' 00
+TEXT Ikumi: "...Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm015' 00
+TEXT M~e: "Quero criar ela com todo o carinho do mundo."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2052' 00
+TEXT Ikumi: "...Uhum."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm016' 00
+TEXT M~e: "J$ que eu n~o tive amor na minha vida, quero dar a ela todo o amor que puder."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2053' 00
+TEXT Ikumi: "........."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm017' 00
+TEXT M~e: "Mas ela n~o pode ficar dependendo de mim para sempre."
+STOP_SOUND 01
+PLAY_SOUND 01 '009_ikm018' 00
+TEXT M~e: "Quero que ela cres|a e tenha for|a para andar com as pr+prias pernas."
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2054' 00
+TEXT Ikumi: "........."
+STOP_SOUND 01
+TEXT Entendi...
+TEXT Era isso...
+TEXT Era esse desejo... esse desejo que a minha m~e guardava para mim...
+PLAY_SOUND 01 '009_ikm019' 00
+TEXT M~e: "Mas... ser$ que ela vai conseguir?"
+STOP_SOUND 01
+PLAY_SOUND 01 '007_ik2055' 00
+TEXT Ikumi: "Com certeza vai."
+STOP_SOUND 01
+TEXT Afinal, a partir de hoje % para esse futuro que vou viver.
+TEXT Adeus, m~e.
 X_24 00 
 BACKGROUND 'BO' 
 X_25 06 
@@ -271,82 +271,82 @@ BACKGROUND 'BO'
 X_25 06 
 TEXT 
 PLAY_SOUND 01 '000_miu000' 00 
-TEXT 「うわぁーっ、赤ちゃんだぁっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu001' 00 
-TEXT 「あの…そばで見せてもらっていいですかぁ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2000' 00 
-TEXT 「ええ。でも眠ってるから、静かにね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu002' 00 
-TEXT 「はいっ」
-STOP_SOUND 01 
-BACKGROUND 'FG141' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 '000_miu003' 00 
-TEXT 「可愛い赤ちゃんですねぇ。女の子ですかぁ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2001' 00 
-TEXT 「ええ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu004' 00 
-TEXT 「お名前は？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2002' 00 
-TEXT 「未悠」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu005' 00 
-TEXT 「みゆちゃんっていうんですかぁ。いいお名前ですねぇ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2003' 00 
-TEXT 「そう思ってくれる？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu006' 00 
-TEXT 「はいっ。すごく可愛らしくて…なんかおかあさんの愛情を感じます」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu007' 00 
-TEXT 「たぶん、このみゆちゃんも大きくなったら、その名前、すごく気に入ると思います」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2004' 00 
-TEXT 「そうだといいんだけど」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu008' 00 
-TEXT 「大丈夫ですよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2005' 00 
-TEXT 「ええ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2006' 00 
-TEXT 「この子はね…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu009' 00 
-TEXT 「はい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2007' 00 
-TEXT 「私がそうだったように、親としての愛情を十分に与えて、育ててあげたいの」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu010' 00 
-TEXT 「ええ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2008' 00 
-TEXT 「でもいつまでも甘えていちゃだめ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2009' 00 
-TEXT 「大きくなったら、ひとりで生きてゆけるような強さを持ってほしい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2010' 00 
-TEXT 「そして…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2011' 00 
-TEXT 「それを最後まで、私は見届けてあげる」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu011' 00 
-TEXT 「ふぅん…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2012' 00 
-TEXT 「この子の母親としてね」
+TEXT "Uau! @ um beb[!"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu001' 00
+TEXT "Er... posso dar uma olhada de perto?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2000' 00
+TEXT Ikumi: "Pode, sim. Mas fala baixinho, porque ela est$ dormindo."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu002' 00
+TEXT "T$ bom!"
+STOP_SOUND 01
+BACKGROUND 'FG141'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '000_miu003' 00
+TEXT "Que belezinha de beb[. @ uma menininha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2001' 00
+TEXT Ikumi: "@."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu004' 00
+TEXT "Qual o nome dela?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2002' 00
+TEXT Ikumi: "Miyu."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu005' 00
+TEXT "Miyu-chan... Que nome bonitinho."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2003' 00
+TEXT Ikumi: "Voc[ acha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu006' 00
+TEXT "Acho! @ super fofo... d$ pra sentir todo o amor de m~e nele."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu007' 00
+TEXT "Tenho certeza que, quando Miyu-chan crescer, ela vai amar o pr+prio nome."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2004' 00
+TEXT Ikumi: "Espero que sim."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu008' 00
+TEXT "Vai dar tudo certo!"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2005' 00
+TEXT Ikumi: "@..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2006' 00
+TEXT Ikumi: "Essa menina..."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu009' 00
+TEXT "Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2007' 00
+TEXT Ikumi: "Assim como minha m~e fez comigo, quero criar ela dando todo o amor poss&vel."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu010' 00
+TEXT "Uhum."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2008' 00
+TEXT Ikumi: "Mas ela n~o pode ficar dependendo de mim para sempre."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2009' 00
+TEXT Ikumi: "Quero que ela cres|a e tenha for|a para andar com as pr+prias pernas."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2010' 00
+TEXT Ikumi: "E..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2011' 00
+TEXT Ikumi: "Quero estar ao lado dela para ver tudo isso acontecer, at% o fim."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu011' 00
+TEXT "Nossa..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2012' 00
+TEXT Ikumi: "Afinal, eu sou a m~e dela."
 STOP_SOUND 01 
 X_3C 64 01 
 X_3C 17 01 
@@ -364,53 +364,53 @@ BACKGROUND 'BO'
 X_24 00 
 X_25 06 
 TEXT 
-SELECT 0003 'ヒントを聞く' 'タイトルに戻る' 
+SELECT 0003 'Ouvir um dica' 'Voltar ao Menu Principal' 
 IF 16 03 00 15 01 00 02 00 .LABEL1 
 IF 17 64 00 15 00 00 02 00 .LABEL2 
 BACKGROUND 'CGYI02' 
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '022_yui000' 00 
-TEXT 由依「ほんとうにこれで良かったと思いますか…　　？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui001' 00 
-TEXT 由依「だったら、いいんですけど…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui002' 00 
-TEXT 由依「でも…もし、あのとき…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui003' 00 
-TEXT 由依「警報の鳴り響くＣ棟で、郁未さんが私を見　　つけていてくれたら…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui004' 00 
-TEXT 由依「そうしたら、もっと違う形で会えてた気が　　する…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui005' 00 
-TEXT 由依「私を見つけて、そしておね…ううん、友里　　さんと引き合わせていてくれたら…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui006' 00 
-TEXT 由依「もっと違った結果になってた気がします…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui007' 00 
-TEXT 由依「でも、無理な話ですよね…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui008' 00 
-TEXT 由依「すべては終わった出来事なんですから」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui009' 00 
-TEXT 由依「でも、たまには思い出してくださいね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui010' 00 
-TEXT 由依「あたしは今どこでどうしてるんだろう、っ　　て」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui011' 00 
-TEXT 由依「そうしたら、郁未さんの中だけでもあたし　　は元気によみがえるんでしょうから」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui012' 00 
-TEXT 由依「お願いしますよ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '022_yui013' 00 
-TEXT 由依「じゃあ、さようなら、郁未さん」
+TEXT Yui: "Voc[ acha mesmo que foi melhor assim...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui001' 00
+TEXT Yui: "Se voc[ acha, ent~o t$ bom..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui002' 00
+TEXT Yui: "Mas... e se, naquela hora..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui003' 00
+TEXT Yui: "E se voc[ tivesse me encontrado no Pr%dio C, com os alarmes ecoando...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui004' 00
+TEXT Yui: "Sinto que, se tivesse sido assim, nosso reencontro seria bem diferente..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui005' 00
+TEXT Yui: "Se voc[ tivesse me achado e me levado at% a onee... quer dizer, at% a Yuri-san..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui006' 00
+TEXT Yui: "Acho que as coisas poderiam ter terminado de outro jeito..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui007' 00
+TEXT Yui: "Mas n~o adianta pensar nisso agora, n%...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui008' 00
+TEXT Yui: "J$ % assunto do passado."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui009' 00
+TEXT Yui: "S+ que... lembra de mim de vez em quando, t$?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui010' 00
+TEXT Yui: "Pergunta pra si mesma por onde eu ando, como eu t{..."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui011' 00
+TEXT Yui: "Porque se fizer isso, eu vou continuar bem e viva... nem que seja s+ na sua mem+ria."
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui012' 00
+TEXT Yui: "Promete pra mim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '022_yui013' 00
+TEXT Yui: "Ent~o, adeus, Ikumi-san."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
@@ -424,55 +424,55 @@ BACKGROUND 'CGha02'
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 '020_har001' 00 
-TEXT 晴香「はっきり言うよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har002' 00 
-TEXT 晴香「べつに私は郁未のこと恨んでないから」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har003' 00 
-TEXT 晴香「だから気にしなくていいよっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har004' 00 
-TEXT 晴香「逆にね、あんたで良かったと思ってるし」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har005' 00 
-TEXT 晴香「だから、気に病まないでよね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har006' 00 
-TEXT 晴香「でも、私がいなかったら由依とも会いづら　　いでしょ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har007' 00 
-TEXT 晴香「それだって気にしなくていいのに」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har008' 00 
-TEXT 晴香「三人だったら気兼ねなく会えて……またバ　　カなこと言い合えて…由依をイジめられた　　のにね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har009' 00 
-TEXT 晴香「まあ、仕方ないよね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har010' 00 
-TEXT 晴香「でも、もしかしたら、アイツならなんとか　　できたんじゃないのかなぁ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har011' 00 
-TEXT 晴香「ほら、アンタの同居人よ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har012' 00 
-TEXT 晴香「もう少し、遠くに逃げていたら、アイツだ　　って追いつけたかもしれないね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har013' 00 
-TEXT 晴香「でもまあ、仕方ないよね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har014' 00 
-TEXT 晴香「あーあ、良祐が待ってるから、いくよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har015' 00 
-TEXT 晴香「じゃあね、郁未」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har016' 00 
-TEXT 晴香「短い間だったけど、親友だった気がするよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '020_har017' 00 
-TEXT 晴香「バイバイ」
+TEXT Haruka: "Vou mandar a real."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har002' 00
+TEXT Haruka: "N~o guardo rancor de voc[, Ikumi."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har003' 00
+TEXT Haruka: "Ent~o n~o precisa esquentar a cabe|a com isso!"
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har004' 00
+TEXT Haruka: "Pelo contr$rio... fico at% aliviada que tenha sido voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har005' 00
+TEXT Haruka: "Por isso, n~o fica se culpando, t$?"
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har006' 00
+TEXT Haruka: "S+ que... sem mim, fica meio chato pra voc[ encontrar a Yui, n%?"
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har007' 00
+TEXT Haruka: "Se bem que voc[ nem devia se preocupar com isso."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har008' 00
+TEXT Haruka: "N+s tr[s juntas pod&amos nos ver sem frescura... falar besteira, zoar a Yui... teria sido legal."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har009' 00
+TEXT Haruka: "Pena que n~o tem jeito, n%?"
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har010' 00
+TEXT Haruka: "Mas, sei l$... talvez aquela pessoa tivesse conseguido dar um jeito."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har011' 00
+TEXT Haruka: "Sabe... aquela pessoa que mora com voc[."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har012' 00
+TEXT Haruka: "Se voc[s tivessem fugido para um pouco mais longe, talvez ela tivesse chegado a tempo."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har013' 00
+TEXT Haruka: "Mas enfim, fazer o qu[, n%?"
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har014' 00
+TEXT Haruka: "Ah, bom... o Ryousuke t$ me esperando, ent~o j$ vou indo."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har015' 00
+TEXT Haruka: "At% mais, Ikumi."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har016' 00
+TEXT Haruka: "Foi por pouco tempo, mas sinto que fomos melhores amigas."
+STOP_SOUND 01
+PLAY_SOUND 01 '020_har017' 00
+TEXT Haruka: "Tchau, tchau."
 STOP_SOUND 01 
 BACKGROUND 'BO' 
 X_24 00 
@@ -494,173 +494,173 @@ BACKGROUND 'BO'
 X_25 06 
 TEXT 
 PLAY_SOUND 01 '000_miu000' 00 
-TEXT 「うわぁーっ、赤ちゃんだぁっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu001' 00 
-TEXT 「あの…そばで見せてもらっていいですかぁ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2000' 00 
-TEXT 「ええ。でも眠ってるから、静かにね」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu002' 00 
-TEXT 「はいっ」
-STOP_SOUND 01 
-BACKGROUND 'FG141' 
-X_24 00 
-X_25 06 
-PLAY_SOUND 01 '000_miu003' 00 
-TEXT 「可愛い赤ちゃんですねぇ。女の子ですかぁ？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2001' 00 
-TEXT 「ええ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu004' 00 
-TEXT 「お名前は？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2002' 00 
-TEXT 「未悠」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu005' 00 
-TEXT 「みゆちゃんっていうんですかぁ。いいお名前ですねぇ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2003' 00 
-TEXT 「そう思ってくれる？」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu006' 00 
-TEXT 「はいっ。すごく可愛らしくて…なんかおかあさんの愛情を感じます」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu007' 00 
-TEXT 「たぶん、このみゆちゃんも大きくなったら、その名前、すごく気に入ると思います」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2004' 00 
-TEXT 「そうだといいんだけど」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu008' 00 
-TEXT 「大丈夫ですよ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2005' 00 
-TEXT 「ええ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2006' 00 
-TEXT 「この子はね…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu009' 00 
-TEXT 「はい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2007' 00 
-TEXT 「私がそうだったように、親としての愛情を十分に与えて、育ててあげたいの」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu010' 00 
-TEXT 「ええ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2008' 00 
-TEXT 「でもいつまでも甘えていちゃだめ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2009' 00 
-TEXT 「大きくなったら、ひとりで生きてゆけるような強さを持ってほしい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2010' 00 
-TEXT 「そして…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2011' 00 
-TEXT 「それを最後まで、私は見届けてあげる」
-STOP_SOUND 01 
-PLAY_SOUND 01 '000_miu011' 00 
-TEXT 「ふぅん…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2012' 00 
-TEXT 「この子の母親としてね」
-STOP_SOUND 01 
-X_24 00 
-BACKGROUND 'WO' 
-X_25 06 
-X_24 00 
-BACKGROUND 'BO' 
-X_25 06 
-X_28 001E 
-PLAY_SOUND 01 '023_yui000' 00 
-TEXT …「うっわー、可愛いですねぇっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2013' 00 
-TEXT 郁未「…賑やかなのがきたみたい」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har001' 00 
-TEXT …「郁未、ここだったのぉ、探したわよぉ」
-STOP_SOUND 01 
-BACKGROUND 'FG142' 
-X_24 00 
-X_25 06 
-X_3C 0C 01 
-PLAY_SOUND 01 '021_har002' 00 
-TEXT 晴香「ひゃーっ、すごい…生きてるのよねぇ、こ　　れ…」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui001' 00 
-TEXT 由依「当然ですよぉ。よく眠ってますねぇ」
+TEXT "Uau! @ um beb[!"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu001' 00
+TEXT "Er... posso dar uma olhada de perto?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2000' 00
+TEXT Ikumi: "Pode, sim. Mas fala baixinho, porque ela est$ dormindo."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu002' 00
+TEXT "T$ bom!"
+STOP_SOUND 01
+BACKGROUND 'FG141'
+X_24 00
+X_25 06
+PLAY_SOUND 01 '000_miu003' 00
+TEXT "Que belezinha de beb[. @ uma menininha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2001' 00
+TEXT Ikumi: "@."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu004' 00
+TEXT "Qual o nome dela?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2002' 00
+TEXT Ikumi: "Miyu."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu005' 00
+TEXT "Miyu-chan... Que nome bonitinho."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2003' 00
+TEXT Ikumi: "Voc[ acha?"
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu006' 00
+TEXT "Acho! @ super fofo... d$ pra sentir todo o amor de m~e nele."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu007' 00
+TEXT "Tenho certeza que, quando Miyu-chan crescer, ela vai amar o pr+prio nome."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2004' 00
+TEXT Ikumi: "Espero que sim."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu008' 00
+TEXT "Vai dar tudo certo!"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2005' 00
+TEXT Ikumi: "@..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2006' 00
+TEXT Ikumi: "Essa menina..."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu009' 00
+TEXT "Sim?"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2007' 00
+TEXT Ikumi: "Assim como a minha m~e fez comigo, quero criar ela dando todo o amor poss&vel."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu010' 00
+TEXT "Uhum."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2008' 00
+TEXT Ikumi: "Mas ela n~o pode ficar dependendo de mim para sempre."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2009' 00
+TEXT Ikumi: "Quero que ela cres|a e tenha for|a para andar com as pr+prias pernas."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2010' 00
+TEXT Ikumi: "E..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2011' 00
+TEXT Ikumi: "Quero estar ao lado dela para ver tudo isso acontecer, at% o fim."
+STOP_SOUND 01
+PLAY_SOUND 01 '000_miu011' 00
+TEXT "Nossa..."
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2012' 00
+TEXT Ikumi: "Afinal, eu sou a m~e dela."
+STOP_SOUND 01
+X_24 00
+BACKGROUND 'WO'
+X_25 06
+X_24 00
+BACKGROUND 'BO'
+X_25 06
+X_28 001E
+PLAY_SOUND 01 '023_yui000' 00
+TEXT ... "Nossa! Que fofura!"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2013' 00
+TEXT Ikumi: "...Chegou o bando da bagun|a."
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har001' 00
+TEXT "...Ikumi! Voc[ estava aqui? Que sacrif&cio te achar!"
+STOP_SOUND 01
+BACKGROUND 'FG142'
+X_24 00
+X_25 06
+X_3C 0C 01
+PLAY_SOUND 01 '021_har002' 00
+TEXT Haruka: "Caramba... surreal... ela t$ viva mesmo, n%...?"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui001' 00
+TEXT Yui: "L+gico que t$, n%! Olha como t$ dormindo feito um anjinho."
 STOP_SOUND 01 
 PLAY_SOUND 01 '021_har003' 00 
-TEXT 晴香「ほら、起きなさいっ！　目潰しっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui002' 00 
-TEXT 由依「うわぁっ！　晴香さん、赤ちゃんになんて　　ことするんですかぁっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har004' 00 
-TEXT 晴香「起きてるの見たいじゃないのよぉ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui003' 00 
-TEXT 由依「無理矢理起こさなくてもっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2014' 00 
-TEXT 郁未「無理矢理起こさなくても、これだけ騒がし　　かったら起きるって」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_miu000' 00 
-TEXT 女の子「わっ、目開けたよぉっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui004' 00 
-TEXT 由依「あたし、由依っ！　見えてるかなぁっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har005' 00 
-TEXT 晴香「自己紹介したって理解できるわけないでし　　ょ、あんた」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui005' 00 
-TEXT 由依「あのねぇ、このお姉ちゃん、さっき寝てい　　る間に目潰ししようとしたんだよぉっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har006' 00 
-TEXT 晴香「うわ、そんなことチクらないでよっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har007' 00 
-TEXT 晴香「未悠ちゃーん、私はおかあさんの最も仲良　　しの友達なのよぉ。だから安心してねぇ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui006' 00 
-TEXT 由依「うわー、こんなひとの顔、覚えなくてもい　　いですよぉっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har008' 00 
-TEXT 晴香「ふぅ、これで私の顔はおかあさんの最も仲　　良しの友達というデータでこの子の脳に記　　憶されたわ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui007' 00 
-TEXT 由依「目潰しっ！目潰しっ！目潰しっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har009' 00 
-TEXT 晴香「うわーっ、余計なイメージを挿入するなぁ　　っ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui008' 00 
-TEXT 由依「みゆちゃーん、ほんとはあたしの方がおか　　あさんと仲良しなんだよぉっ」
-STOP_SOUND 01 
-PLAY_SOUND 01 '021_har010' 00 
-TEXT 晴香「貧乳！貧乳！貧乳！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '023_yui009' 00 
-TEXT 由依「わーーっ！　そんな貧相なイメージを挿入　　しないでくださぁいっ！」
-STOP_SOUND 01 
-PLAY_SOUND 01 '001_miu001' 00 
-TEXT 女の子「笑ってますよ、みゆちゃん」
-STOP_SOUND 01 
-PLAY_SOUND 01 '008_ik2015' 00 
-TEXT 郁未「みんながおかしいからよ」
-STOP_SOUND 01 
-TEXT 無邪気な日々の始まり。
-TEXT これからは、穏やかな旅路が私たちを待っている。
-TEXT さあ、いこう。
-TEXT この子とふたりで。
+TEXT Haruka: "Bora acordar! Golpe do dedo no olho!"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui002' 00
+TEXT Yui: "Para, Haruka-san! Que tipo de coisa voc[ faz com um beb[?!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har004' 00
+TEXT Haruka: "U%, s+ quero ver ela acordada!"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui003' 00
+TEXT Yui: "Mas n~o precisa acordar ela na marra!"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2014' 00
+TEXT Ikumi: "Nem precisava disso. Com esse esc}ndalo todo, qualquer um acorda."
+STOP_SOUND 01
+PLAY_SOUND 01 '001_miu000' 00
+TEXT Garota: "Olha, ela abriu os olhinhos!"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui004' 00
+TEXT Yui: "A titia Yui t$ aqui! Ser$ que ela j$ consegue me ver?!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har005' 00
+TEXT Haruka: "Sua tonta, n~o adianta se apresentar como se ela fosse entender alguma coisa."
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui005' 00
+TEXT Yui: "Ei, Miyu-chan! Essa doida aqui tentou furar seu olhinho enquanto voc[ dormia!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har006' 00
+TEXT Haruka: "Qu[! N~o fica me queimando desse jeito!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har007' 00
+TEXT Haruka: "Miyu-chan, eu sou a melhor amiga da sua m~e, sabia? Pode ficar tranquila."
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui006' 00
+TEXT Yui: "Nossa, voc[ nem precisa guardar a cara dessa pessoa na mem+ria!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har008' 00
+TEXT Haruka: "Pronto, agora o c%rebro dela j$ registrou meu rosto como a melhor amiga da m~e."
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui007' 00
+TEXT Yui: "Fura-olho! Fura-olho! Fura-olho!"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har009' 00
+TEXT Haruka: "Para de implantar ideias erradas na cabe|a da menina!"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui008' 00
+TEXT Yui: "Miyu-chan, na verdade eu sou a melhor amiga da sua m~e, viu?"
+STOP_SOUND 01
+PLAY_SOUND 01 '021_har010' 00
+TEXT Haruka: "T$bua! T$bua! T$bua!"
+STOP_SOUND 01
+PLAY_SOUND 01 '023_yui009' 00
+TEXT Yui: "N~o me venha implantar esse tipo de trauma na garota, sua doida!"
+STOP_SOUND 01
+PLAY_SOUND 01 '001_miu001' 00
+TEXT Garota: "A Miyu-chan t$ rindo!"
+STOP_SOUND 01
+PLAY_SOUND 01 '008_ik2015' 00
+TEXT Ikumi: "@ porque voc[s s~o umas palha|as."
+STOP_SOUND 01
+TEXT O in&cio de dias sem preocupa|/es.
+TEXT A partir de agora, uma jornada tranquila nos espera.
+TEXT Vamos nessa.
+TEXT N+s duas juntas.
 X_3C 64 01 
 X_3C 18 01 
 X_28 0014 
