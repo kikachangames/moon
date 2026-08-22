@@ -14,13 +14,17 @@
 <p>Para descobrir o motivo da morte de sua mãe, Amasawa Ikumi se infiltra na FARGO onde conhece duas novas amigas: Mima Haruka, que entrou nas instalações da FARGO para resgatar seu irmão; e Nakura Yui, que esconde um passado terrível por trás de seu sorriso inocente. À medida que elas se aproximam da verdade, a existência de uma "força invisível" é revelada... Tragédias são repetidas e uma cruel realidade surge no destino dessas garotas.</p>
 <br/>
 
-<h3>Progresso da tradução</h3>
-<p>📝 85,48%</p>
-<br/>
-  
+<h3>Progresso</h3>
+<pre>
+Tradução: [▓▓▓▓▓▓▓▓▓▓] 100%
+Edição:   [▓▓▓▓▓▓░░░░] 60%
+Revisão:  [▓▓░░░░░░░░] 20%
+</pre>
+<br>
+
 <h3>Lançamento</h3>
-<p>A ser anunciado.</p>
-<br/>
+<p>21/11/2026</p>
+<br>
 
 <img src="https://kikachangames.github.io/moon/00.png">
 <img src="https://kikachangames.github.io/moon/01.png">
@@ -54,15 +58,6 @@
 <br/>
 
 <div style="display:inline-block;vertical-align:top;">
-<img src="https://kikachangames.github.io/projetos/img/crynvalen.png" width="160" height="160">
-</div>
-<div style="display:inline-block;">
-  <h3>Crynvalen</h3>
-    <p>Edição de imagens</p>
-</div>
-<br/>
-
-<div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/air/ceuipsolon.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
@@ -84,5 +79,5 @@
 <br/>
 
 <hr>
-<p><small>Última atualização: 06/08/2026.</small></p>
+<p><small>Última atualização: 22/08/2026.</small></p>
 <p><small>Kikachan Games (Desde 2024) <a href="https://kikachangames.github.io/projetos/">Projetos</a> - <a href="https://twitter.com/kikachangames/" target="_blank">X</a> - <a href="https://discord.gg/jsm8yKtu2E" target="_blank">Discord</a> - <a href="https://kikachan-games.itch.io/" target="_blank">Itch</a></small></p>
