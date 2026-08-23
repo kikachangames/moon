@@ -17,7 +17,7 @@
 <h3>Progresso</h3>
 <pre>
 Tradução: [▓▓▓▓▓▓▓▓▓▓] 100%
-Edição:   [▓▓▓▓▓▓░░░░] 60%
+Edição:   [▓▓▓▓▓▓▓░░░] 70%
 Revisão:  [▓▓░░░░░░░░] 20%
 </pre>
 <br>
@@ -44,16 +44,25 @@ Revisão:  [▓▓░░░░░░░░] 20%
 </div>
 <div style="display:inline-block;">
 <h3>Manolo-chan</h3>
-  <p>Tradução e edição de imagens</p>
+  <p>Tradução e edição de imagens.</p>
 </div>
   <br/>
   
+<div style="display:inline-block;vertical-align:top;">
+  <img src="https://kikachangames.github.io/projetos/img/crynvalen.png" width="160" height="160">
+</div>
+<div style="display:inline-block;">
+  <h3>Crynvalen</h3>
+  <p>Edição de imagens.</p>
+</div>
+<br/>
+
 <div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/moon/kazuki.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
   <h3>Kazuki Minoru</h3>
-    <p>Revisão</p>
+    <p>Revisão.</p>
 </div>
 <br/>
 
@@ -62,7 +71,7 @@ Revisão:  [▓▓░░░░░░░░] 20%
 </div>
 <div style="display:inline-block;">
   <h3>Ceuipsolon</h3>
-    <p>Edição de vídeo</p>
+    <p>Edição de vídeo.</p>
 </div>
 <br/>
 
@@ -79,5 +88,5 @@ Revisão:  [▓▓░░░░░░░░] 20%
 <br/>
 
 <hr>
-<p><small>Última atualização: 22/08/2026.</small></p>
+<p><small>Última atualização: 23/08/2026.</small></p>
 <p><small>Kikachan Games (Desde 2024) <a href="https://kikachangames.github.io/projetos/">Projetos</a> - <a href="https://twitter.com/kikachangames/" target="_blank">X</a> - <a href="https://discord.gg/jsm8yKtu2E" target="_blank">Discord</a> - <a href="https://kikachan-games.itch.io/" target="_blank">Itch</a></small></p>
