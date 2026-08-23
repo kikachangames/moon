@@ -32,7 +32,7 @@ Revisão:  [▓▓░░░░░░░░] 20%
 <br>
 
 <h3>Lançamento</h3>
-<p>21/11/2026</p>
+<p>21/11/2026.</p>
 <br>
 
 <img src="https://kikachangames.github.io/moon/00.png">
