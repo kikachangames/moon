@@ -1,3 +1,12 @@
+ <!-- 🎭 Tags de gênero e conteúdo -->
+<div class="tags-badges">
+  <!-- +18 -->
+  <img src="https://img.shields.io/badge/18+-darkred?style=flat&amp;logo=warning&amp;logoColor=white" alt="Conteúdo 18+" />
+ <!-- Denpa -->
+  <img src="https://img.shields.io/badge/denpa-2f3e46?style=flat&amp;logo=radio&amp;logoColor=white" alt="Drama" />
+<!-- Horror -->
+  <img src="https://img.shields.io/badge/horror-111111?style=flat&amp;" alt="Horror" />
+</div>
 ⚠️ AVISO: Este jogo não é adequado para menores ou pessoas sensíveis.
 <br/>
 <br/>
