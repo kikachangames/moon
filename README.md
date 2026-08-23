@@ -3,7 +3,7 @@
   <!-- +18 -->
   <img src="https://img.shields.io/badge/18+-darkred?style=flat&amp;logo=warning&amp;logoColor=white" alt="Conteúdo 18+" />
  <!-- Denpa -->
-  <img src="https://img.shields.io/badge/drama-2f3e46?style=flat&amp;logo=radio&amp;logoColor=white" alt="Drama" />
+  <img src="https://img.shields.io/badge/mistério-2f3e46?style=flat&amp;logo=radio&amp;logoColor=white" alt="Mistério" />
 <!-- Horror -->
   <img src="https://img.shields.io/badge/horror-111111?style=flat&amp;" alt="Horror" />
 </div>
