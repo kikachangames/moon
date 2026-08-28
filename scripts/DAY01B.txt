@@ -11,15 +11,15 @@ TEXT Haruka inclinou a cabe|a, olhando para algo atr$s de mim.
 PLAY_SOUND 01 '001_har110' 00 
 TEXT Haruka: "Finalmente chegou a nossa vez."
 STOP_SOUND 01 
-TEXT Eu me virei e vi o homem respons$vel caminhando em nossa dire|~o.
+TEXT Eu me virei e vi o homem respons$vel pelos testes caminhando em nossa dire|~o.
 PLAY_SOUND 01 '001_har111' 00 
-TEXT Haruka: "Quem ir$ primeiro?"
+TEXT Haruka: "Quem vai primeiro?"
 STOP_SOUND 01 
 TEXT 
 SELECT 0003 'Seja a primeira' 'N~o fa|a nada' 'Recomende Yui' 
 IF 16 03 00 15 01 00 02 00 .LABEL17 
 PLAY_SOUND 01 '000_iku064' 00 
-TEXT Ikumi: "Eu irei."
+TEXT Ikumi: "Eu vou."
 STOP_SOUND 01 
 TEXT Dei um passo # frente quando o homem se aproximou de n+s.
 X_24 00 
@@ -86,7 +86,7 @@ PLAY_SOUND 01 '000_iku066' 00
 TEXT Ikumi: "Sim."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_yui113' 00 
-TEXT Yui: "Voc[s eram amigas?"
+TEXT Yui: "Voc[s s~o amigas?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_iku067' 00 
 TEXT Ikumi: "Haruka e eu?"
@@ -104,10 +104,10 @@ PLAY_SOUND 01 '000_iku069' 00
 TEXT Ikumi: "N+s duas?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_yui116' 00 
-TEXT Yui: "Sim. Eu admiro isso, porque voc[s transmitem confi}n|a."
+TEXT Yui: "Sim. Eu admiro isso, porque voc[s transmitem confian|a."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_yui117' 00 
-TEXT Yui: "Seria bom se n+s continu$ssemos sendo amigas."
+TEXT Yui: "Seria bom se continu$ssemos sendo amigas."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_iku070' 00 
 TEXT Ikumi: "Sim..."
@@ -115,7 +115,7 @@ STOP_SOUND 01
 X_24 00 
 X_25 09 
 TEXT .........
-TEXT O homem apareceu mais uma vez, e dessa vez eu me aproximei para fazer o teste de aptid~o.
+TEXT O homem apareceu de novo, e dessa vez eu me aproximei para fazer o teste de aptid~o.
 X_04 0021 0001 
 JMP .LABEL18 
 
@@ -165,7 +165,7 @@ PLAY_SOUND 01 '000_yui122' 00
 TEXT Yui: "O qu[! Eu posso morrer?!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har120' 00 
-TEXT Haruka: "N~o se preocupe. Afinal, voc[ % plana."
+TEXT Haruka: "N~o se preocupe. Afinal, voc[ % uma t$bua."
 STOP_SOUND 01 
 SPRITE 'CGYI03' 
 X_24 01 
@@ -257,7 +257,7 @@ TEXT Como resultado, n~o cheguei a lugar algum.
 TEXT Pelo visto tenho que aguardar algu%m vir aqui.
 TEXT Ou, talvez, algu%m j$ esteja aqui.
 PLAY_SOUND 01 '000_koe000' 00 
-TEXT Voz: ...Feche seus olhos.
+TEXT Voz: ...Feche os olhos.
 STOP_SOUND 01 
 TEXT Uma voz.
 TEXT Uma voz baixa, com uma gentileza que parecia me envolver.
@@ -265,13 +265,13 @@ TEXT Nessa sala apertada, havia um eco abafado.
 TEXT Mas o orador n~o era vis&vel.
 TEXT Ele estava aqui, mas n~o tinha forma.\nFoi isso que a voz me fez sentir.
 PLAY_SOUND 01 '000_koe001' 00 
-TEXT Voz: ...Feche seus olhos.
+TEXT Voz: ...Feche os olhos.
 STOP_SOUND 01 
 TEXT A voz repetiu.
 TEXT 
 SELECT 0003 'Fechar os olhos' 'Esperar e observar um pouco'
 IF 16 03 00 15 01 00 02 00 .LABEL21 
-TEXT Eu fechei meus olhos, como solicitado.
+TEXT Fechei meus olhos, como solicitado.
 JMP .LABEL22 
 
 :LABEL21
@@ -286,11 +286,11 @@ TEXT Sem outra escolha, fechei meus olhos.
 
 :LABEL22
 PLAY_SOUND 01 '000_koe002' 00 
-TEXT Voz: ...Sim... assim...
+TEXT Voz: ...Sim... isso...
 STOP_SOUND 01 
 TEXT Ele iria me hipnotizar?
 PLAY_SOUND 01 '000_koe003' 00 
-TEXT Voz: ...Assim... continue caindo...
+TEXT Voz: ...Isso... continue caindo...
 STOP_SOUND 01 
 TEXT Caindo...?
 TEXT Onde...?
@@ -306,8 +306,8 @@ TEXT Ah...
 BACKGROUND 'BO' 
 X_24 00 
 X_25 06 
-TEXT O que % essa sensa|~o...?
-TEXT Naquele momento, certamente senti como se estivesse caindo.
+TEXT Que sensa|~o % essa...?
+TEXT Naquele momento, realmente senti como se estivesse caindo.
 TEXT Caindo... at% as profundezas...
 TEXT .........
 TEXT ......
@@ -436,10 +436,10 @@ PLAY_SOUND 01 '000_koe021' 00
 TEXT Voz: ...N~o adianta tentar usar indu|~o para que eu me revele...
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_iku013' 00 
-TEXT Ikumi: "Tudo bem. Eu desisto."
+TEXT Ikumi: "Tudo bem. Desisto."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_iku014' 00 
-TEXT Ikumi: "Vai ser como voc[ diz. Eu irei encontrar as respostas que procuro por mim mesmo."
+TEXT Ikumi: "Vai ser como voc[ diz.\nVou encontrar as respostas que procuro por mim mesma."
 STOP_SOUND 01 
 TEXT N~o ouvi mais nenhuma voz.
 TEXT Apenas o som da porta se abrindo.
@@ -466,14 +466,14 @@ X_25 09
 PLAY_SOUND 01 '001_yui000' 00 
 TEXT Yui: "Ikumi-saan."
 STOP_SOUND 01 
-TEXT Eu me virei ao ouvir a voz da Yui. A Haruka tamb%m estava l$.
+TEXT Eu me virei ao ouvir a voz da Yui. Haruka tamb%m estava l$.
 PLAY_SOUND 01 '001_yui001' 00 
 TEXT Yui: "Como foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku000' 00 
 TEXT Ikumi: "Eu n~o entendi nada muito bem. Apenas que..."
 STOP_SOUND 01 
-TEXT Eu mostrei pra elas as costas da minha m~o.
+TEXT Mostrei pra elas as costas da minha m~o.
 X_24 00 
 X_25 09 
 SPRITE 'CGHA06' 
@@ -488,7 +488,7 @@ PLAY_SOUND 01 '002_har002' 00
 TEXT Haruka: "Parece que eles nos separaram com base em nossa aptid~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku001' 00 
-TEXT Ikumi: "Nos separar... por que eles fariam isso?"
+TEXT Ikumi: "Nos separaram... por que fariam isso?"
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -532,7 +532,7 @@ PLAY_SOUND 01 '002_har004' 00
 TEXT Haruka: "De qualquer forma, depois que nos separarmos, tentem encontrar alguma maneira de fazer contato."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har005' 00 
-TEXT Haruka: "Depois decidiremos um local para nos reunirmos. Entenderam?"
+TEXT Haruka: "Depois podemos decidir um local para nos reunir. Entenderam?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku004' 00 
 TEXT Ikumi: "Sim..."
@@ -545,10 +545,10 @@ SPRITE 'CGHA02'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '002_har006' 00 
-TEXT Haruka: "E aí, como foi?"
+TEXT Haruka: "E a&, como foi?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku000' 00 
-TEXT Ikumi: "Eu n~o entendi nada. Mas..."
+TEXT Ikumi: "N~o entendi nada, mas..."
 STOP_SOUND 01 
 TEXT Mostrei a ela as costas da minha m~o.
 PLAY_SOUND 01 '002_har007' 00 
@@ -574,12 +574,12 @@ PLAY_SOUND 01 '001_yui006' 00
 TEXT Yui: "O que % isso?"
 STOP_SOUND 01 
 TEXT Ela estendeu as costas de sua m~o.
-TEXT Yui was <B-73>.
+TEXT Yui era <B-73>.
 SPRITE 'CGYI02' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '001_yui007' 00 
-TEXT Yui: "O que significa isso..."
+TEXT Yui: "O que significa isso...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har009' 00 
 TEXT Haruka: "Busto: 73"
@@ -630,7 +630,7 @@ PLAY_SOUND 01 '002_har004' 00
 TEXT Haruka: "De todos os modos, depois que nos separarmos, tentem encontrar algum modo de fazer contato."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har005' 00 
-TEXT Haruka: "Depois decidiremos um local para nos reunirmos. Combinado?"
+TEXT Haruka: "Depois decidiremos um local para nos reunir. Combinado?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku004' 00 
 TEXT Ikumi: "Sim..."
@@ -657,7 +657,7 @@ PLAY_SOUND 01 '002_har008' 00
 TEXT Haruka: "Parece que eles nos separam com base em nossa aptid~o."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku001' 00 
-TEXT Ikumi: "Nos separam...por que fariam isso?"
+TEXT Ikumi: "Nos separam... por que fariam isso?"
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -665,19 +665,19 @@ SPRITE 'CGYI11'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '001_yui005' 00 
-TEXT Yui: "Ikumi-san!  Haruka-san!"
+TEXT Yui: "Ikumi-san! Haruka-san!"
 STOP_SOUND 01 
 TEXT Yui correu at% n+s.
 PLAY_SOUND 01 '001_yui006' 00 
 TEXT Yui: "O que % essa coisa?"
 STOP_SOUND 01 
 TEXT Ela nos mostrou as costas de sua m~o.
-TEXT Yui was <B-73>.
+TEXT Yui era a <B-73>.
 SPRITE 'CGYI02' 
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '001_yui007' 00 
-TEXT Yui: "O que isto significa...?"
+TEXT Yui: "O que significa isso...?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har009' 00 
 TEXT Haruka: "Busto: 73"
@@ -728,7 +728,7 @@ PLAY_SOUND 01 '002_har004' 00
 TEXT Haruka: "De qualquer forma, depois que nos separarmos, tentem encontrar alguma maneira de fazer contato."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har005' 00 
-TEXT Haruka: "Então decidiremos um lugar para nos reunirmos. Certo?"
+TEXT Haruka: "Ent~o decidiremos um lugar para nos reunir. Certo?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku004' 00 
 TEXT Ikumi: "Sim..."
@@ -783,7 +783,7 @@ SPRITE 'CGYI11'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '001_yui016' 00 
-TEXT Yui: "C-219...shi, ni, i, ku (C, 2, 1, 9)...shiniyuku!! Traduzindo: Voc[ vai morrer!!"
+TEXT Yui: "C-219... shi, ni, i, ku (C, 2, 1, 9)... shiniyuku!! Traduzindo: Voc[ vai morrer!!"
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -804,10 +804,10 @@ PLAY_SOUND 01 '001_yui017' 00
 TEXT Yui: "Aii!! Voc[ me bateu de novo!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har013' 00 
-TEXT Haruka: "Sim, eu bati! Adivinha por que eu fiz isso!?"
+TEXT Haruka: "Sim, eu bati! Adivinha por que fiz isso!?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_yui018' 00 
-TEXT Yui: "Eu tamb%m gostaria de saber, porque s+ voc[ tem essa mania."
+TEXT Yui: "Tamb%m gostaria de saber, porque s+ voc[ tem essa mania."
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -847,7 +847,7 @@ JMP .LABEL31
 
 :LABEL30
 PLAY_SOUND 01 '002_iku008' 00 
-TEXT Ikumi: "N~o se faça de v&tima, sua cara de pau..."
+TEXT Ikumi: "N~o se fa|a de v&tima, sua cara de pau..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_yui020' 00 
 TEXT Yui: "N~o! Ikumi-san, voc[ tamb%m!?"
@@ -889,7 +889,7 @@ X_25 09
 
 :LABEL32
 PLAY_SOUND 01 '002_iku005' 00 
-TEXT Ikumi: "Ent~o, ao que parece, fomos divididos em tr[s classes."
+TEXT Ikumi: "Ent~o, ao que parece, fomos divididas em tr[s classes."
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -900,7 +900,7 @@ PLAY_SOUND 01 '002_har003' 00
 TEXT Haruka: "Parece tamb%m que nossos alojamentos ficam em pr%dios separados."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku002' 00 
-TEXT Ikumi: "Então vamos ter que nos separar aqui."
+TEXT Ikumi: "Ent~o vamos ter que nos separar aqui."
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -922,7 +922,7 @@ PLAY_SOUND 01 '002_har004' 00
 TEXT Haruka: "De qualquer forma, depois que nos separarmos, tentem encontrar alguma maneira de fazer contato."
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_har005' 00 
-TEXT Haruka: "Ent~o decidiremos um lugar para nos reunirmos. Combinado?"
+TEXT Haruka: "Ent~o decidiremos um lugar para nos reunir. Combinado?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '002_iku004' 00 
 TEXT Ikumi: "Sim..."
@@ -937,13 +937,13 @@ X_24 00
 X_25 06 
 STOP_SOUND 00 
 TEXT Ao me despedir delas, fui levada sozinha para um pr%dio separado.
-TEXT Este % um alojamento de Classe A, ou apenas edif&cio A, como parece ser chamado.
+TEXT Este % um alojamento de Classe A, ou apenas Pr%dio A, como parece ser chamado.
 BACKGROUND 'BG002' 
 X_24 00 
 X_25 04 
 TEXT Entrei no quarto que me foi designado.
 TEXT Era um quarto simples, com nada al%m de uma cama.
-TEXT A partir de hoje vou morar neste quarto.
+TEXT A partir de hoje vou morar aqui.
 TEXT Tudo estaria absolutamente normal, se n~o fosse por um pequeno detalhe.
 TEXT Havia algu%m sentado em cima da minha cama.
 BACKGROUND 'FG009' 
@@ -965,7 +965,7 @@ PLAY_SOUND 01 '003_iku002' 00
 TEXT Ikumi: "...Estou meio cansada agora."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy001' 00 
-TEXT Garoto: "Ent~o por que voc[ n~o dorme um pouco?"
+TEXT Garoto: "Ent~o por que n~o dorme um pouco?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku003' 00 
 TEXT Ikumi: "Sim, % isso que pretendo fazer."
@@ -977,7 +977,7 @@ STOP_SOUND 01
 PLAY_SOUND 01 '000_boy002' 00 
 TEXT Garoto: "O que foi?"
 STOP_SOUND 01 
-TEXT @ s%rio mesmo que ele est$ me perguntando isso...?
+TEXT S%rio mesmo que ele est$ me perguntando isso...?
 TEXT 
 SELECT 0003 'Tente explicar gentilmente' 'Bote ele para correr'
 IF 16 03 00 15 01 00 02 00 .LABEL33 
@@ -1002,7 +1002,7 @@ STOP_SOUND 01
 PLAY_SOUND 01 '003_iku007' 00 
 TEXT Ikumi: "Mmm......"
 STOP_SOUND 01 
-TEXT Esse cara est$ brincando comigo de prop+sito...?
+TEXT Esse cara t$ me provocando de prop+sito...?
 TEXT 
 SELECT 0003 'Segure-se e continue sendo gentil' 'Apenas grite logo com ele' 
 IF 16 03 00 15 01 00 02 00 .LABEL34 
@@ -1025,13 +1025,13 @@ PLAY_SOUND 01 '003_iku010' 00
 TEXT Ikumi: "Eu vou dormir a&."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy009' 00 
-TEXT Garoto: "Ah. Voc[ quer que eu fique ao seu lado at% voc[ conseguir dormir."
+TEXT Garoto: "Ah, voc[ quer que eu fique ao seu lado at% conseguir dormir."
 STOP_SOUND 01 
 PLAY_SOUND 01 'se04' 00 
 TEXT *Bam!*
-TEXT Eu bati minha cabe|a contra a parede.
+TEXT Bati minha cabe|a contra a parede.
 PLAY_SOUND 01 '000_boy010' 00 
-TEXT Garoto: "Uau, isso parece ter do&do..."
+TEXT Garoto: "Uau, isso deve ter do&do..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku011' 00 
 TEXT Ikumi: "Imagina! Isso % s+ impress~o sua!"
@@ -1040,7 +1040,7 @@ PLAY_SOUND 01 '000_boy011' 00
 TEXT Garoto: "Uh, s%rio mesmo??"
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy012' 00 
-TEXT Garoto: "Ah, j$ entendi, voc[ n~o quer que eu fique por perto. Ent~o voc[ quer que eu saia do quarto?"
+TEXT Garoto: "Ah, j$ entendi, voc[ n~o quer que eu fique por perto. Ent~o quer que eu saia do quarto?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku012' 00 
 TEXT Ikumi: "Sim... parece que finalmente caiu a ficha..."
@@ -1061,7 +1061,7 @@ JMP .LABEL35
 
 :LABEL34
 PLAY_SOUND 01 '003_iku014' 00 
-TEXT Ikumi: "Voc[ deveria sair daqui!"
+TEXT Ikumi: "Voc[ devia sair daqui!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy015' 00 
 TEXT Garoto: "Sair daqui? Eu?"
@@ -1087,10 +1087,10 @@ PLAY_SOUND 01 '000_boy017' 00
 TEXT Garoto: "O que devo fazer?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku018' 00 
-TEXT Ikumi: "Voc[ deveria dar o fora daqui!"
+TEXT Ikumi: "Voc[ devia dar o fora daqui!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy015' 00 
-TEXT Garoto: "Dar o fora daqui?  Eu?"
+TEXT Garoto: "Dar o fora daqui? Eu?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku019' 00 
 TEXT Ikumi: "Voc[ mesmo!"
@@ -1113,7 +1113,7 @@ PLAY_SOUND 01 '000_boy019' 00
 TEXT Garoto: "Estou esperando."
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku022' 00 
-TEXT Ikumi: "...Desculpe. Eu entrei no quarto errado."
+TEXT Ikumi: "...Desculpe. Entrei no quarto errado."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy020' 00 
 TEXT Garoto: "N~o, voc[ est$ no quarto certo."
@@ -1140,7 +1140,7 @@ PLAY_SOUND 01 '000_boy024' 00
 TEXT Garoto: "Logo voc[ se acostuma e vai poder at% relaxar um pouco."
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku026' 00 
-TEXT Ikumi: "Eu tenho certeza de que nunca conseguirei relaxar aqui..."
+TEXT Ikumi: "Tenho certeza de que nunca vou conseguir relaxar aqui..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy025' 00 
 TEXT Garoto: "Bem, por que voc[ n~o toma um banho quente? Aproveite que temos um banheiro com chuveiro nesse quarto."
@@ -1179,7 +1179,7 @@ JMP .LABEL38
 
 :LABEL37
 TEXT Sim, as apar[ncias enganam. T$ na cara que ele % um t&pico vil~o.
-TEXT Um sorriso s$dico definitivamente combinaria com ele.
+TEXT Uma risada perversa definitivamente combinaria com ele.
 BACKGROUND 'FG009' 
 X_24 00 
 X_25 06 
@@ -1191,7 +1191,7 @@ PLAY_SOUND 01 '000_boy029' 00
 TEXT Garoto: "Voc[ % um animal de estima|~o, um mascote."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy030' 00 
-TEXT Garoto: "E j$ que voc[ % um mascote, satisfa|a minha vontade lambendo os sapatos do seu mestre."
+TEXT Garoto: "E j$ que % um mascote, satisfa|a minha vontade lambendo os sapatos do seu mestre."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy031' 00 
 TEXT Garoto: "Hahahahahaha!"
@@ -1205,7 +1205,7 @@ TEXT Pensando bem... acho que isso n~o combina nem um pouco com ele...
 TEXT De qualquer forma, n~o h$ ningu%m em quem eu possa confiar aqui.
 
 :LABEL38
-TEXT Como Haruka disse, ele deve ser apenas mais um garoto ing[nuo seduzido pela possibilidade de adquirir a "for|a invis&vel".
+TEXT Como Haruka disse, deve ser apenas mais um garoto ing[nuo seduzido pela possibilidade de adquirir a "for|a invis&vel".
 TEXT Ele pode n~o ser um inimigo, mas certamente tamb%m n~o % um amigo.
 TEXT Ent~o devo manter dist}ncia dele desde o come|o.
 TEXT Mas quando for conveniente, posso us$-lo para nosso pr+prio benef&cio.
@@ -1216,8 +1216,8 @@ BACKGROUND 'FG010'
 X_24 00 
 X_25 06 
 TEXT O garoto e eu nos deitamos para dormir.
-TEXT Ele deve saber algo sobre a FARGO ou sobre esta instala|~o, j$ que est$ aqui h$ algum tempo.
-TEXT Eu deveria perguntar a ele.
+TEXT Ele deve saber algo sobre a FARGO ou sobre esta instala|~o, j$ que est$ aqui h$ mais tempo.
+TEXT Eu devia perguntar pra ele.
 TEXT 
 SELECT 0003 'O que exatamente % essa instala|~o?' 'O que exatamente % a FARGO?' 
 IF 16 03 00 15 01 00 02 00 .LABEL39 
@@ -1234,7 +1234,7 @@ PLAY_SOUND 01 '000_boy033' 00
 TEXT Garoto: "Sim, j$ faz um tempo."
 STOP_SOUND 01 
 PLAY_SOUND 01 '003_iku032' 00 
-TEXT Ikumi: "Ent~o me fale o que % esse lugar."
+TEXT Ikumi: "Ent~o me sobre este lugar."
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_boy034' 00 
 TEXT Garoto: "Como voc[ pode ver, % uma instala|~o privada da FARGO."

@@ -538,7 +538,7 @@ TEXT Haruka: "O qu[...? Isso % um quarto particular?"
 STOP_SOUND 01 
 TEXT Haruka me seguiu para fora da passagem.
 PLAY_SOUND 01 '018_iku024' 00 
-TEXT Ikumi: "...I guess so."
+TEXT Ikumi: "...@ o que parece."
 STOP_SOUND 01 
 SPRITE 'CGHA02' 
 X_24 01 
@@ -1479,12 +1479,12 @@ SPRITE 'CGHA02'
 X_24 01 
 X_25 09 
 PLAY_SOUND 01 '006_har009' 00 
-TEXT Haruka: "Se n~o % o Pr%dio A nem o Pr%dio C, ent~o provavelmente %."
+TEXT Haruka: "Se n~o % o A nem o C, ent~o provavelmente %."
 STOP_SOUND 01 
 TEXT As portas estavam alinhadas em ambos os lados do corredor escuro e sem janelas.
 TEXT Esta instala|~o est$ mais parecida com o Pr%dio A do que com o C.
 PLAY_SOUND 01 '006_har010' 00 
-TEXT Haruka: "N~o se esque|a de esconder sua m~o casualmente."
+TEXT Haruka: "N~o se esque|a de manter sua m~o escondida."
 STOP_SOUND 01 
 PLAY_SOUND 01 '018_iku030' 00 
 TEXT Ikumi: "Certo."
@@ -1493,7 +1493,7 @@ PLAY_SOUND 01 '006_har011' 00
 TEXT Haruka: "N~o queremos saber o que acontece se descobrirem algu%m no pr%dio errado."
 STOP_SOUND 01 
 TEXT 
-SELECT 0003 'Eu entendo!' 'O que vai acontecer?' 
+SELECT 0003 'Entendi!' 'O que vai acontecer?' 
 X_51 00 
 IF 16 03 00 15 01 00 02 00 .LABEL364 
 PLAY_SOUND 01 '018_iku031' 00 

@@ -929,7 +929,7 @@ IF 17 47 00 15 01 00 02 00 .LABEL291
 TEXT O patrulheiro se aproximou de mim.
 TEXT Ele n~o deveria conhecer meu rosto, ent~o tentei apenas passar por ele. Mas...
 PLAY_SOUND 01 '000_bt2000' 00 
-TEXT Patrolma: "Ei!"
+TEXT Patrulheiro: "Ei!"
 STOP_SOUND 01 
 X_00 0006 0000 
 X_3F 00 00 
@@ -985,12 +985,12 @@ TEXT
 SELECT 0003 '(Å™ )Norte: Quarto coletivo' '(Å© )Oeste: Corredor' '(Å® )Leste: Corredor' '(--)---:---' 'Examinar' 
 X_51 00 
 IF 16 03 00 15 05 00 02 00 .LABEL292 
-TEXT There's a door.
+TEXT Uma porta...
 JMP .LABEL293 
 
 :LABEL292
 IF 16 03 00 15 01 00 02 00 .LABEL294 
-TEXT No, I really shouldn't intrude on their living space...
+TEXT N~o, % melhor n~o bisbilhotar o espa|o dos outros...
 JMP .LABEL293 
 
 :LABEL294
@@ -1016,16 +1016,16 @@ RETURN
 :LABEL89
 IF 17 47 00 15 00 00 02 00 .LABEL303 
 TEXT Ah...!
-TEXT At the other end of the Corredor around the corner, I saw a FARGO employee on patrol, and quickly hid myself.
+TEXT No final do corredor tinha um patrulheiro da FARGO, ent~o me escondi rapidamente.
 X_04 0047 0001 
 X_00 0009 002D 
 JMP .LABEL68 
 
 :LABEL303
 IF 17 47 00 15 01 00 02 00 .LABEL305 
-TEXT Yes, if I pretend to be from Class C there should be no problem.
-TEXT If I don't do anything suspicious he should just let me pass.
-TEXT I pretended to be calm and continued down the Corredor.
+TEXT Bem, se eu fingir que sou da Classe C n~o vai ter problema.
+TEXT @ s+ n~o agir de forma suspeita e passar reto por ele.
+TEXT Procurei parecer calma e continuei pelo corredor.
 X_00 0009 001A 
 JMP .LABEL86 
 

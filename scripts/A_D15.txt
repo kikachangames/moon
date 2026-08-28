@@ -258,23 +258,23 @@ X_24 00
 X_25 06 
 IF 17 8B 00 15 00 00 02 00 .LABEL83 
 PLAY_SOUND 01 'm01_min000' 00 
-TEXT Voz: "A& est$ voc(, A-12"
+TEXT Voz: "A& est$ voc[, A-12"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min000' 00 
-TEXT Voz: "Depois de tudo isso, o que voc( poderia estar fazendo aqui?"
+TEXT Voz: "Depois de tudo isso, o que voc[ poderia estar fazendo aqui?"
 STOP_SOUND 01 
 TEXT Ikumi: "........."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min001' 00 
-TEXT Voz: "H$ uma ordem de elimina|~o emitida para voc(."
+TEXT Voz: "H$ uma ordem de elimina|~o emitida para voc[."
 STOP_SOUND 01 
 PLAY_SOUND 01 '102_iku000' 00 
 TEXT Ikumi: "Eu sei..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min002' 00 
-TEXT Voz: "Eu n~o vou descer a& e matar voc( sozinho..."
+TEXT Voz: "Eu n~o vou descer a& e matar voc[ sozinho..."
 STOP_SOUND 01 
 PLAY_SOUND 01 'm99_min003' 00 
 TEXT Voz: "Isso iria contra minhas cren|as. E est$ fora do meu escopo colocar as m~os em uma garota."
@@ -423,13 +423,13 @@ TEXT De fora da linha de frente onde estive at% hoje.
 TEXT Haruka...
 TEXT Talvez a gente n~o possa mais se ver...
 TEXT Mas fuja para mais longe que puder...
-TEXT N~o h$ nada que eu possa fazer por voc( agora...
-TEXT Tudo o que me resta % rezar por voc( assim...
-TEXT N~o durou muito, mas senti do fundo do cora|~o que voc( era minha amiga...
+TEXT N~o h$ nada que eu possa fazer por voc[ agora...
+TEXT Tudo o que me resta % rezar por voc[ assim...
+TEXT N~o durou muito, mas senti do fundo do cora|~o que voc[ era minha amiga...
 TEXT Quem dera a gente tivesse se conhecido em outro lugar...
 TEXT Assim, talvez a gente pudesse ter deixado...... lembran|as melhores...
 TEXT Agora s+ nos restam lembran|as tristes...
-TEXT A melhor %poca foi quando n+s tr(s est$vamos juntas, antes de sabermos de toda essa crueldade.
+TEXT A melhor %poca foi quando n+s tr[s est$vamos juntas, antes de sabermos de toda essa crueldade.
 TEXT Quero me lembrar dos nossos sorrisos daquela %poca...
 TEXT ...Haruka.
 TEXT Adeus.

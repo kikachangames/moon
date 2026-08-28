@@ -153,13 +153,13 @@ PLAY_SOUND 01 '000_yui016' 00
 TEXT Garota: "Meu nome % Nakura Yui! Prazer em conhec[-las." 
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_yui017' 00 
-TEXT Yui: "Vou tentar fazer o meu melhor, ent~o, por favor, n~o me deixem para tr$s!" 
+TEXT Yui: "Vou tentar fazer o meu melhor, ent~o, por favor, n~o me deixem pra tr$s!" 
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har008' 00 
 TEXT Haruka: "........." 
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har009' 00 
-TEXT Haruka: "...de alguma forma, tenho a sensa|~o de que ela s+ vai nos atrasar..." 
+TEXT Haruka: "...De alguma forma, tenho a sensa|~o de que ela s+ vai nos atrasar..." 
 STOP_SOUND 01 
 PLAY_SOUND 01 '000_iku017' 00 
 TEXT Ikumi: "Ahaha, eu sou Amasawa Ikumi. Prazer em conhec[-la tamb%m."
@@ -791,7 +791,7 @@ PLAY_SOUND 01 '000_yui075' 00
 TEXT Yui: "O qu[? Ent~o n+s seremos..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har055' 00 
-TEXT Haruka: "Talvez. Mas voc[ % plana, ent~o n~o precisa se preocupar com isso."
+TEXT Haruka: "Talvez. Mas voc[ % uma t$bua, ent~o n~o precisa se preocupar com isso."
 STOP_SOUND 01 
 SPRITE 'CGYI03' 
 X_24 01 
@@ -823,7 +823,7 @@ PLAY_SOUND 01 '000_yui075' 00
 TEXT Yui: "O qu[? Ent~o n+s seremos..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har055' 00 
-TEXT Haruka: "Talvez. Mas voc[ % plana, ent~o n~o precisa se preocupar com isso."
+TEXT Haruka: "Talvez. Mas voc[ % uma t$bua, ent~o n~o precisa se preocupar com isso."
 STOP_SOUND 01 
 SPRITE 'CGYI03' 
 X_24 01 
@@ -919,7 +919,7 @@ PLAY_SOUND 01 '000_yui079' 00
 TEXT Yui: "Mas eu acredito..."
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har065' 00 
-TEXT Haruka: "Você está fora."
+TEXT Haruka: "Voc? est? fora."
 STOP_SOUND 01 
 SPRITE 'CGYI11' 
 X_24 01 
@@ -960,7 +960,7 @@ PLAY_SOUND 01 '000_yui083' 00
 TEXT Yui: "Exatamente. Por favor, n~o me coloque no mesmo saco com aquelas pessoas!"
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har069' 00 
-TEXT Haruka: "Ah, ent~o de vez em quando voc[ consegue dizer algo significativo. Embora ainda seja plana."
+TEXT Haruka: "Ah, ent~o de vez em quando voc[ consegue dizer algo significativo. Embora ainda seja t$bua."
 STOP_SOUND 01 
 X_24 00 
 X_25 09 
@@ -1029,7 +1029,7 @@ PLAY_SOUND 01 '000_yui088' 00
 TEXT Yui: "Eh? Voc[ est$ falando s%rio?"
 STOP_SOUND 01 
 PLAY_SOUND 01 '001_har072' 00 
-TEXT Haruka: "Voc[ % plana, ent~o n~o se preocupe."
+TEXT Haruka: "Voc[ % uma t$bua, n~o se preocupe."
 STOP_SOUND 01 
 SPRITE 'CGYI03' 
 X_24 01 
