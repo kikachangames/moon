@@ -23,10 +23,10 @@ BACKGROUND 'BG004'
 X_24 00
 X_25 06
 TEXT *Vruuuuum...*
-TEXT *Clack-clack-clack...*
-TEXT *Clanc... clanc... clanc...*
-TEXT *Clanc... clanc... clanc...*
-TEXT *...Clanc...... clanc......*
+TEXT *Takatakatakata...*
+TEXT *Taka... Taka... Taka...*
+TEXT *Taka... Taka... Taka...*
+TEXT *...Taka...... Taka......*
 TEXT ...
 TEXT ......
 TEXT .........
@@ -46,15 +46,15 @@ X_24 00
 X_25 06
 PLAY_SOUND 00 'mon_cd07' 01
 PLAY_SOUND 01 '009_ikm001' 00
-TEXT M~e da Ikumi: "Ikumi..."
+TEXT M~e: "Ikumi..."
 STOP_SOUND 01
 TEXT A voz da minha m~e...
 PLAY_SOUND 01 '009_ikm002' 00
-TEXT M~e da Ikumi: "Olha, tem tanta $rea verde por aqui que o ar % at% puro..."
+TEXT M~e: "Olha, tem tanta $rea verde por aqui que at% o ar % puro..."
 STOP_SOUND 01
 TEXT Minha m~e...
 PLAY_SOUND 01 '009_ikm003' 00
-TEXT M~e da Ikumi: "@ o meu lugar preferido no mundo."
+TEXT M~e: "@ o meu lugar preferido no mundo."
 STOP_SOUND 01
 PLAY_SOUND 01 'se84' 00
 TEXT *Cri-cri-cri...*

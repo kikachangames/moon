@@ -207,7 +207,7 @@ TEXT Garoto: Esqueceu onde fica o MINMES?"
 STOP_SOUND 01 
 TEXT Ikumi: "At% parece que me esqueceria de uma coisa dessas."
 STOP_SOUND 01 
-TEXT Garoto: "Ent~o se apresse. N~o vai ser bom voc( se atrasar."
+TEXT Garoto: "Ent~o se apresse. N~o vai ser bom voc[ se atrasar."
 STOP_SOUND 01 
 TEXT Ikumi: "Certo."
 STOP_SOUND 01 
@@ -242,7 +242,7 @@ TEXT Garoto: "Esqueceu onde fica o ELPOD?"
 STOP_SOUND 01 
 TEXT Ikumi: "At% parece que me esqueceria de uma coisa dessas."
 STOP_SOUND 01 
-TEXT Garoto: "Ent~o se apresse. N~o vai ser bom voc( se atrasar." 
+TEXT Garoto: "Ent~o se apresse. N~o vai ser bom voc[ se atrasar." 
 STOP_SOUND 01 
 TEXT Ikumi: "Sim."
 STOP_SOUND 01 

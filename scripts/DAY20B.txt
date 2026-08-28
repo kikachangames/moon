@@ -6,7 +6,7 @@ TEXT "...O que voc[ est$ fazendo num lugar destes?"
 STOP_SOUND 01
 TEXT Algu%m que estava atr$s de mim na fila me chamou.
 PLAY_SOUND 01 '004_ik2046' 00
-TEXT "Comprando um estrado de madeira. Um estrado."
+TEXT "Comprando um estrado de madeira.\nUm estrado."
 STOP_SOUND 01
 PLAY_SOUND 01 'tok_dop011' 00
 TEXT "...Para que voc[ precisa de uma coisa dessas?"
@@ -58,7 +58,7 @@ TEXT "Ah..."
 STOP_SOUND 01
 TEXT Sou eu...
 TEXT Como passei tanto tempo acostumada a me ver invertida, nem tinha percebido.
-TEXT % verdade, essa era a minha cara.
+TEXT @ mesmo, essa era a minha cara.
 PLAY_SOUND 01 'tok_dop019' 00
 TEXT "...N~o fica a& viajando."
 STOP_SOUND 01
@@ -114,7 +114,7 @@ BACKGROUND 'BO'
 X_24 00
 X_25 06
 PLAY_SOUND 01 'tok_dop030' 00
-TEXT "VOLTA AQUI, AAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHH!!!!!"
+TEXT "VOLTA AQUI, AAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHH!!!"
 STOP_SOUND 01
 BACKGROUND 'FG092'
 X_24 00
@@ -133,21 +133,21 @@ TEXT N~o vou me deixar enganar de novo.
 TEXT Porque isso % uma batalha...
 TEXT E eu vou continuar at% derrotar voc[.
 PLAY_SOUND 01 'se69' 00
-TEXT *Shhhhhh...!*
+TEXT *Fuuuuuuuuu...!*
 TEXT Uma fuma|a branca, parecida com o vapor que corta o asfalto no inverno, acaricia o meu rosto.
 PLAY_SOUND 01 'se14' 00
-TEXT *Noc!*
+TEXT *Tum!*
 TEXT Uma parte da minha bochecha, coberta de escamas, se descascou e caiu.
 TEXT Expondo meu rosto em carne viva.
 TEXT Espera...
 TEXT Eu n~o tenho essa pele cheia de escamas.
 TEXT E como % que eu conseguiria enxergar essa carne vermelha por baixo?
-TEXT % uma alucina|~o.
+TEXT @ uma alucina|~o.
 TEXT ...Depois de matar a pr+pria m~e, voc[ fica a& sem vergonha nenhuma de *******
 STOP_SOUND 01
 TEXT ...Depois de matar a sua m~e ***************
 STOP_SOUND 01
-TEXT ...****************************************
+TEXT ...***************************
 STOP_SOUND 01
 TEXT Recuso a interfer[ncia dessas palavras.
 TEXT Re^no novamente a for|a da minha vontade.
@@ -173,10 +173,10 @@ X_24 00
 X_25 06
 STOP_SOUND 00
 PLAY_SOUND 01 'se78' 00
-TEXT *GROOOOOOOOOOOOOOOOOMMMMMMMM!!!*
+TEXT *GROOOOOOOOOOOOMMMMMMMM!!!*
 TEXT O mundo estremeceu.
 PLAY_SOUND 01 'se79' 00
-TEXT *SHUUUUUUUUUUUUUUUUUUUUUUU...!!*
+TEXT *SHUUUUUUUUUUUUUUUUUU...!!*
 TEXT E ent~o, uma rajada de vento forte toma conta.
 TEXT A ponto de eu nem conseguir abrir os olhos.
 TEXT Mas sinto o fluxo, como um redemoinho puxando tudo em dire|~o ao centro do quarto.
@@ -184,7 +184,7 @@ TEXT As solas dos meus p%s v~o derrapando devagar naquela dire|~o.
 TEXT Se eu perder o ch~o por um segundo, vou ser engolida por aquele centro de uma vez s+.
 TEXT Corri sem olhar para tr$s.
 PLAY_SOUND 01 'se80' 00 
-TEXT *GROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMM!!*
+TEXT *GROOOOOOOOOOOOMMMMMMMM!!!*
 TEXT E ent~o, me joguei em meio #quele espa|o incerto, onde ficava a porta escancarada.
 STOP_SOUND 01 
 TEXT .........
@@ -202,7 +202,7 @@ BACKGROUND 'BO'
 X_24 00 
 X_25 06 
 PLAY_SOUND 01 'se80' 00 
-TEXT *VROOOOOOOOOOOOOOOOOOOOOOOO...*
+TEXT *VROOOOOOOOOOOOOOOOOOO...*
 PLAY_SOUND 01 '021_yui000' 00
 TEXT Yui: (Nossa... que tremor forte... O que ser$ que t$ acontecendo...?)
 STOP_SOUND 01
@@ -412,7 +412,7 @@ PLAY_SOUND 00 'mon_cd09' 01
 TEXT Os homens da FARGO est~o correndo para l$ e para c$, formando filas.
 TEXT Um bando sombrio e horroroso.
 TEXT De certa forma, parece at% um cortejo f^nebre.
-TEXT Homens incompetentes que correm da esquerda para a direita levados apenas pela mentalidade de pau-mandado, sem nem entender o que est$ fazendo.
+TEXT Homens incompetentes que correm da esquerda para a direita levados apenas pela mentalidade de pau-mandado, sem nem entender o que est~o fazendo.
 PLAY_SOUND 01 '010_bt1000' 00
 TEXT Homem: "Estamos ferrados!"
 STOP_SOUND 01
@@ -456,31 +456,31 @@ BACKGROUND 'BO'
 X_24 00
 X_25 06
 PLAY_SOUND 00 'mon_cd13' 01
-TEXT Resist[ncia mental
-TEXT Atingiu o valor exigido
-TEXT Inje|~o de poder
-TEXT Isolamento tempor$rio em outro anexo
-TEXT Dia 1
-TEXT Dia 2
-TEXT Dia 3
-TEXT Dia 4
-TEXT Dia 5
-TEXT Dia 6
-TEXT Dia 7
-TEXT Dia 8
-TEXT Dia 9
-TEXT Dia 10
-TEXT Dia 11
-TEXT Dia 12
-TEXT Coexist[ncia
-TEXT For|a invis&vel
-TEXT Esp%cime bem-sucedido
-TEXT A-9
-TEXT Ordem
-TEXT Eliminar
-TEXT Alvo
+TEXT Resist[ncia mental.
+TEXT Atingiu o valor exigido.
+TEXT Inje|~o de poder.
+TEXT Isolamento tempor$rio em outro anexo.
+TEXT Dia 1.
+TEXT Dia 2.
+TEXT Dia 3.
+TEXT Dia 4.
+TEXT Dia 5.
+TEXT Dia 6.
+TEXT Dia 7.
+TEXT Dia 8.
+TEXT Dia 9.
+TEXT Dia 10.
+TEXT Dia 11.
+TEXT Dia 12.
+TEXT Coexist[ncia.
+TEXT For|a invis&vel.
+TEXT Esp%cime bem-sucedido.
+TEXT A-9.
+TEXT Ordem.
+TEXT Eliminar.
+TEXT Alvo.
 TEXT ...
-TEXT A-12
+TEXT A-12.
 BACKGROUND 'BG017' 
 X_24 00 
 X_25 06 
@@ -731,7 +731,7 @@ TEXT O poder que aquele garoto me confiou.
 TEXT O poder da vontade.
 TEXT A "for|a invis&vel".
 TEXT Youko-san tinha controle total sobre esse poder.
-TEXT Ikumi: "„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ!"
+TEXT Ikumi: "„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ !"
 STOP_SOUND 01
 TEXT No entanto, o meu grito n~o virou som.
 TEXT Minha boca com certeza articulou as palavras.
@@ -750,11 +750,11 @@ TEXT A for|a invis&vel.
 TEXT Eu tamb%m tenho for|a o bastante para resistir a isso.
 TEXT E vou liberar... essa for|a.
 PLAY_SOUND 01 'se15' 00
-TEXT *Vroooam!*
+TEXT *Tuum!*
 TEXT Um bloco de consci[ncia se ergue # minha frente e repele a esfera de cristal que estava prestes a me atingir.
 TEXT A energia dispersada se desvia do meu corpo e % absorvida pela parede do refeit+rio.
 PLAY_SOUND 01 'se05' 00
-TEXT *BUM!*
+TEXT *Tchumm!*
 TEXT Sob um impacto esmagador, a parede afunda, criando uma cratera.
 TEXT Os peda|os esmagados da parede viram uma chuva de poeira que flutua e cai suavemente ao redor.
 PLAY_SOUND 01 '006_ik2027' 00
@@ -779,21 +779,21 @@ TEXT S%rio que o motivo % s+ esse...?
 BACKGROUND 'BO'
 X_24 00
 X_25 06
-TEXT Baque
-TEXT Minha m~e
-TEXT Logo mais
-TEXT C-112
-TEXT O desejo realizado
-TEXT O momento t~o esperado
-TEXT A comida caseira da
-TEXT Presente
-TEXT Class
-TEXT Olhe, sorria
-TEXT Um sorriso for|ado
-TEXT Tocou
-TEXT Parab%ns
-TEXT para assA
-TEXT FARG
+TEXT Queda...
+TEXT Minha m~e...
+TEXT Logo mais...
+TEXT C-112...
+TEXT Desejo realizado...
+TEXT O momento t~o esperado...
+TEXT A comida caseira da-
+TEXT Presente...
+TEXT Classe...
+TEXT Olhe, sorria...
+TEXT Um sorriso for|ado...
+TEXT Tocou...
+TEXT Parab%ns...
+TEXT Classe A...
+TEXT FARGO...
 BACKGROUND 'FG086' 
 X_24 00 
 X_25 06 
@@ -811,21 +811,21 @@ TEXT E come|o a navegar contra a correnteza.
 BACKGROUND 'BO'
 X_24 00
 X_25 06
-TEXT FARG
-TEXT para assA
-TEXT Parab%ns
-TEXT Tocou
-TEXT Um sorriso for|ado
-TEXT Olhe, sorria
-TEXT Classe
-TEXT Presente
-TEXT A comida caseira da
-TEXT O momento t~o esperado
-TEXT O desejo realizado
-TEXT C-112
-TEXT Logo mais
-TEXT Minha m~e
-TEXT Baque
+TEXT FARGO...
+TEXT Classe A...
+TEXT Parab%ns...
+TEXT Tocou...
+TEXT Um sorriso for|ado...
+TEXT Olhe, sorria...
+TEXT Classe...
+TEXT Presente...
+TEXT A comida caseira da-
+TEXT O momento t~o esperado...
+TEXT O desejo realizado...
+TEXT C-112...
+TEXT Logo mais...
+TEXT Minha m~e...
+TEXT Baque...
 TEXT @ aqui!
 TEXT Interrompo o fluxo dessas imagens mentais como se estivesse operando um controle remoto.
 TEXT E dou o play.
@@ -923,7 +923,7 @@ BACKGROUND 'FG087'
 X_24 00
 X_25 06
 TEXT Meu desejo se realizou.
-TEXT Finalmente me reencontrei com a minha m~e na $rea residencial do Bloco C.
+TEXT Finalmente me reencontrei com a minha m~e na $rea residencial do Pr%dio C.
 TEXT Mas a figura real da minha m~e n~o parecia em nada com a que eu imaginava, nem com a das fotos.
 TEXT O corpo estava debilitado, as bochechas fundas, os olhos encovados, e o cabelo era quase todo branco.
 PLAY_SOUND 01 '020_you033' 00
@@ -956,7 +956,7 @@ TEXT Minha m~e % a "C-79".
 TEXT Ela disse que essas eram as regras do lugar.
 TEXT Minha m~e me falava com fervor sobre os ensinamentos da FARGO.
 TEXT O conte^do era dif&cil de entender, mas mesmo assim eu estava feliz.
-TEXT Afinal, a pessoa que assistiria aos meus esfor|os estava ali bem ao meu lado.
+TEXT Afinal, a pessoa que assistiria aos meus esfor|os estava aqui bem ao meu lado.
 TEXT Afinal, eu tinha conseguido voltar a morar com ela.
 TEXT Embora n~o tenha conseguido comer aquela comida caseira especial...
 TEXT S+ de estar com ela, meus dias pareciam plenos.
@@ -1277,13 +1277,13 @@ STOP_SOUND 01
 TEXT A for|a da vontade de Youko-san fica inst$vel, e a esfera de cristal suspensa no ar come|a a se contorcer.
 TEXT Como uma represa s+lida que desmorona a partir de uma ^nica e min^scula fissura...
 PLAY_SOUND 01 'se83' 00
-TEXT *Plaft!*
+TEXT *Tlick!*
 TEXT Como espetar uma agulha num bal~o hiperinflado...
 PLAY_SOUND 01 'se68' 00
-TEXT *Craaaaack!*
-TEXT A barreira da consci[ncia se rompe, e ent~o...
+TEXT *Pluuufttt!*
+TEXT A barreira da consci[ncia se rompe,\ne ent~o...
 TEXT A energia acumulada... explode.
-TEXT
+TEXT 
 X_24 00
 BACKGROUND 'WO'
 X_25 06
@@ -1305,10 +1305,10 @@ TEXT "Gosto de dias de sol cheios de azul, mas tamb%m gosto de dias com nuvens."
 STOP_SOUND 01
 TEXT De quem eram essas palavras mesmo...?
 PLAY_SOUND 01 '008_ikm002' 00
-TEXT M~e da Ikumi: "Sabe, Ikumi, eu gosto de ficar olhando as sombras das nuvens deslizando pela campina."
+TEXT M~e: "Sabe, Ikumi, eu gosto de ficar olhando as sombras das nuvens deslizando pela campina."
 STOP_SOUND 01
 PLAY_SOUND 01 '008_ikm003' 00
-TEXT M~e da Ikumi: "Junto com voc[."
+TEXT M~e: "Junto com voc[, Ikumi."
 STOP_SOUND 01
 TEXT @ verdade... era a minha m~e.
 TEXT Entendi... era isso.
@@ -1338,7 +1338,7 @@ STOP_SOUND 01
 PLAY_SOUND 01 '020_you057' 00
 TEXT Youko: "...Sim."
 STOP_SOUND 01
-TEXT Uma resposta vem de bem perto.
+TEXT Uma resposta vem bem de perto.
 TEXT A voz vinha da mesma altura que a minha.
 TEXT Provavelmente Youko-san est$ numa situa|~o bem parecida com a minha.
 PLAY_SOUND 01 '007_ik2017' 00
@@ -1403,7 +1403,7 @@ PLAY_SOUND 01 '020_you067' 00
 TEXT Youko: "Entendi..."
 STOP_SOUND 01
 PLAY_SOUND 01 '007_ik2027' 00
-TEXT Ikumi: "Mas a ^nica certeza % que % bem menos chato do que ficar trancada aqui."
+TEXT Ikumi: "Mas uma coisa % certa... l$ % bem menos chato do que ficar trancada aqui."
 STOP_SOUND 01
 PLAY_SOUND 01 '020_you068' 00
 TEXT Youko: "Ser$ que eu consigo recuperar?"
@@ -1412,7 +1412,7 @@ PLAY_SOUND 01 '020_you069' 00
 TEXT Youko: "O tempo que perdi..."
 STOP_SOUND 01
 PLAY_SOUND 01 '007_ik2028' 00
-TEXT Ikumi: "Youko-san, voc[ s+ tem 22 anos, n%? Ent~o d$ tempo de sobra."
+TEXT Ikumi: "Youko-san, voc[ s+ tem 22 anos, n%? Ent~o tem tempo de sobra."
 STOP_SOUND 01
 PLAY_SOUND 01 '020_you070' 00
 TEXT Youko: "23... Fa|o anivers$rio hoje."
@@ -1471,14 +1471,14 @@ TEXT A minha jornada nunca foi sobre vingan|a.
 TEXT O campo de vis~o coberto por uma cortina acinzentada vai recuperando as cores lentamente.
 TEXT Yui e Yuri-san.
 TEXT Haruka e Ryousuke.
-TEXT E a Youko-san.
-TEXT Cada um deles escancarou as portas dos cora|/es que mantinham trancados.
+TEXT E Youko-san.
+TEXT Todos escancararam as portas dos cora|/es que mantinham trancados.
 TEXT Ent~o agora % a minha vez...
 PLAY_SOUND 01 '020_you076' 00
 TEXT Youko: "Ent~o, n~o % mais que um at% logo."
 STOP_SOUND 01
 PLAY_SOUND 01 '007_ik2036' 00
-TEXT Ikumi: "%, um breve adeus."
+TEXT Ikumi: "@, um breve adeus."
 STOP_SOUND 01
 PLAY_SOUND 01 '020_you077' 00
 TEXT Youko: "Sim. ...At% mais."
@@ -1494,7 +1494,7 @@ BACKGROUND 'FG170'
 X_24 00
 X_25 06
 PLAY_SOUND 01 '020_you079' 00
-TEXT Youko: "Meu nome % Youko Shikanuma. Prazer em te conhecer."
+TEXT Youko: "Meu nome % Youko Shikanuma.\nPrazer em te conhecer."
 STOP_SOUND 01
 TEXT Exibindo um sorriso radiante, o tempo que estava parado para Youko-san finalmente voltou a correr.
 X_28 0028 
