@@ -97,7 +97,7 @@ Revisão:  [▓▓░░░░░░░░] 20%
 <br/>
 
 <h3>Download do patch</h3>
-<p>A partir do 21/11/2026.</p>
+<p>A partir de 21/11/2026.</p>
 <br>
 <br/>
 <hr>
