@@ -1,0 +1,71 @@
+﻿ ##################################################################
+  MOON. Patch PT-BR - DVD Edition Versão 1.0                                                        
+ ##################################################################
+
+ Obrigado por baixar a tradução PT-BR de MOON!
+ Esse é um trabalho gratuito de fãs para fãs e não possui fins lucrativos.
+ Todos os direitos reservados para a Tactics & NEXTON.
+
+
+ # INSTALAÇÃO
+
+ - Aplique o patch na versão MOON. DVD Edition. Não testamos em outras
+   versões, mas certamente deve funcionar também nas mais recentes.
+
+ - O seu sistema operacional deve estar em japonês para o jogo funcionar.
+   No Linux/Wine, abra o jogo com o locale japonês (LC_ALL=ja_JP.UTF-8).
+
+ - Instale o patch na pasta que tem o arquivo MOON.EXE.
+
+ - Execute o jogo pelo arquivo MOON_PT-BR.exe.
+
+ - Os vídeos usam o codec Xvid. Se não rodarem, instale-o pelo site oficial:
+   https://www.xvid.com
+
+ - Instale a fonte Kika-Gothic manualmente se o texto aparecer bugado.
+
+ - Para dicas sobre as rotas e os finais, leia o Guia.txt na pasta do jogo.
+
+
+ # ATENÇÃO
+
+   O patch irá sobrescrever os arquivos originais do jogo, incluindo os vídeos
+   da pasta snd. Faça um backup se quiser mantê-los. 
+
+
+ # BUGS
+
+ - Se encontrar algum bug, favor reportar no canal #moon-tl do nosso Discord.  
+
+
+ # EQUIPE
+
+   Manolo-chan: Tradução e edição de imagens.
+   Crynvalen: Edição de imagens.
+   Kazuki Minoru: Revisão.
+   Ceuipsolon: Edição de vídeo.
+
+
+ # AGRADECIMENTOS
+
+   0Mateus
+   Amaterasu Translations & TLWiki
+   Key Spanish Fanclub
+   MOON. Kit
+   Sep7
+   Tactics/Nexton
+   Tactics Discord
+
+
+ # CHANGELOG
+
+   Versão 1.0 (21/11/2026)
+   - Lançamento inicial.
+
+
+
+  Tenha um bom jogo!
+
+  Kikachan Games
+  https://kikachangames.github.io/moon/
+  https://discord.gg/jsm8yKtu2E
