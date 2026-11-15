@@ -28,7 +28,7 @@ WizardSmallImageFile=embedded\WizardSmallImage0.bmp
 Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 
 [Messages]
-brazilianportuguese.FinishedLabelNoIcons=O instalador terminou de instalar %1 no seu computador.
+brazilianportuguese.FinishedLabelNoIcons=O instalador terminou de aplicar o patch no seu computador.
 
 [Files]
 Source: "game\MOON_PT-BR"; DestDir: "{code:GetGameDir}"; Flags: ignoreversion
@@ -43,7 +43,7 @@ Source: "tmp\wizard_intro.bmp"; DestDir: "{tmp}"; Flags: dontcopy
 Source: "tmp\wizard.bmp"; DestDir: "{tmp}"; Flags: dontcopy
 
 [Run]
-Filename: "{code:GetGameDir}\MOON_PT-BR.exe"; WorkingDir: "{code:GetGameDir}"; Description: "Iniciar o jogo agora!"; Flags: postinstall skipifsilent nowait
+Filename: "{code:GetGameDir}\MOON_PT-BR.exe"; WorkingDir: "{code:GetGameDir}"; Description: "Iniciar MOON. agora!"; Flags: postinstall skipifsilent nowait
 
 [Code]
 var
