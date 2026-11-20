@@ -58,15 +58,6 @@ Revisão:  [▓▓▓▓▓▓▓▓▓▓] 100%
   <br/>
   
 <div style="display:inline-block;vertical-align:top;">
-  <img src="https://kikachangames.github.io/projetos/img/crynvalen.png" width="160" height="160">
-</div>
-<div style="display:inline-block;">
-  <h3>Crynvalen</h3>
-  <p>Edição de imagens.</p>
-</div>
-<br/>
-
-<div style="display:inline-block;vertical-align:top;">
 <img src="https://kikachangames.github.io/moon/kazuki.png" width="160" height="160">
 </div>
 <div style="display:inline-block;">
