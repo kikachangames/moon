@@ -31,7 +31,7 @@ Revisão:  [▓▓▓▓▓▓▓▓▓▓] 100%
 </pre>
 <br>
 
-<h3>Lançamento</h3>
+<h3>🌕 Lançamento</h3>
 <p>21/11/2026.</p>
 <br>
 
