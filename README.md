@@ -20,7 +20,7 @@
 <h3>Sinopse</h3>
 <p>"Minha mãe, que não estava ao meu lado há muito tempo, voltou. Minha mãe, que eu não via há muito tempo - desde que foi para um retiro espiritual da seita religiosa FARGO, voltou. Finalmente quando pensei que teria uma vida feliz, minha mãe morre misteriosamente. Por que ela morreu? O que estava acontecendo naquele lugar?"</p>
 
-<p>Para descobrir o motivo da morte de sua mãe, Amasawa Ikumi se infiltra na FARGO onde conhece duas novas amigas: Mima Haruka, que entrou nas instalações da FARGO para resgatar seu irmão; e Nakura Yui, que esconde um passado terrível por trás de seu sorriso inocente. À medida que elas se aproximam da verdade, a existência de uma "força invisível" é revelada... Tragédias são repetidas e uma cruel realidade surge no destino dessas garotas.</p>
+<p>Para descobrir o motivo da morte de sua mãe, Amasawa Ikumi se infiltra na FARGO onde conhece duas novas amigas: Mima Haruka, que entrou nas instalações para resgatar seu irmão; e Nakura Yui, que esconde um passado terrível por trás de seu sorriso inocente. À medida que elas se aproximam da verdade, a existência de uma "força invisível" é revelada... Tragédias são repetidas e uma cruel realidade surge no destino dessas garotas.</p>
 <br/>
 
 <h3>Progresso</h3>
@@ -102,5 +102,5 @@ Revisão:  [▓▓▓▓▓▓▓▓▓▓] 100%
 <br>
 <br/>
 <hr>
-<p><small>Última atualização: 14/11/2026.</small></p>
+<p><small>Última atualização: 20/11/2026.</small></p>
 <p><small>Kikachan Games (Desde 2024) <a href="https://kikachangames.github.io/projetos/">Projetos</a> - <a href="https://twitter.com/kikachangames/" target="_blank">X</a> - <a href="https://discord.gg/jsm8yKtu2E" target="_blank">Discord</a> - <a href="https://kikachan-games.itch.io/" target="_blank">Itch</a></small></p>
