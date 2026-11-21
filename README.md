@@ -89,7 +89,7 @@ Revisão:  [▓▓▓▓▓▓▓▓▓▓] 100%
 <br/>
 
 <h3>Download do patch</h3>
-<p> Antes de instalar a tradução, certifique-se de ter uma cópia de MOON. DVD Edition funcionando em seu computador.<br/>Para maiores informações, consulte o arquivo LEIA-ME incluso no patch.</p>
+<p>⚠️ Antes de instalar a tradução, certifique-se de ter uma cópia de <b>MOON. DVD Edition</b> funcionando em seu computador.<br/>Para maiores informações, consulte o arquivo LEIA-ME incluso no patch.</p>
 <p><a href="#"><img src="https://github.com/kikachangames/moon/blob/main/banner/ban_down.png"</a></p>
 <br>
 <br/>
